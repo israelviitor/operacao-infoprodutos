@@ -33,18 +33,22 @@
 - Estimulação cognitiva: não citar doença nem idade de quem lê o anúncio; não prometer prevenção ou tratamento.
 - Venda deve ir pela Cakto com entrega automática (os de origem vendem por WhatsApp).
 
-## URLs
-### Oferta de origem
-- Ricardo Artesanato (curso de eletricista R$ 15, venda só por WhatsApp)
-  - Anúncio: https://www.facebook.com/ads/library/?id=2256108151789408
-  - Todos os anúncios da página: https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=913699531818972
-  - Perfil: https://www.facebook.com/61584502316540/
+## URLs (Biblioteca de Anúncios + gateway)
+| Oferta | Biblioteca — anúncio | Biblioteca — página | Gateway / venda |
+|---|---|---|---|
+| Ricardo Artesanato — eletricista R$15 (PASSOU) | https://www.facebook.com/ads/library/?id=2256108151789408 | https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=913699531818972 | sem gateway (WhatsApp) |
+| Edgar Projetos — comandos elétricos | https://www.facebook.com/ads/library/?id=1086089007510716 | https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=888334494352521 | sem gateway (WhatsApp) |
+| Dona Fatima — +5000 moldes EVA | https://www.facebook.com/ads/library/?id=1058964213292222 | https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=105072185474191 | sem gateway (WhatsApp) |
+| Carla Mendes — +1200 atividades autismo | https://www.facebook.com/ads/library/?id=1105581145458690 | https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=1068782359661106 | sem gateway (WhatsApp) |
+| Lição Kids — matemática 4 operações | https://www.facebook.com/ads/library/?id=29027952710145031 | https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=715156778343037 | https://checkout.alfacademi.com.br/checkout/oferta-FijM1BC-oLTydIyz (página: https://matematica4operacoes.pages.dev/) |
+| Profª Juliana Gamon — ENEM | https://www.facebook.com/ads/library/?id=4483928121869358 | https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=1107727462432369 | https://pay.wiapy.com/bMvmZPMTfTej (página: https://mathenem.profjulianagamon.online/) |
 
-### Provas e concorrentes das modelagens
-- Refrigeração (prova de venda): https://www.hotmart.com/s?q=refrigeracao
-- Mecânica de moto (prova de venda): https://www.hotmart.com/s?q=mecanica%20de%20moto
-- Elétrica para mulheres (concorrência): https://www.hotmart.com/s?q=eletrica%20para%20mulheres — demanda institucional: https://www.parana.pr.gov.br/aen/Noticia/Curso-gratuito-da-Copel-ensina-nocoes-de-eletrica-para-mulheres-em-Londrina
-- Mente ativa / estimulação cognitiva:
-  - Bem Pensar 50+ (259 dias anunciando): https://www.facebook.com/ads/library/?id=1670341130798741 · https://bempensar50.com.br/
-  - Packs pequenos na Hotmart: https://hotmart.com/pt-br/marketplace/produtos/combo-2-apostilas-de-estimulacao-cognitiva/H67212374L
-- Concorrentes low ticket de elétrica (motivo de não clonar): https://resolveeletrica.com/ · https://hotmart.com/pt-br/marketplace/produtos/apostila-de-instalacoes-eletricas-hydrovolt-aprenda-do-zero-ao-nivel-profissional-por-apenas-r-19-90-vaga-na-proxima-turma-com-certificado-para-os-primeiros-compradores/A102230084X
+### Referências das modelagens
+| Referência | Biblioteca | Gateway / venda |
+|---|---|---|
+| Refrigeração (busca de concorrentes) | https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&q=curso%20de%20refrigera%C3%A7%C3%A3o&search_type=keyword_unordered | Hotmart: https://www.hotmart.com/s?q=refrigeracao |
+| Mecânica de moto | https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&q=curso%20mec%C3%A2nica%20de%20moto&search_type=keyword_unordered | Hotmart: https://www.hotmart.com/s?q=mecanica%20de%20moto |
+| Elétrica para mulheres | https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&q=el%C3%A9trica%20para%20mulheres&search_type=keyword_unordered | Hotmart: https://www.hotmart.com/s?q=eletrica%20para%20mulheres |
+| Bem Pensar 50+ (mente ativa) | https://www.facebook.com/ads/library/?id=1670341130798741 · https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=107721468960891 | loja própria, sem gateway externa: https://bempensar50.com.br/ (produtos de R$111–348, NÃO é low ticket) |
+| Resolve Elétrica (concorrente) | https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&q=resolveeletrica.com&search_type=keyword_unordered | https://pay.hotmart.com/T105065000P?off=tz74zlcx |
+| HydroVolt (concorrente) | https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&q=hydrovolt&search_type=keyword_unordered | https://hotmart.com/pt-br/marketplace/produtos/apostila-de-instalacoes-eletricas-hydrovolt-aprenda-do-zero-ao-nivel-profissional-por-apenas-r-19-90-vaga-na-proxima-turma-com-certificado-para-os-primeiros-compradores/A102230084X |
