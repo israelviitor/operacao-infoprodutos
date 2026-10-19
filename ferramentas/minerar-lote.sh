@@ -11,9 +11,11 @@ while IFS= read -r termo; do
   arq="$SAIDA/$(echo "$termo" | tr ' $/' '___').json"
   grep -q '"id":"' "$arq" 2>/dev/null && continue
   for tentativa in 1 2 3 4 5 6 7 8; do
-    node "$DIR/biblioteca-anuncios.js" busca "$termo" > "$arq" 2>/dev/null
-    n=$(grep -o '"id":"' "$arq" | wc -l)
-    if [ "$n" -gt 0 ]; then echo "$(date +%H:%M) OK $termo -> $n anúncios"; break; fi
+    tmp="$(mktemp)"
+    node "$DIR/biblioteca-anuncios.js" busca "$termo" > "$tmp" 2>/dev/null
+    n=$(grep -o '"id":"' "$tmp" | wc -l)
+    if [ "$n" -gt 0 ]; then mv "$tmp" "$arq"; echo "$(date +%H:%M) OK $termo -> $n anúncios"; break; fi
+    rm -f "$tmp"
     echo "$(date +%H:%M) BLOQUEIO $termo (tentativa $tentativa), aguardando 15 min"
     sleep 900
   done
