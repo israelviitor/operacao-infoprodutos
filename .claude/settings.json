@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'Lembrete da operação: se esta mensagem do dono corrige, reprova ou ajusta algo (ou diz sempre/nunca), aplique a correção E use a skill registrar-regra. Antes de produzir, leia regras/geral.md e as regras da área.'"
+          }
+        ]
+      }
+    ]
+  }
+}
