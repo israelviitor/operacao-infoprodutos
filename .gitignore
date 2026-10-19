@@ -1,1 +1,4 @@
 node_modules
+# brutos da mineração em andamento: commit só ao final do lote
+produtos/_mineracao/*/bruto/*.json
+!produtos/_mineracao/*/bruto/aulas_prontas.json
