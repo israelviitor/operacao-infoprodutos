@@ -43,7 +43,7 @@
 ### Provas e concorrentes das modelagens
 - Refrigeração (prova de venda): https://www.hotmart.com/s?q=refrigeracao
 - Mecânica de moto (prova de venda): https://www.hotmart.com/s?q=mecanica%20de%20moto
-- Elétrica para mulheres (concorrência): https://www.hotmart.com/s?q=eletricista%20para%20mulheres — demanda institucional: https://www.parana.pr.gov.br/aen/Noticia/Curso-gratuito-da-Copel-ensina-nocoes-de-eletrica-para-mulheres-em-Londrina
+- Elétrica para mulheres (concorrência): https://www.hotmart.com/s?q=eletrica%20para%20mulheres — demanda institucional: https://www.parana.pr.gov.br/aen/Noticia/Curso-gratuito-da-Copel-ensina-nocoes-de-eletrica-para-mulheres-em-Londrina
 - Mente ativa / estimulação cognitiva:
   - Bem Pensar 50+ (259 dias anunciando): https://www.facebook.com/ads/library/?id=1670341130798741 · https://bempensar50.com.br/
   - Packs pequenos na Hotmart: https://hotmart.com/pt-br/marketplace/produtos/combo-2-apostilas-de-estimulacao-cognitiva/H67212374L
