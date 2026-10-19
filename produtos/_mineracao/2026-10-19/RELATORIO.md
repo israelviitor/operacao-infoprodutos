@@ -52,3 +52,8 @@
 | Bem Pensar 50+ (mente ativa) | https://www.facebook.com/ads/library/?id=1670341130798741 · https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=107721468960891 | loja própria, sem gateway externa: https://bempensar50.com.br/ (produtos de R$111–348, NÃO é low ticket) |
 | Resolve Elétrica (concorrente) | https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&q=resolveeletrica.com&search_type=keyword_unordered | https://pay.hotmart.com/T105065000P?off=tz74zlcx |
 | HydroVolt (concorrente) | https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&q=hydrovolt&search_type=keyword_unordered | https://hotmart.com/pt-br/marketplace/produtos/apostila-de-instalacoes-eletricas-hydrovolt-aprenda-do-zero-ao-nivel-profissional-por-apenas-r-19-90-vaga-na-proxima-turma-com-certificado-para-os-primeiros-compradores/A102230084X |
+
+## Recontagem — Ricardo Artesanato (page_id 913699531818972)
+- 150 anúncios ativos na página, com duas ofertas, ambas vendidas pelo WhatsApp:
+  - **Curso de eletricista R$ 15:** 35 ou mais anúncios, o mais antigo com 45 dias e o mais novo com 3. PASSA (no limite de 45 dias).
+  - **+2.000 projetos de marcenaria:** o mais antigo com 67 dias. NÃO PASSA na idade.
