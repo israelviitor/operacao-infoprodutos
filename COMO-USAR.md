@@ -6,6 +6,7 @@
 | Pesquisar um nicho / achar produto / montar dossiê | `/diretor-mineracao <produto ou nicho>` |
 | Criar roteiros de criativos | `/diretor-copy-criativos <produto>, <quantidade/formato>` |
 | Editar um vídeo no Descript | `/diretor-edicao <produto>, <vídeo>, <roteiro>` |
+| Analisar uma LP/oferta que não dá lucro | `/diretor-analise <url da LP>` + números do Gerenciador e da Cakto |
 | Gravar uma regra manualmente | `/registrar-regra <a regra>` |
 
 Você também pode só falar normalmente ("faz 5 criativos pro produto X") — o diretor certo é acionado.
@@ -23,4 +24,4 @@ Você também pode só falar normalmente ("faz 5 criativos pro produto X") — o
 - Uma regra ficou errada? Peça: "apague/mude a regra X".
 
 ## Áreas ainda a montar (mesmo padrão)
-Copy de VSL · Páginas · Entregáveis · Estruturação na Cakto · Análise de resultados · Compliance dedicado.
+Copy de VSL · Páginas · Entregáveis · Estruturação na Cakto · Compliance dedicado.
