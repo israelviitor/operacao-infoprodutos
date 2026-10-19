@@ -33,5 +33,13 @@ Marque com [VALIDAR] o que é hipótese e não fato.
 ## Passo 4 — Entrega ao dono
 Use o formato do CLAUDE.md: Pronto / Decisões suas (ex.: "qual destes 3 mecanismos seguimos?") / Riscos.
 
+## Modo "minerar ofertas" (padrão quando o dono pede para minerar)
+Objetivo: entregar ao dono uma lista de **ofertas reais rodando agora**, não nichos nem ideias.
+1. Rode `ferramentas/minerar-lote.sh` com os termos (`ferramentas/termos-lowticket.txt` ou os do dono) e `ferramentas/agrupar-ofertas.py` com os filtros do dono.
+2. Para cada candidata, confirme na página do anunciante: `node ferramentas/biblioteca-anuncios.js pagina <page_id DO ANÚNCIO>` (nunca o ID do perfil) → total de anúncios ativos e idade.
+3. Abra a landing com `ferramentas/checar-preco.js` → preço e checkout.
+4. Passe ao `comite-revisor` com os critérios do dono (preço, nº de anúncios, idade, sem expert, modelagem possível, demanda, concorrência).
+5. Entregue uma tabela por oferta com: anunciante, o que vende, preço, nº de anúncios ativos, dias no ar, e as 4 URLs obrigatórias (página do anunciante na Biblioteca, um anúncio, landing, checkout). Modelagem só como comentário "sugestão" de cada oferta.
+
 ## Modo "encontrar produto"
 Se o dono pedir para achar uma oportunidade (sem produto definido), as frentes viram: nichos com demanda crescente, ofertas escaladas no Brasil, lacunas de ângulo, ticket médio. Entregue no máximo 3 oportunidades ranqueadas, cada uma com: promessa, avatar, mecanismo possível, evidência de demanda, concorrência.
