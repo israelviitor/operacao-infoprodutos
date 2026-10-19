@@ -32,3 +32,19 @@
 - Não prometer certificado que habilite para a profissão.
 - Estimulação cognitiva: não citar doença nem idade de quem lê o anúncio; não prometer prevenção ou tratamento.
 - Venda deve ir pela Cakto com entrega automática (os de origem vendem por WhatsApp).
+
+## URLs
+### Oferta de origem
+- Ricardo Artesanato (curso de eletricista R$ 15, venda só por WhatsApp)
+  - Anúncio: https://www.facebook.com/ads/library/?id=2256108151789408
+  - Todos os anúncios da página: https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=913699531818972
+  - Perfil: https://www.facebook.com/61584502316540/
+
+### Provas e concorrentes das modelagens
+- Refrigeração (prova de venda): https://www.hotmart.com/s?q=refrigeracao
+- Mecânica de moto (prova de venda): https://www.hotmart.com/s?q=mecanica%20de%20moto
+- Elétrica para mulheres (concorrência): https://www.hotmart.com/s?q=eletricista%20para%20mulheres — demanda institucional: https://www.parana.pr.gov.br/aen/Noticia/Curso-gratuito-da-Copel-ensina-nocoes-de-eletrica-para-mulheres-em-Londrina
+- Mente ativa / estimulação cognitiva:
+  - Bem Pensar 50+ (259 dias anunciando): https://www.facebook.com/ads/library/?id=1670341130798741 · https://bempensar50.com.br/
+  - Packs pequenos na Hotmart: https://hotmart.com/pt-br/marketplace/produtos/combo-2-apostilas-de-estimulacao-cognitiva/H67212374L
+- Concorrentes low ticket de elétrica (motivo de não clonar): https://resolveeletrica.com/ · https://hotmart.com/pt-br/marketplace/produtos/apostila-de-instalacoes-eletricas-hydrovolt-aprenda-do-zero-ao-nivel-profissional-por-apenas-r-19-90-vaga-na-proxima-turma-com-certificado-para-os-primeiros-compradores/A102230084X
