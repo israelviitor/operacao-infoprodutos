@@ -1,0 +1,63 @@
+{
+ "url": "https://pay.cakto.com.br/3fqsssv_1208643",
+ "url_final": "https://pay.cakto.com.br/3fqsssv_1208643",
+ "tempo_dom_ms": 931,
+ "tempo_carregada_ms": 2827,
+ "peso_aprox_mb": 0.23,
+ "arquivos_pesados": [],
+ "precos": [
+  "R$14,90",
+  "R$14,91",
+  "R$0,99",
+  "R$15,89"
+ ],
+ "titulo": "DECODIFICA MATEMÁTICA",
+ "altura_px": 1848,
+ "titulos": [
+  "H3: 14:54",
+  "H2: DECODIFICA MATEMÁTICA",
+  "H2: Forma de Pagamento",
+  "H2: Resumo do pedido"
+ ],
+ "botoes": [
+  {
+   "texto": "Cartão de Crédito",
+   "href": "",
+   "topo_px": 914
+  },
+  {
+   "texto": "PIX",
+   "href": "",
+   "topo_px": 914
+  },
+  {
+   "texto": "Taxa de serviço",
+   "href": "",
+   "topo_px": 1487
+  },
+  {
+   "texto": "Pagar com Cartão de Crédito",
+   "href": "",
+   "topo_px": 1633
+  },
+  {
+   "texto": "Termos",
+   "href": "https://www.cakto.com.br/termo-de-compra-e-venda",
+   "topo_px": 1763
+  },
+  {
+   "texto": "Políticas",
+   "href": "https://www.cakto.com.br/politica-de-privacidade",
+   "topo_px": 1763
+  }
+ ],
+ "links_externos": [
+  "https://www.cakto.com.br/termo-de-compra-e-venda",
+  "https://www.cakto.com.br/politica-de-privacidade"
+ ],
+ "videos": [
+  "about:blank"
+ ],
+ "imagens": 2,
+ "texto": "14:54\nOferta por tempo limitado\nDECODIFICA MATEMÁTICA\nNome completo\nEmail\nCelular\nCPF/CNPJ\nOferta\n\nR$ 14,90 à vista\n\nForma de Pagamento\nCartão de Crédito\nPIX\nNúmero do cartão\nVencimento\nCVV\nParcelas\n1x de R$ 14,91\nResumo do pedido\n\nDECODIFICA MATEMÁTICA\n\nR$ 14,90\n\nTaxa de serviço\nR$ 0,99\nTotal\nR$ 15,89\nPagar com Cartão de Crédito\nCompra segura\n\nAo prosseguir, você concorda com os Termos de uso de Decodifica Matemática, além dos Termos e Políticas da Cakto.\n\nProcessado por Cakto"
+}
