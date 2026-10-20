@@ -1,0 +1,60 @@
+{
+ "url": "https://lastlink.com/p/C5CF90DD6/checkout-payment/",
+ "url_final": "https://lastlink.com/p/C5CF90DD6/checkout-payment",
+ "tempo_dom_ms": 1196,
+ "tempo_carregada_ms": 1587,
+ "peso_aprox_mb": 1.91,
+ "arquivos_pesados": [
+  {
+   "url": "https://lastlink-community-prod.s3.us-east-1.amazonaws.com/821eae94-ce6c-4071-9269-b52343b64e76/display-image-checkout?X-Amz-Expires=3000&X-Amz-Algori",
+   "kb": 363
+  },
+  {
+   "url": "https://www.gstatic.com/recaptcha/releases/4EDjxXf4knsx6UBM1L2V6cv8/recaptcha__pt_br.js",
+   "kb": 348
+  }
+ ],
+ "precos": [
+  "R$6,16",
+  "R$37,00",
+  "R$19,62",
+  "R$13,33",
+  "R$10,19",
+  "R$8,31",
+  "R$7,06"
+ ],
+ "titulo": "Desafio Hiit Dance",
+ "altura_px": 1847,
+ "titulos": [],
+ "botoes": [
+  {
+   "texto": "Cartão de crédito",
+   "href": "",
+   "topo_px": 858
+  },
+  {
+   "texto": "Pix",
+   "href": "",
+   "topo_px": 920
+  },
+  {
+   "texto": "Confirmar compra",
+   "href": "",
+   "topo_px": 1571
+  },
+  {
+   "texto": "Termos",
+   "href": "https://lastlink.com/termos-de-uso",
+   "topo_px": 1697
+  },
+  {
+   "texto": "Políticas",
+   "href": "https://lastlink.com/termos-politica-de-privacidade",
+   "topo_px": 1697
+  }
+ ],
+ "links_externos": [],
+ "videos": [],
+ "imagens": 6,
+ "texto": "Desafio Hiit Dance\nNome completo / Razão Social\nE-mail\nCelular com DDD\n+55\nCPF/CNPJ\nSou estrangeiro\n\nAssinatura Anual\n\nEm até 7x de\n\nR$ 6,16\n\nR$ 37,00 à vista\n\nForma de pagamento\nCartão de crédito\nPix\nDados do Cartão\nTitular do cartão\nNúmero de parcelas\n1 x de R$ 37,00\n2 x de R$ 19,62\n3 x de R$ 13,33\n4 x de R$ 10,19\n5 x de R$ 8,31\n6 x de R$ 7,06\n7 x de R$ 6,16\nDesafio Hiit Dance\nAssinatura Anual\nR$ 37,00\nTotal\n7x de R$ 6,16\nConfirmar compra\nCompra segura\nAo prosseguir você concorda com os Termos e Políticas\nPowered by"
+}

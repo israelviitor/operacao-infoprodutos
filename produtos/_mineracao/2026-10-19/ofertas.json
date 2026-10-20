@@ -53,7 +53,8 @@
   "idade_dias": 38,
   "anuncio_mais_novo_dias": 38,
   "termos": [
-   "apostila"
+   "apostila",
+   "artesanato"
   ],
   "exemplo_link": "https://api.whatsapp.com/send",
   "copies": [
@@ -61,6 +62,29 @@
   ],
   "titulos": [
    "Converse conosco"
+  ],
+  "passa_filtros": true
+ },
+ {
+  "anunciante": "SHEIN Brasil",
+  "page_id": "218726778785423",
+  "perfil": "https://www.facebook.com/SHEINBrasil/",
+  "dominio": "m.shein.com",
+  "anuncios_ativos_min": 9,
+  "idade_dias": 29,
+  "anuncio_mais_novo_dias": 10,
+  "termos": [
+   "costura",
+   "treino_em_casa"
+  ],
+  "exemplo_link": "https://m.shein.com/br/ark/default?scene=1&test=5051&ad_type=DPA&url_from=adhub2104775705551503363&pf=Facebook&placement={{placement}}&site_source_name={{site_source_name}}",
+  "copies": [
+   "Ofertas quentes de hoje\nExplore nossas escolhas chiques agora\nObtenha mais surpresas",
+   "Cupom exclusivo: até 50% de desconto na sua compra com valor mínimo!",
+   "Durma profundamente com nossos pijamas de qualidade, feitos para uma noite tranquila."
+  ],
+  "titulos": [
+   "{{product.name}}"
   ],
   "passa_filtros": true
  },
@@ -252,6 +276,29 @@
   "passa_filtros": true
  },
  {
+  "anunciante": "Mercado Livre",
+  "page_id": "133452713505",
+  "perfil": "https://www.facebook.com/MercadoLivre/",
+  "dominio": "mercadolivre.com.br",
+  "anuncios_ativos_min": 5,
+  "idade_dias": 14,
+  "anuncio_mais_novo_dias": 14,
+  "termos": [
+   "costura",
+   "kit_com"
+  ],
+  "exemplo_link": "http://www.mercadolivre.com.br/",
+  "copies": [
+   "Envio rápido, devolução em até 30 dias e compra garantida. Compre no Mercado Livre",
+   "Envio rápido, devolução em até 30 dias e compra garantida. Compre no Mercado Livre",
+   "Entrega rápida e devolução grátis em até 30 dias. Compre no Mercado Livre hoje!"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": true
+ },
+ {
   "anunciante": "THAIX digital trainer",
   "page_id": "416036084921665",
   "perfil": "https://www.facebook.com/THAIXRTBX/",
@@ -290,28 +337,6 @@
   ],
   "titulos": [
    "Coração com um Q a mais",
-   "{{product.name}}"
-  ],
-  "passa_filtros": true
- },
- {
-  "anunciante": "SHEIN Brasil",
-  "page_id": "218726778785423",
-  "perfil": "https://www.facebook.com/SHEINBrasil/",
-  "dominio": "m.shein.com",
-  "anuncios_ativos_min": 5,
-  "idade_dias": 28,
-  "anuncio_mais_novo_dias": 10,
-  "termos": [
-   "treino_em_casa"
-  ],
-  "exemplo_link": "https://m.shein.com/br/ark/default?scene=1&test=5051&ad_type=DPA&url_from=adhub2102005516032380930&pf=Facebook&placement={{placement}}&site_source_name={{site_source_name}}",
-  "copies": [
-   "Eleve seu visual com nossa seleção criteriosa de sapatos da moda",
-   "Eleve seu visual com nossa seleção criteriosa de sapatos da moda",
-   "Caminhe com confiança com nossos designs de calçados modernos e chiques."
-  ],
-  "titulos": [
    "{{product.name}}"
   ],
   "passa_filtros": true
@@ -371,6 +396,31 @@
    "O novo episódio da série Por Dentro do Negócio desembarca no RJ para conhecer a Casa Afagá. Os sócios Matheus, Thayanini e Jessica contam como transformaram a venda de bolos no pote em um espaço único de gastronomia e afeto.\n\nE para acompanhar esse crescimento, a Tramontina Primia entrou em cena com"
   ],
   "titulos": [],
+  "passa_filtros": true
+ },
+ {
+  "anunciante": "Pedro Lotz",
+  "page_id": "109287314050008",
+  "perfil": "https://www.facebook.com/100068773005523/",
+  "dominio": "ltz.pedrolotz.online",
+  "anuncios_ativos_min": 4,
+  "idade_dias": 41,
+  "anuncio_mais_novo_dias": 19,
+  "termos": [
+   "planilha",
+   "seu_ex",
+   "treino_em_casa"
+  ],
+  "exemplo_link": "https://ltz.pedrolotz.online/trinca",
+  "copies": [
+   "",
+   "",
+   "Participe do Desafio Treino Trinca e conquiste um corpo irreconhecível em 28 dias 💪"
+  ],
+  "titulos": [
+   "Pegue o seu plano 👉",
+   "Pegue seu Plano 👉"
+  ],
   "passa_filtros": true
  },
  {
@@ -475,52 +525,6 @@
   "passa_filtros": true
  },
  {
-  "anunciante": "Mercado Livre",
-  "page_id": "133452713505",
-  "perfil": "https://www.facebook.com/MercadoLivre/",
-  "dominio": "mercadolivre.com.br",
-  "anuncios_ativos_min": 3,
-  "idade_dias": 14,
-  "anuncio_mais_novo_dias": 14,
-  "termos": [
-   "kit_com"
-  ],
-  "exemplo_link": "http://www.mercadolivre.com.br/",
-  "copies": [
-   "Entrega rápida e devolução grátis em até 30 dias. Compre no Mercado Livre hoje!",
-   "Entrega rápida e devolução grátis em até 30 dias. Compre no Mercado Livre hoje!",
-   "Entrega rápida e devolução grátis em até 30 dias. Compre no Mercado Livre hoje!"
-  ],
-  "titulos": [
-   "{{product.name}}"
-  ],
-  "passa_filtros": true
- },
- {
-  "anunciante": "Pedro Lotz",
-  "page_id": "109287314050008",
-  "perfil": "https://www.facebook.com/100068773005523/",
-  "dominio": "ltz.pedrolotz.online",
-  "anuncios_ativos_min": 3,
-  "idade_dias": 41,
-  "anuncio_mais_novo_dias": 19,
-  "termos": [
-   "planilha",
-   "treino_em_casa"
-  ],
-  "exemplo_link": "https://ltz.pedrolotz.online/trinca",
-  "copies": [
-   "",
-   "Participe do Desafio Treino Trinca e conquiste um corpo irreconhecível em 28 dias 💪",
-   ""
-  ],
-  "titulos": [
-   "Pegue o seu plano 👉",
-   "Pegue seu Plano 👉"
-  ],
-  "passa_filtros": true
- },
- {
   "anunciante": "Manta Alves ",
   "page_id": "548247935042883",
   "perfil": "https://www.facebook.com/61562609323171/",
@@ -536,6 +540,26 @@
    "#publi \nTU FOI? NEM EU!\nSim, eu sou viciada em marcar rolê e não ir. Mas é que aqui em casa a gente tem a Nio que é a internet que realmente funciona e que tem planos que não aumentam até janeiro de 2030. É tranquilidade pra trabalhar, assistir minhas séries e ficar de preguicinha em casa. Vem com a",
    "#Publicidade | Ninguém merece passar por isso, né?! Ainda bem que, nos novos planos da @niointernet , o 5G já vem incluso, sem pagar nada a mais por isso. Liberdade pra continuar conectado dentro e fora de casa! 📱",
    "Publi | Teeem que acompanhar hahaha! Com @niointernet , dá pra assistir filmes, trabalhar e contar com a tranquilidade dos planos com preço fixo até jan/2030. 💚"
+  ],
+  "titulos": [],
+  "passa_filtros": true
+ },
+ {
+  "anunciante": "Minuto Curioso",
+  "page_id": "110231373695200",
+  "perfil": "https://www.facebook.com/61589101507510/",
+  "dominio": "s.shopee.com.br",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 28,
+  "anuncio_mais_novo_dias": 10,
+  "termos": [
+   "artesanato",
+   "receitas"
+  ],
+  "exemplo_link": "https://s.shopee.com.br/2gBi4d3cUK",
+  "copies": [
+   "É ASSIM QUE OS CHINELOS FEMININOS GANHAM VIDA NAS FÁBRICAS DA ÍNDIA! #curiosidades #industria #artesanato #calcados #facebookviral #rells",
+   "🤯 OLHA ESSE TRUQUE PARA A COZINHA! 🍖🍚 Colher Molde de Aço Inoxidável — Faça Almôndegas, Bolinhos e Croquetes com Mais Facilidade!\n\n#Shopee #AchadinhosShopee #Almondegas #Bolinhos #Croquetes #UtensiliosDeCozinha #Cozinha #Receitas #Gastronomia #Casa #Ofertas #Promoção\nhttps://s.shopee.com.br/5AsbmafW"
   ],
   "titulos": [],
   "passa_filtros": true
@@ -748,6 +772,28 @@
   "passa_filtros": true
  },
  {
+  "anunciante": "Pocket FM Stories",
+  "page_id": "191352894054471",
+  "perfil": "https://www.facebook.com/61553957553570/",
+  "dominio": "play.google.com",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 25,
+  "anuncio_mais_novo_dias": 25,
+  "termos": [
+   "reconquistar"
+  ],
+  "exemplo_link": "http://play.google.com/store/apps/details?id=com.radio.pocketfm",
+  "copies": [
+   "Um misterioso erro legal muda o destino de Anya para sempre.",
+   "Um misterioso erro legal muda o destino de Anya para sempre."
+  ],
+  "titulos": [
+   "Amor, vingança e justiça nas sombras.",
+   "De rejeitado a vingador."
+  ],
+  "passa_filtros": true
+ },
+ {
   "anunciante": "No Corre com 99 ",
   "page_id": "1103945289472597",
   "perfil": "https://www.facebook.com/61589924723503/",
@@ -789,6 +835,47 @@
   "passa_filtros": true
  },
  {
+  "anunciante": "LEGO",
+  "page_id": "6665038402",
+  "perfil": "https://www.facebook.com/LEGO/",
+  "dominio": "lego.com.br",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 34,
+  "anuncio_mais_novo_dias": 34,
+  "termos": [
+   "seu_ex"
+  ],
+  "exemplo_link": "https://www.lego.com.br/interesses/formula-1",
+  "copies": [
+   "Faça de cada dia, um dia de corrida. Descubra LEGO® Formula 1® para todas as idades. 🏎️"
+  ],
+  "titulos": [
+   "LEGO"
+  ],
+  "passa_filtros": true
+ },
+ {
+  "anunciante": "Neoenergia",
+  "page_id": "365363593596655",
+  "perfil": "https://www.facebook.com/neoenergia/",
+  "dominio": "neoenergia.com",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 18,
+  "anuncio_mais_novo_dias": 18,
+  "termos": [
+   "seu_ex"
+  ],
+  "exemplo_link": "https://www.neoenergia.com/entenda-sua-conta-de-luz?utm_source=meta&utm_medium=social&utm_campaign=NEOENERGIA_PROPEG_META_CPM_CLI_SER_ISQP-CONTA-DE-LUZ-OUT-PE_AWARENESS&utm_content=CARROSSEL_OURO_DARK-POST_DICA-AMIGA&utm_term=VERBA-CAMPANHA_AS-18-MAIS_CLIENTES_GERAL_CLI_SER_ISQP-CONTA-DE-LUZ-OUT-PE_CARROSSEL_OURO",
+  "copies": [
+   "Quando a conta de luz chega diferente do esperado, entender o que mudou na rotina pode ajudar a encontrar a resposta. 👀⚡  \n\nAcompanhar o consumo ao longo dos meses é uma forma simples de ter mais clareza sobre seus gastos e entender como economizar ainda mais. \n\n📲 Para saber mais, acesse neoenergia.",
+   "Quando a conta de luz chega diferente do esperado, entender o que mudou na rotina pode ajudar a encontrar a resposta. 👀⚡  \n\nAcompanhar o consumo ao longo dos meses é uma forma simples de ter mais clareza sobre seus gastos e entender como economizar ainda mais. \n\n📲 Para saber mais, acesse neoenergia."
+  ],
+  "titulos": [
+   "Entenda sua conta de luz - Neoenergia"
+  ],
+  "passa_filtros": true
+ },
+ {
   "anunciante": "Diálogo Engenharia",
   "page_id": "236737056363575",
   "perfil": "https://www.facebook.com/dialogoengenharia/",
@@ -811,18 +898,20 @@
   "page_id": "222086361593149",
   "perfil": "https://www.facebook.com/infinitepay/",
   "dominio": "infinitepay.io",
-  "anuncios_ativos_min": 209,
+  "anuncios_ativos_min": 223,
   "idade_dias": 724,
   "anuncio_mais_novo_dias": 13,
   "termos": [
+   "artesanato",
    "cardápio",
    "doces_para_vender",
    "planilha",
    "por_apenas_R_",
    "renda_extra",
+   "seu_ex",
    "vender_pelo_celular"
   ],
-  "exemplo_link": "https://www.infinitepay.io/maquina-cartao",
+  "exemplo_link": "https://www.infinitepay.io/tap",
   "copies": [
    "Use seu Celular como uma Maquininha! É totalmente GRATUITO, e o melhor, você nem precisa de CNPJ! 🤑\n\n✅Taxas a partir de 0,75%\n✅Recebimento em 1 dia ou em SEGUNDOS\n✅100% Grátis\n📲Compatível com Android 11+ com NFC e iPhone XS ou superior\n\nClique em saiba mais para se cadastrar!",
    "{{product.brand}}",
@@ -832,6 +921,31 @@
    "Máquina de cartão com as menores taxas",
    "Seu Celular vira maquininha GRATIS!",
    "Seu Celular vira maquininha GRÁTIS!",
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "SHEIN HOME",
+  "page_id": "112565745050415",
+  "perfil": "https://www.facebook.com/SHEINHOMEOFFICIAL/",
+  "dominio": "m.shein.com",
+  "anuncios_ativos_min": 33,
+  "idade_dias": 80,
+  "anuncio_mais_novo_dias": 11,
+  "termos": [
+   "artesanato",
+   "costura",
+   "kit_com",
+   "moldes"
+  ],
+  "exemplo_link": "https://m.shein.com/br/ark/default?scene=1&test=5051&ad_type=DPA&url_from=adhub2098346238016872452&pf=Facebook&placement={{placement}}&site_source_name={{site_source_name}}",
+  "copies": [
+   "Dê vida à sua casa com esses utilitários adicionais",
+   "Dê uma repaginada na sua casa com esses achados exclusivos",
+   "Ofertas quentes de hoje\nExplore nossas escolhas chiques agora\nObtenha mais surpresas"
+  ],
+  "titulos": [
    "{{product.name}}"
   ],
   "passa_filtros": false
@@ -895,7 +1009,8 @@
   "anuncio_mais_novo_dias": 17,
   "termos": [
    "chá_para_emagrecer",
-   "emagrecer_em_casa"
+   "emagrecer_em_casa",
+   "seu_ex"
   ],
   "exemplo_link": "https://pilates.laystrancoso.com/",
   "copies": [
@@ -905,29 +1020,6 @@
   ],
   "titulos": [
    "Desafio 50+"
-  ],
-  "passa_filtros": false
- },
- {
-  "anunciante": "SHEIN HOME",
-  "page_id": "112565745050415",
-  "perfil": "https://www.facebook.com/SHEINHOMEOFFICIAL/",
-  "dominio": "m.shein.com",
-  "anuncios_ativos_min": 27,
-  "idade_dias": 80,
-  "anuncio_mais_novo_dias": 11,
-  "termos": [
-   "kit_com",
-   "moldes"
-  ],
-  "exemplo_link": "https://m.shein.com/br/ark/default?scene=1&test=5051&ad_type=DPA&url_from=adhub2090008334425255937&pf=Facebook&placement={{placement}}&site_source_name={{site_source_name}}",
-  "copies": [
-   "Compre ainda mais itens essenciais que você vai adorar.",
-   "Parcelamento com juros reduzidos, conforto e estilo esperam por você.",
-   "Compre ainda mais itens essenciais que você vai adorar."
-  ],
-  "titulos": [
-   "{{product.name}}"
   ],
   "passa_filtros": false
  },
@@ -1137,6 +1229,28 @@
   "passa_filtros": false
  },
  {
+  "anunciante": "Italo Ventura",
+  "page_id": "420961222092284",
+  "perfil": "https://www.facebook.com/italoventuramav/",
+  "dominio": "italoventura.com",
+  "anuncios_ativos_min": 9,
+  "idade_dias": 140,
+  "anuncio_mais_novo_dias": 32,
+  "termos": [
+   "reconquistar"
+  ],
+  "exemplo_link": "https://lp.italoventura.com/masterclass-30f-curta/",
+  "copies": [
+   "Imagina ter um guia para fazer o homem ficar doido por você.\n\nEu quero te mostrar como as Frases Mágicas podem despertar diversas emoções e fazer ele viciar em ter você por perto.\n\nAssista a minha masterclass e veja exatamente como fazer isso, apenas copiando e colando algumas mensagens no seu celul",
+   "Imagina ter um guia para fazer o homem ficar doido por você.\n\nEu quero te mostrar como as Frases Mágicas podem despertar diversas emoções e fazer ele viciar em ter você por perto.\n\nAssista a minha masterclass e veja exatamente como fazer isso, apenas copiando e colando algumas mensagens no seu celul",
+   "Imagina ter um guia para fazer o homem ficar doido por você.\n\nEu quero te mostrar como as Frases Mágicas podem despertar diversas emoções e fazer ele viciar em ter você por perto.\n\nAssista a minha masterclass e veja exatamente como fazer isso, apenas copiando e colando algumas mensagens no seu celul"
+  ],
+  "titulos": [
+   "As 30 frases mágicas que mexem com o psicológico do HOMEM!"
+  ],
+  "passa_filtros": false
+ },
+ {
   "anunciante": "Dra. Cláudia Benevides",
   "page_id": "1564011493912944",
   "perfil": "https://www.facebook.com/draclaudiabenevides1/",
@@ -1205,6 +1319,32 @@
   "passa_filtros": false
  },
  {
+  "anunciante": "Armarinho São José",
+  "page_id": "141891812592987",
+  "perfil": "https://www.facebook.com/saojose.armarinho/",
+  "dominio": "armarinhosaojose.com.br",
+  "anuncios_ativos_min": 7,
+  "idade_dias": 396,
+  "anuncio_mais_novo_dias": 222,
+  "termos": [
+   "artesanato",
+   "projetos_prontos"
+  ],
+  "exemplo_link": "https://www.armarinhosaojose.com.br/croche-e-trico",
+  "copies": [
+   "🧶 Quer levar seus projetos de crochê a um novo nível? \nNo Armarinho São José, você encontra tudo o que precisa! Temos uma variedade incrível de produtos para crochê: linhas em diversas cores e espessuras, agulhas, acessórios e muito mais. Descubra os materiais ideais para transformar suas criações! ",
+   "Procurando Linha para Crochê? Achou, a maior lojda de produtos para artesanato pertinho de você!\nCompre agora e receba em casa, nosso envio é rápido e seguro para todo Brasil.\nAproveite e pague suas compras em até 12x no cartão.",
+   "🧶✨ Mais de 80.000 Produtos de Artesanato no Armarinho São José! ✨🧶\n🔹 Variedade Incrível: Barbantes, lãs, amigurumi, linhas,  acessórios e muito mais! \n🔹 Frete Rápido: Receba seus materiais em tempo recorde! \n🔹 Facilidade no Pagamento: Compre agora e parcele em até 12x no cartão!"
+  ],
+  "titulos": [
+   "Armarinho São José, Aviamentos e Armarinho Online",
+   "Grupo Vip",
+   "Promoção",
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
   "anunciante": "Método Mamãe",
   "page_id": "525011250704871",
   "perfil": "https://www.facebook.com/61574327760116/",
@@ -1260,7 +1400,8 @@
   "idade_dias": 84,
   "anuncio_mais_novo_dias": 21,
   "termos": [
-   "desafio_21_dias"
+   "desafio_21_dias",
+   "reconquistar"
   ],
   "exemplo_link": "https://mateuspsicologo.com.br/desafio21/",
   "copies": [
@@ -1291,6 +1432,49 @@
   "titulos": [
    "Eficácia comprovada clinicamente 😍",
    "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Destino & Alinhamento",
+  "page_id": "111129565086782",
+  "perfil": "https://www.facebook.com/DestinoAlinhamento/",
+  "dominio": "",
+  "anuncios_ativos_min": 7,
+  "idade_dias": 111,
+  "anuncio_mais_novo_dias": 21,
+  "termos": [
+   "reconquistar",
+   "seu_ex"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "",
+   ""
+  ],
+  "titulos": [
+   "Converse conosco",
+   "Online Agora 🟢"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Euroflex",
+  "page_id": "120481602690732",
+  "perfil": "https://www.facebook.com/euroflexbrasil/",
+  "dominio": "",
+  "anuncios_ativos_min": 7,
+  "idade_dias": 370,
+  "anuncio_mais_novo_dias": 370,
+  "termos": [
+   "seu_ex"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "Chega!!! Ontem foi a ultima noite que você dormiu num colchão que está machucando as suas costas\nO dia é hoje e a hora é AGORA, esse é o momento que você vai decidir se continua acordando cansado ou bem disposto\n\nO colchão mais vendido do Brasil está ai na tela do seu celular, isso mesmo o colchão M"
+  ],
+  "titulos": [
+   "+30 Clientes compraram esta semana"
   ],
   "passa_filtros": false
  },
@@ -1382,6 +1566,49 @@
   "passa_filtros": false
  },
  {
+  "anunciante": "Anota AI",
+  "page_id": "1788954381403911",
+  "perfil": "https://www.facebook.com/anotaAI.bots/",
+  "dominio": "contato.anota.ai",
+  "anuncios_ativos_min": 6,
+  "idade_dias": 91,
+  "anuncio_mais_novo_dias": 49,
+  "termos": [
+   "reconquistar",
+   "salgados_para_vender"
+  ],
+  "exemplo_link": "https://contato.anota.ai/?utm_source=facebook&utm_medium=cpa",
+  "copies": [
+   "{{product.brand}}",
+   "{{product.brand}}",
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Minute Tales",
+  "page_id": "1114256261770934",
+  "perfil": "https://www.facebook.com/61589753577458/",
+  "dominio": "nuwthlco.com",
+  "anuncios_ativos_min": 6,
+  "idade_dias": 2,
+  "anuncio_mais_novo_dias": 2,
+  "termos": [
+   "reconquistar"
+  ],
+  "exemplo_link": "https://www.nuwthlco.com/market/goodreels/t18-12-6/18?lpid=72442&utm_campaign={{campaign.name}}&utm_content={{campaign.id}}&adset_name={{adset.name}}&adset_id={{adset.id}}&ad_id={{ad.id}}&ad_name={{ad.name}}&placement={{placement}}",
+  "copies": [
+   "Após sete anos de casamento, ela finalmente espera um filho do marido 🍼 Ele tira do próprio bebê o direito à herança para favorecer seu amor de infância; arrasada, ela parte e reaparece como única herdeira de uma dinastia poderosa 🪞 Ao descobrir a verdade, ele enfrenta outra realidade: conseguirá re"
+  ],
+  "titulos": [
+   "Minha Ex-Esposa É uma Princesa da Máfia"
+  ],
+  "passa_filtros": false
+ },
+ {
   "anunciante": "Lalamove",
   "page_id": "301365064138538",
   "perfil": "https://www.facebook.com/LalamoveBR/",
@@ -1419,6 +1646,28 @@
    "🎬 +5.000 VIDEOCLIPES ATUALIZADOS 2026!\n\nTodos os gêneros em um só pacote para sua multimídia, TV, celular ou pendrive. 🚗🔥\n\n✅ Acesso imediato\n✅ Organizados por pastas\n✅ Pagamento único\n\n👉 Clique em Saiba Mais e garanta agora!\n\n#Videoclipes #MultimidiaAutomotiva #Musicas #Pendrive #SomAutomotivo Super"
   ],
   "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Sem Costura",
+  "page_id": "100301641637057",
+  "perfil": "https://www.facebook.com/usesemcostura/",
+  "dominio": "semcostura.com",
+  "anuncios_ativos_min": 5,
+  "idade_dias": 206,
+  "anuncio_mais_novo_dias": 103,
+  "termos": [
+   "costura"
+  ],
+  "exemplo_link": "http://www.semcostura.com/",
+  "copies": [
+   "Descubra o conforto e a liberdade da nossa Calcinha Boxer Boyshort Sem Costura. Ela não marca e proporciona um ajuste perfeito. Garanta já a sua! ✨",
+   "Underwear e Fitness que combinam conforto e tecnologia"
+  ],
+  "titulos": [
+   "Calcinha Boxer Boyshort | Garanta já!",
+   "{{product.name}}"
+  ],
   "passa_filtros": false
  },
  {
@@ -1794,6 +2043,50 @@
   "passa_filtros": false
  },
  {
+  "anunciante": "Amazon.com.br",
+  "page_id": "110087709157562",
+  "perfil": "https://www.facebook.com/Amazon.com.br/",
+  "dominio": "itunes.apple.com",
+  "anuncios_ativos_min": 3,
+  "idade_dias": 146,
+  "anuncio_mais_novo_dias": 146,
+  "termos": [
+   "costura",
+   "kit_com",
+   "receitas"
+  ],
+  "exemplo_link": "http://itunes.apple.com/app/id297606951",
+  "copies": [
+   "Confira ofertas em itens para Casa\n📱Baixe agora o app a Amazon",
+   "Confira ofertas em Roupas, Calçados, Acessórios, Malas, Mochilas e muito mais no app da Amazon\n📱Baixe agora",
+   "Ofertas exclusivas no app da Amazon\n📱Baixe agora"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "RideNation",
+  "page_id": "424714487397280",
+  "perfil": "https://www.facebook.com/oficialridenation/",
+  "dominio": "ridenation.com.br",
+  "anuncios_ativos_min": 3,
+  "idade_dias": 189,
+  "anuncio_mais_novo_dias": 189,
+  "termos": [
+   "costura"
+  ],
+  "exemplo_link": "https://www.ridenation.com.br/collections/camisetas-masculinas",
+  "copies": [
+   "🏁 Fã de Moto, Olha Essa Promo!\nEscolha 3 Camisetas de Moto por R$169 🔥\nFrete Grátis* para Todo o Brasil 🚚 Aproveite!"
+  ],
+  "titulos": [
+   "3 Camisetas por R$ 169 🏁"
+  ],
+  "passa_filtros": false
+ },
+ {
   "anunciante": "Ricardo Souza",
   "page_id": "105564932574053",
   "perfil": "https://www.facebook.com/100093679536494/",
@@ -2151,6 +2444,27 @@
   "passa_filtros": false
  },
  {
+  "anunciante": "CoupleRewind",
+  "page_id": "567707623099366",
+  "perfil": "https://www.facebook.com/61574102053488/",
+  "dominio": "couplerewind.com.br",
+  "anuncios_ativos_min": 3,
+  "idade_dias": 177,
+  "anuncio_mais_novo_dias": 139,
+  "termos": [
+   "reconquistar"
+  ],
+  "exemplo_link": "https://couplerewind.com.br/pt/reconquistar",
+  "copies": [
+   "✨ Já pensou em reviver os melhores momentos ao lado dela?\nCom a Couple Rewind, você pode relembrar tudo o que uniu vocês e dar o primeiro passo para reconquistar o amor da sua vida.",
+   "✨ Já pensou em reviver os melhores momentos ao lado dela?\nCom a Couple Rewind, você pode relembrar tudo o que uniu vocês e dar o primeiro passo para reconquistar o amor da sua vida."
+  ],
+  "titulos": [
+   "Reconquiste o amor dela 💖"
+  ],
+  "passa_filtros": false
+ },
+ {
   "anunciante": "Vou de 99",
   "page_id": "365600193473680",
   "perfil": "https://www.facebook.com/voude99/",
@@ -2455,6 +2769,48 @@
   "passa_filtros": false
  },
  {
+  "anunciante": "Armarinhos Nodari",
+  "page_id": "1375375132736066",
+  "perfil": "https://www.facebook.com/armarinhosnodari/",
+  "dominio": "armarinhosnodari.com.br",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 1139,
+  "anuncio_mais_novo_dias": 1083,
+  "termos": [
+   "artesanato"
+  ],
+  "exemplo_link": "https://www.armarinhosnodari.com.br/Fios/Trico/La-Classic-Pull/la-classic-pull-200g-circulo.html",
+  "copies": [
+   "🧶 Dica boa é dica compartilhada! \nLã Classic Pull, ótimo rendimento, maciez e um toque único! \nVitória Quintal",
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "QUEIMA ESTOQUE 🔥",
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Artminas Artesanatos",
+  "page_id": "264237321160031",
+  "perfil": "https://www.facebook.com/artminasartesanatos/",
+  "dominio": "fb.com",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 777,
+  "anuncio_mais_novo_dias": 777,
+  "termos": [
+   "artesanato"
+  ],
+  "exemplo_link": "https://fb.com/canvas_doc/1352378855334465",
+  "copies": [
+   "QUEIMA DE ESTOQUE! Garanta até 30% de Desconto por tempo LIMITADO. O legítimo artesanato mineiro direto pra sua casa ou negócio. 🔥🔥\n‎ ‎ \n✅ Enviamos para todo Brasil;\n✅ Parcele em até 5x sem juros;\n✅ Produtos pronta entrega.\n‎ ‎ \n👉 Clique em \"Saiba Mais\" para aproveitar a promoção."
+  ],
+  "titulos": [
+   "Legítimo Artesanato Mineiro Com Até 30% OFF 🔥"
+  ],
+  "passa_filtros": false
+ },
+ {
   "anunciante": "Little Genius",
   "page_id": "1182697954922602",
   "perfil": "https://www.facebook.com/61590542261373/",
@@ -2635,6 +2991,46 @@
   "passa_filtros": false
  },
  {
+  "anunciante": "Fita UP",
+  "page_id": "101890961600458",
+  "perfil": "https://www.facebook.com/fitaupbr/",
+  "dominio": "fitaup.com",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 367,
+  "anuncio_mais_novo_dias": 367,
+  "termos": [
+   "costura"
+  ],
+  "exemplo_link": "https://fitaup.com/products/sutia-comfort-slim",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Amar Biquinis",
+  "page_id": "468062070372422",
+  "perfil": "https://www.facebook.com/amarbiquinisoficial/",
+  "dominio": "amarbiquinis.com.br",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 434,
+  "anuncio_mais_novo_dias": 434,
+  "termos": [
+   "costura"
+  ],
+  "exemplo_link": "https://amarbiquinis.com.br/produtos/biquini-conjunto-jade-aquarela-top-cortininha-fixa-com-acabamento-em-vies-e-bojo-removivel-e-calcinha-inteira-de-tira-marquinha-perfeita/",
+  "copies": [
+   "Aproveite o Inverno Quente Amar Biquínis com descontos de até 70% e presentes exclusivos!\n\n💥 São produtos selecionados com descontos incríveis\n🎁 E ainda ganha presentes exclusivos para quem participar da promoção!\n⏳ Ação super limitada, com estoque reduzido – não perca!\n\n📦 Frete grátis acima de R$29"
+  ],
+  "titulos": [
+   "INVERNO QUENTE | 70% OFF"
+  ],
+  "passa_filtros": false
+ },
+ {
   "anunciante": "Hallow Brasil",
   "page_id": "104096412629936",
   "perfil": "https://www.facebook.com/hallowappbrasil/",
@@ -2690,6 +3086,29 @@
    "Por que você treina, faz dieta… e o braço continua gordo? Você sente que está fazendo tudo certo — treina todo dia, até ganha músculo — mas a gordura não vai embora?\n\nVocê está se sentindo FORGA — forte, mas ainda gordinha.\nE o motivo é ser simples: você está fazendo o treino errado.\n\n👉 Esse é o sin"
   ],
   "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Melolo: Séries Curtas Brasil",
+  "page_id": "1029115443615296",
+  "perfil": "https://www.facebook.com/61588587216026/",
+  "dominio": "play.google.com",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 104,
+  "anuncio_mais_novo_dias": 102,
+  "termos": [
+   "doces_para_vender",
+   "seu_ex"
+  ],
+  "exemplo_link": "https://play.google.com/store/apps/details?id=com.worldance.drama",
+  "copies": [
+   "?Ainda baixou animado por propagandas de \"grátis\", só para descobrir que precisa pagar para desbloquear ou que o vídeo para após 3 minutos de prévia?\nNão deixe mais esses truques esgotarem sua paciência!\n?Melolo: totalmente grátis, sem cartão de crédito necessário e sem enrolação.\nTodo o conteúdo é ",
+   "?Ainda baixou animado por propagandas de \"grátis\", só para descobrir que precisa pagar para desbloquear ou que o vídeo para após 3 minutos de prévia?\nNão deixe mais esses truques esgotarem sua paciência!\n?Melolo: totalmente grátis, sem cartão de crédito necessário e sem enrolação.\nTodo o conteúdo é "
+  ],
+  "titulos": [
+   "episódios livres, só no Melolo",
+   "grátis de verdade, baixe já!"
+  ],
   "passa_filtros": false
  },
  {
@@ -2752,28 +3171,6 @@
   ],
   "titulos": [
    "A mensagem que faz ele responder na hora"
-  ],
-  "passa_filtros": false
- },
- {
-  "anunciante": "Amazon.com.br",
-  "page_id": "110087709157562",
-  "perfil": "https://www.facebook.com/Amazon.com.br/",
-  "dominio": "itunes.apple.com",
-  "anuncios_ativos_min": 2,
-  "idade_dias": 146,
-  "anuncio_mais_novo_dias": 146,
-  "termos": [
-   "kit_com",
-   "receitas"
-  ],
-  "exemplo_link": "http://itunes.apple.com/app/id297606951",
-  "copies": [
-   "Confira ofertas em Roupas, Calçados, Acessórios, Malas, Mochilas e muito mais no app da Amazon\n📱Baixe agora",
-   "Ofertas exclusivas no app da Amazon\n📱Baixe agora"
-  ],
-  "titulos": [
-   "{{product.name}}"
   ],
   "passa_filtros": false
  },
@@ -3022,6 +3419,69 @@
   ],
   "titulos": [
    "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Simple Organic Beauty",
+  "page_id": "1047135975334517",
+  "perfil": "https://www.facebook.com/simpleorganicbeauty/",
+  "dominio": "simpleorganic.com.br",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 108,
+  "anuncio_mais_novo_dias": 108,
+  "termos": [
+   "seu_ex"
+  ],
+  "exemplo_link": "https://simpleorganic.com.br/products/gel-de-limpeza-suave",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Melolo Hub - Assistir Grátis no Brasil",
+  "page_id": "1004993122703480",
+  "perfil": "https://www.facebook.com/61586541015458/",
+  "dominio": "play.google.com",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 132,
+  "anuncio_mais_novo_dias": 132,
+  "termos": [
+   "seu_ex",
+   "trabalhar_de_casa"
+  ],
+  "exemplo_link": "https://play.google.com/store/apps/details?id=com.worldance.drama",
+  "copies": [
+   "?Ainda baixou animado por propagandas de \"grátis\", só para descobrir que precisa pagar para desbloquear ou que o vídeo para após 3 minutos de prévia?\nNão deixe mais esses truques esgotarem sua paciência!\n?Melolo: totalmente grátis, sem cartão de crédito necessário e sem enrolação.\nTodo o conteúdo é ",
+   "💕Ainda baixou animado por propagandas de \"grátis\", só para descobrir que precisa pagar para desbloquear ou que o vídeo para após 3 minutos de prévia?Não deixe mais esses truques esgotarem sua paciência!👉Melolo: totalmente grátis e sem enrolação.Todo o conteúdo é acessível de imediato, sem custos ocu"
+  ],
+  "titulos": [
+   "dramas inteiros sem pagar",
+   "veja episódios grátis!"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Coleta Fácil",
+  "page_id": "256527707551938",
+  "perfil": "https://www.facebook.com/61558087065368/",
+  "dominio": "",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 225,
+  "anuncio_mais_novo_dias": 225,
+  "termos": [
+   "seu_ex"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "Coleta gratis e descarte correto do seu lixo eletrônico"
+  ],
+  "titulos": [
+   "Descarte gratuito de lixo eletrônico"
   ],
   "passa_filtros": false
  },
@@ -3898,6 +4358,318 @@
   "titulos": [
    "👉 Acesse agora"
   ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Sebrae",
+  "page_id": "187292754632862",
+  "perfil": "https://www.facebook.com/sebrae/",
+  "dominio": "sebrae.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 10,
+  "anuncio_mais_novo_dias": 10,
+  "termos": [
+   "artesanato"
+  ],
+  "exemplo_link": "http://sebrae.com.br/compredopequeno?utm_campaign=compre-do-pequeno-2026&utm_medium=cpc&utm_content=video-horizontal&utm_source=meta-ig-e-fb&utm_term=video-horizontal",
+  "copies": [
+   "Os pequenos negócios têm o molho. Comprar do pequeno é a cara do Brasil. Compre do pequeno."
+  ],
+  "titulos": [
+   "Compre do Pequeno."
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Majorano",
+  "page_id": "506017663194791",
+  "perfil": "https://www.facebook.com/majoranooficial/",
+  "dominio": "majorano.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 287,
+  "anuncio_mais_novo_dias": 287,
+  "termos": [
+   "artesanato"
+  ],
+  "exemplo_link": "http://www.majorano.com.br/",
+  "copies": [
+   "Explore a vasta coleção de calçados da Majorano, onde cada peça é uma fusão de artesanato tradicional e design inovador. De sapatos sociais meticulosamente polidos a botas robustas e tênis casuais elegantes, nosso catálogo tem algo exclusivo para cada personalidade e ocasião.\nPor que escolher Majora"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Colégio Recriarte",
+  "page_id": "1404969179790938",
+  "perfil": "https://www.facebook.com/colegiorecriarte/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 1175,
+  "anuncio_mais_novo_dias": 1175,
+  "termos": [
+   "artesanato"
+  ],
+  "exemplo_link": "",
+  "copies": [
+   "A cultura maker, também conhecida como “mão na massa”, é um movimento que incentiva a criatividade, o aprendizado e a experimentação a partir da criação de projetos, utilizando tecnologias, ciências e audiovisual.\n\nO conceito de cultura maker prega que as pessoas consigam ter a autonomia de criar, r"
+  ],
+  "titulos": [
+   "fb.com"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Ciro Gomes",
+  "page_id": "1216504185136925",
+  "perfil": "https://www.facebook.com/cirogomesoficial/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 37,
+  "anuncio_mais_novo_dias": 37,
+  "termos": [
+   "artesanato"
+  ],
+  "exemplo_link": "https://instagram.com/cirogomes",
+  "copies": [
+   "Vamos incentivar a cultura, qualificar nossos artistas e ter toda sensibilidade com as extraordinárias expressões culturais cearenses. \n\n#CiroGovernador45💙\n\nPropaganda eleitoral - Eleição 2026\nCiro Ferreira Gomes, governador, inscrito no CNPJ sob n. 68.237.309/0001-33. Coligação Unir para Mudar: Fed"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Artminas Artesanatos",
+  "page_id": "264237321160031",
+  "perfil": "https://www.facebook.com/artminasartesanatos/",
+  "dominio": "artminasartesanatos.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 550,
+  "anuncio_mais_novo_dias": 550,
+  "termos": [
+   "artesanato"
+  ],
+  "exemplo_link": "https://www.artminasartesanatos.com.br/",
+  "copies": [
+   "O legítimo artesanato mineiro direto para a sua casa ou negócio! 🥰\n‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ \nConfira esse lindo {{product.name}} , contamos com:\n✅ Envio para todo Brasil;\n✅ Parcelamento em até 5x sem juros;\n✅ Produtos pronta entrega.\n‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ \n👉🏻 Clique em \"Saiba Mais\" para conferir em nossa l"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Libral Art Piracicaba",
+  "page_id": "115478303915311",
+  "perfil": "https://www.facebook.com/libralartpiracicaba/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 510,
+  "anuncio_mais_novo_dias": 510,
+  "termos": [
+   "artesanato"
+  ],
+  "exemplo_link": "",
+  "copies": [
+   "A Libral Papelaria Whats 1930581423 tem a tradição de mais de 50 anos em Piracicaba e região. ✍️🎨👩‍🎨 Papelaria, Escritório, Escolar, Informática, Presentes, Brinquedos, Pintura, Desenho, Artesanato, Passatempos, Publicações de Banca, Imagens Religiosas e mais.\n\nEntregamos sem taxa no centro da cidad"
+  ],
+  "titulos": [
+   "Escritório e Escolar"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Susana Ateliê",
+  "page_id": "361886540330821",
+  "perfil": "https://www.facebook.com/61560626968735/",
+  "dominio": "susanaatelie.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 218,
+  "anuncio_mais_novo_dias": 218,
+  "termos": [
+   "artesanato"
+  ],
+  "exemplo_link": "http://www.susanaatelie.com/",
+  "copies": [
+   "Se você busca peças únicas e cheias de encanto para a sua casa, conheça o nosso trabalho artesanal! 💕 Visite nosso site e descubra como o artesanato pode deixar seu lar ainda mais especial! 🏡💖"
+  ],
+  "titulos": [
+   "Susana Atelie"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Criativa Campinas ",
+  "page_id": "1144022138792644",
+  "perfil": "https://www.facebook.com/criativacampinas/",
+  "dominio": "sympla.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 74,
+  "anuncio_mais_novo_dias": 74,
+  "termos": [
+   "artesanato"
+  ],
+  "exemplo_link": "https://www.sympla.com.br/evento/criativa-campinas-2026/3378090?algoliaID=41fcb7e75b927d2d4f9bb46b5111f748",
+  "copies": [
+   "Quer transformar seu talento em negócio?\n¯\\_(ツ)_/¯\nA CRIATIVA CAMPINAS é o lugar certo pra você crescer, aprender e fazer networking com quem entende do assunto! \n💼✨\nAqui você encontra:\n✔ Produtos direto com os melhores fornecedores\n✔ Cursos e demonstrações com experts\n✔ Inspiração e inovação em cad"
+  ],
+  "titulos": [
+   "CRIATIVA CAMPINAS"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Bazar Horizonte",
+  "page_id": "225026458487",
+  "perfil": "https://www.facebook.com/bazarhorizonte/",
+  "dominio": "bazarhorizonte.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 1004,
+  "anuncio_mais_novo_dias": 1004,
+  "termos": [
+   "artesanato"
+  ],
+  "exemplo_link": "https://www.bazarhorizonte.com.br/?utm_source=Face+Ads&utm_medium=Remarketing+Carrinho+15+Dias&utm_campaign=Cat%C3%A1logo+de+Produtos",
+  "copies": [
+   "As melhores promoções para seu artesanato! Aproveite antes que acabe!! 🧡🧡"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Pura Natural",
+  "page_id": "1133139263219921",
+  "perfil": "https://www.facebook.com/61590212955023/",
+  "dominio": "puranatural.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 73,
+  "anuncio_mais_novo_dias": 73,
+  "termos": [
+   "artesanato"
+  ],
+  "exemplo_link": "https://puranatural.com.br/product/kit-pura-natural",
+  "copies": [
+   "Tive uma crise de rosácea numa pousada na Serra Catarinense. A farmacêutica de manipulação da cidadezinha tinha se formado em aromaterapia clínica na França. Ela me fez UMA pergunta que mostrou o quanto minha dermatologista de São Paulo estava 15 anos atrasada.\nTenho 52 anos.\nMeu marido e eu passamo"
+  ],
+  "titulos": [
+   "Minha dermatologista esteve errada durante 5 anos"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Hawksbonder",
+  "page_id": "109986685181995",
+  "perfil": "https://www.facebook.com/hawksbonder/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 250,
+  "anuncio_mais_novo_dias": 250,
+  "termos": [
+   "artesanato"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "✨ Pistola de Cola Quente Surebonder Lynn Lilly: Precisão, Elegância e Liberdade Sem Fio! \n🎨Transforme suas ideias em realidade com a Lynn Lilly!  Ponta fina, Sem fio, Design sofisticado e a Qualidade que você merece.\n🔥 O poder para um artesanato perfeito está em suas mãos!\n#Artesanato #Hawksbonder #"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Bordado Criativo",
+  "page_id": "1289620830901567",
+  "perfil": "https://www.facebook.com/61592673298367/",
+  "dominio": "bordadocriativo.online",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 25,
+  "anuncio_mais_novo_dias": 25,
+  "termos": [
+   "artesanato"
+  ],
+  "exemplo_link": "https://bordadocriativo.online/bordado",
+  "copies": [
+   "Há um artesanato delicado que talvez você ainda não conheça.\n\nBordado no papel um molde impresso, uma agulha e alguns fios coloridos. Em apenas quinze minutos você cria algo lindo com as próprias mãos.\n\n🪡 Não precisa ter experiência.\n🪡 Não precisa de materiais caros.\n🪡 Sem bagunça.\n\nPara muitas mulh"
+  ],
+  "titulos": [
+   "Crie peças lindas em apenas 15 minutos, sem sair de casa."
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Lojas Caçula",
+  "page_id": "1718609451685106",
+  "perfil": "https://www.facebook.com/lojascacula/",
+  "dominio": "lojascacula.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 108,
+  "anuncio_mais_novo_dias": 108,
+  "termos": [
+   "artesanato"
+  ],
+  "exemplo_link": "https://www.lojascacula.com.br/",
+  "copies": [
+   "Informamos que nossa loja física em Três Rios encerrará suas atividades no dia 06/07/2026.\n\nMas você continua contando com a Caçula! 💚\n\n🛍️ Faça suas compras pelo nosso site: www.lojascacula.com.br\n\n🚚 E tem novidade: agora contamos com serviço de entregas em Três Rios, com frete grátis às segundas, q"
+  ],
+  "titulos": [
+   "Novidade em Três Rios: entregas com frete grátis às segundas, quartas e sextas-feiras!"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "EssencialAviamentos",
+  "page_id": "725069044976678",
+  "perfil": "https://www.facebook.com/EssencialAviamentoseArtesanato/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 186,
+  "anuncio_mais_novo_dias": 186,
+  "termos": [
+   "artesanato"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "O seu Armarinho em Macaé! Essencial Aviamentos é uma nova proposta com itens de bom gosto e qualidade. Tudo em aviamentos e artesanato. Rua Maria Francisca Borges Reid, 14 loja 04, Gloria, Macaé, 27933-260 WhatsApp 22-992495878 Fazemos delivery"
+  ],
+  "titulos": [
+   "Chat with us"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Artesama",
+  "page_id": "418406901546585",
+  "perfil": "https://www.facebook.com/artesamaartesanatoemmdf/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 578,
+  "anuncio_mais_novo_dias": 578,
+  "termos": [
+   "artesanato"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "Caixa personalizada para convidar os padrinhos de: casamento, batizado, consagração ou crisma 🥰 compre pela loja física Rua Espírito Santo 620 ou pelo Whatsapp 37 99953-6393 😀\n.\n.\n.\n.\n.\n#artesama #artesanato #mdf #divinopolis #casamento #batizado #crisma #consagração"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Colore Pedrarias & Aviamentos",
+  "page_id": "1855727924659110",
+  "perfil": "https://www.facebook.com/colorepedrariassp/",
+  "dominio": "google.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 98,
+  "anuncio_mais_novo_dias": 98,
+  "termos": [
+   "artesanato"
+  ],
+  "exemplo_link": "https://www.google.com/search?sca_esv=0f9b108d57af51d0&cs=0&output=search&kgmid=/g/1ptxw6vrd&q=Colore+Pedrarias+e+Aviamentos&shndl=30&shem=lcuae,lsptbl1,uaasie&source=sh/x/loc/uni/m1/1&kgs=7cded260646fe465&utm_source=lcuae,lsptbl1,uaasie,sh/x/loc/uni/m1/1",
+  "copies": [
+   "Venha conhecer nossa unidade na Rua Comendador ABDO Schahin, 142,  recheada de muitos produtos e um atendimento especial que você só encontra aqui, na Colore! 💚🧡"
+  ],
+  "titulos": [],
   "passa_filtros": false
  },
  {
@@ -4871,6 +5643,104 @@
   "passa_filtros": false
  },
  {
+  "anunciante": "Fockstore",
+  "page_id": "141321265879310",
+  "perfil": "https://www.facebook.com/fockstore/",
+  "dominio": "fockstore.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 224,
+  "anuncio_mais_novo_dias": 224,
+  "termos": [
+   "costura"
+  ],
+  "exemplo_link": "https://www.fockstore.com/",
+  "copies": [
+   "Camisetas que atravessam gerações. Produtos de qualidade há 22 anos.\n\nAlgodão certificado BCI — cultivo responsável e justo\nLavagens especiais — toque macio e charme envelhecido\nProdução 100% Brasileira — qualidade e valor local\nEstampa em silk — resistente ao tempo e uso\nCostura reforçada — acabame"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Xucrão Boots",
+  "page_id": "216468589114044",
+  "perfil": "https://www.facebook.com/xucraoboots/",
+  "dominio": "xucraoboots.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 1106,
+  "anuncio_mais_novo_dias": 1106,
+  "termos": [
+   "costura"
+  ],
+  "exemplo_link": "https://www.xucraoboots.com.br/t",
+  "copies": [
+   "Bem-vindo aos Bastidores da Xucrão Boots!\n\n Aqui, a autenticidade encontra a qualidade em cada passo.\nNossa jornada começa com a seleção minuciosa dos melhores couros, garantindo durabilidade e estilo.\n\n Os detalhes importam, e é por isso que cada costura é feita com precisão, e cada solado é moldad"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Vittal Calçados",
+  "page_id": "462315297860023",
+  "perfil": "https://www.facebook.com/Vittalcalcados/",
+  "dominio": "lojavittal.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 508,
+  "anuncio_mais_novo_dias": 508,
+  "termos": [
+   "costura"
+  ],
+  "exemplo_link": "https://lojavittal.com.br/bota-coturno-tratorada-vittal-buckle-r780preto",
+  "copies": [
+   "👢✨ Bota Coturno Buckle Vittal – Estilo e Conforto em Cada Passo! ✨\nA Bota Coturno Buckle Vittal é a escolha perfeita para quem busca estilo, conforto e praticidade. Com design moderno e acabamento impecável, ela combina com diversos looks e ocasiões.\n🔹 Couro legítimo – durabilidade e sofisticação.\n🔹"
+  ],
+  "titulos": [
+   "👢Modelos Exclusivos"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Eb.outlet",
+  "page_id": "363118226878122",
+  "perfil": "https://www.facebook.com/61560474464530/",
+  "dominio": "eboutlet.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 174,
+  "anuncio_mais_novo_dias": 174,
+  "termos": [
+   "costura"
+  ],
+  "exemplo_link": "https://www.eboutlet.com.br/products/shorts-moletinho-adidas-retro",
+  "copies": [
+   "🔥 Conforto que você sente na hora.\n\nO Shorts Moletinho Adidas é aquele essencial pra quem busca estilo + conforto no dia a dia. Leve, macio e com caimento perfeito — ideal pra qualquer momento.\n\nDe R$ 169,99 por R$ 89,99 ⚡\n\n✔️ Tecido macio e confortável\n✔️ Caimento leve que veste bem\n✔️ Bolsos funci"
+  ],
+  "titulos": [
+   "Shorts Moletinho Adidas por R$ 89,99 🔥"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Se Cuida Mamãe",
+  "page_id": "1650409508584073",
+  "perfil": "https://www.facebook.com/secuidamamaebr/",
+  "dominio": "secuidamamae.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 483,
+  "anuncio_mais_novo_dias": 483,
+  "termos": [
+   "costura"
+  ],
+  "exemplo_link": "https://www.secuidamamae.com.br/produtos/kit-2-leggings-gestante-dia-a-dia-fitness-casual-ref-fl2/",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
   "anunciante": "21 Day Calisthenics Challenge",
   "page_id": "945357715322226",
   "perfil": "https://www.facebook.com/61584959651251/",
@@ -5022,26 +5892,6 @@
    "Aqui na Comercial DosPlásticos você encontra uma linha completa de produtos Fini para revenda. Seja em festas, lanchonetes ou como lembrancinhas, os queridinhos dos doces são sucesso garantido! 🎉\n\n🛒 Estoque agora e comece a lucrar com Fini!\n📍 Visite-nos ou peça pelo WhatsApp!\n\n#LucreComFini #Produto"
   ],
   "titulos": [],
-  "passa_filtros": false
- },
- {
-  "anunciante": "Melolo: Séries Curtas Brasil",
-  "page_id": "1029115443615296",
-  "perfil": "https://www.facebook.com/61588587216026/",
-  "dominio": "play.google.com",
-  "anuncios_ativos_min": 1,
-  "idade_dias": 104,
-  "anuncio_mais_novo_dias": 104,
-  "termos": [
-   "doces_para_vender"
-  ],
-  "exemplo_link": "https://play.google.com/store/apps/details?id=com.worldance.drama",
-  "copies": [
-   "?Ainda baixou animado por propagandas de \"grátis\", só para descobrir que precisa pagar para desbloquear ou que o vídeo para após 3 minutos de prévia?\nNão deixe mais esses truques esgotarem sua paciência!\n?Melolo: totalmente grátis, sem cartão de crédito necessário e sem enrolação.\nTodo o conteúdo é "
-  ],
-  "titulos": [
-   "episódios livres, só no Melolo"
-  ],
   "passa_filtros": false
  },
  {
@@ -7009,26 +7859,6 @@
   "passa_filtros": false
  },
  {
-  "anunciante": "Armarinho São José",
-  "page_id": "141891812592987",
-  "perfil": "https://www.facebook.com/saojose.armarinho/",
-  "dominio": "armarinhosaojose.com.br",
-  "anuncios_ativos_min": 1,
-  "idade_dias": 222,
-  "anuncio_mais_novo_dias": 222,
-  "termos": [
-   "projetos_prontos"
-  ],
-  "exemplo_link": "http://www.armarinhosaojose.com.br/",
-  "copies": [
-   "Armarinho São José: 30 Anos de Tradição e a Maior Variedade do Brasil! ✨\nEm 2026, celebramos 30 anos de história, compromisso e paixão por artesanato! O Armarinho São José é a maior loja de armarinhos e aviamentos do Brasil, com um catálogo que impressiona: mais de 80 mil produtos esperando por você"
-  ],
-  "titulos": [
-   "{{product.name}}"
-  ],
-  "passa_filtros": false
- },
- {
   "anunciante": "Delta Life - Equipamentos Veterinários",
   "page_id": "229214267130595",
   "perfil": "https://www.facebook.com/deltalifevet/",
@@ -7156,24 +7986,6 @@
   "exemplo_link": "http://instagram.com/tartiner_nuts",
   "copies": [
    "Só quem nunca experimentou Tartiner nem fez as minhas receitas pode pensar um absurdo desses!!! Comigo é assim: ZERO CULPA. 100% PRAZER. \n\nAgora mata a minha curiosidade: dos doces sem açúcar que já ensinei aqui, qual deixou suas formiguinhas mais felizes? 🐜🐜🐜"
-  ],
-  "titulos": [],
-  "passa_filtros": false
- },
- {
-  "anunciante": "Achados Niel",
-  "page_id": "110231373695200",
-  "perfil": "https://www.facebook.com/61585628372527/",
-  "dominio": "s.shopee.com.br",
-  "anuncios_ativos_min": 1,
-  "idade_dias": 28,
-  "anuncio_mais_novo_dias": 28,
-  "termos": [
-   "receitas"
-  ],
-  "exemplo_link": "https://s.shopee.com.br/5AsbmafWmg",
-  "copies": [
-   "🤯 OLHA ESSE TRUQUE PARA A COZINHA! 🍖🍚 Colher Molde de Aço Inoxidável — Faça Almôndegas, Bolinhos e Croquetes com Mais Facilidade!\n\n#Shopee #AchadinhosShopee #Almondegas #Bolinhos #Croquetes #UtensiliosDeCozinha #Cozinha #Receitas #Gastronomia #Casa #Ofertas #Promoção\nhttps://s.shopee.com.br/5AsbmafW"
   ],
   "titulos": [],
   "passa_filtros": false
@@ -7425,6 +8237,312 @@
   "passa_filtros": false
  },
  {
+  "anunciante": "Meu Conselheiro",
+  "page_id": "455259607824522",
+  "perfil": "https://www.facebook.com/oficialmeuconselheiro/",
+  "dominio": "tdv.meuconselheiro.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 67,
+  "anuncio_mais_novo_dias": 67,
+  "termos": [
+   "reconquistar"
+  ],
+  "exemplo_link": "https://tdv.meuconselheiro.com/tqv-v1?utm_source=META&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_medium=%7B%7Badset.name%7D%7D&utm_content=%7B%7Bad.name%7D%7D-%7B%7Bad.id%7D%7D&utm_term=%7B%7Bplacement%7D%7D&xcod=plataforma_temperatura%7C%7B%7Bcampaign.id%7D%7D%7C%7B%7Badset.id%7D%7D%7C%7B%7Bad.id%7D%7D%7C%7B%7Bplacement%7D%7D",
+  "copies": [
+   ""
+  ],
+  "titulos": [
+   "Aula liberada por pouco tempo"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Nicolas Corrêa",
+  "page_id": "358775431524216",
+  "perfil": "https://www.facebook.com/nicolascorrea.com.br/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 502,
+  "anuncio_mais_novo_dias": 502,
+  "termos": [
+   "reconquistar"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "Vale a pena reconquistar uma pessoa após o término? ME SEGUE! \n\n#reconquista #reconquistar #reconquistarumamor #relacionamento"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Brian Bouchard",
+  "page_id": "676227285580424",
+  "perfil": "https://www.facebook.com/61578037327823/",
+  "dominio": "play.google.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 214,
+  "anuncio_mais_novo_dias": 214,
+  "termos": [
+   "reconquistar"
+  ],
+  "exemplo_link": "http://play.google.com/store/apps/details?id=com.prime.shorts.drama.reels",
+  "copies": [
+   "Baixe grátis! Veja mais conteúdo incrível, também grátis!"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Dr Victor Blohem",
+  "page_id": "114649914464175",
+  "perfil": "https://www.facebook.com/drvictorblohem/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 214,
+  "anuncio_mais_novo_dias": 214,
+  "termos": [
+   "reconquistar"
+  ],
+  "exemplo_link": "http://instagram.com/drvictorblohem",
+  "copies": [
+   "Você emagreceu.\nMas a pele não acompanhou no mesmo ritmo.\n\nIsso acontece.\nE não diminui a conquista — apenas sinaliza que a transformação ainda não foi concluída.\n\nPerdas de peso rápidas, mesmo quando bem-sucedidas, podem comprometer a qualidade da pele, sobretudo em áreas estratégicas como rosto, b"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Oral Unic Jaraguá do Sul",
+  "page_id": "318050081935930",
+  "perfil": "https://www.facebook.com/oralunicjaraguadosul/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 258,
+  "anuncio_mais_novo_dias": 258,
+  "termos": [
+   "reconquistar"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "Agende agora a sua avaliação e vamos fazer acontecer JUNTOS 📲 💜\n•\n•\n📞 Telefone: (47) 3074-0404 \n📲 WhatsApp: (47) 9908-0204\n📍 Rua Expedicionário João Zapella, 92 \nCentro - Jaraguá do Sul - SC\n\nOralUnic Jaraguá - viva de frente\n#oralunic #jaragua #jaraguadosulsc #implante #sc"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Amanda Astral",
+  "page_id": "600445490071976",
+  "perfil": "https://www.facebook.com/amandaastral/",
+  "dominio": "mais.red",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 123,
+  "anuncio_mais_novo_dias": 123,
+  "termos": [
+   "reconquistar"
+  ],
+  "exemplo_link": "https://mais.red/sun/amandasimpatia",
+  "copies": [
+   "Quer seu amor de volta? Eu sou a Amanda Astral e tenho mais de 30 anos de experiência em união de casais!\n\nClique no link abaixo e fale comigo pelo WhatsApp, eu vou te ajudar!"
+  ],
+  "titulos": [
+   "Simpatia Para o Amor Voltar"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Mais Cabello Campo Grande",
+  "page_id": "211346985398063",
+  "perfil": "https://www.facebook.com/61556148682198/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 102,
+  "anuncio_mais_novo_dias": 102,
+  "termos": [
+   "reconquistar"
+  ],
+  "exemplo_link": "",
+  "copies": [
+   "Reconquiste sua confiança com quem entende do assunto! 💆🏻‍♂\n\n👉 link na bio.\n📍Rua Raul Píres Barbosa, 804 - Chácara Cachoeira. \n\nAviso legal: este conteúdo tem caráter exclusivamente educativo e informativo, conforme o Código de Ética Médica. Cada paciente é único, e os resultados podem variar confor"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Lovon",
+  "page_id": "471806239351671",
+  "perfil": "https://www.facebook.com/61568618393720/",
+  "dominio": "lovonlove.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 16,
+  "anuncio_mais_novo_dias": 16,
+  "termos": [
+   "reconquistar"
+  ],
+  "exemplo_link": "https://lovonlove.com/getexbackquiz-pt",
+  "copies": [
+   "Um coach de IA disponível às 3 da manhã, que lembra de tudo o que você contou e te acompanha passo a passo, seja para reconquistar ou para seguir em frente. Primeira sessão grátis."
+  ],
+  "titulos": [
+   "Depois do término, um plano de verdade"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Clini sorriso",
+  "page_id": "417660804937642",
+  "perfil": "https://www.facebook.com/amelhordeaguascompridas/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 146,
+  "anuncio_mais_novo_dias": 146,
+  "termos": [
+   "reconquistar"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Ester Feitosa Autora",
+  "page_id": "588403754354245",
+  "perfil": "https://www.facebook.com/61573247984707/",
+  "dominio": "amazon.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 116,
+  "anuncio_mais_novo_dias": 116,
+  "termos": [
+   "reconquistar"
+  ],
+  "exemplo_link": "https://www.amazon.com.br/dp/B0H5L7FTFC",
+  "copies": [
+   "POV: vocês perderam tudo numa guerra sem fim…\ne agora ele precisa escolher entre te reconquistar ou cumprir o dever pra famiglia.\n\nLivro: Queen Of My Heart 🖤\n\n👑 Casamento em Crise\n🔫 Máfia Italiana\n⏳ Age Gap\n⏳ Passado vs Presente\n🔥 Slow Burn\n🚫 Toque Nela e Você M*rre\n\nDisponível na Amazon e no Kindle"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Thiago Lins, O Guru do Amor",
+  "page_id": "567331949796301",
+  "perfil": "https://www.facebook.com/thiago.gurudoamor/",
+  "dominio": "reconquista.thiagolinsmarques.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 25,
+  "anuncio_mais_novo_dias": 25,
+  "termos": [
+   "reconquistar"
+  ],
+  "exemplo_link": "https://reconquista.thiagolinsmarques.com/quiz-02/",
+  "copies": [
+   "🔥 Ele se afastou e você acha que perdeu tudo… Mas a verdade é outra:\n👉 O homem não desaparece porque “parou de gostar”. Ele se afasta quando deixa de sentir a mesma atração e admiração do início.\n\nE a culpa não é sua.\n❌ Correr atrás, se explicar demais ou estar sempre disponível são pequenos erros e"
+  ],
+  "titulos": [
+   "10 Dias. Nenhuma mensagem. Ele voltou"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Larissa Töpper Maass",
+  "page_id": "100664547949521",
+  "perfil": "https://www.facebook.com/larissatopperm/",
+  "dominio": "vsl.larissatopper.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 52,
+  "anuncio_mais_novo_dias": 52,
+  "termos": [
+   "reconquistar"
+  ],
+  "exemplo_link": "https://vsl.larissatopper.com.br/vsl",
+  "copies": [
+   "Se você sofre com a frieza do seu marido, PARA!\n\nEu passei os últimos 8 anos analisando as 5 coisas que toda mulher faz para tentar reconquistar o seu marido.\n\nE eu preciso te confessar uma coisa no passo a passo que gravei pra você.\n\nToque no botão e assista agora mesmo antes que saia do ar..."
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Dr. Claudio Farcic",
+  "page_id": "107135269057145",
+  "perfil": "https://www.facebook.com/100092912108378/",
+  "dominio": "claudiofarcic.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 92,
+  "anuncio_mais_novo_dias": 92,
+  "termos": [
+   "reconquistar"
+  ],
+  "exemplo_link": "https://claudiofarcic.com.br/",
+  "copies": [
+   "A Luana Piovani fez uma blefaroplastia, falou disso abertamente, e o detalhe mais importante passou quase despercebido.\n\nEla não é minha paciente, e o caso dela eu não comento. O que me interessa é uma frase que ela disse: o incômodo com o excesso de pele nos olhos vinha de muito antes da decisão.\n\n"
+  ],
+  "titulos": [
+   "O incômodo vinha de muito antes"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "SoulMais Odontologia ",
+  "page_id": "300460229823174",
+  "perfil": "https://www.facebook.com/61559846127528/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 238,
+  "anuncio_mais_novo_dias": 238,
+  "termos": [
+   "reconquistar"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "Recupere todos os seus dentes e volte a sorrir sem medo com a Prótese Protocolo a solução definitiva para abandonar a dentadura em 𝗮𝗽𝗲𝗻𝗮𝘀 𝟳 𝗱𝗶𝗮𝘀! 😮🤩\n\nA Prótese Protocolo devolve sua liberdade para comer, sorrir e viver com conforto, segurança e autoestima, garantindo dentes fixos novamente em pouquí"
+  ],
+  "titulos": [
+   "Você conhece a prótese PROTOCOLO?"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Pisani Odontologia",
+  "page_id": "683422411803504",
+  "perfil": "https://www.facebook.com/pisani.odonto/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 180,
+  "anuncio_mais_novo_dias": 180,
+  "termos": [
+   "reconquistar"
+  ],
+  "exemplo_link": "http://instagram.com/pisani.odonto",
+  "copies": [
+   "O Sr. Andrade chegou à Pisani Odontologia com perda dentária avançada, vergonha de sorrir e dificuldade pra mastigar. Ele já não se via mais com um sorriso completo.\n\nCom o Implante Protocolo e a técnica de Carga Imediata (prótese fixa em poucos dias), aliados ao nosso Planejamento Digital Integrado"
+  ],
+  "titulos": [
+   " "
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Kativar Instituto Odontológico",
+  "page_id": "387171564485107",
+  "perfil": "https://www.facebook.com/61564510951739/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 152,
+  "anuncio_mais_novo_dias": 152,
+  "termos": [
+   "reconquistar"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "DEVOLVEMOS A DIGNIDADE DO SEU SORRISO"
+  ],
+  "titulos": [
+   "Converse conosco"
+  ],
+  "passa_filtros": false
+ },
+ {
   "anunciante": "Shopee Brasil Afiliados",
   "page_id": "1060768857122428",
   "perfil": "https://www.facebook.com/61573331212384/",
@@ -7540,26 +8658,6 @@
    "🚨🚨🚨De garagem pra gigante.\nCevan entrou na mentoria com um mercadinho pequeno, tocando nas horas vagas… Era só uma renda extra.\n\nHoje são dois mercados grandes, vendendo muito no varejo e no atacado.\nEle saiu do contracheque fixo como servidor, pra viver 100% do que construiu com as próprias mãos.\n\n"
   ],
   "titulos": [],
-  "passa_filtros": false
- },
- {
-  "anunciante": "Anota AI",
-  "page_id": "1788954381403911",
-  "perfil": "https://www.facebook.com/anotaAI.bots/",
-  "dominio": "contato.anota.ai",
-  "anuncios_ativos_min": 1,
-  "idade_dias": 81,
-  "anuncio_mais_novo_dias": 81,
-  "termos": [
-   "salgados_para_vender"
-  ],
-  "exemplo_link": "https://contato.anota.ai/?utm_source=facebook&utm_medium=cpa",
-  "copies": [
-   "{{product.brand}}"
-  ],
-  "titulos": [
-   "{{product.name}}"
-  ],
   "passa_filtros": false
  },
  {
@@ -7775,6 +8873,296 @@
   ],
   "titulos": [
    "Entre em contato já"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "FedEx",
+  "page_id": "246931925468248",
+  "perfil": "https://www.facebook.com/fedexbr/",
+  "dominio": "fedex.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 185,
+  "anuncio_mais_novo_dias": 185,
+  "termos": [
+   "seu_ex"
+  ],
+  "exemplo_link": "https://www.fedex.com/pt-br/shipping/rates/last-minute-rates.html?cmp=SOC-1009085-4-1-1001-1000000-LAC-BR-ES-MetaCarousel",
+  "copies": [
+   "Seu envio não pode esperar? Faça uma cotação rápida com preços econômicos. Conheça mais em: fedex.com/tarifasultimominuto"
+  ],
+  "titulos": [
+   "FedEx"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Windsor Hoteis",
+  "page_id": "162064837185973",
+  "perfil": "https://www.facebook.com/windsorhoteis/",
+  "dominio": "windsorhoteis.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 144,
+  "anuncio_mais_novo_dias": 144,
+  "termos": [
+   "seu_ex"
+  ],
+  "exemplo_link": "https://windsorhoteis.com/promocao/miramar-signature/?utm_source=meta&utm_medium=cpc&utm_campaign=ED-awareness-miramar&utm_content=conjunto-interesses&utm_term=carrossel-miramar",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Relax Game",
+  "page_id": "877263945472754",
+  "perfil": "https://www.facebook.com/61584650291053/",
+  "dominio": "fb.gg",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 58,
+  "anuncio_mais_novo_dias": 58,
+  "termos": [
+   "seu_ex"
+  ],
+  "exemplo_link": "https://fb.gg/play/657559080479729/d/899668526268782/",
+  "copies": [
+   "Seu casamento para de repente quando seu ex invade e revela uma verdade chocante.\nToque para decidir se você continua a cerimônia ou para tudo para encarar a verdade. 💍"
+  ],
+  "titulos": [
+   "👉 Toque para decidir o destino do seu casamento"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Renova Be",
+  "page_id": "587603438571763",
+  "perfil": "https://www.facebook.com/renovabeoficial/",
+  "dominio": "renovabe.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 40,
+  "anuncio_mais_novo_dias": 40,
+  "termos": [
+   "seu_ex"
+  ],
+  "exemplo_link": "http://renovabe.com.br/produtos/colageno-verisol",
+  "copies": [
+   "A Renova Be está de cara nova! ✨\nNova identidade, nova experiência e o Colágeno Verisol que faz parte da rotina de milhares de mulheres.\n\nConheça essa nova fase da Renova Be!"
+  ],
+  "titulos": [
+   "A Renova Be está de cara nova!"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Selfit Academias",
+  "page_id": "440416179396240",
+  "perfil": "https://www.facebook.com/SELFITacademias/",
+  "dominio": "selfitacademias.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 208,
+  "anuncio_mais_novo_dias": 208,
+  "termos": [
+   "seu_ex"
+  ],
+  "exemplo_link": "https://www.selfitacademias.com.br/unidades",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Defina",
+  "page_id": "197364284372560",
+  "perfil": "https://www.facebook.com/DefinaEstetica/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 652,
+  "anuncio_mais_novo_dias": 652,
+  "termos": [
+   "seu_ex"
+  ],
+  "exemplo_link": "http://instagram.com/defina_estetica",
+  "copies": [
+   "alegar que não sabia não vai te livrar de uma multa salgada por problema no descarte do seu lixo!\n\nO PGRSS deve mostrar todo o fluxo do seu lixo e a falta desse documento pode te gerar uma penalidade (multa) salgada!!"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Oral Estima Studio de Sorrisos",
+  "page_id": "1811664832382405",
+  "perfil": "https://www.facebook.com/oralestima/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 991,
+  "anuncio_mais_novo_dias": 991,
+  "termos": [
+   "seu_ex"
+  ],
+  "exemplo_link": "",
+  "copies": [
+   "JA TEVE UMA MÁ EXPERIENCIA COM DENTISTAS? SAIBA QUE SIM, TEM COMO SUPERAR TUDO ISSO!!!\nA Dona Ana Ângela resgatou a sua autoestima a partir do presente proporcionado pelo filho Adriano que consistiu na devolução do seu sorriso a partir de implantes dentários feitos aqui na Oral Estima Studio de Sorr"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Leo Simão Estoico",
+  "page_id": "111793271398154",
+  "perfil": "https://www.facebook.com/leosimaoestoico/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 470,
+  "anuncio_mais_novo_dias": 470,
+  "termos": [
+   "seu_ex"
+  ],
+  "exemplo_link": "http://instagram.com/leosimaoestoico",
+  "copies": [
+   "Em 2021 após passar uma semana na UTI com 90% do meu pulmão comprometido, eu vivi o  o que chamo de roda da aflição, onde eu acordava ansioso, procrastinava o dia todo e dormia depressivo, e nesta época fui buscar uma saida. E vou te explicar abaixo o que foi.\n\nVocê está preso na roda da aflição.\nAn"
+  ],
+  "titulos": [
+   "Leo Simão Estoico"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Sterilair",
+  "page_id": "103767046420638",
+  "perfil": "https://www.facebook.com/sterilairbrasil/",
+  "dominio": "sterilair.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 220,
+  "anuncio_mais_novo_dias": 220,
+  "termos": [
+   "seu_ex"
+  ],
+  "exemplo_link": "https://www.sterilair.com.br/",
+  "copies": [
+   "ℹ️ Sterilair é o purificador de ar melhor avaliado do Brasil, com Padrão NASA (ISO5) de esterilização, previne crises alérgicas de rinite, sinusite e asma. 🍃\n\n🧑‍🔬 Eficácia cientificamente comprovada (laudos no site).\n\n📝 Confira as + de 6.300 avaliações 5⭐ em nosso site.\n\n🎫 Use o cupom BEMVINDO e gan"
+  ],
+  "titulos": [
+   "Sterilair"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Loxonin Flex",
+  "page_id": "112129017813147",
+  "perfil": "https://www.facebook.com/LoxoninFlex/",
+  "dominio": "loxoninflex.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 28,
+  "anuncio_mais_novo_dias": 28,
+  "termos": [
+   "seu_ex"
+  ],
+  "exemplo_link": "https://loxoninflex.com.br/?utm_source=meta-ads&utm_medium=social-ads&utm_campaign=hhy_daiichi-sankyo_loxonin-flex_regioes_2026_aon_awareness_alcance_lifestyle_meta-ads&utm_content=lifestyle_interesses_social-ads_estatico_cada-conquista",
+  "copies": [
+   "Toda viagem merece leveza e foco na programação. Não deixe a dor muscular* atrapalhar as conquistas. Conheça Loxonin® Flex.¹"
+  ],
+  "titulos": [
+   "Alívio da dor por 24h#¹⁻⁴"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Shirley Miclos Nutricionista",
+  "page_id": "106966205514257",
+  "perfil": "https://www.facebook.com/100085882676188/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 167,
+  "anuncio_mais_novo_dias": 167,
+  "termos": [
+   "seu_ex"
+  ],
+  "exemplo_link": "http://instagram.com/shirleymiclos",
+  "copies": [
+   "Siga @shirleymiclos"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Di Belle Pizzaria",
+  "page_id": "108785751961796",
+  "perfil": "https://www.facebook.com/dibelleoficial/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 544,
+  "anuncio_mais_novo_dias": 544,
+  "termos": [
+   "seu_ex"
+  ],
+  "exemplo_link": "http://instagram.com/pizzariadibelle",
+  "copies": [
+   "Conheça a delícia que conquistou a cidade!🥇"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "CERN - Ranieri Nogueira - Coaching & Mentoring",
+  "page_id": "1788476564525377",
+  "perfil": "https://www.facebook.com/cernmentoria/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 196,
+  "anuncio_mais_novo_dias": 196,
+  "termos": [
+   "seu_ex"
+  ],
+  "exemplo_link": "",
+  "copies": [
+   "Direcionamento para Procuradorias #mentoria #concursos"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "PineDrama",
+  "page_id": "847445881794436",
+  "perfil": "https://www.facebook.com/61585267019497/",
+  "dominio": "play.google.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 47,
+  "anuncio_mais_novo_dias": 47,
+  "termos": [
+   "seu_ex"
+  ],
+  "exemplo_link": "http://play.google.com/store/apps/details?id=com.ss.android.ttmd.video",
+  "copies": [
+   "Adotada por caçadores, ela tenta matar o lobo-rei, mas acaba acordando com ele."
+  ],
+  "titulos": [
+   "Baixe o PineDrama — short dramas sem parar!"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Atlas Earth",
+  "page_id": "112685607565213",
+  "perfil": "https://www.facebook.com/AtlasEarthApp/",
+  "dominio": "play.google.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 25,
+  "anuncio_mais_novo_dias": 25,
+  "termos": [
+   "seu_ex"
+  ],
+  "exemplo_link": "http://play.google.com/store/apps/details?id=ci.atlasearth.client",
+  "copies": [
+   "Seu bairro. Seus lugares favoritos. Seus terrenos digitais. Colecione o mundo real no ATLAS e ganhe recompensas em dinheiro de verdade."
+  ],
+  "titulos": [
+   "Terrenos Digitais. Dinheiro Real."
   ],
   "passa_filtros": false
  },
@@ -8061,26 +9449,6 @@
    "Toda empresa tem 3 tipos de funcionários.\nE a forma como o dono enxerga cada um determina o destino do negócio.\n\nTem o que entrega menos do que recebe, esse na prática, drena energia, tempo e dinheiro da empresa sem perceber.\n\nTem o que faz exatamente o combinado, é correto, importante, mas não move"
   ],
   "titulos": [],
-  "passa_filtros": false
- },
- {
-  "anunciante": "Melolo Hub - Assistir Grátis no Brasil",
-  "page_id": "1004993122703480",
-  "perfil": "https://www.facebook.com/61586541015458/",
-  "dominio": "play.google.com",
-  "anuncios_ativos_min": 1,
-  "idade_dias": 132,
-  "anuncio_mais_novo_dias": 132,
-  "termos": [
-   "trabalhar_de_casa"
-  ],
-  "exemplo_link": "https://play.google.com/store/apps/details?id=com.worldance.drama",
-  "copies": [
-   "💕Ainda baixou animado por propagandas de \"grátis\", só para descobrir que precisa pagar para desbloquear ou que o vídeo para após 3 minutos de prévia?Não deixe mais esses truques esgotarem sua paciência!👉Melolo: totalmente grátis e sem enrolação.Todo o conteúdo é acessível de imediato, sem custos ocu"
-  ],
-  "titulos": [
-   "veja episódios grátis!"
-  ],
   "passa_filtros": false
  },
  {
