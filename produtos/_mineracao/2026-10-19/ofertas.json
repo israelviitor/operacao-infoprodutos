@@ -23,6 +23,28 @@
   "passa_filtros": true
  },
  {
+  "anunciante": "Renan Botelho Dr",
+  "page_id": "378128628724966",
+  "perfil": "https://www.facebook.com/61565099531612/",
+  "dominio": "split.vkdigital.com.br",
+  "anuncios_ativos_min": 16,
+  "idade_dias": 20,
+  "anuncio_mais_novo_dias": 12,
+  "termos": [
+   "chá_para_emagrecer"
+  ],
+  "exemplo_link": "https://split.vkdigital.com.br/rules/ecd6e1c5-5a4e-48ee-9e4a-ed4844f4447e",
+  "copies": [
+   "",
+   "",
+   ""
+  ],
+  "titulos": [
+   "Clique em \"Saiba Mais\" e faça o seu diagnóstico gratuito"
+  ],
+  "passa_filtros": true
+ },
+ {
   "anunciante": "Ricardo Artesanato",
   "page_id": "913699531818972",
   "perfil": "https://www.facebook.com/61584502316540/",
@@ -116,7 +138,8 @@
   "idade_dias": 45,
   "anuncio_mais_novo_dias": 45,
   "termos": [
-   "emagrecer_em_casa"
+   "emagrecer_em_casa",
+   "jejum"
   ],
   "exemplo_link": "https://webinar.isalatuf.com.br/",
   "copies": [
@@ -168,6 +191,47 @@
   "passa_filtros": true
  },
  {
+  "anunciante": "Comidas deliciosas lucrativas ",
+  "page_id": "513390198530160",
+  "perfil": "https://www.facebook.com/61571954710888/",
+  "dominio": "",
+  "anuncios_ativos_min": 6,
+  "idade_dias": 21,
+  "anuncio_mais_novo_dias": 21,
+  "termos": [
+   "doces_para_vender"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "🍮 Você sabia que dá pra LUCRAR MUITO fazendo pudim simples e irresistível… sem usar fogo?\n\nSeus clientes vão ficar encantados com a cremosidade, a firmeza e o sabor — e o melhor: vão sempre voltar pedindo mais! 😍\n\nCom o Método Pudim Sem Fogo, você aprende passo a passo como fazer pudins lisinhos, pr"
+  ],
+  "titulos": [
+   "Pudim Sem Fogo"
+  ],
+  "passa_filtros": true
+ },
+ {
+  "anunciante": "Dr. Renan Botelho - Emagrecimento Feminino",
+  "page_id": "801957383011565",
+  "perfil": "https://www.facebook.com/61583579896634/",
+  "dominio": "descubra-idade-metabolica247.desafiodrrenanbotelho...",
+  "anuncios_ativos_min": 6,
+  "idade_dias": 44,
+  "anuncio_mais_novo_dias": 44,
+  "termos": [
+   "jejum"
+  ],
+  "exemplo_link": "https://descubra-idade-metabolica247.desafiodrrenanbotelho.com.br/?utm_source=metaads_ASC_{{site_source_name}}&utm_medium={{adset.name}}&utm_campaign={{campaign.name}}&utm_term={{placement}}&utm_content={{ad.name}}&utm_content_id={{ad.id}}",
+  "copies": [
+   "Aprenda a fazer o verdadeiro e único Jejum Metabólico, do jeito certo.\n\nVem participar comigo do DESAFIO JEJUM 5 EM 7!\n\n👉 Toque em \"Saiba Mais\" e garanta sua vaga!",
+   "Aprenda a fazer o verdadeiro e único Jejum Metabólico, do jeito certo.\n\nVem participar comigo do DESAFIO JEJUM 5 EM 7!\n\n👉 Toque em \"Saiba Mais\" e garanta sua vaga!"
+  ],
+  "titulos": [
+   "DESAFIO JEJUM 5 EM 7 | GARANTA SUA VAGA!"
+  ],
+  "passa_filtros": true
+ },
+ {
   "anunciante": "Gocase Brasil",
   "page_id": "303932929804838",
   "perfil": "https://www.facebook.com/gocasebr/",
@@ -188,17 +252,575 @@
   "passa_filtros": true
  },
  {
+  "anunciante": "THAIX digital trainer",
+  "page_id": "416036084921665",
+  "perfil": "https://www.facebook.com/THAIXRTBX/",
+  "dominio": "2.desafiohiitdance.com",
+  "anuncios_ativos_min": 5,
+  "idade_dias": 31,
+  "anuncio_mais_novo_dias": 31,
+  "termos": [
+   "jejum"
+  ],
+  "exemplo_link": "https://2.desafiohiitdance.com/htd",
+  "copies": [
+   "Descubra como eliminar a pochete teimosa com treinos divertidos, no ritmo da música\n\nClique em \"saiba mais\" e faça o teste gratuito"
+  ],
+  "titulos": [
+   "Teste Gratuito"
+  ],
+  "passa_filtros": true
+ },
+ {
+  "anunciante": "Quaker Brasil",
+  "page_id": "133705003368840",
+  "perfil": "https://www.facebook.com/QuakerBrasil/",
+  "dominio": "",
+  "anuncios_ativos_min": 5,
+  "idade_dias": 28,
+  "anuncio_mais_novo_dias": 17,
+  "termos": [
+   "receitas"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "Coração com um Q a mais. Seu coração trabalha o dia todo por você, comece sua manhã cuidando dele. Inspire-se em receitas com aveia clicando agora no link da bio 💙",
+   "{{product.brand}}",
+   "Coração com um Q a mais. Seu coração trabalha o dia todo por você, comece sua manhã cuidando dele. Inspire-se em receitas com aveia clicando agora no link da bio 💙"
+  ],
+  "titulos": [
+   "Coração com um Q a mais",
+   "{{product.name}}"
+  ],
+  "passa_filtros": true
+ },
+ {
+  "anunciante": "SHEIN Brasil",
+  "page_id": "218726778785423",
+  "perfil": "https://www.facebook.com/SHEINBrasil/",
+  "dominio": "m.shein.com",
+  "anuncios_ativos_min": 5,
+  "idade_dias": 28,
+  "anuncio_mais_novo_dias": 10,
+  "termos": [
+   "treino_em_casa"
+  ],
+  "exemplo_link": "https://m.shein.com/br/ark/default?scene=1&test=5051&ad_type=DPA&url_from=adhub2102005516032380930&pf=Facebook&placement={{placement}}&site_source_name={{site_source_name}}",
+  "copies": [
+   "Eleve seu visual com nossa seleção criteriosa de sapatos da moda",
+   "Eleve seu visual com nossa seleção criteriosa de sapatos da moda",
+   "Caminhe com confiança com nossos designs de calçados modernos e chiques."
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": true
+ },
+ {
+  "anunciante": "Dona Fatima",
+  "page_id": "105072185474191",
+  "perfil": "https://www.facebook.com/100082003658540/",
+  "dominio": "",
+  "anuncios_ativos_min": 4,
+  "idade_dias": 19,
+  "anuncio_mais_novo_dias": 19,
+  "termos": [
+   "aulas_prontas"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "🎨 Mais de 5000 moldes, Letras grandes prontas  para imprimir e recortar\n✅ Separados por tema: encontre o que precisa em 1 clique\n✅ Produza aulas, painéis e encomendas em menos de 15 minutos\n✅ Economize até 80% de material de EVA"
+  ],
+  "titulos": [
+   "Converse conosco"
+  ],
+  "passa_filtros": true
+ },
+ {
+  "anunciante": "Personal Mari Eiras",
+  "page_id": "201522879717917",
+  "perfil": "https://www.facebook.com/61555848332924/",
+  "dominio": "marianaeiraspersonal.com.br",
+  "anuncios_ativos_min": 4,
+  "idade_dias": 38,
+  "anuncio_mais_novo_dias": 38,
+  "termos": [
+   "desafio_21_dias"
+  ],
+  "exemplo_link": "https://marianaeiraspersonal.com.br/ddx-12/",
+  "copies": [
+   "Por que você treina, faz dieta… e o braço continua gordo? Você sente que está fazendo tudo certo — treina todo dia, até ganha músculo — mas a gordura não vai embora?\n\nVocê está se sentindo FORGA — forte, mas ainda gordinha.\nE o motivo é ser simples: você está fazendo o treino errado.\n\n👉 Esse é o sin"
+  ],
+  "titulos": [],
+  "passa_filtros": true
+ },
+ {
+  "anunciante": "Tramontina Primia",
+  "page_id": "104275165687217",
+  "perfil": "https://www.facebook.com/tramontinaprimia/",
+  "dominio": "global.tramontina.com",
+  "anuncios_ativos_min": 4,
+  "idade_dias": 18,
+  "anuncio_mais_novo_dias": 18,
+  "termos": [
+   "doces_para_vender"
+  ],
+  "exemplo_link": "https://global.tramontina.com/primia?utm_source=meta&utm_medium=cpm&utm_campaign=w3_2026_meta_ig_aws_recmarca_primia_aon_primia_foodservice&utm_content=engaj_out_pdn_casaafaga_pp_ppva_ad16186",
+  "copies": [
+   "O novo episódio da série Por Dentro do Negócio desembarca no RJ para conhecer a Casa Afagá. Os sócios Matheus, Thayanini e Jessica contam como transformaram a venda de bolos no pote em um espaço único de gastronomia e afeto.\n\nE para acompanhar esse crescimento, a Tramontina Primia entrou em cena com",
+   "O novo episódio da série Por Dentro do Negócio desembarca no RJ para conhecer a Casa Afagá. Os sócios Matheus, Thayanini e Jessica contam como transformaram a venda de bolos no pote em um espaço único de gastronomia e afeto.\n\nE para acompanhar esse crescimento, a Tramontina Primia entrou em cena com"
+  ],
+  "titulos": [],
+  "passa_filtros": true
+ },
+ {
+  "anunciante": "Regina Silva",
+  "page_id": "669336156255351",
+  "perfil": "https://www.facebook.com/61575687975669/",
+  "dominio": "",
+  "anuncios_ativos_min": 4,
+  "idade_dias": 25,
+  "anuncio_mais_novo_dias": 25,
+  "termos": [
+   "salgados_para_vender"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "Você faz salgados, vende bastante, mas sente que o dinheiro não sobra? 🤔💸 O problema pode estar na massa, no congelamento, na montagem ou na precificação da bandeja.\n\nNo Método Salgados Lucrativos na Bandeja, você aprende o passo a passo para preparar, congelar, embalar, montar e calcular o preço co",
+   "Você faz salgados, vende bastante, mas sente que o dinheiro não sobra? 🤔💸 O problema pode estar na massa, no congelamento, na montagem ou na precificação da bandeja.\n\nNo Método Salgados Lucrativos na Bandeja, você aprende o passo a passo para preparar, congelar, embalar, montar e calcular o preço co"
+  ],
+  "titulos": [
+   "Converse conosco"
+  ],
+  "passa_filtros": true
+ },
+ {
+  "anunciante": "Lucas Baggio",
+  "page_id": "238939146624",
+  "perfil": "https://www.facebook.com/100070999661817/",
+  "dominio": "on.com",
+  "anuncios_ativos_min": 4,
+  "idade_dias": 18,
+  "anuncio_mais_novo_dias": 18,
+  "termos": [
+   "treino_em_casa"
+  ],
+  "exemplo_link": "https://www.on.com/running",
+  "copies": [
+   "hoje eu fui correndo até outra cidade!\n\ne no treino mais longo desse ciclo de maratona, quem me acompanhou foi o Cloudmonster 3 da @on.brasil, uma máquina de estabilidade e resposta pra rodagens.\n\n#DreamOn #publi #Cloudmonster3 #RunOnClouds @on.brasil"
+  ],
+  "titulos": [],
+  "passa_filtros": true
+ },
+ {
+  "anunciante": "Teacher Poli",
+  "page_id": "238736745982689",
+  "perfil": "https://www.facebook.com/61555913889428/",
+  "dominio": "go.teacherpoli.com",
+  "anuncios_ativos_min": 3,
+  "idade_dias": 11,
+  "anuncio_mais_novo_dias": 11,
+  "termos": [
+   "apostila"
+  ],
+  "exemplo_link": "https://go.teacherpoli.com/eqwaia?site=%7B%7Bsite_source_name%7D%7D&placement=%7B%7Bplacement%7D%7D&adset=%7B%7Badset.id%7D%7D&ad=%7B%7Bad.id%7D%7D&campaign=%7B%7Bcampaign.id%7D%7D",
+  "copies": [
+   "🤯 Quando a pessoa descobre que a Teacher Poli vai estar com mais de 50% de desconto nessa Black November…\n\n🎁 E que, comprando nessa oferta, ainda ganha 9 bônus exclusivos: aulas ao vivo com professor 2x por semana, Intensivo de Inglês para Viagens, curso com psicólogo pra superar o nervosismo de fal"
+  ],
+  "titulos": [
+   "🔥 Mais de 50% de desconto na Teacher Poli!"
+  ],
+  "passa_filtros": true
+ },
+ {
+  "anunciante": "Carlos Klein - Personal",
+  "page_id": "707794112428049",
+  "perfil": "https://www.facebook.com/61580277669852/",
+  "dominio": "oficialbarrigazero.protocolocarlos.com.br",
+  "anuncios_ativos_min": 3,
+  "idade_dias": 38,
+  "anuncio_mais_novo_dias": 38,
+  "termos": [
+   "emagrecer_em_casa",
+   "treino_em_casa"
+  ],
+  "exemplo_link": "https://oficialbarrigazero.protocolocarlos.com.br/quizz",
+  "copies": [
+   "Tem algo que ninguém fala sobre a barriga depois dos 40. Não é o espelho que mais incomoda. É a mulher começar a te olhar diferente. A energia cair. O silêncio que vai se instalando. Você acha que é falta de vontade — mas é hormonal.Quando você corrige o desequilíbrio hormonal, em semanas não é só a",
+   "Tem algo que ninguém fala sobre a barriga depois dos 40. Não é o espelho que mais incomoda. É a mulher começar a te olhar diferente. A energia cair. O silêncio que vai se instalando. Você acha que é falta de vontade — mas é hormonal.Quando você corrige o desequilíbrio hormonal, em semanas não é só a"
+  ],
+  "titulos": [
+   "13.547 Avaliações ⭐⭐⭐⭐⭐ (4.99)"
+  ],
+  "passa_filtros": true
+ },
+ {
+  "anunciante": "Renan Botelho Dr",
+  "page_id": "378128628724966",
+  "perfil": "https://www.facebook.com/61565099531612/",
+  "dominio": "descubra-idade-metabolica247.desafiodrrenanbotelho.com.br",
+  "anuncios_ativos_min": 3,
+  "idade_dias": 24,
+  "anuncio_mais_novo_dias": 24,
+  "termos": [
+   "jejum"
+  ],
+  "exemplo_link": "https://descubra-idade-metabolica247.desafiodrrenanbotelho.com.br/?utm_source=metaads_ASC_{{site_source_name}}&utm_medium={{adset.name}}&utm_campaign={{campaign.name}}&utm_term={{placement}}&utm_content={{ad.name}}&utm_content_id={{ad.id}}&vk_source=paid_metaads&vk_ad_id={{ad.id}}",
+  "copies": [
+   "Aprenda a fazer o verdadeiro e único Jejum Metabólico, do jeito certo.\n\nVem participar comigo do DESAFIO JEJUM 5 EM 7!\n\n👉 Toque em \"Saiba Mais\" e garanta sua vaga!"
+  ],
+  "titulos": [
+   "DESAFIO JEJUM 5 EM 7 | GARANTA SUA VAGA!"
+  ],
+  "passa_filtros": true
+ },
+ {
+  "anunciante": "Mercado Livre",
+  "page_id": "133452713505",
+  "perfil": "https://www.facebook.com/MercadoLivre/",
+  "dominio": "mercadolivre.com.br",
+  "anuncios_ativos_min": 3,
+  "idade_dias": 14,
+  "anuncio_mais_novo_dias": 14,
+  "termos": [
+   "kit_com"
+  ],
+  "exemplo_link": "http://www.mercadolivre.com.br/",
+  "copies": [
+   "Entrega rápida e devolução grátis em até 30 dias. Compre no Mercado Livre hoje!",
+   "Entrega rápida e devolução grátis em até 30 dias. Compre no Mercado Livre hoje!",
+   "Entrega rápida e devolução grátis em até 30 dias. Compre no Mercado Livre hoje!"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": true
+ },
+ {
+  "anunciante": "Pedro Lotz",
+  "page_id": "109287314050008",
+  "perfil": "https://www.facebook.com/100068773005523/",
+  "dominio": "ltz.pedrolotz.online",
+  "anuncios_ativos_min": 3,
+  "idade_dias": 41,
+  "anuncio_mais_novo_dias": 19,
+  "termos": [
+   "planilha",
+   "treino_em_casa"
+  ],
+  "exemplo_link": "https://ltz.pedrolotz.online/trinca",
+  "copies": [
+   "",
+   "Participe do Desafio Treino Trinca e conquiste um corpo irreconhecível em 28 dias 💪",
+   ""
+  ],
+  "titulos": [
+   "Pegue o seu plano 👉",
+   "Pegue seu Plano 👉"
+  ],
+  "passa_filtros": true
+ },
+ {
+  "anunciante": "Manta Alves ",
+  "page_id": "548247935042883",
+  "perfil": "https://www.facebook.com/61562609323171/",
+  "dominio": "niointernet.com.br",
+  "anuncios_ativos_min": 3,
+  "idade_dias": 25,
+  "anuncio_mais_novo_dias": 13,
+  "termos": [
+   "trabalhar_de_casa"
+  ],
+  "exemplo_link": "https://www.niointernet.com.br/?utm_source=meta&utm_medium=social-reach&utm_campaign=convert_nio_awar_site_meta_cpm_social-reach_all-nio&utm_content=amplo_alcance_all_all&utm_term=jtc_vertical_video-90s_topo_preco-fixo_2609_creator-mantaalves-viciada-em-marcar-role",
+  "copies": [
+   "#publi \nTU FOI? NEM EU!\nSim, eu sou viciada em marcar rolê e não ir. Mas é que aqui em casa a gente tem a Nio que é a internet que realmente funciona e que tem planos que não aumentam até janeiro de 2030. É tranquilidade pra trabalhar, assistir minhas séries e ficar de preguicinha em casa. Vem com a",
+   "#Publicidade | Ninguém merece passar por isso, né?! Ainda bem que, nos novos planos da @niointernet , o 5G já vem incluso, sem pagar nada a mais por isso. Liberdade pra continuar conectado dentro e fora de casa! 📱",
+   "Publi | Teeem que acompanhar hahaha! Com @niointernet , dá pra assistir filmes, trabalhar e contar com a tranquilidade dos planos com preço fixo até jan/2030. 💚"
+  ],
+  "titulos": [],
+  "passa_filtros": true
+ },
+ {
+  "anunciante": "Pilates Daniela Zanette",
+  "page_id": "294904730371785",
+  "perfil": "https://www.facebook.com/61558739006750/",
+  "dominio": "",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 30,
+  "anuncio_mais_novo_dias": 30,
+  "termos": [
+   "desafio_21_dias"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "Desafio Pilates em Casa — Sem Mensalidades! 🧘‍♀️\n\n🌅 Dia 1 — Disposição que eu já não lembrava\n🦵 Dia 5 — Lombar e joelho pararam de reclamar\n🪞 Dia 12 — A calça fechou sem prender a respiração\n👑 Dia 21 — Todo mundo perguntando o que eu fiz\n\nApenas 30 minutos por dia, sem equipamentos, direto no seu Wh"
+  ],
+  "titulos": [
+   "Eu Quero Receber 👇"
+  ],
+  "passa_filtros": true
+ },
+ {
+  "anunciante": "Confluent",
+  "page_id": "815220961877695",
+  "perfil": "https://www.facebook.com/confluentinc/",
+  "dominio": "confluent.io",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 34,
+  "anuncio_mais_novo_dias": 34,
+  "termos": [
+   "e-book"
+  ],
+  "exemplo_link": "https://www.confluent.io/resources/ebook/developers-guide-to-rag/?utm_medium=paidsocial&utm_source=facebook&utm_campaign=ch.paidsocial_tp.prs_tgt.broad-mql-capi_rgn.amer_sbrgn.latam_lgn.eng_bgt.pg_con.developers-guide-rag-ebook_creative.ebook-bv1",
+  "copies": [
+   "Combat LLM hallucinations with retrieval-augmented generation and real-time, contextualized data. Our new eBook has everything developers need to know about building RAG for GenAI applications."
+  ],
+  "titulos": [
+   "eBook | The Developer’s Guide to RAG"
+  ],
+  "passa_filtros": true
+ },
+ {
+  "anunciante": "Chef Helena",
+  "page_id": "723085730882394",
+  "perfil": "https://www.facebook.com/61577329587406/",
+  "dominio": "",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 36,
+  "anuncio_mais_novo_dias": 35,
+  "termos": [
+   "emagrecer_em_casa",
+   "guia_completo",
+   "receitas"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "🥗 Transforme suas refeições com mais de 80 receitas de saladas gourmet!\n\nCansado de comer sempre a mesma salada? Descubra combinações deliciosas, práticas e nutritivas que parecem pratos de restaurante.\n\n✅ Mais de 80 receitas premium\n✅ Opções para emagrecer de forma saudável\n✅ Receitas fáceis para o",
+   "🥗 Transforme suas refeições com mais de 80 receitas de saladas gourmet!\n\nCansado de comer sempre a mesma salada? Descubra combinações deliciosas, práticas e nutritivas que parecem pratos de restaurante.\n\n✅ Mais de 80 receitas premium\n✅ Opções para emagrecer de forma saudável\n✅ Receitas fáceis para o"
+  ],
+  "titulos": [
+   "Converse conosco",
+   "Receba agora"
+  ],
+  "passa_filtros": true
+ },
+ {
+  "anunciante": "Educly App AI",
+  "page_id": "637931626305942",
+  "perfil": "https://www.facebook.com/tercasamauma/",
+  "dominio": "start.educly.app",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 32,
+  "anuncio_mais_novo_dias": 32,
+  "termos": [
+   "guia_completo"
+  ],
+  "exemplo_link": "https://start.educly.app/quiz-esp-hot01",
+  "copies": [
+   "🚀 ¿Y si en solo 28 días pudieras dominar la herramienta que está transformando el mercado laboral? Con apenas 15 minutos al día, aprendes Inteligencia Artificial desde cero — sin experiencia previa, sin rodeos. Quien empieza ahora, lleva ventaja. Quien espera, se queda atrás."
+  ],
+  "titulos": [
+   "Domina la IA en 28 Días — Aunque Empieces Desde Cero"
+  ],
+  "passa_filtros": true
+ },
+ {
+  "anunciante": "Renato Cariani",
+  "page_id": "1483916388309700",
+  "perfil": "https://www.facebook.com/renatocarianiatleta/",
+  "dominio": "cariani.com.br",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 34,
+  "anuncio_mais_novo_dias": 34,
+  "termos": [
+   "jejum"
+  ],
+  "exemplo_link": "https://cariani.com.br/secabarriga-quiz-v9/",
+  "copies": [
+   "Chega um momento em que olhar no espelho e prometer “segunda eu começo” deixa de funcionar.\nÉ aí que começa a verdadeira transformação.\n\nVocê já tentou dieta, academia, chá, cinta, jejum…\nE o resultado foi sempre o mesmo: frustração.\n\nMas e se o problema nunca tivesse sido o seu esforço — e sim o mo"
+  ],
+  "titulos": [
+   "TENTE ISSO POR 15 DIAS"
+  ],
+  "passa_filtros": true
+ },
+ {
+  "anunciante": "João Mainardi",
+  "page_id": "589589291132346",
+  "perfil": "https://www.facebook.com/61577715397348/",
+  "dominio": "",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 14,
+  "anuncio_mais_novo_dias": 14,
+  "termos": [
+   "planilha"
+  ],
+  "exemplo_link": "https://facebook.com/61577715397348",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": true
+ },
+ {
+  "anunciante": "Ana Santos",
+  "page_id": "679962075203160",
+  "perfil": "https://www.facebook.com/61578141200254/",
+  "dominio": "",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 31,
+  "anuncio_mais_novo_dias": 29,
+  "termos": [
+   "projetos_prontos"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "Sua casa pode ganhar uma área gourmet linda e valorizada sem você gastar uma fortuna com projetos personalizados.\n\nDescubra como centenas de brasileiros estão construindo ou reformando suas áreas gourmet com muito mais segurança usando 30 projetos prontos e completos, mesmo sem experiência em constr",
+   "Sua casa pode ganhar uma área gourmet linda e valorizada sem você gastar uma fortuna com projetos personalizados.\n\nDescubra como centenas de brasileiros estão construindo ou reformando suas áreas gourmet com muito mais segurança usando 30 projetos prontos e completos, mesmo sem experiência em constr"
+  ],
+  "titulos": [
+   "Converse conosco"
+  ],
+  "passa_filtros": true
+ },
+ {
+  "anunciante": "Tegra Incorporadora",
+  "page_id": "150023405031956",
+  "perfil": "https://www.facebook.com/tegraincorporadora/",
+  "dominio": "ad.doubleclick.net",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 19,
+  "anuncio_mais_novo_dias": 19,
+  "termos": [
+   "projetos_prontos"
+  ],
+  "exemplo_link": "https://ad.doubleclick.net/ddm/trackclk/N2729306.4828937METAFACEBOOK/B36956084.458138963;dc_trk_aid=652306059;dc_trk_cid=265262765;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1",
+  "copies": [
+   "More em um bairro planejado na Lapa, com conveniência e mobilidade em projetos que transformam a região. Apartamentos de 47m² a 105m² no complexo Caminhos da Lapa. Visite o showroom com os decorados."
+  ],
+  "titulos": [
+   "Seu novo apartamento na Lapa"
+  ],
+  "passa_filtros": true
+ },
+ {
+  "anunciante": "O Japa da Elétrica",
+  "page_id": "1093714163818035",
+  "perfil": "https://www.facebook.com/61576471823078/",
+  "dominio": "",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 27,
+  "anuncio_mais_novo_dias": 27,
+  "termos": [
+   "projetos_prontos"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "+111 Apostilas de Comandos Eletricos para você usar na obra direto do celular!!  \n\n✅Motor monofásico\n✅Compressor De Ar\n✅Bomba d Agua\n✅Chave de Bóia\n✅Pressostato\n\n- Muitos Outros Projetos!!! -  \n\nCircuito de força e comando em desenho visual, fácil de entender, sem aula enrolada..",
+   "+101 Apostilas de Comandos Eletricos para você usar na obra direto do celular!!  \n\n✅Motor monofásico\n✅Compressor De Ar\n✅Bomba d Agua\n✅Chave de Bóia\n✅Pressostato\n\n- Muitos Outros Projetos!!! -  \n\nCircuito de força e comando em desenho visual, fácil de entender, sem aula enrolada.."
+  ],
+  "titulos": [
+   "+101 Diagramas de Elétrica Prontos!!!",
+   "+111 Diagramas de Elétrica Prontos!!!"
+  ],
+  "passa_filtros": true
+ },
+ {
+  "anunciante": "Ana Carlla",
+  "page_id": "961438480390425",
+  "perfil": "https://www.facebook.com/61587383282512/",
+  "dominio": "",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 45,
+  "anuncio_mais_novo_dias": 45,
+  "termos": [
+   "receitas_fit"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   ""
+  ],
+  "titulos": [
+   "Fale agora no Whatsapp 🟢"
+  ],
+  "passa_filtros": true
+ },
+ {
+  "anunciante": "No Corre com 99 ",
+  "page_id": "1103945289472597",
+  "perfil": "https://www.facebook.com/61589924723503/",
+  "dominio": "99app.com",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 6,
+  "anuncio_mais_novo_dias": 4,
+  "termos": [
+   "renda_extra"
+  ],
+  "exemplo_link": "https://99app.com/motorista/taxa-zero-abastece/ ?utm_source=meta&utm_medium=cpm&utm_campaign=99-drv-ganhos-26_g2_drv_hero_awareness_social_base_cpm_2w-60s&utm_content=99-abastece_video_69s",
+  "copies": [
+   "Vamos colocar essa conta na ponta do lápis? Taxa Zero para rodar e 99Abastece para economizar no combustível.",
+   "Vamos colocar essa conta na ponta do lápis? Tenha Taxa Zero, KM Garantido e 99Abastece para fazer seu corre render mais"
+  ],
+  "titulos": [
+   "Faça as contas"
+  ],
+  "passa_filtros": true
+ },
+ {
+  "anunciante": "Salgados da Mirela",
+  "page_id": "1288623321001286",
+  "perfil": "https://www.facebook.com/61594091067573/",
+  "dominio": "",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 24,
+  "anuncio_mais_novo_dias": 24,
+  "termos": [
+   "salgados_para_vender"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "Um material feito para quem quer melhorar os salgados 😋, montar bandejas mais valorizadas e ter mais segurança na hora de vender. Você recebe primeiro pelo WhatsApp 📲."
+  ],
+  "titulos": [
+   "📲 Conheça o método completo"
+  ],
+  "passa_filtros": true
+ },
+ {
+  "anunciante": "Diálogo Engenharia",
+  "page_id": "236737056363575",
+  "perfil": "https://www.facebook.com/dialogoengenharia/",
+  "dominio": "dialogo.com.br",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 39,
+  "anuncio_mais_novo_dias": 39,
+  "termos": [
+   "treino_em_casa"
+  ],
+  "exemplo_link": "https://www.dialogo.com.br/tudo-comeca-com-um-dialogo?utm_source=uselink&utm_medium=meta&utm_campaign=institucional",
+  "copies": [
+   "Quanto cabe em um m²?\nCabe o primeiro passo, a família crescendo, a receita que vira tradição e até quem sempre rouba o melhor lugar do sofá.\n@bernardinho_oficial e @bruninho1 mostram tudo o que pode acontecer dentro de cada espaço dos empreendimentos da Diálogo Engenharia.\n\nCada m² conta uma histór"
+  ],
+  "titulos": [],
+  "passa_filtros": true
+ },
+ {
   "anunciante": "InfinitePay",
   "page_id": "222086361593149",
   "perfil": "https://www.facebook.com/infinitepay/",
   "dominio": "infinitepay.io",
-  "anuncios_ativos_min": 81,
+  "anuncios_ativos_min": 209,
   "idade_dias": 724,
-  "anuncio_mais_novo_dias": 40,
+  "anuncio_mais_novo_dias": 13,
   "termos": [
    "cardápio",
+   "doces_para_vender",
    "planilha",
-   "por_apenas_R_"
+   "por_apenas_R_",
+   "renda_extra",
+   "vender_pelo_celular"
   ],
   "exemplo_link": "https://www.infinitepay.io/maquina-cartao",
   "copies": [
@@ -208,8 +830,31 @@
   ],
   "titulos": [
    "Máquina de cartão com as menores taxas",
+   "Seu Celular vira maquininha GRATIS!",
    "Seu Celular vira maquininha GRÁTIS!",
    "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Interlaser Máquinas - Produza Salgados e Doces",
+  "page_id": "100546952766801",
+  "perfil": "https://www.facebook.com/interlasermaquinas.com.br/",
+  "dominio": "",
+  "anuncios_ativos_min": 31,
+  "idade_dias": 165,
+  "anuncio_mais_novo_dias": 155,
+  "termos": [
+   "salgados_para_vender"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "",
+   "",
+   ""
+  ],
+  "titulos": [
+   "Fale agora mesmo com um Consultor"
   ],
   "passa_filtros": false
  },
@@ -224,7 +869,8 @@
   "termos": [
    "acesso_imediato",
    "por_apenas_R_",
-   "receitas"
+   "receitas",
+   "trabalhar_de_casa"
   ],
   "exemplo_link": "https://www.doutorbeneficios.com/",
   "copies": [
@@ -236,6 +882,29 @@
    "Doutor Benefícios - Atendimento Médico 24h",
    "Gratus Tecnologia",
    "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Lays Sant'anna",
+  "page_id": "2016271568674266",
+  "perfil": "https://www.facebook.com/layssantannapilates/",
+  "dominio": "pilates.laystrancoso.com",
+  "anuncios_ativos_min": 27,
+  "idade_dias": 154,
+  "anuncio_mais_novo_dias": 17,
+  "termos": [
+   "chá_para_emagrecer",
+   "emagrecer_em_casa"
+  ],
+  "exemplo_link": "https://pilates.laystrancoso.com/",
+  "copies": [
+   "Vem aí o desafio pilates em casa 50+! 🙏🏼\n\nUma semana de aulas AO VIVO de pilates em casa, específico para mulheres após  os 50 anos.\n\nVocê vai diminuir suas dores, fortalecer seu corpo e emagrecer.\n\nClique em SAIBA MAIS e garanta a sua vaga!",
+   "Vem aí o desafio pilates em casa 50+! 🙏🏼\n\nUma semana de aulas AO VIVO de pilates em casa, específico para mulheres após  os 50 anos.\n\nVocê vai diminuir suas dores, fortalecer seu corpo e emagrecer.\n\nClique em SAIBA MAIS e garanta a sua vaga!",
+   "Vem aí o desafio pilates em casa 50+! 🙏🏼\n\nUma semana de aulas AO VIVO de pilates em casa, específico para mulheres após  os 50 anos.\n\nVocê vai diminuir suas dores, fortalecer seu corpo e emagrecer.\n\nClique em SAIBA MAIS e garanta a sua vaga!"
+  ],
+  "titulos": [
+   "Desafio 50+"
   ],
   "passa_filtros": false
  },
@@ -282,28 +951,6 @@
   "titulos": [
    "Smart Scan PDF",
    "Try now"
-  ],
-  "passa_filtros": false
- },
- {
-  "anunciante": "Lays Sant'anna",
-  "page_id": "2016271568674266",
-  "perfil": "https://www.facebook.com/layssantannapilates/",
-  "dominio": "pilates.laystrancoso.com",
-  "anuncios_ativos_min": 25,
-  "idade_dias": 152,
-  "anuncio_mais_novo_dias": 17,
-  "termos": [
-   "emagrecer_em_casa"
-  ],
-  "exemplo_link": "https://pilates.laystrancoso.com/",
-  "copies": [
-   "Vem aí o desafio pilates em casa 50+! 🙏🏼\n\nUma semana de aulas AO VIVO de pilates em casa, específico para mulheres após  os 50 anos.\n\nVocê vai diminuir suas dores, fortalecer seu corpo e emagrecer.\n\nClique em SAIBA MAIS e garanta a sua vaga!",
-   "Vem aí o desafio pilates em casa 50+! 🙏🏼\n\nUma semana de aulas AO VIVO de pilates em casa, específico para mulheres após  os 50 anos.\n\nVocê vai diminuir suas dores, fortalecer seu corpo e emagrecer.\n\nClique em SAIBA MAIS e garanta a sua vaga!",
-   "Vem aí o desafio pilates em casa 50+! 🙏🏼\n\nUma semana de aulas AO VIVO de pilates em casa, específico para mulheres após  os 50 anos.\n\nVocê vai diminuir suas dores, fortalecer seu corpo e emagrecer.\n\nClique em SAIBA MAIS e garanta a sua vaga!"
-  ],
-  "titulos": [
-   "Desafio 50+"
   ],
   "passa_filtros": false
  },
@@ -400,6 +1047,50 @@
   "passa_filtros": false
  },
  {
+  "anunciante": "Amazon Flex",
+  "page_id": "103802204384794",
+  "perfil": "https://www.facebook.com/AmazonFlexUS/",
+  "dominio": "flex.amazon.com.br",
+  "anuncios_ativos_min": 13,
+  "idade_dias": 136,
+  "anuncio_mais_novo_dias": 76,
+  "termos": [
+   "renda_extra"
+  ],
+  "exemplo_link": "https://flex.amazon.com.br/vehicle-types/motorcycles?cs=psoc_fbig_br_conversion_acq_faca-entregas_dp1-moto___na_sao-paulo_pt-br_na_sao-paulo-adset_1p_crs_crs_img_NA_crs",
+  "copies": [
+   "{{product.brand}}",
+   "{{product.brand}}",
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "O Boticário",
+  "page_id": "140105282727777",
+  "perfil": "https://www.facebook.com/oboticario/",
+  "dominio": "revendedores.grupoboticario.com.br",
+  "anuncios_ativos_min": 11,
+  "idade_dias": 124,
+  "anuncio_mais_novo_dias": 69,
+  "termos": [
+   "renda_extra"
+  ],
+  "exemplo_link": "https://revendedores.grupoboticario.com.br/boticario?utm_source=facebook&utm_medium=soc_paid&utm_campaign=OBoticario-Interno-AlwaysOn-IR-Awareness-facebook-Impressoes-Advantage_Alcance-NA&utm_content=All-Open-M_F_25-25_65-BR-All-Display-NA&utm_term=NA-NA-Video-AON-26s-CLeg-CSom-Jul26_MM-Proposta-Valor-NA",
+  "copies": [
+   "{{product.brand}}",
+   "{{product.brand}}",
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
   "anunciante": "WhatChimp",
   "page_id": "359717073888008",
   "perfil": "https://www.facebook.com/whatchimp/",
@@ -446,6 +1137,28 @@
   "passa_filtros": false
  },
  {
+  "anunciante": "Dra. Cláudia Benevides",
+  "page_id": "1564011493912944",
+  "perfil": "https://www.facebook.com/draclaudiabenevides1/",
+  "dominio": "draclaudiabenevides.com",
+  "anuncios_ativos_min": 8,
+  "idade_dias": 51,
+  "anuncio_mais_novo_dias": 39,
+  "termos": [
+   "chá_para_emagrecer"
+  ],
+  "exemplo_link": "https://draclaudiabenevides.com/cintura-pg-v3",
+  "copies": [
+   "O que é a barriga fermentada da menopausa? Acorda com a barriga menor e termina o dia estufada?\n\nIsso tem um nome. E tem solução — mas não é dieta comum.\n\nAssista ao vídeo e entenda por quê.",
+   "O que é a barriga fermentada da menopausa? Acorda com a barriga menor e termina o dia estufada?\n\nIsso tem um nome. E tem solução — mas não é dieta comum.\n\nAssista ao vídeo e entenda por quê.",
+   "O que é a barriga fermentada da menopausa? Acorda com a barriga menor e termina o dia estufada?\n\nIsso tem um nome. E tem solução — mas não é dieta comum.\n\nAssista ao vídeo e entenda por quê."
+  ],
+  "titulos": [
+   "O que é a barriga fermentada da menopausa?"
+  ],
+  "passa_filtros": false
+ },
+ {
   "anunciante": "Victor Pareto",
   "page_id": "468037109734919",
   "perfil": "https://www.facebook.com/61569677676829/",
@@ -469,6 +1182,29 @@
   "passa_filtros": false
  },
  {
+  "anunciante": "Ton",
+  "page_id": "109059077269135",
+  "perfil": "https://www.facebook.com/seliganoton/",
+  "dominio": "rendaextra.ton.com.br",
+  "anuncios_ativos_min": 8,
+  "idade_dias": 47,
+  "anuncio_mais_novo_dias": 24,
+  "termos": [
+   "renda_extra",
+   "trabalhar_de_casa"
+  ],
+  "exemplo_link": "https://rendaextra.ton.com.br/renda-ton",
+  "copies": [
+   "Quer faturar com Vendas?\nRevenda Ton com o nosso programa de Indicação",
+   "Uma renda que se encaixa na sua vida, não o contrário 💚\nNo Renda Ton você indica maquininhas de onde quiser, no horário que quiser, e ganha comissão por venda."
+  ],
+  "titulos": [
+   "Cadastre-se hoje em menos de 2min",
+   "Renda extra sem sair de casa 💚"
+  ],
+  "passa_filtros": false
+ },
+ {
   "anunciante": "Método Mamãe",
   "page_id": "525011250704871",
   "perfil": "https://www.facebook.com/61574327760116/",
@@ -485,6 +1221,33 @@
   ],
   "titulos": [
    "102 atividades que seu filho vai querer repetir."
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Dicas para Secar",
+  "page_id": "354333255845715",
+  "perfil": "https://www.facebook.com/100064157826775/",
+  "dominio": "",
+  "anuncios_ativos_min": 7,
+  "idade_dias": 202,
+  "anuncio_mais_novo_dias": 87,
+  "termos": [
+   "chá_para_emagrecer",
+   "desafio_21_dias"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "{{product.brand}}",
+   "😱 Meninaas, olha isso!\n\nComecei um desafio de 21 dias com cardápios simples, chás e suporte no WhatsApp\n\nGostei muito porque é prático, barato e não precisa passar fome igual essas dietas difíceis",
+   "Tem mulher emagrecendo melhor quando para de inventar moda e começa no simples 💛\n\nUm chá que entra na rotina + um plano prático que ajuda você a comer melhor sem sofrimento\n\nMenos fome fora de hora, menos inchaço e mais leveza no corpo"
+  ],
+  "titulos": [
+   "Conheça o desafio de 21 dias",
+   "DESPERTE A SUA MELHOR FORMA AGORA",
+   "EXCELENTE PRA SECAR",
+   "PERCA PESO DE FORMA NATURAL",
+   "{{product.name}}"
   ],
   "passa_filtros": false
  },
@@ -532,6 +1295,49 @@
   "passa_filtros": false
  },
  {
+  "anunciante": "InfinitePay",
+  "page_id": "222086361593149",
+  "perfil": "https://www.facebook.com/infinitepay/",
+  "dominio": "apps.apple.com",
+  "anuncios_ativos_min": 7,
+  "idade_dias": 115,
+  "anuncio_mais_novo_dias": 115,
+  "termos": [
+   "trabalhar_de_casa"
+  ],
+  "exemplo_link": "https://apps.apple.com/us/app/infinitepay-tap-conta-cart%C3%A3o/id1506929912",
+  "copies": [
+   "Use seu Celular como uma Maquininha! É totalmente GRATUITO, e o melhor, você nem precisa de CNPJ! 🤑\n\n✅Taxas a partir de 0,75%\n✅Recebimento em 1 dia ou em SEGUNDOS\n✅100% Grátis\n📲Compatível com Android 11+ com NFC e iPhone XS ou superior\n\nClique em saiba mais para se cadastrar!"
+  ],
+  "titulos": [
+   "Seu Celular vira maquininha GRÁTIS!"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "InfinitePay",
+  "page_id": "222086361593149",
+  "perfil": "https://www.facebook.com/infinitepay/",
+  "dominio": "play.google.com",
+  "anuncios_ativos_min": 7,
+  "idade_dias": 364,
+  "anuncio_mais_novo_dias": 47,
+  "termos": [
+   "vender_pelo_celular"
+  ],
+  "exemplo_link": "http://play.google.com/store/apps/details?id=io.cloudwalk.infinitepaydash",
+  "copies": [
+   "{{product.brand}}",
+   "Aceite cartão pelo seu celular com InfiniteTap! Ative agora e parcele sua vendas em até 12x com as menores taxas. Acesse o app para começar!",
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "Ative seus lucros! Venda usando seu celular",
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
   "anunciante": "Verônica Chef",
   "page_id": "112663353779242",
   "perfil": "https://www.facebook.com/100064115978334/",
@@ -549,31 +1355,6 @@
   ],
   "titulos": [
    "ACESSE SUAS RECEITAS AGORA ✅"
-  ],
-  "passa_filtros": false
- },
- {
-  "anunciante": "Dicas para Secar",
-  "page_id": "354333255845715",
-  "perfil": "https://www.facebook.com/100064157826775/",
-  "dominio": "",
-  "anuncios_ativos_min": 6,
-  "idade_dias": 202,
-  "anuncio_mais_novo_dias": 90,
-  "termos": [
-   "desafio_21_dias"
-  ],
-  "exemplo_link": "https://api.whatsapp.com/send",
-  "copies": [
-   "{{product.brand}}",
-   "😱 Meninaas, olha isso!\n\nComecei um desafio de 21 dias com cardápios simples, chás e suporte no WhatsApp\n\nGostei muito porque é prático, barato e não precisa passar fome igual essas dietas difíceis",
-   "O que acontece durante os 21 dias do Sequei Saudável?\n\nVocê recebe um passo a passo prático para organizar melhor sua alimentação, receitas de chás, sugestões de cardápios e orientações para colocar tudo em prática na sua rotina.\n\nNada de dietas malucas ou regras impossíveis de seguir."
-  ],
-  "titulos": [
-   "Conheça o desafio de 21 dias",
-   "DESPERTE A SUA MELHOR FORMA AGORA",
-   "EXCELENTE PRA SECAR",
-   "{{product.name}}"
   ],
   "passa_filtros": false
  },
@@ -601,6 +1382,28 @@
   "passa_filtros": false
  },
  {
+  "anunciante": "Lalamove",
+  "page_id": "301365064138538",
+  "perfil": "https://www.facebook.com/LalamoveBR/",
+  "dominio": "play.google.com",
+  "anuncios_ativos_min": 6,
+  "idade_dias": 160,
+  "anuncio_mais_novo_dias": 145,
+  "termos": [
+   "renda_extra"
+  ],
+  "exemplo_link": "http://play.google.com/store/apps/details?id=com.lalamove.global.driver.sea",
+  "copies": [
+   "Cadastre-se como Motorista Parceiro da Lalamove e fature até R$ 2.100* por semana! \nAceitamos veículos próprios ou de terceiros, qualquer ano.\nQuanto você pode ganhar? Cadastre-se agora!",
+   "Cadastre-se como Motorista Parceiro da Lalamove e fature até R$ 2.100* por semana! \nAceitamos veículos próprios ou de terceiros, qualquer ano.\nQuanto você pode ganhar? Cadastre-se agora!",
+   "Cadastre-se como Motorista Parceiro da Lalamove e fature até R$ 2.100* por semana! \nAceitamos veículos próprios ou de terceiros, qualquer ano.\nQuanto você pode ganhar? Cadastre-se agora!"
+  ],
+  "titulos": [
+   "Renda Extra com Seu Veículo"
+  ],
+  "passa_filtros": false
+ },
+ {
   "anunciante": "Super Hits",
   "page_id": "609122202280100",
   "perfil": "https://www.facebook.com/61573614011380/",
@@ -614,6 +1417,26 @@
   "exemplo_link": "https://api.whatsapp.com/send",
   "copies": [
    "🎬 +5.000 VIDEOCLIPES ATUALIZADOS 2026!\n\nTodos os gêneros em um só pacote para sua multimídia, TV, celular ou pendrive. 🚗🔥\n\n✅ Acesso imediato\n✅ Organizados por pastas\n✅ Pagamento único\n\n👉 Clique em Saiba Mais e garanta agora!\n\n#Videoclipes #MultimidiaAutomotiva #Musicas #Pendrive #SomAutomotivo Super"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Adriana Sant ‘ Anna",
+  "page_id": "2316122658661151",
+  "perfil": "https://www.facebook.com/100044579432877/",
+  "dominio": "",
+  "anuncios_ativos_min": 5,
+  "idade_dias": 175,
+  "anuncio_mais_novo_dias": 83,
+  "termos": [
+   "jejum"
+  ],
+  "exemplo_link": "http://instagram.com/santanaadriana",
+  "copies": [
+   "Na Academia do Jejum você aprende a fazer jejum intermitente do jeito certo: respeitando o ritmo natural do seu corpo, comendo o que gosta e emagrecendo sem precisar passar fome, contar caloria ou seguir cardápio fechado.",
+   "Na Academia do Jejum você aprende a fazer jejum intermitente do jeito certo: respeitando o ritmo natural do seu corpo, comendo o que gosta e emagrecendo sem precisar passar fome, contar caloria ou seguir cardápio fechado.",
+   "Na Academia do Jejum você aprende a fazer jejum intermitente do jeito certo: respeitando o ritmo natural do seu corpo, comendo o que gosta e emagrecendo sem precisar passar fome, contar caloria ou seguir cardápio fechado."
   ],
   "titulos": [],
   "passa_filtros": false
@@ -665,29 +1488,6 @@
   "passa_filtros": false
  },
  {
-  "anunciante": "Quaker Brasil",
-  "page_id": "133705003368840",
-  "perfil": "https://www.facebook.com/QuakerBrasil/",
-  "dominio": "",
-  "anuncios_ativos_min": 5,
-  "idade_dias": 28,
-  "anuncio_mais_novo_dias": 17,
-  "termos": [
-   "receitas"
-  ],
-  "exemplo_link": "https://api.whatsapp.com/send",
-  "copies": [
-   "Coração com um Q a mais. Seu coração trabalha o dia todo por você, comece sua manhã cuidando dele. Inspire-se em receitas com aveia clicando agora no link da bio 💙",
-   "{{product.brand}}",
-   "Coração com um Q a mais. Seu coração trabalha o dia todo por você, comece sua manhã cuidando dele. Inspire-se em receitas com aveia clicando agora no link da bio 💙"
-  ],
-  "titulos": [
-   "Coração com um Q a mais",
-   "{{product.name}}"
-  ],
-  "passa_filtros": false
- },
- {
   "anunciante": "Hadassa Fit",
   "page_id": "769240466269366",
   "perfil": "https://www.facebook.com/61579651529269/",
@@ -706,28 +1506,6 @@
   ],
   "titulos": [
    "⭐⭐⭐⭐⭐ 4.9/5.0"
-  ],
-  "passa_filtros": false
- },
- {
-  "anunciante": "SHEIN Brasil",
-  "page_id": "218726778785423",
-  "perfil": "https://www.facebook.com/SHEINBrasil/",
-  "dominio": "m.shein.com",
-  "anuncios_ativos_min": 5,
-  "idade_dias": 28,
-  "anuncio_mais_novo_dias": 10,
-  "termos": [
-   "treino_em_casa"
-  ],
-  "exemplo_link": "https://m.shein.com/br/ark/default?scene=1&test=5051&ad_type=DPA&url_from=adhub2102005516032380930&pf=Facebook&placement={{placement}}&site_source_name={{site_source_name}}",
-  "copies": [
-   "Eleve seu visual com nossa seleção criteriosa de sapatos da moda",
-   "Eleve seu visual com nossa seleção criteriosa de sapatos da moda",
-   "Caminhe com confiança com nossos designs de calçados modernos e chiques."
-  ],
-  "titulos": [
-   "{{product.name}}"
   ],
   "passa_filtros": false
  },
@@ -797,44 +1575,6 @@
   "titulos": [
    "Por apenas R$10!"
   ],
-  "passa_filtros": false
- },
- {
-  "anunciante": "Dona Fatima",
-  "page_id": "105072185474191",
-  "perfil": "https://www.facebook.com/100082003658540/",
-  "dominio": "",
-  "anuncios_ativos_min": 4,
-  "idade_dias": 19,
-  "anuncio_mais_novo_dias": 19,
-  "termos": [
-   "aulas_prontas"
-  ],
-  "exemplo_link": "https://api.whatsapp.com/send",
-  "copies": [
-   "🎨 Mais de 5000 moldes, Letras grandes prontas  para imprimir e recortar\n✅ Separados por tema: encontre o que precisa em 1 clique\n✅ Produza aulas, painéis e encomendas em menos de 15 minutos\n✅ Economize até 80% de material de EVA"
-  ],
-  "titulos": [
-   "Converse conosco"
-  ],
-  "passa_filtros": false
- },
- {
-  "anunciante": "Personal Mari Eiras",
-  "page_id": "201522879717917",
-  "perfil": "https://www.facebook.com/61555848332924/",
-  "dominio": "marianaeiraspersonal.com.br",
-  "anuncios_ativos_min": 4,
-  "idade_dias": 38,
-  "anuncio_mais_novo_dias": 38,
-  "termos": [
-   "desafio_21_dias"
-  ],
-  "exemplo_link": "https://marianaeiraspersonal.com.br/ddx-12/",
-  "copies": [
-   "Por que você treina, faz dieta… e o braço continua gordo? Você sente que está fazendo tudo certo — treina todo dia, até ganha músculo — mas a gordura não vai embora?\n\nVocê está se sentindo FORGA — forte, mas ainda gordinha.\nE o motivo é ser simples: você está fazendo o treino errado.\n\n👉 Esse é o sin"
-  ],
-  "titulos": [],
   "passa_filtros": false
  },
  {
@@ -924,21 +1664,51 @@
   "passa_filtros": false
  },
  {
-  "anunciante": "Lucas Baggio",
-  "page_id": "238939146624",
-  "perfil": "https://www.facebook.com/100070999661817/",
-  "dominio": "on.com",
+  "anunciante": "Maria Receitas",
+  "page_id": "1009778382216594",
+  "perfil": "https://www.facebook.com/61586478351789/",
+  "dominio": "",
   "anuncios_ativos_min": 4,
-  "idade_dias": 18,
-  "anuncio_mais_novo_dias": 18,
+  "idade_dias": 116,
+  "anuncio_mais_novo_dias": 38,
   "termos": [
-   "treino_em_casa"
+   "salgados_para_vender"
   ],
-  "exemplo_link": "https://www.on.com/running",
+  "exemplo_link": "https://api.whatsapp.com/send",
   "copies": [
-   "hoje eu fui correndo até outra cidade!\n\ne no treino mais longo desse ciclo de maratona, quem me acompanhou foi o Cloudmonster 3 da @on.brasil, uma máquina de estabilidade e resposta pra rodagens.\n\n#DreamOn #publi #Cloudmonster3 #RunOnClouds @on.brasil"
+   "🚨 ATENÇÃO SALGADEIRAS 🚨\n\nSe suas vendas caíram, talvez o problema seja continuar vendendo os mesmos salgados de sempre… 😔\n\nHoje o que mais chama atenção são bandejas variadas, bonitas e com salgados diferentes. E isso faz toda diferença nas vendas. 📦✨\n\nNessa apostila você aprende:\n\n🍗 Mais de 50 rece",
+   "🚨 Tem salgadeira vendendo todos os dias… enquanto outras ficam esperando cliente aparecer 😳\n\nO segredo?\nHoje quem mais vende é quem oferece bandejas bonitas, variadas e com salgados que chamam atenção logo de cara. 🔥\n\nE nessa apostila você aprende passo a passo como fazer isso:\n\n🥟 Mais de 50 receita",
+   "🚨 SALGADEIRA, APRENDA A DEIXAR SEUS SALGADOS PRONTOS ANTES MESMO DO PEDIDO CHEGAR!\n\nSe toda vez que aparece uma encomenda você precisa começar a produção do zero, sua rotina pode estar muito mais cansativa do que precisa ser. 😩\n\nCom os salgados congelados nas bandejas, você pode produzir com anteced"
   ],
-  "titulos": [],
+  "titulos": [
+   "Fale por aqui 👉👉",
+   "Receba por aqui 👉👉",
+   "Receita aqui 👉👉"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Eudora",
+  "page_id": "197483166933511",
+  "perfil": "https://www.facebook.com/eudora/",
+  "dominio": "revendedores.grupoboticario.com.br",
+  "anuncios_ativos_min": 3,
+  "idade_dias": 124,
+  "anuncio_mais_novo_dias": 124,
+  "termos": [
+   "acesso_imediato",
+   "renda_extra",
+   "trabalhar_de_casa"
+  ],
+  "exemplo_link": "https://revendedores.grupoboticario.com.br/eudora?utm_source=facebook&utm_medium=soc_paid&utm_campaign=Eudora-Interno-AlwaysOn-IR-Conversao-facebook-Inicios-Advantage_CLO-NA&utm_content=All-Open-M_F_18-18_65-BR-All-Display-NA&utm_term=NA-NA-PPLA-Ciclo17-NA-NA-NA-Dez25_Mono_Multi_v3-NA",
+  "copies": [
+   "{{product.brand}}",
+   "{{product.brand}}",
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
   "passa_filtros": false
  },
  {
@@ -959,26 +1729,6 @@
   ],
   "titulos": [
    "✅ ACESSO IMEDIATO - VITALÍCIO - RECONHECIDO EM TODO BRASIL"
-  ],
-  "passa_filtros": false
- },
- {
-  "anunciante": "Teacher Poli",
-  "page_id": "238736745982689",
-  "perfil": "https://www.facebook.com/61555913889428/",
-  "dominio": "go.teacherpoli.com",
-  "anuncios_ativos_min": 3,
-  "idade_dias": 11,
-  "anuncio_mais_novo_dias": 11,
-  "termos": [
-   "apostila"
-  ],
-  "exemplo_link": "https://go.teacherpoli.com/eqwaia?site=%7B%7Bsite_source_name%7D%7D&placement=%7B%7Bplacement%7D%7D&adset=%7B%7Badset.id%7D%7D&ad=%7B%7Bad.id%7D%7D&campaign=%7B%7Bcampaign.id%7D%7D",
-  "copies": [
-   "🤯 Quando a pessoa descobre que a Teacher Poli vai estar com mais de 50% de desconto nessa Black November…\n\n🎁 E que, comprando nessa oferta, ainda ganha 9 bônus exclusivos: aulas ao vivo com professor 2x por semana, Intensivo de Inglês para Viagens, curso com psicólogo pra superar o nervosismo de fal"
-  ],
-  "titulos": [
-   "🔥 Mais de 50% de desconto na Teacher Poli!"
   ],
   "passa_filtros": false
  },
@@ -1129,28 +1879,6 @@
   "passa_filtros": false
  },
  {
-  "anunciante": "Carlos Klein - Personal",
-  "page_id": "707794112428049",
-  "perfil": "https://www.facebook.com/61580277669852/",
-  "dominio": "oficialbarrigazero.protocolocarlos.com.br",
-  "anuncios_ativos_min": 3,
-  "idade_dias": 38,
-  "anuncio_mais_novo_dias": 38,
-  "termos": [
-   "emagrecer_em_casa",
-   "treino_em_casa"
-  ],
-  "exemplo_link": "https://oficialbarrigazero.protocolocarlos.com.br/quizz",
-  "copies": [
-   "Tem algo que ninguém fala sobre a barriga depois dos 40. Não é o espelho que mais incomoda. É a mulher começar a te olhar diferente. A energia cair. O silêncio que vai se instalando. Você acha que é falta de vontade — mas é hormonal.Quando você corrige o desequilíbrio hormonal, em semanas não é só a",
-   "Tem algo que ninguém fala sobre a barriga depois dos 40. Não é o espelho que mais incomoda. É a mulher começar a te olhar diferente. A energia cair. O silêncio que vai se instalando. Você acha que é falta de vontade — mas é hormonal.Quando você corrige o desequilíbrio hormonal, em semanas não é só a"
-  ],
-  "titulos": [
-   "13.547 Avaliações ⭐⭐⭐⭐⭐ (4.99)"
-  ],
-  "passa_filtros": false
- },
- {
   "anunciante": "Visit Orlando",
   "page_id": "60586090798",
   "perfil": "https://www.facebook.com/visitorlando/",
@@ -1260,28 +1988,6 @@
   "passa_filtros": false
  },
  {
-  "anunciante": "Mercado Livre",
-  "page_id": "133452713505",
-  "perfil": "https://www.facebook.com/MercadoLivre/",
-  "dominio": "mercadolivre.com.br",
-  "anuncios_ativos_min": 3,
-  "idade_dias": 14,
-  "anuncio_mais_novo_dias": 14,
-  "termos": [
-   "kit_com"
-  ],
-  "exemplo_link": "http://www.mercadolivre.com.br/",
-  "copies": [
-   "Entrega rápida e devolução grátis em até 30 dias. Compre no Mercado Livre hoje!",
-   "Entrega rápida e devolução grátis em até 30 dias. Compre no Mercado Livre hoje!",
-   "Entrega rápida e devolução grátis em até 30 dias. Compre no Mercado Livre hoje!"
-  ],
-  "titulos": [
-   "{{product.name}}"
-  ],
-  "passa_filtros": false
- },
- {
   "anunciante": "Shopee",
   "page_id": "110231373695200",
   "perfil": "https://www.facebook.com/ShopeeBR/",
@@ -1323,30 +2029,6 @@
   "titulos": [
    "{{product.name}}",
    "{{product.short_description}}"
-  ],
-  "passa_filtros": false
- },
- {
-  "anunciante": "Pedro Lotz",
-  "page_id": "109287314050008",
-  "perfil": "https://www.facebook.com/100068773005523/",
-  "dominio": "ltz.pedrolotz.online",
-  "anuncios_ativos_min": 3,
-  "idade_dias": 41,
-  "anuncio_mais_novo_dias": 19,
-  "termos": [
-   "planilha",
-   "treino_em_casa"
-  ],
-  "exemplo_link": "https://ltz.pedrolotz.online/trinca",
-  "copies": [
-   "",
-   "Participe do Desafio Treino Trinca e conquiste um corpo irreconhecível em 28 dias 💪",
-   ""
-  ],
-  "titulos": [
-   "Pegue o seu plano 👉",
-   "Pegue seu Plano 👉"
   ],
   "passa_filtros": false
  },
@@ -1465,6 +2147,84 @@
   ],
   "titulos": [
    "ME CHAME NO WHATS👉"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Vou de 99",
+  "page_id": "365600193473680",
+  "perfil": "https://www.facebook.com/voude99/",
+  "dominio": "play.google.com",
+  "anuncios_ativos_min": 3,
+  "idade_dias": 192,
+  "anuncio_mais_novo_dias": 192,
+  "termos": [
+   "renda_extra"
+  ],
+  "exemplo_link": "http://play.google.com/store/apps/details?id=com.app99.driver",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Natura",
+  "page_id": "382381445421",
+  "perfil": "https://www.facebook.com/naturabroficial/",
+  "dominio": "accounts.natura-avon.com",
+  "anuncios_ativos_min": 3,
+  "idade_dias": 104,
+  "anuncio_mais_novo_dias": 104,
+  "termos": [
+   "renda_extra"
+  ],
+  "exemplo_link": "https://accounts.natura-avon.com/queroserconsultora",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Etna Gráfica",
+  "page_id": "101338801234498",
+  "perfil": "https://www.facebook.com/etnagrafica/",
+  "dominio": "",
+  "anuncios_ativos_min": 3,
+  "idade_dias": 140,
+  "anuncio_mais_novo_dias": 140,
+  "termos": [
+   "salgados_para_vender"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "🚨 SUA EMBALAGEM PODE ESTAR DESVALORIZANDO SEUS DOCES E SALGADOS!\n\nSeu produto pode ser ótimo…\nmas se a caixa é simples, você perde valor.\n\n🍩🍗 Comece a vender mais com embalagem profissional:\n\n✅ A partir de 25 unidades\n🎨 Arte GRÁTIS (criamos pra você)\n🎯 Impressão SEM LIMITE DE CORES\n💰 Parcele em até "
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "TikTok- Global",
+  "page_id": "253487361925496",
+  "perfil": "https://www.facebook.com/100066304225950/",
+  "dominio": "play.google.com",
+  "anuncios_ativos_min": 3,
+  "idade_dias": 60,
+  "anuncio_mais_novo_dias": 60,
+  "termos": [
+   "trabalhar_de_casa"
+  ],
+  "exemplo_link": "http://play.google.com/store/apps/details?id=com.zhiliaoapp.musically",
+  "copies": [
+   "Conteúdo pra rir, aprender e relaxar"
+  ],
+  "titulos": [
+   "Tá todo mundo no TikTok"
   ],
   "passa_filtros": false
  },
@@ -1857,6 +2617,24 @@
   "passa_filtros": false
  },
  {
+  "anunciante": "Recovery Suplementos",
+  "page_id": "218563338000629",
+  "perfil": "https://www.facebook.com/61555130019878/",
+  "dominio": "",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 116,
+  "anuncio_mais_novo_dias": 116,
+  "termos": [
+   "chá_para_emagrecer"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "🔥 Quer acelerar seus resultados no emagrecimento?\n\nSe você é de **Santa Cruz do Capibaribe** ou **São Domingos**, a Recovery Suplementos preparou um kit completo para potencializar sua rotina.\n\n✨ Termogênico para auxiliar na queima de gordura\n✨ Cromo para ajudar no controle do apetite\n✨ Chá Abdômen "
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
   "anunciante": "Hallow Brasil",
   "page_id": "104096412629936",
   "perfil": "https://www.facebook.com/hallowappbrasil/",
@@ -1897,26 +2675,6 @@
   "passa_filtros": false
  },
  {
-  "anunciante": "Pilates Daniela Zanette",
-  "page_id": "294904730371785",
-  "perfil": "https://www.facebook.com/61558739006750/",
-  "dominio": "",
-  "anuncios_ativos_min": 2,
-  "idade_dias": 30,
-  "anuncio_mais_novo_dias": 30,
-  "termos": [
-   "desafio_21_dias"
-  ],
-  "exemplo_link": "https://api.whatsapp.com/send",
-  "copies": [
-   "Desafio Pilates em Casa — Sem Mensalidades! 🧘‍♀️\n\n🌅 Dia 1 — Disposição que eu já não lembrava\n🦵 Dia 5 — Lombar e joelho pararam de reclamar\n🪞 Dia 12 — A calça fechou sem prender a respiração\n👑 Dia 21 — Todo mundo perguntando o que eu fiz\n\nApenas 30 minutos por dia, sem equipamentos, direto no seu Wh"
-  ],
-  "titulos": [
-   "Eu Quero Receber 👇"
-  ],
-  "passa_filtros": false
- },
- {
   "anunciante": "Mari Eiras Personal",
   "page_id": "194775063726732",
   "perfil": "https://www.facebook.com/marianaeiras.personal/",
@@ -1935,46 +2693,45 @@
   "passa_filtros": false
  },
  {
-  "anunciante": "Confluent",
-  "page_id": "815220961877695",
-  "perfil": "https://www.facebook.com/confluentinc/",
-  "dominio": "confluent.io",
+  "anunciante": "Thayná Oliveira Doceria",
+  "page_id": "106929037599229",
+  "perfil": "https://www.facebook.com/100067179296701/",
+  "dominio": "",
   "anuncios_ativos_min": 2,
-  "idade_dias": 34,
-  "anuncio_mais_novo_dias": 34,
+  "idade_dias": 107,
+  "anuncio_mais_novo_dias": 62,
   "termos": [
-   "e-book"
+   "doces_para_vender"
   ],
-  "exemplo_link": "https://www.confluent.io/resources/ebook/developers-guide-to-rag/?utm_medium=paidsocial&utm_source=facebook&utm_campaign=ch.paidsocial_tp.prs_tgt.broad-mql-capi_rgn.amer_sbrgn.latam_lgn.eng_bgt.pg_con.developers-guide-rag-ebook_creative.ebook-bv1",
+  "exemplo_link": "https://linktr.ee/thaynaoliveiradoceria",
   "copies": [
-   "Combat LLM hallucinations with retrieval-augmented generation and real-time, contextualized data. Our new eBook has everything developers need to know about building RAG for GenAI applications."
+   "✨ Conheça nossos cursos e apostilas que já estão ajudando milhares de alunos a faturarem todos os dias na confeitaria!\n\nSe você sempre quis começar a vender doces, ter uma renda extra ou até transformar a cozinha da sua casa em um negócio lucrativo, aqui você encontra o caminho.\n\nNossos cursos e apo",
+   "✨ Conheça nossos cursos e apostilas que já estão ajudando milhares de alunos a faturarem todos os dias na confeitaria!\n\nSe você sempre quis começar a vender doces, ter uma renda extra ou até transformar a cozinha da sua casa em um negócio lucrativo, aqui você encontra o caminho.\n\nNossos cursos e apo"
   ],
   "titulos": [
-   "eBook | The Developer’s Guide to RAG"
+   "📘 Conheça nossas cursos!"
   ],
   "passa_filtros": false
  },
  {
-  "anunciante": "Chef Helena",
-  "page_id": "723085730882394",
-  "perfil": "https://www.facebook.com/61577329587406/",
+  "anunciante": "Débora Maiaa",
+  "page_id": "1097916563406368",
+  "perfil": "https://www.facebook.com/61589629133008/",
   "dominio": "",
   "anuncios_ativos_min": 2,
-  "idade_dias": 36,
-  "anuncio_mais_novo_dias": 35,
+  "idade_dias": 52,
+  "anuncio_mais_novo_dias": 31,
   "termos": [
    "emagrecer_em_casa",
-   "guia_completo",
-   "receitas"
+   "jejum"
   ],
-  "exemplo_link": "https://api.whatsapp.com/send",
+  "exemplo_link": "https://queimadiaria.shop/",
   "copies": [
-   "🥗 Transforme suas refeições com mais de 80 receitas de saladas gourmet!\n\nCansado de comer sempre a mesma salada? Descubra combinações deliciosas, práticas e nutritivas que parecem pratos de restaurante.\n\n✅ Mais de 80 receitas premium\n✅ Opções para emagrecer de forma saudável\n✅ Receitas fáceis para o",
-   "🥗 Transforme suas refeições com mais de 80 receitas de saladas gourmet!\n\nCansado de comer sempre a mesma salada? Descubra combinações deliciosas, práticas e nutritivas que parecem pratos de restaurante.\n\n✅ Mais de 80 receitas premium\n✅ Opções para emagrecer de forma saudável\n✅ Receitas fáceis para o"
+   "Quanto mais você tenta emagrecer, mais o seu corpo resiste. ❌\n\nSabe por quê? Toda vez que você pula refeição, faz jejum ou corta o pão — você aumenta exatamente o hormônio que faz a fome ficar incontrolável.\n\nNão é falta de força de vontade. É o seu próprio corpo trabalhando contra você.\n\nDescobri q",
+   "Quanto mais você tenta emagrecer, mais o seu corpo resiste. ❌\n\nSabe por quê? Toda vez que você pula refeição, faz jejum ou corta o pão — você aumenta exatamente o hormônio que faz a fome ficar incontrolável.\n\nNão é falta de força de vontade. É o seu próprio corpo trabalhando contra você.\n\nDescobri q"
   ],
   "titulos": [
-   "Converse conosco",
-   "Receba agora"
+   "Aproveite enquanto ainda está disponível!"
   ],
   "passa_filtros": false
  },
@@ -1995,26 +2752,6 @@
   ],
   "titulos": [
    "A mensagem que faz ele responder na hora"
-  ],
-  "passa_filtros": false
- },
- {
-  "anunciante": "Educly App AI",
-  "page_id": "637931626305942",
-  "perfil": "https://www.facebook.com/tercasamauma/",
-  "dominio": "start.educly.app",
-  "anuncios_ativos_min": 2,
-  "idade_dias": 32,
-  "anuncio_mais_novo_dias": 32,
-  "termos": [
-   "guia_completo"
-  ],
-  "exemplo_link": "https://start.educly.app/quiz-esp-hot01",
-  "copies": [
-   "🚀 ¿Y si en solo 28 días pudieras dominar la herramienta que está transformando el mercado laboral? Con apenas 15 minutos al día, aprendes Inteligencia Artificial desde cero — sin experiencia previa, sin rodeos. Quien empieza ahora, lleva ventaja. Quien espera, se queda atrás."
-  ],
-  "titulos": [
-   "Domina la IA en 28 Días — Aunque Empieces Desde Cero"
   ],
   "passa_filtros": false
  },
@@ -2126,26 +2863,6 @@
   "passa_filtros": false
  },
  {
-  "anunciante": "João Mainardi",
-  "page_id": "589589291132346",
-  "perfil": "https://www.facebook.com/61577715397348/",
-  "dominio": "",
-  "anuncios_ativos_min": 2,
-  "idade_dias": 14,
-  "anuncio_mais_novo_dias": 14,
-  "termos": [
-   "planilha"
-  ],
-  "exemplo_link": "https://facebook.com/61577715397348",
-  "copies": [
-   "{{product.brand}}"
-  ],
-  "titulos": [
-   "{{product.name}}"
-  ],
-  "passa_filtros": false
- },
- {
   "anunciante": "Helder - Finança Simples",
   "page_id": "111572228546841",
   "perfil": "https://www.facebook.com/helder.financas/",
@@ -2205,69 +2922,6 @@
   "titulos": [
    "Seu novo apê é com a Abytá 🏢",
    "Seu primeiro apê é com a Abytá 🏢"
-  ],
-  "passa_filtros": false
- },
- {
-  "anunciante": "Ana Santos",
-  "page_id": "679962075203160",
-  "perfil": "https://www.facebook.com/61578141200254/",
-  "dominio": "",
-  "anuncios_ativos_min": 2,
-  "idade_dias": 31,
-  "anuncio_mais_novo_dias": 29,
-  "termos": [
-   "projetos_prontos"
-  ],
-  "exemplo_link": "https://api.whatsapp.com/send",
-  "copies": [
-   "Sua casa pode ganhar uma área gourmet linda e valorizada sem você gastar uma fortuna com projetos personalizados.\n\nDescubra como centenas de brasileiros estão construindo ou reformando suas áreas gourmet com muito mais segurança usando 30 projetos prontos e completos, mesmo sem experiência em constr",
-   "Sua casa pode ganhar uma área gourmet linda e valorizada sem você gastar uma fortuna com projetos personalizados.\n\nDescubra como centenas de brasileiros estão construindo ou reformando suas áreas gourmet com muito mais segurança usando 30 projetos prontos e completos, mesmo sem experiência em constr"
-  ],
-  "titulos": [
-   "Converse conosco"
-  ],
-  "passa_filtros": false
- },
- {
-  "anunciante": "Tegra Incorporadora",
-  "page_id": "150023405031956",
-  "perfil": "https://www.facebook.com/tegraincorporadora/",
-  "dominio": "ad.doubleclick.net",
-  "anuncios_ativos_min": 2,
-  "idade_dias": 19,
-  "anuncio_mais_novo_dias": 19,
-  "termos": [
-   "projetos_prontos"
-  ],
-  "exemplo_link": "https://ad.doubleclick.net/ddm/trackclk/N2729306.4828937METAFACEBOOK/B36956084.458138963;dc_trk_aid=652306059;dc_trk_cid=265262765;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1",
-  "copies": [
-   "More em um bairro planejado na Lapa, com conveniência e mobilidade em projetos que transformam a região. Apartamentos de 47m² a 105m² no complexo Caminhos da Lapa. Visite o showroom com os decorados."
-  ],
-  "titulos": [
-   "Seu novo apartamento na Lapa"
-  ],
-  "passa_filtros": false
- },
- {
-  "anunciante": "O Japa da Elétrica",
-  "page_id": "1093714163818035",
-  "perfil": "https://www.facebook.com/61576471823078/",
-  "dominio": "",
-  "anuncios_ativos_min": 2,
-  "idade_dias": 27,
-  "anuncio_mais_novo_dias": 27,
-  "termos": [
-   "projetos_prontos"
-  ],
-  "exemplo_link": "https://api.whatsapp.com/send",
-  "copies": [
-   "+111 Apostilas de Comandos Eletricos para você usar na obra direto do celular!!  \n\n✅Motor monofásico\n✅Compressor De Ar\n✅Bomba d Agua\n✅Chave de Bóia\n✅Pressostato\n\n- Muitos Outros Projetos!!! -  \n\nCircuito de força e comando em desenho visual, fácil de entender, sem aula enrolada..",
-   "+101 Apostilas de Comandos Eletricos para você usar na obra direto do celular!!  \n\n✅Motor monofásico\n✅Compressor De Ar\n✅Bomba d Agua\n✅Chave de Bóia\n✅Pressostato\n\n- Muitos Outros Projetos!!! -  \n\nCircuito de força e comando em desenho visual, fácil de entender, sem aula enrolada.."
-  ],
-  "titulos": [
-   "+101 Diagramas de Elétrica Prontos!!!",
-   "+111 Diagramas de Elétrica Prontos!!!"
   ],
   "passa_filtros": false
  },
@@ -2332,26 +2986,6 @@
   "passa_filtros": false
  },
  {
-  "anunciante": "Ana Carlla",
-  "page_id": "961438480390425",
-  "perfil": "https://www.facebook.com/61587383282512/",
-  "dominio": "",
-  "anuncios_ativos_min": 2,
-  "idade_dias": 45,
-  "anuncio_mais_novo_dias": 45,
-  "termos": [
-   "receitas_fit"
-  ],
-  "exemplo_link": "https://api.whatsapp.com/send",
-  "copies": [
-   ""
-  ],
-  "titulos": [
-   "Fale agora no Whatsapp 🟢"
-  ],
-  "passa_filtros": false
- },
- {
   "anunciante": "Lavigner Food - Gastronomia Saudável",
   "page_id": "391065074276184",
   "perfil": "https://www.facebook.com/sabordoreinosjc/",
@@ -2372,6 +3006,46 @@
   "passa_filtros": false
  },
  {
+  "anunciante": "O Boticário",
+  "page_id": "140105282727777",
+  "perfil": "https://www.facebook.com/oboticario/",
+  "dominio": "play.google.com",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 96,
+  "anuncio_mais_novo_dias": 96,
+  "termos": [
+   "renda_extra"
+  ],
+  "exemplo_link": "https://play.google.com/store/apps/details?id=br.com.grupoboticario.boticariorepresentante",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Studio Elisa Candido",
+  "page_id": "552465241775388",
+  "perfil": "https://www.facebook.com/elisacandido.personal/",
+  "dominio": "truquedobumbum.com",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 221,
+  "anuncio_mais_novo_dias": 221,
+  "termos": [
+   "trabalhar_de_casa"
+  ],
+  "exemplo_link": "https://quiz.elisacandido.fit/coxa-e-bumbum",
+  "copies": [
+   "O Truque do Bumbum que as academias não querem que você descubra. Cresce glúteo em casa, sem agachamento e sem destruir os joelhos."
+  ],
+  "titulos": [
+   "Glúteo Crescendo em 21 Dias"
+  ],
+  "passa_filtros": false
+ },
+ {
   "anunciante": "MEGAGYM",
   "page_id": "111370361430940",
   "perfil": "https://www.facebook.com/megagymfit/",
@@ -2380,12 +3054,13 @@
   "idade_dias": 126,
   "anuncio_mais_novo_dias": 80,
   "termos": [
+   "trabalhar_de_casa",
    "treino_em_casa"
   ],
-  "exemplo_link": "https://megagym.com.br/collections/estacao-de-treino-mega-rack",
+  "exemplo_link": "https://megagym.com.br/collections/estacoes-de-musculacao-urbanfit",
   "copies": [
-   "O equipamento perfeito para se ter na sua academia ou em casa! \n\nA Estação de Treino Multifuncional Mega Rack é a solução completa para quem busca um equipamento versátil e eficiente. Com design compacto, ela ocupa pouco espaço em sua casa ou academia, permitindo que você desfrute de diversos treino",
-   "🏋️ UMA ACADEMIA COMPLETA DENTRO DA SUA CASA\n\nQuanto tempo você já perdeu indo para academia, esperando aparelho vagar ou desanimando da rotina?\n\nCom a UrbanFit 80K você transforma qualquer espaço em uma estação completa de musculação. 💪\n\n✅ Torre de pesos integrada\n✅ Treino para peito, costas, pernas"
+   "🏋️ UMA ACADEMIA COMPLETA DENTRO DA SUA CASA\n\nQuanto tempo você já perdeu indo para academia, esperando aparelho vagar ou desanimando da rotina?\n\nCom a UrbanFit 80K você transforma qualquer espaço em uma estação completa de musculação. 💪\n\n✅ Torre de pesos integrada\n✅ Treino para peito, costas, pernas",
+   "O equipamento perfeito para se ter na sua academia ou em casa! \n\nA Estação de Treino Multifuncional Mega Rack é a solução completa para quem busca um equipamento versátil e eficiente. Com design compacto, ela ocupa pouco espaço em sua casa ou academia, permitindo que você desfrute de diversos treino"
   ],
   "titulos": [
    "Faça agora seu orçamento com a MegaGym!",
@@ -2412,24 +3087,6 @@
   "titulos": [
    "Treinador Pessoal 24/7 na Aplicação"
   ],
-  "passa_filtros": false
- },
- {
-  "anunciante": "Diálogo Engenharia",
-  "page_id": "236737056363575",
-  "perfil": "https://www.facebook.com/dialogoengenharia/",
-  "dominio": "dialogo.com.br",
-  "anuncios_ativos_min": 2,
-  "idade_dias": 39,
-  "anuncio_mais_novo_dias": 39,
-  "termos": [
-   "treino_em_casa"
-  ],
-  "exemplo_link": "https://www.dialogo.com.br/tudo-comeca-com-um-dialogo?utm_source=uselink&utm_medium=meta&utm_campaign=institucional",
-  "copies": [
-   "Quanto cabe em um m²?\nCabe o primeiro passo, a família crescendo, a receita que vira tradição e até quem sempre rouba o melhor lugar do sofá.\n@bernardinho_oficial e @bruninho1 mostram tudo o que pode acontecer dentro de cada espaço dos empreendimentos da Diálogo Engenharia.\n\nCada m² conta uma histór"
-  ],
-  "titulos": [],
   "passa_filtros": false
  },
  {
@@ -2485,26 +3142,6 @@
   "exemplo_link": "http://www.grancursosonline.com.br/",
   "copies": [
    "O melhor investimento para a sua carreira está no catálogo do Gran! 💎 Escolha entre nossos cursos 100% focados no seu edital ou a nossa Assinatura Ilimitada para acesso total:\n📌 Acesso a +25.000 cursos: Todas as carreiras em um só lugar.\n📌 Download Ilimitado: Videoaulas e livros digitais disponíveis"
-  ],
-  "titulos": [
-   "{{product.name}}"
-  ],
-  "passa_filtros": false
- },
- {
-  "anunciante": "Eudora",
-  "page_id": "197483166933511",
-  "perfil": "https://www.facebook.com/eudora/",
-  "dominio": "revendedores.grupoboticario.com.br",
-  "anuncios_ativos_min": 1,
-  "idade_dias": 124,
-  "anuncio_mais_novo_dias": 124,
-  "termos": [
-   "acesso_imediato"
-  ],
-  "exemplo_link": "https://revendedores.grupoboticario.com.br/eudora?utm_source=facebook&utm_medium=soc_paid&utm_campaign=Eudora-Interno-AlwaysOn-IR-Conversao-facebook-Inicios-Advantage_CLO-NA&utm_content=All-Open-M_F_18-18_65-BR-All-Display-NA&utm_term=NA-NA-PPLA-Ciclo17-NA-NA-NA-Dez25_Mono_Multi_v3-NA",
-  "copies": [
-   "{{product.brand}}"
   ],
   "titulos": [
    "{{product.name}}"
@@ -2656,7 +3293,8 @@
   "idade_dias": 117,
   "anuncio_mais_novo_dias": 117,
   "termos": [
-   "acesso_vitalício"
+   "acesso_vitalício",
+   "trabalhar_de_casa"
   ],
   "exemplo_link": "https://quiz.elisacandido.fit/coxa-e-bumbum",
   "copies": [
@@ -2677,6 +3315,7 @@
   "anuncio_mais_novo_dias": 68,
   "termos": [
    "acesso_vitalício",
+   "trabalhar_de_casa",
    "treino_em_casa"
   ],
   "exemplo_link": "https://quiz.elisacandido.fit/coxa-e-bumbum",
@@ -3888,6 +4527,350 @@
   "passa_filtros": false
  },
  {
+  "anunciante": "Larissa Caldas Nutricionista",
+  "page_id": "108027898845740",
+  "perfil": "https://www.facebook.com/100089470712590/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 261,
+  "anuncio_mais_novo_dias": 261,
+  "termos": [
+   "chá_para_emagrecer"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "Síndrome do Ovário Policístico \n\nUma distúrbio endócrino que afeta cerca de 25% das mulheres. \n\nApesar de ser muito comum, é preciso tratamento, pois o agravamento leva a diversas comorbidades! \n\nSem falar que os sintomas são bem incômodos como a alteração do ciclo menstrual e tem grande relação est"
+  ],
+  "titulos": [
+   "Larissa Caldas Nutricionista"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Saúde e Bem Estar",
+  "page_id": "105385467999118",
+  "perfil": "https://www.facebook.com/100063640358968/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 166,
+  "anuncio_mais_novo_dias": 166,
+  "termos": [
+   "chá_para_emagrecer"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Nutri Marina Cardoso",
+  "page_id": "284831244705211",
+  "perfil": "https://www.facebook.com/61557351104685/",
+  "dominio": "nutrimarinacardoso.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 30,
+  "anuncio_mais_novo_dias": 30,
+  "termos": [
+   "chá_para_emagrecer"
+  ],
+  "exemplo_link": "https://teste.nutrimarinacardoso.com.br/",
+  "copies": [
+   "Olha só isso aqui que esta nutricionista falou! São as 3 substâncias obrigatórias para toda mulher no climatério e menopausa."
+  ],
+  "titulos": [
+   "Descubra como Eliminar a Barriga do Climatério e Menopausa."
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Renan Botelho Dr",
+  "page_id": "378128628724966",
+  "perfil": "https://www.facebook.com/61565099531612/",
+  "dominio": "desafiodrrenanbotelho.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 24,
+  "anuncio_mais_novo_dias": 24,
+  "termos": [
+   "chá_para_emagrecer"
+  ],
+  "exemplo_link": "https://desafiodrrenanbotelho.com.br/v11-31-217-47/?utm_source=metaads_ASC_{{site_source_name}}&utm_medium={{adset.name}}&utm_campaign={{campaign.name}}&utm_term={{placement}}&utm_content={{ad.name}}&utm_content_id={{ad.id}}&vk_source=paid_metaads&vk_ad_id={{ad.id}}",
+  "copies": [
+   "Aprenda a fazer o verdadeiro e único Jejum Metabólico, do jeito certo.\n\nVem participar comigo do DESAFIO JEJUM 5 EM 7!\n\n👉 Toque em \"Saiba Mais\" e garanta sua vaga!"
+  ],
+  "titulos": [
+   "DESAFIO JEJUM 5 EM 7 | GARANTA SUA VAGA!"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Farmafine",
+  "page_id": "648872718316780",
+  "perfil": "https://www.facebook.com/61577890585510/",
+  "dominio": "antiinflamatorio.laboratoriofarmafine.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 83,
+  "anuncio_mais_novo_dias": 83,
+  "termos": [
+   "chá_para_emagrecer"
+  ],
+  "exemplo_link": "https://antiinflamatorio.laboratoriofarmafine.com/",
+  "copies": [
+   "Inchaço constante? Sentindo dificuldade para emagrecer?\n\nUma fórmula fitoterápica desenvolvida para auxilia na redução do inchaço e eliminação de líquidos está disponível agora pela Farmafine. \n\nA fórmula também contribui para o metabolismo e auxilia na desinflamação do corpo.\n\nEncontre na Farmafine"
+  ],
+  "titulos": [
+   "Corpo Inflamado e Retido | Fórmula Atua sobre a retenção e desinflamando o corpo"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Empório Di Grano",
+  "page_id": "1265768433476197",
+  "perfil": "https://www.facebook.com/emporiodigrano/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 509,
+  "anuncio_mais_novo_dias": 509,
+  "termos": [
+   "chá_para_emagrecer"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "Perca a barriga até o fim do ano! 🍵\nDescubra no vídeo 5 chás poderosos para eliminar gordura de forma natural e saudável.\n\n🌱 Ingredientes fáceis de encontrar aqui no Empório Di Grano:\n✅ Low carb, veganos e a granel.\n\n📍 4 lojas no AM + loja on-line.\n🚚 Entrega rápida direto na sua casa!\n\n📌 Entre em co"
+  ],
+  "titulos": [
+   "Entre em Contato!"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Dr. Felipe Balem",
+  "page_id": "102201222681599",
+  "perfil": "https://www.facebook.com/drfelipebalem/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 102,
+  "anuncio_mais_novo_dias": 102,
+  "termos": [
+   "chá_para_emagrecer"
+  ],
+  "exemplo_link": "https://www.instagram.com/_u/drfelipebalem",
+  "copies": [
+   "No lipedema, a alimentação vai muito além de comer menos. O que faz diferença são as escolhas certas, aquelas que ajudam a reduzir a inflamação, favorecem a circulação linfática e contribuem para controlar os sintomas no dia a dia.\n\nEssa rotina alimentar faz parte do acompanhamento que oriento no co"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "barbaramachado_nutri",
+  "page_id": "105482622152859",
+  "perfil": "https://www.facebook.com/100083413625364/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 241,
+  "anuncio_mais_novo_dias": 241,
+  "termos": [
+   "chá_para_emagrecer"
+  ],
+  "exemplo_link": "http://instagram.com/barbaramachado.nutri",
+  "copies": [
+   "Um pouquinho do que te espera no seu processo de mudança de estilo de vida! \nNo meu acompanhamento nutricional eu não quero te transformar em uma refém de dieta com uma consulta de 20 minutos e depois um chá revelação da sua dieta, aqui tudo é feito para você e com você! \n\nPara que você aprenda e re"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Let e ponto",
+  "page_id": "107077855472177",
+  "perfil": "https://www.facebook.com/leteponto/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 33,
+  "anuncio_mais_novo_dias": 33,
+  "termos": [
+   "chá_para_emagrecer"
+  ],
+  "exemplo_link": "",
+  "copies": [
+   "Nutrilet agora é Let e ponto. \n\nVocê já conhecia esses benefícios? 👀\n\nEla pode ser uma grande aliada da saúde intestinal e do emagrecimento.\n\n⛔PESSOAS COM DIVERTICULITE NÃO DEVEM INGERIR A SEMENTE INTEIRA‼️ SOMENTE SE ESTIVER MUITO BEM TRITURADA.\n\n👉 Comer a semente inteira ajuda a observar a velocid"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "emagrecer.hoje.2023",
+  "page_id": "312073568660309",
+  "perfil": "https://www.instagram.com/_u/emagrecer.hoje.2023",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 70,
+  "anuncio_mais_novo_dias": 70,
+  "termos": [
+   "chá_para_emagrecer"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "Receita grátis no link da BIO!"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Grazieli Neves Nutricionista Funcional",
+  "page_id": "298421443859820",
+  "perfil": "https://www.facebook.com/100076695531134/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 140,
+  "anuncio_mais_novo_dias": 140,
+  "termos": [
+   "chá_para_emagrecer"
+  ],
+  "exemplo_link": "http://instagram.com/grazielinutri",
+  "copies": [
+   "É sobre fazer sentido na sua rotina e conseguir manter."
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Dr. Leonardo Galinari",
+  "page_id": "663145440222088",
+  "perfil": "https://www.facebook.com/61577902682327/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 180,
+  "anuncio_mais_novo_dias": 180,
+  "termos": [
+   "chá_para_emagrecer"
+  ],
+  "exemplo_link": "",
+  "copies": [
+   "Testosterona baixa, gordura visceral e deficiência de vitaminas. Esses 3 fatores podem estar travando o seu emagrecimento.\nA maioria das pessoas tenta dieta, treino, corta carboidrato — e mesmo assim o peso não sai. O problema pode não ser o que você está fazendo, mas o que está acontecendo dentro d"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Dra. Cristina Terumi",
+  "page_id": "481645778367542",
+  "perfil": "https://www.facebook.com/61568683920834/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 354,
+  "anuncio_mais_novo_dias": 354,
+  "termos": [
+   "chá_para_emagrecer"
+  ],
+  "exemplo_link": "http://instagram.com/dracristinaterumi",
+  "copies": [
+   "Depois dos 50, o corpo muda  e seu metabolismo também.\nAlterações hormonais, perda de massa muscular e acúmulo de gordura tornam o emagrecimento mais difícil.\nMas com os estímulos certos, é possível acelerar o metabolismo!\nQuer saber como? Arraste pro lado e veja o que pode ajudar!\n\nDra. Cristina Te"
+  ],
+  "titulos": [
+   " "
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Cozinha Saudável",
+  "page_id": "1279290845260254",
+  "perfil": "https://www.facebook.com/61592460380753/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 22,
+  "anuncio_mais_novo_dias": 22,
+  "termos": [
+   "chá_para_emagrecer"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "🫒 Descubra os cardápios criados pela Chefe Ana Martins especialmente para quem tem gordura no fígado, com receitas simples, gostosas e ingredientes baratos que você já tem em casa. Você recebe no WhatsApp café da manhã, almoço, janta, lanches e sobremesas. Receba primeiro, veja se faz sentido para v"
+  ],
+  "titulos": [
+   "Cardápios Contra Gordura no Fígado"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Dra. Carolina Lopes Endocrinologia",
+  "page_id": "117616701363584",
+  "perfil": "https://www.facebook.com/100093494664344/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 385,
+  "anuncio_mais_novo_dias": 385,
+  "termos": [
+   "chá_para_emagrecer"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "Eu sei que você tá cansada de tentar de tudo e não ver resultado.\n\nTalvez o problema não seja falta de esforço, talvez sejam os hormônios, que estão desregulados e travando o processo sem você perceber.\n\nSe isso faz sentido pra você, agende uma avaliação. \n\n.\n.\nDRA. CAROLINA LOPES | CRM GO 24696\nAge"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Dumeuquintal",
+  "page_id": "1121185741288777",
+  "perfil": "https://www.facebook.com/DUMEUQUINTALBETHANIA/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 266,
+  "anuncio_mais_novo_dias": 266,
+  "termos": [
+   "chá_para_emagrecer"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "As festas acabaram… agora é hora de cuidar de você. 💚\n\nO Projeto Verão começou, e aqui no Du Meu Quintal você encontra aliados naturais para emagrecer com mais saúde, equilíbrio e constância.\n\nNada de loucura, é rotina, escolha e bem-estar.\n\nVamos juntos? \n\n.\n\n.\n\n.\n\n#ProjetoVerão #VidaSaudável #DuMe"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Dra. Patricia Davidson",
+  "page_id": "110888678319966",
+  "perfil": "https://www.facebook.com/nutri.patriciadavidson/",
+  "dominio": "detox.nutripatriciadavidson.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 27,
+  "anuncio_mais_novo_dias": 27,
+  "termos": [
+   "chá_para_emagrecer"
+  ],
+  "exemplo_link": "https://detox.nutripatriciadavidson.com.br/cadastro-v4-2",
+  "copies": [
+   "Acorde com energia de novo: 5 dias pra equilibrar seus 8 hormônios femininos — e de brinde, até 5kg a menos\n\nPara mulheres de 40, 50, 60+ que acordam de madrugada, sentem o calor subir do nada, vivem no pavio curto e não aguentam mais ouvir que o exame está \"normal\".\n\nToque em Saiba Mais e Garanta s"
+  ],
+  "titulos": [
+   "Desafio Detox Hormonal"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Elis Cristina",
+  "page_id": "114454489397124",
+  "perfil": "https://www.facebook.com/100072109154930/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 172,
+  "anuncio_mais_novo_dias": 172,
+  "termos": [
+   "chá_para_emagrecer"
+  ],
+  "exemplo_link": "http://instagram.com/eliscristinanutri",
+  "copies": [
+   "Alimentos que eu não compraria… se não quisesse emagrecer e ser saudável, mesmo com uma rotina corrida 🙃🤭"
+  ],
+  "titulos": [
+   "Elis Cristina"
+  ],
+  "passa_filtros": false
+ },
+ {
   "anunciante": "21 Day Calisthenics Challenge",
   "page_id": "945357715322226",
   "perfil": "https://www.facebook.com/61584959651251/",
@@ -3980,6 +4963,263 @@
   ],
   "titulos": [
    " "
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Matheus Carvalho",
+  "page_id": "346792968511413",
+  "perfil": "https://www.facebook.com/61560464721655/",
+  "dominio": "obrigadeiroperfeito.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 399,
+  "anuncio_mais_novo_dias": 399,
+  "termos": [
+   "doces_para_vender"
+  ],
+  "exemplo_link": "https://obrigadeiroperfeito.com.br/home-principal-37?src=FBAds_{{adset.name}}_{{ad.name}}_{{placement}}_{{campaign.name}}&utm_source=FBAds&utm_medium={{adset.name}}&utm_content={{ad.name}}&utm_campaign={{campaign.name}}&utm_term={{placement}}",
+  "copies": [
+   "Aprenda Receitas e Lucre com sua Paixão por Brigadeiros!\n\nTransforme sua paixão por brigadeiros em uma renda extra e lucrativa com nosso e-Book completo e fácil de seguir, sem precisa ser um chef profissional ou passar horas na cozinha.\n\nNosso e-Book é simples, prático e cheio de dicas para facilita"
+  ],
+  "titulos": [
+   "Aprenda Receitas Incríveis de Brigadeiros"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Jessica Rochaa",
+  "page_id": "100333095183655",
+  "perfil": "https://www.facebook.com/jessicamdrocha/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 146,
+  "anuncio_mais_novo_dias": 146,
+  "termos": [
+   "doces_para_vender"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "Meninas quem quiser as receitas das tortinhas gourmet, me chama no WhatsApp, que te envio por apenas R$ 10 e você só me paga depois que receber!"
+  ],
+  "titulos": [
+   "🟢 QUERO AS RECEITAS DAS TORTAS GELADA GOURMET!"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Comercial Dosplasticos",
+  "page_id": "190181851105473",
+  "perfil": "https://www.facebook.com/comercialdosplasticos/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 621,
+  "anuncio_mais_novo_dias": 621,
+  "termos": [
+   "doces_para_vender"
+  ],
+  "exemplo_link": "",
+  "copies": [
+   "Aqui na Comercial DosPlásticos você encontra uma linha completa de produtos Fini para revenda. Seja em festas, lanchonetes ou como lembrancinhas, os queridinhos dos doces são sucesso garantido! 🎉\n\n🛒 Estoque agora e comece a lucrar com Fini!\n📍 Visite-nos ou peça pelo WhatsApp!\n\n#LucreComFini #Produto"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Melolo: Séries Curtas Brasil",
+  "page_id": "1029115443615296",
+  "perfil": "https://www.facebook.com/61588587216026/",
+  "dominio": "play.google.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 104,
+  "anuncio_mais_novo_dias": 104,
+  "termos": [
+   "doces_para_vender"
+  ],
+  "exemplo_link": "https://play.google.com/store/apps/details?id=com.worldance.drama",
+  "copies": [
+   "?Ainda baixou animado por propagandas de \"grátis\", só para descobrir que precisa pagar para desbloquear ou que o vídeo para após 3 minutos de prévia?\nNão deixe mais esses truques esgotarem sua paciência!\n?Melolo: totalmente grátis, sem cartão de crédito necessário e sem enrolação.\nTodo o conteúdo é "
+  ],
+  "titulos": [
+   "episódios livres, só no Melolo"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Haxia",
+  "page_id": "340293279158801",
+  "perfil": "https://www.facebook.com/haxiabr/",
+  "dominio": "haxia.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 571,
+  "anuncio_mais_novo_dias": 571,
+  "termos": [
+   "doces_para_vender",
+   "salgados_para_vender"
+  ],
+  "exemplo_link": "https://www.haxia.com.br/post/20-ideias-para-ganhar-dinheiro-na-internet-e-trabalhar-de-casa",
+  "copies": [
+   "📢 Quer ganhar dinheiro na internet e trabalhar de casa? 💻🏡\n\nSe você quer empreender sem sair de casa, temos 20 ideias incríveis para você começar hoje mesmo! 🚀\n\n🔹 Artesanato e customização de roupas\n🔹 Comida saudável, doces e chocolates caseiros 🍫🍩\n🔹 Aulas online e serviços de beleza 🎓💄\n🔹 Marketing "
+  ],
+  "titulos": [
+   " "
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Santa Fé",
+  "page_id": "706716845867746",
+  "perfil": "https://www.facebook.com/61580740612393/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 131,
+  "anuncio_mais_novo_dias": 131,
+  "termos": [
+   "doces_para_vender"
+  ],
+  "exemplo_link": "http://instagram.com/oficialsanta_fe",
+  "copies": [
+   "Você é dono de distribuidora, mercado ou loja de festas?\n\nA Santa Fé é indústria de doces focada em revenda. Produtos de alto giro, tradição e fornecimento confiável.\n\nSe você compra para revender, esse perfil é pra você."
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Favorito Supermercados",
+  "page_id": "459744827406897",
+  "perfil": "https://www.facebook.com/favoritosuper/",
+  "dominio": "favoritosupermercados.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 29,
+  "anuncio_mais_novo_dias": 29,
+  "termos": [
+   "doces_para_vender"
+  ],
+  "exemplo_link": "https://www.favoritosupermercados.com.br/",
+  "copies": [
+   "O sonho do Leandro era realizar o sonho da esposa. ❤️🥹\n\nDepois de deixar o trabalho para se dedicar aos filhos e à família, ela encontrou uma forma de também contribuir com a renda de casa: começou a produzir e vender doces e sorvetes. E, aos poucos, nasceu o desejo de transformar o que já fazia em "
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Dra Marina Cardoso",
+  "page_id": "903527216173079",
+  "perfil": "https://www.facebook.com/61584355072927/",
+  "dominio": "desafio.nutrimarinacardoso.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 30,
+  "anuncio_mais_novo_dias": 30,
+  "termos": [
+   "doces_para_vender"
+  ],
+  "exemplo_link": "https://teste.nutrimarinacardoso.com.br/",
+  "copies": [
+   "Você faz alguma dessas coisas?"
+  ],
+  "titulos": [
+   "Eu Proíbo minhas pacientes na menopausa de fazer isso"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Sem.prejuizo",
+  "page_id": "392399840631886",
+  "perfil": "https://www.facebook.com/61565725324202/",
+  "dominio": "paredevendernoprejuizo.netlify.app",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 75,
+  "anuncio_mais_novo_dias": 75,
+  "termos": [
+   "doces_para_vender"
+  ],
+  "exemplo_link": "https://paredevendernoprejuizo.netlify.app/",
+  "copies": [
+   "🚨 Você tem certeza que está lucrando em cada bolo que vende?\n\nMuitas confeiteiras trabalham o dia inteiro, recebem pedidos, vendem bastante... e no final do mês o dinheiro simplesmente não sobra.\n\nO problema quase sempre é o mesmo:\n\n❌ Preços calculados no chute\n❌ Custos esquecidos\n❌ Ingredientes que"
+  ],
+  "titulos": [
+   "Por apenas R$19,90"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Servpan",
+  "page_id": "473326692537602",
+  "perfil": "https://www.facebook.com/61570327820768/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 150,
+  "anuncio_mais_novo_dias": 150,
+  "termos": [
+   "doces_para_vender"
+  ],
+  "exemplo_link": "http://fb.me/",
+  "copies": [
+   "Venda mais pães e doces de forma automatica 😍"
+  ],
+  "titulos": [
+   "Fale com a gente"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Mayara Campos Doces",
+  "page_id": "1717172328593393",
+  "perfil": "https://www.facebook.com/mayaracamposdocess/",
+  "dominio": "mayaracamposconfeitaria.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 61,
+  "anuncio_mais_novo_dias": 61,
+  "termos": [
+   "doces_para_vender"
+  ],
+  "exemplo_link": "https://mayaracamposconfeitaria.com.br/osegredodasfatiasperfeitas/",
+  "copies": [
+   "✨ Quer fazer doces irresistíveis para vender ou simplesmente se deliciar em casa?\n\nO curso “O Segredo das Fatias Perfeitas” ensina 12 receitas práticas, cremosas e de alta aceitação, perfeitas para quem quer renda extra ou para quem ama saborear doces feitos por você. 🍰\n\n✅ Renda extra com baixo inve"
+  ],
+  "titulos": [
+   "APRENDA AGORA!"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Veronica Grupo Seven ",
+  "page_id": "119974684533929",
+  "perfil": "https://www.facebook.com/veronicagruposeven/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 26,
+  "anuncio_mais_novo_dias": 26,
+  "termos": [
+   "doces_para_vender",
+   "salgados_para_vender"
+  ],
+  "exemplo_link": "https://facebook.com/veronicagruposeven",
+  "copies": [
+   "👉 QUER PRODUZIR MAIS E VENDER MAIS?\n\nConheça o KIT SUCESSO DE VENDAS: \n\n🔹 Modeladora de Salgados + Masseira 5kg\n\n✅ Produz até 5.000 salgados por hora\n✅ nos tamanhos de 7g até 240g\n✅ Mais rapidez e praticidade\n✅ Padronização dos seus salgados\n\n📈 Aumente sua produção e leve seu negócio para outro níve"
+  ],
+  "titulos": [
+   "Modeladora de Salgados"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Instituto Gourmet Feira de Santana",
+  "page_id": "101139139000837",
+  "perfil": "https://www.facebook.com/institutogourmet.feira/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 306,
+  "anuncio_mais_novo_dias": 306,
+  "termos": [
+   "doces_para_vender",
+   "salgados_para_vender"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "🥖 Panificação artesanal não é tendência passageira. É mercado aquecido, produto de giro rápido e oportunidade real de renda.\n\nNo Curso de Panificação Artesanal do Instituto Gourmet Feira de Santana, você aprende a produzir uma grande variedade de pães, entendendo massa, fermentação, modelagem e acab"
+  ],
+  "titulos": [
+   "api.whatsapp.com"
   ],
   "passa_filtros": false
  },
@@ -4244,33 +5484,14 @@
   "idade_dias": 866,
   "anuncio_mais_novo_dias": 866,
   "termos": [
-   "emagrecer_em_casa"
+   "emagrecer_em_casa",
+   "jejum"
   ],
   "exemplo_link": "http://instagram.com/menopausa.cancelada",
   "copies": [
    "Você conhece os benefícios do vinagre de maçã? 🍎 \n\n👉🏼Assista o vídeo para saber como usar no seu dia. \n\n✅ Diminui glicose, colesterol e triglicerídeos;\n✅ Retenção hídrica;\n✅ Gordura no fígado;\n✅ Vontade de comer doce;\n✅ Ajuda a emagrecer;\n✅ Equilibra o pH do sangue;\n✅ Desinflama o corpo.\n\nQuer ter a"
   ],
   "titulos": [],
-  "passa_filtros": false
- },
- {
-  "anunciante": "Débora Maiaa",
-  "page_id": "1097916563406368",
-  "perfil": "https://www.facebook.com/61589629133008/",
-  "dominio": "",
-  "anuncios_ativos_min": 1,
-  "idade_dias": 52,
-  "anuncio_mais_novo_dias": 52,
-  "termos": [
-   "emagrecer_em_casa"
-  ],
-  "exemplo_link": "https://queimadiaria.shop/",
-  "copies": [
-   "Quanto mais você tenta emagrecer, mais o seu corpo resiste. ❌\n\nSabe por quê? Toda vez que você pula refeição, faz jejum ou corta o pão — você aumenta exatamente o hormônio que faz a fome ficar incontrolável.\n\nNão é falta de força de vontade. É o seu próprio corpo trabalhando contra você.\n\nDescobri q"
-  ],
-  "titulos": [
-   "Aproveite enquanto ainda está disponível!"
-  ],
   "passa_filtros": false
  },
  {
@@ -4623,6 +5844,310 @@
   "titulos": [
    "2023 Royal Enfield Himalayan 411"
   ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Renan Botelho Dr",
+  "page_id": "378128628724966",
+  "perfil": "https://www.facebook.com/61565099531612/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 403,
+  "anuncio_mais_novo_dias": 403,
+  "termos": [
+   "jejum"
+  ],
+  "exemplo_link": "http://instagram.com/renanbotelhodr",
+  "copies": [
+   "Sabe fazer o preparo correto para coletar seus exames?\n🚀Manda para suas amigas"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Sírio-Libanês",
+  "page_id": "426383670820652",
+  "perfil": "https://www.facebook.com/siriolibanes/",
+  "dominio": "hospitalsiriolibanes.org.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 119,
+  "anuncio_mais_novo_dias": 119,
+  "termos": [
+   "jejum"
+  ],
+  "exemplo_link": "https://hospitalsiriolibanes.org.br/sirio-libanes-a-caminho/sao-paulo?utm_source=facebook-ads&utm_medium=alcance&utm_campaign=sl-a-caminho-sp&utm_term=interesses",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Filtro",
+  "page_id": "130920013447545",
+  "perfil": "https://www.facebook.com/61553772551765/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 613,
+  "anuncio_mais_novo_dias": 613,
+  "termos": [
+   "jejum"
+  ],
+  "exemplo_link": "http://instagram.com/fabisoldiers",
+  "copies": [
+   "Se você está enfrentando um deserto, saiba que isso é só um processo e vai passar. A caminhada nem sempre é fácil, mas a perseverança na fé traz resultados incríveis. \n\n#Fé #Perseverança #Oração #MulheresDeOração #Processo #Sacrifício #CrescimentoEspiritual #Deserto #Esperança #Gratidão #Jejum"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Thiago Sampaio - Nutrição do Corpo e da Mente",
+  "page_id": "1598721583775302",
+  "perfil": "https://www.facebook.com/thiagosampaionutricao/",
+  "dominio": "thiagosampaionutricao.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 58,
+  "anuncio_mais_novo_dias": 58,
+  "termos": [
+   "jejum"
+  ],
+  "exemplo_link": "https://thiagosampaionutricao.com/capv4/?utm_source=FB&utm_medium={{placement}}&utm_campaign={{campaign.name}}%7C{{campaign.id}}&utm_content={{ad.name}}%7C{{ad.id}}&utm_term={{adset.name}}%7C{{adset.id}}",
+  "copies": [
+   "Descubra como normalizar seus níveis de Glicemia, Hemoglobina Glicada e Insulina: \n✅ De forma 100% natural \n✅ Sem injeções caras da moda \n✅ Sem dietas chatas e restritivas \n✅ E sem deixar de comer o que você gosta! \n\nA Live vai começar em breve e a inscrição é gratuita. \n👉 Clique em Saiba Mais e gar"
+  ],
+  "titulos": [
+   "✅ De forma 100% natural!"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Academia de Pregadores",
+  "page_id": "103654612504726",
+  "perfil": "https://www.facebook.com/academiadeppregadores/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 748,
+  "anuncio_mais_novo_dias": 748,
+  "termos": [
+   "jejum"
+  ],
+  "exemplo_link": "https://www.instagram.com/",
+  "copies": [
+   "E não é assim muita das vezes? Temos a convicção do nosso chamado, oramos, lemos a Bíblia e mesmo assim parece que não vai... 🤦‍♂️😮‍💨\n\nMas calma que eu posso te ajudar!👇\n\nVocê aprofunda seu conhecimento bíblico, aplica os ensinamentos de forma prática no dia a dia e fortalece sua fé com a Academia d"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Silicone Center",
+  "page_id": "222983674837720",
+  "perfil": "https://www.facebook.com/siliconecenter/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 41,
+  "anuncio_mais_novo_dias": 41,
+  "termos": [
+   "jejum"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "Quer Turbinar Seus Seios?\nEntão Chegou A Sua Hora! \nClique no botão abaixo, envie seu contato e uma de nossas atendentes irá falar com você! ⬇️"
+  ],
+  "titulos": [
+   "Clínica Especializada Em Prótese De Silicone!"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Luíza Senna",
+  "page_id": "671420516064925",
+  "perfil": "https://www.facebook.com/61579177207017/",
+  "dominio": "secajejumturbo.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 148,
+  "anuncio_mais_novo_dias": 148,
+  "termos": [
+   "jejum"
+  ],
+  "exemplo_link": "https://quiz.secajejumturbo.site/",
+  "copies": [
+   "Conquiste seus resultados e tenha acesso a:\n✅ Um guia prático de jejum adaptado para você\n✅ Táticas para potencializar a queima de gordura\n✅ Receitas simples e rápidas de preparar\n✅ Métodos para turbinar o metabolismo\n✅ Mais autoconfiança e noites de descanso profundo"
+  ],
+  "titulos": [
+   "Comece hoje"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Academiajejum Connected Page",
+  "page_id": "310585458805851",
+  "perfil": "https://www.facebook.com/61559382046726/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 229,
+  "anuncio_mais_novo_dias": 229,
+  "termos": [
+   "jejum"
+  ],
+  "exemplo_link": "http://instagram.com/academiajejum",
+  "copies": [
+   "vc precisa aprender isso!!! é sério, isso vai mudar completamente seu jejum!\n\nfaz e dps me conta! e se vc já faz comenta aqui p/ eu saber 👇🏻"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Laboratório Genoma",
+  "page_id": "104124061214655",
+  "perfil": "https://www.facebook.com/genomalabor/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 830,
+  "anuncio_mais_novo_dias": 830,
+  "termos": [
+   "jejum"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "Sexagem Fetal 💜💙\n\n💰R$ 180,00\n⏳Resultado em 5 dias úteis (não conta o dia da coleta, nem sábado e domingo) \n🚩Por ordem de chegada\n🥗Não precisa de jejum\n\n✅Obrigatório realizar a partir da 8ª semana de gestação.\n🩸Exame de sangue, com confiabilidade de 99,9%. \n🎁 O resultado do exame vem numa caixinha re"
+  ],
+  "titulos": [
+   "api.whatsapp.com"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Angela Sirino",
+  "page_id": "542856065566581",
+  "perfil": "https://www.facebook.com/61569920781755/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 201,
+  "anuncio_mais_novo_dias": 201,
+  "termos": [
+   "jejum"
+  ],
+  "exemplo_link": "http://instagram.com/angelasirino",
+  "copies": [
+   "Nem toda “direção espiritual” vem de Deus.\nAlgumas vêm do controle, do medo e da tentativa de decidir a vida do outro.\n\nDiscernimento também é fé.\nOuvir a Deus não significa silenciar a própria consciência, nem ignorar processos construídos com oração, esforço e propósito.\n\nPosicionamento não é rebe"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Olivia Carla Aragão",
+  "page_id": "159506237240758",
+  "perfil": "https://www.facebook.com/61552774917377/",
+  "dominio": "desafiointermitente.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 131,
+  "anuncio_mais_novo_dias": 131,
+  "termos": [
+   "jejum"
+  ],
+  "exemplo_link": "https://queimaintermitente.fit/",
+  "copies": [
+   "Odeia fazer dieta? Adora comer? Experimente o jejum intermitente! Desfrute da comida que ama enquanto trabalha para  para alcançar o corpo dos seus sonhos 🍑"
+  ],
+  "titulos": [
+   "Faça o teste aqui 👉"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Victor da Silva Souza",
+  "page_id": "299268823263504",
+  "perfil": "https://www.facebook.com/victorsilva00891/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 23,
+  "anuncio_mais_novo_dias": 23,
+  "termos": [
+   "jejum"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "Melhora… e depois volta tudo de novo?\n\nA queimação passa.\nO refluxo melhora.\nDepois a boca amarga volta.\n\nEsse ciclo é exatamente o que mais cansa quem sofre há muito tempo.\n\nPor isso eu não gosto de olhar só para “baixar o ácido”.\n\nEssa combinação de spray + cápsula reúne ativos com propriedades an"
+  ],
+  "titulos": [
+   "SEU ESTÔMAGO NÃO MELHORA?"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Dr. Filipe Fontes",
+  "page_id": "120508777700106",
+  "perfil": "https://www.facebook.com/dr.filipefontes/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 257,
+  "anuncio_mais_novo_dias": 257,
+  "termos": [
+   "jejum"
+  ],
+  "exemplo_link": "http://instagram.com/dr.filipefontes",
+  "copies": [
+   "Quanto tempo o Mão-jara faz efeito no corpo? \nVamos alinhar essa expectativa pra não ficar frustrada? Entenda"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Rogério Andrade",
+  "page_id": "714277865101801",
+  "perfil": "https://www.facebook.com/61578190419008/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 125,
+  "anuncio_mais_novo_dias": 125,
+  "termos": [
+   "jejum"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "Para um segundo teste, vamos focar em uma abordagem de \"Alerta/Descoberta\". Essa técnica funciona muito bem para produtos de saúde porque gera curiosidade e se diferencia dos anúncios que parecem \"propaganda de farmácia\".\n\nAqui está uma variação focada em autoridade técnica e resultado duradouro, id"
+  ],
+  "titulos": [
+   "Cartilyn: Tecnologia que Restaura Movimentos"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Caffeine Army",
+  "page_id": "1567384370241091",
+  "perfil": "https://www.facebook.com/caffeinearmy/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 76,
+  "anuncio_mais_novo_dias": 76,
+  "termos": [
+   "jejum"
+  ],
+  "exemplo_link": "",
+  "copies": [
+   "Juntos, eles complementam sua rotina!\n\nO SuperCoffee e o SuperCoffee Protein+ são aliados pensados estrategicamente para impulsionar a sua rotina juntos. 🧋⚡\n\nUm funciona quente e o outro, gelado. Um é perfeito para o pré-treino, jejum e foco para trabalhar, outro ajuda na saciedade, recuperação dos "
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Gleid Nutri",
+  "page_id": "209953802491475",
+  "perfil": "https://www.facebook.com/gleidnutri/",
+  "dominio": "inlead.digital",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 143,
+  "anuncio_mais_novo_dias": 143,
+  "termos": [
+   "jejum"
+  ],
+  "exemplo_link": "https://inlead.digital/jejum-intermitente-VitlAw",
+  "copies": [
+   "Guia alimentar de JEJUM INTERMITENTE R$27\n\nVários cardápios de 12, 14, 16 e 18 horas, com horários variados\n\nReceitas de cafés e chás que podem ser consumidos durante o jejum\n\nReceitas de shots para quando quebrar o jejum \n\nReceitas de pré e pós-treino, de acordo com cada tipo de exercício\n\nClica no"
+  ],
+  "titulos": [],
   "passa_filtros": false
  },
  {
@@ -5066,7 +6591,8 @@
   "idade_dias": 35,
   "anuncio_mais_novo_dias": 35,
   "termos": [
-   "planilha"
+   "planilha",
+   "trabalhar_de_casa"
   ],
   "exemplo_link": "https://lp.contaazul.com/experimente-gratis-b",
   "copies": [
@@ -5145,7 +6671,8 @@
   "anuncio_mais_novo_dias": 83,
   "termos": [
    "por_apenas_R_",
-   "receitas"
+   "receitas",
+   "trabalhar_de_casa"
   ],
   "exemplo_link": "https://doutorkids.com/",
   "copies": [
@@ -5898,6 +7425,665 @@
   "passa_filtros": false
  },
  {
+  "anunciante": "Shopee Brasil Afiliados",
+  "page_id": "1060768857122428",
+  "perfil": "https://www.facebook.com/61573331212384/",
+  "dominio": "play.google.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 153,
+  "anuncio_mais_novo_dias": 153,
+  "termos": [
+   "renda_extra"
+  ],
+  "exemplo_link": "http://play.google.com/store/apps/details?id=com.shopee.br",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Uber",
+  "page_id": "120945717945722",
+  "perfil": "https://www.facebook.com/uber/",
+  "dominio": "uber.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 26,
+  "anuncio_mais_novo_dias": 26,
+  "termos": [
+   "renda_extra"
+  ],
+  "exemplo_link": "https://www.uber.com/s/d/kochab",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Lalamove",
+  "page_id": "301365064138538",
+  "perfil": "https://www.facebook.com/LalamoveBR/",
+  "dominio": "itunes.apple.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 160,
+  "anuncio_mais_novo_dias": 160,
+  "termos": [
+   "renda_extra"
+  ],
+  "exemplo_link": "http://itunes.apple.com/app/id1522419641",
+  "copies": [
+   "Quer ganhar até R$2.100* por semana?\nCadastre-se como Motorista Parceiro da Lalamove!\nAceitamos veículos próprios ou de terceiros, qualquer ano.\nDirija seu caminho para o sucesso!"
+  ],
+  "titulos": [
+   "Renda Extra com Seu Veículo"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "iFood para Entregadores",
+  "page_id": "174880155714662",
+  "perfil": "https://www.facebook.com/ifoodparaentregadoresoficial/",
+  "dominio": "apps.apple.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 61,
+  "anuncio_mais_novo_dias": 61,
+  "termos": [
+   "renda_extra"
+  ],
+  "exemplo_link": "http://itunes.apple.com/app/id1472006338",
+  "copies": [
+   "O iFood para Entregadores chegou no iPhone. Faça suas entregas com o celular que você já tem. Baixe o app e comece."
+  ],
+  "titulos": [
+   "iFood para Entregadores no iPhone"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "helppi.no.insta",
+  "page_id": "863039696886587",
+  "perfil": "https://www.instagram.com/_u/helppi.no.insta",
+  "dominio": "helppi.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 360,
+  "anuncio_mais_novo_dias": 360,
+  "termos": [
+   "renda_extra"
+  ],
+  "exemplo_link": "https://www.helppi.com.br/helpper/cadastro",
+  "copies": [
+   "Cada pessoa tem um motivo. 💡\n\nA Helppi conecta pessoas a oportunidades de trabalho em lojas e supermercado. Uma alternativa para quem busca mais autonomia, flexibilidade ou novas possibilidades.\n\nOrganize seu horário, explore as oportunidades disponíveis e vá no seu ritmo. 🚀\n\nClique no link da bio, "
+  ],
+  "titulos": [
+   "Helpper - Ganhe renda extra trabalhando para o varejo"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Mentoria",
+  "page_id": "673402502514513",
+  "perfil": "https://www.facebook.com/61576169031683/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 330,
+  "anuncio_mais_novo_dias": 330,
+  "termos": [
+   "renda_extra"
+  ],
+  "exemplo_link": "http://instagram.com/mercadinhodocirao_",
+  "copies": [
+   "🚨🚨🚨De garagem pra gigante.\nCevan entrou na mentoria com um mercadinho pequeno, tocando nas horas vagas… Era só uma renda extra.\n\nHoje são dois mercados grandes, vendendo muito no varejo e no atacado.\nEle saiu do contracheque fixo como servidor, pra viver 100% do que construiu com as próprias mãos.\n\n"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Anota AI",
+  "page_id": "1788954381403911",
+  "perfil": "https://www.facebook.com/anotaAI.bots/",
+  "dominio": "contato.anota.ai",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 81,
+  "anuncio_mais_novo_dias": 81,
+  "termos": [
+   "salgados_para_vender"
+  ],
+  "exemplo_link": "https://contato.anota.ai/?utm_source=facebook&utm_medium=cpa",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Mastech Tecnologia Ltda",
+  "page_id": "284863211561772",
+  "perfil": "https://www.facebook.com/mastechtecnologia1/",
+  "dominio": "mastechtecnologia.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 39,
+  "anuncio_mais_novo_dias": 39,
+  "termos": [
+   "salgados_para_vender"
+  ],
+  "exemplo_link": "https://www.mastechtecnologia.com.br/impressora-ghs/combo-no-1-allegroidprt-i4es-etiqueta-ribbon-programa",
+  "copies": [
+   "Você ainda usa saco impresso caro ou escreve na embalagem à mão?\n\nA maioria dos fabricantes de salgados congelados não percebe o quanto está perdendo dinheiro com isso…\n\n👉 Falta de padrão\n👉 Imagem pouco profissional\n👉 Zero flexibilidade para mudar preços ou informações\n\nAgora imagina ter sua própria"
+  ],
+  "titulos": [
+   "Pare de perder dinheiro com embalagem."
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Simbox Embalagens",
+  "page_id": "1148899991632532",
+  "perfil": "https://www.facebook.com/61589115562993/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 159,
+  "anuncio_mais_novo_dias": 159,
+  "termos": [
+   "salgados_para_vender"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "Transforme caixas comuns em uma vitrine da sua marca com a Simbox Embalagens.\n\nEstamos há 14 anos ajudando pizzarias a vender mais com embalagens personalizadas que valorizam o delivery e fortalecem a marca.\n\nSolicite seu orçamento no WhatsApp e destaque sua pizzaria desde a primeira entrega!\n\nLembr"
+  ],
+  "titulos": [
+   "Simbox Embalagens"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Brullê Pães Congelados",
+  "page_id": "191884034749192",
+  "perfil": "https://www.facebook.com/brullepaesecongelados/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 49,
+  "anuncio_mais_novo_dias": 49,
+  "termos": [
+   "salgados_para_vender"
+  ],
+  "exemplo_link": "http://www.instagram.com/",
+  "copies": [
+   "🚀 QUER MAIS PRATICIDADE E RENTABILIDADE NO SEU NEGÓCIO?\n\nSe você é dono de supermercado, panificadora, lanchonete, café, restaurante ou conveniência, conheça a linha de congelados Brullê — Direto da Fábrica.\n\nTenha produtos de qualidade, fáceis de preparar e com excelente potencial de venda, sem com"
+  ],
+  "titulos": [
+   "Conversar no Messenger"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Finger Foods",
+  "page_id": "107973018676585",
+  "perfil": "https://www.facebook.com/FingerFoodsReceitas/",
+  "dominio": "oferta.cursarnet.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 34,
+  "anuncio_mais_novo_dias": 34,
+  "termos": [
+   "salgados_para_vender"
+  ],
+  "exemplo_link": "https://oferta.cursarnet.com/finger-foodsj",
+  "copies": [
+   "Sua primeira venda pode começar com uma bandeja bem montada.\n\nNo e-book Finger Foods Incríveis, você aprende receitas passo a passo, combinações simples e montagem de finger foods bonitos para começar mesmo sem experiência."
+  ],
+  "titulos": [
+   "Aprenda finger foods para vender"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Fábrica de Conteúdo ",
+  "page_id": "1010483608822098",
+  "perfil": "https://www.facebook.com/61574512826933/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 107,
+  "anuncio_mais_novo_dias": 107,
+  "termos": [
+   "salgados_para_vender"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "Seu negócio no setor alimentício precisa ganhar visibilidade.\n\nVídeos com personagens animados apresentando o nome,\nlocalização, cardápio e formas de contato do seu estabelecimento, entregues em até 24 horas.\n\nSem câmera. Sem gravações. Sem dor de cabeça.\n\nQuer um vídeo assim para o seu negócio?\nFal"
+  ],
+  "titulos": [
+   "Me chame no WhatsApp"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Leandro - Especialista em Marketing Para Salgados",
+  "page_id": "923629874157626",
+  "perfil": "https://www.facebook.com/61583652846644/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 187,
+  "anuncio_mais_novo_dias": 187,
+  "termos": [
+   "salgados_para_vender"
+  ],
+  "exemplo_link": "http://instagram.com/mktsalgados",
+  "copies": [
+   "🚨 Quantas máquinas de salgados são vendidas por mês?\n\nMais de 1.000 máquinas de salgados entrando no mercado… todo mês.\n\nIsso significa uma coisa:\n📉 A concorrência entre salgadeiros só aumenta.\n\nMas aqui está o erro da maioria:\nEstão presos em receita, trend e conteúdo vazio…\nEnquanto esquecem do qu"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "RP congelados",
+  "page_id": "1451959341771073",
+  "perfil": "https://www.facebook.com/100063832899613/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 216,
+  "anuncio_mais_novo_dias": 216,
+  "termos": [
+   "salgados_para_vender"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "👉 Se o seu negócio precisa de salgados práticos, saborosos e com ótimo giro, a RP Congelados é a parceira certa.\n\nOferecemos uma linha completa de salgados congelados, com variedade de sabores, preparo simples e excelente aceitação no balcão, ideais para lanchonetes, padarias, bares e pontos de vend"
+  ],
+  "titulos": [
+   "api.whatsapp.com"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Mané Alimentos",
+  "page_id": "102938367729124",
+  "perfil": "https://www.facebook.com/manealimentos/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 131,
+  "anuncio_mais_novo_dias": 131,
+  "termos": [
+   "salgados_para_vender"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "Só de olhar, o cliente já decide comprar!\n\nOs produtos da Mané Alimentos são assim: irresistíveis, práticos e feitos para você vender mais.\n\n👉 Deixe sua vitrine ainda mais atrativa com nossos salgados, doces e assados!\n\nQuer ter sabores que vendem sozinhos? Chame a gente agora mesmo!\n\n#manealimentos"
+  ],
+  "titulos": [
+   "api.whatsapp.com"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Casa do Sorveteiro",
+  "page_id": "152651518240849",
+  "perfil": "https://www.facebook.com/casadosorveteirobr/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 11,
+  "anuncio_mais_novo_dias": 11,
+  "termos": [
+   "salgados_para_vender"
+  ],
+  "exemplo_link": "",
+  "copies": [
+   "Outubro tá chegegando com uma programação de cursos especiais na Casa do Sorveteiro! 🧑‍🍳👩‍🍳\n\nSe você quer aprender novas técnicas, aperfeiçoar suas habilidades e encontrar novas oportunidades, nossos cursos são para você! 💙\n\nTem opções para quem quer lucrar do Círio ao Halloween, 📿👻 seja na panifica"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Renata Bacha",
+  "page_id": "216515818762349",
+  "perfil": "https://www.facebook.com/metodorenatabacha/",
+  "dominio": "renatabacha.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 58,
+  "anuncio_mais_novo_dias": 58,
+  "termos": [
+   "salgados_para_vender"
+  ],
+  "exemplo_link": "https://renatabacha.com.br/brigadeiros",
+  "copies": [
+   "O MAIOR DESCONTO já visto no curso dos brigadeiros saudáveis mais desejados do mercado!\n\n✅ Receitas fáceis zero açúcar, glúten, lactose ou leite;\n\n✅Mais de 7 tipos de mix de adoçantes naturais ou frutas: ZERO SABOR RESIDUAL!\n\n👍🏼 Mesmo sem experiência, da cozinha da sua casa, com utensílios que você "
+  ],
+  "titulos": [
+   "12x de R$ 29,72"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Compacta Print - Paula Gomes",
+  "page_id": "111284182037554",
+  "perfil": "https://www.facebook.com/PaulaGomesCompactaPrint/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 126,
+  "anuncio_mais_novo_dias": 126,
+  "termos": [
+   "salgados_para_vender"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "🔥 BLACK MIX PARA SALGADEIROS 🔥\nMais produção em menos tempo, com menos esforço e mais lucro no fim do mês.\n✅ Economize tempo\n✅ Padronize seus salgados\n✅ Produza mais todos os dias\n✅ Ganhe mais dinheiro vendendo em escala\nBlack Mix + Masseira\nA dupla certa para quem quer produzir mais e vender melhor"
+  ],
+  "titulos": [
+   "Entre em contato já"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Vitarella",
+  "page_id": "188991081118570",
+  "perfil": "https://www.facebook.com/VitarellaOficial/",
+  "dominio": "ifood.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 111,
+  "anuncio_mais_novo_dias": 111,
+  "termos": [
+   "trabalhar_de_casa"
+  ],
+  "exemplo_link": "https://www.ifood.com.br/delivery/descobrir/lista/6dd8aba6-64bd-4975-99f5-3eb16ac86989?UTM_Medium=share?utm_source=meta&utm_medium=cpm&utm_campaign=crispin_ba_awareness_institucional_alcance_meta_cpm_hero_2026&utm_term=aon-campanha-hero_interesses_as24-55_hero&utm_content=crispin_ba_awareness_institucional_alcance_meta_cpm_hero_2026_aon-campanha-hero_interesses_as24-55_hero_hero_feed_video_30s_2026",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Gigatudo by Distrinox EPI",
+  "page_id": "441320719254980",
+  "perfil": "https://www.facebook.com/distrinox/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 1025,
+  "anuncio_mais_novo_dias": 1025,
+  "termos": [
+   "trabalhar_de_casa"
+  ],
+  "exemplo_link": "",
+  "copies": [
+   "Na GIGATUDO, oferecemos uma ampla gama de Equipamentos de Proteção Individual (EPIs) para atender às suas necessidades. Desde calçados de segurança, luvas, capacetes, óculos, equipamentos para trabalho em altura e até protetor sola. Temos tudo o que você precisa para trabalhar protegido.\n\nCom mais d"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Kha Nogueira",
+  "page_id": "1301904283000122",
+  "perfil": "https://www.facebook.com/61592687524910/",
+  "dominio": "maquinadecomissoes.online",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 28,
+  "anuncio_mais_novo_dias": 28,
+  "termos": [
+   "trabalhar_de_casa"
+  ],
+  "exemplo_link": "https://www.maquinadecomissoes.online/hbuigv6",
+  "copies": [
+   ""
+  ],
+  "titulos": [
+   "Assista agora mesmo..."
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Cumpade Guga",
+  "page_id": "303442296410902",
+  "perfil": "https://www.facebook.com/100076440969799/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 80,
+  "anuncio_mais_novo_dias": 80,
+  "termos": [
+   "trabalhar_de_casa"
+  ],
+  "exemplo_link": "",
+  "copies": [
+   "Minhas bença olhe que não tem aperreio pior do que você ficar “intempu dinlouquicê” com pouca conexão pra resolver a vida da pessoa 🤯\n\nAinda bem que meu cumpade encontrou a melhor solução com brisanet.oficial provando por A+B que conectar vai além da internet! Escolhe a Brisa tu também, visse? 🧡\n\n*P"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Damie",
+  "page_id": "169117116276277",
+  "perfil": "https://www.facebook.com/poltronasdamie10/",
+  "dominio": "damie.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 39,
+  "anuncio_mais_novo_dias": 39,
+  "termos": [
+   "trabalhar_de_casa"
+  ],
+  "exemplo_link": "https://www.damie.com.br/collections/poltrona-reclinavel",
+  "copies": [
+   "💺Venha conhecer nossas poltronas reclináveis com massagem!\n\n👉Confira nossos benefícios:\n\n✅ Garantia de 01 ano;\n✅ Material de alta durabilidade;\n✅ Assento com duplo molejo;\n✅ Sistema de massagem premium;\n✅ Produzidas por mãos brasileiras;\n\nClique em SAIBA MAIS, e vem ver de perto!"
+  ],
+  "titulos": [
+   "Visite nosso site!"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "ClubeCafé",
+  "page_id": "432156710161862",
+  "perfil": "https://www.facebook.com/ClubeCafeBrasil/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 257,
+  "anuncio_mais_novo_dias": 257,
+  "termos": [
+   "trabalhar_de_casa"
+  ],
+  "exemplo_link": "http://instagram.com/clubecafebrasil",
+  "copies": [
+   "Antes de virar moda, já era ClubeCafé.\nMais do que um clube de assinatura de café, somos curadores de histórias, técnicas e sabores que chegam fresquinhos à sua casa. Experimente a diferença de quem está nessa jornada desde o começo.\n#ClubeCafe #CaféEspecial #OrigemControlada #PrimeiroClubeDeCafé #C"
+  ],
+  "titulos": [
+   "ClubeCafé"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Neantropia",
+  "page_id": "400430257439893",
+  "perfil": "https://www.facebook.com/neantropia/",
+  "dominio": "neantropia.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 53,
+  "anuncio_mais_novo_dias": 53,
+  "termos": [
+   "trabalhar_de_casa"
+  ],
+  "exemplo_link": "https://neantropia.com.br/testoprimal/",
+  "copies": [
+   "Meu irmão, a Testosterona é o Hormônio da Masculinidade.\n\nNão é normal pra homem nenhum ter esse hormônio baixo. Hoje nós temos uma epidemia de baixa testosterona, e de:\n\n- Falta de motivação;\n- Cansaço e indisposição;\n- Fraqueza e baixa energia;\n- Emoções instáveis, irritação, ansiedade, etc;\n- Aqu"
+  ],
+  "titulos": [
+   "Ter Testosterona alta natural é simples."
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Gabriel.Utzig",
+  "page_id": "108108341999505",
+  "perfil": "https://www.facebook.com/gabrielutzigg/",
+  "dominio": "pagina.patrimoniolucrativo.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 157,
+  "anuncio_mais_novo_dias": 157,
+  "termos": [
+   "trabalhar_de_casa"
+  ],
+  "exemplo_link": "https://pagina.patrimoniolucrativo.com.br/pc-ersa002",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Audible",
+  "page_id": "133177253203847",
+  "perfil": "https://www.facebook.com/61550913546551/",
+  "dominio": "audible.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 6,
+  "anuncio_mais_novo_dias": 6,
+  "termos": [
+   "trabalhar_de_casa"
+  ],
+  "exemplo_link": "https://www.audible.com.br/?source_code=BAWP30DTRIAL0260818263419",
+  "copies": [
+   "#publicidade | o low profile e a tagarela geralmente se casam! isso que da ficar ouvindo audiolivro enquanto limpo a casa, só tem história boa e eu preciso contar para alguém. eu não tenho culpa se a Audible tem mais de 6 mil títulos e ainda da 30 dias gratuítos para gente aproveitar. @audible_br"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Lysoform",
+  "page_id": "898831413512312",
+  "perfil": "https://www.facebook.com/LysoformBrasil/",
+  "dominio": "amazon.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 5,
+  "anuncio_mais_novo_dias": 5,
+  "termos": [
+   "trabalhar_de_casa",
+   "treino_em_casa"
+  ],
+  "exemplo_link": "https://www.amazon.com.br/stores/page/B5CEB15C-08B1-4A35-9D94-CA78464A80B0??channel=fy27q2_clube-lysoform_influ_social_multi_meta_video_nic-nadya2_9x16",
+  "copies": [
+   "Ser atleta amadora é descobrir que o treino é só uma parte da equação! \n\nE a roupa de treino? @Lysoformbrasil na lavagem e spray no tênis já fazem parte da rotina pra deixar tudo mais prático! \n\nE você, como equilibra treino e vida adulta? Conta aqui 👇 \n\n*Antes de usar, leia as instruções do rótulo."
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Pablo Marçal Oficial",
+  "page_id": "102199795319206",
+  "perfil": "https://www.facebook.com/100066589607476/",
+  "dominio": "profissaohomesales.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 14,
+  "anuncio_mais_novo_dias": 14,
+  "termos": [
+   "trabalhar_de_casa"
+  ],
+  "exemplo_link": "https://split.vkdigital.com.br/rules/7b7a65a1-f2f5-4d52-be49-fd2d3fd38ef6",
+  "copies": [
+   "Transforme sua casa no seu local de trabalho!\n\nConheça o Home Sales, a profissão para quem deseja trabalhar com vendas de onde estiver, com liberdade e flexibilidade."
+  ],
+  "titulos": [
+   "Conheça o Home Sales"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "deolhonomeudireito",
+  "page_id": "107772044015078",
+  "perfil": "https://www.facebook.com/100063485707380/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 908,
+  "anuncio_mais_novo_dias": 908,
+  "termos": [
+   "trabalhar_de_casa"
+  ],
+  "exemplo_link": "http://instagram.com/laisbragaadvocacia",
+  "copies": [
+   "- Dra., desculpa-me a ansiedade, eu sei que ainda é domingo, mas não consegui me conter, passei o dia em agonia, sei ainda, que tem milhares de processos e o meu é só mais um, ocorre que ele é tão importante para mim, hoje esse benefício do INSS é a maior expectativa da minha vida, é um sonho.\n\n Não"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Jade Romero Paz",
+  "page_id": "647337861800315",
+  "perfil": "https://www.facebook.com/jaderomeropaz/",
+  "dominio": "jade13013.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 41,
+  "anuncio_mais_novo_dias": 41,
+  "termos": [
+   "trabalhar_de_casa"
+  ],
+  "exemplo_link": "https://jade13013.com.br/",
+  "copies": [
+   "Mulher precisa de proteção, mas também de condições para trabalhar, cuidar dos filhos e construir a própria autonomia. Quero levar para a Assembleia uma atuação firme em defesa das mulheres, ampliando a rede de proteção, criando mais espaços de atendimento e lutando por mais creches e berçários em t"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Santander Empresas Brasil",
+  "page_id": "388074034398680",
+  "perfil": "https://www.facebook.com/santanderempresasbrasil/",
+  "dominio": "santander.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 48,
+  "anuncio_mais_novo_dias": 48,
+  "termos": [
+   "trabalhar_de_casa"
+  ],
+  "exemplo_link": "https://www.santander.com.br/banco/empresas/conta-pj/?utm_source_platform=facebookads&utm_source=facebook-instagram&utm_medium=paid-social&utm_campaign=br_rcb_brd_inp_na_ssn_fai_baw_na_psoc_meta_mkt-awa-pj-flight1-26_awa_na&utm_content=brd_inp_kv-pjflight1-veic-meta-formt-video-compra-cpe-sec-93-rtbm-atendimento-rtbc-atendimentohumano-influ-jeffersonrueda_olv_custom_m20847-33882-292_vid_br_por_na&utm_mmm=:m20847-g33882-p33882[t1826-f1932]19565:&utm_adid=m20847-33882-292&utm_publisher_id=&utm_id=",
+  "copies": [
+   "Qual a receita para o sucesso? 👨🏻‍🍳 \n\nJeff Rueda, chef renomado e proprietário da Casa do Porco, compartilha os seus ingredientes para fazer uma empresa chegar ao ponto perfeito. \n\nE o toque final dele? Contar com o Santander Empresas como o parceiro ideal para transformar os seus planos em realidad"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Bruno Maciel",
+  "page_id": "467367984096795",
+  "perfil": "https://www.facebook.com/brunomaci.ecom/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 272,
+  "anuncio_mais_novo_dias": 272,
+  "termos": [
+   "trabalhar_de_casa"
+  ],
+  "exemplo_link": "http://instagram.com/brunomaciel.ecom",
+  "copies": [
+   "Toda empresa tem 3 tipos de funcionários.\nE a forma como o dono enxerga cada um determina o destino do negócio.\n\nTem o que entrega menos do que recebe, esse na prática, drena energia, tempo e dinheiro da empresa sem perceber.\n\nTem o que faz exatamente o combinado, é correto, importante, mas não move"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Melolo Hub - Assistir Grátis no Brasil",
+  "page_id": "1004993122703480",
+  "perfil": "https://www.facebook.com/61586541015458/",
+  "dominio": "play.google.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 132,
+  "anuncio_mais_novo_dias": 132,
+  "termos": [
+   "trabalhar_de_casa"
+  ],
+  "exemplo_link": "https://play.google.com/store/apps/details?id=com.worldance.drama",
+  "copies": [
+   "💕Ainda baixou animado por propagandas de \"grátis\", só para descobrir que precisa pagar para desbloquear ou que o vídeo para após 3 minutos de prévia?Não deixe mais esses truques esgotarem sua paciência!👉Melolo: totalmente grátis e sem enrolação.Todo o conteúdo é acessível de imediato, sem custos ocu"
+  ],
+  "titulos": [
+   "veja episódios grátis!"
+  ],
+  "passa_filtros": false
+ },
+ {
   "anunciante": "Atividades Dance",
   "page_id": "567343389785739",
   "perfil": "https://www.facebook.com/61571943904506/",
@@ -5935,24 +8121,6 @@
   "titulos": [
    "Treine no conforto do seu Lar com o Home Leg!"
   ],
-  "passa_filtros": false
- },
- {
-  "anunciante": "Lysoform",
-  "page_id": "898831413512312",
-  "perfil": "https://www.facebook.com/LysoformBrasil/",
-  "dominio": "amazon.com.br",
-  "anuncios_ativos_min": 1,
-  "idade_dias": 5,
-  "anuncio_mais_novo_dias": 5,
-  "termos": [
-   "treino_em_casa"
-  ],
-  "exemplo_link": "https://www.amazon.com.br/stores/page/B5CEB15C-08B1-4A35-9D94-CA78464A80B0??channel=fy27q2_clube-lysoform_influ_social_multi_meta_video_nic-nadya2_9x16",
-  "copies": [
-   "Ser atleta amadora é descobrir que o treino é só uma parte da equação! \n\nE a roupa de treino? @Lysoformbrasil na lavagem e spray no tênis já fazem parte da rotina pra deixar tudo mais prático! \n\nE você, como equilibra treino e vida adulta? Conta aqui 👇 \n\n*Antes de usar, leia as instruções do rótulo."
-  ],
-  "titulos": [],
   "passa_filtros": false
  },
  {
