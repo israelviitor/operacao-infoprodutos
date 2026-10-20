@@ -4,11 +4,12 @@
   "page_id": "700667209806920",
   "perfil": "https://www.facebook.com/61579716705010/",
   "dominio": "lp.pierre.finance",
-  "anuncios_ativos_min": 35,
+  "anuncios_ativos_min": 38,
   "idade_dias": 27,
   "anuncio_mais_novo_dias": 27,
   "termos": [
-   "planilha"
+   "planilha",
+   "relacionamento"
   ],
   "exemplo_link": "https://lp.pierre.finance/lp/home-2",
   "copies": [
@@ -66,22 +67,22 @@
   "passa_filtros": true
  },
  {
-  "anunciante": "SHEIN Brasil",
-  "page_id": "218726778785423",
-  "perfil": "https://www.facebook.com/SHEINBrasil/",
-  "dominio": "m.shein.com",
-  "anuncios_ativos_min": 9,
-  "idade_dias": 29,
-  "anuncio_mais_novo_dias": 10,
+  "anunciante": "Shopee",
+  "page_id": "110231373695200",
+  "perfil": "https://www.facebook.com/ShopeeBR/",
+  "dominio": "shopee.com.br",
+  "anuncios_ativos_min": 12,
+  "idade_dias": 20,
+  "anuncio_mais_novo_dias": 19,
   "termos": [
-   "costura",
-   "treino_em_casa"
+   "autismo",
+   "kit_com"
   ],
-  "exemplo_link": "https://m.shein.com/br/ark/default?scene=1&test=5051&ad_type=DPA&url_from=adhub2104775705551503363&pf=Facebook&placement={{placement}}&site_source_name={{site_source_name}}",
+  "exemplo_link": "http://shopee.com.br/",
   "copies": [
-   "Ofertas quentes de hoje\nExplore nossas escolhas chiques agora\nObtenha mais surpresas",
-   "Cupom exclusivo: até 50% de desconto na sua compra com valor mínimo!",
-   "Durma profundamente com nossos pijamas de qualidade, feitos para uma noite tranquila."
+   "Mais segurança para suas compras. Com a Garantia Shopee sua compra tem garantia de entrega ou seu dinheiro de volta.",
+   "Todo dia uma nova promoção! No app da Shopee você sempre aproveita os melhores descontos. Olha na Shopee",
+   "Mais segurança para suas compras. Com a Garantia Shopee sua compra tem garantia de entrega ou seu dinheiro de volta."
   ],
   "titulos": [
    "{{product.name}}"
@@ -110,25 +111,21 @@
   "passa_filtros": true
  },
  {
-  "anunciante": "Shopee",
-  "page_id": "110231373695200",
-  "perfil": "https://www.facebook.com/ShopeeBR/",
-  "dominio": "shopee.com.br",
+  "anunciante": "Bia Napolitano",
+  "page_id": "111463815564137",
+  "perfil": "https://www.facebook.com/bianapolitanoo/",
+  "dominio": "amazon.com.br",
   "anuncios_ativos_min": 8,
-  "idade_dias": 20,
-  "anuncio_mais_novo_dias": 19,
+  "idade_dias": 10,
+  "anuncio_mais_novo_dias": 10,
   "termos": [
-   "kit_com"
+   "inglês"
   ],
-  "exemplo_link": "http://shopee.com.br/",
+  "exemplo_link": "https://www.amazon.com.br/stores/page/F3DF0668-34C9-4713-B8B9-36DA344AA77B?channel=ValeNight-YT-out29",
   "copies": [
-   "Resgate moedas e ganhe desconto no app da Shopee.",
-   "Pague suas compras em até 12x no pix com SParcelado da Shopee.",
-   "Resgate moedas e ganhe desconto no app da Shopee."
+   "Não vou mimar meu filho… 5 minutos depois 🤣🤣🤣\n\nE eu amo a rotina de cuidados com o Dom! Exige muita responsabilidade, mas é leve, divertida e sempre com os melhores produtos! E com @pampersbrasil, eu cuido do meu filho com mais conforto, proteção e praticidade! O dia a dia é muito melhor com Pampers"
   ],
-  "titulos": [
-   "{{product.name}}"
-  ],
+  "titulos": [],
   "passa_filtros": true
  },
  {
@@ -319,6 +316,32 @@
   "passa_filtros": true
  },
  {
+  "anunciante": "Pedro Lotz",
+  "page_id": "109287314050008",
+  "perfil": "https://www.facebook.com/100068773005523/",
+  "dominio": "ltz.pedrolotz.online",
+  "anuncios_ativos_min": 5,
+  "idade_dias": 41,
+  "anuncio_mais_novo_dias": 19,
+  "termos": [
+   "planilha",
+   "plano_de_aula",
+   "seu_ex",
+   "treino_em_casa"
+  ],
+  "exemplo_link": "https://ltz.pedrolotz.online/trinca",
+  "copies": [
+   "",
+   "",
+   ""
+  ],
+  "titulos": [
+   "Pegue o seu plano 👉",
+   "Pegue seu Plano 👉"
+  ],
+  "passa_filtros": true
+ },
+ {
   "anunciante": "Quaker Brasil",
   "page_id": "133705003368840",
   "perfil": "https://www.facebook.com/QuakerBrasil/",
@@ -399,27 +422,49 @@
   "passa_filtros": true
  },
  {
-  "anunciante": "Pedro Lotz",
-  "page_id": "109287314050008",
-  "perfil": "https://www.facebook.com/100068773005523/",
-  "dominio": "ltz.pedrolotz.online",
+  "anunciante": "Carlos Klein - Personal",
+  "page_id": "707794112428049",
+  "perfil": "https://www.facebook.com/61580277669852/",
+  "dominio": "oficialbarrigazero.protocolocarlos.com.br",
   "anuncios_ativos_min": 4,
-  "idade_dias": 41,
-  "anuncio_mais_novo_dias": 19,
+  "idade_dias": 42,
+  "anuncio_mais_novo_dias": 38,
   "termos": [
-   "planilha",
-   "seu_ex",
+   "emagrecer_em_casa",
+   "plano_de_aula",
    "treino_em_casa"
   ],
-  "exemplo_link": "https://ltz.pedrolotz.online/trinca",
+  "exemplo_link": "https://oficialbarrigazero.protocolocarlos.com.br/quizz",
   "copies": [
-   "",
-   "",
-   "Participe do Desafio Treino Trinca e conquiste um corpo irreconhecível em 28 dias 💪"
+   "Tem algo que ninguém fala sobre a barriga depois dos 40. Não é o espelho que mais incomoda. É a mulher começar a te olhar diferente. A energia cair. O silêncio que vai se instalando. Você acha que é falta de vontade — mas é hormonal.Quando você corrige o desequilíbrio hormonal, em semanas não é só a",
+   "Tem algo que ninguém fala sobre a barriga depois dos 40. Não é o espelho que mais incomoda. É a mulher começar a te olhar diferente. A energia cair. O silêncio que vai se instalando. Você acha que é falta de vontade — mas é hormonal.Quando você corrige o desequilíbrio hormonal, em semanas não é só a",
+   "Tem algo que ninguém fala sobre a barriga depois dos 40. Não é o espelho que mais incomoda. É a mulher começar a te olhar diferente. A energia cair. O silêncio que vai se instalando. Você acha que é falta de vontade — mas é hormonal.Quando você corrige o desequilíbrio hormonal, em semanas não é só a"
   ],
   "titulos": [
-   "Pegue o seu plano 👉",
-   "Pegue seu Plano 👉"
+   "13.547 Avaliações ⭐⭐⭐⭐⭐ (4.99)"
+  ],
+  "passa_filtros": true
+ },
+ {
+  "anunciante": "Nio",
+  "page_id": "548247935042883",
+  "perfil": "https://www.facebook.com/niointernet/",
+  "dominio": "niointernet.com.br",
+  "anuncios_ativos_min": 4,
+  "idade_dias": 39,
+  "anuncio_mais_novo_dias": 13,
+  "termos": [
+   "relacionamento",
+   "trabalhar_de_casa"
+  ],
+  "exemplo_link": "https://www.niointernet.com.br/?utm_source=meta&utm_medium=social-reach&utm_campaign=convert_nio_awar_site_meta_cpm_social-reach_all-nio&utm_content=amplo_alcance_all_all&utm_term=jtc_quadrado_carrossel_meio_preco-fixo_2608_conteudo-trend-meu-relacionamento-nio",
+  "copies": [
+   "Já sei que esse é de longe o meu relacionamento mais saudável e duradouro 🥹✨ Quer um assim também? Verifique a disponibilidade da Nio na sua região consultando o seu CEP!",
+   "#publi \nTU FOI? NEM EU!\nSim, eu sou viciada em marcar rolê e não ir. Mas é que aqui em casa a gente tem a Nio que é a internet que realmente funciona e que tem planos que não aumentam até janeiro de 2030. É tranquilidade pra trabalhar, assistir minhas séries e ficar de preguicinha em casa. Vem com a",
+   "#Publicidade | Ninguém merece passar por isso, né?! Ainda bem que, nos novos planos da @niointernet , o 5G já vem incluso, sem pagar nada a mais por isso. Liberdade pra continuar conectado dentro e fora de casa! 📱"
+  ],
+  "titulos": [
+   "Nio"
   ],
   "passa_filtros": true
  },
@@ -463,45 +508,22 @@
   "passa_filtros": true
  },
  {
-  "anunciante": "Teacher Poli",
-  "page_id": "238736745982689",
-  "perfil": "https://www.facebook.com/61555913889428/",
-  "dominio": "go.teacherpoli.com",
+  "anunciante": "Dizzy Carbornar",
+  "page_id": "287927677912456",
+  "perfil": "https://www.facebook.com/dizzycarbornar/",
+  "dominio": "mcdonalds.com.br",
   "anuncios_ativos_min": 3,
-  "idade_dias": 11,
-  "anuncio_mais_novo_dias": 11,
+  "idade_dias": 18,
+  "anuncio_mais_novo_dias": 18,
   "termos": [
-   "apostila"
+   "inglês"
   ],
-  "exemplo_link": "https://go.teacherpoli.com/eqwaia?site=%7B%7Bsite_source_name%7D%7D&placement=%7B%7Bplacement%7D%7D&adset=%7B%7Badset.id%7D%7D&ad=%7B%7Bad.id%7D%7D&campaign=%7B%7Bcampaign.id%7D%7D",
+  "exemplo_link": "https://www.mcdonalds.com.br/loyalty",
   "copies": [
-   "🤯 Quando a pessoa descobre que a Teacher Poli vai estar com mais de 50% de desconto nessa Black November…\n\n🎁 E que, comprando nessa oferta, ainda ganha 9 bônus exclusivos: aulas ao vivo com professor 2x por semana, Intensivo de Inglês para Viagens, curso com psicólogo pra superar o nervosismo de fal"
+   "Dicas para quem está começando a acompanhar a F1 agora - e que quer ir para o FORMULA 1 MSC CRUISES GRANDE PRÊMIO DE SÃO PAULO 2026! Sim, o @mcdonalds_br quer te levar para o GP mais especial do ano 🇧🇷🏎‍\n\nPara concorrer na promo No Pódio com Meu Méqui é muito fácil (e delicioso, rs). Você só precisa",
+   "Dicas para quem está começando a acompanhar a F1 agora - e que quer ir para o FORMULA 1 MSC CRUISES GRANDE PRÊMIO DE SÃO PAULO 2026! Sim, o @mcdonalds_br quer te levar para o GP mais especial do ano 🇧🇷🏎‍\n\nPara concorrer na promo No Pódio com Meu Méqui é muito fácil (e delicioso, rs). Você só precisa"
   ],
-  "titulos": [
-   "🔥 Mais de 50% de desconto na Teacher Poli!"
-  ],
-  "passa_filtros": true
- },
- {
-  "anunciante": "Carlos Klein - Personal",
-  "page_id": "707794112428049",
-  "perfil": "https://www.facebook.com/61580277669852/",
-  "dominio": "oficialbarrigazero.protocolocarlos.com.br",
-  "anuncios_ativos_min": 3,
-  "idade_dias": 38,
-  "anuncio_mais_novo_dias": 38,
-  "termos": [
-   "emagrecer_em_casa",
-   "treino_em_casa"
-  ],
-  "exemplo_link": "https://oficialbarrigazero.protocolocarlos.com.br/quizz",
-  "copies": [
-   "Tem algo que ninguém fala sobre a barriga depois dos 40. Não é o espelho que mais incomoda. É a mulher começar a te olhar diferente. A energia cair. O silêncio que vai se instalando. Você acha que é falta de vontade — mas é hormonal.Quando você corrige o desequilíbrio hormonal, em semanas não é só a",
-   "Tem algo que ninguém fala sobre a barriga depois dos 40. Não é o espelho que mais incomoda. É a mulher começar a te olhar diferente. A energia cair. O silêncio que vai se instalando. Você acha que é falta de vontade — mas é hormonal.Quando você corrige o desequilíbrio hormonal, em semanas não é só a"
-  ],
-  "titulos": [
-   "13.547 Avaliações ⭐⭐⭐⭐⭐ (4.99)"
-  ],
+  "titulos": [],
   "passa_filtros": true
  },
  {
@@ -522,26 +544,6 @@
   "titulos": [
    "DESAFIO JEJUM 5 EM 7 | GARANTA SUA VAGA!"
   ],
-  "passa_filtros": true
- },
- {
-  "anunciante": "Manta Alves ",
-  "page_id": "548247935042883",
-  "perfil": "https://www.facebook.com/61562609323171/",
-  "dominio": "niointernet.com.br",
-  "anuncios_ativos_min": 3,
-  "idade_dias": 25,
-  "anuncio_mais_novo_dias": 13,
-  "termos": [
-   "trabalhar_de_casa"
-  ],
-  "exemplo_link": "https://www.niointernet.com.br/?utm_source=meta&utm_medium=social-reach&utm_campaign=convert_nio_awar_site_meta_cpm_social-reach_all-nio&utm_content=amplo_alcance_all_all&utm_term=jtc_vertical_video-90s_topo_preco-fixo_2609_creator-mantaalves-viciada-em-marcar-role",
-  "copies": [
-   "#publi \nTU FOI? NEM EU!\nSim, eu sou viciada em marcar rolê e não ir. Mas é que aqui em casa a gente tem a Nio que é a internet que realmente funciona e que tem planos que não aumentam até janeiro de 2030. É tranquilidade pra trabalhar, assistir minhas séries e ficar de preguicinha em casa. Vem com a",
-   "#Publicidade | Ninguém merece passar por isso, né?! Ainda bem que, nos novos planos da @niointernet , o 5G já vem incluso, sem pagar nada a mais por isso. Liberdade pra continuar conectado dentro e fora de casa! 📱",
-   "Publi | Teeem que acompanhar hahaha! Com @niointernet , dá pra assistir filmes, trabalhar e contar com a tranquilidade dos planos com preço fixo até jan/2030. 💚"
-  ],
-  "titulos": [],
   "passa_filtros": true
  },
  {
@@ -689,6 +691,26 @@
   "passa_filtros": true
  },
  {
+  "anunciante": "Maria Maia",
+  "page_id": "468835406323785",
+  "perfil": "https://www.facebook.com/61571841683958/",
+  "dominio": "mariamaiapsi.com",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 20,
+  "anuncio_mais_novo_dias": 20,
+  "termos": [
+   "plano_de_aula"
+  ],
+  "exemplo_link": "https://www.mariamaiapsi.com/aula-dia-21",
+  "copies": [
+   "No dia 21 de Outubro teremos uma super aula ao vivo, onde falaremos como a neurociência te ensina a viver com mais disciplina, produtividade e autoestima.\n\nEsse encontro é gratuito mas você precisa se inscrever para receber o link de acesso. \n\nBasta clicar no botão Saiba Mais para se cadastrar! Te v"
+  ],
+  "titulos": [
+   "Aula ao Vivo sobre Neurociência"
+  ],
+  "passa_filtros": true
+ },
+ {
   "anunciante": "Ana Santos",
   "page_id": "679962075203160",
   "perfil": "https://www.facebook.com/61578141200254/",
@@ -790,6 +812,26 @@
   "titulos": [
    "Amor, vingança e justiça nas sombras.",
    "De rejeitado a vingador."
+  ],
+  "passa_filtros": true
+ },
+ {
+  "anunciante": "Badoo",
+  "page_id": "313291212409852",
+  "perfil": "https://www.facebook.com/Badoo.Brasil/",
+  "dominio": "play.google.com",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 33,
+  "anuncio_mais_novo_dias": 33,
+  "termos": [
+   "relacionamento"
+  ],
+  "exemplo_link": "http://play.google.com/store/apps/details?id=com.badoo.mobile",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
   ],
   "passa_filtros": true
  },
@@ -898,7 +940,7 @@
   "page_id": "222086361593149",
   "perfil": "https://www.facebook.com/infinitepay/",
   "dominio": "infinitepay.io",
-  "anuncios_ativos_min": 223,
+  "anuncios_ativos_min": 228,
   "idade_dias": 724,
   "anuncio_mais_novo_dias": 13,
   "termos": [
@@ -906,6 +948,7 @@
    "cardápio",
    "doces_para_vender",
    "planilha",
+   "plano_de_aula",
    "por_apenas_R_",
    "renda_extra",
    "seu_ex",
@@ -930,11 +973,12 @@
   "page_id": "112565745050415",
   "perfil": "https://www.facebook.com/SHEINHOMEOFFICIAL/",
   "dominio": "m.shein.com",
-  "anuncios_ativos_min": 33,
+  "anuncios_ativos_min": 34,
   "idade_dias": 80,
   "anuncio_mais_novo_dias": 11,
   "termos": [
    "artesanato",
+   "casamento",
    "costura",
    "kit_com",
    "moldes"
@@ -943,7 +987,7 @@
   "copies": [
    "Dê vida à sua casa com esses utilitários adicionais",
    "Dê uma repaginada na sua casa com esses achados exclusivos",
-   "Ofertas quentes de hoje\nExplore nossas escolhas chiques agora\nObtenha mais surpresas"
+   "Dê vida à sua casa com esses utilitários adicionais"
   ],
   "titulos": [
    "{{product.name}}"
@@ -995,6 +1039,30 @@
   "titulos": [
    "Doutor Benefícios - Atendimento Médico 24h",
    "Gratus Tecnologia",
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "SHEIN Brasil",
+  "page_id": "218726778785423",
+  "perfil": "https://www.facebook.com/SHEINBrasil/",
+  "dominio": "m.shein.com",
+  "anuncios_ativos_min": 27,
+  "idade_dias": 111,
+  "anuncio_mais_novo_dias": 10,
+  "termos": [
+   "casamento",
+   "costura",
+   "treino_em_casa"
+  ],
+  "exemplo_link": "https://m.shein.com/br/ark/default?scene=1&test=5051&ad_type=DPA&url_from=adhub2071951854962782209&pf=Facebook&placement={{placement}}&site_source_name={{site_source_name}}",
+  "copies": [
+   "Fique estiloso com nossa linha de moda em constante evolução. Compre SHEIN agora.",
+   "Torne-se uma fashionista. Renove seu guarda-roupa agora mesmo",
+   "Torne-se uma fashionista. Renove seu guarda-roupa agora mesmo"
+  ],
+  "titulos": [
    "{{product.name}}"
   ],
   "passa_filtros": false
@@ -1071,6 +1139,29 @@
   "passa_filtros": false
  },
  {
+  "anunciante": "Mateus Andrade",
+  "page_id": "1960068844278670",
+  "perfil": "https://www.facebook.com/MateusAndrade.me/",
+  "dominio": "",
+  "anuncios_ativos_min": 18,
+  "idade_dias": 788,
+  "anuncio_mais_novo_dias": 157,
+  "termos": [
+   "concurso",
+   "plano_de_aula"
+  ],
+  "exemplo_link": "https://www.instagram.com/mateusandrade.me/",
+  "copies": [
+   "Estudar para Concurso não é desperdiçar tempo.\n\n#concurseiros #estudos #aprendizagem #tempo #estudar #concursospúblicos",
+   "A motivação nos estudos para Concurso vem da necessidade...\n\n#estudos #servidorpublico #motivação #necessidade #concurseiros #aprendizagem #concursopublico",
+   "1 - Não aceite a pobreza. É olhar para a sua vida e não achar normal não ter dinheiro pra nada, não é normal ficar desempregado, não é normal ter que depender dos outros para se manter. Não aceite isso, porque se você aceitar, já era.\n\n2 – Saia de perto de gente preguiçosa, invejosa e acomodada. Mud"
+  ],
+  "titulos": [
+   "Mateus Andrade | @mateusandrade.me"
+  ],
+  "passa_filtros": false
+ },
+ {
   "anunciante": "Pierre Finance",
   "page_id": "700667209806920",
   "perfil": "https://www.facebook.com/61579716705010/",
@@ -1120,12 +1211,13 @@
   "page_id": "521582331189033",
   "perfil": "https://www.facebook.com/VindeACristo/",
   "dominio": "",
-  "anuncios_ativos_min": 13,
-  "idade_dias": 112,
+  "anuncios_ativos_min": 14,
+  "idade_dias": 131,
   "anuncio_mais_novo_dias": 26,
   "termos": [
    "atividades_prontas",
-   "aulas_prontas"
+   "aulas_prontas",
+   "relacionamento"
   ],
   "exemplo_link": "http://fb.me/",
   "copies": [
@@ -1134,7 +1226,8 @@
    "Existe uma comunidade amorosa esperando por você bem pertinho. Lá, você encontrará pessoas prontas para te amparar nos momentos difíceis e estar ao seu lado enquanto adoramos a Jesus Cristo. Ficou interessado? Toque no link para encontrar a congregação de A Igreja de Jesus Cristo dos Santos dos Últi"
   ],
   "titulos": [
-   "Encontre uma igreja perto de você"
+   "Encontre uma igreja perto de você",
+   "Fale com os missionários"
   ],
   "passa_filtros": false
  },
@@ -1207,6 +1300,78 @@
   "passa_filtros": false
  },
  {
+  "anunciante": "Só Educador",
+  "page_id": "104726691168043",
+  "perfil": "https://www.facebook.com/soeducador/",
+  "dominio": "soeducador.com.br",
+  "anuncios_ativos_min": 10,
+  "idade_dias": 418,
+  "anuncio_mais_novo_dias": 104,
+  "termos": [
+   "acesso_imediato",
+   "autismo",
+   "educação_infantil"
+  ],
+  "exemplo_link": "https://soeducador.com.br/?assigned_campaign=professor-rede-publica",
+  "copies": [
+   "Deixe sua marca no futuro das crianças! Curso de Cuidador Infantil e Assistente de Creche com certificado reconhecido. Invista em sua paixão e construa uma carreira gratificante! Acesse o site e comece hoje!",
+   "✨ Seu conhecimento merece reconhecimento!\n\nSe você é professor, essa é sua chance de se destacar ainda mais: certificação com 50% de bolsa na SóEducador.\n\nCom um investimento acessível, você conquista um certificado que valida seu esforço, fortalece seu currículo e abre novas oportunidades.\n\n✔️ Proc",
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "Acesse todos os 6 Certificados",
+   "Cuidador Infantil e Assistente de Creche",
+   "Cursos Online com Certificado MEC",
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Matrículas Faveni",
+  "page_id": "582753254921542",
+  "perfil": "https://www.facebook.com/matriculasfaveni/",
+  "dominio": "",
+  "anuncios_ativos_min": 10,
+  "idade_dias": 196,
+  "anuncio_mais_novo_dias": 102,
+  "termos": [
+   "alfabetização",
+   "autismo",
+   "educação_infantil"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "",
+   "",
+   "🎓 PÓS-GRADUAÇÃO EAD EM ABA – GRUPO EDUCACIONAL FAVENI\n💻 Estude 100% online, com flexibilidade para aprender no seu ritmo e ampliar suas oportunidades profissionais.\n🏅 Somos Nota 5 no MEC\nCertificação válida em todo o Brasil."
+  ],
+  "titulos": [
+   "Converse conosco",
+   "SEM TCC"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Brinkids",
+  "page_id": "385174874668571",
+  "perfil": "https://www.facebook.com/brinkidstore/",
+  "dominio": "brinkidstore.com",
+  "anuncios_ativos_min": 10,
+  "idade_dias": 82,
+  "anuncio_mais_novo_dias": 82,
+  "termos": [
+   "inglês"
+  ],
+  "exemplo_link": "https://brinkidstore.com/products/livro-falante-bilingue%E2%84%A2-portugues-e-ingles?_pos=1&_psq=livro&_ss=e&_v=1.0",
+  "copies": [
+   "Seu filho aprende brincando — em 3 idiomas ao mesmo tempo! 🌎📚\n\nO Livro Falante Bilingue deixa a criança tocar nas imagens \ne ouvir as palavras instantaneamente em Português e Inglês.\n\n✅ Sem tela, sem vício — aprendizado 100% físico e interativo\n✅ Ideal para crianças a partir de 2 anos\n✅ Desenvolve v"
+  ],
+  "titulos": [
+   "Criança de 2 Anos Já Consegue Usar"
+  ],
+  "passa_filtros": false
+ },
+ {
   "anunciante": "ACNUR, a Agência da ONU para Refugiados",
   "page_id": "240507466374717",
   "perfil": "https://www.facebook.com/ACNURBrasil/",
@@ -1247,6 +1412,50 @@
   ],
   "titulos": [
    "As 30 frases mágicas que mexem com o psicológico do HOMEM!"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Atividades Cursiva",
+  "page_id": "100560129589941",
+  "perfil": "https://www.facebook.com/atividadescursiva/",
+  "dominio": "atividadescursiva.com",
+  "anuncios_ativos_min": 8,
+  "idade_dias": 143,
+  "anuncio_mais_novo_dias": 143,
+  "termos": [
+   "caligrafia"
+  ],
+  "exemplo_link": "https://atividadescursiva.com/kit/",
+  "copies": [
+   "[BAIXE AGORA] A Coleção Completa de Caligrafia do 1º ao 6º ano! O material perfeito para ajudar crianças a desenvolverem uma escrita bonita, legível e eficiente, de forma divertida e prática!\n\nCom atividades variadas, blocos de produção de frases, coordenação motora com letras pontilhadas, separação",
+   "[BAIXE AGORA] A Coleção Completa de Caligrafia do 1º ao 6º ano! O material perfeito para ajudar crianças a desenvolverem uma escrita bonita, legível e eficiente, de forma divertida e prática!\n\nCom atividades variadas, blocos de produção de frases, coordenação motora com letras pontilhadas, separação",
+   "[BAIXE AGORA] A Coleção Completa de Caligrafia do 1º ao 6º ano! O material perfeito para ajudar crianças a desenvolverem uma escrita bonita, legível e eficiente, de forma divertida e prática!\n\nCom atividades variadas, blocos de produção de frases, coordenação motora com letras pontilhadas, separação"
+  ],
+  "titulos": [
+   "Por Apenas 15 Reais"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "SHEIN CURVE",
+  "page_id": "1894913033945980",
+  "perfil": "https://www.facebook.com/SHEINCURVE/",
+  "dominio": "m.shein.com",
+  "anuncios_ativos_min": 8,
+  "idade_dias": 108,
+  "anuncio_mais_novo_dias": 44,
+  "termos": [
+   "casamento"
+  ],
+  "exemplo_link": "https://m.shein.com/br/ark/default?scene=1&test=5051&ad_type=DPA&url_from=adhub2073057784798388227&pf=Facebook&placement={{placement}}&site_source_name={{site_source_name}}",
+  "copies": [
+   "Vire uma fashionista!\nRenove seu guarda-roupa agora mesmo\nAproveite as ofertas",
+   "Vire uma fashionista!\nRenove seu guarda-roupa agora mesmo\nAproveite as ofertas",
+   "Moda para todos: descubra roupas de qualidade para cada ocasião."
+  ],
+  "titulos": [
+   "{{product.name}}"
   ],
   "passa_filtros": false
  },
@@ -1436,6 +1645,28 @@
   "passa_filtros": false
  },
  {
+  "anunciante": "institutoneuro",
+  "page_id": "103429174985659",
+  "perfil": "https://www.facebook.com/100066406641960/",
+  "dominio": "neuroplataforma.com.br",
+  "anuncios_ativos_min": 7,
+  "idade_dias": 352,
+  "anuncio_mais_novo_dias": 37,
+  "termos": [
+   "plano_de_aula"
+  ],
+  "exemplo_link": "https://neuroplataforma.com.br/",
+  "copies": [
+   "🔎 Quer aprender a aplicar a abordagem ABA, desenvolver habilidades básicas e promover um tratamento de alta performance? 🌟\n\nApresentamos nosso curso online 💻, onde você se capacitará em ABA para Autismo.\n\nMelhor de tudo, temos valores promocionais super acessíveis!\n\n🎉 Apenas 9 reais por uma taxa úni",
+   "🔎 Quer aprender a aplicar a abordagem ABA, desenvolver habilidades básicas e promover um tratamento de alta performance? 🌟\n\nApresentamos nosso curso online 💻, onde você se capacitará em ABA para Autismo.\n\nMelhor de tudo, temos valores promocionais super acessíveis!\n\n🎉 Apenas 9 reais por uma taxa úni"
+  ],
+  "titulos": [
+   "APLICADOR ABA - CERTIFICADO GRATUITO",
+   "institutoneuro"
+  ],
+  "passa_filtros": false
+ },
+ {
   "anunciante": "Destino & Alinhamento",
   "page_id": "111129565086782",
   "perfil": "https://www.facebook.com/DestinoAlinhamento/",
@@ -1539,6 +1770,26 @@
   ],
   "titulos": [
    "ACESSE SUAS RECEITAS AGORA ✅"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Bernoulli Sistema de Ensino",
+  "page_id": "1735526230066910",
+  "perfil": "https://www.facebook.com/bernoullisistema/",
+  "dominio": "enem.bernoulli.com.br",
+  "anuncios_ativos_min": 6,
+  "idade_dias": 53,
+  "anuncio_mais_novo_dias": 53,
+  "termos": [
+   "caligrafia"
+  ],
+  "exemplo_link": "https://enem.bernoulli.com.br/redacao-1000",
+  "copies": [
+   "✏️Fica a dica de testar o PraticAI Redação, do @bernoullisistemadeensino 📚💙"
+  ],
+  "titulos": [
+   "👉Conheça o PraticAI"
   ],
   "passa_filtros": false
  },
@@ -1649,6 +1900,45 @@
   "passa_filtros": false
  },
  {
+  "anunciante": "Cursos Online Para Professores",
+  "page_id": "108621087726709",
+  "perfil": "https://www.facebook.com/superpreparadocursos/",
+  "dominio": "superpreparadocursos.com.br",
+  "anuncios_ativos_min": 5,
+  "idade_dias": 272,
+  "anuncio_mais_novo_dias": 272,
+  "termos": [
+   "alfabetização"
+  ],
+  "exemplo_link": "https://superpreparadocursos.com.br/?ID=112",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Brabo Concursos",
+  "page_id": "109116185339128",
+  "perfil": "https://www.facebook.com/braboconcursos/",
+  "dominio": "",
+  "anuncios_ativos_min": 5,
+  "idade_dias": 308,
+  "anuncio_mais_novo_dias": 103,
+  "termos": [
+   "concurso"
+  ],
+  "exemplo_link": "",
+  "copies": [
+   "🔥 O melhor Concurso de Nível Médio do Brasil! \n\nPara ficar informado sobre o próximo concurso de Escrevente do TJSP e chegar com chances reais de aprovação…\n\n✅ Comente “Plano de Estudo” que eu vou te ajudar\n\n#concursopúblico #concurseiros #concursos #concursotjsp #escrevente #escreventetjsp #estudos",
+   "TOP 4 Concursos Nível Médio que pagam mais de R$ 5.000 e estão previstos para 2026 🔥\n\nQuer receber todas as informações atualizadas sobre esses concursos e aprender a estudar do jeito certo? Aí é só clicar no botão e me seguir.\n\n#concurso #concursos2026 #concursonivelmedio #emprego #concursopúblico"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
   "anunciante": "Sem Costura",
   "page_id": "100301641637057",
   "perfil": "https://www.facebook.com/usesemcostura/",
@@ -1668,6 +1958,26 @@
    "Calcinha Boxer Boyshort | Garanta já!",
    "{{product.name}}"
   ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Professor Kenny",
+  "page_id": "250305668489402",
+  "perfil": "https://www.facebook.com/ProfessorKennyOficial/",
+  "dominio": "",
+  "anuncios_ativos_min": 5,
+  "idade_dias": 853,
+  "anuncio_mais_novo_dias": 738,
+  "termos": [
+   "inglês"
+  ],
+  "exemplo_link": "http://instagram.com/prof.kenny",
+  "copies": [
+   "Aprender os números em inglês nunca foi tão fácil!🤣",
+   "Esse video é para você não errar a pronuncia de “sheet” nunca mais. 🤣🤣",
+   "A pronúncia dessas palavras pode ser desafiadora para muitas pessoas. Por isso, preparei uma explicação detalhada para ajudá-lo a aprender e memorizar de uma vez por todas!"
+  ],
+  "titulos": [],
   "passa_filtros": false
  },
  {
@@ -1804,6 +2114,52 @@
   "passa_filtros": false
  },
  {
+  "anunciante": "Teacher Poli",
+  "page_id": "238736745982689",
+  "perfil": "https://www.facebook.com/61555913889428/",
+  "dominio": "go.teacherpoli.com",
+  "anuncios_ativos_min": 4,
+  "idade_dias": 129,
+  "anuncio_mais_novo_dias": 11,
+  "termos": [
+   "apostila",
+   "plano_de_aula"
+  ],
+  "exemplo_link": "https://go.teacherpoli.com/eqwaia?site=%7B%7Bsite_source_name%7D%7D&placement=%7B%7Bplacement%7D%7D&adset=%7B%7Badset.id%7D%7D&ad=%7B%7Bad.id%7D%7D&campaign=%7B%7Bcampaign.id%7D%7D",
+  "copies": [
+   "🤯 Quando a pessoa descobre que a Teacher Poli vai estar com mais de 50% de desconto nessa Black November…\n\n🎁 E que, comprando nessa oferta, ainda ganha 9 bônus exclusivos: aulas ao vivo com professor 2x por semana, Intensivo de Inglês para Viagens, curso com psicólogo pra superar o nervosismo de fal",
+   "Como aprender a falar inglês RÁPIDO 👇🏼\n\n👉 Por que será que tanta gente trava pra falar inglês mesmo conseguindo entender tudo?\n\nIsso geralmente acontece porque essas pessoas nunca falam em inglês com ninguém - afinal elas não tem ninguém pra conversar.\n\n✅ Foi por isso que nós desenvolvemos a metodol"
+  ],
+  "titulos": [
+   "Destrave seu inglês com apenas 20 minutos",
+   "🔥 Mais de 50% de desconto na Teacher Poli!"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Inglês com Teacher Paula Gabriela",
+  "page_id": "104198382033283",
+  "perfil": "https://www.facebook.com/100075852101463/",
+  "dominio": "megahub.fluency.io",
+  "anuncios_ativos_min": 4,
+  "idade_dias": 229,
+  "anuncio_mais_novo_dias": 128,
+  "termos": [
+   "apostila",
+   "inglês"
+  ],
+  "exemplo_link": "https://megahub.fluency.io/fa/vsl/fla/captura?utm_source=facebook&utm_medium=cpc&utm_campaign={{campaign.name}}&utm_content={{ad.id}}&utm_term={{site_source_name}}&ltk_fcm={{campaign.id}}&ltk_fag={{adset.id}}&ltk_fac={{ad.id}}&ltk_fne={{site_source_name}}",
+  "copies": [
+   "A gente caprichou nessa!\n\nA oferta da nova turma de Inglês da FLUENCY está valendo muuuuito a pena.\n\n⚠️ Spoiler: tem muita conversação I-N-C-L-U-S-A!\n\nCom bônus exclusivos para quem chegar primeiro.\n\nClique em Saiba mais para entender todos os detalhes.",
+   "Você já passa horas vendo séries.\n\nE se isso pudesse acelerar seu Inglês?\n\nNesta aula gratuita, você vai descobrir como transformar filmes e séries em evolução real no inglês, sem gramática pesada e sem estudo cansativo.\n\nNa Fluency, a gente acredita que aprender inglês pode ser leve, prático e dive",
+   "A gente caprichou nessa!\n\nA oferta da nova turma de Inglês da FLUENCY está valendo muuuuito a pena.\n\n⚠️ Spoiler: tem muita conversação I-N-C-L-U-S-A!\n\nCom bônus exclusivos para quem chegar primeiro.\n\nClique em Saiba mais para entender todos os detalhes."
+  ],
+  "titulos": [
+   "Comece agora a aprender inglês"
+  ],
+  "passa_filtros": false
+ },
+ {
   "anunciante": "Confeiteira Amanda",
   "page_id": "476933115508260",
   "perfil": "https://www.facebook.com/61568741536920/",
@@ -1824,6 +2180,48 @@
   "titulos": [
    "Por apenas R$10!"
   ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "A Arte da Caligrafia",
+  "page_id": "104920809327877",
+  "perfil": "https://www.facebook.com/100094209013650/",
+  "dominio": "eudigitalonline.site",
+  "anuncios_ativos_min": 4,
+  "idade_dias": 77,
+  "anuncio_mais_novo_dias": 59,
+  "termos": [
+   "caligrafia"
+  ],
+  "exemplo_link": "https://eudigitalonline.site/neurotrilhas/",
+  "copies": [
+   "[COMO DESTRAVAR O APRENDIZADO DA CRIANÇA?]\n\n🚀🧩 O segredo das crianças com facilidade de aprendizado está no estímulo certo durante a infância.\n\nE é exatamente isso que o Combo NeuroTrilhas faz! 💡 Preparamos um material lúdico e inteligente, pronto para imprimir, que treina as habilidades mais import",
+   "[COMO DESTRAVAR O APRENDIZADO DA CRIANÇA?]\n\n🚀🧩 O segredo das crianças com facilidade de aprendizado está no estímulo certo durante a infância.\n\nE é exatamente isso que o Combo NeuroTrilhas faz! 💡 Preparamos um material lúdico e inteligente, pronto para imprimir, que treina as habilidades mais import",
+   "[COMO DESTRAVAR O APRENDIZADO DA CRIANÇA?]\n\n🚀🧩 O segredo das crianças com facilidade de aprendizado está no estímulo certo durante a infância.\n\nE é exatamente isso que o Combo NeuroTrilhas faz! 💡 Preparamos um material lúdico e inteligente, pronto para imprimir, que treina as habilidades mais import"
+  ],
+  "titulos": [
+   "Últimas Vagas..."
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Sublime Concursos",
+  "page_id": "106480812544708",
+  "perfil": "https://www.facebook.com/100095412855531/",
+  "dominio": "metodogafanhoto.com",
+  "anuncios_ativos_min": 4,
+  "idade_dias": 99,
+  "anuncio_mais_novo_dias": 67,
+  "termos": [
+   "concurso"
+  ],
+  "exemplo_link": "https://metodogafanhoto.com/quizz",
+  "copies": [
+   "⭐⭐⭐⭐⭐(4,8/5,0)",
+   "Eu faria isso se fosse você",
+   "⭐⭐⭐⭐⭐(4,8/5,0)"
+  ],
+  "titulos": [],
   "passa_filtros": false
  },
  {
@@ -1970,7 +2368,8 @@
   "anuncio_mais_novo_dias": 368,
   "termos": [
    "acesso_imediato",
-   "acesso_vitalício"
+   "acesso_vitalício",
+   "autismo"
   ],
   "exemplo_link": "https://vbmappdescomplicado.com.br/",
   "copies": [
@@ -1978,6 +2377,52 @@
   ],
   "titulos": [
    "✅ ACESSO IMEDIATO - VITALÍCIO - RECONHECIDO EM TODO BRASIL"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Shopee",
+  "page_id": "110231373695200",
+  "perfil": "https://www.facebook.com/ShopeeBR/",
+  "dominio": "play.google.com",
+  "anuncios_ativos_min": 3,
+  "idade_dias": 81,
+  "anuncio_mais_novo_dias": 28,
+  "termos": [
+   "alfabetização",
+   "kit_com"
+  ],
+  "exemplo_link": "http://play.google.com/store/apps/details?id=com.shopee.br",
+  "copies": [
+   "Utilize o cupom \"BEMVINDO10\" na sua primeira compra na Shopee e ganhe R$ 10 de desconto! Confira as condições.",
+   "Na Shopee tem sempre um cupom de esperando! São milhares de produtos para você aproveitar",
+   "Pague suas compras em até 12x no pix com SParcelado da Shopee."
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Instituto Alfa e Beto",
+  "page_id": "596268980414957",
+  "perfil": "https://www.facebook.com/alfaebeto/",
+  "dominio": "alfaebeto.lojaintegrada.com.br",
+  "anuncios_ativos_min": 3,
+  "idade_dias": 494,
+  "anuncio_mais_novo_dias": 494,
+  "termos": [
+   "alfabetização",
+   "educação_infantil"
+  ],
+  "exemplo_link": "https://alfaebeto.lojaintegrada.com.br/aplicativos-e-softwares?sort=mais_vendidos",
+  "copies": [
+   "Tecnologia e Inovação a Favor do Aprendizado\n\nOs aplicativos e softwares do Instituto Alfa e Beto foram desenvolvidos para tornar o ensino mais interativo, envolvente e significativo.\n\nPlataformas digitais e jogos educativos que engajam os estudantes e apoiam os professores, promovendo aprendizado c",
+   "Transforme os resultados da sua rede com base em evidências\n\nA alfabetização e o avanço da aprendizagem nos anos iniciais não dependem de sorte, dependem de método, formação e gestão eficiente. É isso que o Instituto Alfa e Beto oferece a municípios que levam a sério a educação pública:\n✔️ Materiais",
+   "Educação Infantil não é brincadeira, é base para toda a vida escolar. Educação Infantil com propósito transforma vidas.\n\nSabemos que os primeiros anos definem todo o percurso escolar. Por isso, a proposta do Instituto Alfa e Beto vai muito além de atividades soltas.\n\nEla entrega:\n✔️ Planejamento est"
+  ],
+  "titulos": [
+   "Instituto Alfa e Beto"
   ],
   "passa_filtros": false
  },
@@ -2040,6 +2485,134 @@
   "titulos": [
    "{{product.name}}"
   ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Atividades Cursiva",
+  "page_id": "100560129589941",
+  "perfil": "https://www.facebook.com/atividadescursiva/",
+  "dominio": "atividadescursiva.com.br",
+  "anuncios_ativos_min": 3,
+  "idade_dias": 114,
+  "anuncio_mais_novo_dias": 111,
+  "termos": [
+   "caligrafia"
+  ],
+  "exemplo_link": "https://atividadescursiva.com.br/",
+  "copies": [
+   "[BAIXE AGORA]  O material perfeito para ajudar crianças a desenvolverem uma escrita bonita, legível e eficiente, de forma divertida e prática.\n\n📚 Material pronto para imprimir\n🧠 Estimula o raciocínio e a criatividade\n✍️ Indicado para reforço escolar, alfabetização e treino da caligrafia\n👩‍🏫 Ideal pa",
+   "[BAIXE AGORA] A Coleção Completa de Caligrafia do 1º ao 6º ano! O material perfeito para ajudar crianças a desenvolverem uma escrita bonita, legível e eficiente, de forma divertida e prática!\n\nCom atividades variadas, blocos de produção de frases, coordenação motora com letras pontilhadas, separação",
+   "[BAIXE AGORA]  O material perfeito para ajudar crianças a desenvolverem uma escrita bonita, legível e eficiente, de forma divertida e prática.\n\n📚 Material pronto para imprimir\n🧠 Estimula o raciocínio e a criatividade\n✍️ Indicado para reforço escolar, alfabetização e treino da caligrafia\n👩‍🏫 Ideal pa"
+  ],
+  "titulos": [
+   "Por Apenas 15 Reais"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Salmografia a Caligrafia dos Salmos",
+  "page_id": "567268136472460",
+  "perfil": "https://www.facebook.com/salmografia/",
+  "dominio": "",
+  "anuncios_ativos_min": 3,
+  "idade_dias": 68,
+  "anuncio_mais_novo_dias": 52,
+  "termos": [
+   "caligrafia"
+  ],
+  "exemplo_link": "http://instagram.com/salmografia",
+  "copies": [
+   "Sabe aquilo que tira a atenção das crianças e rouba tempo precioso da família?\n\nAs telas prendem.\nMas a Palavra de Deus edifica.\n\nO Salmografia foi criado para ajudar as crianças a saírem um pouco das telas e entrarem em uma rotina mais saudável, com escrita, leitura, memorização e fé.\n\nA criança me",
+   "Sabe aquilo que tira a atenção das crianças e rouba tempo precioso da família?\n\nAs telas prendem.\nMas a Palavra de Deus edifica.\n\nO Salmografia foi criado para ajudar as crianças a saírem um pouco das telas e entrarem em uma rotina mais saudável, com escrita, leitura, memorização e fé.\n\nA criança me"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Dola: assist. inteligente (IA)",
+  "page_id": "145595611976121",
+  "perfil": "https://www.facebook.com/61553070084984/",
+  "dominio": "play.google.com",
+  "anuncios_ativos_min": 3,
+  "idade_dias": 106,
+  "anuncio_mais_novo_dias": 48,
+  "termos": [
+   "cardápio",
+   "inglês"
+  ],
+  "exemplo_link": "http://play.google.com/store/apps/details?id=com.larus.wolf",
+  "copies": [
+   "Desvende os mistérios da história com a ajuda da IA da Dola.",
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "Muitas abas abertas? Dola.",
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "SHEIN",
+  "page_id": "380039845369159",
+  "perfil": "https://www.facebook.com/SHEINOFFICIAL/",
+  "dominio": "m.shein.com",
+  "anuncios_ativos_min": 3,
+  "idade_dias": 85,
+  "anuncio_mais_novo_dias": 53,
+  "termos": [
+   "casamento"
+  ],
+  "exemplo_link": "https://m.shein.com/br/ark/default?scene=1&test=5051&ad_type=DPA&url_from=adhub2080583052639457286&pf=Facebook&placement={{placement}}&site_source_name={{site_source_name}}",
+  "copies": [
+   "Eleve seu visual com nossa seleção criteriosa de sapatos da moda",
+   "Ofertas quentes de hoje\nExplore nossas escolhas chiques agora\nObtenha mais surpresas",
+   "Eleve seu visual com nossa seleção criteriosa de sapatos da moda"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Lucas - O primo concursado",
+  "page_id": "460461490474380",
+  "perfil": "https://www.facebook.com/61565883406480/",
+  "dominio": "",
+  "anuncios_ativos_min": 3,
+  "idade_dias": 190,
+  "anuncio_mais_novo_dias": 111,
+  "termos": [
+   "concurso"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "Grupo de estudos focado no concurso do INSS.\nAqui você recebe orientações de estudo, avisos de aulas ao vivo, resolução de questões, informações sobre o edital, calendário, salário, benefícios e tudo que envolve o concurso público do INSS.\n\nToque em Saiba Mais",
+   "Grupo de estudos focado no concurso do INSS.\nAqui você recebe orientações de estudo, avisos de aulas ao vivo, resolução de questões, informações sobre o edital, calendário, salário, benefícios e tudo que envolve o concurso público do INSS.\n\nToque em Saiba Mais",
+   "Grupo de estudos focado no concurso do INSS.\nAqui você recebe orientações de estudo, avisos de aulas ao vivo, resolução de questões, informações sobre o edital, calendário, salário, benefícios e tudo que envolve o concurso público do INSS.\n\nToque em Saiba Mais"
+  ],
+  "titulos": [
+   "Grupo de Estudos Gratuito"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Prof. Álvaro Ferreira",
+  "page_id": "104788259336802",
+  "perfil": "https://www.facebook.com/100094165999725/",
+  "dominio": "",
+  "anuncios_ativos_min": 3,
+  "idade_dias": 615,
+  "anuncio_mais_novo_dias": 615,
+  "termos": [
+   "concurso"
+  ],
+  "exemplo_link": "https://www.instagram.com/_u/prof.alvaroferreira",
+  "copies": [
+   "Será que você acerta essa questão de Português? Me conta aqui a resposta que você marcou!\n\n📌 Se você quer ficar forte em Português para concurso público, clique no link do meu curso na BIO do meu perfil.",
+   "Será que você acerta essa questão de Português? Me conta aqui a resposta que você marcou!\n\n📌 Se você quer ficar forte em Português para concurso público, clique no link do meu curso na BIO do meu perfil.",
+   "Será que você acerta essa questão de Português? Me conta aqui a resposta que você marcou!\n\n📌 Se você quer ficar forte em Português para concurso público, clique no link do meu curso na BIO do meu perfil."
+  ],
+  "titulos": [],
   "passa_filtros": false
  },
  {
@@ -2172,6 +2745,26 @@
   "passa_filtros": false
  },
  {
+  "anunciante": "Sistema Anglo de Ensino",
+  "page_id": "131692153562355",
+  "perfil": "https://www.facebook.com/sistemaanglo/",
+  "dominio": "sistemaanglo.com.br",
+  "anuncios_ativos_min": 3,
+  "idade_dias": 187,
+  "anuncio_mais_novo_dias": 187,
+  "termos": [
+   "educação_infantil"
+  ],
+  "exemplo_link": "https://www.sistemaanglo.com.br/?utm_source={{site_source_name}}&utm_medium=cpc&utm_campaign=AC_ANGLO_CP11_Institucional-75-anos-anglo_Awareness_Topo_ABO&utm_content=ANGLO_CP11_CJ1_LAL-Mix_Congelado_S+CO+N_Feed&utm_term=ANGLO_CP11_CJ1_75-anos-anglo_Video_pilula-75-anglo-03",
+  "copies": [
+   "O Sistema Anglo celebrou 75 anos de história, legado e transformação na educação brasileira.\n\nMais do que uma trajetória, construímos uma missão: formar gerações de estudantes da Educação Infantil ao Pré-Vestibular, sempre com excelência, inovação e propósito.\n\nSomos o primeiro sistema de ensino do "
+  ],
+  "titulos": [
+   "Sistema Anglo de Ensino"
+  ],
+  "passa_filtros": false
+ },
+ {
   "anunciante": "Visit Orlando",
   "page_id": "60586090798",
   "perfil": "https://www.facebook.com/visitorlando/",
@@ -2237,21 +2830,62 @@
   "passa_filtros": false
  },
  {
-  "anunciante": "Shopee",
-  "page_id": "110231373695200",
-  "perfil": "https://www.facebook.com/ShopeeBR/",
-  "dominio": "play.google.com",
+  "anunciante": "Paula Gabriela - Professora de Inglês",
+  "page_id": "110832464866346",
+  "perfil": "https://www.facebook.com/paulagabrielaprofdeingles/",
+  "dominio": "megahub.fluency.io",
   "anuncios_ativos_min": 3,
-  "idade_dias": 81,
-  "anuncio_mais_novo_dias": 28,
+  "idade_dias": 124,
+  "anuncio_mais_novo_dias": 109,
   "termos": [
-   "kit_com"
+   "inglês"
   ],
-  "exemplo_link": "http://play.google.com/store/apps/details?id=com.shopee.br",
+  "exemplo_link": "https://megahub.fluency.io/fa/primeira-turma/matriculas-geral?utm_source=facebook&utm_medium=cpc&utm_campaign={{campaign.name}}&utm_content={{ad.id}}&utm_term={{site_source_name}}&ltk_fcm={{campaign.id}}&ltk_fag={{adset.id}}&ltk_fac={{ad.id}}&ltk_fne={{site_source_name}}",
   "copies": [
-   "Na Shopee tem sempre um cupom de esperando! São milhares de produtos para você aproveitar",
-   "Pague suas compras em até 12x no pix com SParcelado da Shopee.",
-   "Utilize o cupom \"BEMVINDO10\" na sua primeira compra na Shopee e ganhe R$ 10 de desconto! Confira as condições."
+   "Sem trauma. Sem decoreba. Sem inglês engessado.\n\nNa Fluency você aprende no curso completo, revisa no Memhack e pratica conversação durante 1 ano inteiro, desde o início. Do básico ao avançado, com método e prática real.\n\nSe for pra fazer diferente, o momento é agora. 👇",
+   "Sem trauma. Sem decoreba. Sem inglês engessado.\n\nNa Fluency você aprende no curso completo, revisa no Memhack e pratica conversação durante 1 ano inteiro, desde o início. Do básico ao avançado, com método e prática real.\n\nSe for pra fazer diferente, o momento é agora. 👇"
+  ],
+  "titulos": [
+   "Matrículas Abertas"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Loja Vida e Cor",
+  "page_id": "673345829512476",
+  "perfil": "https://www.facebook.com/LojaVidaeCor/",
+  "dominio": "vidaecor.com.br",
+  "anuncios_ativos_min": 3,
+  "idade_dias": 93,
+  "anuncio_mais_novo_dias": 93,
+  "termos": [
+   "inglês"
+  ],
+  "exemplo_link": "https://www.vidaecor.com.br/?utm_source=facebook&utm_medium=ads&utm_campaign={{adset.name}}&utm_content={{ad.name}}",
+  "copies": [
+   "Aproveite as nossas promoções para comprar com os menores preços do Brasil! 🔥",
+   "Aproveite as nossas promoções para comprar com os menores preços do Brasil! 🔥",
+   "Aproveite as nossas promoções para comprar com os menores preços do Brasil! 🔥"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "UNINOVE",
+  "page_id": "399956561000",
+  "perfil": "https://www.facebook.com/uninoveoficial/",
+  "dominio": "seletivo.uninove.br",
+  "anuncios_ativos_min": 3,
+  "idade_dias": 91,
+  "anuncio_mais_novo_dias": 91,
+  "termos": [
+   "inglês"
+  ],
+  "exemplo_link": "https://seletivo.uninove.br/graduacao-e-curta-duracao/todos/?utm_source=facebook&utm_medium=paid_social&utm_campaign=uninove_seletivo_graduacao_2026_02&utm_content=estatico_aberto_menino_quarto&utm_term=graduacao_presencial",
+  "copies": [
+   "{{product.brand}}"
   ],
   "titulos": [
    "{{product.name}}"
@@ -2543,6 +3177,29 @@
   "passa_filtros": false
  },
  {
+  "anunciante": "Gran Cursos Online - Concursos Públicos",
+  "page_id": "306555912709775",
+  "perfil": "https://www.facebook.com/grancursosonline/",
+  "dominio": "grancursosonline.com.br",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 130,
+  "anuncio_mais_novo_dias": 103,
+  "termos": [
+   "acesso_imediato",
+   "concurso"
+  ],
+  "exemplo_link": "http://www.grancursosonline.com.br/",
+  "copies": [
+   "O melhor investimento para a sua carreira está no catálogo do Gran! 💎 Escolha entre nossos cursos 100% focados no seu edital ou a nossa Assinatura Ilimitada para acesso total:\n📌 Acesso a +25.000 cursos: Todas as carreiras em um só lugar.\n📌 Download Ilimitado: Videoaulas e livros digitais disponíveis",
+   "🚨 URGENTE! Saiu o edital da EFOMM 2026! 🚢⚓\n\nA Escola de Formação de Oficiais da Marinha Mercante publicou edital com 368 vagas para nível médio, formando profissionais para atuar como Oficiais da Marinha Mercante.\n\n📌 Vagas:\n\n• 204 para o CIAGA\n• 164 para o CIABA\n\n💰 Possibilidade de ganhos de até R$ "
+  ],
+  "titulos": [
+   "www.grancursosonline.com.br",
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
   "anunciante": "transtornodoespectroautista",
   "page_id": "108182313940838",
   "perfil": "https://www.facebook.com/descobrindooautismo/",
@@ -2552,7 +3209,8 @@
   "anuncio_mais_novo_dias": 655,
   "termos": [
    "acesso_imediato",
-   "acesso_vitalício"
+   "acesso_vitalício",
+   "autismo"
   ],
   "exemplo_link": "https://reginabergamo.com.br/rmkt",
   "copies": [
@@ -2650,26 +3308,6 @@
   "passa_filtros": false
  },
  {
-  "anunciante": "Só Educador",
-  "page_id": "104726691168043",
-  "perfil": "https://www.facebook.com/soeducador/",
-  "dominio": "soeducador.com.br",
-  "anuncios_ativos_min": 2,
-  "idade_dias": 104,
-  "anuncio_mais_novo_dias": 104,
-  "termos": [
-   "acesso_imediato"
-  ],
-  "exemplo_link": "https://soeducador.com.br/?assigned_campaign=professor-rede-publica",
-  "copies": [
-   "✨ Seu conhecimento merece reconhecimento!\n\nSe você é professor, essa é sua chance de se destacar ainda mais: certificação com 50% de bolsa na SóEducador.\n\nCom um investimento acessível, você conquista um certificado que valida seu esforço, fortalece seu currículo e abre novas oportunidades.\n\n✔️ Proc"
-  ],
-  "titulos": [
-   "Acesse todos os 6 Certificados"
-  ],
-  "passa_filtros": false
- },
- {
   "anunciante": "Transforma Fit BR",
   "page_id": "1185291174659039",
   "perfil": "https://www.facebook.com/61590122562027/",
@@ -2707,6 +3345,90 @@
   ],
   "titulos": [
    "ÚLTIMAS VAGAS!"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Olav Cursos",
+  "page_id": "1041980395676372",
+  "perfil": "https://www.facebook.com/61589537413126/",
+  "dominio": "quiz.olavblog.com",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 154,
+  "anuncio_mais_novo_dias": 154,
+  "termos": [
+   "alfabetização"
+  ],
+  "exemplo_link": "https://quiz.olavblog.com/quiz-senai/?swcfpc=1",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "ANTON - O App educativo gratuito para a escola",
+  "page_id": "102555499429762",
+  "perfil": "https://www.facebook.com/AntonAppBR/",
+  "dominio": "lp.anton.app",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 120,
+  "anuncio_mais_novo_dias": 119,
+  "termos": [
+   "alfabetização",
+   "educação_infantil"
+  ],
+  "exemplo_link": "https://lp.anton.app/lp/static/05_simple/pt?utm_source={{site_source_name}}&utm_medium={{placement}}&utm_campaign={{campaign.id}}&utm_content={{ad.id}}",
+  "copies": [
+   "🧠 O Anton é um App educativo desenvolvido especialmente para escolas\n\n🤩 Gratuito de verdade! Sem anúncios e sem assinatura!\n\n👩‍🏫 Da Ed. Infantil ao Fund I, inclusive ALFABETIZAÇÂO, e baseado na BNCC\n\n📲 Exercícios digitais, divertidos e eficazes\n\n🎛 Jogos educativos como recompensa (estimulam foco, co",
+   "📝 Prepare sua turma para o Saeb de forma GRATUITA, DIVERTIDA e EFICAZ, com exercícios alinhados à BNCC!\n\nNo ANTON, seus alunos aprendem jogando, revisam conteúdos importantes e ainda se motivam com cada nova conquista. 🏅\n\nE o melhor: você acompanha tudo em tempo real, com o histórico detalhado do pr"
+  ],
+  "titulos": [
+   "ANTON - O App educativo gratuito para a escola"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Faveni João Monlevade",
+  "page_id": "593969827141611",
+  "perfil": "https://www.facebook.com/61575590821574/",
+  "dominio": "",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 187,
+  "anuncio_mais_novo_dias": 187,
+  "termos": [
+   "alfabetização",
+   "autismo",
+   "educação_infantil"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "🎓 Invista no seu futuro com uma Pós-Graduação EAD!\n\nSe torne o especialista que o mercado procura e avance na sua carreira com uma formação reconhecida.\n\n✔ 100% Online – estude de onde quiser\n✔ Conclusão em apenas 6 meses\n✔ Nota máxima no MEC\n✔ Mais de 1.000 cursos em diversas áreas"
+  ],
+  "titulos": [
+   "SEM TCC"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Rhema Neuroeducação Eventos",
+  "page_id": "750227034830540",
+  "perfil": "https://www.facebook.com/61578354111070/",
+  "dominio": "",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 60,
+  "anuncio_mais_novo_dias": 60,
+  "termos": [
+   "alfabetização"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "A Pós-graduação em Educação Especial e Educação Inclusiva no AEE é composta por 20 disciplinas, que vão dos fundamentos da Educação Especial às estratégias práticas para uma atuação mais segura e fundamentada no Atendimento Educacional Especializado.\n\n✅ Metodologias inclusivas – Estratégias de ensin"
+  ],
+  "titulos": [
+   "Converse conosco"
   ],
   "passa_filtros": false
  },
@@ -2953,22 +3675,105 @@
   "passa_filtros": false
  },
  {
-  "anunciante": "Dola: assist. inteligente (IA)",
-  "page_id": "145595611976121",
-  "perfil": "https://www.facebook.com/61553070084984/",
-  "dominio": "play.google.com",
+  "anunciante": "deolhonomeudireito",
+  "page_id": "107772044015078",
+  "perfil": "https://www.facebook.com/100063485707380/",
+  "dominio": "",
   "anuncios_ativos_min": 2,
-  "idade_dias": 48,
-  "anuncio_mais_novo_dias": 48,
+  "idade_dias": 908,
+  "anuncio_mais_novo_dias": 227,
   "termos": [
-   "cardápio"
+   "autismo",
+   "trabalhar_de_casa"
   ],
-  "exemplo_link": "http://play.google.com/store/apps/details?id=com.larus.wolf",
+  "exemplo_link": "https://api.whatsapp.com/send",
   "copies": [
-   "Desvende os mistérios da história com a ajuda da IA da Dola."
+   "Mamãe, quanto um SALÁRIO MÍNIMO faria de diferença em suas vidas? Conheça BPC LOAS Autista! \n\nCom ele, desde que haja comprovação das necessidades, é possível receber o valor de um salário mínimo mensal, que sabemos que é de grande ajuda para o sustento do autista e para a garantia uma vida digna.\n\n",
+   "- Dra., desculpa-me a ansiedade, eu sei que ainda é domingo, mas não consegui me conter, passei o dia em agonia, sei ainda, que tem milhares de processos e o meu é só mais um, ocorre que ele é tão importante para mim, hoje esse benefício do INSS é a maior expectativa da minha vida, é um sonho.\n\n Não"
   ],
   "titulos": [
-   "Muitas abas abertas? Dola."
+   "Entenda sobre os seus direitos!"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Facuminas Pós EAD ",
+  "page_id": "307797069091137",
+  "perfil": "https://www.facebook.com/61560959631029/",
+  "dominio": "eadfacuminaspos.com.br",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 798,
+  "anuncio_mais_novo_dias": 770,
+  "termos": [
+   "autismo"
+  ],
+  "exemplo_link": "https://eadfacuminaspos.com.br/psicanalise-clinica-avancada-cursos/?utm_source=meta&utm_medium=cpc&utm_campaign=p2-lp-educacao-graduada-carrossel2-imagem5",
+  "copies": [
+   "🏅 Estude com flexibilidade e conquiste a certificação que vai impulsionar sua carreira.\n\n✅ Matrícula gratuita\n✅ Reconhecido pelo MEC\n✅ TCC opcional\n✅ Nota 4 no MEC\n\nInscreva-se já! 🎯",
+   "🏅 Estude com flexibilidade e conquiste a certificação que vai impulsionar sua carreira.\n\n✅ Matrícula gratuita\n✅ Reconhecido pelo MEC\n✅ TCC opcional\n✅ Nota 4 no MEC\n\nInscreva-se já! 🎯"
+  ],
+  "titulos": [
+   "Facuminas Pós EAD "
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Aninha Tattoo",
+  "page_id": "338174889854661",
+  "perfil": "https://www.facebook.com/aninha.tattoo/",
+  "dominio": "",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 139,
+  "anuncio_mais_novo_dias": 139,
+  "termos": [
+   "caligrafia"
+  ],
+  "exemplo_link": "http://instagram.com/aninha.tattoo",
+  "copies": [
+   "Tatuagens feitas para contar histórias.\nAcredito que os detalhes fazem toda a diferença. Por isso, cada projeto é criado com cuidado, respeitando suas referências, sua personalidade e o significado que aquela arte terá para você. \n\nOlá, eu sou a Aninha! Tatuadora fineline, Singleline, Micro Realismo"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Fenaeducacao",
+  "page_id": "821808141025860",
+  "perfil": "https://www.facebook.com/fenaeducacao/",
+  "dominio": "antiga.fenaeducacao.com.br",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 59,
+  "anuncio_mais_novo_dias": 45,
+  "termos": [
+   "caligrafia"
+  ],
+  "exemplo_link": "https://antiga.fenaeducacao.com.br/",
+  "copies": [
+   "Aprenda Caligrafia Antiga Praticando Poucos Minutos por Dia\n\n✅ Mais de 500 exercícios para treinar em casa\n\n✅ Desenvolva mais controle e firmeza nos traços\n\n✅ Pratique diferentes estilos de caligrafia\n\n✅ Método inspirado nas antigas apostilas de escrita\n\n✅ Resultados visíveis com prática diária\n\n👉 C",
+   "Transforme Sua Letra em Apenas 10 Minutos por Dia\n\n✅ Caligrafia Antiga\n✅ Mais foco e controle dos traços\n✅ Exercícios simples para praticar em casa\n✅ Resultados visíveis em até 7 dias\n\n👉 Acesse agora antes que o acesso seja limitado."
+  ],
+  "titulos": [
+   "+17mil downloads",
+   "⭐⭐⭐⭐⭐ (4.89)"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Salmografia a Caligrafia dos Salmos",
+  "page_id": "567268136472460",
+  "perfil": "https://www.facebook.com/salmografia/",
+  "dominio": "salmografia.com.br",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 82,
+  "anuncio_mais_novo_dias": 82,
+  "termos": [
+   "caligrafia"
+  ],
+  "exemplo_link": "https://salmografia.com.br/quiz-01/",
+  "copies": [
+   "A letra pode melhorar com a prática. E quando essa prática acontece com a Palavra de Deus, o aprendizado ganha ainda mais sentido.\n\nCom o Salmografia, a criança treina a caligrafia, desenvolve foco e concentração enquanto conhece os Salmos da Bíblia.\n\nSão atividades prontas para imprimir e usar em c"
+  ],
+  "titulos": [
+   "Salmos da Bílbia"
   ],
   "passa_filtros": false
  },
@@ -2986,6 +3791,42 @@
   "exemplo_link": "https://api.whatsapp.com/send",
   "copies": [
    "🔥 Quer acelerar seus resultados no emagrecimento?\n\nSe você é de **Santa Cruz do Capibaribe** ou **São Domingos**, a Recovery Suplementos preparou um kit completo para potencializar sua rotina.\n\n✨ Termogênico para auxiliar na queima de gordura\n✨ Cromo para ajudar no controle do apetite\n✨ Chá Abdômen "
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "samirysamoras",
+  "page_id": "287680017998870",
+  "perfil": "https://www.instagram.com/_u/samirysamoras",
+  "dominio": "focusconcursos.com.br",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 203,
+  "anuncio_mais_novo_dias": 203,
+  "termos": [
+   "concurso"
+  ],
+  "exemplo_link": "https://focusconcursos.com.br/produtos?group=assinaturas",
+  "copies": [
+   "Tenho recebidos algumas perguntas sobre qual plataforma tenho usado para estudar. Agora vocês já sabem: focusconcursos \n\nAproveitem porque tenho cupom de desconto na plataforma e os planos estão com um ótimo custo benefício. \n\n🏷️SAMYAMORAS \n\n#focusconcurso #concurseira #study #rotinadeestudos"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "ConcursoPM",
+  "page_id": "125472794229668",
+  "perfil": "https://www.facebook.com/ConcursoPM/",
+  "dominio": "",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 207,
+  "anuncio_mais_novo_dias": 207,
+  "termos": [
+   "concurso"
+  ],
+  "exemplo_link": "http://instagram.com/concursopmoficial",
+  "copies": [
+   "👮🏻‍♂️Como entrar na PM-SP?\n\n👮🏻‍♂️ Me siga para mais assuntos da PM.\n👮🏻‍♂️ Te ajudo a consquistar a sua farda!!!\n\n#leandrofajan #concursopmsp #policiamilitarsp"
   ],
   "titulos": [],
   "passa_filtros": false
@@ -3133,6 +3974,46 @@
   "passa_filtros": false
  },
  {
+  "anunciante": "Little People School",
+  "page_id": "194564450599219",
+  "perfil": "https://www.facebook.com/littlepeopleschool.sp/",
+  "dominio": "",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 272,
+  "anuncio_mais_novo_dias": 272,
+  "termos": [
+   "educação_infantil"
+  ],
+  "exemplo_link": "https://www.instagram.com/",
+  "copies": [
+   "Matriculas 2026 abertas!! Berçário, Educação Infantil e Fundamental I Bilíngue - www. Littlepeopleschool. Com. Br - (11) 5666-3543",
+   "Berçário, Educação Infantil e Fundamental I Bilíngue - www.littlepeopleschool.com.br - (11) 5666-3543"
+  ],
+  "titulos": [
+   "Matriculas 2026  já estão abertas!",
+   "Venha nos visitar!"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Mind Makers",
+  "page_id": "514111682132595",
+  "perfil": "https://www.facebook.com/mindmakers.cc/",
+  "dominio": "mindmakers.com.br",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 500,
+  "anuncio_mais_novo_dias": 500,
+  "termos": [
+   "educação_infantil"
+  ],
+  "exemplo_link": "https://mindmakers.com.br/?utm_source=%7B%7Bsite_source_name%7D%7D&utm_medium=cpc&utm_campaign=AC_MM_CP3_Institucional_Awareness_Topo_CBO&utm_content=MM_CP3_CJ3_Interesse_Frio_SE_Feed&utm_term=MM_CP3_CJ3_Institucional_Video_corte-2",
+  "copies": [
+   "Prepare seus alunos para um mundo digital de verdade.\nCom Mind Makers, sua escola desenvolve pensamento computacional, cultura digital e letramento em IA com uma trilha completa do 1º ao 9º ano.\nDescubra como essa proposta transforma a aprendizagem."
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
   "anunciante": "Débora Maiaa",
   "page_id": "1097916563406368",
   "perfil": "https://www.facebook.com/61589629133008/",
@@ -3171,6 +4052,27 @@
   ],
   "titulos": [
    "A mensagem que faz ele responder na hora"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Inglês com Paula Gabriela",
+  "page_id": "103353092509174",
+  "perfil": "https://www.facebook.com/100084960347718/",
+  "dominio": "megahub.fluency.io",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 185,
+  "anuncio_mais_novo_dias": 185,
+  "termos": [
+   "inglês"
+  ],
+  "exemplo_link": "https://megahub.fluency.io/fa/primeira-turma/matriculas-geral?utm_source=facebook&utm_medium=cpc&utm_campaign={{campaign.name}}&utm_content={{ad.id}}&utm_term={{site_source_name}}&ltk_fcm={{campaign.id}}&ltk_fag={{adset.id}}&ltk_fac={{ad.id}}&ltk_fne={{site_source_name}}",
+  "copies": [
+   "A gente caprichou nessa!\n\nA oferta da nova turma de Inglês da FLUENCY está valendo muuuuito a pena.\n\n⚠️ Spoiler: tem muita conversação I-N-C-L-U-S-A!\n\nCom bônus exclusivos para quem chegar primeiro.\n\nClique em Saiba mais para entender todos os detalhes.",
+   "A gente caprichou nessa!\n\nA oferta da nova turma de Inglês da FLUENCY está valendo muuuuito a pena.\n\n⚠️ Spoiler: tem muita conversação I-N-C-L-U-S-A!\n\nCom bônus exclusivos para quem chegar primeiro.\n\nClique em Saiba mais para entender todos os detalhes."
+  ],
+  "titulos": [
+   "Comece agora a aprender inglês"
   ],
   "passa_filtros": false
  },
@@ -3276,6 +4178,68 @@
   ],
   "titulos": [
    "Recomendado! ✅"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "EnglishCentral Brasil",
+  "page_id": "366954163509862",
+  "perfil": "https://www.facebook.com/englishcentralbrasil/",
+  "dominio": "englishcentral.com.br",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 392,
+  "anuncio_mais_novo_dias": 392,
+  "termos": [
+   "plano_de_aula"
+  ],
+  "exemplo_link": "https://englishcentral.com.br/",
+  "copies": [
+   "{{product.brand}}",
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Teachy",
+  "page_id": "104783335825869",
+  "perfil": "https://www.facebook.com/teachyeducacao/",
+  "dominio": "teachy.com.br",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 55,
+  "anuncio_mais_novo_dias": 55,
+  "termos": [
+   "plano_de_aula"
+  ],
+  "exemplo_link": "https://www.teachy.com.br/pt-BR/assine",
+  "copies": [
+   "Use a Teachy ilimitada:\n✅ Planejamento alinhado à BNCC\n✅ Aulas com materiais prontos\n✅ Slides interativos e com imagens \n✅ Banco de questões e assistente de correção \nE muito mais! \n\nAproveite o desconto de volta às aulas e assine a Teachy por 12 x R$29,90",
+   "Use a Teachy ilimitada:\n✅ Planejamento alinhado à BNCC\n✅ Aulas com materiais prontos\n✅ Slides interativos e com imagens \n✅ Banco de questões e assistente de correção \nE muito mais! \n\nAproveite o desconto de volta às aulas e assine a Teachy por 12 x R$29,90"
+  ],
+  "titulos": [
+   "Aproveite o desconto de volta às aulas!"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "ThiagoLobos.Ofc",
+  "page_id": "139278955925282",
+  "perfil": "https://www.facebook.com/61550992000481/",
+  "dominio": "thiagolobos.com",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 69,
+  "anuncio_mais_novo_dias": 69,
+  "termos": [
+   "plano_de_aula"
+  ],
+  "exemplo_link": "https://thiagolobos.com/aula-v16-rbw",
+  "copies": [
+   "Paz 🙌🏽 \n\nJá imaginou começar no Digital, mesmo sem experiência e usando apenas o seu celular?\n\nGravei uma aula gratuita e direta ao ponto, onde compartilho orientações práticas para quem deseja dar os primeiros passos:\n\n• Mesmo sem conhecimento sobre internet;\n• Mesmo sem ideia de por onde começar;\n"
+  ],
+  "titulos": [
+   "Já imaginou?"
   ],
   "passa_filtros": false
  },
@@ -3400,6 +4364,44 @@
   "titulos": [
    "Marmitas Fitness e Saudáveis"
   ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Polishop",
+  "page_id": "112433548818909",
+  "perfil": "https://www.facebook.com/Polishop/",
+  "dominio": "polishop.com.br",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 152,
+  "anuncio_mais_novo_dias": 152,
+  "termos": [
+   "relacionamento"
+  ],
+  "exemplo_link": "https://www.polishop.com.br/limpadora-pisos-sem-fio-smart-floor-polishop-181687/p",
+  "copies": [
+   "Aspira, lava e seca o piso ao mesmo tempo, sem fio e sem encostar a mão na sujeira. \nSmart Floor faz tudo por você!"
+  ],
+  "titulos": [
+   "Smart Floor: aspira, lava e seca"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Autora Isadora Goulart",
+  "page_id": "625085580683961",
+  "perfil": "https://www.facebook.com/61574763996713/",
+  "dominio": "autoraisadoragoulart.com.br",
+  "anuncios_ativos_min": 2,
+  "idade_dias": 254,
+  "anuncio_mais_novo_dias": 254,
+  "termos": [
+   "relacionamento"
+  ],
+  "exemplo_link": "https://autoraisadoragoulart.com.br/",
+  "copies": [
+   "Livro Nunca Foi Falta de Amor, essencial para quem ama, mas não consegue viver um relacionamento pleno por conta de traumas do passado ❤️"
+  ],
+  "titulos": [],
   "passa_filtros": false
  },
  {
@@ -3585,26 +4587,6 @@
   ],
   "titulos": [
    "Paciência Clássica: O Melhor Treino para sua Mente."
-  ],
-  "passa_filtros": false
- },
- {
-  "anunciante": "Gran Cursos Online - Concursos Públicos",
-  "page_id": "306555912709775",
-  "perfil": "https://www.facebook.com/grancursosonline/",
-  "dominio": "grancursosonline.com.br",
-  "anuncios_ativos_min": 1,
-  "idade_dias": 103,
-  "anuncio_mais_novo_dias": 103,
-  "termos": [
-   "acesso_imediato"
-  ],
-  "exemplo_link": "http://www.grancursosonline.com.br/",
-  "copies": [
-   "O melhor investimento para a sua carreira está no catálogo do Gran! 💎 Escolha entre nossos cursos 100% focados no seu edital ou a nossa Assinatura Ilimitada para acesso total:\n📌 Acesso a +25.000 cursos: Todas as carreiras em um só lugar.\n📌 Download Ilimitado: Videoaulas e livros digitais disponíveis"
-  ],
-  "titulos": [
-   "{{product.name}}"
   ],
   "passa_filtros": false
  },
@@ -3796,7 +4778,8 @@
   "idade_dias": 114,
   "anuncio_mais_novo_dias": 114,
   "termos": [
-   "acesso_vitalício"
+   "acesso_vitalício",
+   "concurso"
   ],
   "exemplo_link": "https://www.decorandoaleiseca.com.br/assinatura-ilimitada",
   "copies": [
@@ -3854,7 +4837,8 @@
   "idade_dias": 121,
   "anuncio_mais_novo_dias": 121,
   "termos": [
-   "acesso_vitalício"
+   "acesso_vitalício",
+   "concurso"
   ],
   "exemplo_link": "https://prfadmsublime.com/quizz",
   "copies": [
@@ -4032,7 +5016,8 @@
   "idade_dias": 148,
   "anuncio_mais_novo_dias": 148,
   "termos": [
-   "acesso_vitalício"
+   "acesso_vitalício",
+   "autismo"
   ],
   "exemplo_link": "https://jornada.abaautismo.com.br/of-direto-t/",
   "copies": [
@@ -4040,6 +5025,264 @@
   ],
   "titulos": [
    "CERTIFICADO VÁLIDO"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Uniasselvi",
+  "page_id": "352745011486607",
+  "perfil": "https://www.facebook.com/uniasselvi/",
+  "dominio": "portal.uniasselvi.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 193,
+  "anuncio_mais_novo_dias": 193,
+  "termos": [
+   "alfabetização"
+  ],
+  "exemplo_link": "https://portal.uniasselvi.com.br/cursos/pos-graduacao?interest_area=educacao?utm_source=meta&utm_medium=cpc&utm_campaign=A-EAD-FB-ONG-CAP-POS-CONV-MIST-GENE-BR-MIST-CPC-PGFB-DYNAMIC-ADS&utm_term=A-EAD-POS-INTERESSES-DA_CATALOGO_EDUCACAO&utm_content=A-EAD-POS-CATALOGO_EDUCACAO-2026-MISTO-CATALOGO",
+  "copies": [
+   "A Pós-graduação EAD da UNIASSELVI é a sua chance de se qualificar sem sair de casa, com o apoio que você precisa para chegar lá.\n\nOlha só o que te espera:\n🎓 Cursos para educadores, tutores e pedagogos\n💻 Estude 100% online, com flexibilidade total.\n📖 Material atualizado e tutores experts para te guia"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Escola Parque",
+  "page_id": "313015358776061",
+  "perfil": "https://www.facebook.com/escolaparqueoficial/",
+  "dominio": "escolaparque.g12.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 109,
+  "anuncio_mais_novo_dias": 109,
+  "termos": [
+   "alfabetização"
+  ],
+  "exemplo_link": "https://www.escolaparque.g12.br/matriculas-abertas",
+  "copies": [
+   "Agende uma visita e conheça o nosso Projeto Pedagógico. Escola Parque, construindo o futuro agora."
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Expert Kids",
+  "page_id": "279210458607183",
+  "perfil": "https://www.facebook.com/61557841697990/",
+  "dominio": "kumon.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 83,
+  "anuncio_mais_novo_dias": 83,
+  "termos": [
+   "alfabetização",
+   "atividades_prontas",
+   "aulas_prontas",
+   "educação_infantil"
+  ],
+  "exemplo_link": "https://50atividades.expertacademypro.com.br/",
+  "copies": [
+   "📚 50 Atividades de Sílabas Simples prontas para imprimir!\n\nProfessora, você não precisa perder horas montando atividades de alfabetização do zero.\n\nEsse material foi feito para trabalhar as sílabas simples de forma leve, visual e prática, ajudando a criança a reconhecer, formar, copiar, completar e "
+  ],
+  "titulos": [
+   "⭐⭐⭐⭐⭐(4.493)"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Universo das Dinâmicas ",
+  "page_id": "1088418777690520",
+  "perfil": "https://www.facebook.com/61589145653062/",
+  "dominio": "atividade-cursiva.netlify.app",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 172,
+  "anuncio_mais_novo_dias": 172,
+  "termos": [
+   "alfabetização",
+   "caligrafia"
+  ],
+  "exemplo_link": "https://atividade-cursiva.netlify.app/",
+  "copies": [
+   "Seu filho(a) ou aluno(a) precisa de uma ajudinha extra para melhorar a letra? ✍️\n\n[BAIXE AGORA] A Coleção Completa de Caligrafia do 1º ao 6º ano!\n\nDescubra o material perfeito para ajudar as crianças a desenvolverem uma escrita bonita, legível e eficiente, de forma 100% prática e divertida! Com a no"
+  ],
+  "titulos": [
+   "Pegue aqui 👉​"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Turminha Alfa Kids",
+  "page_id": "731275250070572",
+  "perfil": "https://www.facebook.com/61579216201069/",
+  "dominio": "turminhaalfakids.online",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 156,
+  "anuncio_mais_novo_dias": 156,
+  "termos": [
+   "alfabetização",
+   "caligrafia"
+  ],
+  "exemplo_link": "https://turminhaalfakids.online/alfa199/",
+  "copies": [
+   "Transforme a alfabetização do seu filho em uma experiência divertida e eficaz!\n\nImagine seu pequeno aprendendo a ler, escrever e contar com atividades envolventes que despertam a curiosidade e mantêm o foco — tudo em apenas 3 semanas!\n\nCom o Kit de Alfabetização Alfa Kids, você recebe + de 2.750 ati"
+  ],
+  "titulos": [
+   "⭐⭐⭐⭐⭐ 12.499 Avaliações"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Programa A União Faz a Vida",
+  "page_id": "125674970843792",
+  "perfil": "https://www.facebook.com/auniaofazavida/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 17,
+  "anuncio_mais_novo_dias": 17,
+  "termos": [
+   "alfabetização"
+  ],
+  "exemplo_link": "",
+  "copies": [
+   "O que a força de uma mulher é capaz de transformar quando ela não desiste de sonhar? \n\nA trajetória da Regiane começou na zona rural e, mesmo diante de pausas impostas pela vida, ela transformou o sonho de infância em realidade: voltou à mesma escola onde estudou para ocupar o outro lado da sala de "
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Ruttor Apps",
+  "page_id": "190208067517678",
+  "perfil": "https://www.facebook.com/61555541708986/",
+  "dominio": "ruttor.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 39,
+  "anuncio_mais_novo_dias": 39,
+  "termos": [
+   "alfabetização"
+  ],
+  "exemplo_link": "https://ruttor.com/pt/20504/aprender-ler-escrever-hoje/",
+  "copies": [
+   "Descubra o segredo 🔑 Adultos estão aprendendo a ler e escrever rapidamente. Você pode ser o próximo"
+  ],
+  "titulos": [
+   "Alfabetização acelerada para adultos"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Prof. Antonio Esteca ",
+  "page_id": "740266799161011",
+  "perfil": "https://www.facebook.com/professor.antonioesteca/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 140,
+  "anuncio_mais_novo_dias": 140,
+  "termos": [
+   "alfabetização",
+   "educação_infantil"
+  ],
+  "exemplo_link": "http://instagram.com/prof.antonioesteca",
+  "copies": [
+   "Educação Infantil e Alfabetização: conheça as metas do Novo Plano Nacional de Educação e entenda como elas devem mudar a educação e a vida dos brasileiros!"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Educação Especial PE - Ceneeti",
+  "page_id": "190221064166526",
+  "perfil": "https://www.facebook.com/EducacaoEspecialPE.Ceneeti/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 301,
+  "anuncio_mais_novo_dias": 301,
+  "termos": [
+   "alfabetização"
+  ],
+  "exemplo_link": "http://instagram.com/educacaoespecialpe",
+  "copies": [
+   "👧👦Os personagens da Turma da LIDINHA são inspirados em histórias reais de pessoas com deficiência que superaram grandes desafios no processo de alfabetização e venceram com o apoio de materiais adaptados.\n\n🔹Esses personagens simbolizam coragem, determinação e o verdadeiro sentido da inclusão, levand"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Objetivo Júnior",
+  "page_id": "118669021500244",
+  "perfil": "https://www.facebook.com/61557338463134/",
+  "dominio": "objetivo.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 105,
+  "anuncio_mais_novo_dias": 105,
+  "termos": [
+   "alfabetização"
+  ],
+  "exemplo_link": "https://objetivo.br/matriculas/formulario-interesse.aspx?id=OP-0163&utm_source=meta-ads-espiadinha-granja-viana&utm_id=meta-ads-espiadinha-granja-viana",
+  "copies": [
+   "🌽⚽ Uma Espiadinha pela Unidade Granja Viana! Desta vez, acompanhamos uma celebração que uniu duas grandes paixões da nossa cultura: a Festa Junina e a Copa do Mundo! \n\n✨ Em cada espaço, um detalhe especial: as apresentações de dança encantaram o público, as barracas reuniram famílias em jogos e desa"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Clube da Pedagogia",
+  "page_id": "1204726352715343",
+  "perfil": "https://www.facebook.com/clubepedagogia/",
+  "dominio": "clubedapedagogia.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 107,
+  "anuncio_mais_novo_dias": 107,
+  "termos": [
+   "alfabetização",
+   "atividades_prontas",
+   "aulas_prontas"
+  ],
+  "exemplo_link": "https://clubedapedagogia.com/",
+  "copies": [
+   "📚✨ **PROFESSORA, VOCÊ PRECISA CONHECER O CLUBE DA PEDAGOGIA!** ✨\n\nImagine ter acesso a um acervo completo com **mais de 2.000 atividades pedagógicas** prontas para imprimir, organizadas por série e conteúdo, tudo em um só lugar!\n\n💙 No Clube da Pedagogia você encontra materiais do **1º ao 5º ano**, a"
+  ],
+  "titulos": [
+   "⭐⭐⭐⭐⭐ (4,9/5)"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "UniRitter",
+  "page_id": "222244774478273",
+  "perfil": "https://www.facebook.com/UniRitter/",
+  "dominio": "pos.uniritter.edu.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 161,
+  "anuncio_mais_novo_dias": 161,
+  "termos": [
+   "alfabetização"
+  ],
+  "exemplo_link": "http://pos.uniritter.edu.br/",
+  "copies": [
+   "{{product.description}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Brasil Paralelo",
+  "page_id": "301774903545521",
+  "perfil": "https://www.facebook.com/brasilparalelo/",
+  "dominio": "go.brasilparalelo.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 73,
+  "anuncio_mais_novo_dias": 73,
+  "termos": [
+   "alfabetização"
+  ],
+  "exemplo_link": "https://go.brasilparalelo.com.br/campaign/venda-fbig-mecenas-2026?utm_source=ads&utm_medium=meta_ads",
+  "copies": [
+   "A Brasil Paralelo, em parceria com a Uni Italo, está lançando a graduação que vai formar a próxima geração de Professores. \n\nCom apenas R$1 por dia, você apoia esta missão. Torne-se Mecenas."
+  ],
+  "titulos": [
+   "Seja um Mecenas"
   ],
   "passa_filtros": false
  },
@@ -4121,24 +5364,6 @@
   "titulos": [
    "{{product.name}}"
   ],
-  "passa_filtros": false
- },
- {
-  "anunciante": "Inglês com Teacher Paula Gabriela",
-  "page_id": "104198382033283",
-  "perfil": "https://www.facebook.com/100075852101463/",
-  "dominio": "megahub.fluency.io",
-  "anuncios_ativos_min": 1,
-  "idade_dias": 145,
-  "anuncio_mais_novo_dias": 145,
-  "termos": [
-   "apostila"
-  ],
-  "exemplo_link": "https://megahub.fluency.io/fa/vsl/fla/captura?utm_source=facebook&utm_medium=cpc&utm_campaign={{campaign.name}}&utm_content={{ad.id}}&utm_term={{site_source_name}}&ltk_fcm={{campaign.id}}&ltk_fag={{adset.id}}&ltk_fac={{ad.id}}&ltk_fne={{site_source_name}}",
-  "copies": [
-   "Você já passa horas vendo séries.\n\nE se isso pudesse acelerar seu Inglês?\n\nNesta aula gratuita, você vai descobrir como transformar filmes e séries em evolução real no inglês, sem gramática pesada e sem estudo cansativo.\n\nNa Fluency, a gente acredita que aprender inglês pode ser leve, prático e dive"
-  ],
-  "titulos": [],
   "passa_filtros": false
  },
  {
@@ -4673,48 +5898,6 @@
   "passa_filtros": false
  },
  {
-  "anunciante": "Expert Kids",
-  "page_id": "279210458607183",
-  "perfil": "https://www.facebook.com/61557841697990/",
-  "dominio": "kumon.com.br",
-  "anuncios_ativos_min": 1,
-  "idade_dias": 83,
-  "anuncio_mais_novo_dias": 83,
-  "termos": [
-   "atividades_prontas",
-   "aulas_prontas"
-  ],
-  "exemplo_link": "https://50atividades.expertacademypro.com.br/",
-  "copies": [
-   "📚 50 Atividades de Sílabas Simples prontas para imprimir!\n\nProfessora, você não precisa perder horas montando atividades de alfabetização do zero.\n\nEsse material foi feito para trabalhar as sílabas simples de forma leve, visual e prática, ajudando a criança a reconhecer, formar, copiar, completar e "
-  ],
-  "titulos": [
-   "⭐⭐⭐⭐⭐(4.493)"
-  ],
-  "passa_filtros": false
- },
- {
-  "anunciante": "Clube da Pedagogia",
-  "page_id": "1204726352715343",
-  "perfil": "https://www.facebook.com/clubepedagogia/",
-  "dominio": "clubedapedagogia.com",
-  "anuncios_ativos_min": 1,
-  "idade_dias": 107,
-  "anuncio_mais_novo_dias": 107,
-  "termos": [
-   "atividades_prontas",
-   "aulas_prontas"
-  ],
-  "exemplo_link": "https://clubedapedagogia.com/",
-  "copies": [
-   "📚✨ **PROFESSORA, VOCÊ PRECISA CONHECER O CLUBE DA PEDAGOGIA!** ✨\n\nImagine ter acesso a um acervo completo com **mais de 2.000 atividades pedagógicas** prontas para imprimir, organizadas por série e conteúdo, tudo em um só lugar!\n\n💙 No Clube da Pedagogia você encontra materiais do **1º ao 5º ano**, a"
-  ],
-  "titulos": [
-   "⭐⭐⭐⭐⭐ (4,9/5)"
-  ],
-  "passa_filtros": false
- },
- {
   "anunciante": "Nuvem Kids",
   "page_id": "107330512133695",
   "perfil": "https://www.facebook.com/100085617894719/",
@@ -5243,6 +6426,419 @@
   "passa_filtros": false
  },
  {
+  "anunciante": "Leo Arden",
+  "page_id": "1128274900367586",
+  "perfil": "https://www.facebook.com/61590151501469/",
+  "dominio": "myiq.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 14,
+  "anuncio_mais_novo_dias": 14,
+  "termos": [
+   "autismo"
+  ],
+  "exemplo_link": "https://myiq.com/pt",
+  "copies": [
+   "🤔Você é mais inteligente do que a média dos portugueses?\n\n👉O QI médio em Portugal é 98.\n\nIsso é 62 pontos a menos do que Einstein e Stephen Hawking!\n\nAcha que é mais inteligente do que isso?\n\nAceite o desafio com o MYIQ e descubra o quão inteligente você realmente é:\n\n💡 Jogos divertidos para treinar"
+  ],
+  "titulos": [
+   "🧠 Responda a 30 perguntas e descubra sua pontuação"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Ducena Joias",
+  "page_id": "1446792048678933",
+  "perfil": "https://www.facebook.com/ducenajoias/",
+  "dominio": "ducena.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 985,
+  "anuncio_mais_novo_dias": 985,
+  "termos": [
+   "autismo"
+  ],
+  "exemplo_link": "https://www.ducena.com.br/autismo",
+  "copies": [
+   "MAMÃEEEE, para você ❤️\nColar autismo que transborda amor e delicadeza  a onde você for.\n\n😊Personalizado com o nome do filho(a).\n ✈️Envio Full e Garantido\n🚚 Frete Promo \n🛒 Até 25% Off \n\nClique em [saiba mais] e deixe prepara o ❤️"
+  ],
+  "titulos": [
+   "Coleção AUTISMO 😍"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Jean Alessandro Bertollo",
+  "page_id": "107059331680494",
+  "perfil": "https://www.facebook.com/jeanalessandropsi/",
+  "dominio": "rastreioaltashabilidadesjeanalessandro.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 67,
+  "anuncio_mais_novo_dias": 67,
+  "termos": [
+   "autismo"
+  ],
+  "exemplo_link": "https://www.rastreioaltashabilidadesjeanalessandro.com/",
+  "copies": [
+   "Você sempre sentiu que pensava diferente das outras pessoas…\nMas nunca conseguiu entender exatamente o porquê?\n\nMuitas pessoas com possíveis indicadores de Altas Habilidades/Superdotação passam anos recebendo interpretações erradas:\n\n• ansiedade\n• TDAH\n• excesso de sensibilidade\n• sensação de inadeq"
+  ],
+  "titulos": [
+   "Você pode ter Altas Habilidades e nunca percebeu."
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Mayra Gaiato - Autismo e Psicologia Infantil",
+  "page_id": "1706914412916712",
+  "perfil": "https://www.facebook.com/mayragaiato/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 118,
+  "anuncio_mais_novo_dias": 118,
+  "termos": [
+   "autismo"
+  ],
+  "exemplo_link": "http://instagram.com/mayragaiato",
+  "copies": [
+   "Ensinar comportamento adequado exige técnica, repetição e vínculo!\n\nMuitas vezes, bater aparece quando ela não consegue pedir pausa, ajuda, espaço, atenção ou quando não sabe comunicar que está frustrada, cansada ou sobrecarregada. Por isso, no vídeo eu mostro como conduzir esse momento com mais cla"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Só Educador",
+  "page_id": "104726691168043",
+  "perfil": "https://www.facebook.com/soeducador/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 339,
+  "anuncio_mais_novo_dias": 339,
+  "termos": [
+   "autismo"
+  ],
+  "exemplo_link": "http://instagram.com/soeducador",
+  "copies": [
+   "Os cordões de neurodiversidade e inclusão, com suas cores e símbolos, são uma forma de identificar e comunicar necessidades específicas, promovendo a compreensão e o respeito pela diversidade. \nO cordão não é enfeite: ele indica que a pessoa pode precisar de mais tempo, compreensão ou apoio em algum"
+  ],
+  "titulos": [
+   "instagram.com"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Clínica de Terapias Integradas de Madureira",
+  "page_id": "165609520271160",
+  "perfil": "https://www.facebook.com/ctimmadureira/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 776,
+  "anuncio_mais_novo_dias": 776,
+  "termos": [
+   "autismo"
+  ],
+  "exemplo_link": "http://instagram.com/terapiasintegradasmadureira",
+  "copies": [
+   "Esteja atendo aos sintomas do seu filho e busque informações de qualidade!\nAgende uma primeira entrevista com nossa Responsável Técnica Dra Patrícia Lopes. \nWhatsApp 21 991599392/ 21 999822503/ 21 975262442 \n#autismo #seletividadealimentar #terapiaocupacional #Fonoaudiologia #psicopedagogia #psicolo"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Alta Diagnósticos",
+  "page_id": "420650587997625",
+  "perfil": "https://www.facebook.com/altadiagnosticos/",
+  "dominio": "altadiagnosticos.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 444,
+  "anuncio_mais_novo_dias": 444,
+  "termos": [
+   "autismo"
+  ],
+  "exemplo_link": "https://altadiagnosticos.com.br/espaco-tea/?utm_source=facebook&utm_medium=cpc&utm_campaign=f275_alta_facebook_imagem_tea_trafego_lp",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Nora Vale",
+  "page_id": "1106278499241965",
+  "perfil": "https://www.facebook.com/61590106330143/",
+  "dominio": "myiq.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 31,
+  "anuncio_mais_novo_dias": 31,
+  "termos": [
+   "autismo"
+  ],
+  "exemplo_link": "https://myiq.com/it/start",
+  "copies": [
+   "🤔Sei più intelligente della media degli italiani?\n\n👉Il QI medio in Italia è 98.\n\nSono 62 punti in meno rispetto ad Einstein e Stephen Hawking!\n\nPensi di essere più intelligente di loro?\n\nAccetta la sfida con MYIQ e scopri quanto sei davvero intelligente:\n\n💡 Giochi divertenti per allenare memoria, ve"
+  ],
+  "titulos": [
+   "🧠 Rispondi a 30 domande e scopri il tuo punteggio"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "institutoneuro",
+  "page_id": "103429174985659",
+  "perfil": "https://www.facebook.com/100066406641960/",
+  "dominio": "institutoneuro.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 55,
+  "anuncio_mais_novo_dias": 55,
+  "termos": [
+   "autismo",
+   "plano_de_aula"
+  ],
+  "exemplo_link": "https://institutoneuro.com.br/",
+  "copies": [
+   "🔎 Quer aprender a aplicar a abordagem ABA, desenvolver habilidades básicas e promover um tratamento de alta performance? 🌟\n\nApresentamos nosso curso online 💻, onde você se capacitará em ABA para Autismo.\n\nMelhor de tudo, temos valores promocionais super acessíveis!\n\n🎉 Apenas 9 reais por uma taxa úni"
+  ],
+  "titulos": [
+   "institutoneuro"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "FTD Educação",
+  "page_id": "121891234550181",
+  "perfil": "https://www.facebook.com/FTDEducacao/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 10,
+  "anuncio_mais_novo_dias": 10,
+  "termos": [
+   "autismo"
+  ],
+  "exemplo_link": "https://www.instagram.com/ftdeducacao/",
+  "copies": [
+   "Para o Dia dos Professores deste ano, a FTD Educação quis olhar os detalhes de quem vive essa profissão todos os dias. \n\n💡 Histórias, rotinas, pessoas que fizeram parte do caminho, conversas que atravessam os dias e ficam na cabeça, aprendizados que vieram de lugares inesperados. \n\nFoi assim que aco"
+  ],
+  "titulos": [
+   "A vida do professor além da sala de aula"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Criativaê",
+  "page_id": "101545412225412",
+  "perfil": "https://www.facebook.com/criativae/",
+  "dominio": "criativae.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 289,
+  "anuncio_mais_novo_dias": 289,
+  "termos": [
+   "caligrafia"
+  ],
+  "exemplo_link": "https://criativae.com.br/products/kit-4cadernos-de-caligrafia-magicos-criativae",
+  "copies": [
+   "A tinta mágica desaparece após 15 minutos, permitindo uma prática sem limites. Ideal para desenvolver habilidades de escrita, criatividade e coordenação motora, enquanto proporciona diversão contínua e sustentável. Clique e confira!"
+  ],
+  "titulos": [
+   "Kit com 4 Cadernos de Caligrafia Mágicos Reutilizáveis"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Editora Pé da Letra",
+  "page_id": "127988510615802",
+  "perfil": "https://www.facebook.com/EdPeDaLetra/",
+  "dominio": "editorapedaletra.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 566,
+  "anuncio_mais_novo_dias": 566,
+  "termos": [
+   "caligrafia"
+  ],
+  "exemplo_link": "http://www.editorapedaletra.com.br/",
+  "copies": [
+   "Em nosso site você encontra a maior variedade de livros do mundo literário.📘\n\nTodo tipo de gênero infantojuvenil e adultos, literatura infantil, livros de atividade, jogos, livros interativos, importados, coleções e muitos mundos únicos e surpreendentes. 🌍\n\nSão centenas de opções para desbravar novo"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Inspiralisa",
+  "page_id": "146044126202715",
+  "perfil": "https://www.facebook.com/inspiralisa/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 249,
+  "anuncio_mais_novo_dias": 249,
+  "termos": [
+   "caligrafia"
+  ],
+  "exemplo_link": "http://instagram.com/byinspiralisa",
+  "copies": [
+   "Onde encontrar 👇🏻\n\nPincéis da biblioteca ANTIGA:\n▪️ Monolinha (caligrafia)\n▪️ Pressão suave (aerógrafo)\n▪️ Caneta pincel (caligrafia)\n\nEquivalentes na biblioteca nova NOVA👇🏻\n▫️ Stanley (básicos)\n▫️ Ringaroona (basicos)\n▫️ Forester (básicos)\n\nQuer aprender como usar o Procreate pra melhorar e facilit"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Uiara Oliveira - Materiais Pedagógicos",
+  "page_id": "741971595663048",
+  "perfil": "https://www.facebook.com/61579108285785/",
+  "dominio": "uiaraoliveirapedagogico.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 59,
+  "anuncio_mais_novo_dias": 59,
+  "termos": [
+   "caligrafia"
+  ],
+  "exemplo_link": "https://uiaraoliveirapedagogico.com.br/do-rabisco-a-caligrafia/",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Educa+kids",
+  "page_id": "671625709367764",
+  "perfil": "https://www.facebook.com/61576998868140/",
+  "dominio": "kitcaligrafiaparaadultos.netlify.app",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 44,
+  "anuncio_mais_novo_dias": 44,
+  "termos": [
+   "caligrafia"
+  ],
+  "exemplo_link": "https://kitcaligrafiaparaadultos.netlify.app/",
+  "copies": [
+   "✍️ Quer melhorar sua letra de forma simples?\n\nConheça o Kit Caligrafia para Adultos com 500 atividades de letra cursiva e bastão.\n\n✅ Exercícios práticos\n✅ Arquivo em PDF\n✅ Pronto para imprimir\n✅ Acesso imediato\n\nTudo por apenas R$ 5,00.\n\nTítulo:\n\n500 atividades por R$ 5,00\n\nDescrição:\n\nKit completo "
+  ],
+  "titulos": [
+   "Kit Caligrafia para Adultos — 500 Atividades de Letra Cursiva e Bastão em PDF"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Æņç3 COD",
+  "page_id": "107773654415620",
+  "perfil": "https://www.facebook.com/100080995645032/",
+  "dominio": "play.google.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 117,
+  "anuncio_mais_novo_dias": 117,
+  "termos": [
+   "caligrafia"
+  ],
+  "exemplo_link": "http://play.google.com/store/apps/details?id=com.popdramas.top",
+  "copies": [
+   "💰🔥Assista novelas curtas online - Totalmente grátis! Imperdível!"
+  ],
+  "titulos": [
+   "👉👉👉Mergulhe em histórias mysteriosas! Assista a episódios curtos e gratuitos cheios de reviravoltas. Baixe o Pop Drama já!"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Loja Arteirinhos ",
+  "page_id": "197560206762909",
+  "perfil": "https://www.facebook.com/arteirinhosoficial/",
+  "dominio": "arteirinhos.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 19,
+  "anuncio_mais_novo_dias": 19,
+  "termos": [
+   "caligrafia"
+  ],
+  "exemplo_link": "https://arteirinhos.com.br/products/kit-escrita-bilingue-compre-1-leve-4?utm_source=facebook&utm_medium=cpc&utm_campaign={{campaign.name}}&utm_content={{adset.name}}&utm_term={{ad.name}}",
+  "copies": [
+   "Achei esse kit que prende a atenção da criança de forma lúdica. O relevo guia a mão e a tinta some em 10 minutos! \n\nDeixei o link em Saiba Mais ⬇️"
+  ],
+  "titulos": [
+   "Últimas unidades com frete grátis: só até hoje!"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Colégio CCAT.",
+  "page_id": "696118787147685",
+  "perfil": "https://www.facebook.com/colegioalmirantetamandare/",
+  "dominio": "berryconsultoria.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 367,
+  "anuncio_mais_novo_dias": 367,
+  "termos": [
+   "caligrafia"
+  ],
+  "exemplo_link": "https://berryconsultoria.com.br/financial-growth/c",
+  "copies": [
+   ""
+  ],
+  "titulos": [
+   "Saiba Mais!"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Turminha Alfa Kids",
+  "page_id": "731275250070572",
+  "perfil": "https://www.facebook.com/61579216201069/",
+  "dominio": "turminhaalfakids.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 156,
+  "anuncio_mais_novo_dias": 156,
+  "termos": [
+   "caligrafia"
+  ],
+  "exemplo_link": "https://turminhaalfakids.com/alfa/",
+  "copies": [
+   "Transforme a alfabetização do seu filho em uma experiência divertida e eficaz!\n\nImagine seu pequeno aprendendo a ler, escrever e contar com atividades envolventes que despertam a curiosidade e mantêm o foco — tudo em apenas 3 semanas!\n\nCom o Kit de Alfabetização Alfa Kids, você recebe + de 2.750 ati"
+  ],
+  "titulos": [
+   "⭐⭐⭐⭐⭐ 12.499 Avaliações"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Atividades Edukar",
+  "page_id": "305231789348040",
+  "perfil": "https://www.facebook.com/61560293290272/",
+  "dominio": "atividadesedukar.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 32,
+  "anuncio_mais_novo_dias": 32,
+  "termos": [
+   "caligrafia"
+  ],
+  "exemplo_link": "https://atividadesedukar.com.br/product/bases-cursivas-mineira/",
+  "copies": [
+   "bases cursivas - Minas gerais\n\nEste material foi elaborado com base em uma proposta estruturada de ensino da letra cursiva mineira, inspirada na organização por “bases” da caligrafia.\n\nA adaptação foi pensada especialmente para atender às características da cursiva utilizada em Minas Gerais.\n\nTrabal"
+  ],
+  "titulos": [
+   "BASES CURSIVAS - MINAS GERAIS"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Externato Rio Branco Oficial",
+  "page_id": "186784348008102",
+  "perfil": "https://www.facebook.com/externatoriobranco/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 159,
+  "anuncio_mais_novo_dias": 159,
+  "termos": [
+   "caligrafia"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "Quem estuda nos Anos Iniciais já se acostumou a receber recados da nossa diretora @guga_paranhos nos seus cadernos\n\nVocê leu certo: a diretora da escola reserva alguns minutos do seu dia - todos os dias - para ver de perto como nossos alunos estão se saindo, se a caligrafia está em dia e se estão ev"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
   "anunciante": "Anota AI",
   "page_id": "1788954381403911",
   "perfil": "https://www.facebook.com/anotaAI.bots/",
@@ -5639,6 +7235,82 @@
   ],
   "titulos": [
    "Elis Cristina"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Focus Concursos Públicos",
+  "page_id": "287680017998870",
+  "perfil": "https://www.facebook.com/focusconcursos/",
+  "dominio": "metodo.focusconcursos.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 160,
+  "anuncio_mais_novo_dias": 160,
+  "termos": [
+   "concurso"
+  ],
+  "exemplo_link": "https://metodo.focusconcursos.com.br/",
+  "copies": [
+   "Ele não tinha academia.\nNão tinha piscina.\nNão tinha estrutura.\n\nMas tinha uma coisa que muita gente perde no meio do caminho: vontade de vencer.\n\nJessé, um jovem de apenas 22 anos, morador da zona rural, decidiu que a falta de estrutura não seria desculpa para abandonar o sonho de entrar na Polícia"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Focus Concursos Públicos",
+  "page_id": "287680017998870",
+  "perfil": "https://www.facebook.com/focusconcursos/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 140,
+  "anuncio_mais_novo_dias": 140,
+  "termos": [
+   "concurso"
+  ],
+  "exemplo_link": "http://instagram.com/focusconcursos",
+  "copies": [
+   "Que tal conquistar uma vaga em um concurso público com salário de superior? 💼\nConfira os detalhes de 5 oportunidades com salário + benefícios de até R$ 8.719,62! 💰\nTemos opções para Nível Médio em diferentes áreas:\n🔹 Banco do Brasil\n🔹 PRF\n🔹 INSS\n🔹 ATA-MF\n🔹 CAIXA\n\nNão perca tempo! Acesse nosso site e"
+  ],
+  "titulos": [
+   "instagram.com"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Decorando a Lei Seca Cursos Para Concursos E OAB",
+  "page_id": "113003031754455",
+  "perfil": "https://www.facebook.com/decorandoaleisecaconcursoseoab/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 142,
+  "anuncio_mais_novo_dias": 142,
+  "termos": [
+   "concurso"
+  ],
+  "exemplo_link": "https://www.instagram.com/decorandoaleiseca",
+  "copies": [
+   "Como estudar para concurso 🗣️🗣️\n\nComenta aqui e eu te mando o link no direct!"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Caverna Militar",
+  "page_id": "819418134599287",
+  "perfil": "https://www.facebook.com/61584732367887/",
+  "dominio": "cavernaconcursos.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 49,
+  "anuncio_mais_novo_dias": 49,
+  "termos": [
+   "concurso"
+  ],
+  "exemplo_link": "https://cavernaconcursos.com.br/transpetro",
+  "copies": [
+   "🚨 SAIU O EDITAL DA TRANSPETRO 2026!\nA Transpetro abriu vagas para cargos de Terra e Mar com nível medio/técnico e superior, com banca CESGRANRIO. A prova já tem data!\n\nVeja o que você recebe na PLATAFORMA:\n📚 Todo o conteúdo teórico dos 4 EDITAIS\n📝 +26.000 questões comentadas no padrão da banca.\n🎯 Si"
+  ],
+  "titulos": [
+   "+6.000 ALUNOS ATIVOS"
   ],
   "passa_filtros": false
  },
@@ -6252,6 +7924,144 @@
   "passa_filtros": false
  },
  {
+  "anunciante": "Pirâmide Shopping Tambaú",
+  "page_id": "102941492852271",
+  "perfil": "https://www.facebook.com/piramideshoppingtb/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 210,
+  "anuncio_mais_novo_dias": 210,
+  "termos": [
+   "educação_infantil"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "Tem novidade no Pirâmide. 🤩\nNovas lojas, serviços e mais experiências chegando para deixar sua visita ainda melhor.\n\nPassa por aqui, descobre o que já chegou e o que ainda está vindo.\n\nPirâmide Shopping Tambaú\nO que é nosso, a gente vive aqui."
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Colégios Bom Jesus",
+  "page_id": "178824555582375",
+  "perfil": "https://www.facebook.com/ColegiosBomJesus/",
+  "dominio": "bomjesus.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 61,
+  "anuncio_mais_novo_dias": 61,
+  "termos": [
+   "educação_infantil"
+  ],
+  "exemplo_link": "http://bomjesus.com.br/",
+  "copies": [
+   "Educação de excelência, formação socioemocional e valores franciscanos. Isso é Amorografia"
+  ],
+  "titulos": [
+   "bomjesus.com.br"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Sistema Maxi de Ensino",
+  "page_id": "509063235786473",
+  "perfil": "https://www.facebook.com/SistemaMaxi/",
+  "dominio": "conteudos.sistemamaxi.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 96,
+  "anuncio_mais_novo_dias": 96,
+  "termos": [
+   "educação_infantil"
+  ],
+  "exemplo_link": "https://conteudos.sistemamaxi.com.br/sistema-maxi-lp-lm-converse-com-especialista?utm_source=%7B%7Bsite_source_name%7D%7D&utm_medium=cpc&utm_campaign=AC_MAXI_CP4_Institucional_Cadastro_Fundo_ABO&utm_content=MAXI_CP4_CJ5_AdvantagePlus_Congelado_Brasil_Feed+Stories&utm_term=MAXI_CP4_CJ5_Institucional_Estatico_leve-maxi",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Geekie Educação",
+  "page_id": "332498280134792",
+  "perfil": "https://www.facebook.com/GeekieEducacao/",
+  "dominio": "material.geekie.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 140,
+  "anuncio_mais_novo_dias": 140,
+  "termos": [
+   "educação_infantil"
+  ],
+  "exemplo_link": "https://material.geekie.com.br/demonstracao-gratuita-geekie-one/?utm_source=site_source_name&utm_medium=cpa&utm_campaign=geekie_meta_fev26_awa_institucional-depoimento_v1&utm_term=ad.name&utm_content=adset.name&campaign_id=campaign.id&adset_id=adset.id&ad_id=ad.id",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Escola SEB Dom Bosco",
+  "page_id": "580417232026952",
+  "perfil": "https://www.facebook.com/EscolaSEBDomBosco/",
+  "dominio": "lp.curitiba-dombosco.escolaseb.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 52,
+  "anuncio_mais_novo_dias": 52,
+  "termos": [
+   "educação_infantil"
+  ],
+  "exemplo_link": "https://lp.curitiba-dombosco.escolaseb.com.br/agendamento",
+  "copies": [
+   "Qual é a escola certa para o seu filho?\n\nNo SEB Dom Bosco, seu filho encontra uma educação que estimula o desenvolvimento, a autonomia e a preparação para os desafios do futuro.\n\nClique em \"SAIBA MAIS\" e agende uma visita."
+  ],
+  "titulos": [
+   "Venha conhecer  SEB Dom Bosco!"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Sistema Anglo de Ensino",
+  "page_id": "131692153562355",
+  "perfil": "https://www.facebook.com/sistemaanglo/",
+  "dominio": "conteudos.sistemaanglo.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 80,
+  "anuncio_mais_novo_dias": 80,
+  "termos": [
+   "educação_infantil"
+  ],
+  "exemplo_link": "https://conteudos.sistemaanglo.com.br/anglo-lp-jornada-do-consultor?utm_source=%7B%7Bsite_source_name%7D%7D&utm_medium=cpc&utm_campaign=AC_ANGLO_CP24_Institucional_Cadastro_Fundo_ABO&utm_content=ANGLO_CP24_CJ8_AdvantagePlus_Frio_Brasil_Feed+Stories+Reels&utm_term=ANGLO_CP24_CJ8_Institucional_Estatico_leve-material",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "RosaeAzul01",
+  "page_id": "103722105380380",
+  "perfil": "https://www.facebook.com/RosaeAzul01/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 86,
+  "anuncio_mais_novo_dias": 86,
+  "termos": [
+   "educação_infantil"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "✨📚 KIT CRECHE & MATERNAL 📚✨\n\nUm material pensado especialmente para crianças pequenas aprenderem brincando ❤️\n\n😍 Atividades educativas, lúdicas e divertidas para desenvolver habilidades importantes desde os primeiros anos da infância!\n\n👶 Ideal para:\n✔ Creche\n✔ Maternal\n✔ Educação Infantil\n✔ Crianças"
+  ],
+  "titulos": [
+   "😍 “KIT COMPLETO DE ATIVIDADES INFANTIS”"
+  ],
+  "passa_filtros": false
+ },
+ {
   "anunciante": "Zanon Macedo - Emagrecer é pra Já",
   "page_id": "211280776068425",
   "perfil": "https://www.facebook.com/zanonmacedo/",
@@ -6693,6 +8503,184 @@
   ],
   "titulos": [
    "2023 Royal Enfield Himalayan 411"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Apps na Mão",
+  "page_id": "682718564923523",
+  "perfil": "https://www.facebook.com/61577253115337/",
+  "dominio": "twodcompany.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 244,
+  "anuncio_mais_novo_dias": 244,
+  "termos": [
+   "inglês"
+  ],
+  "exemplo_link": "https://twodcompany.com/pt/18118/conectate-al-mundo-sin-limites-con-redes-wi-fi-publicas/",
+  "copies": [
+   "APRENDA INGLÊS DE FORMA FÁCIL E DIVERTIDA."
+  ],
+  "titulos": [
+   "📖 INGLÊS GRÁTIS"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "BYU-Pathway Worldwide - Português",
+  "page_id": "279750028559398",
+  "perfil": "https://www.facebook.com/61558815020815/",
+  "dominio": "byupathway.edu",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 18,
+  "anuncio_mais_novo_dias": 18,
+  "termos": [
+   "inglês"
+  ],
+  "exemplo_link": "https://www.byupathway.edu/pt?cid=top-funnel-br-reach_paidsocial_facebook_byupw_brz_portuguese_other",
+  "copies": [
+   "Já sentiu que conseguir um diploma universitário estava fora do seu alcance? Conheça a BYU-Pathway Worldwide. Obtenha uma educação de qualidade, no conforto da sua casa, de acordo com a sua própria programação — e por um valor realmente acessível. A BYU-Pathway agora oferece disciplinas 100% em port"
+  ],
+  "titulos": [
+   "Dois diplomas agora disponíveis em português."
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Linguza: AI English Tutor",
+  "page_id": "954638981075747",
+  "perfil": "https://www.facebook.com/61576796997762/",
+  "dominio": "play.google.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 111,
+  "anuncio_mais_novo_dias": 111,
+  "termos": [
+   "inglês"
+  ],
+  "exemplo_link": "https://play.google.com/store/apps/details?id=com.nxl.aienglishtutor.ailearnlanguage.aichatbot&hl=vi",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "HoneySha Tech",
+  "page_id": "477174928997439",
+  "perfil": "https://www.facebook.com/HoneyShaTech/",
+  "dominio": "play.google.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 2097,
+  "anuncio_mais_novo_dias": 2097,
+  "termos": [
+   "inglês"
+  ],
+  "exemplo_link": "http://play.google.com/store/apps/details?id=com.tradutor.englishtoportuguesetranslator",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Wizard",
+  "page_id": "209433342874",
+  "perfil": "https://www.facebook.com/wizard.oficial/",
+  "dominio": "promocoes.wizard.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 266,
+  "anuncio_mais_novo_dias": 266,
+  "termos": [
+   "inglês"
+  ],
+  "exemplo_link": "https://promocoes.wizard.com.br/wizkids/?utm_source=meta&utm_medium=conversao&utm_campaign=purpple_wizard_wizard-kids_bofu_conversao_meta-site_ppla-stories_wizstars-open-4-aulas&utm_content=purpple_wizard_wizard-kids_bofu_conversao_wizstars-open-4-aulas_meta-site_ppla-stories_as-25ma-open&utm_term=purpple_wizard_wizard-kids_bofu_conversao_wizstars-open-4-aulas_meta-site_ppla-stories_as-25ma-open_wizstars-4-aulas_pl270820250308&utm_marketing_tactic=bofu&utm_id=pl270820250308",
+  "copies": [
+   "Traga seu filho para 4 aulas gratuitas de inglês e conheça WizKids."
+  ],
+  "titulos": [
+   "Inglês para crianças"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Langla Learn Languages with AI",
+  "page_id": "821544071053397",
+  "perfil": "https://www.facebook.com/61584636380704/",
+  "dominio": "play.google.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 24,
+  "anuncio_mais_novo_dias": 24,
+  "termos": [
+   "inglês"
+  ],
+  "exemplo_link": "https://play.google.com/store/apps/details?id=aitutor.ailanguagelearn.ailearning&pli=1",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Justus Sarah Truj",
+  "page_id": "123258610862979",
+  "perfil": "https://www.facebook.com/61550743975386/",
+  "dominio": "itunes.apple.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 18,
+  "anuncio_mais_novo_dias": 18,
+  "termos": [
+   "inglês"
+  ],
+  "exemplo_link": "http://itunes.apple.com/app/id6741623453",
+  "copies": [
+   ""
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "LingoSpeak: AI English Tutor",
+  "page_id": "1189836434215518",
+  "perfil": "https://www.facebook.com/61591668344490/",
+  "dominio": "play.google.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 42,
+  "anuncio_mais_novo_dias": 42,
+  "termos": [
+   "inglês"
+  ],
+  "exemplo_link": "https://play.google.com/store/apps/details?id=lingospeak.english.learnlanguage.speak",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "King of Languages",
+  "page_id": "107050911124753",
+  "perfil": "https://www.facebook.com/kingoflanguagesoficial/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 167,
+  "anuncio_mais_novo_dias": 167,
+  "termos": [
+   "inglês"
+  ],
+  "exemplo_link": "http://fb.me/",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
   ],
   "passa_filtros": false
  },
@@ -7487,6 +9475,223 @@
   "exemplo_link": "",
   "copies": [
    "Precisão que faz a diferença! \n\n Cada movimento acontece no momento certo, trazendo mais eficiência e qualidade na colheita. \n\n Conheça a nova série CH de colhedoras de cana da John Deere, máquinas modernas com tecnologias que facilitam a rotina no campo e entregam os melhores resultados. \n\n Fale co"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Gabriel.Utzig",
+  "page_id": "108108341999505",
+  "perfil": "https://www.facebook.com/gabrielutzigg/",
+  "dominio": "pagina.patrimoniolucrativo.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 157,
+  "anuncio_mais_novo_dias": 157,
+  "termos": [
+   "plano_de_aula",
+   "trabalhar_de_casa"
+  ],
+  "exemplo_link": "https://pagina.patrimoniolucrativo.com.br/pc-ersa002",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "FluidMed Residência Médica",
+  "page_id": "104287269184316",
+  "perfil": "https://www.facebook.com/fluidmedbrasil/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 36,
+  "anuncio_mais_novo_dias": 36,
+  "termos": [
+   "plano_de_aula"
+  ],
+  "exemplo_link": "https://instagram.com/fluidmedbrasil",
+  "copies": [
+   "🌟 Baixe agora o relatório gratuito do ENAMED 26-27 (link da bio).\n\nAqui na FluidMed, nós ensinamos abertamente a técnica que utilizamos para obter notas maiores que 90%. Venha aprender a otimizar o seu estudo conosco! Basta se inscrever na Jornada Residência Médica: saindo dos 60%, chegando aos 90%."
+  ],
+  "titulos": [
+   " "
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Dissecando Questões",
+  "page_id": "125107217351899",
+  "perfil": "https://www.facebook.com/61550992745263/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 235,
+  "anuncio_mais_novo_dias": 235,
+  "termos": [
+   "plano_de_aula"
+  ],
+  "exemplo_link": "http://instagram.com/dissecadordequestoes",
+  "copies": [
+   "Você não quer só um salário. Você quer previsibilidade de rotina + reconhecimento pela sua titulação.\n\nHoje, um docente do IF em regime de 20h ganha:\n• Especialista: R$9.198,64\n• Mestre: R$11.079,07\n• Doutor: R$15.216,01\n\nTudo isso com estabilidade, plano de saúde e carga horária definida.\n\nSaber di"
+  ],
+  "titulos": [
+   "Dissecando Questões"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Joao Vitor",
+  "page_id": "761414780888344",
+  "perfil": "https://www.facebook.com/100057837438895/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 504,
+  "anuncio_mais_novo_dias": 504,
+  "termos": [
+   "plano_de_aula"
+  ],
+  "exemplo_link": "",
+  "copies": [
+   "Seguindo os conteúdos sobre uso prático de AI. Aqui 100% dentro do ChatGPT explico como você pode aprender a implementar basicamente qualquer coisa no seu negócio combinando alguns recursos nativos.\n\nEm breve o único consultor que a maioria das empresas vai usar será uma AI.\n\n#gestao #ai #produtivid"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Renato Asse - Sem Codar",
+  "page_id": "412623442794085",
+  "perfil": "https://www.facebook.com/renatoasse/",
+  "dominio": "go.ibe.ia.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 109,
+  "anuncio_mais_novo_dias": 109,
+  "termos": [
+   "plano_de_aula"
+  ],
+  "exemplo_link": "https://go.ibe.ia.br/campaign/meta-fvc-vsl3-tire-sua-ideia-do-papel",
+  "copies": [
+   "Existe um jeito certo de criar app com IA. 🚀\nE não é o que você tá tentando.\n\nEm 1 aula gratuita eu te mostro o método de 3 pilares que mais de 25.000 alunos da ibe.IA usam pra tirar a ideia do papel:\n\n✅ Como planejar com PRD antes de pedir pra IA construir\n✅ Como corrigir erros e melhorar sem perde"
+  ],
+  "titulos": [
+   "Vibe coding na prática"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "EduParmeggiani",
+  "page_id": "1842388882668157",
+  "perfil": "https://www.facebook.com/eduparmeggiani/",
+  "dominio": "eduparmeggiani.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 71,
+  "anuncio_mais_novo_dias": 71,
+  "termos": [
+   "plano_de_aula"
+  ],
+  "exemplo_link": "http://eduparmeggiani.com/mce",
+  "copies": [
+   "Um guia com mais de 80 páginas de passo a passo para você fazer magias com Exu em casa, sem precisar de intermediário."
+  ],
+  "titulos": [
+   "Guia de Magias com Exu"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Ensinei - IA para Professores",
+  "page_id": "756365200894522",
+  "perfil": "https://www.facebook.com/61580026552312/",
+  "dominio": "ensinei.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 143,
+  "anuncio_mais_novo_dias": 143,
+  "termos": [
+   "plano_de_aula"
+  ],
+  "exemplo_link": "https://ensinei.com.br/",
+  "copies": [
+   "Prof., recupere os seus finais de semana! Com o Ensinei, você cria materiais incríveis para as suas aulas em poucos minutos."
+  ],
+  "titulos": [
+   "Grátis: IA para Professores"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "eu_joaoreis",
+  "page_id": "112359317088625",
+  "perfil": "https://www.instagram.com/_u/eu_joaoreis",
+  "dominio": "manual.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 3,
+  "anuncio_mais_novo_dias": 3,
+  "termos": [
+   "plano_de_aula"
+  ],
+  "exemplo_link": "https://www.manual.com.br/queda-de-cabelo?coupon=30OFF",
+  "copies": [
+   "Por que escolher a MANUAL?\n\n🏠 Praticidade Total: Tudo online, em poucos minutos, sem sair de casa.\n\n🧪 Ciência de Ponta: Tratamentos elaborados por farmácias autorizadas pela Anvisa.\n\n🚚 Entrega Discreta: Receba seu kit com frete grátis e embalagem sem identificação.\n\n📈 Acompanhamento: Suporte clínico"
+  ],
+  "titulos": [
+   "Pare a Queda Capilar Hoje | 30% OFF"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Pocket Saga - Fantasy & Action",
+  "page_id": "527137757155003",
+  "perfil": "https://www.facebook.com/pockettoonsfantasyaction/",
+  "dominio": "play.google.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 10,
+  "anuncio_mais_novo_dias": 10,
+  "termos": [
+   "plano_de_aula"
+  ],
+  "exemplo_link": "http://play.google.com/store/apps/details?id=com.pocketfm.toons",
+  "copies": [
+   "Reborn to Win -The Most Awaited fantasy Anime"
+  ],
+  "titulos": [
+   "Watch Free Episodes on Pocket Saga App valid for limited time only"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Cambly Brasil",
+  "page_id": "1093719967343691",
+  "perfil": "https://www.facebook.com/camblybrasil/",
+  "dominio": "cambly.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 4,
+  "anuncio_mais_novo_dias": 4,
+  "termos": [
+   "plano_de_aula"
+  ],
+  "exemplo_link": "https://www.cambly.com/",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Matheus Mota",
+  "page_id": "496827783509992",
+  "perfil": "https://www.facebook.com/61568719574774/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 188,
+  "anuncio_mais_novo_dias": 188,
+  "termos": [
+   "plano_de_aula"
+  ],
+  "exemplo_link": "",
+  "copies": [
+   "🚀 Quer criar uma marca que vende todos os dias?\n\nExiste um caminho pra construir uma marca de verdade. Existe um método por trás disso!\n\nComente aqui e eu te mostro 👇"
   ],
   "titulos": [],
   "passa_filtros": false
@@ -8543,6 +10748,394 @@
   "passa_filtros": false
  },
  {
+  "anunciante": "Pantene Brasil",
+  "page_id": "102234259841369",
+  "perfil": "https://www.facebook.com/pantenebrasil/",
+  "dominio": "amazon.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 14,
+  "anuncio_mais_novo_dias": 14,
+  "termos": [
+   "relacionamento"
+  ],
+  "exemplo_link": "https://www.amazon.com.br/Pantene-Leave-Nutri%C3%A7%C3%A3o-Controle-N%C3%A3o/dp/B0GKCCZ7CY?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=16WVDT6170VEO&dib=eyJ2IjoiMSJ9.UkJbuYHfKflnySfz1l2UxGkCgoubC8JHPOLsMSN6LyX_u5TxhgNMIV1qUJ5AIHXrXSFRMdw3b6WKkfX0H1ALMn6ig8Ik_tD_ZZAVXpN_zCsG7vEX3Jy9MO3Uh30MBnX825IiGNtvmMoAbeYLAIGont3k6ExRdHHB9hgUgriTUySmbZqrzwTtQe-B7FrOSwmfaBhBVEFDq-qtB-hMBIvPCfpL3eov-O-gRdRKAl8san8jloi3y3F7cDC53nWWR8lHyOAfKq3SJa06CDsUBxVscdt9PHhj_A87cFprEV58-qU.aNCm1SHWhbvE2jIxTfBuTbjE5BG05Hbx2jf3VDHzALI&dib_tag=se&keywords=pantene&qid=1782480088&sprefix=pantene%2Caps%2C253&sr=8-5&linkCode=ll2&tag=pgbeauty-20&linkId=536feecc15d149aa43f6af396ea2b2fd&ref_=as_li_ss_tl",
+  "copies": [
+   "Controle o frizz sem efeito pesado. Sérum Pantene Bambu é sua melhor escolha."
+  ],
+  "titulos": [
+   "Frizz controlado sem drama"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "gustavo.herrmann",
+  "page_id": "974852629054787",
+  "perfil": "https://www.instagram.com/_u/gustavo.herrmann",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 74,
+  "anuncio_mais_novo_dias": 74,
+  "termos": [
+   "relacionamento"
+  ],
+  "exemplo_link": "http://instagram.com/gustavo.herrmann",
+  "copies": [
+   ""
+  ],
+  "titulos": [
+   "instagram.com"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Pantene Brasil",
+  "page_id": "102234259841369",
+  "perfil": "https://www.facebook.com/pantenebrasil/",
+  "dominio": "mercadolivre.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 14,
+  "anuncio_mais_novo_dias": 14,
+  "termos": [
+   "relacionamento"
+  ],
+  "exemplo_link": "https://www.mercadolivre.com.br/serum-leave-in-pantene-bambu-forca-e-nutrico-controle-de-frizz-por-ate-72-horas-no-pesa-no-cabelo-95ml/p/MLB66586631",
+  "copies": [
+   "Controle o frizz sem efeito pesado. Sérum Pantene Bambu é sua melhor escolha."
+  ],
+  "titulos": [
+   "Frizz controlado sem drama"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Tinder",
+  "page_id": "353659601370498",
+  "perfil": "https://www.facebook.com/tinder/",
+  "dominio": "play.google.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 93,
+  "anuncio_mais_novo_dias": 93,
+  "termos": [
+   "relacionamento"
+  ],
+  "exemplo_link": "http://play.google.com/store/apps/details?id=com.tinder",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Localiza Meoo",
+  "page_id": "101438534927518",
+  "perfil": "https://www.facebook.com/localizaassinatura/",
+  "dominio": "assinatura.localiza.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 40,
+  "anuncio_mais_novo_dias": 40,
+  "termos": [
+   "relacionamento"
+  ],
+  "exemplo_link": "https://assinatura.localiza.com/",
+  "copies": [
+   "Entre em um relacionamento sério com um elétrico de última geração. Sem compra, sem burocracia, só assinatura. Confira!"
+  ],
+  "titulos": [
+   "Conheça as vantagens."
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Italo Marsili",
+  "page_id": "991515580975505",
+  "perfil": "https://www.facebook.com/marsili.italo/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 588,
+  "anuncio_mais_novo_dias": 588,
+  "termos": [
+   "relacionamento"
+  ],
+  "exemplo_link": "https://www.instagram.com/_u/italomarsili",
+  "copies": [
+   "Não inverta a ordem natural da construção de um relacionamento."
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Polícia Militar",
+  "page_id": "456329611107521",
+  "perfil": "https://www.facebook.com/policiamilitardeminasgerais/",
+  "dominio": "cemiteriodemulheres.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 12,
+  "anuncio_mais_novo_dias": 12,
+  "termos": [
+   "relacionamento"
+  ],
+  "exemplo_link": "https://cemiteriodemulheres.com.br/?utm_source=meta-ads&utm_medium={{placement}}&utm_campaign={{campaign.name}}&utm_content={{ad.name}}&utm_term={{adset.name}}",
+  "copies": [
+   "A violência doméstica não começa com um tapa. Começa com o clima pesado, os silêncios, os ciúmes disfarçados de cuidado. Depois vem a explosão. E depois vem o arrependimento, os presentes, as promessas de mudança. Esse é um ciclo de relacionamento muito perigoso para as mulheres.\n\nReconhecer esse pa"
+  ],
+  "titulos": [
+   "⛓️‍💥Quebre o ciclo da violência doméstica."
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Saler Kourly",
+  "page_id": "795705340785375",
+  "perfil": "https://www.facebook.com/propagandistadeprimeira/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 774,
+  "anuncio_mais_novo_dias": 774,
+  "termos": [
+   "relacionamento"
+  ],
+  "exemplo_link": "http://instagram.com/propagandistadeprimeira",
+  "copies": [
+   "Conhece algum bancário por aí que se identifica com essa história? Quer se tornar um #propagandista #bancario ? \n\n1) Siga o meu perfil \n2) Compartilhe o post com 3 amigos bancários \n3) Deixe nos comentários #quero para receber um conteúdo incrível sobre a profissão."
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Pigatu",
+  "page_id": "297890436741187",
+  "perfil": "https://www.facebook.com/61559005835364/",
+  "dominio": "jcscreens.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 172,
+  "anuncio_mais_novo_dias": 172,
+  "termos": [
+   "relacionamento"
+  ],
+  "exemplo_link": "https://jcscreens.com/pt/13742/",
+  "copies": [
+   "Cristãos solteiros grátis ❤️✝️"
+  ],
+  "titulos": [
+   "Encontre alguém da mesma fé 🙏"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Tray Plataforma de E-commerce",
+  "page_id": "271868749352380",
+  "perfil": "https://www.facebook.com/61559722203077/",
+  "dominio": "tray.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 19,
+  "anuncio_mais_novo_dias": 19,
+  "termos": [
+   "relacionamento"
+  ],
+  "exemplo_link": "https://tray.com.br/lps/home-c/?utm_source=facebook&utm_medium=%7B%7Bad.name%7D%7D&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=%7B%7Bad.name%7D%7D",
+  "copies": [
+   "Seu negócio + Tray = Vendas acontecendo 24 horas por dia! \n\nNão importa o que você vende: o seu negócio não precisa parar quando você vai dormir.\n\nCom a Tray, você transforma sua marca em uma máquina de vendas automática e leva sua operação para o próximo nível sem complicação técnica. \n\nTudo o que "
+  ],
+  "titulos": [
+   "Venda em mais de 30 marketplace"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Closeup",
+  "page_id": "119835034762003",
+  "perfil": "https://www.facebook.com/closeupbrasil/",
+  "dominio": "paguemenos.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 21,
+  "anuncio_mais_novo_dias": 21,
+  "termos": [
+   "relacionamento"
+  ],
+  "exemplo_link": "https://www.paguemenos.com.br/closeup?utm_source=meta&utm_medium=parceria&utm_content=pm-parceria-closeup-white-now-squad-influs-co-hort-instagram&utm_campaign=bn_pm_area_ind_ch_instagram_ct_influencer_cn_closeup-white-now-squad-influs-co-hort-instagram_cat_hb_ind_unilever_fnl_meio_own_digpm",
+  "copies": [
+   "Terminei um relacionamento de 5 anos e meu mecanismo de defesa é planejar meu glow up de milhões... Começando pelo Smile Care com Closeup White Now!"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Mariana Torres",
+  "page_id": "2142813119314198",
+  "perfil": "https://www.facebook.com/marianatorrescoach/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 716,
+  "anuncio_mais_novo_dias": 716,
+  "termos": [
+   "relacionamento"
+  ],
+  "exemplo_link": "http://instagram.com/eumaritorres",
+  "copies": [
+   "6 sinais de um chefe tóxico\n\n1 - Te expõe na frente dos seus colegas de trabalho\n\n2 - Não compartilha informações importantes com você\n\n3 - Te sobrecarrega de trabalho e incentiva horas extras sem remuneração\n\n4 - Age constantemente de forma autoritária\n\n5 - É imprevisível: você nunca sabe como esta"
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Danielsaviolioficial",
+  "page_id": "209464295575152",
+  "perfil": "https://www.facebook.com/61554816811002/",
+  "dominio": "danielsavioli.com",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 1025,
+  "anuncio_mais_novo_dias": 1025,
+  "termos": [
+   "relacionamento"
+  ],
+  "exemplo_link": "https://danielsavioli.com/o-poder-da-mulher-rara",
+  "copies": [
+   "Quer descobrir quais são os maiores erros em um relacionamento e saber como agir na prática?\n\nClique em SAIBA MAIS e descubra O Poder da Mulher Rara."
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Algar Empresas",
+  "page_id": "425125014566909",
+  "perfil": "https://www.facebook.com/algarparaempresas/",
+  "dominio": "loja.algar.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 41,
+  "anuncio_mais_novo_dias": 41,
+  "termos": [
+   "relacionamento"
+  ],
+  "exemplo_link": "https://loja.algar.com.br/tamojunto.html?utm_source=meta&utm_medium=social&utm_campaign=algar-tamojunto-meta-social-alcance-cpm&utm_term=tier-3-as-18-65&utm_content=feed-inst-carrossel-estatico-4%3A5",
+  "copies": [
+   "Somos uma empresa do Grupo Algar que atua oferecendo soluções de TI, IoT, IA e Telecom há mais de 70 anos, com base em dois objetivos principais: manter um relacionamento próximo dos nossos clientes e oferecer serviços de alta qualidade para empresas."
+  ],
+  "titulos": [
+   "Algar Empresas"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Campinas Fit",
+  "page_id": "102943259457313",
+  "perfil": "https://www.facebook.com/100092096408201/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 289,
+  "anuncio_mais_novo_dias": 289,
+  "termos": [
+   "relacionamento"
+  ],
+  "exemplo_link": "https://api.whatsapp.com/send",
+  "copies": [
+   "{{product.brand}}"
+  ],
+  "titulos": [
+   "{{product.name}}"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Rachid Diego",
+  "page_id": "1743897765644330",
+  "perfil": "https://www.facebook.com/100093720601001/",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 258,
+  "anuncio_mais_novo_dias": 258,
+  "termos": [
+   "relacionamento"
+  ],
+  "exemplo_link": "http://instagram.com/rachid.diego",
+  "copies": [
+   "Salva esse print e volta aqui sempre que a ansiedade apertar.\n\nA gente passa a vida toda querendo acelerar as coisas, forçar portas, controlar cada detalhe. \n\nMas a verdade é que existe um plano maior rolando, e nem sempre a gente consegue enxergar ele de onde está.\n\nAquela vaga que você não passou,"
+  ],
+  "titulos": [
+   "instagram.com"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Phibo.app",
+  "page_id": "113405026998625",
+  "perfil": "https://www.facebook.com/phiboapp/",
+  "dominio": "phibo.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 144,
+  "anuncio_mais_novo_dias": 144,
+  "termos": [
+   "relacionamento"
+  ],
+  "exemplo_link": "https://phibo.com.br/",
+  "copies": [
+   "Sistema de moda pra sua loja"
+  ],
+  "titulos": [
+   "Você é dona de loja de moda com 1 a 3 lojas físicas e usa caderno ou um sistema que não entende grade de tamanho e cor? \n\nFoi pra você que a Phibo nasceu."
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Meno Aliv",
+  "page_id": "103629847668821",
+  "perfil": "https://www.facebook.com/menoaliv/",
+  "dominio": "menoaliv.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 15,
+  "anuncio_mais_novo_dias": 15,
+  "termos": [
+   "relacionamento"
+  ],
+  "exemplo_link": "https://menoaliv.com.br/pages/o-segredo-de-gaveta",
+  "copies": [
+   "Seu casamento não precisa cair na rotina… ❤️\nCom o tempo, é normal o desejo diminuir, o cansaço chegar e a conexão esfriar.\nMas a verdade é intimidade é parte da base de um relacionamento forte.\n\nQuando o desejo volta, o carinho volta junto.\nO toque, a conexão, a parceria tudo melhora.\n\n👉 Clique ago"
+  ],
+  "titulos": [
+   "(13.876) ⭐⭐⭐⭐⭐"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "Japaratinga Lounge Resort",
+  "page_id": "1616045601793785",
+  "perfil": "https://www.facebook.com/japaratingaresort/",
+  "dominio": "japaratingaresort.com.br",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 217,
+  "anuncio_mais_novo_dias": 217,
+  "termos": [
+   "relacionamento"
+  ],
+  "exemplo_link": "https://www.japaratingaresort.com.br/pt/promocoes?utm_source=facebook&utm_medium=paid&utm_campaign=PROMO_JPT_VENDAS&utm_content=VIDEO_AON_INFLUENCER_EUVOCEEOSPETS",
+  "copies": [
+   "Motivos não faltam pra você garantir sua próxima viagem aqui pro Japaratinga Lounge Resort. \n\nEu, Você e os Pets (@euvoceeospets) já estão querendo voltar! Visite nosso site e confira as nossas promoções."
+  ],
+  "titulos": [
+   "Japaratinga Lounge Resort"
+  ],
+  "passa_filtros": false
+ },
+ {
+  "anunciante": "vicentesevilhaoficial",
+  "page_id": "110241871157875",
+  "perfil": "https://www.instagram.com/_u/vicentesevilhaoficial",
+  "dominio": "",
+  "anuncios_ativos_min": 1,
+  "idade_dias": 1460,
+  "anuncio_mais_novo_dias": 1460,
+  "termos": [
+   "relacionamento"
+  ],
+  "exemplo_link": "http://instagram.com/vicentesevilhaoficial",
+  "copies": [
+   ""
+  ],
+  "titulos": [],
+  "passa_filtros": false
+ },
+ {
   "anunciante": "Shopee Brasil Afiliados",
   "page_id": "1060768857122428",
   "perfil": "https://www.facebook.com/61573331212384/",
@@ -9303,26 +11896,6 @@
   "passa_filtros": false
  },
  {
-  "anunciante": "Gabriel.Utzig",
-  "page_id": "108108341999505",
-  "perfil": "https://www.facebook.com/gabrielutzigg/",
-  "dominio": "pagina.patrimoniolucrativo.com.br",
-  "anuncios_ativos_min": 1,
-  "idade_dias": 157,
-  "anuncio_mais_novo_dias": 157,
-  "termos": [
-   "trabalhar_de_casa"
-  ],
-  "exemplo_link": "https://pagina.patrimoniolucrativo.com.br/pc-ersa002",
-  "copies": [
-   "{{product.brand}}"
-  ],
-  "titulos": [
-   "{{product.name}}"
-  ],
-  "passa_filtros": false
- },
- {
   "anunciante": "Audible",
   "page_id": "133177253203847",
   "perfil": "https://www.facebook.com/61550913546551/",
@@ -9377,24 +11950,6 @@
   "titulos": [
    "Conheça o Home Sales"
   ],
-  "passa_filtros": false
- },
- {
-  "anunciante": "deolhonomeudireito",
-  "page_id": "107772044015078",
-  "perfil": "https://www.facebook.com/100063485707380/",
-  "dominio": "",
-  "anuncios_ativos_min": 1,
-  "idade_dias": 908,
-  "anuncio_mais_novo_dias": 908,
-  "termos": [
-   "trabalhar_de_casa"
-  ],
-  "exemplo_link": "http://instagram.com/laisbragaadvocacia",
-  "copies": [
-   "- Dra., desculpa-me a ansiedade, eu sei que ainda é domingo, mas não consegui me conter, passei o dia em agonia, sei ainda, que tem milhares de processos e o meu é só mais um, ocorre que ele é tão importante para mim, hoje esse benefício do INSS é a maior expectativa da minha vida, é um sonho.\n\n Não"
-  ],
-  "titulos": [],
   "passa_filtros": false
  },
  {
