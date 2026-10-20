@@ -12,6 +12,7 @@ Contagem feita na página do anunciante, por oferta. É um mínimo: a Biblioteca
 | 5 | +5000 moldes EVA / letras (Dona Fatima) | não informado (WhatsApp) | 9 | 19 | https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=105072185474191 | https://www.facebook.com/ads/library/?id=1058964213292222 | sem landing | sem gateway (WhatsApp) |
 
 ## Observações
+- **Pilates em Casa:** é um funil de quiz (idade, objetivo, altura, peso), que termina numa página de "plano personalizado" a R$ 27,90 com cronômetro, e o checkout é na Lastlink. Bumps no checkout: "receitas anti-inflamatórias" R$ 19,90 e "Protocolo Barriga Chapada". Não tem expert. A página diz "15 milhões de pessoas" e "App Store 4,8": parece clonar um app estrangeiro. Também usa depoimentos de "-9 kg em 28 dias" e um bump vendido como "prescrição indicada com URGÊNCIA". Risco alto de compliance. Prints em `prints/pilates-*.png`.
 - **Juliana Gamon** (persona, sem expert real) já faz modelagem horizontal na própria página: além da matemática, vende física, português e química para o ENEM e física para a USP, e também simulados SARESP e SAEB. As versões SARESP e SAEB têm mais de 45 dias.
 - **Lição Kids:** a oferta de matemática 4 operações tem 16 anúncios, mas o anúncio mais antigo tem 55 dias, então fica fora da idade.
 - **Mercado saturado** (pesquisa dos alunos): moldes EVA (8+ páginas idênticas) e comandos elétricos. Passam nos filtros de volume e idade, mas não no de pouca concorrência.
