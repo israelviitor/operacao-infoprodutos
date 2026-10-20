@@ -1,5 +1,7 @@
 # Ofertas aprovadas — mineração 2026-10-19
 
+Mineração concluída: 40 de 40 buscas, 607 ofertas vistas, 13 aprovadas.
+
 Filtros: Brasil · até R$ 60 · mais de 5 anúncios ativos · 3 a 45 dias · sem expert real.
 Contagem feita na página do anunciante, por oferta. É um mínimo: a Biblioteca mostra 30 anúncios por página.
 
@@ -16,6 +18,8 @@ Contagem feita na página do anunciante, por oferta. É um mínimo: a Biblioteca
 | 9 | Desafio HIIT Dance "queima pochete" ("THAIX digital trainer") — quiz + vídeo | R$ 37 (assinatura anual, até 7x) | 42 (184 na página) | 41 | https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=416036084921665 | https://www.facebook.com/ads/library/?id=925599876937804 | https://2.desafiohiitdance.com/htd (quiz em inlead.digital) | https://lastlink.com/p/C5CF90DD6/checkout-payment/ |
 | 10 | Salgados que dão lucro ("Regina Silva") — renda extra | não informado (WhatsApp) | 10 (6 na página) | 25 | https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=669336156255351 | https://www.facebook.com/ads/library/?id=1653740240096149 | sem landing | sem gateway (WhatsApp) |
 | 11 | Receitas de salgado na bandeja ("Salgados da Mirela") — renda extra | não informado (WhatsApp) | 23 | 27 | https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=1288623321001286 | https://www.facebook.com/ads/library/?id=1401605178707905 | https://cadernodacozinha.online/sm-p1/ (leva ao WhatsApp) | sem gateway (WhatsApp) |
+| 12 | Kit Caligrafia para Adultos — 500 atividades em PDF ("Educa+kids") | R$ 5 / R$ 19,90 | 6 | 44 | https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=671625709367764 | https://www.facebook.com/ads/library/?id=1575963780381259 | https://kitcaligrafiaparaadultos.netlify.app/ | https://pay.wiapy.com/67GyyH4FYP |
+| 13 | Mural "Lista de convidados da Chapeuzinho" ("Atividades Edukar", loja com vários materiais) | não verificado (site bloqueia acesso de fora do Brasil) | 6 | 11 | https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=305231789348040 | https://www.facebook.com/ads/library/?id=991389647347758 | https://atividadesedukar.com.br/product/mural-lista-de-convidados-da-chapeuzinho-vermelho/ | não verificado |
 
 ## Observações
 - **HIIT Dance (THAIX):** é um funil de quiz no inlead.digital que termina num vídeo ("assista para receber seu protocolo"), com checkout na Lastlink a R$ 37 por ano. São 5 domínios rodando a mesma oferta, um sinal de escala e de teste de páginas.
@@ -24,6 +28,9 @@ Contagem feita na página do anunciante, por oferta. É um mínimo: a Biblioteca
 - **Lição Kids:** a oferta de matemática 4 operações tem 16 anúncios, mas o anúncio mais antigo tem 55 dias, então fica fora da idade.
 - **Mercado saturado** (pesquisa dos alunos): moldes EVA (8+ páginas idênticas) e comandos elétricos. Passam nos filtros de volume e idade, mas não no de pouca concorrência.
 - **Reprovadas:**
+  - Treino Trinca (Pedro Lotz): R$ 29,90, mesmo funil de quiz com checkout na Lastlink; a oferta roda há 58 dias
+  - Ruttor Apps: são aplicativos, não infoproduto
+  - Buscas de relacionamento e "bíblia": nenhuma oferta passou
   - Chef Helena: 3 anúncios
   - Ana Santos: 5 anúncios
   - Pilates Daniela Zanette: 91 dias
