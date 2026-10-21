@@ -31,3 +31,15 @@
   - 6 vendas ou mais (Cakto) → fase 2;
   - 4–5 vendas → mais R$ 100;
   - 3 ou menos → para.
+
+## Posts exatos dos 6 criativos (atenção: há nomes repetidos em campanhas diferentes)
+| Criativo | Campanha de origem (teste 1) | Vendas | Post |
+|---|---|---|---|
+| video 02 (sem acento) | Enem 12 - 1/1/10 | 2 | https://www.facebook.com/reel/29044267131872831/ |
+| vídeo 08 | Enem 08 - Triplo 1 | 2 | https://www.facebook.com/reel/1327160652716994/ |
+| imagem 02 | Enem 12 - 1/1/10 | 1 | https://www.facebook.com/61594648123233/posts/pfbid02rY5i7PTg7trL9yY7xhzTvQpPyXNZMNfaxrazHcq4v5mxAZVndeWS6A8dZfYyXxz5l |
+| imagem 06 | Enem 13 - 1/1/10 | 1 | https://www.facebook.com/61594648123233/posts/pfbid0FBfRRXDDQoiHah8tbcTecm9DpXPCaxYRit65ULKFA57MVrx1ZVsPVVBTFnSuG19dl |
+| imagem 04 | Enem 13 - 1/1/10 | 0 (CTR 3,5%) | https://www.facebook.com/61594648123233/posts/pfbid029nZFTFVCLuXrrXQrMJLKUpeFPFxoCot3pjwzhr6DfNgXtt2WxZVFeQpC36kf9GVol |
+| vídeo 04 (com acento) | Enem 04 - Triplo 1 | 0 (CTR 3,6%, 2 IC) | https://www.facebook.com/reel/1484724603578766/ |
+
+NÃO usar: "vídeo 02" (com acento) da Enem 02 nem "imagem 02" da Enem 10 — mesmo nome, outro post, 0 vendas.
