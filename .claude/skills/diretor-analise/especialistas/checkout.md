@@ -1,6 +1,7 @@
 # Especialista — Checkout e Ticket (Cakto)
 
 ## Checkout
+- **Antes de avaliar:** preencha nome, e-mail, celular e CPF de teste (sem pagar). Na Cakto, os order bumps só aparecem depois disso.
 - **Campos:** o mínimo necessário. Cada campo extra custa conversão. Se o produto é digital, o checkout não deve pedir endereço.
 - **Métodos de pagamento:** Pix em destaque (o mais usado em low ticket), cartão com parcelamento quando fizer sentido.
 - **Pix não pago:** existe recuperação (mensagem/e-mail automático)? Pix gerado e não pago costuma ser o maior vazamento depois da página.
