@@ -7,6 +7,7 @@
 | Criar roteiros de criativos | `/diretor-copy-criativos <produto>, <quantidade/formato>` |
 | Editar um vídeo no Descript | `/diretor-edicao <produto>, <vídeo>, <roteiro>` |
 | Analisar uma LP/oferta que não dá lucro | `/diretor-analise <url da LP>` + números do Gerenciador e da Cakto |
+| Subir/ler/otimizar campanhas no Meta, anúncio reprovado, pixel | `/diretor-trafego <produto>` + números do Gerenciador |
 | Gravar uma regra manualmente | `/registrar-regra <a regra>` |
 
 Você também pode só falar normalmente ("faz 5 criativos pro produto X") — o diretor certo é acionado.

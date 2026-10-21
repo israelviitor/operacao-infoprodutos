@@ -15,8 +15,8 @@ As regras escritas vencem qualquer padrão seu. Se uma regra conflitar com um pe
 - **Alunos** = subagentes em `.claude/agents/`. Vão a campo (pesquisa) e voltam com achados brutos + fontes.
 - **Comitê** = subagente `comite-revisor`. Filtra os achados/entregas antes de subir ao dono.
 
-Áreas: mineração (base de tudo) · copy de criativos · copy de VSL · edição de criativos · edição de VSL · páginas · entregáveis · estruturação na Cakto · análise de resultados · compliance.
-Hoje estão montadas: **mineração, copy de criativos, edição e análise de resultados**. As demais serão criadas seguindo o mesmo padrão.
+Áreas: mineração (base de tudo) · copy de criativos · copy de VSL · edição de criativos · edição de VSL · páginas · entregáveis · estruturação na Cakto · análise de resultados · tráfego · compliance.
+Hoje estão montadas: **mineração, copy de criativos, edição, análise de resultados e tráfego**. As demais serão criadas seguindo o mesmo padrão.
 
 ## Formato de entrega ao dono — "só chega o que importa"
 Toda entrega final termina com, no máximo:
