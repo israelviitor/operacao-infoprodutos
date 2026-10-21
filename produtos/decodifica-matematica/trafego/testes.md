@@ -80,3 +80,18 @@ Os demais criativos gastaram menos de 1x o CPA alvo.
 - **Trava por criativo:** 0 vendas aos R$ 35 → pausar; 1 venda aos R$ 58 → pausar. [ESTATÍSTICA/PRATICANTE: AdManage]
 - **Fase 2:** CPA ≤ R$ 15 → subir 20–30% a cada 48–72h até ~R$ 140/dia, a verba para ~50 compras/semana. [OFICIAL: aprendizado / PRATICANTE: fórmula CPA×50÷7 e % de aumento]
 - **Controles de página:** comparar LPV→compra com a base de 7,5% do teste 1; abaixo de ~5% após R$ 150 → voltar para a LP antiga.
+
+## Teste 3 — teste de criativos (planejado em 2026-10-21, roda em paralelo ao Teste 2)
+- **Pergunta:** algum dos 9 criativos que não receberam verba no Teste 1 vende a CPA ≤ R$ 15?
+- **Por quê:** o Meta prioriza diversidade de criativos [OFICIAL: Andromeda]; no Teste 1 o CBO concentrou a verba e 9 criativos ficaram sem teste [DIÁRIO].
+- **Estrutura:** campanha separada `Enem T3 - Teste criativos - ABO`, Vendas/Compra, FB+IG só (sem Audience Network), público aberto BR 18+. **ABO: 3 conjuntos × 3 criativos, R$ 35/dia cada** (isolamento proposital para medir criativos).
+  - Lote A: vídeo 05, vídeo 09, vídeo 10
+  - Lote B: vídeo 11, vídeo 12, vídeo 13
+  - Lote C: vídeo 14, vídeo 15, imagem 01
+- **Travas (perda máxima = R$ 315):**
+  - Corte precoce: criativo com R$ 15 gastos e CTR de link < 1% → pausar. [OPINIÃO baseada no DIÁRIO: média FB/IG do teste 1 = 2,45%]
+  - Criativo com 0 venda aos R$ 35 → pausar. [ESTATÍSTICA]
+  - Conjunto sem venda aos R$ 70 → pausar.
+- **Vencedor:** criativo que vender com CPA ≤ R$ 15 vai para a campanha principal (Teste 2), pelo mesmo post.
+- **Sub-testados para uma próxima rodada:** vídeo 01, vídeo 03, vídeo 06, imagem 05.
+- **Pausados por regra:** imagem 03, vídeo 07 (gastaram mais de 2,3x o CPA alvo sem venda).
