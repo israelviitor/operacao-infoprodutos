@@ -68,3 +68,15 @@ Os demais criativos gastaram menos de 1x o CPA alvo.
 ## Mudanças antes do Teste 2 (informadas pelo dono em 2026-10-21)
 - Nova LP, modelada numa estrutura validada.
 - Order bumps: 1 de R$ 19,90 e 3 de R$ 12,90.
+
+## Teste 2 — planejado em 2026-10-21
+- **Pergunta:** consolidando em 1 campanha, só FB/IG, o CPM cai e o CPA (Cakto) fica ≤ R$ 15?
+- **Estrutura:** 1 campanha Vendas CBO, otimização Purchase, 1 conjunto aberto BR 18+, posicionamentos só FB+IG. Criativos: vídeo 02, vídeo 08, imagem 02, imagem 06, imagem 04, vídeo 04. Nova LP + bumps (1×R$ 19,90 e 3×R$ 12,90).
+- **CPA alvo para decisões:** R$ 15 (conservador, sem contar bumps até ter a taxa real da Cakto).
+- **Fase 1:** R$ 100/dia até R$ 150 gastos (~2 dias).
+  - 6 vendas ou mais → Fase 2.
+  - 4–5 vendas → mais R$ 100 e reavalia.
+  - 3 ou menos → para e revisa. Com CPA real de R$ 15, a chance de sair 3 ou menos é ~1%.
+- **Trava por criativo:** 0 vendas aos R$ 35 → pausar; 1 venda aos R$ 58 → pausar. [ESTATÍSTICA/PRATICANTE: AdManage]
+- **Fase 2:** CPA ≤ R$ 15 → subir 20–30% a cada 48–72h até ~R$ 140/dia, a verba para ~50 compras/semana. [OFICIAL: aprendizado / PRATICANTE: fórmula CPA×50÷7 e % de aumento]
+- **Controles de página:** comparar LPV→compra com a base de 7,5% do teste 1; abaixo de ~5% após R$ 150 → voltar para a LP antiga.
