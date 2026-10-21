@@ -95,3 +95,4 @@ Os demais criativos gastaram menos de 1x o CPA alvo.
 - **Vencedor:** criativo que vender com CPA ≤ R$ 15 vai para a campanha principal (Teste 2), pelo mesmo post.
 - **Sub-testados para uma próxima rodada:** vídeo 01, vídeo 03, vídeo 06, imagem 05.
 - **Pausados por regra:** imagem 03, vídeo 07 (gastaram mais de 2,3x o CPA alvo sem venda).
+- **Confirmado pelo dono (2026-10-21):** os 9 criativos são conceitos completamente diferentes entre si. Testes 2 e 3 começam juntos às 00h00 de 2026-10-22.
