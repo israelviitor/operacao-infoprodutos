@@ -24,7 +24,14 @@
 - **Leitura:** Enem 03, 04, 06, 07, 10 e 11 gastaram ~R$ 99 (24% da verba) e trouxeram 698 dos 870 cliques (80%), com só 2 IC. CTR de link de 23–28% e CPC de ~R$ 0,10 não é padrão de clique com intenção de compra: hipótese principal de **tráfego de baixa qualidade** (posicionamento como Audience Network, clique acidental ou criativo que gera clique curioso). A confirmar com o detalhamento por posicionamento e com as LPV. Onde o clique custou R$ 1,50–3,50 (Enem 12, 13, 08), de 12,5% a 33% dos cliques viraram IC.
 - **Conclusão (confiança média):** o "muito clique e pouca finalização" está concentrado nas campanhas de clique barato. Não é evidência forte de que a LP seja o principal problema.
 - **Vira regra?** Ainda não. Hipótese para testar: "campanhas com CTR de link acima de ~15% e CPC abaixo de R$ 0,20 não geram IC nesta oferta".
-- **Pendências:** detalhamento por posicionamento, LPV, campanhas 14–23 (fora do print), evento de otimização usado.
+- **Configuração confirmada (export de edição, 2026-10-21):**
+  - Objetivo Vendas, otimização para PURCHASE e lance de maior volume.
+  - Público aberto Brasil 18–65 com Advantage+ Audience.
+  - **Posicionamentos automáticos** (todos, incluindo Audience Network).
+  - Atribuição 7d clique + 1d visualização + 1d engaged-view.
+  - UTMs completas, com utm_term={{placement}}.
+  - 13 anúncios com título "Últimas unidades!" (escassez falsa para produto digital = risco de compliance).
+- **Pendências:** export de desempenho por anúncio e por posicionamento; utm_term das 6 vendas na Cakto.
 
 ## Mudanças antes do Teste 2 (informadas pelo dono em 2026-10-21)
 - Nova LP, modelada numa estrutura validada.
