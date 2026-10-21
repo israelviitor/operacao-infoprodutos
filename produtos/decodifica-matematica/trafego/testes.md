@@ -33,6 +33,38 @@
   - 13 anúncios com título "Últimas unidades!" (escassez falsa para produto digital = risco de compliance).
 - **Pendências:** export de desempenho por anúncio e por posicionamento; utm_term das 6 vendas na Cakto.
 
+### Leitura completa do Teste 1 (exports por anúncio e por posicionamento, 2026-10-21)
+Dados em `dados/teste1-por-anuncio.csv` e `dados/teste1-por-posicionamento.csv`.
+
+| Recorte | Gasto | Impressões | Cliques link | LPV | Compras |
+|---|---|---|---|---|---|
+| Audience Network | R$ 23,95 (6%) | 4.298 | **785 (90%)** | 390 | **0** |
+| Facebook + Instagram | R$ 391,35 | 3.466 | 85 | 80 | **6** |
+
+- **FB+IG:** CPM **R$ 113** · CTR link 2,45% · CPC link R$ 4,60 · connect rate **94%** · LPV→compra **7,5%** · LPV→IC ~29% · IC→compra 26%.
+- Compras: Instagram Feed 3, Instagram Reels 1, Instagram Stories 1, Facebook Feed 1.
+- **Elo quebrado: CPM** (R$ 113 contra a referência de mercado BR de ~R$ 18–32 [PRATICANTE: Trafius]). Página e checkout converteram bem com o tráfego de FB/IG.
+- Simulação: mesmo CTR e conversão com CPM de R$ 30 → CPC ≈ R$ 1,22 → CPA ≈ R$ 17.
+- Audience Network: 390 LPV sem venda; com a taxa de 7,5% de FB/IG, o esperado seriam ~29 vendas. Tráfego sem intenção de compra. Custou pouco (R$ 24), mas distorceu a leitura ("muito clique, pouca finalização").
+- Amostra pequena (3,5 mil impressões em FB/IG): confiança baixa no CPM exato.
+
+**Por criativo (só FB+IG):**
+
+| Criativo | Gasto | CPM | CTR | Vendas |
+|---|---|---|---|---|
+| vídeo 02 | 67 | 163 | 2,2% | 2 |
+| vídeo 08 | 35 | 182 | 3,1% | 2 |
+| imagem 02 | 42 | 63 | 1,8% | 1 |
+| imagem 06 | 6,50 | 64 | 5,9% | 1 |
+| imagem 04 | 33 | 71 | 3,5% | 0 |
+| vídeo 04 | 17 | 60 | 3,1% | 0 |
+| imagem 03 | 42 | 152 | 2,9% | 0 |
+| vídeo 07 | 33 | 146 | 1,3% | 0 |
+
+Os demais criativos gastaram menos de 1x o CPA alvo.
+
+**Proposta de regra (aguardando ok do dono):** excluir a Audience Network nas campanhas de vendas do Decodifica.
+
 ## Mudanças antes do Teste 2 (informadas pelo dono em 2026-10-21)
 - Nova LP, modelada numa estrutura validada.
 - Order bumps: 1 de R$ 19,90 e 3 de R$ 12,90.
