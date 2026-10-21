@@ -102,3 +102,10 @@ Os demais criativos gastaram menos de 1x o CPA alvo.
 - vídeo 09: R$ 18,97, ~171 impressões, 1 clique → CTR link ~0,6% → **pausado pela trava de corte precoce** (R$ 15 e CTR link < 1%).
 - Demais anúncios abaixo de R$ 15 (vídeo 14 R$ 11,90; vídeo 12 R$ 10,72; imagem 01 R$ 9,72; vídeo 15 R$ 8,62; vídeo 11 R$ 4,86; vídeos 05/10/13 ≈ R$ 0) → sub-testados, manter.
 - Observação: CPM continua alto (R$ 124) mesmo sem Audience Network.
+
+### Teste 2 — acompanhamento 22/10 (manhã, print do dono)
+- Total R$ 36,14 · CPM R$ 87 (antes R$ 113) · 8 cliques no link · 3 IC · 0 vendas.
+- vídeo 04: R$ 29,61 · 6 cliques · 1 IC · CPM R$ 100 → o CBO concentrou a verba nele. Perto da trava de R$ 35 sem venda.
+- vídeo 02: R$ 5,23 · 2 cliques · 2 IC · CPM R$ 51.
+- vídeo 08: R$ 1,25 · imagens 02/04/06: R$ 0 → sem entrega ainda.
+- Decisão: nenhum anúncio passou da trava → manter todos.
