@@ -96,3 +96,9 @@ Os demais criativos gastaram menos de 1x o CPA alvo.
 - **Sub-testados para uma próxima rodada:** vídeo 01, vídeo 03, vídeo 06, imagem 05.
 - **Pausados por regra:** imagem 03, vídeo 07 (gastaram mais de 2,3x o CPA alvo sem venda).
 - **Confirmado pelo dono (2026-10-21):** os 9 criativos são conceitos completamente diferentes entre si. Testes 2 e 3 começam juntos às 00h00 de 2026-10-22.
+
+### Teste 3 — acompanhamento 22/10 (manhã, print do dono)
+- Total R$ 65,50 · CPM R$ 124 · 5 cliques no link · 0 IC · 0 vendas.
+- vídeo 09: R$ 18,97, ~171 impressões, 1 clique → CTR link ~0,6% → **pausado pela trava de corte precoce** (R$ 15 e CTR link < 1%).
+- Demais anúncios abaixo de R$ 15 (vídeo 14 R$ 11,90; vídeo 12 R$ 10,72; imagem 01 R$ 9,72; vídeo 15 R$ 8,62; vídeo 11 R$ 4,86; vídeos 05/10/13 ≈ R$ 0) → sub-testados, manter.
+- Observação: CPM continua alto (R$ 124) mesmo sem Audience Network.
