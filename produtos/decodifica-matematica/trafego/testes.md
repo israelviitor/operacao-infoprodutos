@@ -1,13 +1,31 @@
 # Diário de testes de tráfego — Decodifica Matemática
 
-## Teste 1 — até 2026-10-20 (período exato a confirmar)
-- **Pergunta:** (não definida — primeiro teste de validação da oferta)
-- **Estrutura:** CBO 1-1-10 (1 campanha, 1 conjunto, criativos múltiplos — ~23 criativos entre vídeos e imagens). Orçamento definido pelo Facebook.
-- **Gasto total / vendas / receita:** R$ 460 / ~6 vendas / R$ 100 (bruto ou líquido a confirmar). CPA ≈ R$ 66–77. Ticket médio ≈ R$ 16. CPA alvo (empate) ≈ R$ 15.
-- **Por criativo:**
-  - Venderam: vídeo 2 (2), vídeo 8 (2), imagem 6 (1), imagem 2 (1).
-  - IC sem venda: vídeo 1 (gasto R$ 4,41), vídeo 4 (R$ 5,13), imagem 3 (gasto a confirmar) → **sub-testados**.
-  - Sem gasto: vídeos 5, 9, 10, 11, 12, 13, 14, 15 e imagem 1 → **não testados**.
-- **Conclusão (confiança baixa):** volume insuficiente para eleger vencedor (1–2 vendas por criativo). O CBO concentrou a verba em poucos criativos; 9 não foram testados. A oferta, nesse ticket, não fecha a conta: CPA ~4–5x acima do empate.
-- **Vira regra?** Não ainda. Hipótese para testar: "com ~20 criativos num único conjunto CBO, criativos novos ficam sem verba".
-- **Pendências:** CTR, CPC, connect rate e IC por criativo; taxa de aceite dos bumps; checklist de rastreamento (token CAPI, Purchase em Pix gerado).
+## Teste 1 — 16/10 a ~20/10/2026 (corrigido com print do Gerenciador em 2026-10-21)
+- **Pergunta:** validar se a oferta vende.
+- **Estrutura:** 23 campanhas. 21 "Triplo 1" (CBO 1-1-1: 1 campanha / 1 conjunto / 1 criativo, R$ 25/dia cada) + 2 campanhas CBO 1-1-10 (Enem 12 e Enem 13, R$ 100/dia). Objetivo/evento e posicionamentos a confirmar.
+- **Total:** gasto R$ 415,30 · 870 cliques no link · 23 IC · 6 compras (Gerenciador) · CPA R$ 69,22 · CPM R$ 53,49. Receita ~R$ 100. Ticket médio ~R$ 16. CPA alvo ~R$ 15.
+- **Por campanha (visíveis no print: 12 de 23):**
+
+| Campanha | Gasto | CPM | Impressões (calc.) | Cliques link | CTR link (calc.) | IC | Compras |
+|---|---|---|---|---|---|---|---|
+| Enem 12 (1-1-10) | 157,58 | 94,36 | ~1.670 | 102 | ~6,1% | 15 | 3 |
+| Enem 13 (1-1-10) | 53,28 | 82,99 | ~642 | 24 | ~3,7% | 3 | 1 |
+| Enem 08 | 35,53 | 175,02 | ~203 | 9 | ~4,4% | 3 | 2 |
+| Enem 06 | 15,19 | 25,44 | ~597 | 165 | **~27,6%** | 0 | 0 |
+| Enem 07 | 16,78 | 28,73 | ~584 | 146 | **~25,0%** | 0 | 0 |
+| Enem 04 | 15,45 | 25,41 | ~608 | 139 | **~22,9%** | 2 | 0 |
+| Enem 03 | 15,63 | 34,89 | ~448 | 112 | **~25,0%** | 0 | 0 |
+| Enem 11 | 16,70 | 11,44 | ~1.460 | 81 | ~5,5% | 0 | 0 |
+| Enem 10 | 18,96 | 21,35 | ~888 | 55 | ~6,2% | 0 | 0 |
+| Enem 09 | 17,62 | 114,42 | ~154 | 3 | ~1,9% | 0 | 0 |
+| Enem 05 | 19,51 | 148,93 | ~131 | 7 | ~5,3% | 0 | 0 |
+| Enem 02 | 17,04 | 128,12 | ~133 | 4 | ~3,0% | 0 | 0 |
+
+- **Leitura:** Enem 03, 04, 06, 07, 10 e 11 gastaram ~R$ 99 (24% da verba) e trouxeram 698 dos 870 cliques (80%), com só 2 IC. CTR de link de 23–28% e CPC de ~R$ 0,10 não é padrão de clique com intenção de compra: hipótese principal de **tráfego de baixa qualidade** (posicionamento como Audience Network, clique acidental ou criativo que gera clique curioso). A confirmar com o detalhamento por posicionamento e com as LPV. Onde o clique custou R$ 1,50–3,50 (Enem 12, 13, 08), de 12,5% a 33% dos cliques viraram IC.
+- **Conclusão (confiança média):** o "muito clique e pouca finalização" está concentrado nas campanhas de clique barato. Não é evidência forte de que a LP seja o principal problema.
+- **Vira regra?** Ainda não. Hipótese para testar: "campanhas com CTR de link acima de ~15% e CPC abaixo de R$ 0,20 não geram IC nesta oferta".
+- **Pendências:** detalhamento por posicionamento, LPV, campanhas 14–23 (fora do print), evento de otimização usado.
+
+## Mudanças antes do Teste 2 (informadas pelo dono em 2026-10-21)
+- Nova LP, modelada numa estrutura validada.
+- Order bumps: 1 de R$ 19,90 e 3 de R$ 12,90.
