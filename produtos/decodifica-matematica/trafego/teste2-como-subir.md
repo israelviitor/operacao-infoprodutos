@@ -15,6 +15,7 @@
 - Local da conversão: **Site** · Pixel · Evento: **Compra**
 - Público: Brasil · 18–65 · Advantage+ Audience ligado (sem interesses)
 - Posicionamentos: **manuais** → marcar só **Facebook** e **Instagram** (desmarcar Audience Network, Messenger, Threads e WhatsApp)
+- **Desmarcar "Permitir gasto limitado em posicionamentos excluídos"** (senão ~5% do orçamento por posicionamento excluído volta para eles)
 - Atribuição: padrão. Decisões pela Cakto.
 
 ## 3. Anúncios (6)
