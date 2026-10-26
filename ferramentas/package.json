@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "description": "Ferramentas de mineração e auditoria da operação",
+  "dependencies": {
+    "playwright": "1.48.2"
+  }
+}
