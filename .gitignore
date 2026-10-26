@@ -1,1 +1,3 @@
 node_modules
+# brutos da mineração em andamento: commit ao final do lote
+produtos/_mineracao/2026-10-26/bruto/*.json
