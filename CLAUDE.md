@@ -34,3 +34,9 @@ Nunca registre como regra algo que foi só uma preferência pontual daquele trab
 
 ## Persistência
 Este ambiente é temporário. Ao fim de cada sessão de trabalho, faça commit e push das mudanças (regras, dossiês, entregas) para o repositório.
+
+## Uma sessão por área
+O dono trabalha com uma sessão do Claude Code por área (Central, Mineração, Tráfego, Análise, Copy, Edição), todas neste repositório e na branch `main`.
+- **Ao começar cada pedido:** `git pull origin main` para pegar regras e diários atualizados por outras sessões.
+- **Ao terminar cada entrega:** commit e push na `main` (se o push for recusado por mudança remota, faça `git pull --rebase origin main` e tente de novo).
+- Se o pedido for de outra área, faça mesmo assim (as skills estão todas disponíveis), mas avise em uma linha qual sessão é a "casa" daquele assunto.
