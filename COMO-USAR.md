@@ -28,5 +28,5 @@ Você também pode só falar normalmente ("faz 5 criativos pro produto X") — o
 Copy de VSL · Páginas · Entregáveis · Estruturação na Cakto · Compliance dedicado.
 
 ## Ferramentas de mineração (sessão nova)
-Na primeira mineração de uma sessão nova, o time instala a dependência das ferramentas com:
+A dependência das ferramentas é instalada automaticamente no início de cada sessão (hook em `.claude/settings.json`). Se precisar instalar na mão:
 `cd ferramentas && PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 npm install`
