@@ -1,4 +1,4 @@
-# Ofertas aprovadas — mineração 2026-10-26 (parcial: 11 de 13 páginas recontadas)
+# Ofertas aprovadas — mineração 2026-10-26 (13 de 13 páginas recontadas; buscas de educação/outros nichos em andamento)
 
 Critérios: regras/mineracao.md. Contagem por oferta na página do anunciante (mínimo — a Biblioteca mostra 30 anúncios por página).
 
@@ -16,7 +16,7 @@ Critérios: regras/mineracao.md. Contagem por oferta na página do anunciante (m
 | 10 | "Avaliação gratuita do Paizão" — fitness feminino, quiz + VSL ("Carlão Silva") — expert possivelmente real | não verificado | 48 | 29 | https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=183878161475545 | https://www.facebook.com/ads/library/?id=1929959671720216 | https://avaliacaogratuitapaizao.com.br/ | não verificado |
 
 ## Observações
-- **Reprovadas nesta rodada:** Tai Chi na Cadeira ("Rose Wells", 25 anúncios) — assinatura recorrente via Stripe (R$ 44,75 a 124,95 por ciclo), fora do low ticket de pagamento único; Projeto Emagrecendo (52 dias); Chefe Helena (46 dias); Ketty Sato (ofertas novas com 0 dias e antigas com 60).
+- **Reprovadas nesta rodada:** Tai Chi na Cadeira ("Rose Wells", 25 anúncios) — assinatura recorrente via Stripe (R$ 44,75 a 124,95 por ciclo), fora do low ticket de pagamento único; Projeto Emagrecendo (52 dias); Chefe Helena (46 dias); Ketty Sato (ofertas novas com 0 dias e antigas com 60); Milena Confeiteira (+500 receitas para diabéticos, 68 dias); Irmãs a Cozinha (bolos sem açúcar, só 5 anúncios).
 - **Preço/checkout "não verificado":** os funis de quiz exigem clicar até a oferta; a automação que clica em botões de compra foi bloqueada por segurança nesta sessão.
 - **Revita Mulher** ("Receitas Deliciosas", 314 anúncios ativos): esteira de renda extra culinária — um subdomínio por receita (pão recheado, geleia, rolinho, pão de queijo, cápsulas), mesmo preço (R$ 27,90), mesmo checkout (Atomify) com bumps de R$ 9,90/12,90. É modelagem horizontal em escala dentro do próprio nicho.
 - **"Maria Alice"** usa domínios sem relação com o produto (partiturasax.shop para licores; cifrasliturgicas.shop para churrasqueiras): sinal de reaproveitamento de domínios — risco se modelar o mesmo comportamento. A de churrasqueiras é exatamente a modelagem horizontal "serralheria → marcenaria" do exemplo do dono.
