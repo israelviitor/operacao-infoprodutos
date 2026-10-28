@@ -18,7 +18,7 @@ Copy de Oferta + Estrutura (em paralelo). Decisões de nome, preço e quantidade
 - [2026-10-28] Ordem de montagem (regra geral): página + Cakto → criativos → anúncios agendados → lote 1 produzido antes do horário de início.
 - [2026-10-28] Nome do mecanismo: **"Problema com Enredo"**.
 - [2026-10-28] **Kit de Ambientação** (crachá de agente, ficha do grupo, certificado) **entra no lote 1** como bônus. Estrutura produz.
-- _Pendente: bônus "Grande Missão Final" (Copy recomenda deixar fora do lote 1)._
+- [2026-10-28] **"Grande Missão Final" fica fora do lote 1 e da página**; entra depois como **order bump** (preço a definir), só quando produzida.
 
 ## Status por área
 | Área | Status | Entrega (arquivo) | Atualizado |
@@ -51,6 +51,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 4. **Estrutura:** produzir o lote 1 (30 missões) no intervalo, com a entrega testada **antes** do horário de início. Se não der tempo, adiar o início.
 
 ## Histórico (mais recente em cima)
+- [2026-10-28] Copy de Oferta: dono decidiu que a Grande Missão Final entra depois como bump.
 - [2026-10-28] Estrutura: 3 missões-amostra (3º Horta, 4º R$ 50, 5º Cápsula), 17 págs. cada, gabarito conferido por script, 2 passadas do comitê → `estrutura/entregavel/amostras/`. Aguardando o dono aprovar o modelo.
 - [2026-10-28] Copy de Oferta: dono aprovou o mecanismo "Problema com Enredo" e o Kit de Ambientação no lote 1; marcações tiradas da página.
 - [2026-10-28] Dono: nova ordem de montagem — página e criativos antes do entregável; anúncios agendados; produto pronto antes da veiculação.

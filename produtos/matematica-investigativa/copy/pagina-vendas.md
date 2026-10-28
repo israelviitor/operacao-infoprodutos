@@ -119,5 +119,5 @@
 - [ ] Duração e tamanho do grupo (bloco 5 e FAQ).
 - [ ] Entrega da Cakto (e-mail ou área de membros) e caminho de reembolso.
 - [ ] Termos de uso (licença de impressão), política de privacidade, responsável e e-mail.
-- [ ] O bônus "Grande Missão Final" **não entra** até o dono confirmar.
+- [x] "Grande Missão Final": **não entra na página** (decisão do dono: vira order bump depois, quando produzida).
 - [ ] Os bumps (Missões Relâmpago R$ 9,90; Revisão de Fim de Ano 5º ano R$ 14,90) ficam só no checkout, sempre desmarcados.
