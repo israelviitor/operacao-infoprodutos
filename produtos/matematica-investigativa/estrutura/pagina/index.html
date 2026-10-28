@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Matemática em Missão — 3º, 4º e 5º ano</title>
+<meta name="description" content="Missões de mistério para imprimir: a turma só avança se ler o problema e escolher a conta. 30 missões, 3 níveis, P&B.">
+<meta name="robots" content="noindex">
+<meta property="og:title" content="Matemática em Missão — 3º, 4º e 5º ano">
+<meta property="og:description" content="Missões de mistério para imprimir: a turma só avança se ler o problema e escolher a conta.">
+<meta property="og:image" content="img/kit.webp">
+<link rel="preload" as="image" href="img/kit.webp">
+<style>
+:root { --azul: #1f2a5a; --verde: #12873f; --verde-esc: #0d6b31; --creme: #fbf7ee; --cinza: #5b6170; --borda: #e4dccb; }
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; font-size: 17px; line-height: 1.55; color: #1b1e27; background: #fff; }
+img { max-width: 100%; height: auto; display: block; }
+.faixa { background: var(--azul); color: #fff; text-align: center; font-size: 14px; font-weight: 700; padding: 8px 16px; letter-spacing: .02em; }
+.wrap { max-width: 560px; margin: 0 auto; padding: 0 18px; }
+section { padding: 34px 0; }
+section + section { border-top: 1px solid var(--borda); }
+.creme { background: var(--creme); }
+h1 { font-size: 27px; line-height: 1.2; margin: 20px 0 10px; color: var(--azul); letter-spacing: -.01em; }
+h2 { font-size: 24px; line-height: 1.25; margin: 0 0 14px; color: var(--azul); }
+h3 { font-size: 19px; margin: 22px 0 10px; color: var(--azul); }
+p { margin: 0 0 14px; }
+.sub { font-size: 18px; margin-bottom: 14px; }
+.resumo { text-align: center; font-weight: 700; font-size: 15px; margin: 14px 0 10px; }
+.btn { display: block; width: 100%; min-height: 56px; padding: 15px 18px; margin: 14px 0 6px; border: 0; border-radius: 10px; background: var(--verde); color: #fff; font-size: 18px; font-weight: 800; text-align: center; text-decoration: none; line-height: 1.3; box-shadow: 0 4px 0 var(--verde-esc); }
+.btn:active { transform: translateY(2px); box-shadow: 0 2px 0 var(--verde-esc); }
+.seguro { text-align: center; font-size: 13px; color: var(--cinza); margin: 0; }
+.figura { margin: 6px -18px 0; }
+.legenda { font-size: 15px; color: var(--cinza); margin: 10px 0 22px; }
+.balao { position: relative; background: #fff; border: 2px solid var(--azul); border-radius: 18px; padding: 14px 18px; font-size: 21px; font-weight: 800; color: var(--azul); margin: 6px 0 22px; }
+.balao::after { content: ""; position: absolute; left: 34px; bottom: -14px; border: 12px solid transparent; border-top-color: var(--azul); border-bottom: 0; }
+.fonte { font-size: 13px; color: var(--cinza); }
+.passos { list-style: none; padding: 0; margin: 4px 0 14px; display: grid; gap: 10px; }
+.passos li { display: flex; gap: 12px; align-items: flex-start; background: #fff; border: 1px solid var(--borda); border-radius: 10px; padding: 12px; }
+.passos .n { flex: none; width: 34px; height: 34px; border-radius: 50%; background: var(--azul); color: #fff; font-weight: 800; display: flex; align-items: center; justify-content: center; }
+.lista { list-style: none; padding: 0; margin: 0 0 14px; }
+.lista li { padding: 9px 0 9px 32px; position: relative; border-bottom: 1px dashed var(--borda); }
+.lista li::before { content: "✔"; position: absolute; left: 4px; top: 9px; color: var(--verde); font-weight: 900; }
+.formato { background: #fff; border-left: 4px solid var(--azul); padding: 10px 14px; border-radius: 0 8px 8px 0; font-size: 16px; }
+.bonus { border: 2px dashed var(--azul); border-radius: 12px; padding: 14px; margin-top: 16px; background: #fff; }
+.colunas { display: grid; gap: 12px; }
+.col { border-radius: 12px; padding: 14px 16px; }
+.col h3 { margin-top: 0; }
+.col ul { list-style: none; margin: 0; padding: 0; }
+.col li { padding: 6px 0 6px 26px; position: relative; }
+.col.sim { background: #e9f6ee; border: 1px solid #b9e2c7; }
+.col.sim li::before { content: "✔"; position: absolute; left: 0; color: var(--verde); font-weight: 900; }
+.col.nao { background: #f1f1f3; border: 1px solid #dcdce2; }
+.col.nao li::before { content: "✖"; position: absolute; left: 0; color: #7a7f8c; font-weight: 900; }
+.prova { background: #fff; border: 1px solid var(--borda); border-radius: 10px; padding: 14px; margin-bottom: 12px; }
+.prova .fonte { display: block; margin-top: 6px; }
+.oferta { background: #fff; border: 2px solid var(--azul); border-radius: 14px; padding: 18px; text-align: center; }
+.oferta .mini { width: 70%; margin: 0 auto 12px; }
+.oferta .itens { font-weight: 700; font-size: 15px; margin-bottom: 10px; }
+.preco { font-size: 44px; font-weight: 900; color: var(--azul); line-height: 1.1; }
+.preco small { display: block; font-size: 15px; font-weight: 600; color: var(--cinza); }
+.compara { font-weight: 700; margin: 10px 0 0; }
+.selos { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin: 12px 0; }
+.selo { border: 1px solid var(--borda); border-radius: 999px; padding: 6px 12px; font-size: 14px; font-weight: 700; color: var(--azul); background: var(--creme); }
+.garantia { display: flex; gap: 14px; align-items: flex-start; background: var(--creme); border-radius: 12px; padding: 14px; margin-top: 14px; text-align: left; }
+.garantia .icone { flex: none; width: 58px; height: 58px; border-radius: 50%; border: 3px solid var(--azul); color: var(--azul); display: flex; flex-direction: column; align-items: center; justify-content: center; font-weight: 900; line-height: 1; }
+.garantia .icone span { font-size: 22px; }
+.garantia .icone small { font-size: 10px; }
+details { border: 1px solid var(--borda); border-radius: 10px; margin-bottom: 10px; background: #fff; }
+summary { cursor: pointer; padding: 14px 40px 14px 14px; font-weight: 700; list-style: none; position: relative; min-height: 48px; }
+summary::-webkit-details-marker { display: none; }
+summary::after { content: "+"; position: absolute; right: 16px; top: 10px; font-size: 22px; color: var(--azul); }
+details[open] summary::after { content: "–"; }
+details p { padding: 0 14px 4px; }
+.fecho { text-align: center; }
+.fecho p { font-size: 20px; font-weight: 800; color: var(--azul); }
+.fecho img { width: 80%; margin: 0 auto; }
+footer { background: var(--azul); color: #d9ddeb; font-size: 13px; padding: 24px 0 90px; text-align: center; }
+footer a { color: #fff; }
+footer p { margin: 0 0 8px; }
+</style>
+</head>
+<body>
+
+<div class="faixa">Para professoras do 3º, 4º e 5º ano</div>
+
+<!-- 1. Primeira dobra -->
+<section style="padding-top:4px">
+  <div class="wrap">
+    <h1>Seu aluno sabe fazer a conta, mas trava quando o problema não diz qual é?</h1>
+    <p class="sub">Missões de mistério para imprimir: a turma só avança se ler o problema e escolher a conta.</p>
+    <div class="figura"><img src="img/kit.webp" width="900" height="700" alt="As missões do 3º, 4º e 5º ano impressas em preto e branco" fetchpriority="high"></div>
+    <p class="resumo">30 missões · 3º, 4º e 5º ano · 3 níveis · P&amp;B · <span style="white-space:nowrap">R$ 17,90</span></p>
+    <a class="btn checkout" href="#oferta">Quero as missões da minha turma</a>
+  </div>
+</section>
+
+<!-- 2. Identificação com a dor -->
+<section class="creme">
+  <div class="wrap">
+    <h2>Você já ouviu isso hoje?</h2>
+    <div class="balao">"Professora, é de mais ou de vezes?"</div>
+    <p>A turma faz a conta quando você diz qual é. Mas é só o problema vir em texto que vem essa pergunta.</p>
+    <p>Você passa lista, repete a tabuada, faz revisão. E na avaliação o problema vem escrito, e eles travam do mesmo jeito.</p>
+    <p>E ainda tem que achar atividade diferente toda semana, que caiba na cota de xerox ou na tinta que muitas vezes sai do bolso da professora.</p>
+  </div>
+</section>
+
+<!-- 3. Virada (mecanismo) -->
+<section>
+  <div class="wrap">
+    <h2>Não é você. É a lista de continhas.</h2>
+    <p>Quase todo material entrega a conta pronta ("resolva 34 + 18"). O aluno aprende a calcular, mas nunca precisa decidir <strong>qual</strong> conta resolver.</p>
+    <p class="fonte">Pesquisas da UFPA e da UFRGS apontam: a dificuldade está em interpretar o problema e escolher a operação.</p>
+    <h3>Por isso criamos o <strong>Problema com Enredo</strong></h3>
+    <ol class="passos">
+      <li><span class="n">1</span><span><strong>Ler:</strong> a turma acha os dados na cena da história.</span></li>
+      <li><span class="n">2</span><span><strong>Decidir:</strong> escolhe qual conta resolve.</span></li>
+      <li><span class="n">3</span><span><strong>Resolver:</strong> faz a conta.</span></li>
+      <li><span class="n">4</span><span><strong>Conferir:</strong> vê se a resposta faz sentido no caso.</span></li>
+    </ol>
+    <p>Só a resposta certa abre a próxima etapa.</p>
+    <a class="btn checkout" href="#oferta">Quero as missões da minha turma</a>
+  </div>
+</section>
+
+<!-- 4. Demonstração -->
+<section class="creme">
+  <div class="wrap">
+    <h2>Veja uma missão por dentro</h2>
+    <div class="figura"><img src="img/etapa.webp" width="900" height="1180" alt="Etapa 1 da missão do 4º ano" loading="lazy"></div>
+    <p class="legenda">Repare: a folha não diz se é de mais ou de menos. Quem decide é a turma.</p>
+    <div class="figura"><img src="img/niveis.webp" width="900" height="1267" alt="A mesma etapa nos níveis 1, 2 e 3" loading="lazy"></div>
+    <p class="legenda">O mesmo mistério em 3 níveis. A turma toda resolve o mesmo caso, cada um no seu ritmo.</p>
+    <div class="figura"><img src="img/professora.webp" width="900" height="760" alt="Roteiro de 2 minutos e gabarito comentado" loading="lazy"></div>
+    <p class="legenda">Gabarito comentado e roteiro de 2 minutos: você lê antes de entrar na sala e aplica.</p>
+  </div>
+</section>
+
+<!-- 5. O que você recebe -->
+<section>
+  <div class="wrap">
+    <h2>O que você recebe</h2>
+    <ul class="lista">
+      <li><strong>30 missões de mistério</strong>, 10 para cada série (3º, 4º e 5º ano)</li>
+      <li><strong>3 níveis de dificuldade</strong> em cada missão, para turma heterogênea</li>
+      <li>Problemas além das 4 operações: frações, dinheiro e troco, medidas e tempo, tabelas e gráficos</li>
+      <li><strong>Índice por série e por habilidade da BNCC</strong>, para achar a missão do conteúdo da semana</li>
+      <li><strong>Gabarito comentado</strong> e <strong>roteiro de aplicação de 2 minutos</strong> em cada missão</li>
+      <li><strong>Preto e branco, pouca tinta.</strong> Imprime na impressora de casa ou na xerox da escola</li>
+      <li>Missões de 30 a 50 minutos, em grupos de 3 a 5 alunos ou individual</li>
+    </ul>
+    <p class="formato">Tudo em PDF. Você recebe o acesso no e-mail assim que o pagamento é aprovado e pode imprimir para as suas turmas sempre que precisar.</p>
+    <div class="bonus">
+      <p><strong>Bônus: Kit de Ambientação.</strong> Crachá de agente, ficha de registro do grupo e certificado de missão cumprida para imprimir.</p>
+      <img src="img/bonus.webp" width="900" height="700" alt="Crachás de agente, ficha do grupo e certificado" loading="lazy">
+    </div>
+    <a class="btn checkout" href="#oferta">Quero as 30 missões por R$ 17,90</a>
+  </div>
+</section>
+
+<!-- 6. Para quem é / não é -->
+<section class="creme">
+  <div class="wrap colunas">
+    <div class="col sim">
+      <h3>É para você se</h3>
+      <ul>
+        <li>Dá aula de matemática no 3º, 4º ou 5º ano.</li>
+        <li>Sua turma faz a conta mas trava no problema escrito.</li>
+        <li>Quer uma aula diferente sem passar o fim de semana preparando.</li>
+        <li>Tem turma com níveis bem diferentes.</li>
+      </ul>
+    </div>
+    <div class="col nao">
+      <h3>Não é para você se</h3>
+      <ul>
+        <li>Procura material colorido para enfeitar a sala.</li>
+        <li>Dá aula só no 1º e 2º ano ou do 6º em diante.</li>
+        <li>Quer lista de continha para fixação.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- 7. Prova -->
+<section>
+  <div class="wrap">
+    <h2>Por que ensinar com problema e história</h2>
+    <div class="prova">A BNCC coloca a investigação e a resolução de problemas como "formas privilegiadas da atividade matemática".<span class="fonte">Fonte: BNCC, p. 266</span></div>
+    <div class="prova">Uma pesquisa da USP numa escola municipal de São Paulo viu que a história deixa a turma dos anos iniciais mais envolvida com a matemática.<span class="fonte">Fonte: tese USP, 2023</span></div>
+  </div>
+</section>
+
+<!-- 8. Oferta, preço e garantia -->
+<section class="creme" id="oferta">
+  <div class="wrap">
+    <div class="oferta">
+      <h2>Tudo isso por</h2>
+      <img class="mini" src="img/kit.webp" width="900" height="700" alt="" loading="lazy">
+      <div class="itens">30 missões · 3 séries · 3 níveis · gabarito comentado · roteiro de 2 min · Kit de Ambientação</div>
+      <div class="preco">R$ 17,90<small>pagamento único</small></div>
+      <p class="compara">Menos de R$ 0,60 por missão pronta.</p>
+      <a class="btn checkout" href="#oferta">Quero as missões da minha turma</a>
+      <div class="selos"><span class="selo">🔒 Pagamento seguro</span><span class="selo">✔ Garantia de 7 dias</span></div>
+      <div class="garantia">
+        <div class="icone"><span>7</span><small>DIAS</small></div>
+        <p style="margin:0"><strong>Garantia de 7 dias.</strong> Você tem 7 dias, contados da compra, para pedir o reembolso por qualquer motivo. É só escrever para <span class="email">[E-MAIL]</span> e devolvemos 100% do valor.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 9. FAQ -->
+<section>
+  <div class="wrap">
+    <h2>Perguntas frequentes</h2>
+    <details><summary>Serve para a minha série?</summary><p>Serve para 3º, 4º e 5º ano. Cada série tem as suas 10 missões, e cada missão tem 3 níveis.</p></details>
+    <details><summary>Como eu recebo?</summary><p>Assim que o pagamento é aprovado, você recebe o acesso no e-mail. É PDF: baixa e imprime.</p></details>
+    <details><summary>Precisa imprimir colorido?</summary><p>Não. Tudo é em preto e branco, pensado para gastar pouca tinta e caber na xerox da escola.</p></details>
+    <details><summary>Tem muita coisa de graça na internet. Por que pagar?</summary><p>Porque aqui está pronto, separado por série e por habilidade, em 3 níveis, com gabarito comentado. Você não perde a noite garimpando folha solta.</p></details>
+    <details><summary>Quanto tempo leva para aplicar?</summary><p>Cada missão dura de 30 a 50 minutos. O roteiro de 2 minutos explica como conduzir.</p></details>
+    <details><summary>E se eu não gostar?</summary><p>Em até 7 dias da compra, por qualquer motivo, você pede o reembolso por e-mail e recebe 100% de volta.</p></details>
+  </div>
+</section>
+
+<!-- 10. CTA final -->
+<section class="creme fecho">
+  <div class="wrap">
+    <p>Na próxima aula de problemas, deixe a turma descobrir qual é a conta.</p>
+    <img src="img/kit.webp" width="900" height="700" alt="" loading="lazy">
+    <a class="btn checkout" href="#oferta">Quero as missões da minha turma</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><strong>Matemática em Missão</strong> · <span class="responsavel">[RESPONSÁVEL e CNPJ/CPF]</span> · <span class="email">[E-MAIL]</span></p>
+    <p><a href="termos.html">Termos de uso</a> · <a href="privacidade.html">Política de privacidade</a></p>
+    <p>Material independente, sem vínculo com o MEC ou o Inep.</p>
+  </div>
+</footer>
+
+<script>
+// ===== CONFIGURAÇÃO (preencher antes de publicar) =====
+var CONFIG = {
+  checkout: '',  // link do checkout da Cakto do produto principal (ex.: https://pay.cakto.com.br/xxxxx)
+  pixel: ''      // ID do Pixel do Meta (só números)
+};
+
+// Repasse de UTMs: utm_*, src, sck e fbclid da URL da página vão para todos os botões do checkout.
+(function () {
+  var botoes = document.querySelectorAll('a.checkout');
+  if (!CONFIG.checkout) return; // sem link, os botões levam à oferta na própria página
+  var aqui = new URLSearchParams(location.search);
+  botoes.forEach(function (a) {
+    var url = new URL(CONFIG.checkout);
+    aqui.forEach(function (v, k) {
+      if (/^utm_/.test(k) || k === 'src' || k === 'sck' || k === 'fbclid') url.searchParams.set(k, v);
+    });
+    a.href = url.toString();
+  });
+})();
+
+// Pixel do Meta: PageView ao abrir e ViewContent quando a oferta aparece na tela.
+if (CONFIG.pixel) {
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', CONFIG.pixel);
+  fbq('track', 'PageView');
+  var oferta = document.getElementById('oferta'), visto = false;
+  if ('IntersectionObserver' in window) new IntersectionObserver(function (es) {
+    if (!visto && es[0].isIntersecting) { visto = true; fbq('track', 'ViewContent', { content_name: 'Matemática em Missão', value: 17.90, currency: 'BRL' }); }
+  }).observe(oferta);
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Kit de Ambientação — Matemática em Missão</title>
+<style>
+@page { size: A4; margin: 12mm; }
+* { box-sizing: border-box; }
+body { font-family: Inter, 'DejaVu Sans', sans-serif; color: #000; margin: 0; font-size: 12pt; }
+.pagina { page-break-after: always; height: 272mm; position: relative; }
+.pagina:last-child { page-break-after: auto; }
+.topo { display: flex; justify-content: space-between; border-bottom: 1.5px solid #000; padding-bottom: 3px; font-size: 9.5pt; font-weight: 800; letter-spacing: .04em; }
+h1 { font-size: 20pt; margin: 8px 0 2px; }
+.dica { font-size: 10pt; margin: 0 0 8px; }
+/* crachás */
+.crachas { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border-top: 1px dashed #777; border-left: 1px dashed #777; }
+.cracha { border-right: 1px dashed #777; border-bottom: 1px dashed #777; height: 58mm; padding: 5mm; display: flex; flex-direction: column; position: relative; }
+.cracha .furo { position: absolute; top: 3mm; left: 50%; margin-left: -6mm; width: 12mm; height: 3mm; border: 1px solid #000; border-radius: 2mm; }
+.cracha .tit { text-align: center; font-weight: 900; letter-spacing: .25em; font-size: 13pt; margin-top: 3mm; }
+.cracha .sub { text-align: center; font-size: 8.5pt; letter-spacing: .12em; margin-bottom: 3mm; }
+.cracha .corpo { display: flex; gap: 4mm; flex: 1; }
+.cracha .foto { width: 22mm; border: 1.5px solid #000; border-radius: 2mm; display: flex; align-items: flex-end; justify-content: center; font-size: 7pt; padding-bottom: 1mm; }
+.cracha .campos { flex: 1; display: flex; flex-direction: column; justify-content: space-around; font-size: 9pt; font-weight: 700; }
+.cracha .campos span { display: block; border-bottom: 1px solid #000; height: 6mm; }
+/* ficha */
+.funcoes { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 8px 0; }
+.funcao { border: 1.5px solid #000; border-radius: 6px; padding: 8px; }
+.funcao b { display: block; font-size: 12.5pt; }
+.funcao .q { font-size: 10pt; margin: 2px 0 8px; }
+.funcao span { display: block; border-bottom: 1px solid #000; height: 7mm; }
+table { width: 100%; border-collapse: collapse; margin-top: 6px; }
+th, td { border: 1px solid #000; padding: 4px 6px; font-size: 10.5pt; text-align: left; }
+td { height: 9.5mm; }
+.linha { display: inline-block; border-bottom: 1px solid #000; min-width: 70mm; height: 1.1em; }
+/* certificado */
+.cert { height: 128mm; border: 4px double #000; border-radius: 6mm; padding: 9mm 12mm; text-align: center; display: flex; flex-direction: column; justify-content: space-between; margin-bottom: 8mm; }
+.cert .selo { font-weight: 900; letter-spacing: .35em; font-size: 10pt; }
+.cert h2 { font-size: 24pt; margin: 2mm 0; letter-spacing: .04em; }
+.cert p { margin: 0; font-size: 12.5pt; }
+.cert .nome { border-bottom: 1.5px solid #000; height: 11mm; margin: 2mm 18mm; }
+.cert .assin { display: flex; justify-content: space-around; font-size: 9pt; }
+.cert .assin div { border-top: 1px solid #000; width: 60mm; padding-top: 2px; }
+.cert .missao { border-bottom: 1px solid #000; display: inline-block; min-width: 80mm; height: 1.1em; }
+</style></head><body>
+
+<section class="pagina">
+  <div class="topo"><span>MATEMÁTICA EM MISSÃO · KIT DE AMBIENTAÇÃO</span><span>Crachás de agente</span></div>
+  <h1>Crachás de agente</h1>
+  <p class="dica">Imprima, recorte na linha tracejada e fure no retângulo de cima para passar um barbante. Cada aluno desenha o próprio rosto ou o símbolo da equipe. Um crachá por aluno, para usar em todas as missões.</p>
+  <div class="crachas">
+    <!--CRACHAS-->
+  </div>
+</section>
+
+<section class="pagina">
+  <div class="topo"><span>MATEMÁTICA EM MISSÃO · KIT DE AMBIENTAÇÃO</span><span>Ficha de registro do grupo</span></div>
+  <h1>Ficha de registro do grupo</h1>
+  <p class="dica">Uma ficha por grupo, para o semestre todo. Em cada missão, as funções trocam de dono: assim todo mundo lê, calcula e confere.</p>
+  <p><b>Nome da equipe:</b> <span class="linha"></span> &nbsp; <b>Turma:</b> <span class="linha" style="min-width:30mm"></span></p>
+  <div class="funcoes">
+    <div class="funcao"><b>Leitor</b><div class="q">Lê a cena e o problema em voz alta. Pergunta: “Quais são os dados?”</div><span></span></div>
+    <div class="funcao"><b>Calculista</b><div class="q">Pergunta ao grupo: “Qual conta resolve?” e escreve a conta no espaço da equipe.</div><span></span></div>
+    <div class="funcao"><b>Conferente</b><div class="q">Refaz a conta de outro jeito e pergunta: “A resposta faz sentido no caso?”</div><span></span></div>
+    <div class="funcao"><b>Guardião das pistas</b><div class="q">Abre o cadeado, anota a pista na ficha final e risca quem saiu do caso.</div><span></span></div>
+  </div>
+  <table>
+    <thead><tr><th style="width:30mm">Data</th><th>Missão</th><th style="width:36mm">Nível</th><th style="width:34mm">Missão cumprida?</th></tr></thead>
+    <tbody><!--LINHAS--></tbody>
+  </table>
+</section>
+
+<section class="pagina">
+  <div class="topo"><span>MATEMÁTICA EM MISSÃO · KIT DE AMBIENTAÇÃO</span><span>Certificado (2 por folha)</span></div>
+  <!--CERTS-->
+</section>
+
+<script>
+const cracha = `<div class="cracha"><div class="furo"></div><div class="tit">AGENTE</div><div class="sub">MATEMÁTICA EM MISSÃO</div><div class="corpo"><div class="foto">desenhe aqui</div><div class="campos"><div>Nome<span></span></div><div>Equipe<span></span></div><div>Turma<span></span></div></div></div></div>`;
+document.querySelector('.crachas').innerHTML = cracha.repeat(8);
+document.querySelector('tbody').innerHTML = '<tr><td></td><td></td><td>☐ ★ ☐ ★★ ☐ ★★★</td><td>☐ sim ☐ quase</td></tr>'.repeat(10);
+const cert = `<div class="cert"><div class="selo">CERTIFICADO</div><h2>MISSÃO CUMPRIDA</h2><p>Certificamos que a equipe</p><div class="nome"></div><p>leu, decidiu, resolveu e conferiu cada pista<br>e solucionou a missão <span class="missao"></span></p><div class="assin"><div>professora</div><div>data</div></div></div>`;
+document.querySelectorAll('.pagina')[2].insertAdjacentHTML('beforeend', cert + cert);
+</script>
+</body></html>
