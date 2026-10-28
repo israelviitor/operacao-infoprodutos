@@ -30,7 +30,7 @@ Dispare `aluno-pesquisador` em paralelo para referências. Por exemplo:
 ## Passo 3 — Construção (com os especialistas)
 - **Mockups (para a página e os criativos, antes do produto):** capa + 2–3 páginas-modelo diagramadas, exportadas como PNG com `ferramentas/gerar-pdf.js --png`. Precisam representar fielmente o produto que será entregue.
 - **Entregável completo:** `especialistas/entregavel.md`. Pergunte ao dono o horário de início dos anúncios e planeje a produção para terminar antes, com folga para a compra teste.
-- **Página:** `especialistas/montagem-pagina.md`, usando o texto exato de `copy/pagina-vendas.md`.
+- **Página:** `especialistas/montagem-pagina.md`, usando o texto exato de `copy/pagina-vendas.md`, na estrutura padrão de low ticket de `especialistas/estrutura-low-ticket.md` (17 blocos; só o botão da oferta vai ao checkout).
 - **Cakto:** `especialistas/cakto.md`. Você não tem acesso ao painel da Cakto: a entrega é um roteiro de configuração passo a passo para o dono (ou para quem ele delegar) executar e conferir.
 
 ## Passo 4 — Conferência e Comitê
