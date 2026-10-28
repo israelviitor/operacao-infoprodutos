@@ -30,6 +30,13 @@ body { width: 900px; font-family: Inter, sans-serif; }
 .pilula { display: inline-block; margin-bottom: 10px; background: #1f2a5a; color: #fff; border-radius: 999px; padding: 6px 16px; font-size: 24px; font-weight: 800; }
 .tira { height: 330px; overflow: hidden; background: #fff; border-radius: 3px; box-shadow: 0 8px 20px rgba(40,30,10,.25); }
 .tira img { width: 100%; display: block; margin-top: -38px; }
+.zoom { overflow: hidden; background: #fff; border-radius: 6px; box-shadow: 0 8px 22px rgba(40,30,10,.22); }
+.zoom img { width: 112%; margin-left: -6%; display: block; }
+.corte-meio { text-align: center; color: #8a7f68; font-size: 20px; margin: 10px 0; letter-spacing: .05em; }
+.nota { position: absolute; width: 54px; height: 54px; border-radius: 50%; background: #f5c431; color: #1f2a5a; font-size: 30px; font-weight: 900; display: flex; align-items: center; justify-content: center; box-shadow: 0 3px 8px rgba(0,0,0,.25); border: 3px solid #1f2a5a; }
+.legendas { margin-top: 18px; display: grid; gap: 8px; }
+.legendas div { background: #1f2a5a; color: #fff; border-radius: 10px; padding: 10px 14px; font-size: 25px; font-weight: 700; }
+.legendas b { display: inline-flex; width: 34px; height: 34px; border-radius: 50%; background: #f5c431; color: #1f2a5a; align-items: center; justify-content: center; margin-right: 8px; }
 .lado { display: flex; gap: 22px; align-items: flex-start; }
 .lado .col { flex: 1; text-align: center; }
 .lado .col .corte { height: 560px; overflow: hidden; box-shadow: 0 8px 20px rgba(40,30,10,.25); border-radius: 3px; background: #fff; }
@@ -63,6 +70,20 @@ const IMAGENS = {
     <div class="folha" style="width:360px;left:510px;top:70px;transform:rotate(6deg)"><img src="${pagina('kit-ambientacao', 3)}"></div>
     <div class="folha" style="width:380px;left:260px;top:40px"><img src="${pagina('kit-ambientacao', 2)}"></div>
     <div class="etq" style="left:40px;top:610px">Crachás</div><div class="etq" style="left:330px;top:610px">Ficha do grupo</div><div class="etq" style="right:40px;top:610px">Certificado</div>
+  </div>`,
+  // Redesign (briefing da Análise 2026-10-28): etapa ampliada e legível, com anotações numeradas
+  'etapa-zoom': `<div class="cena" style="padding:28px 24px;background:#fbf6ea">
+    <div class="zoom" style="height:314px"><img src="${pagina('4ano-feira', 5)}" style="margin-top:-30px"></div>
+    <div class="corte-meio">✂ ··· espaço da equipe para a conta ··· ✂</div>
+    <div class="zoom" style="height:215px"><img src="${pagina('4ano-feira', 5)}" style="margin-top:-1062px"></div>
+    <div class="nota" style="top:222px;right:34px">1</div><div class="nota" style="top:410px;right:34px">2</div><div class="nota" style="top:478px;right:34px">3</div>
+    <div class="legendas"><div><b>1</b> Ninguém diz qual é a conta: a turma decide.</div><div><b>2</b> As respostas erradas são os erros mais comuns.</div><div><b>3</b> Só a resposta certa traz a pista verdadeira.</div></div>
+  </div>`,
+  'bonus-destaque': `<div class="cena" style="height:640px;background:#1f2a5a">
+    <div class="folha" style="width:430px;left:30px;top:70px;transform:rotate(-4deg)"><div style="height:500px;overflow:hidden"><img src="${pagina('kit-ambientacao', 1)}" style="width:100%"></div></div>
+    <div class="folha" style="width:430px;left:440px;top:90px;transform:rotate(4deg)"><div style="height:480px;overflow:hidden"><img src="${pagina('kit-ambientacao', 3)}" style="width:100%"></div></div>
+    <div class="etq" style="left:50px;top:24px;background:#f5c431;color:#1f2a5a">Crachás de agente</div><div class="etq" style="right:50px;top:24px;background:#f5c431;color:#1f2a5a">Certificado</div>
+    <div class="etq" style="left:330px;top:580px;background:#fff;color:#1f2a5a">+ ficha do grupo · para imprimir</div>
   </div>`,
 };
 

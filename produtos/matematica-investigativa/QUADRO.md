@@ -54,6 +54,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 4. **Estrutura:** produzir o lote 1 (30 missões) no intervalo, com a entrega testada **antes** do horário de início. Se não der tempo, adiar o início.
 
 ## Histórico (mais recente em cima)
+- [2026-10-28] Estrutura: prompt de redesign de layout para o ChatGPT/v0 (`estrutura/pagina/PROMPT-REDESIGN-GPT.md`), seguindo o briefing da Análise, com 2 imagens novas (`img/etapa-zoom.webp`, `img/bonus-destaque.webp`). Na página no ar, o v0 tinha posto o rótulo "Caso em aberto" (termo proibido pelo dossiê): o prompt manda tirar. Pendente: renomear as amostras para "Missão da Horta / dos R$ 50 / da Cápsula do Tempo" (sem "Mistério do"/"Caso").
 - [2026-10-28] Análise: página publicada × Kit Detetive; briefing de redesign para a Estrutura (`analises/2026-10-28-analise.md`).
 - [2026-10-28] Estrutura: pacote para publicar pelo ChatGPT/v0 (`estrutura/pagina/ENVIAR-PARA-GPT.md`); duração 40–50 min e aviso da Meta aplicados na copy e na página.
 - [2026-10-28] Estrutura: página montada a partir de `copy/pagina-vendas.md` (texto fiel, conferido pelo comitê), com 5 imagens tiradas das amostras, script de UTMs testado, pixel, termos e privacidade (`estrutura/pagina/`); Kit de Ambientação (bônus) produzido (`entregavel/amostras/kit-ambientacao.pdf`); roteiro da Cakto com CPA de empate: trava do lançamento R$ 14,52 (`estrutura/cakto-roteiro.md`).
