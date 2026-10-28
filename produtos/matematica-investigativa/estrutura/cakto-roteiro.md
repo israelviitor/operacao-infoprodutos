@@ -70,7 +70,7 @@ Caminho: **Produtos > Editar Produto > Configurações Avançadas > Order Bump >
 
 ## 5. Pixel e rastreamento
 Conforme `.claude/skills/diretor-trafego/especialistas/rastreamento.md`, seção 2.
-- **Produtos > (produto) > Configurações > Pixel de conversão > Facebook:** ID do pixel + **token da API de Conversões** (engrenagem). Leva de 24 a 48 h para ativar.
+- **Produtos > (produto) > Configurações > Pixel de conversão > Facebook:** ID do pixel + **token da API de Conversões** (engrenagem). Leva de 24 a 48 h para ativar: configurar **pelo menos 2 dias antes** do horário de início dos anúncios, para a compra teste caber nesse prazo.
 - **"Disparar Purchase ao gerar pedido": DESLIGADO.** Conta só o Pix pago.
 - Um único emissor de CAPI por pixel: não ligar UTMify e Cakto CAPI juntas mandando Purchase.
 - **Aba Links > Adicionar Link:** URL da landing publicada.
@@ -89,7 +89,7 @@ Conforme `.claude/skills/diretor-trafego/especialistas/rastreamento.md`, seção
 2. No checkout:
    - preço R$ 17,90, igual à página (com ou sem taxa de serviço, conforme o passo 2);
    - bumps (quando existirem) aparecem desmarcados.
-3. Pagar um Pix (ou usar cupom de 100%, que a Cakto recomenda para teste) e conferir:
+3. Pagar um **Pix real de R$ 17,90** e conferir. Não usar cupom de 100%: ele não testa o Pix pago nem o Purchase com valor.
    - chegou o e-mail "Pagamento Confirmado" com o acesso;
    - o login no Members funciona e os PDFs abrem e baixam;
    - o **Purchase** aparece **uma vez** no Test Events do Meta;
@@ -105,6 +105,8 @@ Conforme `.claude/skills/diretor-trafego/especialistas/rastreamento.md`, seção
 Taxas oficiais por venda aprovada (artigo de 27/10/2026): **Pix 0% + R$ 2,49** e **cartão 4,99% + R$ 2,49**. A taxa fixa é cobrada uma vez por pedido, então o bump no Pix entra sem desconto.
 
 Líquido do principal: Pix **R$ 15,41** · cartão **R$ 14,52**. Base: Pix, a maioria em low ticket.
+
+**Trava do Tráfego no lançamento: R$ 14,52** (pior caso: cartão, sem bumps, antes de impostos). Os bumps ainda não existem, então os cenários com bump só valem depois que eles entrarem.
 
 | Cenário | Aceite bump 1 (R$ 9,90) | Aceite bump 2 (R$ 14,90) | Líquido por venda = CPA de empate |
 |---|---|---|---|

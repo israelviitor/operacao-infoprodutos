@@ -26,8 +26,8 @@ Copy de Oferta + Estrutura (em paralelo). Decisões de nome, preço e quantidade
 | Mineração / dossiê | ✅ pronto (itens [VALIDAR] abertos) | `dossie.md`, `produtos/_mineracao/2026-10-28/` | 2026-10-28 |
 | Copy de Oferta (promessa, página, VSL) | ✅ promessa + página (revisadas pelo comitê) · VSL ⬜ não pedida | `copy/PROMESSA.md`, `copy/pagina-vendas.md` | 2026-10-28 |
 | Estrutura — entregável | 🔵 3 missões-amostra prontas (comitê aprovou), aguardando o dono aprovar o modelo → lote 1 | `estrutura/entregavel/amostras/*.pdf` (fontes e gerador em `estrutura/entregavel/fonte/`) | 2026-10-28 |
-| Estrutura — página montada | ⬜ copy pronta → montar com os mockups das amostras | `estrutura/pagina/` | — |
-| Estrutura — Cakto | ⬜ não começou | `estrutura/cakto-roteiro.md` | — |
+| Estrutura — página montada | 🔵 montada e revisada pelo comitê; falta o dono preencher checkout, pixel, responsável/e-mail e a Copy fechar 3 pedidos → publicar | `estrutura/pagina/` (`index.html`, `PUBLICAR.md`) | 2026-10-28 |
+| Estrutura — Cakto | 🔵 roteiro pronto (comitê: sobe), dono executa no painel | `estrutura/cakto-roteiro.md`, `estrutura/cakto/` (imagens) | 2026-10-28 |
 | Copy de Criativos | ⬜ promessa pronta, pode começar (precisa das imagens da missão-amostra) | `criativos/` | — |
 | Edição | ⬜ | — | — |
 | Tráfego | ⬜ pode agendar anúncios; início da veiculação só com o lote 1 pronto e a entrega testada | `trafego/` | — |
@@ -36,13 +36,14 @@ Copy de Oferta + Estrutura (em paralelo). Decisões de nome, preço e quantidade
 Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ pronto · ⛔ travado
 
 ## Pedidos entre áreas (abertos)
+- [ ] [2026-10-28] **De** Estrutura **para** Copy de Oferta (trava a publicação da página): (1) **duração**: trocar "30 a 50 minutos" por **"40 a 50 minutos"** nos blocos 5 e 9 (as amostras e a IMAGEM 4 mostram 40–50; CDC art. 31); (2) **rodapé** (bloco 10): acrescentar "Este site não faz parte do Facebook nem da Meta Platforms, Inc." (exigência de montagem); (3) **reembolso** (blocos 8 e 9): acrescentar "ou pela própria Cakto, no link do e-mail de compra"; (4) registrar no bloco 9 o título "Perguntas frequentes", que já está na página. A Estrutura cola na página assim que a copy mudar.
 - [ ] [2026-10-28] **De** Estrutura **para** Copy de Oferta: dados das amostras para a página: missão de **40 a 50 min** (a página diz 30 a 50); **6 folhas P&B por grupo** (abertura + 4 etapas do nível + ficha final) e mais 2 a 3 folhas da professora (roteiro + gabarito comentado). **Descritor do Saeb só no 5º ano** (3º e 4º têm só o código da BNCC): não prometer "Saeb" para todas as séries. O cadeado de cada etapa tem 4 respostas, e as erradas são os erros mais comuns (dá para usar como argumento: "a própria folha corrige").
-- [ ] [2026-10-28] **De** Copy de Oferta **para** Estrutura: montar a página com `copy/pagina-vendas.md`. Pode montar e publicar já com os mockups das amostras (nova ordem em `regras/geral.md`), com a lista "Confirmar antes de montar" (fim do arquivo) toda marcada. Produzir as IMAGENS 1 a 5 da lista.
+- [x] [2026-10-28] **De** Copy de Oferta **para** Estrutura: montar a página com `copy/pagina-vendas.md`. Pode montar e publicar já com os mockups das amostras (nova ordem em `regras/geral.md`), com a lista "Confirmar antes de montar" (fim do arquivo) toda marcada. Produzir as IMAGENS 1 a 5 da lista.
 - [ ] [2026-10-28] **De** Copy de Oferta **para** Estrutura: o downsell "Só a minha série" passa a ter **10 missões** (lote 1), e não 20. Confirmar se o bônus "Grande Missão Final" entra no lote 1. Confirmar o número de folhas por missão (a copy não diz "1 folha por grupo").
 - [ ] [2026-10-28] **De** Copy de Oferta **para** Mineração: coleta manual de falas de professoras em comentários de Instagram/TikTok (tabuada, "qual conta?", Saeb). A coleta automática achou só 5 falas, quase todas sobre impressão (`pesquisa/2026-10-28-falas-do-publico.md`).
 - [x] [2026-10-28] **De** Mineração **para** Copy de Oferta: criar `copy/PROMESSA.md` e `copy/pagina-vendas.md` a partir do dossiê. Lacuna: o dossiê não tem falas literais de professoras; coletar antes ou marcar LACUNA.
 - [x] [2026-10-28] **De** Mineração **para** Estrutura: produzir 1 missão-amostra por série (3º, 4º e 5º) **antes** do volume; ela serve de modelo para aprovação e de imagem para a página e os criativos.
-- [ ] [2026-10-28] **De** Mineração **para** Estrutura: roteiro da Cakto conforme o dossiê, seção 5 (principal R$ 17,90, 2 bumps desmarcados, upsell só quando produzido).
+- [x] [2026-10-28] **De** Mineração **para** Estrutura: roteiro da Cakto conforme o dossiê, seção 5 (principal R$ 17,90, 2 bumps desmarcados, upsell só quando produzido).
 
 ## Próximo passo (nova ordem — `regras/geral.md`)
 1. **Estrutura:** concluir as 3 missões-amostra → dono aprova o modelo → **montar a página** com `copy/pagina-vendas.md` usando as amostras como mockup → **roteiro da Cakto**.
@@ -51,6 +52,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 4. **Estrutura:** produzir o lote 1 (30 missões) no intervalo, com a entrega testada **antes** do horário de início. Se não der tempo, adiar o início.
 
 ## Histórico (mais recente em cima)
+- [2026-10-28] Estrutura: página montada a partir de `copy/pagina-vendas.md` (texto fiel, conferido pelo comitê), com 5 imagens tiradas das amostras, script de UTMs testado, pixel, termos e privacidade (`estrutura/pagina/`); Kit de Ambientação (bônus) produzido (`entregavel/amostras/kit-ambientacao.pdf`); roteiro da Cakto com CPA de empate: trava do lançamento R$ 14,52 (`estrutura/cakto-roteiro.md`).
 - [2026-10-28] Copy de Oferta: dono decidiu que a Grande Missão Final entra depois como bump.
 - [2026-10-28] Estrutura: 3 missões-amostra (3º Horta, 4º R$ 50, 5º Cápsula), 17 págs. cada, gabarito conferido por script, 2 passadas do comitê → `estrutura/entregavel/amostras/`. Aguardando o dono aprovar o modelo.
 - [2026-10-28] Copy de Oferta: dono aprovou o mecanismo "Problema com Enredo" e o Kit de Ambientação no lote 1; marcações tiradas da página.
