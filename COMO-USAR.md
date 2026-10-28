@@ -19,10 +19,11 @@ Você também pode só falar normalmente ("faz 5 criativos pro produto X") — o
 1. **Mineração** `/diretor-mineracao` → `dossie.md` + `QUADRO.md` do produto
 2. Você valida o dossiê (itens [VALIDAR]) e decide nome/preço/quantidade
 3. **Copy** `/diretor-copy-oferta` → `copy/PROMESSA.md` + `copy/pagina-vendas.md` (+ VSL)
-4. **Estrutura** `/diretor-estrutura` → produto em PDF, página montada, roteiro da Cakto
+4. **Estrutura** `/diretor-estrutura` → mockups, página montada, roteiro da Cakto
 5. **Copy** `/diretor-copy-criativos` → roteiros de anúncio na mesma promessa
 6. **Edição** `/diretor-edicao` → vídeos no Descript
-7. **Tráfego** `/diretor-trafego` → compra teste, rastreamento, campanhas
+7. **Tráfego** `/diretor-trafego` → anúncios agendados (ex.: meia-noite)
+8. **Estrutura** `/diretor-estrutura` → entregável completo, pronto e testado antes do horário de início
 
 ## Como os diretores sabem do que estamos falando
 - `PRODUTOS-ATIVOS.md`: qual produto está em foco. Se você não disser o produto, o diretor usa esse.

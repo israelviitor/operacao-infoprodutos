@@ -90,7 +90,7 @@
 
 ## 7. Restrições
 - **Promessas proibidas / sensíveis:**
-  - **Produto pronto antes de anunciar** (CDC arts. 30 e 35): não subir anúncio até ter missões, níveis e gabarito prontos — nada de "material previsto" como o concorrente C3. Vale também para bumps e upsell.
+  - **Produto pronto antes da veiculação** (CDC arts. 30 e 35): anúncios podem ser criados e agendados antes, mas só começam a veicular com missões, níveis e gabarito prontos e a entrega testada — nada de "material previsto" como o concorrente C3. Vale também para bumps e upsell (ver `regras/geral.md`, ordem de montagem).
   - Fotos/vídeos de crianças ou turmas em criativo/depoimento só com autorização escrita dos responsáveis (ECA/LGPD); preferir mãos/fichas sem rosto.
   - Não insinuar material oficial: sem logos/selos de MEC, Inep, BNCC ou Saeb; "alinhado à BNCC" só se o índice por habilidade existir de fato.
   - Order bumps sempre desmarcados no checkout (CDC art. 39).

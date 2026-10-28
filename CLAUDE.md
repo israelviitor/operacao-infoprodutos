@@ -29,7 +29,7 @@ As regras escritas vencem qualquer padrão seu. Se uma regra conflitar com um pe
 - **Tráfego** (`diretor-trafego`) e **Análise** (`diretor-analise`).
 - Compliance é checado pelo `comite-revisor` em todas as áreas.
 
-Fluxo de uma oferta: Mineração → Copy de Oferta → Estrutura → Copy de Criativos → Edição → Tráfego → Análise.
+Fluxo de uma oferta: Mineração → Copy de Oferta → Estrutura (página + Cakto) → Copy de Criativos → Edição → Tráfego (anúncios agendados) → Estrutura (entregável completo, pronto antes do início da veiculação) → Análise. Detalhe em `regras/geral.md`.
 
 ## Formato de entrega ao dono — "só chega o que importa"
 Toda entrega final termina com, no máximo:

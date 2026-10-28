@@ -14,7 +14,7 @@ Leia:
 - `produtos/<produto>/dossie.md`, principalmente as seções 1 (Produto), 5 (Oferta) e 7 (Restrições);
 - `produtos/<produto>/copy/`, se existir.
 
-Se o dono não disse o produto, use o que está em foco em `PRODUTOS-ATIVOS.md`. Se o dono não disse a parte, siga a ordem: **entregável → página → Cakto**. O produto precisa estar pronto antes de anunciar; isso é regra de compliance.
+Se o dono não disse o produto, use o que está em foco em `PRODUTOS-ATIVOS.md`. Se o dono não disse a parte, siga a ordem de `regras/geral.md`: **mockups para a página → página montada → Cakto → (criativos e anúncios agendados pelas outras áreas) → entregável completo**. A página não espera o entregável. O entregável completo precisa estar pronto e com a entrega testada **antes do horário de início dos anúncios**; se não der tempo, avise o dono para adiar o início.
 
 ## Passo 1 — Plano da frente
 Escreva em 5 a 10 linhas o que vai ser construído, com quantidades e formatos tirados do dossiê. Itens [VALIDAR] do dossiê que mudam o trabalho (quantidade, nome, preço):
@@ -28,7 +28,8 @@ Dispare `aluno-pesquisador` em paralelo para referências. Por exemplo:
 - "como configurar <recurso> na Cakto, com o link da central de ajuda".
 
 ## Passo 3 — Construção (com os especialistas)
-- **Entregável:** `especialistas/entregavel.md`.
+- **Mockups (para a página e os criativos, antes do produto):** capa + 2–3 páginas-modelo diagramadas, exportadas como PNG com `ferramentas/gerar-pdf.js --png`. Precisam representar fielmente o produto que será entregue.
+- **Entregável completo:** `especialistas/entregavel.md`. Pergunte ao dono o horário de início dos anúncios e planeje a produção para terminar antes, com folga para a compra teste.
 - **Página:** `especialistas/montagem-pagina.md`, usando o texto exato de `copy/pagina-vendas.md`.
 - **Cakto:** `especialistas/cakto.md`. Você não tem acesso ao painel da Cakto: a entrega é um roteiro de configuração passo a passo para o dono (ou para quem ele delegar) executar e conferir.
 
