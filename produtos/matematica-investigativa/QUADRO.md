@@ -10,6 +10,7 @@ Kit de missões de mistério para imprimir (P&B), organizado por série (3º, 4�
 Copy de Oferta + Estrutura (em paralelo). Decisões de nome, preço e quantidade tomadas em 2026-10-28.
 
 ## Decisões do dono (valem para todas as áreas)
+- [2026-10-28] Publicação da página: por enquanto pelo **ChatGPT + v0** (dono não quer conectar o v0 aqui agora). Uma etapa por vez: depois da página no ar, seguem os próximos passos.
 - [2026-10-28] Modelar o "Arquivo Secreto" como Matemática Investigativa do 3º ao 5º ano (recomendação da Mineração). Versão em espanhol fica para depois.
 - [2026-10-28] Nome: **"Matemática em Missão — 3º ao 5º ano"**.
 - [2026-10-28] Preço do principal: **R$ 17,90** (bumps e upsell conforme o dossiê, seção 5).
@@ -36,7 +37,7 @@ Copy de Oferta + Estrutura (em paralelo). Decisões de nome, preço e quantidade
 Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ pronto · ⛔ travado
 
 ## Pedidos entre áreas (abertos)
-- [ ] [2026-10-28] **De** Estrutura **para** Copy de Oferta (trava a publicação da página): (1) **duração**: trocar "30 a 50 minutos" por **"40 a 50 minutos"** nos blocos 5 e 9 (as amostras e a IMAGEM 4 mostram 40–50; CDC art. 31); (2) **rodapé** (bloco 10): acrescentar "Este site não faz parte do Facebook nem da Meta Platforms, Inc." (exigência de montagem); (3) **reembolso** (blocos 8 e 9): acrescentar "ou pela própria Cakto, no link do e-mail de compra"; (4) registrar no bloco 9 o título "Perguntas frequentes", que já está na página. A Estrutura cola na página assim que a copy mudar.
+- [ ] [2026-10-28] **De** Estrutura **para** Copy de Oferta: (1) e (2) **já aplicados pela Estrutura** na copy e na página em 2026-10-28 para não travar a publicação (Copy: conferir); faltam (3) e (4). Pedido original — (1) **duração**: trocar "30 a 50 minutos" por **"40 a 50 minutos"** nos blocos 5 e 9 (as amostras e a IMAGEM 4 mostram 40–50; CDC art. 31); (2) **rodapé** (bloco 10): acrescentar "Este site não faz parte do Facebook nem da Meta Platforms, Inc." (exigência de montagem); (3) **reembolso** (blocos 8 e 9): acrescentar "ou pela própria Cakto, no link do e-mail de compra"; (4) registrar no bloco 9 o título "Perguntas frequentes", que já está na página. A Estrutura cola na página assim que a copy mudar.
 - [ ] [2026-10-28] **De** Estrutura **para** Copy de Oferta: dados das amostras para a página: missão de **40 a 50 min** (a página diz 30 a 50); **6 folhas P&B por grupo** (abertura + 4 etapas do nível + ficha final) e mais 2 a 3 folhas da professora (roteiro + gabarito comentado). **Descritor do Saeb só no 5º ano** (3º e 4º têm só o código da BNCC): não prometer "Saeb" para todas as séries. O cadeado de cada etapa tem 4 respostas, e as erradas são os erros mais comuns (dá para usar como argumento: "a própria folha corrige").
 - [x] [2026-10-28] **De** Copy de Oferta **para** Estrutura: montar a página com `copy/pagina-vendas.md`. Pode montar e publicar já com os mockups das amostras (nova ordem em `regras/geral.md`), com a lista "Confirmar antes de montar" (fim do arquivo) toda marcada. Produzir as IMAGENS 1 a 5 da lista.
 - [ ] [2026-10-28] **De** Copy de Oferta **para** Estrutura: o downsell "Só a minha série" passa a ter **10 missões** (lote 1), e não 20. Confirmar se o bônus "Grande Missão Final" entra no lote 1. Confirmar o número de folhas por missão (a copy não diz "1 folha por grupo").
@@ -52,6 +53,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 4. **Estrutura:** produzir o lote 1 (30 missões) no intervalo, com a entrega testada **antes** do horário de início. Se não der tempo, adiar o início.
 
 ## Histórico (mais recente em cima)
+- [2026-10-28] Estrutura: pacote para publicar pelo ChatGPT/v0 (`estrutura/pagina/ENVIAR-PARA-GPT.md`); duração 40–50 min e aviso da Meta aplicados na copy e na página.
 - [2026-10-28] Estrutura: página montada a partir de `copy/pagina-vendas.md` (texto fiel, conferido pelo comitê), com 5 imagens tiradas das amostras, script de UTMs testado, pixel, termos e privacidade (`estrutura/pagina/`); Kit de Ambientação (bônus) produzido (`entregavel/amostras/kit-ambientacao.pdf`); roteiro da Cakto com CPA de empate: trava do lançamento R$ 14,52 (`estrutura/cakto-roteiro.md`).
 - [2026-10-28] Copy de Oferta: dono decidiu que a Grande Missão Final entra depois como bump.
 - [2026-10-28] Estrutura: 3 missões-amostra (3º Horta, 4º R$ 50, 5º Cápsula), 17 págs. cada, gabarito conferido por script, 2 passadas do comitê → `estrutura/entregavel/amostras/`. Aguardando o dono aprovar o modelo.

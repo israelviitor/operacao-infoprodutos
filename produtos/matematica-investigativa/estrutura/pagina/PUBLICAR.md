@@ -10,7 +10,7 @@ A página é **estática**: `index.html` + `termos.html` + `privacidade.html` + 
    - `[E-MAIL]` (suporte e reembolso);
    - `[RESPONSÁVEL e CNPJ/CPF]` (no rodapé) e `[RESPONSÁVEL]` e `[CNPJ/CPF]` (termos e privacidade);
    - `[DATA]` (data de hoje, nos termos e na privacidade).
-   Conferência: `grep -n "\[" produtos/matematica-investigativa/estrutura/pagina/*.html` não pode achar nenhum colchete.
+   Conferência: `grep -n "\[E-MAIL\]\|\[RESPONS\|\[CNPJ\|\[DATA\]" produtos/matematica-investigativa/estrutura/pagina/*.html` não pode achar nada.
 3. Lista "Confirmar antes de montar" de `copy/pagina-vendas.md` toda marcada.
 
 ## Caminho A — publicar daqui (recomendado)

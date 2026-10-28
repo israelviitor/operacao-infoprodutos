@@ -56,7 +56,7 @@
 | Lista | ✔ **Índice por série e por habilidade da BNCC**, para achar a missão do conteúdo da semana | — | — | CONFIRMAR: só entra se o índice existir. |
 | Lista | ✔ **Gabarito comentado** e **roteiro de aplicação de 2 minutos** em cada missão | — | — | — |
 | Lista | ✔ **Preto e branco, pouca tinta.** Imprime na impressora de casa ou na xerox da escola | — | — | — |
-| Lista | ✔ Missões de 30 a 50 minutos, em grupos de 3 a 5 alunos ou individual | — | — | CONFIRMAR com o lote 1 (número do dossiê). |
+| Lista | ✔ Missões de 40 a 50 minutos, em grupos de 3 a 5 alunos ou individual | — | — | Duração das amostras (Estrutura, 2026-10-28). |
 | Formato | Tudo em PDF. Você recebe o acesso no e-mail assim que o pagamento é aprovado e pode imprimir para as suas turmas sempre que precisar. | — | — | CONFIRMAR a entrega da Cakto (e-mail ou área de membros) e se os termos de uso permitem imprimir à vontade (licença pessoal da professora). |
 | Bônus | **Bônus: Kit de Ambientação.** Crachá de agente, ficha de registro do grupo e certificado de missão cumprida para imprimir. | [IMAGEM 5] crachá, ficha e certificado | — | Aprovado pelo dono: entra no lote 1. |
 | Botão | — | — | **Quero as 30 missões por R$ 17,90** | — |
@@ -94,14 +94,14 @@
 | Como eu recebo? | Assim que o pagamento é aprovado, você recebe o acesso no e-mail. É PDF: baixa e imprime. | CONFIRMAR a entrega da Cakto. |
 | Precisa imprimir colorido? | Não. Tudo é em preto e branco, pensado para gastar pouca tinta e caber na xerox da escola. | — |
 | Tem muita coisa de graça na internet. Por que pagar? | Porque aqui está pronto, separado por série e por habilidade, em 3 níveis, com gabarito comentado. Você não perde a noite garimpando folha solta. | Sem o índice BNCC: tirar "e por habilidade". |
-| Quanto tempo leva para aplicar? | Cada missão dura de 30 a 50 minutos. O roteiro de 2 minutos explica como conduzir. | CONFIRMAR a duração com o lote 1. |
+| Quanto tempo leva para aplicar? | Cada missão dura de 40 a 50 minutos. O roteiro de 2 minutos explica como conduzir. | Duração das amostras (Estrutura, 2026-10-28). |
 | E se eu não gostar? | Em até 7 dias da compra, por qualquer motivo, você pede o reembolso por e-mail e recebe 100% de volta. | — |
 
 ### 10. CTA final e rodapé
 | SEÇÃO | TEXTO EXATO | ELEMENTO VISUAL | BOTÃO | NOTA |
 |---|---|---|---|---|
 | Fechamento | Na próxima aula de problemas, deixe a turma descobrir qual é a conta. | [IMAGEM 1] menor | **Quero as missões da minha turma** | — |
-| Rodapé | Matemática em Missão · [RESPONSÁVEL e CNPJ/CPF] · [E-MAIL] · Termos de uso · Política de privacidade · Material independente, sem vínculo com o MEC ou o Inep. | Rodapé enxuto | — | Links só para termos e privacidade. Sem esses dados a página não passa na Meta. |
+| Rodapé | Matemática em Missão · [RESPONSÁVEL e CNPJ/CPF] · [E-MAIL] · Termos de uso · Política de privacidade · Material independente, sem vínculo com o MEC ou o Inep. · Este site não faz parte do Facebook nem da Meta Platforms, Inc. | Rodapé enxuto | — | Links só para termos e privacidade. Sem esses dados a página não passa na Meta. |
 
 **Botões (para a Estrutura):** cor de alto contraste, altura mínima de 48 px e largura total no celular.
 
