@@ -1,0 +1,327 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>O Mistério da Horta — 3º ano</title><style>
+@page { size: A4; margin: 13mm 15mm; }
+* { box-sizing: border-box; }
+body { font-family: Inter, 'DejaVu Sans', sans-serif; color: #000; font-size: 12.5pt; line-height: 1.38; margin: 0; }
+.pagina { page-break-after: always; position: relative; min-height: 268mm; }
+.pagina:last-child { page-break-after: auto; }
+.pagina.etapa { display: flex; flex-direction: column; height: 268mm; min-height: 0; padding-bottom: 6mm; }
+.pagina.etapa > * { flex: none; }
+.topo { display: flex; gap: 10px; align-items: center; border-bottom: 1.5px solid #000; padding-bottom: 4px; margin-bottom: 10px; font-size: 9.5pt; letter-spacing: .04em; }
+.topo .marca { font-weight: 800; }
+.topo .serie { border: 1px solid #000; border-radius: 10px; padding: 0 8px; font-weight: 700; }
+.topo .dir { margin-left: auto; font-weight: 700; }
+.estrelas, .nv { font-family: 'DejaVu Sans', sans-serif; letter-spacing: 1px; }
+h1.titulo-missao { font-size: 22pt; margin: 6px 0 4px; line-height: 1.1; }
+h1.grande { font-size: 30pt; margin-top: 2px; }
+h1.pequeno { font-size: 17pt; }
+h2 { font-size: 14pt; margin: 14px 0 6px; }
+h3 { font-size: 12pt; margin: 12px 0 4px; }
+.sub { margin: 0 0 8px; font-size: 12pt; }
+.ficha-tecnica { border: 1px solid #000; border-radius: 6px; padding: 6px 10px; font-size: 11pt; display: grid; gap: 2px; }
+ol.roteiro li { margin-bottom: 5px; font-size: 11.5pt; }
+table { border-collapse: collapse; width: 100%; }
+table.hab th, table.hab td, table.gab th, table.gab td { border: 1px solid #555; padding: 4px 6px; font-size: 10pt; vertical-align: top; text-align: left; }
+th { font-weight: 700; }
+.cod { font-size: 9pt; font-weight: 600; white-space: nowrap; }
+.saeb { font-weight: 400; }
+.nota { font-size: 9pt; margin-top: 6px; }
+/* gabarito */
+.gabarito { font-size: 10.5pt; }
+table.gab ul { margin: 0; padding-left: 14px; }
+table.gab td.resp { font-weight: 800; white-space: nowrap; }
+.pista-gab { font-size: 9.5pt; margin: 3px 0 0; }
+.solucao { border: 1.5px solid #000; border-radius: 6px; padding: 6px 10px; margin-top: 12px; }
+/* abertura */
+.selo { display: inline-block; border: 2px solid #000; padding: 2px 10px; font-weight: 800; letter-spacing: .3em; margin-top: 4px; transform: rotate(-2deg); }
+.historia p { font-size: 15pt; margin: 0 0 8px; }
+.cards { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.card { border: 1.5px solid #000; border-radius: 8px; padding: 12px 10px; min-height: 30mm; display: flex; gap: 10px; align-items: flex-start; }
+.inicial { width: 42px; height: 42px; flex: none; border: 2px solid #000; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 20pt; font-weight: 800; }
+.card .nome { font-weight: 800; font-size: 14.5pt; }
+.card .desc { font-size: 12.5pt; }
+.missao-box { border: 2px dashed #000; border-radius: 8px; padding: 12px 14px; margin-top: 18px; font-size: 15pt; }
+.como { font-size: 12.5pt; margin-top: 14px; }
+/* etapa */
+.etapa-tit { display: flex; align-items: baseline; gap: 10px; }
+.etapa-tit .num { border: 1.5px solid #000; border-radius: 4px; padding: 0 6px; font-weight: 800; font-size: 10.5pt; white-space: nowrap; }
+.etapa-tit h2 { margin: 6px 0; font-size: 17pt; }
+.cena { font-style: italic; border-left: 3px solid #000; padding-left: 10px; margin: 4px 0 10px; font-size: 13pt; }
+.problema { font-size: 15pt; line-height: 1.45; }
+.problema p { margin: 0 0 6px; }
+.problema .pergunta { font-weight: 800; }
+.figura { margin: 6px 0; }
+.pagina.etapa > .espaco { border: 1px solid #000; border-radius: 6px; flex: 1 1 auto; min-height: 40mm; margin-top: 8px; position: relative;
+  background-image: radial-gradient(#bbb 0.6px, transparent 0.7px); background-size: 5mm 5mm; }
+.espaco span { position: absolute; top: -9px; left: 10px; background: #fff; padding: 0 6px; font-size: 9.5pt; font-weight: 700; }
+.passos { display: flex; justify-content: space-between; font-size: 11.5pt; margin: 6px 0; }
+.resposta { font-size: 13pt; font-weight: 800; margin: 4px 0 8px; display: flex; align-items: flex-end; gap: 8px; }
+.linha { display: inline-block; border-bottom: 1px solid #000; flex: 1; min-width: 60mm; height: 1.1em; }
+.linha.curta { min-width: 50mm; }
+.cadeado { border: 2px solid #000; border-radius: 8px; padding: 6px 8px; }
+.cad-tit { font-weight: 800; font-size: 10.5pt; margin-bottom: 4px; }
+.cadeado td { border-top: 1px dashed #777; padding: 4px 6px; font-size: 11.5pt; vertical-align: top; }
+.cadeado td.val { font-weight: 800; font-size: 12.5pt; width: 26mm; white-space: nowrap; }
+.rodape { position: absolute; bottom: 0; left: 0; right: 0; font-size: 8pt; color: #333; border-top: 1px solid #999; padding-top: 2px; }
+/* final */
+.final p { margin: 4px 0; }
+ol.pistas li { margin: 8px 0; }
+ol.pistas .linha { width: 95%; }
+.riscos { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.risco { border: 1.5px solid #000; border-radius: 6px; padding: 8px; font-weight: 800; display: flex; gap: 8px; align-items: center; }
+.risco .caixa { width: 16px; height: 16px; border: 1.5px solid #000; display: inline-block; }
+.perg { margin-top: 10px; }
+.perg .linhas span { display: block; border-bottom: 1px solid #000; height: 11mm; }
+.confere { border: 1.5px dashed #000; border-radius: 6px; padding: 6px 10px; margin-top: 12px; font-size: 11pt; }
+.carimbo { margin: 14px auto 0; width: 70mm; text-align: center; border: 3px double #000; border-radius: 8px; padding: 8px; font-weight: 800; letter-spacing: .12em; transform: rotate(-3deg); }
+.carimbo span { display: block; margin-top: 18mm; border-top: 1px solid #000; font-size: 8.5pt; font-weight: 400; letter-spacing: 0; }
+</style></head><body>
+<section class="pagina prof">
+  <div class="topo"><span class="marca">MATEMÁTICA EM MISSÃO</span><span class="serie">3º ano</span><span class="dir">Página da professora</span></div>
+  <h1 class="titulo-missao">O Mistério da Horta</h1>
+  <p class="sub">As cenouras da horta amanheceram mordidas. Com 4 pistas, a turma descobre quem foi e como saiu.</p>
+  <div class="ficha-tecnica">
+    <div><b>Tempo:</b> 40 a 50 minutos</div>
+    <div><b>Grupos:</b> 3 a 5 alunos (ou individual)</div>
+    <div><b>Imprimir por grupo:</b> 6 folhas em preto e branco — abertura + 4 etapas do nível do grupo + ficha final</div>
+  </div>
+  <h2>Roteiro de 2 minutos</h2>
+  <ol class="roteiro">
+    <li><b>Monte os grupos e escolha o nível de cada um.</b> O mistério é o mesmo nos 3 níveis; só mudam os números e a quantidade de passos. Nível 1 ★ = apoio · Nível 2 ★★ = esperado para a série · Nível 3 ★★★ = desafio.</li>
+    <li><b>Leia a abertura em voz alta</b> (ou entregue uma por grupo). Mostre os suspeitos e combine a missão: descobrir quem mordeu as cenouras e como saiu.</li>
+    <li><b>Entregue as 4 etapas grampeadas.</b> Em cada etapa, ninguém diz qual conta fazer: o grupo acha os dados, escolhe a conta, resolve e confere.</li>
+    <li><b>O cadeado no pé da página corrige sozinho.</b> As respostas erradas da tabela são os erros mais comuns da série e levam a pistas falsas. Na ficha final, a conclusão não fecha e o grupo volta para procurar o erro.</li>
+    <li><b>Feche com 5 minutos de conversa:</b> peça a cada grupo para contar <i>como decidiu qual conta fazer</i> em uma das etapas. Confira com o gabarito comentado.</li>
+  </ol>
+  <h2>Habilidades trabalhadas</h2>
+  <table class="hab"><thead><tr><th>Etapa</th><th>Cena</th><th>Conteúdo</th><th>Código</th></tr></thead><tbody><tr><td>1</td><td>O estrago na horta</td><td>Subtração: retirar e comparar</td><td class="cod">EF03MA06</td></tr><tr><td>2</td><td>O armário da lupa</td><td>Multiplicação: disposição retangular e parcelas iguais</td><td class="cod">EF03MA07</td></tr><tr><td>3</td><td>As pilhas da câmera</td><td>Sistema monetário: compra, pagamento e troco</td><td class="cod">EF03MA24</td></tr><tr><td>4</td><td>A caixa do 1º ano</td><td>Divisão: repartir igualmente</td><td class="cod">EF03MA08</td></tr></tbody></table>
+  <p class="nota">Os códigos são da BNCC. Material independente, sem vínculo com o MEC ou o Inep.</p>
+</section>
+<section class="pagina gabarito">
+  <div class="topo"><span class="marca">MATEMÁTICA EM MISSÃO</span><span class="serie">3º ano</span><span class="dir">Gabarito comentado — professora</span></div>
+  <h1 class="titulo-missao pequeno">O Mistério da Horta — gabarito</h1>
+  <h3>Etapa 1 — O estrago na horta <span class="cod">EF03MA06</span></h3>
+    <table class="gab"><thead><tr><th>Nível</th><th>Resposta</th><th>Conta</th><th>Se o grupo marcou outra opção</th></tr></thead><tbody><tr><td class="nv">★</td><td class="resp">7</td><td>19 − 12 = 7</td><td><ul><li><b>12</b> — copiou um número do problema sem fazer conta.</li><li><b>19</b> — copiou o total de sexta-feira.</li><li><b>31</b> — juntou (19 + 12) em vez de tirar.</li></ul></td></tr><tr><td class="nv">★★</td><td class="resp">15</td><td>52 − 37 = 15</td><td><ul><li><b>25</b> — tirou o menor algarismo do maior em cada coluna (7 − 2 = 5), sem desagrupar a dezena.</li><li><b>37</b> — copiou um número do problema.</li><li><b>89</b> — juntou (52 + 37) em vez de tirar.</li></ul></td></tr><tr><td class="nv">★★★</td><td class="resp">17</td><td>86 − 20 = 66 · 66 − 49 = 17 (os 4 canteiros não entram na conta)</td><td><ul><li><b>13</b> — usou também os 4 canteiros, que não fazem parte da conta (17 − 4).</li><li><b>37</b> — esqueceu as 20 cenouras colhidas para a sopa (86 − 49).</li><li><b>155</b> — somou todos os números (86 + 20 + 49).</li></ul></td></tr></tbody></table>
+    <p class="pista-gab"><b>Pista verdadeira:</b> Os fios da cerca são <b>PELOS DE ANIMAL</b>. Pessoas não têm pelo assim. <b>Risquem o SEU ZÉ.</b></p><h3>Etapa 2 — O armário da lupa <span class="cod">EF03MA07</span></h3>
+    <table class="gab"><thead><tr><th>Nível</th><th>Resposta</th><th>Conta</th><th>Se o grupo marcou outra opção</th></tr></thead><tbody><tr><td class="nv">★</td><td class="resp">15</td><td>3 fileiras de 5 → 5 + 5 + 5 = 15 ou 3 × 5 = 15</td><td><ul><li><b>8</b> — somou as fileiras e as colunas (3 + 5).</li><li><b>10</b> — contou só 2 fileiras.</li><li><b>20</b> — contou uma fileira a mais.</li></ul></td></tr><tr><td class="nv">★★</td><td class="resp">40</td><td>4 × 10 = 40</td><td><ul><li><b>14</b> — somou 4 + 10 em vez de juntar 4 fileiras de 10.</li><li><b>30</b> — contou só 3 fileiras.</li><li><b>50</b> — contou uma fileira a mais.</li></ul></td></tr><tr><td class="nv">★★★</td><td class="resp">23</td><td>5 × 4 = 20 · 20 + 3 = 23</td><td><ul><li><b>12</b> — somou todos os números (5 + 4 + 3).</li><li><b>20</b> — esqueceu os 3 potes de cima do armário.</li><li><b>35</b> — multiplicou 5 por 7 (juntou os 3 potes em cada fileira).</li></ul></td></tr></tbody></table>
+    <p class="pista-gab"><b>Pista verdadeira:</b> O cadeado abriu! Na lupa, os pelos são <b>BRANCOS</b>. <b>Risquem a PIPOCA</b> (pelo caramelo).</p><h3>Etapa 3 — As pilhas da câmera <span class="cod">EF03MA24</span></h3>
+    <table class="gab"><thead><tr><th>Nível</th><th>Resposta</th><th>Conta</th><th>Se o grupo marcou outra opção</th></tr></thead><tbody><tr><td class="nv">★</td><td class="resp">R$ 2</td><td>5 + 4 = 9 reais · 9 − 7 = 2 reais</td><td><ul><li><b>R$ 3</b> — contou só 3 moedas de R$ 1.</li><li><b>R$ 9</b> — só juntou o dinheiro e esqueceu de pagar as pilhas.</li><li><b>R$ 16</b> — somou tudo, inclusive o preço das pilhas (5 + 4 + 7).</li></ul></td></tr><tr><td class="nv">★★</td><td class="resp">R$ 6</td><td>10 + 5 + 2 + 2 = 19 reais · 19 − 13 = 6 reais</td><td><ul><li><b>R$ 2</b> — esqueceu as duas notas de R$ 2 (15 − 13).</li><li><b>R$ 4</b> — contou só uma nota de R$ 2 (17 − 13).</li><li><b>R$ 19</b> — só juntou o dinheiro e esqueceu de pagar.</li></ul></td></tr><tr><td class="nv">★★★</td><td class="resp">R$ 5</td><td>20 + 3 = 23 reais · 13 + 5 = 18 reais · 23 − 18 = 5 reais</td><td><ul><li><b>R$ 2</b> — esqueceu as 3 moedas (20 − 18).</li><li><b>R$ 10</b> — esqueceu a fita (23 − 13).</li><li><b>R$ 41</b> — somou todos os valores (23 + 13 + 5).</li></ul></td></tr></tbody></table>
+    <p class="pista-gab"><b>Pista verdadeira:</b> Compra feita! No vídeo aparece uma sombra com <b>ORELHAS COMPRIDAS</b> pulando a cerca baixinha. <b>Risquem o MINGAU.</b></p><h3>Etapa 4 — A caixa do 1º ano <span class="cod">EF03MA08</span></h3>
+    <table class="gab"><thead><tr><th>Nível</th><th>Resposta</th><th>Conta</th><th>Se o grupo marcou outra opção</th></tr></thead><tbody><tr><td class="nv">★</td><td class="resp">4</td><td>12 ÷ 3 = 4 (4 + 4 + 4 = 12)</td><td><ul><li><b>9</b> — tirou 3 de 12 em vez de repartir.</li><li><b>15</b> — somou 12 + 3.</li><li><b>36</b> — multiplicou 12 × 3.</li></ul></td></tr><tr><td class="nv">★★</td><td class="resp">7</td><td>28 ÷ 4 = 7 (7 + 7 + 7 + 7 = 28)</td><td><ul><li><b>8</b> — errou a tabuada do 4 (4 × 8 = 32, não 28).</li><li><b>24</b> — tirou 4 de 28 em vez de repartir.</li><li><b>32</b> — somou 28 + 4.</li></ul></td></tr><tr><td class="nv">★★★</td><td class="resp">5</td><td>35 − 5 = 30 · 30 ÷ 6 = 5</td><td><ul><li><b>6</b> — dividiu 30 por 5 (trocou o número de dias pelo que ele já comeu).</li><li><b>7</b> — dividiu 35 por 5 e esqueceu de tirar o que ele já comeu.</li><li><b>24</b> — só tirou: 35 − 5 − 6.</li></ul></td></tr></tbody></table>
+    <p class="pista-gab"><b>Pista verdadeira:</b> A caixa abriu! No caderno está escrito: <b>“Sexta, 17h: esqueci a GAIOLA DO TICO ABERTA.”</b> Agora vocês sabem quem foi e como saiu.</p>
+  <div class="solucao"><b>Solução do caso:</b> Foi o <b>TICO</b>, o coelho do 1º ano. A gaiola ficou aberta na sexta, ele pulou a cerca baixinha da horta e passou o fim de semana comendo cenoura. Ordem das pistas: pelo de animal (sai o Seu Zé) → pelo branco (sai a Pipoca) → orelhas compridas (sai o Mingau) → gaiola aberta (confirma o Tico).</div>
+</section>
+<section class="pagina abertura">
+  <div class="topo"><span class="marca">MATEMÁTICA EM MISSÃO</span><span class="serie">3º ano</span><span class="dir">Abertura do caso</span></div>
+  <div class="selo">MISSÃO</div>
+  <h1 class="titulo-missao grande">O Mistério da Horta</h1>
+  <div class="historia"><p>Segunda-feira de manhã, a turma chegou à escola e levou um susto: <b>as cenouras da horta amanheceram mordidas!</b></p><p>A diretora chamou vocês: — Preciso de uma equipe de investigação. Quem fez isso? E como entrou na horta, se o portão estava fechado?</p><p>O Seu Zé, jardineiro, fez uma lista de quem esteve perto da horta no fim de semana.</p></div>
+  <h2>Os suspeitos</h2>
+  <div class="cards"><div class="card"><div class="inicial">S</div><div><div class="nome">SEU ZÉ</div><div class="desc">Jardineiro da escola. Usa botas grandes. Tem a chave do portão da horta.</div></div></div><div class="card"><div class="inicial">P</div><div><div class="nome">PIPOCA</div><div class="desc">Cachorra da vizinha. Pelo caramelo. Vive cavando buracos.</div></div></div><div class="card"><div class="inicial">M</div><div><div class="nome">MINGAU</div><div class="desc">Gato da cantina. Pelo branco. Pula muros altos.</div></div></div><div class="card"><div class="inicial">T</div><div><div class="nome">TICO</div><div class="desc">Coelho da sala do 1º ano. Pelo branco e orelhas compridas.</div></div></div></div>
+  <div class="missao-box"><b>A missão de vocês:</b> descobrir <b>quem</b> mordeu as cenouras e <b>como</b> saiu de onde estava.</div>
+  <div class="como"><b>Como funciona:</b> são 4 etapas. Em cada uma, vocês resolvem um problema e usam a resposta para abrir o cadeado. Só a resposta certa traz a pista verdadeira. Nenhuma etapa diz qual conta fazer: descubram!</div>
+</section>
+<section class="pagina etapa">
+  <div class="topo"><span class="marca">MATEMÁTICA EM MISSÃO</span><span class="serie">3º ano</span><span class="dir">Nível 1 <span class="estrelas">★</span></span></div>
+  <div class="etapa-tit"><span class="num">Etapa 1 de 4</span><h2>O estrago na horta</h2></div>
+  <div class="cena">Na horta, a equipe encontrou fios presos na cerca. Antes de examinar os fios, a diretora quer saber o tamanho do estrago.</div>
+  <div class="problema"><p>Na sexta-feira, a horta tinha <b>19 cenouras</b>. Hoje, só <b>12 cenouras</b> estão inteiras. As outras foram mordidas.</p><p class="pergunta">Quantas cenouras foram mordidas?</p></div>
+  <div class="espaco"><span>Espaço da equipe — mostrem como pensaram</span></div>
+  <div class="passos">
+    <span>☐ Achamos os dados</span><span>☐ Escolhemos a conta</span><span>☐ Resolvemos</span><span>☐ Conferimos se faz sentido</span>
+  </div>
+  <div class="resposta">Nossa resposta: <span class="linha"></span></div>
+  <div class="cadeado">
+    <div class="cad-tit">ABRAM O CADEADO — procurem a resposta de vocês na tabela e leiam a pista</div>
+    <table><tr><td class="val">7</td><td>Os fios da cerca são PELOS DE ANIMAL. Pessoas não têm pelo assim. <b>Risquem o SEU ZÉ.</b></td></tr><tr><td class="val">12</td><td>Os fios são de lã, de um cachecol. Animal não usa cachecol. <b>Risquem o TICO.</b></td></tr><tr><td class="val">19</td><td>Os fios são pretos e grossos. <b>Risquem o MINGAU.</b></td></tr><tr><td class="val">31</td><td>Os fios são cabelos compridos de gente. <b>Risquem a PIPOCA.</b></td></tr></table>
+  </div>
+  <div class="rodape">EF03MA06 · O Mistério da Horta</div>
+</section>
+<section class="pagina etapa">
+  <div class="topo"><span class="marca">MATEMÁTICA EM MISSÃO</span><span class="serie">3º ano</span><span class="dir">Nível 1 <span class="estrelas">★</span></span></div>
+  <div class="etapa-tit"><span class="num">Etapa 2 de 4</span><h2>O armário da lupa</h2></div>
+  <div class="cena">Para examinar os fios, a equipe precisa da lupa, que fica trancada no armário de ciências. O segredo do cadeado é o número de potes da prateleira de cima.</div>
+  <div class="problema"><p>Os potes da prateleira de cima estão arrumados assim:</p><p class="pergunta">Quantos potes há na prateleira?</p><div class="figura"><svg width="220" height="140" viewBox="0 0 220 140"><rect x="2" y="2" width="216" height="136" fill="none" stroke="#000" stroke-dasharray="4 3"/><circle cx="24" cy="24" r="14" fill="none" stroke="#000" stroke-width="1.5"/><rect x="16" y="6" width="16" height="5" fill="none" stroke="#000"/><circle cx="64" cy="24" r="14" fill="none" stroke="#000" stroke-width="1.5"/><rect x="56" y="6" width="16" height="5" fill="none" stroke="#000"/><circle cx="104" cy="24" r="14" fill="none" stroke="#000" stroke-width="1.5"/><rect x="96" y="6" width="16" height="5" fill="none" stroke="#000"/><circle cx="144" cy="24" r="14" fill="none" stroke="#000" stroke-width="1.5"/><rect x="136" y="6" width="16" height="5" fill="none" stroke="#000"/><circle cx="184" cy="24" r="14" fill="none" stroke="#000" stroke-width="1.5"/><rect x="176" y="6" width="16" height="5" fill="none" stroke="#000"/><circle cx="24" cy="64" r="14" fill="none" stroke="#000" stroke-width="1.5"/><rect x="16" y="46" width="16" height="5" fill="none" stroke="#000"/><circle cx="64" cy="64" r="14" fill="none" stroke="#000" stroke-width="1.5"/><rect x="56" y="46" width="16" height="5" fill="none" stroke="#000"/><circle cx="104" cy="64" r="14" fill="none" stroke="#000" stroke-width="1.5"/><rect x="96" y="46" width="16" height="5" fill="none" stroke="#000"/><circle cx="144" cy="64" r="14" fill="none" stroke="#000" stroke-width="1.5"/><rect x="136" y="46" width="16" height="5" fill="none" stroke="#000"/><circle cx="184" cy="64" r="14" fill="none" stroke="#000" stroke-width="1.5"/><rect x="176" y="46" width="16" height="5" fill="none" stroke="#000"/><circle cx="24" cy="104" r="14" fill="none" stroke="#000" stroke-width="1.5"/><rect x="16" y="86" width="16" height="5" fill="none" stroke="#000"/><circle cx="64" cy="104" r="14" fill="none" stroke="#000" stroke-width="1.5"/><rect x="56" y="86" width="16" height="5" fill="none" stroke="#000"/><circle cx="104" cy="104" r="14" fill="none" stroke="#000" stroke-width="1.5"/><rect x="96" y="86" width="16" height="5" fill="none" stroke="#000"/><circle cx="144" cy="104" r="14" fill="none" stroke="#000" stroke-width="1.5"/><rect x="136" y="86" width="16" height="5" fill="none" stroke="#000"/><circle cx="184" cy="104" r="14" fill="none" stroke="#000" stroke-width="1.5"/><rect x="176" y="86" width="16" height="5" fill="none" stroke="#000"/></svg></div></div>
+  <div class="espaco"><span>Espaço da equipe — mostrem como pensaram</span></div>
+  <div class="passos">
+    <span>☐ Achamos os dados</span><span>☐ Escolhemos a conta</span><span>☐ Resolvemos</span><span>☐ Conferimos se faz sentido</span>
+  </div>
+  <div class="resposta">Nossa resposta: <span class="linha"></span></div>
+  <div class="cadeado">
+    <div class="cad-tit">ABRAM O CADEADO — procurem a resposta de vocês na tabela e leiam a pista</div>
+    <table><tr><td class="val">8</td><td>O cadeado abriu! Na lupa, os pelos são caramelo. <b>Risquem o TICO.</b></td></tr><tr><td class="val">10</td><td>O cadeado abriu! Na lupa, os pelos são caramelo. <b>Risquem o MINGAU.</b></td></tr><tr><td class="val">15</td><td>O cadeado abriu! Na lupa, os pelos são BRANCOS. <b>Risquem a PIPOCA (pelo caramelo).</b></td></tr><tr><td class="val">20</td><td>O cadeado abriu! Na lupa, os pelos são pretos. <b>Risquem a PIPOCA e o TICO.</b></td></tr></table>
+  </div>
+  <div class="rodape">EF03MA07 · O Mistério da Horta</div>
+</section>
+<section class="pagina etapa">
+  <div class="topo"><span class="marca">MATEMÁTICA EM MISSÃO</span><span class="serie">3º ano</span><span class="dir">Nível 1 <span class="estrelas">★</span></span></div>
+  <div class="etapa-tit"><span class="num">Etapa 3 de 4</span><h2>As pilhas da câmera</h2></div>
+  <div class="cena">A câmera do pátio filmou a horta no fim de semana, mas a tela para ver o vídeo está sem pilha. A equipe vai até a papelaria da esquina.</div>
+  <div class="problema"><p>O pacote de pilhas custa <b>R$ 7</b>. A turma juntou <b>1 nota de R$ 5</b> e <b>4 moedas de R$ 1</b>.</p><p class="pergunta">Depois de pagar as pilhas, quanto dinheiro sobra?</p></div>
+  <div class="espaco"><span>Espaço da equipe — mostrem como pensaram</span></div>
+  <div class="passos">
+    <span>☐ Achamos os dados</span><span>☐ Escolhemos a conta</span><span>☐ Resolvemos</span><span>☐ Conferimos se faz sentido</span>
+  </div>
+  <div class="resposta">Nossa resposta: <span class="linha"></span></div>
+  <div class="cadeado">
+    <div class="cad-tit">ABRAM O CADEADO — procurem a resposta de vocês na tabela e leiam a pista</div>
+    <table><tr><td class="val">R$ 2</td><td>Compra feita! No vídeo aparece uma sombra com ORELHAS COMPRIDAS pulando a cerca baixinha. <b>Risquem o MINGAU.</b></td></tr><tr><td class="val">R$ 3</td><td>Compra feita! No vídeo aparece uma sombra com rabo comprido e bigodes. <b>Risquem o TICO.</b></td></tr><tr><td class="val">R$ 9</td><td>Compra feita! No vídeo aparece uma sombra de botas. <b>Risquem o MINGAU e o TICO.</b></td></tr><tr><td class="val">R$ 16</td><td>Compra feita! No vídeo aparece uma sombra latindo. <b>Risquem o TICO.</b></td></tr></table>
+  </div>
+  <div class="rodape">EF03MA24 · O Mistério da Horta</div>
+</section>
+<section class="pagina etapa">
+  <div class="topo"><span class="marca">MATEMÁTICA EM MISSÃO</span><span class="serie">3º ano</span><span class="dir">Nível 1 <span class="estrelas">★</span></span></div>
+  <div class="etapa-tit"><span class="num">Etapa 4 de 4</span><h2>A caixa do 1º ano</h2></div>
+  <div class="cena">A sombra foi na direção da sala do 1º ano. Lá, a professora Ana mostra a caixa onde fica o caderno de cuidados do Tico. A caixa tem um cadeado de números: o segredo é quantas rodelas de cenoura o Tico come por dia.</div>
+  <div class="problema"><p>A professora Ana separou <b>12 rodelas</b> de cenoura para <b>3 dias</b>. O Tico come a mesma quantidade todo dia.</p><p class="pergunta">Quantas rodelas o Tico come por dia?</p></div>
+  <div class="espaco"><span>Espaço da equipe — mostrem como pensaram</span></div>
+  <div class="passos">
+    <span>☐ Achamos os dados</span><span>☐ Escolhemos a conta</span><span>☐ Resolvemos</span><span>☐ Conferimos se faz sentido</span>
+  </div>
+  <div class="resposta">Nossa resposta: <span class="linha"></span></div>
+  <div class="cadeado">
+    <div class="cad-tit">ABRAM O CADEADO — procurem a resposta de vocês na tabela e leiam a pista</div>
+    <table><tr><td class="val">4</td><td>A caixa abriu! No caderno está escrito: “Sexta, 17h: esqueci a GAIOLA DO TICO ABERTA.” Agora vocês sabem quem foi e como saiu.</td></tr><tr><td class="val">9</td><td>A caixa abriu! No caderno: “O Tico dormiu na gaiola fechada o fim de semana todo.”</td></tr><tr><td class="val">15</td><td>A caixa abriu! No caderno: “Sexta: o Seu Zé levou o Tico para passear na horta.”</td></tr><tr><td class="val">36</td><td>A caixa abriu! No caderno: “A Pipoca entrou na sala do 1º ano no sábado.”</td></tr></table>
+  </div>
+  <div class="rodape">EF03MA08 · O Mistério da Horta</div>
+</section>
+<section class="pagina etapa">
+  <div class="topo"><span class="marca">MATEMÁTICA EM MISSÃO</span><span class="serie">3º ano</span><span class="dir">Nível 2 <span class="estrelas">★★</span></span></div>
+  <div class="etapa-tit"><span class="num">Etapa 1 de 4</span><h2>O estrago na horta</h2></div>
+  <div class="cena">Na horta, a equipe encontrou fios presos na cerca. Antes de examinar os fios, a diretora quer saber o tamanho do estrago.</div>
+  <div class="problema"><p>Na sexta-feira, a horta tinha <b>52 cenouras</b>. Hoje, só <b>37</b> estão inteiras. As outras foram mordidas.</p><p class="pergunta">Quantas cenouras foram mordidas?</p></div>
+  <div class="espaco"><span>Espaço da equipe — mostrem como pensaram</span></div>
+  <div class="passos">
+    <span>☐ Achamos os dados</span><span>☐ Escolhemos a conta</span><span>☐ Resolvemos</span><span>☐ Conferimos se faz sentido</span>
+  </div>
+  <div class="resposta">Nossa resposta: <span class="linha"></span></div>
+  <div class="cadeado">
+    <div class="cad-tit">ABRAM O CADEADO — procurem a resposta de vocês na tabela e leiam a pista</div>
+    <table><tr><td class="val">15</td><td>Os fios da cerca são PELOS DE ANIMAL. Pessoas não têm pelo assim. <b>Risquem o SEU ZÉ.</b></td></tr><tr><td class="val">25</td><td>Os fios são de lã, de um cachecol. Animal não usa cachecol. <b>Risquem o TICO.</b></td></tr><tr><td class="val">37</td><td>Os fios são pretos e grossos. <b>Risquem o MINGAU.</b></td></tr><tr><td class="val">89</td><td>Os fios são cabelos compridos de gente. <b>Risquem a PIPOCA.</b></td></tr></table>
+  </div>
+  <div class="rodape">EF03MA06 · O Mistério da Horta</div>
+</section>
+<section class="pagina etapa">
+  <div class="topo"><span class="marca">MATEMÁTICA EM MISSÃO</span><span class="serie">3º ano</span><span class="dir">Nível 2 <span class="estrelas">★★</span></span></div>
+  <div class="etapa-tit"><span class="num">Etapa 2 de 4</span><h2>O armário da lupa</h2></div>
+  <div class="cena">Para examinar os fios, a equipe precisa da lupa, que fica trancada no armário de ciências. O segredo do cadeado é o número de potes da prateleira de cima.</div>
+  <div class="problema"><p>Na prateleira de cima há <b>4 fileiras</b> de potes. Cada fileira tem <b>10 potes</b>.</p><p class="pergunta">Quantos potes há na prateleira?</p></div>
+  <div class="espaco"><span>Espaço da equipe — mostrem como pensaram</span></div>
+  <div class="passos">
+    <span>☐ Achamos os dados</span><span>☐ Escolhemos a conta</span><span>☐ Resolvemos</span><span>☐ Conferimos se faz sentido</span>
+  </div>
+  <div class="resposta">Nossa resposta: <span class="linha"></span></div>
+  <div class="cadeado">
+    <div class="cad-tit">ABRAM O CADEADO — procurem a resposta de vocês na tabela e leiam a pista</div>
+    <table><tr><td class="val">14</td><td>O cadeado abriu! Na lupa, os pelos são caramelo. <b>Risquem o TICO.</b></td></tr><tr><td class="val">30</td><td>O cadeado abriu! Na lupa, os pelos são caramelo. <b>Risquem o MINGAU.</b></td></tr><tr><td class="val">40</td><td>O cadeado abriu! Na lupa, os pelos são BRANCOS. <b>Risquem a PIPOCA (pelo caramelo).</b></td></tr><tr><td class="val">50</td><td>O cadeado abriu! Na lupa, os pelos são pretos. <b>Risquem a PIPOCA e o TICO.</b></td></tr></table>
+  </div>
+  <div class="rodape">EF03MA07 · O Mistério da Horta</div>
+</section>
+<section class="pagina etapa">
+  <div class="topo"><span class="marca">MATEMÁTICA EM MISSÃO</span><span class="serie">3º ano</span><span class="dir">Nível 2 <span class="estrelas">★★</span></span></div>
+  <div class="etapa-tit"><span class="num">Etapa 3 de 4</span><h2>As pilhas da câmera</h2></div>
+  <div class="cena">A câmera do pátio filmou a horta no fim de semana, mas a tela para ver o vídeo está sem pilha. A equipe vai até a papelaria da esquina.</div>
+  <div class="problema"><p>O pacote de pilhas custa <b>R$ 13</b>. A turma tem <b>1 nota de R$ 10</b>, <b>1 nota de R$ 5</b> e <b>2 notas de R$ 2</b>.</p><p class="pergunta">Depois de pagar as pilhas, quanto dinheiro sobra?</p></div>
+  <div class="espaco"><span>Espaço da equipe — mostrem como pensaram</span></div>
+  <div class="passos">
+    <span>☐ Achamos os dados</span><span>☐ Escolhemos a conta</span><span>☐ Resolvemos</span><span>☐ Conferimos se faz sentido</span>
+  </div>
+  <div class="resposta">Nossa resposta: <span class="linha"></span></div>
+  <div class="cadeado">
+    <div class="cad-tit">ABRAM O CADEADO — procurem a resposta de vocês na tabela e leiam a pista</div>
+    <table><tr><td class="val">R$ 2</td><td>Compra feita! No vídeo aparece uma sombra com rabo comprido e bigodes. <b>Risquem o TICO.</b></td></tr><tr><td class="val">R$ 4</td><td>Compra feita! No vídeo aparece uma sombra de botas. <b>Risquem o MINGAU e o TICO.</b></td></tr><tr><td class="val">R$ 6</td><td>Compra feita! No vídeo aparece uma sombra com ORELHAS COMPRIDAS pulando a cerca baixinha. <b>Risquem o MINGAU.</b></td></tr><tr><td class="val">R$ 19</td><td>Compra feita! No vídeo aparece uma sombra latindo. <b>Risquem o TICO.</b></td></tr></table>
+  </div>
+  <div class="rodape">EF03MA24 · O Mistério da Horta</div>
+</section>
+<section class="pagina etapa">
+  <div class="topo"><span class="marca">MATEMÁTICA EM MISSÃO</span><span class="serie">3º ano</span><span class="dir">Nível 2 <span class="estrelas">★★</span></span></div>
+  <div class="etapa-tit"><span class="num">Etapa 4 de 4</span><h2>A caixa do 1º ano</h2></div>
+  <div class="cena">A sombra foi na direção da sala do 1º ano. Lá, a professora Ana mostra a caixa onde fica o caderno de cuidados do Tico. A caixa tem um cadeado de números: o segredo é quantas rodelas de cenoura o Tico come por dia.</div>
+  <div class="problema"><p>A professora Ana separou <b>28 rodelas</b> de cenoura para <b>4 dias</b>. O Tico come a mesma quantidade todo dia.</p><p class="pergunta">Quantas rodelas o Tico come por dia?</p></div>
+  <div class="espaco"><span>Espaço da equipe — mostrem como pensaram</span></div>
+  <div class="passos">
+    <span>☐ Achamos os dados</span><span>☐ Escolhemos a conta</span><span>☐ Resolvemos</span><span>☐ Conferimos se faz sentido</span>
+  </div>
+  <div class="resposta">Nossa resposta: <span class="linha"></span></div>
+  <div class="cadeado">
+    <div class="cad-tit">ABRAM O CADEADO — procurem a resposta de vocês na tabela e leiam a pista</div>
+    <table><tr><td class="val">7</td><td>A caixa abriu! No caderno está escrito: “Sexta, 17h: esqueci a GAIOLA DO TICO ABERTA.” Agora vocês sabem quem foi e como saiu.</td></tr><tr><td class="val">8</td><td>A caixa abriu! No caderno: “O Tico dormiu na gaiola fechada o fim de semana todo.”</td></tr><tr><td class="val">24</td><td>A caixa abriu! No caderno: “Sexta: o Seu Zé levou o Tico para passear na horta.”</td></tr><tr><td class="val">32</td><td>A caixa abriu! No caderno: “A Pipoca entrou na sala do 1º ano no sábado.”</td></tr></table>
+  </div>
+  <div class="rodape">EF03MA08 · O Mistério da Horta</div>
+</section>
+<section class="pagina etapa">
+  <div class="topo"><span class="marca">MATEMÁTICA EM MISSÃO</span><span class="serie">3º ano</span><span class="dir">Nível 3 <span class="estrelas">★★★</span></span></div>
+  <div class="etapa-tit"><span class="num">Etapa 1 de 4</span><h2>O estrago na horta</h2></div>
+  <div class="cena">Na horta, a equipe encontrou fios presos na cerca. Antes de examinar os fios, a diretora quer saber o tamanho do estrago.</div>
+  <div class="problema"><p>A horta tem <b>4 canteiros</b>. Na sexta-feira, havia <b>86 cenouras</b>. No sábado, a turma da tarde colheu <b>20 cenouras</b> para a sopa. Hoje, <b>49</b> estão inteiras.</p><p class="pergunta">Quantas cenouras foram mordidas?</p></div>
+  <div class="espaco"><span>Espaço da equipe — mostrem como pensaram</span></div>
+  <div class="passos">
+    <span>☐ Achamos os dados</span><span>☐ Escolhemos a conta</span><span>☐ Resolvemos</span><span>☐ Conferimos se faz sentido</span>
+  </div>
+  <div class="resposta">Nossa resposta: <span class="linha"></span></div>
+  <div class="cadeado">
+    <div class="cad-tit">ABRAM O CADEADO — procurem a resposta de vocês na tabela e leiam a pista</div>
+    <table><tr><td class="val">13</td><td>Os fios são de lã, de um cachecol. Animal não usa cachecol. <b>Risquem o TICO.</b></td></tr><tr><td class="val">17</td><td>Os fios da cerca são PELOS DE ANIMAL. Pessoas não têm pelo assim. <b>Risquem o SEU ZÉ.</b></td></tr><tr><td class="val">37</td><td>Os fios são pretos e grossos. <b>Risquem o MINGAU.</b></td></tr><tr><td class="val">155</td><td>Os fios são cabelos compridos de gente. <b>Risquem a PIPOCA.</b></td></tr></table>
+  </div>
+  <div class="rodape">EF03MA06 · O Mistério da Horta</div>
+</section>
+<section class="pagina etapa">
+  <div class="topo"><span class="marca">MATEMÁTICA EM MISSÃO</span><span class="serie">3º ano</span><span class="dir">Nível 3 <span class="estrelas">★★★</span></span></div>
+  <div class="etapa-tit"><span class="num">Etapa 2 de 4</span><h2>O armário da lupa</h2></div>
+  <div class="cena">Para examinar os fios, a equipe precisa da lupa, que fica trancada no armário de ciências. O segredo do cadeado é o número de potes da prateleira de cima.</div>
+  <div class="problema"><p>Na prateleira de cima há <b>5 fileiras</b> com <b>4 potes</b> em cada uma. Em cima do armário, há mais <b>3 potes</b>, que também são da prateleira de cima.</p><p class="pergunta">Quantos potes são ao todo?</p></div>
+  <div class="espaco"><span>Espaço da equipe — mostrem como pensaram</span></div>
+  <div class="passos">
+    <span>☐ Achamos os dados</span><span>☐ Escolhemos a conta</span><span>☐ Resolvemos</span><span>☐ Conferimos se faz sentido</span>
+  </div>
+  <div class="resposta">Nossa resposta: <span class="linha"></span></div>
+  <div class="cadeado">
+    <div class="cad-tit">ABRAM O CADEADO — procurem a resposta de vocês na tabela e leiam a pista</div>
+    <table><tr><td class="val">12</td><td>O cadeado abriu! Na lupa, os pelos são caramelo. <b>Risquem o TICO.</b></td></tr><tr><td class="val">20</td><td>O cadeado abriu! Na lupa, os pelos são caramelo. <b>Risquem o MINGAU.</b></td></tr><tr><td class="val">23</td><td>O cadeado abriu! Na lupa, os pelos são BRANCOS. <b>Risquem a PIPOCA (pelo caramelo).</b></td></tr><tr><td class="val">35</td><td>O cadeado abriu! Na lupa, os pelos são pretos. <b>Risquem a PIPOCA e o TICO.</b></td></tr></table>
+  </div>
+  <div class="rodape">EF03MA07 · O Mistério da Horta</div>
+</section>
+<section class="pagina etapa">
+  <div class="topo"><span class="marca">MATEMÁTICA EM MISSÃO</span><span class="serie">3º ano</span><span class="dir">Nível 3 <span class="estrelas">★★★</span></span></div>
+  <div class="etapa-tit"><span class="num">Etapa 3 de 4</span><h2>As pilhas da câmera</h2></div>
+  <div class="cena">A câmera do pátio filmou a horta no fim de semana, mas a tela para ver o vídeo está sem pilha. A equipe vai até a papelaria da esquina.</div>
+  <div class="problema"><p>Na papelaria, as pilhas custam <b>R$ 13</b> e um rolo de fita custa <b>R$ 5</b>. A turma precisa das duas coisas e tem <b>2 notas de R$ 10</b> e <b>3 moedas de R$ 1</b>.</p><p class="pergunta">Depois de comprar as pilhas e a fita, quanto dinheiro sobra?</p></div>
+  <div class="espaco"><span>Espaço da equipe — mostrem como pensaram</span></div>
+  <div class="passos">
+    <span>☐ Achamos os dados</span><span>☐ Escolhemos a conta</span><span>☐ Resolvemos</span><span>☐ Conferimos se faz sentido</span>
+  </div>
+  <div class="resposta">Nossa resposta: <span class="linha"></span></div>
+  <div class="cadeado">
+    <div class="cad-tit">ABRAM O CADEADO — procurem a resposta de vocês na tabela e leiam a pista</div>
+    <table><tr><td class="val">R$ 2</td><td>Compra feita! No vídeo aparece uma sombra com rabo comprido e bigodes. <b>Risquem o TICO.</b></td></tr><tr><td class="val">R$ 5</td><td>Compra feita! No vídeo aparece uma sombra com ORELHAS COMPRIDAS pulando a cerca baixinha. <b>Risquem o MINGAU.</b></td></tr><tr><td class="val">R$ 10</td><td>Compra feita! No vídeo aparece uma sombra de botas. <b>Risquem o MINGAU e o TICO.</b></td></tr><tr><td class="val">R$ 41</td><td>Compra feita! No vídeo aparece uma sombra latindo. <b>Risquem o TICO.</b></td></tr></table>
+  </div>
+  <div class="rodape">EF03MA24 · O Mistério da Horta</div>
+</section>
+<section class="pagina etapa">
+  <div class="topo"><span class="marca">MATEMÁTICA EM MISSÃO</span><span class="serie">3º ano</span><span class="dir">Nível 3 <span class="estrelas">★★★</span></span></div>
+  <div class="etapa-tit"><span class="num">Etapa 4 de 4</span><h2>A caixa do 1º ano</h2></div>
+  <div class="cena">A sombra foi na direção da sala do 1º ano. Lá, a professora Ana mostra a caixa onde fica o caderno de cuidados do Tico. A caixa tem um cadeado de números: o segredo é quantas rodelas de cenoura o Tico come por dia.</div>
+  <div class="problema"><p>A professora Ana tinha <b>35 rodelas</b> de cenoura. O Tico já comeu <b>5</b>. O resto vai ser dividido igualmente em <b>6 dias</b>.</p><p class="pergunta">Quantas rodelas o Tico vai comer por dia?</p></div>
+  <div class="espaco"><span>Espaço da equipe — mostrem como pensaram</span></div>
+  <div class="passos">
+    <span>☐ Achamos os dados</span><span>☐ Escolhemos a conta</span><span>☐ Resolvemos</span><span>☐ Conferimos se faz sentido</span>
+  </div>
+  <div class="resposta">Nossa resposta: <span class="linha"></span></div>
+  <div class="cadeado">
+    <div class="cad-tit">ABRAM O CADEADO — procurem a resposta de vocês na tabela e leiam a pista</div>
+    <table><tr><td class="val">5</td><td>A caixa abriu! No caderno está escrito: “Sexta, 17h: esqueci a GAIOLA DO TICO ABERTA.” Agora vocês sabem quem foi e como saiu.</td></tr><tr><td class="val">6</td><td>A caixa abriu! No caderno: “O Tico dormiu na gaiola fechada o fim de semana todo.”</td></tr><tr><td class="val">7</td><td>A caixa abriu! No caderno: “Sexta: o Seu Zé levou o Tico para passear na horta.”</td></tr><tr><td class="val">24</td><td>A caixa abriu! No caderno: “A Pipoca entrou na sala do 1º ano no sábado.”</td></tr></table>
+  </div>
+  <div class="rodape">EF03MA08 · O Mistério da Horta</div>
+</section>
+<section class="pagina final">
+  <div class="topo"><span class="marca">MATEMÁTICA EM MISSÃO</span><span class="serie">3º ano</span><span class="dir">Ficha final do grupo</span></div>
+  <h1 class="titulo-missao pequeno">O Mistério da Horta — ficha final</h1>
+  <p>Grupo: <span class="linha curta"></span> &nbsp; Nível: ☐ ★ ☐ ★★ ☐ ★★★</p>
+  <h2>Pistas que vocês encontraram</h2>
+  <ol class="pistas"><li><span class="linha"></span></li><li><span class="linha"></span></li><li><span class="linha"></span></li><li><span class="linha"></span></li></ol>
+  <h2>Risquem os suspeitos que as pistas tiraram do caso</h2>
+  <div class="riscos"><div class="risco"><span class="caixa"></span>SEU ZÉ</div><div class="risco"><span class="caixa"></span>PIPOCA</div><div class="risco"><span class="caixa"></span>MINGAU</div><div class="risco"><span class="caixa"></span>TICO</div></div>
+  <div class="perg"><b>Quem mordeu as cenouras?</b><div class="linhas"><span></span><span></span></div></div><div class="perg"><b>Como ele saiu de onde estava?</b><div class="linhas"><span></span><span></span></div></div><div class="perg"><b>O que a turma sugere para proteger a horta?</b><div class="linhas"><span></span><span></span></div></div>
+  <div class="confere"><b>Conferência dos investigadores:</b> sobrou só um suspeito? A última pista combina com ele? Se sobrou mais de um, ou se a última pista fala de alguém que vocês riscaram, uma conta está errada. Voltem às etapas e procurem!</div>
+  <div class="carimbo">MISSÃO CUMPRIDA<br><span>assinatura da equipe</span></div>
+</section>
+</body></html>

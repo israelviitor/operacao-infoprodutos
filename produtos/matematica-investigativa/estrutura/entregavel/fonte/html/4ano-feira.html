@@ -1,0 +1,327 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>O Caso da Nota Sumida — 4º ano</title><style>
+@page { size: A4; margin: 13mm 15mm; }
+* { box-sizing: border-box; }
+body { font-family: Inter, 'DejaVu Sans', sans-serif; color: #000; font-size: 12.5pt; line-height: 1.38; margin: 0; }
+.pagina { page-break-after: always; position: relative; min-height: 268mm; }
+.pagina:last-child { page-break-after: auto; }
+.pagina.etapa { display: flex; flex-direction: column; height: 268mm; min-height: 0; padding-bottom: 6mm; }
+.pagina.etapa > * { flex: none; }
+.topo { display: flex; gap: 10px; align-items: center; border-bottom: 1.5px solid #000; padding-bottom: 4px; margin-bottom: 10px; font-size: 9.5pt; letter-spacing: .04em; }
+.topo .marca { font-weight: 800; }
+.topo .serie { border: 1px solid #000; border-radius: 10px; padding: 0 8px; font-weight: 700; }
+.topo .dir { margin-left: auto; font-weight: 700; }
+.estrelas, .nv { font-family: 'DejaVu Sans', sans-serif; letter-spacing: 1px; }
+h1.titulo-missao { font-size: 22pt; margin: 6px 0 4px; line-height: 1.1; }
+h1.grande { font-size: 30pt; margin-top: 2px; }
+h1.pequeno { font-size: 17pt; }
+h2 { font-size: 14pt; margin: 14px 0 6px; }
+h3 { font-size: 12pt; margin: 12px 0 4px; }
+.sub { margin: 0 0 8px; font-size: 12pt; }
+.ficha-tecnica { border: 1px solid #000; border-radius: 6px; padding: 6px 10px; font-size: 11pt; display: grid; gap: 2px; }
+ol.roteiro li { margin-bottom: 5px; font-size: 11.5pt; }
+table { border-collapse: collapse; width: 100%; }
+table.hab th, table.hab td, table.gab th, table.gab td { border: 1px solid #555; padding: 4px 6px; font-size: 10pt; vertical-align: top; text-align: left; }
+th { font-weight: 700; }
+.cod { font-size: 9pt; font-weight: 600; white-space: nowrap; }
+.saeb { font-weight: 400; }
+.nota { font-size: 9pt; margin-top: 6px; }
+/* gabarito */
+.gabarito { font-size: 10.5pt; }
+table.gab ul { margin: 0; padding-left: 14px; }
+table.gab td.resp { font-weight: 800; white-space: nowrap; }
+.pista-gab { font-size: 9.5pt; margin: 3px 0 0; }
+.solucao { border: 1.5px solid #000; border-radius: 6px; padding: 6px 10px; margin-top: 12px; }
+/* abertura */
+.selo { display: inline-block; border: 2px solid #000; padding: 2px 10px; font-weight: 800; letter-spacing: .3em; margin-top: 4px; transform: rotate(-2deg); }
+.historia p { font-size: 15pt; margin: 0 0 8px; }
+.cards { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.card { border: 1.5px solid #000; border-radius: 8px; padding: 12px 10px; min-height: 30mm; display: flex; gap: 10px; align-items: flex-start; }
+.inicial { width: 42px; height: 42px; flex: none; border: 2px solid #000; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 20pt; font-weight: 800; }
+.card .nome { font-weight: 800; font-size: 14.5pt; }
+.card .desc { font-size: 12.5pt; }
+.missao-box { border: 2px dashed #000; border-radius: 8px; padding: 12px 14px; margin-top: 18px; font-size: 15pt; }
+.como { font-size: 12.5pt; margin-top: 14px; }
+/* etapa */
+.etapa-tit { display: flex; align-items: baseline; gap: 10px; }
+.etapa-tit .num { border: 1.5px solid #000; border-radius: 4px; padding: 0 6px; font-weight: 800; font-size: 10.5pt; white-space: nowrap; }
+.etapa-tit h2 { margin: 6px 0; font-size: 17pt; }
+.cena { font-style: italic; border-left: 3px solid #000; padding-left: 10px; margin: 4px 0 10px; font-size: 13pt; }
+.problema { font-size: 15pt; line-height: 1.45; }
+.problema p { margin: 0 0 6px; }
+.problema .pergunta { font-weight: 800; }
+.figura { margin: 6px 0; }
+.pagina.etapa > .espaco { border: 1px solid #000; border-radius: 6px; flex: 1 1 auto; min-height: 40mm; margin-top: 8px; position: relative;
+  background-image: radial-gradient(#bbb 0.6px, transparent 0.7px); background-size: 5mm 5mm; }
+.espaco span { position: absolute; top: -9px; left: 10px; background: #fff; padding: 0 6px; font-size: 9.5pt; font-weight: 700; }
+.passos { display: flex; justify-content: space-between; font-size: 11.5pt; margin: 6px 0; }
+.resposta { font-size: 13pt; font-weight: 800; margin: 4px 0 8px; display: flex; align-items: flex-end; gap: 8px; }
+.linha { display: inline-block; border-bottom: 1px solid #000; flex: 1; min-width: 60mm; height: 1.1em; }
+.linha.curta { min-width: 50mm; }
+.cadeado { border: 2px solid #000; border-radius: 8px; padding: 6px 8px; }
+.cad-tit { font-weight: 800; font-size: 10.5pt; margin-bottom: 4px; }
+.cadeado td { border-top: 1px dashed #777; padding: 4px 6px; font-size: 11.5pt; vertical-align: top; }
+.cadeado td.val { font-weight: 800; font-size: 12.5pt; width: 26mm; white-space: nowrap; }
+.rodape { position: absolute; bottom: 0; left: 0; right: 0; font-size: 8pt; color: #333; border-top: 1px solid #999; padding-top: 2px; }
+/* final */
+.final p { margin: 4px 0; }
+ol.pistas li { margin: 8px 0; }
+ol.pistas .linha { width: 95%; }
+.riscos { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.risco { border: 1.5px solid #000; border-radius: 6px; padding: 8px; font-weight: 800; display: flex; gap: 8px; align-items: center; }
+.risco .caixa { width: 16px; height: 16px; border: 1.5px solid #000; display: inline-block; }
+.perg { margin-top: 10px; }
+.perg .linhas span { display: block; border-bottom: 1px solid #000; height: 11mm; }
+.confere { border: 1.5px dashed #000; border-radius: 6px; padding: 6px 10px; margin-top: 12px; font-size: 11pt; }
+.carimbo { margin: 14px auto 0; width: 70mm; text-align: center; border: 3px double #000; border-radius: 8px; padding: 8px; font-weight: 800; letter-spacing: .12em; transform: rotate(-3deg); }
+.carimbo span { display: block; margin-top: 18mm; border-top: 1px solid #000; font-size: 8.5pt; font-weight: 400; letter-spacing: 0; }
+</style></head><body>
+<section class="pagina prof">
+  <div class="topo"><span class="marca">MATEMÁTICA EM MISSÃO</span><span class="serie">4º ano</span><span class="dir">Página da professora</span></div>
+  <h1 class="titulo-missao">O Caso da Nota Sumida</h1>
+  <p class="sub">No fim da Feira do Livro, falta uma nota de R$ 50 no caixa. A turma testa 4 explicações até achar a verdadeira, sem acusar ninguém.</p>
+  <div class="ficha-tecnica">
+    <div><b>Tempo:</b> 45 a 50 minutos</div>
+    <div><b>Grupos:</b> 3 a 5 alunos (ou individual)</div>
+    <div><b>Imprimir por grupo:</b> 6 folhas em preto e branco — abertura + 4 etapas do nível do grupo + ficha final</div>
+  </div>
+  <h2>Roteiro de 2 minutos</h2>
+  <ol class="roteiro">
+    <li><b>Monte os grupos e escolha o nível de cada um.</b> O mistério é o mesmo nos 3 níveis; só mudam os números e a quantidade de passos. Nível 1 ★ = apoio · Nível 2 ★★ = esperado para a série · Nível 3 ★★★ = desafio.</li>
+    <li><b>Leia a abertura em voz alta</b> (ou entregue uma por grupo). Mostre os 4 explicações possíveis e combine a missão: descobrir o que aconteceu com a nota de R$ 50.</li>
+    <li><b>Entregue as 4 etapas grampeadas.</b> Em cada etapa, ninguém diz qual conta fazer: o grupo acha os dados, escolhe a conta, resolve e confere.</li>
+    <li><b>O cadeado no pé da página corrige sozinho.</b> As respostas erradas da tabela são os erros mais comuns da série e levam a pistas falsas. Na ficha final, a conclusão não fecha e o grupo volta para procurar o erro.</li>
+    <li><b>Feche com 5 minutos de conversa:</b> peça a cada grupo para contar <i>como decidiu qual conta fazer</i> em uma das etapas. Confira com o gabarito comentado.</li>
+  </ol>
+  <h2>Habilidades trabalhadas</h2>
+  <table class="hab"><thead><tr><th>Etapa</th><th>Cena</th><th>Conteúdo</th><th>Código</th></tr></thead><tbody><tr><td>1</td><td>O caderno de vendas</td><td>Adição e subtração com números naturais</td><td class="cod">EF04MA03</td></tr><tr><td>2</td><td>O troco da compra grande</td><td>Compra, pagamento, troco e desconto</td><td class="cod">EF04MA25</td></tr><tr><td>3</td><td>A varrida da quadra</td><td>Medidas de tempo: início, fim e duração</td><td class="cod">EF04MA22</td></tr><tr><td>4</td><td>O livro de receitas</td><td>Divisão: repartir em partes iguais</td><td class="cod">EF04MA07</td></tr></tbody></table>
+  <p class="nota">Os códigos são da BNCC. Material independente, sem vínculo com o MEC ou o Inep.</p>
+</section>
+<section class="pagina gabarito">
+  <div class="topo"><span class="marca">MATEMÁTICA EM MISSÃO</span><span class="serie">4º ano</span><span class="dir">Gabarito comentado — professora</span></div>
+  <h1 class="titulo-missao pequeno">O Caso da Nota Sumida — gabarito</h1>
+  <h3>Etapa 1 — O caderno de vendas <span class="cod">EF04MA03</span></h3>
+    <table class="gab"><thead><tr><th>Nível</th><th>Resposta</th><th>Conta</th><th>Se o grupo marcou outra opção</th></tr></thead><tbody><tr><td class="nv">★</td><td class="resp">23</td><td>58 − 35 = 23</td><td><ul><li><b>13</b> — errou a subtração das dezenas (5 − 3 = 2, não 1).</li><li><b>35</b> — copiou o número de livros que sobraram.</li><li><b>93</b> — somou 58 + 35.</li></ul></td></tr><tr><td class="nv">★★</td><td class="resp">23</td><td>120 − 97 = 23 (ou: de 97 até 100 faltam 3; de 100 até 120, mais 20)</td><td><ul><li><b>33</b> — desagrupou a centena mas esqueceu de tirar 1 das dezenas.</li><li><b>177</b> — tirou o menor algarismo do maior em cada coluna (7 − 0, 9 − 2), sem desagrupar.</li><li><b>217</b> — somou 120 + 97.</li></ul></td></tr><tr><td class="nv">★★★</td><td class="resp">23</td><td>3 × 40 = 120 · 120 − 97 = 23</td><td><ul><li><b>54</b> — somou as caixas com os livros (3 + 40 = 43) e tirou de 97.</li><li><b>57</b> — usou só uma caixa (97 − 40).</li><li><b>217</b> — calculou 120 livros, mas somou 97 em vez de tirar.</li></ul></td></tr></tbody></table>
+    <p class="pista-gab"><b>Pista verdadeira:</b> O caderno de vendas confere com esse número de livros. <b>Risquem a explicação A.</b></p><h3>Etapa 2 — O troco da compra grande <span class="cod">EF04MA25</span></h3>
+    <table class="gab"><thead><tr><th>Nível</th><th>Resposta</th><th>Conta</th><th>Se o grupo marcou outra opção</th></tr></thead><tbody><tr><td class="nv">★</td><td class="resp">R$ 32</td><td>2 × 9 = 18 reais · 50 − 18 = 32 reais</td><td><ul><li><b>R$ 18</b> — calculou só o valor da compra e esqueceu o troco.</li><li><b>R$ 41</b> — contou só 1 livro (50 − 9).</li><li><b>R$ 68</b> — somou 50 + 18.</li></ul></td></tr><tr><td class="nv">★★</td><td class="resp">R$ 10</td><td>3 × 12 = 36 · 36 + 4 = 40 reais · 50 − 40 = 10 reais</td><td><ul><li><b>R$ 14</b> — esqueceu o marcador (50 − 36).</li><li><b>R$ 34</b> — contou só 1 livro (50 − 12 − 4).</li><li><b>R$ 40</b> — calculou o valor da compra e esqueceu o troco.</li></ul></td></tr><tr><td class="nv">★★★</td><td class="resp">R$ 11</td><td>4 × 11 = 44 · 44 − 5 = 39 reais · 50 − 39 = 11 reais</td><td><ul><li><b>R$ 1</b> — somou o desconto em vez de tirar (44 + 5 = 49).</li><li><b>R$ 6</b> — esqueceu o desconto (50 − 44).</li><li><b>R$ 39</b> — calculou o valor da compra e esqueceu o troco.</li></ul></td></tr></tbody></table>
+    <p class="pista-gab"><b>Pista verdadeira:</b> Troco de …: é o que a Dona Cida anotou. <b>Risquem a explicação B.</b></p><h3>Etapa 3 — A varrida da quadra <span class="cod">EF04MA22</span></h3>
+    <table class="gab"><thead><tr><th>Nível</th><th>Resposta</th><th>Conta</th><th>Se o grupo marcou outra opção</th></tr></thead><tbody><tr><td class="nv">★</td><td class="resp">45 min</td><td>de 16h00 até 16h45 → 45 minutos</td><td><ul><li><b>15 min</b> — calculou quanto falta para 17h00 (60 − 45).</li><li><b>30 min</b> — contou só até 16h30.</li><li><b>60 min</b> — achou que levou uma hora inteira.</li></ul></td></tr><tr><td class="nv">★★</td><td class="resp">40 min</td><td>de 16h25 até 17h00 = 35 min · de 17h00 até 17h05 = 5 min · 35 + 5 = 40 min</td><td><ul><li><b>20 min</b> — contou só de 16h25 até 16h45.</li><li><b>60 min</b> — achou que levou uma hora inteira.</li><li><b>80 min</b> — fez 1705 − 1625 como se a hora tivesse 100 minutos.</li></ul></td></tr><tr><td class="nv">★★★</td><td class="resp">17h00</td><td>35 + 10 + 25 = 70 min = 1 h 10 min · 15h50 + 1 h 10 min = 17h00</td><td><ul><li><b>15h120</b> — somou 50 + 70 = 120 minutos e não trocou 60 minutos por 1 hora.</li><li><b>16h25</b> — contou só a primeira parte (15h50 + 35 min).</li><li><b>16h50</b> — esqueceu a pausa de 10 minutos.</li></ul></td></tr></tbody></table>
+    <p class="pista-gab"><b>Pista verdadeira:</b> O vídeo confere com …. O Seu Paulo varreu a quadra toda e <b>não achou nenhuma nota</b>. <b>Risquem a explicação C.</b></p><h3>Etapa 4 — O livro de receitas <span class="cod">EF04MA07</span></h3>
+    <table class="gab"><thead><tr><th>Nível</th><th>Resposta</th><th>Conta</th><th>Se o grupo marcou outra opção</th></tr></thead><tbody><tr><td class="nv">★</td><td class="resp">10</td><td>40 ÷ 4 = 10 páginas por capítulo · o 1º capítulo termina na página 10</td><td><ul><li><b>36</b> — tirou 4 de 40 em vez de dividir.</li><li><b>44</b> — somou 40 + 4.</li><li><b>160</b> — multiplicou 40 × 4.</li></ul></td></tr><tr><td class="nv">★★</td><td class="resp">25</td><td>96 ÷ 4 = 24 · Salgados vai até a página 24 · Doces começa na página 25</td><td><ul><li><b>24</b> — achou o fim do capítulo Salgados, não o começo de Doces.</li><li><b>49</b> — achou o começo do 3º capítulo (Sucos).</li><li><b>92</b> — tirou 4 de 96 em vez de dividir.</li></ul></td></tr><tr><td class="nv">★★★</td><td class="resp">49</td><td>144 ÷ 6 = 24 páginas por capítulo · os 2 primeiros vão até a página 48 · o 3º começa na 49</td><td><ul><li><b>24</b> — só dividiu: achou quantas páginas tem cada capítulo.</li><li><b>48</b> — achou o fim do 2º capítulo, não o começo do 3º.</li><li><b>72</b> — achou o fim do 3º capítulo (3 × 24).</li></ul></td></tr></tbody></table>
+    <p class="pista-gab"><b>Pista verdadeira:</b> Na página … do livro de receitas estava <b>A NOTA DE R$ 50</b>, usada como marcador de página!</p>
+  <div class="solucao"><b>Solução do caso:</b> <b>D — a nota foi guardada.</b> No intervalo, a Dona Cida leu o livro de receitas da banca e usou a nota de R$ 50 como marcador de página. Ordem das pistas: caderno confere (sai A) → troco certo (sai B) → quadra varrida sem nota (sai C) → nota achada no livro de receitas (confirma D).</div>
+</section>
+<section class="pagina abertura">
+  <div class="topo"><span class="marca">MATEMÁTICA EM MISSÃO</span><span class="serie">4º ano</span><span class="dir">Abertura do caso</span></div>
+  <div class="selo">MISSÃO</div>
+  <h1 class="titulo-missao grande">O Caso da Nota Sumida</h1>
+  <div class="historia"><p>Sexta-feira foi dia de <b>Feira do Livro</b> na escola. No fim da tarde, a Dona Cida, que cuidou da banca, contou o dinheiro do caixa e levou um susto: <b>faltava uma nota de R$ 50!</b></p><p>A diretora avisou: — Aqui ninguém acusa ninguém sem prova. Quero uma equipe de investigação para testar cada explicação com as contas certas.</p><p>A Dona Cida pensou em 4 explicações. Só uma é verdadeira.</p></div>
+  <h2>As 4 explicações possíveis</h2>
+  <div class="cards"><div class="card"><div class="inicial">A</div><div><div class="nome">A — O CADERNO ERROU</div><div class="desc">Anotaram no caderno de vendas mais livros do que foram vendidos.</div></div></div><div class="card"><div class="inicial">B</div><div><div class="nome">B — O TROCO SAIU ERRADO</div><div class="desc">Numa compra grande, alguém recebeu troco a mais.</div></div></div><div class="card"><div class="inicial">C</div><div><div class="nome">C — A NOTA CAIU NA QUADRA</div><div class="desc">A nota caiu no chão e foi varrida junto com o lixo.</div></div></div><div class="card"><div class="inicial">D</div><div><div class="nome">D — A NOTA FOI GUARDADA</div><div class="desc">Alguém guardou a nota em outro lugar e esqueceu.</div></div></div></div>
+  <div class="missao-box"><b>A missão de vocês:</b> testar as 4 explicações e descobrir <b>onde está a nota de R$ 50</b>.</div>
+  <div class="como"><b>Como funciona:</b> são 4 etapas. Em cada uma, vocês resolvem um problema e usam a resposta para abrir o cadeado. Só a resposta certa traz a pista verdadeira. Nenhuma etapa diz qual conta fazer: descubram!</div>
+</section>
+<section class="pagina etapa">
+  <div class="topo"><span class="marca">MATEMÁTICA EM MISSÃO</span><span class="serie">4º ano</span><span class="dir">Nível 1 <span class="estrelas">★</span></span></div>
+  <div class="etapa-tit"><span class="num">Etapa 1 de 4</span><h2>O caderno de vendas</h2></div>
+  <div class="cena">A equipe começa pelo caderno de vendas. Para saber se ele está certo, vocês vão contar quantos livros foram vendidos de verdade.</div>
+  <div class="problema"><p>A banca começou o dia com <b>58 livros</b>. No fim do dia, sobraram <b>35 livros</b>.</p><p class="pergunta">Quantos livros foram vendidos?</p></div>
+  <div class="espaco"><span>Espaço da equipe — mostrem como pensaram</span></div>
+  <div class="passos">
+    <span>☐ Achamos os dados</span><span>☐ Escolhemos a conta</span><span>☐ Resolvemos</span><span>☐ Conferimos se faz sentido</span>
+  </div>
+  <div class="resposta">Nossa resposta: <span class="linha"></span></div>
+  <div class="cadeado">
+    <div class="cad-tit">ABRAM O CADEADO — procurem a resposta de vocês na tabela e leiam a pista</div>
+    <table><tr><td class="val">13</td><td>O caderno de vendas confere com esse número de livros. <b>Risquem a explicação B.</b></td></tr><tr><td class="val">23</td><td>O caderno de vendas confere com esse número de livros. <b>Risquem a explicação A.</b></td></tr><tr><td class="val">35</td><td>O caderno de vendas confere com esse número de livros. <b>Risquem a explicação D.</b></td></tr><tr><td class="val">93</td><td>O caderno de vendas confere com esse número de livros. <b>Risquem a explicação C.</b></td></tr></table>
+  </div>
+  <div class="rodape">EF04MA03 · O Caso da Nota Sumida</div>
+</section>
+<section class="pagina etapa">
+  <div class="topo"><span class="marca">MATEMÁTICA EM MISSÃO</span><span class="serie">4º ano</span><span class="dir">Nível 1 <span class="estrelas">★</span></span></div>
+  <div class="etapa-tit"><span class="num">Etapa 2 de 4</span><h2>O troco da compra grande</h2></div>
+  <div class="cena">A Dona Cida lembra de uma compra grande, paga com uma nota de R$ 50. Será que o troco saiu errado? Calculem o troco certo e comparem com o que ela anotou.</div>
+  <div class="problema"><p>Uma mãe comprou <b>2 livros</b> de <b>R$ 9</b> cada um e pagou com <b>uma nota de R$ 50</b>.</p><p class="pergunta">Qual era o troco certo?</p></div>
+  <div class="espaco"><span>Espaço da equipe — mostrem como pensaram</span></div>
+  <div class="passos">
+    <span>☐ Achamos os dados</span><span>☐ Escolhemos a conta</span><span>☐ Resolvemos</span><span>☐ Conferimos se faz sentido</span>
+  </div>
+  <div class="resposta">Nossa resposta: <span class="linha"></span></div>
+  <div class="cadeado">
+    <div class="cad-tit">ABRAM O CADEADO — procurem a resposta de vocês na tabela e leiam a pista</div>
+    <table><tr><td class="val">R$ 18</td><td>Troco de R$ 18: é o que a Dona Cida anotou. <b>Risquem a explicação A.</b></td></tr><tr><td class="val">R$ 32</td><td>Troco de R$ 32: é o que a Dona Cida anotou. <b>Risquem a explicação B.</b></td></tr><tr><td class="val">R$ 41</td><td>Troco de R$ 41: é o que a Dona Cida anotou. <b>Risquem a explicação D.</b></td></tr><tr><td class="val">R$ 68</td><td>Troco de R$ 68: é o que a Dona Cida anotou. <b>Risquem a explicação C.</b></td></tr></table>
+  </div>
+  <div class="rodape">EF04MA25 · O Caso da Nota Sumida</div>
+</section>
+<section class="pagina etapa">
+  <div class="topo"><span class="marca">MATEMÁTICA EM MISSÃO</span><span class="serie">4º ano</span><span class="dir">Nível 1 <span class="estrelas">★</span></span></div>
+  <div class="etapa-tit"><span class="num">Etapa 3 de 4</span><h2>A varrida da quadra</h2></div>
+  <div class="cena">Será que a nota caiu no chão? Depois da feira, o Seu Paulo varreu a quadra inteira e anotou os horários. A diretora vai conferir os horários com o vídeo da câmera.</div>
+  <div class="problema"><p>O Seu Paulo começou a varrer às <b>16h00</b> e terminou às <b>16h45</b>.</p><p class="pergunta">Quantos minutos ele levou para varrer a quadra?</p></div>
+  <div class="espaco"><span>Espaço da equipe — mostrem como pensaram</span></div>
+  <div class="passos">
+    <span>☐ Achamos os dados</span><span>☐ Escolhemos a conta</span><span>☐ Resolvemos</span><span>☐ Conferimos se faz sentido</span>
+  </div>
+  <div class="resposta">Nossa resposta: <span class="linha"></span></div>
+  <div class="cadeado">
+    <div class="cad-tit">ABRAM O CADEADO — procurem a resposta de vocês na tabela e leiam a pista</div>
+    <table><tr><td class="val">15 min</td><td>O vídeo não confere com 15 min... e mostra o Seu Paulo achando um papel verde. <b>Risquem a explicação D.</b></td></tr><tr><td class="val">30 min</td><td>O vídeo confere com 30 min. <b>Risquem as explicações C e D.</b></td></tr><tr><td class="val">45 min</td><td>O vídeo confere com 45 min. O Seu Paulo varreu a quadra toda e não achou nenhuma nota. <b>Risquem a explicação C.</b></td></tr><tr><td class="val">60 min</td><td>O vídeo não confere com 60 min. <b>Risquem a explicação A.</b></td></tr></table>
+  </div>
+  <div class="rodape">EF04MA22 · O Caso da Nota Sumida</div>
+</section>
+<section class="pagina etapa">
+  <div class="topo"><span class="marca">MATEMÁTICA EM MISSÃO</span><span class="serie">4º ano</span><span class="dir">Nível 1 <span class="estrelas">★</span></span></div>
+  <div class="etapa-tit"><span class="num">Etapa 4 de 4</span><h2>O livro de receitas</h2></div>
+  <div class="cena">Sobrou uma explicação. A Dona Cida lembra: no intervalo, ela leu o livro de receitas da banca e marcou onde parou com alguma coisa que estava na mão. Achem a página!</div>
+  <div class="problema"><p>O livro de receitas tem <b>40 páginas</b>, divididas igualmente em <b>4 capítulos</b>. A Dona Cida parou na <b>última página do 1º capítulo</b>.</p><p class="pergunta">Em que página ela parou?</p></div>
+  <div class="espaco"><span>Espaço da equipe — mostrem como pensaram</span></div>
+  <div class="passos">
+    <span>☐ Achamos os dados</span><span>☐ Escolhemos a conta</span><span>☐ Resolvemos</span><span>☐ Conferimos se faz sentido</span>
+  </div>
+  <div class="resposta">Nossa resposta: <span class="linha"></span></div>
+  <div class="cadeado">
+    <div class="cad-tit">ABRAM O CADEADO — procurem a resposta de vocês na tabela e leiam a pista</div>
+    <table><tr><td class="val">10</td><td>Na página 10 do livro de receitas estava A NOTA DE R$ 50, usada como marcador de página!</td></tr><tr><td class="val">36</td><td>Na página 36 há um bilhete: “A nota caiu na quadra.”</td></tr><tr><td class="val">44</td><td>Na página 44 há só uma receita de bolo de fubá. E um bilhete: “Confira o troco de novo.”</td></tr><tr><td class="val">160</td><td>Na página 160 há um bilhete: “O caderno de vendas está errado.”</td></tr></table>
+  </div>
+  <div class="rodape">EF04MA07 · O Caso da Nota Sumida</div>
+</section>
+<section class="pagina etapa">
+  <div class="topo"><span class="marca">MATEMÁTICA EM MISSÃO</span><span class="serie">4º ano</span><span class="dir">Nível 2 <span class="estrelas">★★</span></span></div>
+  <div class="etapa-tit"><span class="num">Etapa 1 de 4</span><h2>O caderno de vendas</h2></div>
+  <div class="cena">A equipe começa pelo caderno de vendas. Para saber se ele está certo, vocês vão contar quantos livros foram vendidos de verdade.</div>
+  <div class="problema"><p>A banca começou o dia com <b>120 livros</b>. No fim do dia, sobraram <b>97 livros</b>.</p><p class="pergunta">Quantos livros foram vendidos?</p></div>
+  <div class="espaco"><span>Espaço da equipe — mostrem como pensaram</span></div>
+  <div class="passos">
+    <span>☐ Achamos os dados</span><span>☐ Escolhemos a conta</span><span>☐ Resolvemos</span><span>☐ Conferimos se faz sentido</span>
+  </div>
+  <div class="resposta">Nossa resposta: <span class="linha"></span></div>
+  <div class="cadeado">
+    <div class="cad-tit">ABRAM O CADEADO — procurem a resposta de vocês na tabela e leiam a pista</div>
+    <table><tr><td class="val">23</td><td>O caderno de vendas confere com esse número de livros. <b>Risquem a explicação A.</b></td></tr><tr><td class="val">33</td><td>O caderno de vendas confere com esse número de livros. <b>Risquem a explicação B.</b></td></tr><tr><td class="val">177</td><td>O caderno de vendas confere com esse número de livros. <b>Risquem a explicação D.</b></td></tr><tr><td class="val">217</td><td>O caderno de vendas confere com esse número de livros. <b>Risquem a explicação C.</b></td></tr></table>
+  </div>
+  <div class="rodape">EF04MA03 · O Caso da Nota Sumida</div>
+</section>
+<section class="pagina etapa">
+  <div class="topo"><span class="marca">MATEMÁTICA EM MISSÃO</span><span class="serie">4º ano</span><span class="dir">Nível 2 <span class="estrelas">★★</span></span></div>
+  <div class="etapa-tit"><span class="num">Etapa 2 de 4</span><h2>O troco da compra grande</h2></div>
+  <div class="cena">A Dona Cida lembra de uma compra grande, paga com uma nota de R$ 50. Será que o troco saiu errado? Calculem o troco certo e comparem com o que ela anotou.</div>
+  <div class="problema"><p>Uma mãe comprou <b>3 livros</b> e <b>1 marcador</b>. Ela pagou com <b>uma nota de R$ 50</b>.</p><table style="width:auto;border-collapse:collapse;font-size:12.5pt"><tr><td style="border:1px solid #000;padding:2px 10px">Livro</td><td style="border:1px solid #000;padding:2px 10px;font-weight:700">R$ 12</td></tr><tr><td style="border:1px solid #000;padding:2px 10px">Marcador de página</td><td style="border:1px solid #000;padding:2px 10px;font-weight:700">R$ 4</td></tr></table><p class="pergunta" style="margin-top:6px">Qual era o troco certo?</p></div>
+  <div class="espaco"><span>Espaço da equipe — mostrem como pensaram</span></div>
+  <div class="passos">
+    <span>☐ Achamos os dados</span><span>☐ Escolhemos a conta</span><span>☐ Resolvemos</span><span>☐ Conferimos se faz sentido</span>
+  </div>
+  <div class="resposta">Nossa resposta: <span class="linha"></span></div>
+  <div class="cadeado">
+    <div class="cad-tit">ABRAM O CADEADO — procurem a resposta de vocês na tabela e leiam a pista</div>
+    <table><tr><td class="val">R$ 10</td><td>Troco de R$ 10: é o que a Dona Cida anotou. <b>Risquem a explicação B.</b></td></tr><tr><td class="val">R$ 14</td><td>Troco de R$ 14: é o que a Dona Cida anotou. <b>Risquem a explicação A.</b></td></tr><tr><td class="val">R$ 34</td><td>Troco de R$ 34: é o que a Dona Cida anotou. <b>Risquem a explicação D.</b></td></tr><tr><td class="val">R$ 40</td><td>Troco de R$ 40: é o que a Dona Cida anotou. <b>Risquem a explicação C.</b></td></tr></table>
+  </div>
+  <div class="rodape">EF04MA25 · O Caso da Nota Sumida</div>
+</section>
+<section class="pagina etapa">
+  <div class="topo"><span class="marca">MATEMÁTICA EM MISSÃO</span><span class="serie">4º ano</span><span class="dir">Nível 2 <span class="estrelas">★★</span></span></div>
+  <div class="etapa-tit"><span class="num">Etapa 3 de 4</span><h2>A varrida da quadra</h2></div>
+  <div class="cena">Será que a nota caiu no chão? Depois da feira, o Seu Paulo varreu a quadra inteira e anotou os horários. A diretora vai conferir os horários com o vídeo da câmera.</div>
+  <div class="problema"><p>O Seu Paulo começou a varrer às <b>16h25</b> e terminou às <b>17h05</b>.</p><p class="pergunta">Quantos minutos ele levou para varrer a quadra?</p></div>
+  <div class="espaco"><span>Espaço da equipe — mostrem como pensaram</span></div>
+  <div class="passos">
+    <span>☐ Achamos os dados</span><span>☐ Escolhemos a conta</span><span>☐ Resolvemos</span><span>☐ Conferimos se faz sentido</span>
+  </div>
+  <div class="resposta">Nossa resposta: <span class="linha"></span></div>
+  <div class="cadeado">
+    <div class="cad-tit">ABRAM O CADEADO — procurem a resposta de vocês na tabela e leiam a pista</div>
+    <table><tr><td class="val">20 min</td><td>O vídeo não confere com 20 min... e mostra o Seu Paulo achando um papel verde. <b>Risquem a explicação D.</b></td></tr><tr><td class="val">40 min</td><td>O vídeo confere com 40 min. O Seu Paulo varreu a quadra toda e não achou nenhuma nota. <b>Risquem a explicação C.</b></td></tr><tr><td class="val">60 min</td><td>O vídeo confere com 60 min. <b>Risquem as explicações C e D.</b></td></tr><tr><td class="val">80 min</td><td>O vídeo não confere com 80 min. <b>Risquem a explicação A.</b></td></tr></table>
+  </div>
+  <div class="rodape">EF04MA22 · O Caso da Nota Sumida</div>
+</section>
+<section class="pagina etapa">
+  <div class="topo"><span class="marca">MATEMÁTICA EM MISSÃO</span><span class="serie">4º ano</span><span class="dir">Nível 2 <span class="estrelas">★★</span></span></div>
+  <div class="etapa-tit"><span class="num">Etapa 4 de 4</span><h2>O livro de receitas</h2></div>
+  <div class="cena">Sobrou uma explicação. A Dona Cida lembra: no intervalo, ela leu o livro de receitas da banca e marcou onde parou com alguma coisa que estava na mão. Achem a página!</div>
+  <div class="problema"><p>O livro de receitas tem <b>96 páginas</b>, divididas igualmente em <b>4 capítulos</b>: Salgados, Doces, Sucos e Sopas. A Dona Cida parou na <b>primeira página do capítulo Doces</b>.</p><p class="pergunta">Em que página ela parou?</p></div>
+  <div class="espaco"><span>Espaço da equipe — mostrem como pensaram</span></div>
+  <div class="passos">
+    <span>☐ Achamos os dados</span><span>☐ Escolhemos a conta</span><span>☐ Resolvemos</span><span>☐ Conferimos se faz sentido</span>
+  </div>
+  <div class="resposta">Nossa resposta: <span class="linha"></span></div>
+  <div class="cadeado">
+    <div class="cad-tit">ABRAM O CADEADO — procurem a resposta de vocês na tabela e leiam a pista</div>
+    <table><tr><td class="val">24</td><td>Na página 24 há um bilhete: “A nota caiu na quadra.”</td></tr><tr><td class="val">25</td><td>Na página 25 do livro de receitas estava A NOTA DE R$ 50, usada como marcador de página!</td></tr><tr><td class="val">49</td><td>Na página 49 há só uma receita de bolo de fubá. E um bilhete: “Confira o troco de novo.”</td></tr><tr><td class="val">92</td><td>Na página 92 há um bilhete: “O caderno de vendas está errado.”</td></tr></table>
+  </div>
+  <div class="rodape">EF04MA07 · O Caso da Nota Sumida</div>
+</section>
+<section class="pagina etapa">
+  <div class="topo"><span class="marca">MATEMÁTICA EM MISSÃO</span><span class="serie">4º ano</span><span class="dir">Nível 3 <span class="estrelas">★★★</span></span></div>
+  <div class="etapa-tit"><span class="num">Etapa 1 de 4</span><h2>O caderno de vendas</h2></div>
+  <div class="cena">A equipe começa pelo caderno de vendas. Para saber se ele está certo, vocês vão contar quantos livros foram vendidos de verdade.</div>
+  <div class="problema"><p>A banca recebeu <b>3 caixas</b> com <b>40 livros</b> em cada uma. No fim do dia, sobraram <b>97 livros</b>.</p><p class="pergunta">Quantos livros foram vendidos?</p></div>
+  <div class="espaco"><span>Espaço da equipe — mostrem como pensaram</span></div>
+  <div class="passos">
+    <span>☐ Achamos os dados</span><span>☐ Escolhemos a conta</span><span>☐ Resolvemos</span><span>☐ Conferimos se faz sentido</span>
+  </div>
+  <div class="resposta">Nossa resposta: <span class="linha"></span></div>
+  <div class="cadeado">
+    <div class="cad-tit">ABRAM O CADEADO — procurem a resposta de vocês na tabela e leiam a pista</div>
+    <table><tr><td class="val">23</td><td>O caderno de vendas confere com esse número de livros. <b>Risquem a explicação A.</b></td></tr><tr><td class="val">54</td><td>O caderno de vendas confere com esse número de livros. <b>Risquem a explicação B.</b></td></tr><tr><td class="val">57</td><td>O caderno de vendas confere com esse número de livros. <b>Risquem a explicação D.</b></td></tr><tr><td class="val">217</td><td>O caderno de vendas confere com esse número de livros. <b>Risquem a explicação C.</b></td></tr></table>
+  </div>
+  <div class="rodape">EF04MA03 · O Caso da Nota Sumida</div>
+</section>
+<section class="pagina etapa">
+  <div class="topo"><span class="marca">MATEMÁTICA EM MISSÃO</span><span class="serie">4º ano</span><span class="dir">Nível 3 <span class="estrelas">★★★</span></span></div>
+  <div class="etapa-tit"><span class="num">Etapa 2 de 4</span><h2>O troco da compra grande</h2></div>
+  <div class="cena">A Dona Cida lembra de uma compra grande, paga com uma nota de R$ 50. Será que o troco saiu errado? Calculem o troco certo e comparem com o que ela anotou.</div>
+  <div class="problema"><p>Um avô comprou <b>4 livros</b> de <b>R$ 11</b> cada um. Na feira, quem compra 4 livros ganha <b>R$ 5 de desconto</b> no total. Ele pagou com <b>uma nota de R$ 50</b>.</p><p class="pergunta">Qual era o troco certo?</p></div>
+  <div class="espaco"><span>Espaço da equipe — mostrem como pensaram</span></div>
+  <div class="passos">
+    <span>☐ Achamos os dados</span><span>☐ Escolhemos a conta</span><span>☐ Resolvemos</span><span>☐ Conferimos se faz sentido</span>
+  </div>
+  <div class="resposta">Nossa resposta: <span class="linha"></span></div>
+  <div class="cadeado">
+    <div class="cad-tit">ABRAM O CADEADO — procurem a resposta de vocês na tabela e leiam a pista</div>
+    <table><tr><td class="val">R$ 1</td><td>Troco de R$ 1: é o que a Dona Cida anotou. <b>Risquem a explicação A.</b></td></tr><tr><td class="val">R$ 6</td><td>Troco de R$ 6: é o que a Dona Cida anotou. <b>Risquem a explicação D.</b></td></tr><tr><td class="val">R$ 11</td><td>Troco de R$ 11: é o que a Dona Cida anotou. <b>Risquem a explicação B.</b></td></tr><tr><td class="val">R$ 39</td><td>Troco de R$ 39: é o que a Dona Cida anotou. <b>Risquem a explicação C.</b></td></tr></table>
+  </div>
+  <div class="rodape">EF04MA25 · O Caso da Nota Sumida</div>
+</section>
+<section class="pagina etapa">
+  <div class="topo"><span class="marca">MATEMÁTICA EM MISSÃO</span><span class="serie">4º ano</span><span class="dir">Nível 3 <span class="estrelas">★★★</span></span></div>
+  <div class="etapa-tit"><span class="num">Etapa 3 de 4</span><h2>A varrida da quadra</h2></div>
+  <div class="cena">Será que a nota caiu no chão? Depois da feira, o Seu Paulo varreu a quadra inteira e anotou os horários. A diretora vai conferir os horários com o vídeo da câmera.</div>
+  <div class="problema"><p>O Seu Paulo começou a varrer às <b>15h50</b>. Varreu por <b>35 minutos</b>, parou <b>10 minutos</b> para beber água e varreu mais <b>25 minutos</b>.</p><p class="pergunta">A que horas ele terminou?</p></div>
+  <div class="espaco"><span>Espaço da equipe — mostrem como pensaram</span></div>
+  <div class="passos">
+    <span>☐ Achamos os dados</span><span>☐ Escolhemos a conta</span><span>☐ Resolvemos</span><span>☐ Conferimos se faz sentido</span>
+  </div>
+  <div class="resposta">Nossa resposta: <span class="linha"></span></div>
+  <div class="cadeado">
+    <div class="cad-tit">ABRAM O CADEADO — procurem a resposta de vocês na tabela e leiam a pista</div>
+    <table><tr><td class="val">15h120</td><td>O vídeo não confere com 15h120... e mostra o Seu Paulo achando um papel verde. <b>Risquem a explicação D.</b></td></tr><tr><td class="val">16h25</td><td>O vídeo confere com 16h25. <b>Risquem as explicações C e D.</b></td></tr><tr><td class="val">16h50</td><td>O vídeo não confere com 16h50. <b>Risquem a explicação A.</b></td></tr><tr><td class="val">17h00</td><td>O vídeo confere com 17h00. O Seu Paulo varreu a quadra toda e não achou nenhuma nota. <b>Risquem a explicação C.</b></td></tr></table>
+  </div>
+  <div class="rodape">EF04MA22 · O Caso da Nota Sumida</div>
+</section>
+<section class="pagina etapa">
+  <div class="topo"><span class="marca">MATEMÁTICA EM MISSÃO</span><span class="serie">4º ano</span><span class="dir">Nível 3 <span class="estrelas">★★★</span></span></div>
+  <div class="etapa-tit"><span class="num">Etapa 4 de 4</span><h2>O livro de receitas</h2></div>
+  <div class="cena">Sobrou uma explicação. A Dona Cida lembra: no intervalo, ela leu o livro de receitas da banca e marcou onde parou com alguma coisa que estava na mão. Achem a página!</div>
+  <div class="problema"><p>O livro de receitas tem <b>144 páginas</b>, divididas igualmente em <b>6 capítulos</b>. A Dona Cida parou na <b>primeira página do 3º capítulo</b>.</p><p class="pergunta">Em que página ela parou?</p></div>
+  <div class="espaco"><span>Espaço da equipe — mostrem como pensaram</span></div>
+  <div class="passos">
+    <span>☐ Achamos os dados</span><span>☐ Escolhemos a conta</span><span>☐ Resolvemos</span><span>☐ Conferimos se faz sentido</span>
+  </div>
+  <div class="resposta">Nossa resposta: <span class="linha"></span></div>
+  <div class="cadeado">
+    <div class="cad-tit">ABRAM O CADEADO — procurem a resposta de vocês na tabela e leiam a pista</div>
+    <table><tr><td class="val">24</td><td>Na página 24 há um bilhete: “A nota caiu na quadra.”</td></tr><tr><td class="val">48</td><td>Na página 48 há só uma receita de bolo de fubá. E um bilhete: “Confira o troco de novo.”</td></tr><tr><td class="val">49</td><td>Na página 49 do livro de receitas estava A NOTA DE R$ 50, usada como marcador de página!</td></tr><tr><td class="val">72</td><td>Na página 72 há um bilhete: “O caderno de vendas está errado.”</td></tr></table>
+  </div>
+  <div class="rodape">EF04MA07 · O Caso da Nota Sumida</div>
+</section>
+<section class="pagina final">
+  <div class="topo"><span class="marca">MATEMÁTICA EM MISSÃO</span><span class="serie">4º ano</span><span class="dir">Ficha final do grupo</span></div>
+  <h1 class="titulo-missao pequeno">O Caso da Nota Sumida — ficha final</h1>
+  <p>Grupo: <span class="linha curta"></span> &nbsp; Nível: ☐ ★ ☐ ★★ ☐ ★★★</p>
+  <h2>Pistas que vocês encontraram</h2>
+  <ol class="pistas"><li><span class="linha"></span></li><li><span class="linha"></span></li><li><span class="linha"></span></li><li><span class="linha"></span></li></ol>
+  <h2>Risquem as explicações que as pistas derrubaram</h2>
+  <div class="riscos"><div class="risco"><span class="caixa"></span>A — O CADERNO ERROU</div><div class="risco"><span class="caixa"></span>B — O TROCO SAIU ERRADO</div><div class="risco"><span class="caixa"></span>C — A NOTA CAIU NA QUADRA</div><div class="risco"><span class="caixa"></span>D — A NOTA FOI GUARDADA</div></div>
+  <div class="perg"><b>O que aconteceu com a nota de R$ 50?</b><div class="linhas"><span></span><span></span></div></div><div class="perg"><b>Onde ela estava?</b><div class="linhas"><span></span><span></span></div></div><div class="perg"><b>Que dica vocês dão para a próxima Feira do Livro não ter esse problema?</b><div class="linhas"><span></span><span></span></div></div>
+  <div class="confere"><b>Conferência dos investigadores:</b> sobrou só uma explicação? A última pista combina com ela? Se sobrou mais de uma, ou se a última pista fala de uma explicação que vocês riscaram, uma conta está errada. Voltem às etapas e procurem!</div>
+  <div class="carimbo">MISSÃO CUMPRIDA<br><span>assinatura da equipe</span></div>
+</section>
+</body></html>
