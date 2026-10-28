@@ -1,4 +1,4 @@
-# Regras — Copy de VSL
+# Regras — Copy de Oferta (página de vendas e VSL)
 
 Formato: `- [AAAA-MM-DD] Regra clara e acionável. (Origem: o que aconteceu)`
 

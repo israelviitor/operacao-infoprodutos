@@ -3,12 +3,15 @@
 // Gera: primeira-dobra.png, pagina-inteira.png e auditoria.json (tempo, peso, títulos, botões, preços, links externos, vídeos, texto).
 const fs = require('fs');
 const path = require('path');
+const { pathToFileURL } = require('url');
 const { chromium } = require('playwright');
 
 const { CHROME } = require('./chrome');
 
 (async () => {
-  const url = process.argv[2];
+  // Aceita URL ou caminho de arquivo local (página ainda não publicada).
+  const arg = process.argv[2];
+  const url = /^https?:|^file:/.test(arg) ? arg : pathToFileURL(path.resolve(arg)).href;
   const saida = process.argv[3] || 'auditoria-pagina';
   fs.mkdirSync(saida, { recursive: true });
 

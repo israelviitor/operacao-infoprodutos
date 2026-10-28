@@ -7,7 +7,7 @@ description: Grava uma correção do dono como regra permanente em regras/. Use 
 
 1. **Classifique a correção:**
    - Vale para todas as áreas → `regras/geral.md`
-   - Vale para uma área → `regras/<area>.md` (mineracao, copy-criativos, copy-vsl, edicao, paginas, entregaveis, cakto, compliance)
+   - Vale para uma área → `regras/<area>.md` (mineracao, copy-criativos, copy-oferta [copy de página e VSL], edicao, paginas [montagem técnica], entregaveis, cakto, trafego, analise, compliance)
    - Vale só para um produto → seção "Restrições" de `produtos/<produto>/dossie.md`
    - Foi pontual (só este trabalho) → NÃO registre. Na dúvida, pergunte: "Isso vale sempre ou só aqui?"
 

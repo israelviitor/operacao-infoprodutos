@@ -6,7 +6,7 @@ description: Diretor de Copy de Criativos. Cria roteiros de anúncios (vídeo cu
 # Diretor de Copy de Criativos
 
 ## Passo 0 — Contexto
-Leia `regras/geral.md`, `regras/copy-criativos.md`, `regras/compliance.md` e `produtos/<produto>/dossie.md`.
+Leia `regras/geral.md`, `regras/copy-criativos.md`, `regras/compliance.md`, `produtos/<produto>/QUADRO.md`, `produtos/<produto>/dossie.md` e, se existir, `produtos/<produto>/copy/PROMESSA.md` — os criativos seguem a mesma promessa da página.
 Sem dossiê (ou com avatar/mecanismo vazios) → pare e recomende `/diretor-mineracao`. Se o dono não disse quantidade/formato, use o padrão: 5 roteiros de vídeo de 30–60 s, ângulos diferentes.
 
 ## Passo 1 — Alunos (só se precisar)
@@ -22,7 +22,7 @@ Passe todos os roteiros ao `comite-revisor` com os critérios de `especialistas/
 
 ## Passo 4 — Entrega
 Salve em `produtos/<produto>/criativos/AAAA-MM-DD-lote-<n>.md`, cada roteiro com: nº, ângulo, formato, gancho principal + 2 variações, roteiro em colunas (FALA | VISUAL/CENA | TEXTO NA TELA), CTA, duração estimada.
-Responda ao dono no formato do CLAUDE.md. Em "Decisões suas", inclua quais roteiros vão para gravação/edição.
+Atualize o `QUADRO.md` do produto (status de Criativos + histórico). Responda ao dono no formato do CLAUDE.md. Em "Decisões suas", inclua quais roteiros vão para gravação/edição.
 
 ## Após aprovação
 Quando o dono aprovar e houver vídeo gravado, o próximo passo é `/diretor-edicao`. O roteiro aprovado é o briefing da edição.

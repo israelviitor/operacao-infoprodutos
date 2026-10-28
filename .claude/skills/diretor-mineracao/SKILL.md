@@ -48,7 +48,7 @@ Objetivo: dizer **qual oferta modelar e como**, com evidência, e deixar o dossi
 3. **Pontuar** cada oferta e cada variação com a tabela de `especialistas/modelagem.md`.
 4. **Comitê:** passe tudo ao `comite-revisor` com o critério "potencial de lucro na Cakto × facilidade de produzir × risco". Ele corta o que é fraco ou sem evidência.
 5. **Entrega:** ranking (tabela com nota e motivo), a **melhor modelagem** de cada oferta com URLs dos concorrentes/referências, e uma recomendação final. Salve em `produtos/_mineracao/<data>/AVALIACAO-MODELAGEM.md`.
-6. **Se o dono escolher uma**, crie `produtos/<produto-novo>/dossie.md` (Passos 1–3 deste diretor) já com a modelagem escolhida, e avise que o próximo passo é `/diretor-copy-criativos`.
+6. **Se o dono escolher uma**, crie `produtos/<produto-novo>/dossie.md` (Passos 1–3 deste diretor) já com a modelagem escolhida, crie `produtos/<produto-novo>/QUADRO.md` a partir de `produtos/_modelo/QUADRO.md` (decisão registrada, pedidos abertos para Copy de Oferta e Estrutura), atualize `PRODUTOS-ATIVOS.md` e avise que o próximo passo é `/diretor-copy-oferta` (sessão Copy) e `/diretor-estrutura` (sessão Estrutura). A Mineração para aqui: não escreve página nem monta produto/checkout (`regras/mineracao.md`).
 
 ## Modo "encontrar produto"
 Se o dono pedir para achar uma oportunidade (sem produto definido), as frentes viram: nichos com demanda crescente, ofertas escaladas no Brasil, lacunas de ângulo, ticket médio. Entregue no máximo 3 oportunidades ranqueadas, cada uma com: promessa, avatar, mecanismo possível, evidência de demanda, concorrência.
