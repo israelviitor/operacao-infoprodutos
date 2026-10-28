@@ -5,7 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const { chromium } = require('playwright');
 
-const CHROME = process.env.CHROME_PATH || '/opt/pw-browsers/chromium-1194/chrome-linux/chrome';
+const { CHROME } = require('./chrome');
 const AVANCAR = /^(avançar|continuar|próximo|proximo|continue|seguir|entendi|ok|vamos lá|começar|iniciar.*|obter.*|ver.*|quero.*|receber.*|acessar.*|obtenha.*|garantir.*|comprar.*|descobrir.*|fazer.*teste.*)$/i;
 const COMPRA = /(quero|obter|garantir|comprar|acessar|adquirir).*/i;
 const precos = (t) => [...new Set((t.match(/R\$\s?\d{1,4}(?:[.,]\d{2})?/g) || []).map((x) => x.replace(/\s/g, '')))].slice(0, 15);

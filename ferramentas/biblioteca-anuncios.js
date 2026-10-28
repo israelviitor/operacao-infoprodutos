@@ -5,7 +5,7 @@
 // Limitação: sem login, o Meta limita a paginação; cada consulta traz ~30 anúncios.
 const { chromium } = require('playwright');
 
-const CHROME = process.env.CHROME_PATH || '/opt/pw-browsers/chromium-1194/chrome-linux/chrome';
+const { CHROME } = require('./chrome');
 const BASE = 'https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&media_type=all';
 
 function urlBusca(termo, exata, impressoes) {
