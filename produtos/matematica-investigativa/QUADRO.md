@@ -7,11 +7,14 @@
 Kit de missões de mistério para imprimir (P&B), organizado por série (3º, 4º e 5º) e por habilidade da BNCC/Saeb, para professoras dos anos iniciais. Preço proposto: R$ 17,90 na Cakto. Modelagem vertical do "Arquivo Secreto".
 
 ## Fase atual
-Mineração concluída → **aguardando decisões do dono** para iniciar Copy de Oferta e Estrutura.
+Copy de Oferta + Estrutura (em paralelo). Decisões de nome, preço e quantidade tomadas em 2026-10-28.
 
 ## Decisões do dono (valem para todas as áreas)
 - [2026-10-28] Modelar o "Arquivo Secreto" como Matemática Investigativa do 3º ao 5º ano (recomendação da Mineração). Versão em espanhol fica para depois.
-- _Pendentes (ver "Próximo passo"): nome final, preço, quantidade de missões e níveis, nome do mecanismo._
+- [2026-10-28] Nome: **"Matemática em Missão — 3º ao 5º ano"**.
+- [2026-10-28] Preço do principal: **R$ 17,90** (bumps e upsell conforme o dossiê, seção 5).
+- [2026-10-28] Produção: **1 missão-amostra por série (3º, 4º, 5º) para aprovação do modelo**, depois o **lote 1 com 30 missões** (10 por série, 3 níveis), que já vende; o restante até 60 entra como atualização.
+- _Pendente: nome do mecanismo ("Problema com Enredo" é a recomendação; a Copy propõe na PROMESSA)._
 
 ## Status por área
 | Área | Status | Entrega (arquivo) | Atualizado |
@@ -34,12 +37,12 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 - [ ] [2026-10-28] **De** Mineração **para** Estrutura: roteiro da Cakto conforme o dossiê, seção 5 (principal R$ 17,90, 2 bumps desmarcados, upsell só quando produzido).
 
 ## Próximo passo
-1. **Dono decide** (Central ou qualquer sessão): nome final ("Matemática em Missão"?), preço (R$ 17,90?), quantidade (60 missões × 3 níveis = 180 versões, ou começar com menos?).
-2. Depois, em paralelo:
-   - **sessão Copy:** `/diretor-copy-oferta matematica-investigativa`;
-   - **sessão Estrutura:** `/diretor-estrutura matematica-investigativa` (começa pelas missões-amostra).
+Em paralelo:
+- **Sessão Estrutura:** `/diretor-estrutura` → 3 missões-amostra (uma por série) em PDF + PNG para o dono aprovar.
+- **Sessão Copy:** `/diretor-copy-oferta` → `copy/PROMESSA.md` (headlines e mecanismo para o dono escolher). A página de vendas vem depois que as amostras forem aprovadas (ela usa as imagens).
 
 ## Histórico (mais recente em cima)
+- [2026-10-28] Dono: aprovou nome, preço R$ 17,90 e produção em amostras → lote 1 com 30 missões.
 - [2026-10-28] Central: quadro criado; organização nova (Copy de Oferta + Estrutura).
 - [2026-10-28] Mineração: dossiê criado e revisado pelo comitê (`dossie.md`).
 - [2026-10-28] Mineração: avaliação de 10 bibliotecas; o "Arquivo Secreto" ficou em 1º lugar com nota 4,5 (`produtos/_mineracao/2026-10-28/AVALIACAO-MODELAGEM.md`).

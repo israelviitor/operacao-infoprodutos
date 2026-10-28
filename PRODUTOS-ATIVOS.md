@@ -4,7 +4,7 @@
 
 | Produto | Pasta | Fase | Em foco para |
 |---|---|---|---|
-| Matemática Investigativa 3º–5º | `produtos/matematica-investigativa/` | Aguardando decisões do dono → Copy de Oferta + Estrutura | Mineração, Copy, Estrutura, Edição |
+| Matemática Investigativa 3º–5º | `produtos/matematica-investigativa/` | Copy de Oferta + Estrutura (amostras e promessa) | Mineração, Copy, Estrutura, Edição |
 | Decodifica Matemática | `produtos/decodifica-matematica/` | Tráfego (testes 2 e 3) | Tráfego, Análise |
 
 Atualizado em 2026-10-28 pela Central.
