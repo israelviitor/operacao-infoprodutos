@@ -60,10 +60,10 @@ module.exports = {
     'A diretora separou os 4 lugares onde a cápsula pode estar.',
   ],
   alvos: [
-    { nome: 'MANGUEIRA', desc: 'A árvore grande ao lado da cantina. Tem um banco em volta.' },
-    { nome: 'QUADRA', desc: 'A quadra de esportes, nos fundos da escola.' },
-    { nome: 'PORTÃO', desc: 'O canteiro de flores perto do portão de entrada.' },
-    { nome: 'HORTA', desc: 'A horta da escola, no caminho até o muro do fundo.' },
+    { nome: 'MANGUEIRA', desc: 'A árvore grande do pátio, com um banco em volta.' },
+    { nome: 'QUADRA', desc: 'A quadra de esportes, no meio do pátio.' },
+    { nome: 'PORTÃO', desc: 'O canteiro de flores do portão lateral do pátio.' },
+    { nome: 'HORTA', desc: 'A horta da escola, num canto do pátio.' },
   ],
   missao: 'descobrir <b>onde está a cápsula</b> e achar a <b>senha do cadeado</b> dela.',
   riscarTitulo: 'Risquem os lugares que não combinam com as pistas',
@@ -122,16 +122,16 @@ module.exports = {
       titulo: 'Os passos no pátio',
       conteudo: 'Frações na reta numérica (parte de um todo)',
       bncc: 'EF05MA03', saeb: 'D24',
-      cena: 'Na página 2, um mapa: “Da porta da sala até o muro do fundo, contamos os passos. Marcamos no caminho o lugar onde tentamos cavar e desistimos.” Achem o passo da marca.',
+      cena: 'Na página 2, um mapa: “Da porta da sala até o muro do fundo, atravessamos o pátio contando os passos. Marcamos no caminho o lugar onde tentamos cavar e desistimos.” Achem o passo da marca.',
       pistaCerta: 'Diário: “No passo {r} fica a horta. Ali a pá não entrou: o chão era só pedra.”',
       pistasErradas: [
         'Diário: “No passo {r} fica a mangueira. Ali a pá não entrou: raízes grossas demais.”',
         'Diário: “No passo {r} fica a quadra. Ali a pá não entrou: o chão era de cimento.”',
-        'Diário: “No passo {r} fica o portão. Ali a pá não entrou: o chão era só pedra.”',
+        'Diário: “No passo {r} fica o canteiro do portão. Ali a pá não entrou: só pedra.”',
       ],
       niveis: [
         {
-          enunciado: '<p>O caminho tem <b>40 passos</b> e está dividido em 4 partes iguais. O diário diz: “A marca fica em <b>2/4</b> do caminho, contando da porta da sala.”</p><p class="pergunta">Em que passo fica a marca?</p>',
+          enunciado: '<p>No mapa, o caminho de <b>40 passos</b> aparece dividido em 4 partes iguais. O diário diz: “A marca fica em <b>2/4</b> do caminho, contando da porta da sala.”</p><p class="pergunta">Em que passo fica a marca?</p>',
           figura: reta('40 passos', 4, true),
           calc: () => 40 / 4 * 2, resposta: 20, conta: '40 ÷ 4 = 10 passos em cada parte · 2 partes = 20 passos (2/4 = metade)',
           opcoes: [
@@ -142,7 +142,7 @@ module.exports = {
           ],
         },
         {
-          enunciado: '<p>O caminho tem <b>40 passos</b> e está dividido em 4 partes iguais. O diário diz: “A marca fica em <b>3/4</b> do caminho, contando da porta da sala.”</p><p class="pergunta">Em que passo fica a marca?</p>',
+          enunciado: '<p>No mapa, o caminho de <b>40 passos</b> aparece dividido em 4 partes iguais. O diário diz: “A marca fica em <b>3/4</b> do caminho, contando da porta da sala.”</p><p class="pergunta">Em que passo fica a marca?</p>',
           figura: reta('40 passos', 4, false),
           calc: () => 40 / 4 * 3, resposta: 30, conta: '40 ÷ 4 = 10 passos em cada parte · 3 partes = 30 passos',
           opcoes: [
@@ -153,7 +153,7 @@ module.exports = {
           ],
         },
         {
-          enunciado: '<p>O caminho tem <b>56 passos</b> e está dividido em 8 partes iguais. O diário diz: “A marca fica em <b>3/8</b> do caminho, contando da porta da sala.”</p><p class="pergunta">Em que passo fica a marca?</p>',
+          enunciado: '<p>No mapa, o caminho de <b>56 passos</b> aparece dividido em 8 partes iguais. O diário diz: “A marca fica em <b>3/8</b> do caminho, contando da porta da sala.”</p><p class="pergunta">Em que passo fica a marca?</p>',
           figura: reta('56 passos', 8, false),
           calc: () => 56 / 8 * 3, resposta: 21, conta: '56 ÷ 8 = 7 passos em cada parte · 3 partes = 21 passos',
           opcoes: [

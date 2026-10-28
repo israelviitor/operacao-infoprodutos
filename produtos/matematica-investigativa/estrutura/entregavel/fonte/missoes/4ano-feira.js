@@ -81,10 +81,10 @@ module.exports = {
       titulo: 'O troco da nota de R$ 50',
       conteudo: 'Compra, pagamento, troco e desconto',
       bncc: 'EF04MA25',
-      cena: 'A Dona Cida se lembra de uma compra paga com uma nota de R$ 50. Será que o troco saiu errado? Calculem o troco certo e comparem com o que ela anotou.',
+      cena: 'No caderno há uma compra paga com nota de R$ 50. Será que o troco saiu errado? Calculem o troco certo e comparem com o que a Dona Cida anotou.',
       pistaCerta: 'A Dona Cida anotou um troco igual a esse valor.',
       pistasErradas: [
-        'A Dona Cida anotou um troco de R$ 50 a mais que esse.',
+        'A Dona Cida anotou um troco de R$ 20 a mais que esse.',
         'A Dona Cida anotou um troco de R$ 10 a mais que esse.',
         'A Dona Cida não anotou o troco dessa compra.',
       ],
@@ -126,11 +126,11 @@ module.exports = {
       conteudo: 'Medidas de tempo: início, fim e duração',
       bncc: 'EF04MA22',
       cena: 'Será que uma nota caiu no chão? O Seu Paulo anotou os horários em que varreu a quadra. A diretora vai procurar esse trecho no vídeo da câmera.',
-      pistaCerta: 'No vídeo, nesse tempo, a quadra toda é varrida e só aparece papel de bala.',
+      pistaCerta: 'Enquanto ele varria, o vídeo mostra a quadra toda limpa: só papel de bala.',
       pistasErradas: [
-        'No vídeo, nesse tempo, o canto da banca fica sem varrer, cheio de papel.',
-        'No vídeo, nesse tempo, uma nota sai voando para baixo da arquibancada.',
-        'No vídeo, nesse tempo, a vassoura empurra um papel parecido com uma nota.',
+        'Enquanto ele varria, o vídeo mostra o canto da banca sem varrer.',
+        'Enquanto ele varria, o vídeo mostra uma nota voando para a arquibancada.',
+        'Enquanto ele varria, o vídeo mostra um papel parecido com uma nota no lixo.',
       ],
       niveis: [
         {
@@ -169,7 +169,7 @@ module.exports = {
       titulo: 'O livro de receitas',
       conteudo: 'Divisão: repartir em partes iguais',
       bncc: 'EF04MA07',
-      cena: 'A Dona Cida se lembra de mais uma coisa: no intervalo, ela leu o livro de receitas da banca e parou numa página. Vamos achar essa página!',
+      cena: 'Na banca ficou o livro de receitas da Dona Cida, com uma página marcada. Ela não lembra o número da página, só em que parte do livro estava. Achem a página!',
       pistaCerta: 'Na página {r} há uma nota de R$ 50 dobrada, usada como marcador.',
       pistasErradas: [
         'Na página {r} há um bilhete: “Conferir o troco da compra das 15h.”',

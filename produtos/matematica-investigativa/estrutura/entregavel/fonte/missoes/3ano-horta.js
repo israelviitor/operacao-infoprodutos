@@ -36,7 +36,7 @@ module.exports = {
   riscarTitulo: 'Risquem os suspeitos que não combinam com as pistas',
   final: ['Quem mordeu as cenouras?', 'Como ele saiu de onde estava?', 'O que a turma sugere para proteger a horta?'],
   conferencia: 'sobrou só um suspeito? A última pista combina com ele? Se sobrou mais de um, se ninguém sobrou, ou se a última pista fala de alguém que vocês riscaram, uma conta está errada. Voltem às etapas e procurem!',
-  solucao: 'Foi o <b>TICO</b>, o coelho do 1º ano. A trava da gaiola estava frouxa, ele saiu na sexta à noite, pulou a cerca baixinha da horta e passou o fim de semana comendo cenoura. Pistas: pelo curto de animal (sai o Seu Zé) → pelo branco (sai a Pipoca) → orelhas compridas (sai o Mingau) → trava da gaiola frouxa (confirma o Tico e explica como ele saiu).',
+  solucao: 'Foi o <b>TICO</b>, o coelho do 1º ano. A trava da gaiola quebrou, ele saiu no fim de semana, pulou a cerca baixinha da horta e passou o fim de semana comendo cenoura. Pistas: pelo curto de animal (sai o Seu Zé) → pelo branco (sai a Pipoca) → orelhas compridas (sai o Mingau) → recado do vigia: gaiola aberta, trava quebrada (confirma o Tico e explica como ele saiu).',
   etapas: [
     {
       titulo: 'O estrago na horta',
@@ -46,8 +46,8 @@ module.exports = {
       pistaCerta: 'Os fios presos na cerca são pelos curtos de animal.',
       pistasErradas: [
         'Os fios presos na cerca são cabelos grisalhos de gente.',
-        'Os fios presos na cerca são fios grossos de barbante de jardim.',
-        'Os fios presos na cerca são cabelos compridos e grisalhos.',
+        'Os fios presos na cerca são de barbante grosso de jardim.',
+        'Os fios presos na cerca são pelos compridos e caramelo.',
       ],
       niveis: [
         {
@@ -91,7 +91,7 @@ module.exports = {
       pistasErradas: [
         'O cadeado abriu. Na lupa, dá para ver: os pelos são caramelo.',
         'O cadeado abriu. Na lupa, dá para ver: os fios são grisalhos.',
-        'O cadeado abriu. Na lupa, dá para ver: os pelos são cinzentos.',
+        'O cadeado abriu. Na lupa, dá para ver: os pelos são pretos.',
       ],
       niveis: [
         {
@@ -175,12 +175,12 @@ module.exports = {
       titulo: 'A caixa do 1º ano',
       conteudo: 'Divisão: repartir igualmente',
       bncc: 'EF03MA08',
-      cena: 'A equipe vai à sala do 1º ano, onde mora o Tico. A professora Ana mostra a caixa com o caderno de cuidados da sala. A caixa tem um cadeado de números: o segredo é quantas rodelas de cenoura o Tico come por dia.',
-      pistaCerta: 'No caderno: “Sexta, 17h: a trava da gaiola do Tico está frouxa.”',
+      cena: 'A equipe vai à secretaria. Lá fica o caderno de recados do vigia, guardado numa caixa com cadeado de números. A secretária conta que o segredo é uma brincadeira da escola: quantas rodelas de cenoura o Tico, coelho do 1º ano, come por dia.',
+      pistaCerta: 'Recado do vigia: “Sábado: a gaiola do Tico estava aberta. A trava quebrou.”',
       pistasErradas: [
-        'No caderno: “Sexta, 17h: o Tico vai passar o fim de semana na casa da Bia.”',
-        'No caderno: “Sexta, 17h: a vizinha avisou que a Pipoca fugiu de novo.”',
-        'No caderno: “Sexta, 17h: a janela da cantina ficou aberta para ventilar.”',
+        'Recado do vigia: “Sábado: o Tico estava dormindo na gaiola fechada.”',
+        'Recado do vigia: “Sábado: a Pipoca estava solta no pátio da escola.”',
+        'Recado do vigia: “Sábado: a janela da cantina estava aberta.”',
       ],
       niveis: [
         {
@@ -209,7 +209,7 @@ module.exports = {
           opcoes: [
             { v: 5 },
             { v: 6, erro: 'dividiu 30 por 5 (trocou o número de dias pelo que ele já comeu).', calc: () => 30 / 5 },
-            { v: 7, erro: 'dividiu 35 por 5 e esqueceu de tirar o que ele já comeu.', calc: () => 35 / 5 },
+            { v: 7, erro: 'dividiu as 35 rodelas pelas 5 que ele já comeu, sem tirá-las do total.', calc: () => 35 / 5 },
             { v: 24, erro: 'só tirou: 35 − 5 − 6.', calc: () => 35 - 5 - 6 },
           ],
         },

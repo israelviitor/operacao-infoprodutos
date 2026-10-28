@@ -49,12 +49,14 @@ function conferir(m) {
 }
 
 // Embaralha as opções do cadeado com semente fixa (sempre a mesma ordem para a mesma missão)
-// e evita que a resposta certa caia na mesma posição nos 3 níveis.
+// e evita que a resposta certa caia na mesma linha em duas etapas do mesmo nível.
 function semente(str) { let h = 2166136261; for (const c of str) h = Math.imul(h ^ c.charCodeAt(0), 16777619); return () => ((h = Math.imul(h ^ (h >>> 15), 2246822507) >>> 0) % 1000) / 1000; }
+// Cada grupo faz um nível só: a regra vale entre as 4 etapas do mesmo nível.
 function ordenar(m) {
-  m.etapas.forEach((e, ie) => {
+  [0, 1, 2].forEach((iv) => {
     const usadas = new Set();
-    e.niveis.forEach((nv, iv) => {
+    m.etapas.forEach((e, ie) => {
+      const nv = e.niveis[iv];
       const rnd = semente(`${m.id}-${ie}-${iv}`);
       let ops;
       for (let t = 0; t < 20; t++) {
