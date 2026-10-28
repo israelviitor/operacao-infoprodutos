@@ -47,6 +47,7 @@ Versão curta (para o anúncio e o topo da página): *"Seu aluno faz a conta, ma
 8. ★ Nesta missão, ninguém diz qual conta fazer, e é exatamente aí que a turma começa a pensar.
 9. A pista não é a resposta da conta. A pista é descobrir qual conta fazer.
 
+> ✅ **Escolhida pelo dono em 2026-10-28: nº 1.**
 > Recomendação do time: **nº 1 para página e anúncio** (big idea + dor do avatar), nº 2 para anúncio de identificação (cena real de sala, com a fala "qual conta?") e nº 8 para criativos de curiosidade. A nº 4 vira o subtítulo da página.
 > Descartada pelo comitê: "a turma pede mais uma missão" (prova inventada; só volta com relato real).
 
