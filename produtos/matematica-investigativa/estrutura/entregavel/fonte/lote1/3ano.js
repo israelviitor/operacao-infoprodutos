@@ -1,12 +1,12 @@
 // Lote 1 — 3º ano (10 missões). Cada problema: [enunciado, resposta, cálculo, conta, erro comum, cálculo do erro, explicação do erro]
 // Níveis: [N1 ★ apoio, N2 ★★ esperado, N3 ★★★ desafio]. A missão 03 (Horta) segue o mockup do dono, palavra por palavra no N2.
-const { R, min, hm, h } = require('./util');
+const { R, min, hm, h, fmtNum: N } = require('./util');
 
 module.exports = [
   {
     n: 1, titulo: 'O Sumiço das Figurinhas', palavra: 'COLA',
     abertura: 'A turma do 3º ano está completando um álbum coletivo de figurinhas. Na segunda-feira, a contagem não bateu com o caderno de controle. Será que alguma figurinha sumiu? Vamos investigar!',
-    solucao: 'Nenhuma figurinha sumiu: parte delas estava no envelope esperando COLA, e as repetidas estavam separadas para a troca com outras turmas.',
+    solucao: 'Nenhuma figurinha sumiu: as repetidas foram separadas para a troca com outras turmas, e as novas ainda estavam soltas, esperando a COLA.',
     etapas: [
       { titulo: 'A contagem do álbum', bncc: 'EF03MA06', niveis: [
         ['Na semana passada, a turma colou 23 figurinhas. Nesta semana, colou mais 14. Quantas figurinhas foram coladas nas duas semanas?', '37', () => String(23 + 14), '23 + 14 = 37', '9', () => String(23 - 14), 'tirou em vez de juntar (23 − 14).'],
@@ -19,7 +19,7 @@ module.exports = [
         ['O álbum completo tem 300 figurinhas. Já há 211 coladas e 15 estão no envelope, esperando para colar. Quantas figurinhas ainda faltam conseguir?', '74', () => String(300 - 211 - 15), '211 + 15 = 226 · 300 − 226 = 74', '89', () => String(300 - 211), 'esqueceu as 15 do envelope.'],
       ] },
       { titulo: 'Os pacotinhos', bncc: 'EF03MA07', niveis: [
-        ['5 alunos trouxeram 2 pacotinhos cada um. Quantos pacotinhos foram trazidos?', '10', () => String(5 * 2), '5 × 2 = 10 (2 + 2 + 2 + 2 + 2)', '7', () => String(5 + 2), 'somou 5 + 2 em vez de juntar 5 vezes o 2.'],
+        ['5 alunos trouxeram 2 pacotinhos cada um. Quantos pacotinhos foram trazidos?', '10', () => String(5 * 2), '5 × 2 = 10, ou 2 + 2 + 2 + 2 + 2 = 10', '7', () => String(5 + 2), 'somou 5 + 2 em vez de juntar 5 vezes o 2.'],
         ['Cada pacotinho tem 5 figurinhas. A turma abriu 8 pacotinhos. Quantas figurinhas saíram?', '40', () => String(8 * 5), '8 × 5 = 40', '13', () => String(8 + 5), 'somou 8 + 5.'],
         ['Cada pacotinho tem 5 figurinhas. 6 alunos trouxeram 3 pacotinhos cada um. Quantas figurinhas saíram?', '90', () => String(6 * 3 * 5), '6 × 3 = 18 pacotinhos · 18 × 5 = 90', '30', () => String(6 * 5), 'esqueceu que cada aluno trouxe 3 pacotinhos (6 × 5).'],
       ] },
@@ -32,10 +32,10 @@ module.exports = [
   },
   {
     n: 2, titulo: 'O Mistério do Lanche Trocado', palavra: 'SUCO',
-    abertura: 'Na hora do recreio, as lancheiras da turma foram trocadas na cantina. A merendeira anotou tudo, mas as contas ficaram misturadas. Ajude a descobrir onde está a lancheira que sumiu!',
-    solucao: 'A lancheira “sumida” estava na geladeira da cantina, junto com as caixas de SUCO: a merendeira guardou para não estragar.',
+    abertura: 'Na hora do recreio, algumas lancheiras sumiram da cantina! A merendeira anotou tudo, mas as contas ficaram misturadas. Ajude a descobrir onde elas foram parar!',
+    solucao: 'As lancheiras “sumidas” estavam na geladeira da cantina, junto com as caixas de SUCO: a merendeira guardou para o lanche não estragar.',
     etapas: [
-      { titulo: 'A prateleira', bncc: 'EF03MA07', niveis: [
+      { titulo: 'A cantina', bncc: 'EF03MA07', niveis: [
         ['Na prateleira, há 3 fileiras com 4 lancheiras em cada uma. Quantas lancheiras há?', '12', () => String(3 * 4), '3 × 4 = 12', '7', () => String(3 + 4), 'somou 3 + 4.'],
         ['A cantina preparou 6 bandejas com 5 sanduíches em cada uma. Quantos sanduíches?', '30', () => String(6 * 5), '6 × 5 = 30', '11', () => String(6 + 5), 'somou 6 + 5.'],
         ['A cantina preparou 7 bandejas com 5 sanduíches e mais 4 sanduíches avulsos. Quantos sanduíches ao todo?', '39', () => String(7 * 5 + 4), '7 × 5 = 35 · 35 + 4 = 39', '35', () => String(7 * 5), 'esqueceu os 4 sanduíches avulsos.'],
@@ -50,8 +50,8 @@ module.exports = [
         ['Havia 132 lancheiras na cantina. 117 foram devolvidas. Quantas faltam devolver?', '15', () => String(132 - 117), '132 − 117 = 15', '25', () => String(10 * (3 - 1) + (7 - 2)), 'tirou o menor algarismo do maior em cada coluna, sem desagrupar.'],
         ['Havia 132 lancheiras. 117 foram devolvidas no recreio e 9 depois da aula. Quantas ainda faltam?', '6', () => String(132 - 117 - 9), '117 + 9 = 126 · 132 − 126 = 6', '15', () => String(132 - 117), 'esqueceu as 9 devolvidas depois da aula.'],
       ] },
-      { titulo: 'Os biscoitos', bncc: 'EF03MA08', niveis: [
-        ['15 maçãs serão divididas igualmente em 5 lancheiras. Quantas maçãs em cada?', '3', () => String(15 / 5), '15 ÷ 5 = 3', '10', () => String(15 - 5), 'tirou 5 em vez de repartir.'],
+      { titulo: 'A merenda', bncc: 'EF03MA08', niveis: [
+        ['15 biscoitos serão divididos igualmente em 5 lancheiras. Quantos biscoitos em cada?', '3', () => String(15 / 5), '15 ÷ 5 = 3', '10', () => String(15 - 5), 'tirou 5 em vez de repartir.'],
         ['Sobraram 24 biscoitos, divididos igualmente entre 4 mesas. Quantos para cada mesa?', '6', () => String(24 / 4), '24 ÷ 4 = 6', '20', () => String(24 - 4), 'tirou 4 em vez de repartir.'],
         ['Sobraram 50 biscoitos. 8 foram para a professora e o resto foi dividido igualmente entre 6 mesas. Quantos para cada mesa?', '7', () => String((50 - 8) / 6), '50 − 8 = 42 · 42 ÷ 6 = 7', '8', () => String(Math.floor(50 / 6)), 'dividiu os 50 sem tirar os 8 da professora.'],
       ] },
@@ -91,18 +91,18 @@ module.exports = [
     etapas: [
       { titulo: 'O número da lombada', bncc: 'EF03MA01', niveis: [
         ['O livro tem o número “trezentos e vinte e cinco”. Escreva esse número com algarismos.', '325', () => String(300 + 20 + 5), '300 + 20 + 5 = 325', '30025', () => '300' + '25', 'escreveu “300” e “25” lado a lado.'],
-        ['Na lombada está escrito: 1 milhar, 4 centenas, 0 dezenas e 7 unidades. Que número é?', '1407', () => String(1000 + 400 + 0 + 7), '1 000 + 400 + 7 = 1 407', '147', () => '1' + '4' + '7', 'esqueceu o zero das dezenas.'],
-        ['Na lombada está escrito: 2 milhares, 3 centenas, 15 dezenas e 4 unidades. Que número é?', '2454', () => String(2000 + 300 + 150 + 4), '2 000 + 300 + 150 + 4 = 2 454', '23154', () => '2' + '3' + '15' + '4', 'escreveu os números lado a lado, sem trocar 15 dezenas por 1 centena e 5 dezenas.'],
+        ['Na lombada está escrito: 1 milhar, 4 centenas, 0 dezenas e 7 unidades. Que número é?', '1407', () => String(1000 + 400 + 0 + 7), '1.000 + 400 + 7 = 1407', '147', () => '1' + '4' + '7', 'esqueceu o zero das dezenas.'],
+        ['Na lombada está escrito: 2 milhares, 3 centenas, 15 dezenas e 4 unidades. Que número é?', '2454', () => String(2000 + 300 + 150 + 4), '2.000 + 300 + 150 + 4 = 2454', '23154', () => '2' + '3' + '15' + '4', 'escreveu os números lado a lado, sem trocar 15 dezenas por 1 centena e 5 dezenas.'],
       ] },
       { titulo: 'A ordem na estante', bncc: 'EF03MA01', niveis: [
         ['Qual é o maior número: 325, 352 ou 235?', '352', () => String(Math.max(325, 352, 235)), 'as centenas empatam (3); nas dezenas, 5 > 2', '235', () => '235', 'escolheu o menor número.'],
-        ['Os livros 1407, 1470, 1047 e 1740 serão guardados do menor para o maior. Qual livro fica em 3º lugar?', '1470', () => String([1407, 1470, 1047, 1740].sort((a, b) => a - b)[2]), 'ordem: 1047, 1407, 1470, 1740', '1047', () => '1047', 'pegou o 1º lugar (o menor).'],
+        ['Os livros 1407, 1470, 1047 e 1740 serão guardados do menor para o maior. Qual livro fica em 3º lugar?', '1470', () => String([1407, 1470, 1047, 1740].sort((a, b) => a - b)[2]), 'ordem: 1047, 1407, 1470, 1740', '1740', () => '1740', 'pegou o último lugar (o maior).'],
         ['Os livros 2454, 2545, 2445, 2554 e 2455 serão guardados do menor para o maior. Qual livro fica em 4º lugar?', '2545', () => String([2454, 2545, 2445, 2554, 2455].sort((a, b) => a - b)[3]), 'ordem: 2445, 2454, 2455, 2545, 2554', '2455', () => '2455', 'contou o 3º lugar.'],
       ] },
       { titulo: 'Os livros novos', bncc: 'EF03MA06', niveis: [
         ['A estante A tem 120 livros e a estante B, 45. Quantos livros há nas duas?', '165', () => String(120 + 45), '120 + 45 = 165', '75', () => String(120 - 45), 'tirou em vez de juntar.'],
-        ['A biblioteca tinha 1407 livros e recebeu 250 de doação. Quantos livros tem agora?', '1657', () => String(1407 + 250), '1 407 + 250 = 1 657', '1157', () => String(1407 - 250), 'tirou em vez de juntar.'],
-        ['A biblioteca tinha 2454 livros, recebeu 350 de doação e emprestou 129. Quantos livros estão na biblioteca agora?', '2675', () => String(2454 + 350 - 129), '2 454 + 350 = 2 804 · 2 804 − 129 = 2 675', '2804', () => String(2454 + 350), 'esqueceu os 129 emprestados.'],
+        ['A biblioteca tinha 1.380 livros e recebeu 250 de doação. Quantos livros tem agora?', '1.630', () => N(1380 + 250), '1.380 + 250 = 1.630', '1.130', () => N(1380 - 250), 'tirou em vez de juntar.'],
+        ['A biblioteca tinha 2.380 livros, recebeu 350 de doação e emprestou 129. Quantos livros estão na biblioteca agora?', '2.601', () => N(2380 + 350 - 129), '2.380 + 350 = 2.730 · 2.730 − 129 = 2.601', '2.730', () => N(2380 + 350), 'esqueceu os 129 emprestados.'],
       ] },
       { titulo: 'A numeração das estantes', bncc: 'EF03MA10', niveis: [
         ['As estantes estão numeradas 5, 10, 15, 20... Qual é o número da próxima?', '25', () => String(20 + 5), 'a sequência aumenta de 5 em 5', '21', () => String(20 + 1), 'somou 1 em vez de 5.'],
@@ -113,23 +113,23 @@ module.exports = [
   },
   {
     n: 5, titulo: 'O Caso do Relógio Parado', palavra: 'HORA',
-    abertura: 'O relógio da sala parou, e ninguém sabe a que horas começou o recreio. A diretora quer saber se o recreio durou o tempo certo. Vamos investigar os horários!',
-    solucao: 'O relógio parou por falta de pilha e marcava a HORA errada: o recreio durou mais do que devia.',
+    abertura: 'O relógio da sala parou, e ninguém sabe a que horas começou o recreio nem quanto tempo ele durou. Vamos investigar os horários!',
+    solucao: 'O relógio parou por falta de pilha e marcava a HORA errada. Com as contas, a turma descobriu os horários certos do recreio.',
     etapas: [
       { titulo: 'O relógio da sala', bncc: 'EF03MA23', niveis: [
-        ['No relógio de ponteiros, o ponteiro pequeno está no 9 e o grande, no 12. Que horas são?', '9h00', () => hm(h(9)), 'ponteiro pequeno = hora (9); grande no 12 = 00 minuto', '12h45', () => hm(h(12, 45)), 'trocou os ponteiros.'],
+        ['No relógio de ponteiros, o ponteiro pequeno está no 9 e o grande, no 12. Que horas são?', '9h00', () => hm(h(9)), 'ponteiro pequeno no 9 e grande no 12: 9 horas exatas', '12h45', () => hm(h(12, 45)), 'trocou os ponteiros.'],
         ['O ponteiro pequeno está entre o 9 e o 10, e o grande está no 6. Que horas são?', '9h30', () => hm(h(9, 30)), 'passou das 9; grande no 6 = 30 minutos', '10h30', () => hm(h(10, 30)), 'leu o número seguinte do ponteiro pequeno.'],
         ['O relógio digital marcava 9:30 quando parou. Ele estava 20 minutos atrasado. Que horas eram de verdade?', '9h50', () => hm(h(9, 30) + 20), '9h30 + 20 min = 9h50', '9h10', () => hm(h(9, 30) - 20), 'tirou 20 minutos em vez de somar.'],
       ] },
       { titulo: 'Quanto durou o recreio', bncc: 'EF03MA22', niveis: [
-        ['O recreio começou às 10h00 e terminou às 10h20. Quanto tempo durou?', '20 min', () => min(h(10, 20) - h(10)), 'de 10h00 a 10h20 = 20 minutos', '30 min', () => min(30), 'contou até 10h30.'],
+        ['O recreio começou às 10h00 e terminou às 10h20. Quanto tempo durou?', '20 min', () => min(h(10, 20) - h(10)), 'de 10h00 a 10h20 = 20 minutos', '10h20', () => hm(h(10, 20)), 'respondeu o horário do fim, e não quanto tempo durou.'],
         ['O recreio começou às 9h45 e terminou às 10h05. Quanto tempo durou?', '20 min', () => min(h(10, 5) - h(9, 45)), 'de 9h45 a 10h00 = 15 min · mais 5 min = 20 min', '60 min', () => min(1005 - 945), 'fez 1005 − 945, como se a hora tivesse 100 minutos.'],
-        ['A aula começou às 7h30. A primeira parte durou 1 hora e 45 minutos. A que horas começou o recreio?', '9h15', () => hm(h(7, 30) + 105), '7h30 + 1h = 8h30 · 8h30 + 45 min = 9h15', '8h75', () => `8h${30 + 45}`, 'somou 30 + 45 = 75 minutos e não trocou 60 minutos por 1 hora.'],
+        ['O recreio começou às 9h15 e durou 20 minutos. A que horas terminou?', '9h35', () => hm(h(9, 15) + 20), '9h15 + 20 min = 9h35', '8h55', () => hm(h(9, 15) - 20), 'tirou 20 minutos em vez de somar.'],
       ] },
       { titulo: 'As aulas antes do recreio', bncc: 'EF03MA22', niveis: [
         ['Cada atividade dura 20 minutos. Quanto tempo duram 2 atividades?', '40 min', () => min(2 * 20), '20 + 20 = 40 min', '22 min', () => min(20 + 2), 'somou 20 + 2.'],
         ['Cada aula dura 50 minutos. Quanto tempo duram 2 aulas, em horas e minutos?', '1h40', () => hm(2 * 50), '50 + 50 = 100 min = 1 h 40 min', '1h00', () => hm(60), 'achou que 100 minutos são 1 hora.'],
-        ['Cada aula dura 50 minutos. Antes do recreio há 3 aulas. Começando às 7h30, a que horas termina a 3ª aula?', '10h00', () => hm(h(7, 30) + 3 * 50), '3 × 50 = 150 min = 2h30 · 7h30 + 2h30 = 10h00', '9h30', () => hm(h(7, 30) + 3 * 40), 'contou cada aula como 40 minutos.'],
+        ['Cada aula dura 35 minutos. Antes do recreio há 3 aulas. Começando às 7h30, a que horas termina a 3ª aula?', '9h15', () => hm(h(7, 30) + 3 * 35), '3 × 35 = 105 min = 1h45 · 7h30 + 1h45 = 9h15', '8h35', () => hm(h(7, 30) + 65), 'achou que 105 minutos são 1 hora e 5 minutos.'],
       ] },
       { titulo: 'O tempo parado', bncc: 'EF03MA22', niveis: [
         ['O relógio ficou parado das 8h00 até as 11h00. Quantas horas ficou parado?', '3 h', () => (11 - 8) + ' h', '11 − 8 = 3 horas', '19 h', () => (11 + 8) + ' h', 'somou as horas.'],
@@ -154,7 +154,7 @@ module.exports = [
         ['Um livro custa R$ 18 e um quebra-cabeça, R$ 25. Bia pagou os dois com uma nota de R$ 50. Qual é o troco?', 'R$ 7', () => R(50 - 18 - 25), '18 + 25 = 43 · 50 − 43 = 7 reais', 'R$ 32', () => R(50 - 18), 'esqueceu o quebra-cabeça.'],
       ] },
       { titulo: 'As trocas de dinheiro', bncc: 'EF03MA24', niveis: [
-        ['Quantas moedas de R$ 1 valem o mesmo que uma nota de R$ 10?', '10', () => String(10 / 1), '10 ÷ 1 = 10 moedas', '5', () => '5', 'pensou em notas de R$ 2 (5 × 2 = 10).'],
+        ['Quantas moedas de R$ 1 valem o mesmo que uma nota de R$ 10?', '10', () => String(10 / 1), '10 ÷ 1 = 10 moedas', '1', () => '1', 'achou que uma nota troca por uma moeda só.'],
         ['Quantas notas de R$ 2 trocam por uma nota de R$ 20?', '10', () => String(20 / 2), '20 ÷ 2 = 10 notas', '18', () => String(20 - 2), 'tirou 2 em vez de repartir.'],
         ['Quantas moedas de 50 centavos são necessárias para trocar uma nota de R$ 5?', '10', () => String(5 * 2), 'cada real = 2 moedas de 50 centavos · 5 × 2 = 10', '5', () => '5', 'achou que cada moeda de 50 centavos vale 1 real.'],
       ] },
@@ -196,12 +196,12 @@ module.exports = [
   {
     n: 8, titulo: 'O Mistério da Receita de Bolo', palavra: 'OVOS',
     abertura: 'O bolo da festa da turma saiu solado! A merendeira acha que alguém mediu errado os ingredientes. Vamos refazer as contas da receita.',
-    solucao: 'A receita foi feita pela metade, mas os OVOS não: entraram os ovos da receita inteira, e o bolo solou.',
+    solucao: 'Na fornada da festa, a receita foi feita pela metade, mas os OVOS não: alguém pôs os ovos da receita inteira, e o bolo solou.',
     etapas: [
-      { titulo: 'Meia receita', bncc: 'EF03MA09', niveis: [
-        ['A receita pede 4 xícaras de farinha. Para meia receita, quantas xícaras?', '2', () => String(4 / 2), 'metade de 4 = 2', '8', () => String(4 * 2), 'dobrou em vez de dividir.'],
+      { titulo: 'Os ovos', bncc: 'EF03MA09', niveis: [
+        ['A receita pede 4 ovos. Para meia receita, quantos ovos?', '2', () => String(4 / 2), 'metade de 4 = 2', '8', () => String(4 * 2), 'dobrou em vez de dividir.'],
         ['A receita pede 6 ovos. Para a metade da receita, quantos ovos?', '3', () => String(6 / 2), 'metade de 6 = 3', '12', () => String(6 * 2), 'dobrou em vez de dividir.'],
-        ['A receita pede 12 colheres de açúcar. A turma fez a terça parte da receita. Quantas colheres?', '4', () => String(12 / 3), 'terça parte de 12 = 12 ÷ 3 = 4', '36', () => String(12 * 3), 'multiplicou por 3 em vez de dividir.'],
+        ['A receita grande pede 12 ovos. A turma fez a terça parte da receita. Quantos ovos?', '4', () => String(12 / 3), 'terça parte de 12 = 12 ÷ 3 = 4', '36', () => String(12 * 3), 'multiplicou por 3 em vez de dividir.'],
       ] },
       { titulo: 'O leite', bncc: 'EF03MA20', niveis: [
         ['Cada receita usa 1 litro de leite. Quantos litros para 3 receitas?', '3', () => String(3 * 1), '3 × 1 = 3 litros', '4', () => String(3 + 1), 'somou 3 + 1.'],
@@ -209,9 +209,9 @@ module.exports = [
         ['Cada receita usa meio litro de leite. A turma fez 6 receitas e já tinha 1 litro. Quantos litros precisa comprar?', '2', () => String(6 / 2 - 1), '6 meios = 3 litros · 3 − 1 = 2', '3', () => String(6 / 2), 'esqueceu o litro que já tinha.'],
       ] },
       { titulo: 'A farinha', bncc: 'EF03MA20', niveis: [
-        ['O pacote de farinha tem 1 quilo (1000 gramas). A turma usou metade. Quantos gramas sobraram?', '500', () => String(1000 / 2), 'metade de 1000 = 500 g', '50', () => '50', 'achou que metade de 1 quilo são 50 gramas.'],
-        ['O pacote tem 1000 gramas. A receita usou 250 gramas. Quantos gramas sobraram?', '750', () => String(1000 - 250), '1000 − 250 = 750 g', '1250', () => String(1000 + 250), 'somou em vez de tirar.'],
-        ['O pacote tem 1000 gramas. Foram feitas 2 receitas de 250 gramas e uma de 300 gramas. Quantos gramas sobraram?', '200', () => String(1000 - 2 * 250 - 300), '500 + 300 = 800 · 1000 − 800 = 200 g', '450', () => String(1000 - 250 - 300), 'contou só uma receita de 250 g.'],
+        ['O pacote de farinha tem 1 quilo (1.000 gramas). A turma usou metade. Quantos gramas sobraram?', '500', () => String(1000 / 2), 'metade de 1.000 = 500 g', '50', () => '50', 'achou que metade de 1 quilo são 50 gramas.'],
+        ['O pacote tem 1.000 gramas. A receita usou 250 gramas. Quantos gramas sobraram?', '750', () => String(1000 - 250), '1.000 − 250 = 750 g', '1.250', () => N(1000 + 250), 'somou em vez de tirar.'],
+        ['O pacote tem 1.000 gramas. Foram feitas 2 receitas de 250 gramas e uma de 300 gramas. Quantos gramas sobraram?', '200', () => String(1000 - 2 * 250 - 300), '500 + 300 = 800 · 1.000 − 800 = 200 g', '450', () => String(1000 - 250 - 300), 'contou só uma receita de 250 g.'],
       ] },
       { titulo: 'O forno', bncc: 'EF03MA22', niveis: [
         ['O bolo fica 30 minutos no forno. Entrou às 9h00. A que horas sai?', '9h30', () => hm(h(9) + 30), '9h00 + 30 min = 9h30', '10h00', () => hm(h(10)), 'somou 1 hora.'],
@@ -232,13 +232,13 @@ module.exports = [
       ] },
       { titulo: 'A fita que falta', bncc: 'EF03MA19', niveis: [
         ['A turma tem uma fita de 40 cm e outra de 35 cm. Juntas, quantos centímetros?', '75', () => String(40 + 35), '40 + 35 = 75 cm', '5', () => String(40 - 35), 'tirou em vez de juntar.'],
-        ['Para enfeitar a porta, são precisos 230 cm de fita. A turma tem 180 cm. Quantos centímetros faltam?', '50', () => String(230 - 180), '230 − 180 = 50 cm', '150', () => String(100 * (2 - 1) + 10 * (8 - 3) + 0), 'tirou o menor algarismo do maior em cada coluna, sem desagrupar.'],
+        ['Para enfeitar a porta, são necessários 230 cm de fita. A turma tem 180 cm. Quantos centímetros faltam?', '50', () => String(230 - 180), '230 − 180 = 50 cm', '150', () => String(100 * (2 - 1) + 10 * (8 - 3) + 0), 'tirou o menor algarismo do maior em cada coluna, sem desagrupar.'],
         ['A janela tem 230 cm e o mural, 305 cm. A turma tem 4 metros de fita. Quantos centímetros faltam para enfeitar os dois?', '135', () => String(230 + 305 - 400), '230 + 305 = 535 · 4 m = 400 cm · 535 − 400 = 135', '535', () => String(230 + 305), 'esqueceu a fita que a turma já tem.'],
       ] },
       { titulo: 'Os laços', bncc: 'EF03MA07', niveis: [
         ['Cada laço usa 10 cm de fita. Quantos centímetros para 5 laços?', '50', () => String(5 * 10), '5 × 10 = 50 cm', '15', () => String(5 + 10), 'somou 5 + 10.'],
         ['Cada laço usa 25 cm de fita. Quantos centímetros para 4 laços?', '100', () => String(4 * 25), '25 + 25 + 25 + 25 = 100 cm', '29', () => String(4 + 25), 'somou 4 + 25.'],
-        ['Cada laço usa 25 cm de fita. Serão 3 laços na porta e 5 no mural. Quantos centímetros?', '200', () => String((3 + 5) * 25), '8 laços × 25 = 200 cm', '125', () => String(5 * 25), 'contou só os laços do mural.'],
+        ['Cada laço usa 25 cm de fita. Serão 2 laços na porta e 2 no mural. Quantos centímetros?', '100', () => String((2 + 2) * 25), '4 laços: 25 + 25 + 25 + 25 = 100 cm', '50', () => String(2 * 25), 'contou só os laços do mural.'],
       ] },
       { titulo: 'Os pedaços', bncc: 'EF03MA08', niveis: [
         ['Uma fita de 24 cm será cortada em 2 pedaços iguais. Quanto mede cada pedaço?', '12', () => String(24 / 2), '24 ÷ 2 = 12 cm', '22', () => String(24 - 2), 'tirou 2 em vez de repartir.'],
@@ -265,7 +265,7 @@ module.exports = [
       { titulo: 'Ingressos e lanches', bncc: 'EF03MA24', niveis: [
         ['Cada lanche custa R$ 3. Quanto custam 4 lanches?', 'R$ 12', () => R(4 * 3), '4 × 3 = 12 reais', 'R$ 7', () => R(4 + 3), 'somou 4 + 3.'],
         ['O ingresso custa R$ 5. Quanto custam os ingressos de 10 alunos?', 'R$ 50', () => R(10 * 5), '10 × 5 = 50 reais', 'R$ 15', () => R(10 + 5), 'somou 10 + 5.'],
-        ['O ingresso custa R$ 5 e o lanche, R$ 4. Quanto um grupo de 9 alunos vai gastar com ingresso e lanche?', 'R$ 81', () => R(9 * (5 + 4)), '5 + 4 = 9 reais por aluno · 9 × 9 = 81 reais', 'R$ 45', () => R(9 * 5), 'esqueceu o lanche.'],
+        ['O ingresso custa R$ 5 e o lanche, R$ 4. Quanto um grupo de 10 alunos vai gastar com ingresso e lanche?', 'R$ 90', () => R(10 * (5 + 4)), '5 + 4 = 9 reais por aluno · 10 × 9 = 90 reais', 'R$ 50', () => R(10 * 5), 'esqueceu o lanche.'],
       ] },
       { titulo: 'A viagem', bncc: 'EF03MA22', niveis: [
         ['O ônibus sai às 8h00 e a viagem dura 1 hora. A que horas chega?', '9h00', () => hm(h(8) + 60), '8h00 + 1 h = 9h00', '8h01', () => hm(h(8) + 1), 'somou 1 minuto em vez de 1 hora.'],

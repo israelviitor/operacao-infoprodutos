@@ -40,8 +40,8 @@
 | 03 | O Mistério da Receita Dobrada | A receita foi feita para o dobro de pessoas. | Proporcionalidade · EF05MA12 |
 | 04 | **O Mistério da Cápsula do Tempo** ✅ | Uma cápsula enterrada há 25 anos. | Gráfico de colunas · EF05MA24 · Saeb D28 |
 | 05 | O Enigma do Terreno da Horta Nova | Qual canteiro cabe no terreno? | Perímetro e área · EF05MA20 · Saeb D11 / D12 |
-| 06 | O Caso do Tesouro no Plano | Coordenadas levam ao tesouro da turma. | Plano cartesiano · EF05MA14 |
+| 06 | O Caso do Tesouro no Plano | Coordenadas levam ao tesouro da turma. | Plano cartesiano · EF05MA15 · Saeb D1 |
 | 07 | O Mistério da Torta Dividida | Pedaços diferentes, mesma quantidade? | Frações equivalentes e comparação · EF05MA04 / EF05MA05 · Saeb D21 / D24 |
 | 08 | O Caso do Aquário Vazio | O aquário da sala esvaziou durante o feriado. | Capacidade, volume e conversões · EF05MA19 / EF05MA21 |
-| 09 | O Mistério da Rifa da Formatura | A rifa arrecadou mais do que o esperado. | Multiplicação e divisão com números grandes; chance · EF05MA08 / EF05MA22 · Saeb D20 |
+| 09 | O Mistério da Rifa da Formatura | A rifa arrecadou mais do que o esperado. | Multiplicação e divisão com números grandes; chance · EF05MA08 / EF05MA23 · Saeb D20 |
 | 10 | O Caso dos Prêmios da Gincana | Os prêmios foram divididos em partes diferentes. | Partilha em partes desiguais; números grandes · EF05MA13 / EF05MA01 |

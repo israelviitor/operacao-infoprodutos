@@ -30,7 +30,7 @@
 
 ### Etapa 3 — Os pacotinhos · EF03MA07
 - **Nível 1 ★:** 5 alunos trouxeram 2 pacotinhos cada um. Quantos pacotinhos foram trazidos?  
-  → **10** (5 × 2 = 10 (2 + 2 + 2 + 2 + 2)). Erro comum: **7** — somou 5 + 2 em vez de juntar 5 vezes o 2.
+  → **10** (5 × 2 = 10, ou 2 + 2 + 2 + 2 + 2 = 10). Erro comum: **7** — somou 5 + 2 em vez de juntar 5 vezes o 2.
 - **Nível 2 ★★:** Cada pacotinho tem 5 figurinhas. A turma abriu 8 pacotinhos. Quantas figurinhas saíram?  
   → **40** (8 × 5 = 40). Erro comum: **13** — somou 8 + 5.
 - **Nível 3 ★★★:** Cada pacotinho tem 5 figurinhas. 6 alunos trouxeram 3 pacotinhos cada um. Quantas figurinhas saíram?  
@@ -50,13 +50,13 @@
 - Tabela do Nível 2 ★★: 8 → A · 13 → M · 35 → N · 40 → L · 66 → O · 134 → J · 174 → I · 184 → C
 - Tabela do Nível 3 ★★★: 3 → A · 15 → S · 30 → R · 74 → O · 89 → P · 90 → L · 201 → N · 211 → C
 
-**Solução do caso:** Nenhuma figurinha sumiu: parte delas estava no envelope esperando COLA, e as repetidas estavam separadas para a troca com outras turmas.
+**Solução do caso:** Nenhuma figurinha sumiu: as repetidas foram separadas para a troca com outras turmas, e as novas ainda estavam soltas, esperando a COLA.
 
 ## Missão 02 — O Mistério do Lanche Trocado
 
-**Abertura:** Na hora do recreio, as lancheiras da turma foram trocadas na cantina. A merendeira anotou tudo, mas as contas ficaram misturadas. Ajude a descobrir onde está a lancheira que sumiu!
+**Abertura:** Na hora do recreio, algumas lancheiras sumiram da cantina! A merendeira anotou tudo, mas as contas ficaram misturadas. Ajude a descobrir onde elas foram parar!
 
-### Etapa 1 — A prateleira · EF03MA07
+### Etapa 1 — A cantina · EF03MA07
 - **Nível 1 ★:** Na prateleira, há 3 fileiras com 4 lancheiras em cada uma. Quantas lancheiras há?  
   → **12** (3 × 4 = 12). Erro comum: **7** — somou 3 + 4.
 - **Nível 2 ★★:** A cantina preparou 6 bandejas com 5 sanduíches em cada uma. Quantos sanduíches?  
@@ -80,8 +80,8 @@
 - **Nível 3 ★★★:** Havia 132 lancheiras. 117 foram devolvidas no recreio e 9 depois da aula. Quantas ainda faltam?  
   → **6** (117 + 9 = 126 · 132 − 126 = 6). Erro comum: **15** — esqueceu as 9 devolvidas depois da aula.
 
-### Etapa 4 — Os biscoitos · EF03MA08
-- **Nível 1 ★:** 15 maçãs serão divididas igualmente em 5 lancheiras. Quantas maçãs em cada?  
+### Etapa 4 — A merenda · EF03MA08
+- **Nível 1 ★:** 15 biscoitos serão divididos igualmente em 5 lancheiras. Quantos biscoitos em cada?  
   → **3** (15 ÷ 5 = 3). Erro comum: **10** — tirou 5 em vez de repartir.
 - **Nível 2 ★★:** Sobraram 24 biscoitos, divididos igualmente entre 4 mesas. Quantos para cada mesa?  
   → **6** (24 ÷ 4 = 6). Erro comum: **20** — tirou 4 em vez de repartir.
@@ -94,7 +94,7 @@
 - Tabela do Nível 2 ★★: 6 → O · 11 → L · 15 → C · 20 → P · 25 → N · 30 → S · 45 → U · 95 → M
 - Tabela do Nível 3 ★★★: 6 → C · 7 → O · 8 → V · 15 → T · 35 → P · 39 → S · 52 → R · 62 → U
 
-**Solução do caso:** A lancheira “sumida” estava na geladeira da cantina, junto com as caixas de SUCO: a merendeira guardou para não estragar.
+**Solução do caso:** As lancheiras “sumidas” estavam na geladeira da cantina, junto com as caixas de SUCO: a merendeira guardou para o lanche não estragar.
 
 ## Missão 03 — O Mistério da Horta *(texto do mockup)*
 
@@ -148,25 +148,25 @@
 - **Nível 1 ★:** O livro tem o número “trezentos e vinte e cinco”. Escreva esse número com algarismos.  
   → **325** (300 + 20 + 5 = 325). Erro comum: **30025** — escreveu “300” e “25” lado a lado.
 - **Nível 2 ★★:** Na lombada está escrito: 1 milhar, 4 centenas, 0 dezenas e 7 unidades. Que número é?  
-  → **1407** (1 000 + 400 + 7 = 1 407). Erro comum: **147** — esqueceu o zero das dezenas.
+  → **1407** (1.000 + 400 + 7 = 1407). Erro comum: **147** — esqueceu o zero das dezenas.
 - **Nível 3 ★★★:** Na lombada está escrito: 2 milhares, 3 centenas, 15 dezenas e 4 unidades. Que número é?  
-  → **2454** (2 000 + 300 + 150 + 4 = 2 454). Erro comum: **23154** — escreveu os números lado a lado, sem trocar 15 dezenas por 1 centena e 5 dezenas.
+  → **2454** (2.000 + 300 + 150 + 4 = 2454). Erro comum: **23154** — escreveu os números lado a lado, sem trocar 15 dezenas por 1 centena e 5 dezenas.
 
 ### Etapa 2 — A ordem na estante · EF03MA01
 - **Nível 1 ★:** Qual é o maior número: 325, 352 ou 235?  
   → **352** (as centenas empatam (3); nas dezenas, 5 > 2). Erro comum: **235** — escolheu o menor número.
 - **Nível 2 ★★:** Os livros 1407, 1470, 1047 e 1740 serão guardados do menor para o maior. Qual livro fica em 3º lugar?  
-  → **1470** (ordem: 1047, 1407, 1470, 1740). Erro comum: **1047** — pegou o 1º lugar (o menor).
+  → **1470** (ordem: 1047, 1407, 1470, 1740). Erro comum: **1740** — pegou o último lugar (o maior).
 - **Nível 3 ★★★:** Os livros 2454, 2545, 2445, 2554 e 2455 serão guardados do menor para o maior. Qual livro fica em 4º lugar?  
   → **2545** (ordem: 2445, 2454, 2455, 2545, 2554). Erro comum: **2455** — contou o 3º lugar.
 
 ### Etapa 3 — Os livros novos · EF03MA06
 - **Nível 1 ★:** A estante A tem 120 livros e a estante B, 45. Quantos livros há nas duas?  
   → **165** (120 + 45 = 165). Erro comum: **75** — tirou em vez de juntar.
-- **Nível 2 ★★:** A biblioteca tinha 1407 livros e recebeu 250 de doação. Quantos livros tem agora?  
-  → **1657** (1 407 + 250 = 1 657). Erro comum: **1157** — tirou em vez de juntar.
-- **Nível 3 ★★★:** A biblioteca tinha 2454 livros, recebeu 350 de doação e emprestou 129. Quantos livros estão na biblioteca agora?  
-  → **2675** (2 454 + 350 = 2 804 · 2 804 − 129 = 2 675). Erro comum: **2804** — esqueceu os 129 emprestados.
+- **Nível 2 ★★:** A biblioteca tinha 1.380 livros e recebeu 250 de doação. Quantos livros tem agora?  
+  → **1.630** (1.380 + 250 = 1.630). Erro comum: **1.130** — tirou em vez de juntar.
+- **Nível 3 ★★★:** A biblioteca tinha 2.380 livros, recebeu 350 de doação e emprestou 129. Quantos livros estão na biblioteca agora?  
+  → **2.601** (2.380 + 350 = 2.730 · 2.730 − 129 = 2.601). Erro comum: **2.730** — esqueceu os 129 emprestados.
 
 ### Etapa 4 — A numeração das estantes · EF03MA10
 - **Nível 1 ★:** As estantes estão numeradas 5, 10, 15, 20... Qual é o número da próxima?  
@@ -179,18 +179,18 @@
 **Palavra-código:** CAPA
 
 - Tabela do Nível 1 ★: 21 → U · 25 → A · 75 → T · 165 → P · 235 → S · 325 → C · 352 → A · 30025 → R
-- Tabela do Nível 2 ★★: 147 → U · 176 → Z · 200 → A · 1047 → V · 1157 → X · 1407 → C · 1470 → A · 1657 → P
-- Tabela do Nível 3 ★★★: 2150 → A · 2200 → E · 2454 → C · 2455 → B · 2545 → A · 2675 → P · 2804 → D · 23154 → Z
+- Tabela do Nível 2 ★★: 1.130 → X · 1.630 → P · 147 → U · 176 → Z · 200 → A · 1407 → C · 1470 → A · 1740 → V
+- Tabela do Nível 3 ★★★: 2.601 → P · 2.730 → D · 2150 → A · 2200 → E · 2454 → C · 2455 → B · 2545 → A · 23154 → Z
 
 **Solução do caso:** O livro do mês estava com a CAPA trocada e foi guardado com o número errado na estante.
 
 ## Missão 05 — O Caso do Relógio Parado
 
-**Abertura:** O relógio da sala parou, e ninguém sabe a que horas começou o recreio. A diretora quer saber se o recreio durou o tempo certo. Vamos investigar os horários!
+**Abertura:** O relógio da sala parou, e ninguém sabe a que horas começou o recreio nem quanto tempo ele durou. Vamos investigar os horários!
 
 ### Etapa 1 — O relógio da sala · EF03MA23
 - **Nível 1 ★:** No relógio de ponteiros, o ponteiro pequeno está no 9 e o grande, no 12. Que horas são?  
-  → **9h00** (ponteiro pequeno = hora (9); grande no 12 = 00 minuto). Erro comum: **12h45** — trocou os ponteiros.
+  → **9h00** (ponteiro pequeno no 9 e grande no 12: 9 horas exatas). Erro comum: **12h45** — trocou os ponteiros.
 - **Nível 2 ★★:** O ponteiro pequeno está entre o 9 e o 10, e o grande está no 6. Que horas são?  
   → **9h30** (passou das 9; grande no 6 = 30 minutos). Erro comum: **10h30** — leu o número seguinte do ponteiro pequeno.
 - **Nível 3 ★★★:** O relógio digital marcava 9:30 quando parou. Ele estava 20 minutos atrasado. Que horas eram de verdade?  
@@ -198,19 +198,19 @@
 
 ### Etapa 2 — Quanto durou o recreio · EF03MA22
 - **Nível 1 ★:** O recreio começou às 10h00 e terminou às 10h20. Quanto tempo durou?  
-  → **20 min** (de 10h00 a 10h20 = 20 minutos). Erro comum: **30 min** — contou até 10h30.
+  → **20 min** (de 10h00 a 10h20 = 20 minutos). Erro comum: **10h20** — respondeu o horário do fim, e não quanto tempo durou.
 - **Nível 2 ★★:** O recreio começou às 9h45 e terminou às 10h05. Quanto tempo durou?  
   → **20 min** (de 9h45 a 10h00 = 15 min · mais 5 min = 20 min). Erro comum: **60 min** — fez 1005 − 945, como se a hora tivesse 100 minutos.
-- **Nível 3 ★★★:** A aula começou às 7h30. A primeira parte durou 1 hora e 45 minutos. A que horas começou o recreio?  
-  → **9h15** (7h30 + 1h = 8h30 · 8h30 + 45 min = 9h15). Erro comum: **8h75** — somou 30 + 45 = 75 minutos e não trocou 60 minutos por 1 hora.
+- **Nível 3 ★★★:** O recreio começou às 9h15 e durou 20 minutos. A que horas terminou?  
+  → **9h35** (9h15 + 20 min = 9h35). Erro comum: **8h55** — tirou 20 minutos em vez de somar.
 
 ### Etapa 3 — As aulas antes do recreio · EF03MA22
 - **Nível 1 ★:** Cada atividade dura 20 minutos. Quanto tempo duram 2 atividades?  
   → **40 min** (20 + 20 = 40 min). Erro comum: **22 min** — somou 20 + 2.
 - **Nível 2 ★★:** Cada aula dura 50 minutos. Quanto tempo duram 2 aulas, em horas e minutos?  
   → **1h40** (50 + 50 = 100 min = 1 h 40 min). Erro comum: **1h00** — achou que 100 minutos são 1 hora.
-- **Nível 3 ★★★:** Cada aula dura 50 minutos. Antes do recreio há 3 aulas. Começando às 7h30, a que horas termina a 3ª aula?  
-  → **10h00** (3 × 50 = 150 min = 2h30 · 7h30 + 2h30 = 10h00). Erro comum: **9h30** — contou cada aula como 40 minutos.
+- **Nível 3 ★★★:** Cada aula dura 35 minutos. Antes do recreio há 3 aulas. Começando às 7h30, a que horas termina a 3ª aula?  
+  → **9h15** (3 × 35 = 105 min = 1h45 · 7h30 + 1h45 = 9h15). Erro comum: **8h35** — achou que 105 minutos são 1 hora e 5 minutos.
 
 ### Etapa 4 — O tempo parado · EF03MA22
 - **Nível 1 ★:** O relógio ficou parado das 8h00 até as 11h00. Quantas horas ficou parado?  
@@ -222,11 +222,11 @@
 
 **Palavra-código:** HORA
 
-- Tabela do Nível 1 ★: 3 h → A · 9h00 → H · 12h45 → V · 19 h → B · 20 min → O · 22 min → Z · 30 min → X · 40 min → R
+- Tabela do Nível 1 ★: 3 h → A · 9h00 → H · 10h20 → X · 12h45 → V · 19 h → B · 20 min → O · 22 min → Z · 40 min → R
 - Tabela do Nível 2 ★★: 1h00 → D · 1h40 → R · 4 h → E · 5 h → A · 9h30 → H · 10h30 → B · 20 min → O · 60 min → C
-- Tabela do Nível 3 ★★★: 3h30 → A · 3h70 → I · 8h75 → F · 9h10 → E · 9h15 → O · 9h30 → G · 9h50 → H · 10h00 → R
+- Tabela do Nível 3 ★★★: 3h30 → A · 3h70 → I · 8h35 → G · 8h55 → F · 9h10 → E · 9h15 → R · 9h35 → O · 9h50 → H
 
-**Solução do caso:** O relógio parou por falta de pilha e marcava a HORA errada: o recreio durou mais do que devia.
+**Solução do caso:** O relógio parou por falta de pilha e marcava a HORA errada. Com as contas, a turma descobriu os horários certos do recreio.
 
 ## Missão 06 — O Mistério da Feirinha de Trocas
 
@@ -250,7 +250,7 @@
 
 ### Etapa 3 — As trocas de dinheiro · EF03MA24
 - **Nível 1 ★:** Quantas moedas de R$ 1 valem o mesmo que uma nota de R$ 10?  
-  → **10** (10 ÷ 1 = 10 moedas). Erro comum: **5** — pensou em notas de R$ 2 (5 × 2 = 10).
+  → **10** (10 ÷ 1 = 10 moedas). Erro comum: **1** — achou que uma nota troca por uma moeda só.
 - **Nível 2 ★★:** Quantas notas de R$ 2 trocam por uma nota de R$ 20?  
   → **10** (20 ÷ 2 = 10 notas). Erro comum: **18** — tirou 2 em vez de repartir.
 - **Nível 3 ★★★:** Quantas moedas de 50 centavos são necessárias para trocar uma nota de R$ 5?  
@@ -266,7 +266,7 @@
 
 **Palavra-código:** NOTA
 
-- Tabela do Nível 1 ★: 5 → D · 10 → T · R$ 3 → O · R$ 5 → B · R$ 7 → E · R$ 13 → N · R$ 17 → C · R$ 33 → A
+- Tabela do Nível 1 ★: 1 → D · 10 → T · R$ 3 → O · R$ 5 → B · R$ 7 → E · R$ 13 → N · R$ 17 → C · R$ 33 → A
 - Tabela do Nível 2 ★★: 10 → T · 18 → G · R$ 7 → E · R$ 24 → O · R$ 34 → N · R$ 36 → F · R$ 50 → A · R$ 98 → H
 - Tabela do Nível 3 ★★★: 5 → J · 10 → T · R$ 7 → O · R$ 32 → I · R$ 67 → N · R$ 133 → A · R$ 147 → L · R$ 166 → H
 
@@ -322,12 +322,12 @@
 
 **Abertura:** O bolo da festa da turma saiu solado! A merendeira acha que alguém mediu errado os ingredientes. Vamos refazer as contas da receita.
 
-### Etapa 1 — Meia receita · EF03MA09
-- **Nível 1 ★:** A receita pede 4 xícaras de farinha. Para meia receita, quantas xícaras?  
+### Etapa 1 — Os ovos · EF03MA09
+- **Nível 1 ★:** A receita pede 4 ovos. Para meia receita, quantos ovos?  
   → **2** (metade de 4 = 2). Erro comum: **8** — dobrou em vez de dividir.
 - **Nível 2 ★★:** A receita pede 6 ovos. Para a metade da receita, quantos ovos?  
   → **3** (metade de 6 = 3). Erro comum: **12** — dobrou em vez de dividir.
-- **Nível 3 ★★★:** A receita pede 12 colheres de açúcar. A turma fez a terça parte da receita. Quantas colheres?  
+- **Nível 3 ★★★:** A receita grande pede 12 ovos. A turma fez a terça parte da receita. Quantos ovos?  
   → **4** (terça parte de 12 = 12 ÷ 3 = 4). Erro comum: **36** — multiplicou por 3 em vez de dividir.
 
 ### Etapa 2 — O leite · EF03MA20
@@ -339,12 +339,12 @@
   → **2** (6 meios = 3 litros · 3 − 1 = 2). Erro comum: **3** — esqueceu o litro que já tinha.
 
 ### Etapa 3 — A farinha · EF03MA20
-- **Nível 1 ★:** O pacote de farinha tem 1 quilo (1000 gramas). A turma usou metade. Quantos gramas sobraram?  
-  → **500** (metade de 1000 = 500 g). Erro comum: **50** — achou que metade de 1 quilo são 50 gramas.
-- **Nível 2 ★★:** O pacote tem 1000 gramas. A receita usou 250 gramas. Quantos gramas sobraram?  
-  → **750** (1000 − 250 = 750 g). Erro comum: **1250** — somou em vez de tirar.
-- **Nível 3 ★★★:** O pacote tem 1000 gramas. Foram feitas 2 receitas de 250 gramas e uma de 300 gramas. Quantos gramas sobraram?  
-  → **200** (500 + 300 = 800 · 1000 − 800 = 200 g). Erro comum: **450** — contou só uma receita de 250 g.
+- **Nível 1 ★:** O pacote de farinha tem 1 quilo (1.000 gramas). A turma usou metade. Quantos gramas sobraram?  
+  → **500** (metade de 1.000 = 500 g). Erro comum: **50** — achou que metade de 1 quilo são 50 gramas.
+- **Nível 2 ★★:** O pacote tem 1.000 gramas. A receita usou 250 gramas. Quantos gramas sobraram?  
+  → **750** (1.000 − 250 = 750 g). Erro comum: **1.250** — somou em vez de tirar.
+- **Nível 3 ★★★:** O pacote tem 1.000 gramas. Foram feitas 2 receitas de 250 gramas e uma de 300 gramas. Quantos gramas sobraram?  
+  → **200** (500 + 300 = 800 · 1.000 − 800 = 200 g). Erro comum: **450** — contou só uma receita de 250 g.
 
 ### Etapa 4 — O forno · EF03MA22
 - **Nível 1 ★:** O bolo fica 30 minutos no forno. Entrou às 9h00. A que horas sai?  
@@ -357,10 +357,10 @@
 **Palavra-código:** OVOS
 
 - Tabela do Nível 1 ★: 2 → O · 3 → V · 4 → G · 8 → F · 9h30 → S · 10h00 → I · 50 → H · 500 → O
-- Tabela do Nível 2 ★★: 2 → V · 3 → O · 4 → J · 9h70 → M · 10h10 → S · 12 → I · 750 → O · 1250 → L
+- Tabela do Nível 2 ★★: 1.250 → L · 2 → V · 3 → O · 4 → J · 9h70 → M · 10h10 → S · 12 → I · 750 → O
 - Tabela do Nível 3 ★★★: 2 → V · 3 → N · 4 → O · 10h15 → R · 10h50 → S · 36 → M · 200 → O · 450 → P
 
-**Solução do caso:** A receita foi feita pela metade, mas os OVOS não: entraram os ovos da receita inteira, e o bolo solou.
+**Solução do caso:** Na fornada da festa, a receita foi feita pela metade, mas os OVOS não: alguém pôs os ovos da receita inteira, e o bolo solou.
 
 ## Missão 09 — O Caso da Fita Métrica Sumida
 
@@ -377,7 +377,7 @@
 ### Etapa 2 — A fita que falta · EF03MA19
 - **Nível 1 ★:** A turma tem uma fita de 40 cm e outra de 35 cm. Juntas, quantos centímetros?  
   → **75** (40 + 35 = 75 cm). Erro comum: **5** — tirou em vez de juntar.
-- **Nível 2 ★★:** Para enfeitar a porta, são precisos 230 cm de fita. A turma tem 180 cm. Quantos centímetros faltam?  
+- **Nível 2 ★★:** Para enfeitar a porta, são necessários 230 cm de fita. A turma tem 180 cm. Quantos centímetros faltam?  
   → **50** (230 − 180 = 50 cm). Erro comum: **150** — tirou o menor algarismo do maior em cada coluna, sem desagrupar.
 - **Nível 3 ★★★:** A janela tem 230 cm e o mural, 305 cm. A turma tem 4 metros de fita. Quantos centímetros faltam para enfeitar os dois?  
   → **135** (230 + 305 = 535 · 4 m = 400 cm · 535 − 400 = 135). Erro comum: **535** — esqueceu a fita que a turma já tem.
@@ -387,8 +387,8 @@
   → **50** (5 × 10 = 50 cm). Erro comum: **15** — somou 5 + 10.
 - **Nível 2 ★★:** Cada laço usa 25 cm de fita. Quantos centímetros para 4 laços?  
   → **100** (25 + 25 + 25 + 25 = 100 cm). Erro comum: **29** — somou 4 + 25.
-- **Nível 3 ★★★:** Cada laço usa 25 cm de fita. Serão 3 laços na porta e 5 no mural. Quantos centímetros?  
-  → **200** (8 laços × 25 = 200 cm). Erro comum: **125** — contou só os laços do mural.
+- **Nível 3 ★★★:** Cada laço usa 25 cm de fita. Serão 2 laços na porta e 2 no mural. Quantos centímetros?  
+  → **100** (4 laços: 25 + 25 + 25 + 25 = 100 cm). Erro comum: **50** — contou só os laços do mural.
 
 ### Etapa 4 — Os pedaços · EF03MA08
 - **Nível 1 ★:** Uma fita de 24 cm será cortada em 2 pedaços iguais. Quanto mede cada pedaço?  
@@ -402,7 +402,7 @@
 
 - Tabela do Nível 1 ★: 5 → O · 10 → N · 12 → A · 15 → P · 22 → R · 50 → T · 75 → I · 100 → F
 - Tabela do Nível 2 ★★: 10 → A · 29 → U · 32 → R · 50 → I · 72 → V · 100 → T · 150 → S · 230 → F
-- Tabela do Nível 3 ★★★: 40 → A · 125 → Z · 135 → I · 195 → B · 200 → T · 305 → F · 350 → V · 535 → X
+- Tabela do Nível 3 ★★★: 40 → A · 50 → Z · 100 → T · 135 → I · 195 → B · 305 → F · 350 → V · 535 → X
 
 **Solução do caso:** A FITA métrica estava enrolada dentro da caixa de enfeites. Com as medidas certas, a decoração ficou completa.
 
@@ -431,8 +431,8 @@
   → **R$ 12** (4 × 3 = 12 reais). Erro comum: **R$ 7** — somou 4 + 3.
 - **Nível 2 ★★:** O ingresso custa R$ 5. Quanto custam os ingressos de 10 alunos?  
   → **R$ 50** (10 × 5 = 50 reais). Erro comum: **R$ 15** — somou 10 + 5.
-- **Nível 3 ★★★:** O ingresso custa R$ 5 e o lanche, R$ 4. Quanto um grupo de 9 alunos vai gastar com ingresso e lanche?  
-  → **R$ 81** (5 + 4 = 9 reais por aluno · 9 × 9 = 81 reais). Erro comum: **R$ 45** — esqueceu o lanche.
+- **Nível 3 ★★★:** O ingresso custa R$ 5 e o lanche, R$ 4. Quanto um grupo de 10 alunos vai gastar com ingresso e lanche?  
+  → **R$ 90** (5 + 4 = 9 reais por aluno · 10 × 9 = 90 reais). Erro comum: **R$ 50** — esqueceu o lanche.
 
 ### Etapa 4 — A viagem · EF03MA22
 - **Nível 1 ★:** O ônibus sai às 8h00 e a viagem dura 1 hora. A que horas chega?  
@@ -446,7 +446,7 @@
 
 - Tabela do Nível 1 ★: 4 → A · 8 → M · 8h01 → T · 9h00 → A · 14 → P · 15 → R · R$ 7 → S · R$ 12 → L
 - Tabela do Nível 2 ★★: 8 → A · 8h75 → X · 9 → M · 9h15 → A · 21 → U · 32 → T · R$ 15 → V · R$ 50 → L
-- Tabela do Nível 3 ★★★: 6 → Z · 7 → A · 8 → X · 9 → M · 11h65 → C · 12h05 → A · R$ 45 → B · R$ 81 → L
+- Tabela do Nível 3 ★★★: 6 → Z · 7 → A · 8 → X · 9 → M · 11h65 → C · 12h05 → A · R$ 50 → B · R$ 90 → L
 
 **Solução do caso:** A lista estava dentro da MALA da professora, no bagageiro do ônibus.
 
@@ -458,23 +458,23 @@
 
 **Abertura:** A chuva apagou parte do placar do campeonato de futebol da escola. Só sobraram algumas anotações e a tabela de vitórias. Vamos reconstruir o placar e descobrir o campeão!
 
-**Figura:** Tabela do campeonato: Leões — 5 vitórias, 2 empates · Águias — 4 vitórias, 4 empates · Tubarões — 6 vitórias, 0 empate. Vitória vale 3 pontos; empate, 1 ponto.
+**Figura:** Tabela do campeonato: Leões — 5 vitórias, 2 empates · Águias — 4 vitórias, 4 empates · Tubarões — 6 vitórias, nenhum empate. Vitória vale 3 pontos; empate, 1 ponto.
 
-### Etapa 1 — O público · EF04MA03
+### Etapa 1 — Gols e público · EF04MA03
 - **Nível 1 ★:** O time da sala fez 12 gols no 1º turno e 9 no 2º. Quantos gols ao todo?  
   → **21** (12 + 9 = 21). Erro comum: **3** — tirou em vez de juntar.
-- **Nível 2 ★★:** O público foi de 1 245 pessoas no sábado e 1 380 no domingo. Quantas pessoas ao todo?  
-  → **2.625** (1 245 + 1 380 = 2 625). Erro comum: **2.525** — esqueceu o “vai um” das dezenas (4 + 8 = 12).
-- **Nível 3 ★★★:** O público foi de 1 245 pessoas no sábado, 1 380 no domingo e 2 095 na final. Quantas pessoas ao todo?  
-  → **4.720** (2 625 + 2 095 = 4 720). Erro comum: **2.625** — esqueceu o público da final.
+- **Nível 2 ★★:** O público foi de 1.245 pessoas no sábado e 1.380 no domingo. Quantas pessoas ao todo?  
+  → **2.625** (1.245 + 1.380 = 2.625). Erro comum: **2.525** — esqueceu o “vai um” das dezenas (4 + 8 = 12).
+- **Nível 3 ★★★:** O público foi de 1.245 pessoas no sábado, 1.380 no domingo e 2.095 na final. Quantas pessoas ao todo?  
+  → **4.720** (2.625 + 2.095 = 4.720). Erro comum: **2.625** — esqueceu o público da final.
 
 ### Etapa 2 — A diferença · EF04MA03
 - **Nível 1 ★:** O time A fez 21 gols e o time B, 17. Quantos gols o A fez a mais?  
   → **4** (21 − 17 = 4). Erro comum: **38** — somou em vez de comparar.
-- **Nível 2 ★★:** A final teve 2 095 pessoas e o sábado, 1 245. Quantas pessoas a mais foram à final?  
-  → **850** (2 095 − 1 245 = 850). Erro comum: **1.250** — tirou o menor algarismo do maior em cada coluna, sem desagrupar.
-- **Nível 3 ★★★:** O ginásio cabe 5 000 pessoas. Na final, 2 095 entraram pelo portão A e 1 380 pelo B. Quantos lugares ficaram vazios?  
-  → **1.525** (2 095 + 1 380 = 3 475 · 5 000 − 3 475 = 1 525). Erro comum: **2.905** — esqueceu o portão B.
+- **Nível 2 ★★:** A final teve 2.095 pessoas e o sábado, 1.245. Quantas pessoas a mais foram à final?  
+  → **850** (2.095 − 1.245 = 850). Erro comum: **1.250** — tirou o menor algarismo do maior em cada coluna, sem desagrupar.
+- **Nível 3 ★★★:** O ginásio cabe 5.000 pessoas. Na final, 2.095 entraram pelo portão A e 1.380 pelo B. Quantos lugares ficaram vazios?  
+  → **1.525** (2.095 + 1.380 = 3.475 · 5.000 − 3.475 = 1.525). Erro comum: **2.905** — esqueceu o portão B.
 
 ### Etapa 3 — A tabela de pontos · EF04MA27
 - **Nível 1 ★:** Quantos pontos os Leões fizeram só com as vitórias?  
@@ -513,8 +513,8 @@
   → **R$ 20,50** (7,50 + 8,00 + 5,00 = 20,50). Erro comum: **R$ 11,50** — somou o preço de 1 quilo de cada fruta, sem multiplicar pelos quilos.
 
 ### Etapa 2 — O que restou · EF04MA25
-- **Nível 1 ★:** A turma começou o dia com R$ 20,00. Depois dessas compras, quanto ainda restou?  
-  → **R$ 11,00** (20,00 − 9,00 = 11,00). Erro comum: **R$ 29,00** — somou em vez de tirar.
+- **Nível 1 ★:** A turma começou o dia com R$ 50,00. Depois dessas compras, quanto ainda restou?  
+  → **R$ 41,00** (50,00 − 9,00 = 41,00). Erro comum: **R$ 59,00** — somou em vez de tirar.
 - **Nível 2 ★★:** A turma começou o dia com R$ 50,00. Depois dessas compras, quanto ainda restou?  
   → **R$ 31,00** (50,00 − 19,00 = 31,00). Erro comum: **R$ 41,00** — desagrupou a dezena, mas não tirou 1 dela (fez 5 − 1 = 4).
 - **Nível 3 ★★★:** A turma começou com R$ 50,00, fez essas compras e ainda pagou R$ 3,50 de sacolas. Quanto restou?  
@@ -529,8 +529,8 @@
   → **R$ 99,00** (69,00 + 30,00 = 99,00). Erro comum: **R$ 69,00** — esqueceu os sucos.
 
 ### Etapa 4 — O fim do dia · EF04MA25
-- **Nível 1 ★:** Somando o que restou (R$ 11,00) com o que a turma arrecadou (R$ 24,00), quanto ela tem no fim do dia?  
-  → **R$ 35,00** (11,00 + 24,00 = 35,00). Erro comum: **R$ 13,00** — tirou em vez de juntar.
+- **Nível 1 ★:** Somando o que restou (R$ 41,00) com o que a turma arrecadou (R$ 24,00), quanto ela tem no fim do dia?  
+  → **R$ 65,00** (41,00 + 24,00 = 65,00). Erro comum: **R$ 17,00** — tirou em vez de juntar.
 - **Nível 2 ★★:** No fim do dia, a turma tem o que restou mais o que arrecadou. Quanto ela tem?  
   → **R$ 100,00** (31,00 + 69,00 = 100,00). Erro comum: **R$ 90,00** — esqueceu o “vai um” das unidades (1 + 9 = 10).
 - **Nível 3 ★★★:** A turma tem o que restou mais o que arrecadou. Quanto ela tem a mais do que os R$ 50,00 do começo?  
@@ -538,7 +538,7 @@
 
 **Palavra-código:** MAIS
 
-- Tabela do Nível 1 ★: R$ 1,00 → H · R$ 5,00 → L · R$ 9,00 → M · R$ 11,00 → A · R$ 13,00 → N · R$ 24,00 → I · R$ 29,00 → J · R$ 35,00 → S
+- Tabela do Nível 1 ★: R$ 1,00 → H · R$ 5,00 → L · R$ 9,00 → M · R$ 17,00 → N · R$ 24,00 → I · R$ 41,00 → A · R$ 59,00 → J · R$ 65,00 → S
 - Tabela do Nível 2 ★★: R$ 14,00 → N · R$ 19,00 → M · R$ 26,00 → P · R$ 31,00 → A · R$ 41,00 → O · R$ 69,00 → I · R$ 90,00 → R · R$ 100,00 → S
 - Tabela do Nível 3 ★★★: R$ 11,50 → R · R$ 20,50 → M · R$ 26,00 → A · R$ 29,50 → T · R$ 69,00 → U · R$ 75,00 → S · R$ 99,00 → I · R$ 125,00 → V
 
@@ -549,7 +549,7 @@
 **Abertura:** No pomar do sítio que a escola visitou, as árvores estavam carregadas. Mas o número de frutas colhidas não bate com o que chegou à cozinha. Vamos contar direito!
 
 ### Etapa 1 — As árvores · EF04MA06
-- **Nível 1 ★:** O pomar tem 4 fileiras com 7 laranjeiras em cada. Quantas laranjeiras há?  
+- **Nível 1 ★:** O pomar tem 4 fileiras com 7 cajueiros em cada. Quantos cajueiros há?  
   → **28** (4 × 7 = 28). Erro comum: **11** — somou 4 + 7.
 - **Nível 2 ★★:** O pomar tem 12 fileiras com 15 árvores em cada. Quantas árvores há?  
   → **180** (12 × 15 = 180). Erro comum: **27** — somou 12 + 15.
@@ -557,7 +557,7 @@
   → **172** (180 − 8 = 172). Erro comum: **180** — esqueceu as árvores cortadas.
 
 ### Etapa 2 — Os cestos · EF04MA06
-- **Nível 1 ★:** Cada árvore deu 8 cajus. Quantos cajus em 5 árvores?  
+- **Nível 1 ★:** Cada cajueiro deu 8 cajus. Quantos cajus em 5 cajueiros?  
   → **40** (5 × 8 = 40). Erro comum: **13** — somou 5 + 8.
 - **Nível 2 ★★:** Cada cesto leva 24 frutas. Quantas frutas há em 13 cestos?  
   → **312** (24 × 10 = 240 · 24 × 3 = 72 · 240 + 72 = 312). Erro comum: **96** — multiplicou 24 por 1 e por 3, esquecendo que o 1 vale 10.
@@ -573,8 +573,8 @@
   → **15** (487 + 26 = 513 · 528 − 513 = 15). Erro comum: **41** — esqueceu as frutas da merenda.
 
 ### Etapa 4 — As caixas · EF04MA07
-- **Nível 1 ★:** As 28 laranjas foram divididas igualmente em 4 caixas. Quantas em cada caixa?  
-  → **7** (28 ÷ 4 = 7). Erro comum: **24** — tirou 4 em vez de repartir.
+- **Nível 1 ★:** Os 36 cajus que chegaram à cozinha foram divididos igualmente em 4 caixas. Quantos cajus em cada caixa?  
+  → **9** (36 ÷ 4 = 9). Erro comum: **32** — tirou 4 em vez de repartir.
 - **Nível 2 ★★:** As 287 frutas foram divididas igualmente em 7 caixas. Quantas frutas em cada caixa?  
   → **41** (287 ÷ 7 = 41). Erro comum: **280** — tirou 7 em vez de repartir.
 - **Nível 3 ★★★:** As 487 frutas foram divididas igualmente em 12 caixas. Quantas frutas sobram fora das caixas?  
@@ -582,7 +582,7 @@
 
 **Palavra-código:** MICO
 
-- Tabela do Nível 1 ★: 4 → C · 7 → O · 11 → N · 13 → P · 24 → S · 28 → M · 40 → I · 76 → R
+- Tabela do Nível 1 ★: 4 → C · 9 → O · 11 → N · 13 → P · 28 → M · 32 → S · 40 → I · 76 → R
 - Tabela do Nível 2 ★★: 25 → C · 27 → S · 41 → O · 96 → T · 175 → U · 180 → M · 280 → V · 312 → I
 - Tabela do Nível 3 ★★★: 7 → O · 15 → C · 40 → A · 41 → Z · 172 → M · 180 → V · 312 → X · 528 → I
 
@@ -597,8 +597,8 @@
   → **1/4** (a pizza inteira tem 4 partes; cada uma é 1/4). Erro comum: **4/1** — inverteu a fração.
 - **Nível 2 ★★:** Uma pizza foi cortada em 8 partes iguais, e Ana comeu 1 parte. Que fração da pizza ela comeu?  
   → **1/8** (1 parte de 8 = 1/8). Erro comum: **1/7** — contou só as partes que sobraram.
-- **Nível 3 ★★★:** Uma pizza foi cortada em 10 partes iguais. Ana comeu 1 parte e Leo, 2. Que fração da pizza os dois comeram juntos?  
-  → **3/10** (1/10 + 2/10 = 3/10). Erro comum: **3/20** — somou também os números de baixo.
+- **Nível 3 ★★★:** Uma pizza gigante foi cortada em 100 pedacinhos iguais, e Leo comeu 1. Que fração da pizza ele comeu?  
+  → **1/100** (1 pedacinho de 100 = 1/100). Erro comum: **1/99** — contou só os pedacinhos que sobraram.
 
 ### Etapa 2 — Os sabores · EF04MA09
 - **Nível 1 ★:** Metade dos 12 alunos queria pizza de queijo. Quantos alunos?  
@@ -609,7 +609,7 @@
   → **14** (30 ÷ 5 = 6 · 30 ÷ 3 = 10 · 30 − 6 − 10 = 14). Erro comum: **24** — tirou só quem queria calabresa.
 
 ### Etapa 3 — Quem comeu mais · EF04MA09
-- **Nível 1 ★:** Quem comeu mais pizza: quem pegou 1/2 ou quem pegou 1/3? (responda a fração)  
+- **Nível 1 ★:** Com pizzas do mesmo tamanho, quem comeu mais: quem pegou 1/2 ou quem pegou 1/3? (responda a fração)  
   → **1/2** (pizza em 2 partes tem pedaços maiores que em 3). Erro comum: **1/3** — achou que número maior embaixo é pedaço maior.
 - **Nível 2 ★★:** Qual pedaço é maior: 1/3, 1/5 ou 1/10 de uma pizza? (responda a fração)  
   → **1/3** (quanto menos partes, maior cada pedaço). Erro comum: **1/10** — achou que número maior embaixo é pedaço maior.
@@ -621,14 +621,14 @@
   → **R$ 5,00** (20,00 ÷ 4 = 5,00). Erro comum: **R$ 16,00** — tirou 4 em vez de dividir.
 - **Nível 2 ★★:** Uma pizza de R$ 40,00 foi dividida igualmente entre 10 alunos. Quanto cada um pagou?  
   → **R$ 4,00** (40,00 ÷ 10 = 4,00). Erro comum: **R$ 30,00** — tirou 10 em vez de dividir.
-- **Nível 3 ★★★:** Duas pizzas de R$ 36,00 foram divididas igualmente entre 8 alunos. Quanto cada um pagou?  
+- **Nível 3 ★★★:** Duas pizzas de R$ 36,00 cada uma foram divididas igualmente entre 8 alunos. Quanto cada um pagou?  
   → **R$ 9,00** (2 × 36,00 = 72,00 · 72,00 ÷ 8 = 9,00). Erro comum: **R$ 4,50** — contou só uma pizza.
 
 **Palavra-código:** DONA
 
 - Tabela do Nível 1 ★: 1/2 → N · 1/3 → U · 1/4 → D · 4/1 → S · 6 → O · 24 → T · R$ 5,00 → A · R$ 16,00 → V
 - Tabela do Nível 2 ★★: 1/3 → N · 1/7 → V · 1/8 → D · 1/10 → Z · 8 → O · 21 → X · R$ 4,00 → A · R$ 30,00 → B
-- Tabela do Nível 3 ★★★: 1/3 → E · 1/5 → N · 3/10 → D · 3/20 → B · 14 → O · 24 → C · R$ 4,50 → F · R$ 9,00 → A
+- Tabela do Nível 3 ★★★: 1/3 → E · 1/5 → N · 1/99 → B · 1/100 → D · 14 → O · 24 → C · R$ 4,50 → F · R$ 9,00 → A
 
 **Solução do caso:** A fatia misteriosa era da DONA Lúcia, a merendeira: ela tinha separado a parte dela antes da festa começar.
 
@@ -638,11 +638,11 @@
 
 ### Etapa 1 — O atraso · EF04MA22
 - **Nível 1 ★:** O ônibus deveria chegar às 8h00 e chegou às 8h25. Quantos minutos de atraso?  
-  → **25 min** (de 8h00 a 8h25 = 25 min). Erro comum: **75 min** — contou quanto faltava para 9h00 como se a hora tivesse 100 minutos.
+  → **25 min** (de 8h00 a 8h25 = 25 min). Erro comum: **8h25** — respondeu o horário de chegada, e não os minutos de atraso.
 - **Nível 2 ★★:** O ônibus saiu da garagem às 6h50 e chegou à escola às 7h35. Quanto tempo durou a viagem?  
   → **45 min** (de 6h50 a 7h00 = 10 min · de 7h00 a 7h35 = 35 min · 45 min). Erro comum: **85 min** — fez 735 − 650, como se a hora tivesse 100 minutos.
-- **Nível 3 ★★★:** O ônibus saiu da garagem às 6h50, parou 18 minutos no posto e chegou à escola às 8h05. Quanto tempo esteve andando?  
-  → **57 min** (de 6h50 a 8h05 = 75 min · 75 − 18 = 57 min). Erro comum: **75 min** — esqueceu a parada no posto.
+- **Nível 3 ★★★:** O ônibus saiu da garagem às 6h40, parou 18 minutos no posto e chegou à escola às 7h45. Quanto tempo esteve andando?  
+  → **47 min** (de 6h40 a 7h45 = 65 min · 65 − 18 = 47 min). Erro comum: **65 min** — esqueceu a parada no posto.
 
 ### Etapa 2 — A viagem · EF04MA22
 - **Nível 1 ★:** A viagem até o planetário leva 40 minutos. Saindo às 8h25, a que horas chega?  
@@ -653,12 +653,12 @@
   → **9h30** (7h55 + 1h20 = 9h15 · + 15 min = 9h30). Erro comum: **9h15** — esqueceu a parada.
 
 ### Etapa 3 — A troca do pneu · EF04MA22
-- **Nível 1 ★:** A sessão do planetário dura 1 hora. Quantos minutos são?  
-  → **60 min** (1 h = 60 min). Erro comum: **100 min** — achou que 1 hora tem 100 minutos.
-- **Nível 2 ★★:** O motorista trocou o pneu em 1 200 segundos. Quantos minutos são?  
-  → **20 min** (1 200 ÷ 60 = 20 min). Erro comum: **12 min** — dividiu por 100, como se 1 minuto tivesse 100 segundos.
-- **Nível 3 ★★★:** Trocar o pneu levou 1 500 segundos, e calibrar os outros, 180 segundos. Quantos minutos ao todo?  
-  → **28 min** (1 500 + 180 = 1 680 s · 1 680 ÷ 60 = 28 min). Erro comum: **25 min** — esqueceu a calibragem.
+- **Nível 1 ★:** A troca do pneu levou meia hora. Quantos minutos são?  
+  → **30 min** (meia hora = 60 ÷ 2 = 30 min). Erro comum: **50 min** — achou que meia hora são 50 minutos.
+- **Nível 2 ★★:** O motorista trocou o pneu em 1.200 segundos. Quantos minutos são?  
+  → **20 min** (1.200 ÷ 60 = 20 min). Erro comum: **12 min** — dividiu por 100, como se 1 minuto tivesse 100 segundos.
+- **Nível 3 ★★★:** Trocar o pneu levou 1.500 segundos, e calibrar os outros, 180 segundos. Quantos minutos ao todo?  
+  → **28 min** (1.500 + 180 = 1.680 s · 1.680 ÷ 60 = 28 min). Erro comum: **25 min** — esqueceu a calibragem.
 
 ### Etapa 4 — A sessão · EF04MA22
 - **Nível 1 ★:** A sessão começa às 9h00. A turma chegou às 9h05. Quantos minutos de atraso?  
@@ -670,11 +670,11 @@
 
 **Palavra-código:** PNEU
 
-- Tabela do Nível 1 ★: 5 min → U · 8h65 → X · 9h05 → N · 25 min → P · 55 min → A · 60 min → E · 75 min → V · 100 min → Z
+- Tabela do Nível 1 ★: 5 min → U · 8h25 → V · 8h65 → X · 9h05 → N · 25 min → P · 30 min → E · 50 min → Z · 55 min → A
 - Tabela do Nível 2 ★★: 8h75 → B · 9h15 → N · 12 min → C · 20 min → E · 35 min → U · 45 min → P · 65 min → D · 85 min → A
-- Tabela do Nível 3 ★★★: 9h15 → F · 9h30 → N · 25 min → G · 28 min → E · 40 min → U · 57 min → P · 75 min → D · 100 min → H
+- Tabela do Nível 3 ★★★: 9h15 → F · 9h30 → N · 25 min → G · 28 min → E · 40 min → U · 47 min → P · 65 min → D · 100 min → H
 
-**Solução do caso:** O motorista saiu na hora, mas o PNEU furou no caminho, e a troca levou 20 minutos.
+**Solução do caso:** O motorista saiu na hora, mas o PNEU furou no caminho, e a troca atrasou a viagem.
 
 ## Missão 06 — O Mistério da Caixa de Doações
 
@@ -685,8 +685,8 @@
   → **12** (36 ÷ 3 = 12). Erro comum: **33** — tirou 3 em vez de repartir.
 - **Nível 2 ★★:** 252 livros foram divididos igualmente entre 3 instituições. Quantos livros cada uma recebeu?  
   → **84** (252 ÷ 3 = 84). Erro comum: **249** — tirou 3 em vez de repartir.
-- **Nível 3 ★★★:** 252 livros e 48 gibis foram divididos igualmente entre 4 instituições. Quantos itens cada uma recebeu?  
-  → **75** (252 + 48 = 300 · 300 ÷ 4 = 75). Erro comum: **63** — esqueceu os gibis.
+- **Nível 3 ★★★:** 252 livros e 48 gibis foram divididos igualmente entre as 3 instituições. Quantos itens cada uma recebeu?  
+  → **100** (252 + 48 = 300 · 300 ÷ 3 = 100). Erro comum: **84** — esqueceu os gibis.
 
 ### Etapa 2 — As caixas · EF04MA07
 - **Nível 1 ★:** Cada caixa leva 8 latas. Quantas caixas para 56 latas?  
@@ -709,14 +709,14 @@
   → **3** (12 − 9 = 3). Erro comum: **21** — somou em vez de tirar.
 - **Nível 2 ★★:** Cada instituição devia receber 84 livros. Uma delas recebeu 77. Quantos faltaram?  
   → **7** (84 − 77 = 7). Erro comum: **13** — tirou o menor algarismo do maior em cada coluna, sem desagrupar.
-- **Nível 3 ★★★:** Uma instituição devia receber 75 itens. Chegaram 3 pacotes com 20 itens cada. Quantos itens faltaram?  
-  → **15** (3 × 20 = 60 · 75 − 60 = 15). Erro comum: **52** — somou 3 + 20 em vez de multiplicar.
+- **Nível 3 ★★★:** Uma instituição devia receber 100 itens. Chegaram 4 pacotes com 20 itens cada. Quantos itens faltaram?  
+  → **20** (4 × 20 = 80 · 100 − 80 = 20). Erro comum: **76** — somou 4 + 20 em vez de multiplicar.
 
 **Palavra-código:** SACO
 
 - Tabela do Nível 1 ★: 3 → O · 7 → A · 12 → S · 21 → F · 28 → E · 33 → B · 48 → D · 75 → C
 - Tabela do Nível 2 ★★: 7 → O · 9 → A · 13 → I · 84 → S · 120 → G · 242 → H · 249 → F · 282 → C
-- Tabela do Nível 3 ★★★: 9 → J · 10 → A · 15 → O · 52 → M · 63 → I · 75 → S · 282 → L · 317 → C
+- Tabela do Nível 3 ★★★: 9 → J · 10 → A · 20 → O · 76 → M · 84 → I · 100 → S · 282 → L · 317 → C
 
 **Solução do caso:** Os itens que faltavam ficaram num SACO esquecido no porta-malas do carro da diretora.
 
@@ -854,7 +854,7 @@
 - Tabela do Nível 2 ★★: 3 → O · 7 → S · 12 → B · 15 → E · 24 → T · 112 → V · R$ 27,00 → U · R$ 108,00 → N
 - Tabela do Nível 3 ★★★: 6 → O · 9 → V · 14 → E · 24 → B · 26 → A · 54 → X · R$ 35,00 → Z · R$ 210,00 → N
 
-**Solução do caso:** Os dois alunos “iguais” estavam com o mesmo BONÉ e a mesma combinação: faltou contar os bonés nas combinações.
+**Solução do caso:** Com 30 alunos e só 24 combinações, alguém teria de repetir. Os dois alunos “iguais” resolveram trocar de BONÉ, e o uniforme deles ficou diferente!
 
 ## Missão 10 — O Mistério da Moeda Rara
 
@@ -882,7 +882,7 @@
 - **Nível 2 ★★:** Qual valor é maior: R$ 5,90 ou R$ 5,09?  
   → **R$ 5,90** (90 centavos > 9 centavos). Erro comum: **R$ 5,09** — achou que 09 é maior que 90.
 - **Nível 3 ★★★:** Em ordem do menor para o maior: R$ 6,06; R$ 6,60; R$ 6,16. Qual valor fica no meio?  
-  → **R$ 6,16** (ordem: 6,06 · 6,16 · 6,60). Erro comum: **R$ 6,60** — achou que 6,06 é maior que 6,60.
+  → **R$ 6,16** (ordem: 6,06 · 6,16 · 6,60). Erro comum: **R$ 6,60** — achou que 6,16 é maior que 6,60 (comparou 16 com 6).
 
 ### Etapa 4 — As compras · EF04MA25
 - **Nível 1 ★:** A turma vai comprar um álbum de R$ 2,80 com R$ 4,00. Quanto sobra?  
@@ -969,14 +969,14 @@
   → **5,155 km** (2,405 + 1,800 + 0,950 = 5,155). Erro comum: **3,355 km** — esqueceu o trecho de 1,8 km.
 
 ### Etapa 3 — Quanto faltou · EF05MA07 · Saeb D25
-- **Nível 1 ★:** A meta era 5 km. Ana correu 3 km. Quanto faltou?  
-  → **2 km** (5 − 3 = 2). Erro comum: **8 km** — somou em vez de tirar.
-- **Nível 2 ★★:** A meta era 5 km. Bia correu 4,25 km. Quanto faltou?  
-  → **0,75 km** (5,00 − 4,25 = 0,75). Erro comum: **1,25 km** — fez 5 − 4 = 1 e manteve o ,25.
+- **Nível 1 ★:** A meta era 6 km. Ana correu 4 km. Quanto faltou?  
+  → **2 km** (6 − 4 = 2). Erro comum: **10 km** — somou em vez de tirar.
+- **Nível 2 ★★:** A meta era 6 km. Bia correu 4,25 km. Quanto faltou?  
+  → **1,75 km** (6,00 − 4,25 = 1,75). Erro comum: **2,25 km** — fez 6 − 4 = 2 e manteve o ,25.
 - **Nível 3 ★★★:** A meta era 6 km. Caio correu 5,155 km. Quanto faltou?  
   → **0,845 km** (6,000 − 5,155 = 0,845). Erro comum: **1,155 km** — fez 6 − 5 = 1 e manteve o ,155.
 
-### Etapa 4 — As voltas · EF05MA08 · Saeb D20
+### Etapa 4 — As voltas · EF05MA08
 - **Nível 1 ★:** Cada volta na pista tem 0,2 km. Quantos quilômetros em 5 voltas?  
   → **1 km** (5 × 0,2 = 1,0). Erro comum: **0,1 km** — fez 5 × 2 = 10 e escreveu 0,10.
 - **Nível 2 ★★:** Cada volta na pista tem 0,25 km. Quantos quilômetros em 12 voltas?  
@@ -986,11 +986,11 @@
 
 **Palavra-código:** META
 
-- Tabela do Nível 1 ★: 0,1 km → N · 1 km → A · 1,2 km → I · 1,5 km → M · 2 km → T · 2,1 km → J · 3 km → E · 8 km → L
-- Tabela do Nível 2 ★★: 0,75 km → T · 1,25 km → P · 2,5 km → M · 2,45 km → N · 3 km → A · 3,8 km → O · 4,25 km → E · 30 km → R
+- Tabela do Nível 1 ★: 0,1 km → N · 1 km → A · 1,2 km → I · 1,5 km → M · 2 km → T · 2,1 km → J · 3 km → E · 10 km → L
+- Tabela do Nível 2 ★★: 1,75 km → T · 2,5 km → M · 2,25 km → P · 2,45 km → N · 3 km → A · 3,8 km → O · 4,25 km → E · 30 km → R
 - Tabela do Nível 3 ★★★: 0,845 km → T · 1,155 km → U · 3,75 km → M · 3,085 km → R · 3,355 km → S · 4,5 km → V · 4,9 km → A · 5,155 km → E
 
-**Solução do caso:** A anotação errada estava na META: o cartaz dizia 5 km, mas a prova oficial tinha 6 km. Com a meta certa, a conta fecha.
+**Solução do caso:** A anotação errada estava no cartaz da META: dizia 5 km, mas a prova oficial tinha 6 km. Com a meta certa, a turma soube quanto faltou para cada corredor.
 
 ## Missão 03 — O Mistério da Receita Dobrada
 
@@ -1007,9 +1007,9 @@
 ### Etapa 2 — O leite e o óleo · EF05MA12
 - **Nível 1 ★:** A receita para 8 pessoas usa meia xícara de óleo. Quantas xícaras para 16 pessoas?  
   → **1** (2 receitas · 2 × 1/2 = 1 xícara). Erro comum: **2** — contou 1 xícara por receita.
-- **Nível 2 ★★:** A receita para 8 pessoas usa 1/2 xícara de óleo. Quantas xícaras para 40 pessoas?  
+- **Nível 2 ★★:** A receita para 8 pessoas usa 1/2 xícara de óleo. Quantas xícaras para 40 pessoas? (responda como número misto, por exemplo: 1 e 1/2)  
   → **2 e 1/2** (5 receitas · 5 × 1/2 = 5/2 = 2 e 1/2). Erro comum: **5** — contou 1 xícara por receita.
-- **Nível 3 ★★★:** A receita para 8 pessoas usa 3/4 de xícara de leite. Quantas xícaras para 56 pessoas?  
+- **Nível 3 ★★★:** A receita para 8 pessoas usa 3/4 de xícara de leite. Quantas xícaras para 56 pessoas? (responda como número misto, por exemplo: 1 e 1/4)  
   → **5 e 1/4** (7 receitas · 7 × 3/4 = 21/4 = 5 e 1/4). Erro comum: **7** — contou 1 xícara por receita.
 
 ### Etapa 3 — Quantos bolos · EF05MA08 · Saeb D20
@@ -1017,22 +1017,22 @@
   → **3** (24 ÷ 8 = 3). Erro comum: **16** — tirou 8 em vez de dividir.
 - **Nível 2 ★★:** Cada bolo serve 8 pessoas. A escola tem 312 pessoas. Quantos bolos?  
   → **39** (312 ÷ 8 = 39). Erro comum: **304** — tirou 8 em vez de dividir.
-- **Nível 3 ★★★:** Cada bolo serve 12 pessoas. A escola tem 350 pessoas. Quantos bolos são necessários, no mínimo?  
-  → **30** (350 ÷ 12 = 29 e sobram 2 pessoas · mais 1 bolo = 30). Erro comum: **29** — esqueceu as 2 pessoas que sobram.
+- **Nível 3 ★★★:** Cada bolo serve 8 pessoas. A escola tem 350 pessoas. Quantos bolos são necessários, no mínimo?  
+  → **44** (350 ÷ 8 = 43 e sobram 6 pessoas · mais 1 bolo = 44). Erro comum: **43** — esqueceu as 6 pessoas que sobram.
 
-### Etapa 4 — O custo · EF05MA08 · Saeb D20
+### Etapa 4 — O custo · EF05MA08 · Saeb D23
 - **Nível 1 ★:** Cada bolo custa R$ 9,00 de ingredientes. Quanto custam 3 bolos?  
   → **R$ 27,00** (3 × 9,00 = 27,00). Erro comum: **R$ 12,00** — somou 3 + 9.
 - **Nível 2 ★★:** Cada bolo custa R$ 8,50 de ingredientes. Quanto custam 39 bolos?  
   → **R$ 331,50** (39 × 8,50 = 331,50). Erro comum: **R$ 47,50** — somou 39 + 8,50.
-- **Nível 3 ★★★:** Cada bolo custa R$ 12,40. A cantina tem R$ 400,00 para os 30 bolos. Quanto vai sobrar?  
-  → **R$ 28,00** (30 × 12,40 = 372,00 · 400,00 − 372,00 = 28,00). Erro comum: **R$ 372,00** — calculou o custo e esqueceu de ver quanto sobra.
+- **Nível 3 ★★★:** Cada bolo custa R$ 8,50. A cantina tem R$ 400,00 para os 44 bolos. Quanto vai sobrar?  
+  → **R$ 26,00** (44 × 8,50 = 374,00 · 400,00 − 374,00 = 26,00). Erro comum: **R$ 374,00** — calculou o custo e esqueceu de ver quanto sobra.
 
 **Palavra-código:** FUBA
 
 - Tabela do Nível 1 ★: 1 → U · 2 → O · 3 → B · 4 → F · 10 → N · 16 → P · R$ 12,00 → R · R$ 27,00 → A
 - Tabela do Nível 2 ★★: 2 e 1/2 → U · 5 → S · 15 → F · 35 → R · 39 → B · 304 → T · R$ 47,50 → V · R$ 331,50 → A
-- Tabela do Nível 3 ★★★: 5 e 1/4 → U · 7 → X · 21 → F · 29 → Z · 30 → B · 51 → V · R$ 28,00 → A · R$ 372,00 → C
+- Tabela do Nível 3 ★★★: 5 e 1/4 → U · 7 → X · 21 → F · 43 → Z · 44 → B · 51 → V · R$ 26,00 → A · R$ 374,00 → C
 
 **Solução do caso:** Ao multiplicar a receita, alguém aumentou só o FUBÁ e esqueceu o resto: o bolo ficou seco. Com a proporção certa, deu tudo certo.
 
@@ -1064,9 +1064,9 @@
 - **Nível 2 ★★:** Só entram na cápsula os itens com pelo menos 1/4 dos 40 votos. Quantos itens vão entrar?  
   → **2 itens** (1/4 de 40 = 10 · só Fotos (12) e Desenhos (15) têm 10 ou mais). Erro comum: **3 itens** — incluiu Cartas (8), que não chega a 10.
 - **Nível 3 ★★★:** Que fração dos 40 votos teve o item “Objetos”? (escreva na forma mais simples)  
-  → **1/8** (5/40 = 1/8). Erro comum: **1/5** — trocou a fração: dividiu o 5 pelo 5, mas não dividiu o 40 por 5.
+  → **1/8** (5/40 = 1/8). Erro comum: **8** — fez 40 ÷ 5 e não montou a fração.
 
-### Etapa 4 — Cabe tudo? · EF05MA08 · Saeb D20
+### Etapa 4 — Cabe tudo? · EF05MA08
 - **Nível 1 ★:** Cada desenho ocupa 2 cm de altura na pilha. Quantos centímetros para 15 desenhos?  
   → **30 cm** (15 × 2 = 30 cm). Erro comum: **17 cm** — somou 15 + 2.
 - **Nível 2 ★★:** A cápsula tem 50 cm de altura. Cada desenho dobrado ocupa 1,5 cm. Quantos centímetros ocupam os 28 desenhos da turma?  
@@ -1078,13 +1078,13 @@
 
 - Tabela do Nível 1 ★: 7 → R · 10 → T · 12 → A · 15 → P · 17 → S · 17 cm → V · 30 cm → E · 36 → U
 - Tabela do Nível 2 ★★: 2 itens → T · 3 itens → Z · 7 → R · 23 → X · 29,5 cm → B · 42 cm → E · Desenhos → A · Fotos → V
-- Tabela do Nível 3 ★★★: 1/5 → D · 1/8 → T · 2 cm → E · 8 cm → F · 14 → R · 27 → C · 35 → B · 40 → A
+- Tabela do Nível 3 ★★★: 1/8 → T · 2 cm → E · 8 → D · 8 cm → F · 14 → R · 27 → C · 35 → B · 40 → A
 
 **Solução do caso:** Decisão final: a cápsula vai guardar ARTE. Os desenhos venceram a votação, as fotos também entraram, e tudo coube na cápsula.
 
 ## Missão 05 — O Enigma do Terreno da Horta Nova
 
-**Abertura:** A escola ganhou um terreno para uma horta nova. A turma precisa planejar os canteiros e a cerca, mas o desenho do terreno está com medidas faltando!
+**Abertura:** A escola ganhou um terreno para uma horta nova. A turma precisa planejar os canteiros e a cerca, mas o projeto ainda não tem nenhuma conta feita!
 
 ### Etapa 1 — O contorno · EF05MA20 · Saeb D11
 - **Nível 1 ★:** O canteiro é um retângulo de 4 m por 2 m. Qual é o perímetro?  
@@ -1110,7 +1110,7 @@
 - **Nível 3 ★★★:** Cada canteiro tem 6 m² e precisa de mais 1 m² de corredor. Quantos canteiros cabem em 105 m²?  
   → **15** (6 + 1 = 7 m² por canteiro · 105 ÷ 7 = 15). Erro comum: **17** — esqueceu o corredor.
 
-### Etapa 4 — O preço da tela · EF05MA08 · Saeb D20
+### Etapa 4 — O preço da tela · EF05MA08 · Saeb D23
 - **Nível 1 ★:** A tela custa R$ 5,00 o metro. Quanto custam 12 m?  
   → **R$ 60,00** (12 × 5,00 = 60,00). Erro comum: **R$ 17,00** — somou 12 + 5.
 - **Nível 2 ★★:** A tela custa R$ 7,50 o metro. Quanto custam 46 m?  
@@ -1124,7 +1124,7 @@
 - Tabela do Nível 2 ★★: 20 → L · 23 m → B · 46 m → T · 46 m² → C · 114 → D · 120 m² → E · R$ 53,50 → F · R$ 345,00 → A
 - Tabela do Nível 3 ★★★: 15 → L · 17 → H · 44 m → T · 46 m → F · 105 m² → E · 120 m² → G · R$ 30,00 → A · R$ 330,00 → I
 
-**Solução do caso:** A medida que faltava era a da TELA: com o portão, bastam 44 metros de cerca, e o dinheiro da escola quase dá para tudo.
+**Solução do caso:** A conta que faltava era a da TELA: com o contorno do terreno calculado, a turma soube quantos metros de cerca comprar.
 
 ## Missão 06 — O Caso do Tesouro no Plano
 
@@ -1132,7 +1132,7 @@
 
 **Figura:** Plano cartesiano (1º quadrante), x de 0 a 10 e y de 0 a 8: Escola (0, 0) · Árvore (2, 5) · Poço (6, 3) · Pedra (4, 7) · Ponte (8, 1).
 
-### Etapa 1 — As coordenadas · EF05MA15
+### Etapa 1 — As coordenadas · EF05MA15 · Saeb D1
 - **Nível 1 ★:** Quais são as coordenadas da Árvore? (x, y)  
   → **(2, 5)** (x = 2 (para a direita) · y = 5 (para cima)). Erro comum: **(5, 2)** — trocou x com y.
 - **Nível 2 ★★:** Saindo da Escola (0, 0), ande 6 para a direita e 3 para cima. A que coordenadas você chega?  
@@ -1140,7 +1140,7 @@
 - **Nível 3 ★★★:** Saindo do Poço (6, 3), ande 2 para a esquerda e 4 para cima. A que coordenadas você chega?  
   → **(4, 7)** (x = 6 − 2 = 4 · y = 3 + 4 = 7: a Pedra). Erro comum: **(8, 7)** — andou para a direita em vez da esquerda.
 
-### Etapa 2 — As distâncias · EF05MA15
+### Etapa 2 — As distâncias · EF05MA15 · Saeb D1
 - **Nível 1 ★:** Da Escola (0, 0) até a Árvore (2, 5), andando pelas linhas, quantas unidades?  
   → **7** (2 para a direita + 5 para cima = 7). Erro comum: **3** — subtraiu x de y.
 - **Nível 2 ★★:** Da Escola (0, 0) até a Ponte (8, 1), andando pelas linhas, quantas unidades?  
@@ -1156,7 +1156,7 @@
 - **Nível 3 ★★★:** Cada unidade vale 12,5 m. Quantos metros são 10 unidades?  
   → **125 m** (10 × 12,5 = 125 m). Erro comum: **22,5 m** — somou 12,5 + 10.
 
-### Etapa 4 — O tesouro · EF05MA15
+### Etapa 4 — O tesouro · EF05MA15 · Saeb D1
 - **Nível 1 ★:** O tesouro está 2 unidades à direita da Árvore (2, 5). Quais são as coordenadas?  
   → **(4, 5)** (x = 2 + 2 = 4 · y continua 5). Erro comum: **(2, 7)** — andou para cima em vez de para a direita.
 - **Nível 2 ★★:** O x do tesouro é o dobro do x da Árvore (2, 5); o y é o mesmo do Poço (6, 3). Quais são as coordenadas?  
@@ -1174,10 +1174,10 @@
 
 ## Missão 07 — O Mistério da Torta Dividida
 
-**Abertura:** Na festa, três tortas iguais foram cortadas de jeitos diferentes. Lia, Rui e Bia brigaram: cada um diz que o outro comeu mais. Vamos usar frações para resolver a briga!
+**Abertura:** Na festa, três tortas iguais foram cortadas de jeitos diferentes. Lia, Rui e Bia discutiram: cada um diz que o outro comeu mais. Vamos usar frações para resolver a discussão!
 
 ### Etapa 1 — Os pedaços · EF05MA04 · Saeb D21
-- **Nível 1 ★:** A torta de Lia foi cortada em 4 pedaços iguais, e ela comeu 2. Que fração da torta ela comeu?  
+- **Nível 1 ★:** A torta de Lia foi cortada em 4 pedaços iguais, e ela comeu 2. Que fração da torta ela comeu? (escreva em quartos)  
   → **2/4** (2 pedaços de 4 = 2/4). Erro comum: **2/2** — colocou embaixo os pedaços comidos, e não o total.
 - **Nível 2 ★★:** Rui comeu 4/8 da torta dele. Escreva essa fração na forma mais simples.  
   → **1/2** (4/8 = (4 ÷ 4)/(8 ÷ 4) = 1/2). Erro comum: **2/8** — dividiu só o número de cima.
@@ -1190,17 +1190,17 @@
 - **Nível 2 ★★:** Qual é maior: 3/4 ou 5/8 de uma torta? (responda a fração)  
   → **3/4** (3/4 = 6/8 > 5/8). Erro comum: **5/8** — achou que números maiores dão uma fração maior.
 - **Nível 3 ★★★:** Qual é a maior fração: 2/3, 3/4 ou 5/6?  
-  → **5/6** (em doze avos: 8/12 · 9/12 · 10/12). Erro comum: **3/4** — comparou sem pôr as frações no mesmo denominador.
+  → **5/6** (em doze avos: 8/12 · 9/12 · 10/12). Erro comum: **2/3** — achou que o menor número embaixo dá a maior fração.
 
 ### Etapa 3 — Os morangos · EF05MA03 · Saeb D24
-- **Nível 1 ★:** A torta tinha 24 morangos. Quantos morangos há na metade da torta?  
+- **Nível 1 ★:** A torta de morangos da sobremesa tinha 24 morangos. Quantos morangos há na metade dela?  
   → **12** (24 ÷ 2 = 12). Erro comum: **22** — tirou 2 em vez de dividir.
-- **Nível 2 ★★:** A torta tinha 24 morangos. Rui comeu 3/8 dos morangos. Quantos morangos ele comeu?  
+- **Nível 2 ★★:** A torta de morangos da sobremesa tinha 24 morangos. Caio comeu 3/8 deles. Quantos morangos ele comeu?  
   → **9** (24 ÷ 8 = 3 · 3 × 3 = 9). Erro comum: **3** — achou só 1/8 e esqueceu de multiplicar por 3.
-- **Nível 3 ★★★:** A torta tinha 24 morangos. Lia comeu 2/4 e Rui, 3/8 dos morangos. Quantos sobraram?  
-  → **3** (12 + 9 = 21 · 24 − 21 = 3). Erro comum: **12** — tirou só os morangos de Lia.
+- **Nível 3 ★★★:** A torta de morangos da sobremesa tinha 24 morangos. Dani comeu 2/4 e Caio, 3/8 deles. Quantos sobraram?  
+  → **3** (12 + 9 = 21 · 24 − 21 = 3). Erro comum: **12** — tirou só os morangos de Dani.
 
-### Etapa 4 — A briga · EF05MA04 · Saeb D21
+### Etapa 4 — A discussão · EF05MA04 · Saeb D21
 - **Nível 1 ★:** 1/2 é igual a quantos quartos? (1/2 = ?/4)  
   → **2** (1/2 = 2/4 (multiplica em cima e embaixo por 2)). Erro comum: **4** — copiou o 4 de baixo.
 - **Nível 2 ★★:** Para 3/4 ficar com denominador 8, qual é o numerador? (3/4 = ?/8)  
@@ -1212,9 +1212,9 @@
 
 - Tabela do Nível 1 ★: 1/2 → E · 1/3 → F · 2 → O · 2/2 → D · 2/4 → Z · 4 → H · 12 → R · 22 → G
 - Tabela do Nível 2 ★★: 1/2 → Z · 2/8 → H · 3 → J · 3/4 → E · 5/8 → I · 6 → O · 7 → L · 9 → R
-- Tabela do Nível 3 ★★★: 0 → O · 1/2 → Z · 1/6 → L · 3 → R · 3/4 → M · 4/8 → P · 5/6 → E · 12 → N
+- Tabela do Nível 3 ★★★: 0 → O · 1/2 → Z · 1/6 → L · 2/3 → M · 3 → R · 4/8 → P · 5/6 → E · 12 → N
 
-**Solução do caso:** A briga não tinha motivo: 2/4, 4/8 e 6/12 são frações equivalentes. Os três comeram meia torta, e a diferença é ZERO.
+**Solução do caso:** A discussão não tinha motivo: 2/4, 4/8 e 6/12 são frações equivalentes. Os três comeram meia torta, e a diferença é ZERO.
 
 ## Missão 08 — O Caso do Aquário Vazio
 
@@ -1222,21 +1222,21 @@
 
 ### Etapa 1 — Litros e mililitros · EF05MA19 · Saeb D7
 - **Nível 1 ★:** O aquário tinha 20 litros. Quantos mililitros são?  
-  → **20.000 mL** (1 L = 1 000 mL · 20 × 1 000 = 20 000 mL). Erro comum: **2.000 mL** — achou que 1 litro tem 100 mililitros.
-- **Nível 2 ★★:** Faltam 3,5 litros de água. Quantos mililitros são?  
-  → **3.500 mL** (3,5 × 1 000 = 3 500 mL). Erro comum: **350 mL** — achou que 1 litro tem 100 mililitros.
+  → **20.000 mL** (1 L = 1.000 mL · 20 × 1.000 = 20.000 mL). Erro comum: **2.000 mL** — achou que 1 litro tem 100 mililitros.
+- **Nível 2 ★★:** Faltam 4,5 litros de água. Quantos mililitros são?  
+  → **4.500 mL** (4,5 × 1.000 = 4.500 mL). Erro comum: **450 mL** — achou que 1 litro tem 100 mililitros.
 - **Nível 3 ★★★:** Faltam 3 litros e 750 mL. Escreva essa quantidade em litros.  
   → **3,75 L** (750 mL = 0,75 L · 3 + 0,75 = 3,75 L). Erro comum: **3,075 L** — colocou o 750 na casa errada.
 
 ### Etapa 2 — O volume · EF05MA21
-- **Nível 1 ★:** Uma caixa comporta 3 × 2 × 2 cubinhos. Quantos cubinhos cabem nela?  
+- **Nível 1 ★:** Uma caixa tem 3 cubinhos de comprimento, 2 de largura e 2 de altura. Quantos cubinhos cabem nela?  
   → **12** (3 × 2 = 6 por camada · 2 camadas = 12). Erro comum: **7** — somou as medidas.
 - **Nível 2 ★★:** O aquário mede 40 cm × 20 cm × 25 cm. Qual é o volume, em cm³?  
-  → **20.000 cm³** (40 × 20 = 800 · 800 × 25 = 20 000 cm³). Erro comum: **85 cm³** — somou as medidas.
-- **Nível 3 ★★★:** O aquário mede 40 cm × 20 cm × 25 cm, mas a água chegava só a 20 cm de altura. Quantos litros de água havia? (1 000 cm³ = 1 L)  
-  → **16 L** (40 × 20 × 20 = 16 000 cm³ = 16 L). Erro comum: **20 L** — usou a altura do aquário (25 cm), e não a da água.
+  → **20.000 cm³** (40 × 20 = 800 · 800 × 25 = 20.000 cm³). Erro comum: **85 cm³** — somou as medidas.
+- **Nível 3 ★★★:** O aquário mede 40 cm × 20 cm × 25 cm. Quantos litros de água cabem nele cheio? (1.000 cm³ = 1 L)  
+  → **20 L** (40 × 20 × 25 = 20.000 cm³ = 20 L). Erro comum: **20.000 L** — calculou o volume, mas esqueceu de dividir por 1.000.
 
-### Etapa 3 — A evaporação · EF05MA08 · Saeb D20
+### Etapa 3 — A evaporação · EF05MA08
 - **Nível 1 ★:** Na sala fechada, evaporam 0,2 L de água por dia. Quantos litros evaporam em 5 dias?  
   → **1 L** (5 × 0,2 = 1,0 L). Erro comum: **0,1 L** — fez 5 × 2 = 10 e escreveu 0,10.
 - **Nível 2 ★★:** O feriado durou 6 dias, e evaporaram 0,25 L por dia. Quantos litros evaporaram?  
@@ -1244,19 +1244,19 @@
 - **Nível 3 ★★★:** Em 6 dias evaporaram 0,25 L por dia, mas faltavam 3,75 L. Quantos litros vazaram?  
   → **2,25 L** (6 × 0,25 = 1,5 · 3,75 − 1,5 = 2,25 L). Erro comum: **1,5 L** — respondeu só o que evaporou.
 
-### Etapa 4 — O vazamento · EF05MA08 · Saeb D20
-- **Nível 1 ★:** Vazaram 2 L em 4 dias, a mesma quantidade por dia. Quantos litros por dia?  
-  → **0,5 L** (2 ÷ 4 = 0,5 L). Erro comum: **8 L** — multiplicou em vez de dividir.
+### Etapa 4 — O vazamento · EF05MA08
+- **Nível 1 ★:** Vazaram 2 L em 5 dias, a mesma quantidade por dia. Quantos litros por dia?  
+  → **0,4 L** (2 ÷ 5 = 0,4 L). Erro comum: **10 L** — multiplicou em vez de dividir.
 - **Nível 2 ★★:** Vazaram 3 L em 6 dias, a mesma quantidade por dia. Quantos mililitros por dia?  
-  → **500 mL** (3 L = 3 000 mL · 3 000 ÷ 6 = 500 mL). Erro comum: **2.000 mL** — dividiu os dias pelos litros (6 ÷ 3).
+  → **500 mL** (3 L = 3.000 mL · 3.000 ÷ 6 = 500 mL). Erro comum: **2.000 mL** — dividiu os dias pelos litros (6 ÷ 3).
 - **Nível 3 ★★★:** Vazaram 2,25 L em 6 dias, a mesma quantidade por dia. Quantos mililitros por dia?  
-  → **375 mL** (2,25 L = 2 250 mL · 2 250 ÷ 6 = 375 mL). Erro comum: **2.250 mL** — converteu para mililitros, mas esqueceu de dividir pelos 6 dias.
+  → **375 mL** (2,25 L = 2.250 mL · 2.250 ÷ 6 = 375 mL). Erro comum: **2.250 mL** — converteu para mililitros, mas esqueceu de dividir pelos 6 dias.
 
 **Palavra-código:** FURO
 
-- Tabela do Nível 1 ★: 0,1 L → J · 0,5 L → O · 1 L → R · 2.000 mL → H · 7 → I · 8 L → L · 12 → U · 20.000 mL → F
-- Tabela do Nível 2 ★★: 1,5 L → R · 2.000 mL → P · 3.500 mL → F · 6,25 L → N · 20.000 cm³ → U · 85 cm³ → M · 350 mL → L · 500 mL → O
-- Tabela do Nível 3 ★★★: 1,5 L → T · 2,25 L → R · 2.250 mL → V · 3,75 L → F · 3,075 L → P · 16 L → U · 20 L → S · 375 mL → O
+- Tabela do Nível 1 ★: 0,1 L → J · 0,4 L → O · 1 L → R · 2.000 mL → H · 7 → I · 10 L → L · 12 → U · 20.000 mL → F
+- Tabela do Nível 2 ★★: 1,5 L → R · 2.000 mL → P · 4.500 mL → F · 6,25 L → N · 20.000 cm³ → U · 85 cm³ → M · 450 mL → L · 500 mL → O
+- Tabela do Nível 3 ★★★: 1,5 L → T · 2,25 L → R · 2.250 mL → V · 3,75 L → F · 3,075 L → P · 20 L → U · 20.000 L → S · 375 mL → O
 
 **Solução do caso:** Não foi só evaporação: havia um FURO na mangueira do filtro. A turma trocou a mangueira e completou a água.
 
@@ -1268,27 +1268,27 @@
 - **Nível 1 ★:** Foram vendidos 120 números a R$ 2,00 cada. Quanto a rifa arrecadou?  
   → **R$ 240,00** (120 × 2,00 = 240,00). Erro comum: **R$ 122,00** — somou 120 + 2.
 - **Nível 2 ★★:** Foram vendidos 345 números a R$ 3,00 cada. Quanto a rifa arrecadou?  
-  → **R$ 1.035,00** (345 × 3,00 = 1 035,00). Erro comum: **R$ 925,00** — esqueceu os “vai um” (3 × 5 = 15 e 3 × 4 = 12).
-- **Nível 3 ★★★:** Foram vendidos 345 números a R$ 3,00 e 128 números premiados a R$ 5,00. Quanto a rifa arrecadou?  
-  → **R$ 1.675,00** (1 035,00 + 640,00 = 1 675,00). Erro comum: **R$ 1.035,00** — esqueceu os números premiados.
+  → **R$ 1.035,00** (345 × 3,00 = 1.035,00). Erro comum: **R$ 925,00** — esqueceu os “vai um” (3 × 5 = 15 e 3 × 4 = 12).
+- **Nível 3 ★★★:** Foram vendidos 345 números a R$ 3,00 e 128 números da cartela especial a R$ 5,00. Quanto a rifa arrecadou?  
+  → **R$ 1.675,00** (1.035,00 + 640,00 = 1.675,00). Erro comum: **R$ 1.035,00** — esqueceu os números da cartela especial.
 
 ### Etapa 2 — A meta · EF05MA07 · Saeb D19
 - **Nível 1 ★:** A meta era R$ 200,00, e a rifa arrecadou R$ 240,00. Quanto passou da meta?  
   → **R$ 40,00** (240,00 − 200,00 = 40,00). Erro comum: **R$ 440,00** — somou em vez de comparar.
 - **Nível 2 ★★:** A meta era R$ 900,00, e a rifa arrecadou R$ 1.035,00. Quanto passou da meta?  
-  → **R$ 135,00** (1 035,00 − 900,00 = 135,00). Erro comum: **R$ 1.935,00** — somou em vez de comparar.
+  → **R$ 135,00** (1.035,00 − 900,00 = 135,00). Erro comum: **R$ 1.935,00** — somou em vez de comparar.
 - **Nível 3 ★★★:** A meta era R$ 1.500,00. A rifa arrecadou R$ 1.675,00, e os prêmios custaram R$ 120,00. Depois de pagar os prêmios, quanto passou da meta?  
-  → **R$ 55,00** (1 675,00 − 120,00 = 1 555,00 · 1 555,00 − 1 500,00 = 55,00). Erro comum: **R$ 175,00** — esqueceu o custo dos prêmios.
+  → **R$ 55,00** (1.675,00 − 120,00 = 1.555,00 · 1.555,00 − 1.500,00 = 55,00). Erro comum: **R$ 175,00** — esqueceu o custo dos prêmios.
 
-### Etapa 3 — A divisão do dinheiro · EF05MA08 · Saeb D20
+### Etapa 3 — A divisão do dinheiro · EF05MA08
 - **Nível 1 ★:** Os R$ 240,00 serão divididos igualmente entre 4 comissões. Quanto cada uma recebe?  
   → **R$ 60,00** (240,00 ÷ 4 = 60,00). Erro comum: **R$ 236,00** — tirou 4 em vez de dividir.
 - **Nível 2 ★★:** Os R$ 1.035,00 serão divididos igualmente entre os 23 alunos da turma. Quanto cada um recebe para a festa?  
-  → **R$ 45,00** (1 035,00 ÷ 23 = 45,00). Erro comum: **R$ 1.012,00** — tirou 23 em vez de dividir.
+  → **R$ 45,00** (1.035,00 ÷ 23 = 45,00). Erro comum: **R$ 1.012,00** — tirou 23 em vez de dividir.
 - **Nível 3 ★★★:** Dos R$ 1.675,00, saem R$ 120,00 dos prêmios, e o resto é dividido igualmente entre 25 alunos. Quanto cada um recebe?  
-  → **R$ 62,20** (1 675,00 − 120,00 = 1 555,00 · 1 555,00 ÷ 25 = 62,20). Erro comum: **R$ 67,00** — esqueceu de tirar os prêmios antes de dividir.
+  → **R$ 62,20** (1.675,00 − 120,00 = 1.555,00 · 1.555,00 ÷ 25 = 62,20). Erro comum: **R$ 67,00** — esqueceu de tirar os prêmios antes de dividir.
 
-### Etapa 4 — A chance de ganhar · EF05MA23
+### Etapa 4 — Os bilhetes · EF05MA23
 - **Nível 1 ★:** A rifa tem 100 números, e Lia comprou 1. Qual é a chance de ela ganhar? (escreva como fração)  
   → **1/100** (1 número em 100 = 1/100). Erro comum: **99/100** — calculou a chance de não ganhar.
 - **Nível 2 ★★:** Foram vendidos 345 números diferentes, e Leo comprou 5. Qual é a chance de ele ganhar? (fração na forma mais simples)  
@@ -1302,19 +1302,19 @@
 - Tabela do Nível 2 ★★: 1/69 → S · 5/340 → V · R$ 1.012,00 → U · R$ 1.035,00 → D · R$ 1.935,00 → T · R$ 45,00 → I · R$ 135,00 → O · R$ 925,00 → R
 - Tabela do Nível 3 ★★★: 347 → A · 690 → S · R$ 1.035,00 → V · R$ 1.675,00 → D · R$ 55,00 → O · R$ 62,20 → I · R$ 67,00 → Z · R$ 175,00 → X
 
-**Solução do caso:** Os números da rifa foram impressos em DOIS blocos iguais, e alguns foram vendidos duas vezes! A turma vai avisar os compradores e fazer um sorteio justo.
+**Solução do caso:** Os números da rifa foram impressos em DOIS blocos iguais, e cada número foi vendido duas vezes! A turma vai avisar os compradores e fazer um sorteio justo.
 
 ## Missão 10 — O Caso dos Prêmios da Gincana
 
-**Abertura:** A gincana da escola ganhou 1 200 pacotes de figurinhas como prêmio. A divisão entre as equipes gerou confusão: tem equipe dizendo que recebeu menos do que devia. Vamos refazer a partilha!
+**Abertura:** A gincana da escola ganhou 1.200 pacotes de figurinhas como prêmio. A divisão entre as equipes gerou confusão: tem equipe dizendo que recebeu menos do que devia. Vamos refazer a partilha!
 
 ### Etapa 1 — O dobro e o triplo · EF05MA13
 - **Nível 1 ★:** 30 prêmios serão divididos entre 2 equipes: a maior recebe o dobro da menor. Quanto recebe a maior?  
   → **20** (menor = 1 parte, maior = 2 partes · 30 ÷ 3 = 10 · 2 × 10 = 20). Erro comum: **15** — dividiu em 2 partes iguais.
-- **Nível 2 ★★:** 1 200 pacotes serão divididos entre 2 equipes: a maior recebe o triplo da menor. Quanto recebe a menor?  
-  → **300** (menor = 1 parte, maior = 3 partes · 1 200 ÷ 4 = 300). Erro comum: **400** — dividiu por 3, esquecendo a parte da menor.
-- **Nível 3 ★★★:** 1 200 pacotes serão divididos entre 3 equipes: a Azul recebe o dobro da Verde, e a Vermelha, o triplo da Verde. Quanto recebe a Vermelha?  
-  → **600** (Verde 1 parte + Azul 2 + Vermelha 3 = 6 partes · 1 200 ÷ 6 = 200 · 3 × 200 = 600). Erro comum: **400** — dividiu em 3 partes iguais.
+- **Nível 2 ★★:** 1.200 pacotes serão divididos entre 2 equipes: a maior recebe o triplo da menor. Quanto recebe a menor?  
+  → **300** (menor = 1 parte, maior = 3 partes · 1.200 ÷ 4 = 300). Erro comum: **400** — dividiu por 3, esquecendo a parte da menor.
+- **Nível 3 ★★★:** 1.200 pacotes serão divididos entre 3 equipes: a Azul recebe o dobro da Verde, e a Vermelha, o triplo da Verde. Quanto recebe a Vermelha?  
+  → **600** (Verde 1 parte + Azul 2 + Vermelha 3 = 6 partes · 1.200 ÷ 6 = 200 · 3 × 200 = 600). Erro comum: **400** — dividiu em 3 partes iguais.
 
 ### Etapa 2 — A diferença · EF05MA07 · Saeb D19
 - **Nível 1 ★:** A equipe maior recebeu 20 prêmios e a menor, 10. Quantos a maior recebeu a mais?  
@@ -1327,18 +1327,18 @@
 ### Etapa 3 — As figurinhas · EF05MA08 · Saeb D20
 - **Nível 1 ★:** Cada pacote tem 5 figurinhas. Quantas figurinhas há em 20 pacotes?  
   → **100** (20 × 5 = 100). Erro comum: **25** — somou 20 + 5.
-- **Nível 2 ★★:** Cada pacote tem 5 figurinhas. Quantas figurinhas há em 1 200 pacotes?  
-  → **6.000** (1 200 × 5 = 6 000). Erro comum: **1.205** — somou 1 200 + 5.
-- **Nível 3 ★★★:** A gincana tem 1 200 pacotes com 5 figurinhas e ganhou mais 25 caixas com 1 000 figurinhas cada. Quantas figurinhas ao todo?  
-  → **31.000** (6 000 + 25 000 = 31 000). Erro comum: **7.025** — somou 25 + 1 000 em vez de multiplicar.
+- **Nível 2 ★★:** Cada pacote tem 5 figurinhas. Quantas figurinhas há em 1.200 pacotes?  
+  → **6.000** (1.200 × 5 = 6.000). Erro comum: **1.205** — somou 1.200 + 5.
+- **Nível 3 ★★★:** A gincana tem 1.200 pacotes com 5 figurinhas e ganhou mais 25 caixas com 1.000 figurinhas cada. Quantas figurinhas ao todo?  
+  → **31.000** (6.000 + 25.000 = 31.000). Erro comum: **7.025** — somou 25 + 1.000 em vez de multiplicar.
 
-### Etapa 4 — A parte de cada um · EF05MA13
+### Etapa 4 — A parte de cada um · EF05MA13 · Saeb D24
 - **Nível 1 ★:** A equipe maior recebeu 20 dos 30 prêmios. Que fração do total ela recebeu? (forma mais simples)  
   → **2/3** (20/30 = 2/3). Erro comum: **1/3** — calculou a parte da equipe menor.
-- **Nível 2 ★★:** A equipe menor recebeu 300 dos 1 200 pacotes. Que fração do total ela recebeu? (forma mais simples)  
-  → **1/4** (300/1 200 = 1/4). Erro comum: **1/3** — comparou com a parte da outra equipe (300 de 900), e não com o total.
-- **Nível 3 ★★★:** A Vermelha recebeu 600 dos 1 200 pacotes. Que porcentagem do total ela recebeu?  
-  → **50%** (600/1 200 = 1/2 = 50%). Erro comum: **60%** — trocou 600 por 60%.
+- **Nível 2 ★★:** A equipe menor recebeu 300 dos 1.200 pacotes. Que fração do total ela recebeu? (forma mais simples)  
+  → **1/4** (300/1.200 = 1/4). Erro comum: **1/3** — comparou com a parte da outra equipe (300 de 900), e não com o total.
+- **Nível 3 ★★★:** A Vermelha recebeu 600 dos 1.200 pacotes. Que porcentagem do total ela recebeu?  
+  → **50%** (600/1.200 = 1/2 = 50%). Erro comum: **60%** — trocou 600 por 60%.
 
 **Palavra-código:** JUIZ
 
