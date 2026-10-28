@@ -4,6 +4,7 @@
 | Você quer… | Digite |
 |---|---|
 | Pesquisar um nicho / achar produto / montar dossiê | `/diretor-mineracao <produto ou nicho>` |
+| Comparar ofertas e escolher o que modelar | `/diretor-mineracao avaliar e modelar as ofertas 8, 11 e 12 de 26/10` |
 | Criar roteiros de criativos | `/diretor-copy-criativos <produto>, <quantidade/formato>` |
 | Editar um vídeo no Descript | `/diretor-edicao <produto>, <vídeo>, <roteiro>` |
 | Analisar uma LP/oferta que não dá lucro | `/diretor-analise <url da LP>` + números do Gerenciador e da Cakto |
