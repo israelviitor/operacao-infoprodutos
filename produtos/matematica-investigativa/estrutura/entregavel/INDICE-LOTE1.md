@@ -1,6 +1,6 @@
 # Índice do lote 1 — 30 missões (proposta da Estrutura, 2026-10-28)
 
-> Status: **aguardando o dono aprovar os nomes**. As missões 3º-03, 4º-02 e 5º-04 já existem (amostras) e mantêm o número do mockup do dono.
+> Status: nomes aprovados; conteúdo completo em `conteudo/LOTE1-CONTEUDO.md` (2026-10-28). As missões 3º-03, 4º-02 e 5º-04 já existem (amostras) e mantêm o número do mockup do dono.
 > Cada missão tem 4 etapas, e cada etapa trabalha um conteúdo. O código abaixo é o **foco principal**; o índice final lista o código de cada etapa (BNCC e, no 5º ano, o descritor do Saeb).
 > Cobertura prometida na página: frações · dinheiro e troco · medidas e tempo · tabelas e gráficos · as 4 operações.
 
@@ -39,7 +39,7 @@
 | 02 | O Caso da Maratona da Escola | Quem correu mais? Tempos e distâncias com vírgula. | Decimais em medidas · EF05MA02 / EF05MA07 · Saeb D25 |
 | 03 | O Mistério da Receita Dobrada | A receita foi feita para o dobro de pessoas. | Proporcionalidade · EF05MA12 |
 | 04 | **O Mistério da Cápsula do Tempo** ✅ | Uma cápsula enterrada há 25 anos. | Gráfico de colunas · EF05MA24 · Saeb D28 |
-| 05 | O Enigma do Terreno da Horta Nova | Qual canteiro cabe no terreno? | Perímetro e área · EF05MA20 · Saeb D12 / D13 |
+| 05 | O Enigma do Terreno da Horta Nova | Qual canteiro cabe no terreno? | Perímetro e área · EF05MA20 · Saeb D11 / D12 |
 | 06 | O Caso do Tesouro no Plano | Coordenadas levam ao tesouro da turma. | Plano cartesiano · EF05MA14 |
 | 07 | O Mistério da Torta Dividida | Pedaços diferentes, mesma quantidade? | Frações equivalentes e comparação · EF05MA04 / EF05MA05 · Saeb D21 / D24 |
 | 08 | O Caso do Aquário Vazio | O aquário da sala esvaziou durante o feriado. | Capacidade, volume e conversões · EF05MA19 / EF05MA21 |

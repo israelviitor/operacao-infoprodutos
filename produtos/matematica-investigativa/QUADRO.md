@@ -10,6 +10,7 @@ Kit de missões de mistério para imprimir (P&B), organizado por série (3º, 4�
 Copy de Oferta + Estrutura (em paralelo). Decisões de nome, preço e quantidade tomadas em 2026-10-28.
 
 ## Decisões do dono (valem para todas as áreas)
+- [2026-10-28] Modelo das missões = o mockup do dono (abertura, perguntas numeradas com espaço de resposta, quadro DICA, ilustrações). Nomes das 30 missões aprovados (`estrutura/entregavel/INDICE-LOTE1.md`).
 - [2026-10-28] Publicação da página: por enquanto pelo **ChatGPT + v0** (dono não quer conectar o v0 aqui agora). Uma etapa por vez: depois da página no ar, seguem os próximos passos.
 - [2026-10-28] Modelar o "Arquivo Secreto" como Matemática Investigativa do 3º ao 5º ano (recomendação da Mineração). Versão em espanhol fica para depois.
 - [2026-10-28] Nome: **"Matemática em Missão — 3º ao 5º ano"**.
@@ -54,6 +55,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 4. **Estrutura:** produzir o lote 1 (30 missões) no intervalo, com a entrega testada **antes** do horário de início. Se não der tempo, adiar o início.
 
 ## Histórico (mais recente em cima)
+- [2026-10-28] Estrutura: conteúdo completo das 30 missões do lote 1 (4 etapas × 3 níveis, palavra-código, gabarito com erro comum; 360 problemas conferidos por script) em `estrutura/entregavel/conteudo/LOTE1-CONTEUDO.md` e `.pdf`. Horta (3º-03), R$ 50 (4º-02) e Cápsula (5º-04) seguem o texto do mockup do dono. ATENÇÃO: as amostras antigas (`entregavel/amostras/`) e as imagens da página feitas a partir delas não batem mais com o produto — refazer depois da diagramação.
 - [2026-10-28] Estrutura: proposta dos nomes e focos das 30 missões do lote 1 (`estrutura/entregavel/INDICE-LOTE1.md`), aguardando aprovação do dono.
 - [2026-10-28] Estrutura: prompt de redesign de layout para o ChatGPT/v0 (`estrutura/pagina/PROMPT-REDESIGN-GPT.md`), seguindo o briefing da Análise, com 2 imagens novas (`img/etapa-zoom.webp`, `img/bonus-destaque.webp`). Na página no ar, o v0 tinha posto o rótulo "Caso em aberto" (termo proibido pelo dossiê): o prompt manda tirar. Pendente: renomear as amostras para "Missão da Horta / dos R$ 50 / da Cápsula do Tempo" (sem "Mistério do"/"Caso").
 - [2026-10-28] Análise: página publicada × Kit Detetive; briefing de redesign para a Estrutura (`analises/2026-10-28-analise.md`).
