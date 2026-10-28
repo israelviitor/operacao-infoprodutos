@@ -4,7 +4,8 @@
 > Headline escolhida pelo dono em 2026-10-28. Revisada pelo comitê em 2026-10-28 (veredito: Ajustar; correções aplicadas).
 > Página para celular, low ticket (R$ 17,90). Sem menu, sem pop-up e sem link que saia da página. Todo botão leva ao checkout da Cakto.
 >
-> ⛔ **Não publicar antes de o lote 1 estar pronto** (30 missões, 3 níveis, gabarito; CDC arts. 30 e 35) **nem enquanto houver item aberto em "Confirmar antes de montar"** (fim do arquivo).
+> **Publicação (regra de 2026-10-28 em `regras/geral.md`):** a página pode ir ao ar já, com os mockups das missões-amostra. Os anúncios só **começam a rodar** depois que o lote 1 (30 missões, 3 níveis, gabarito) estiver pronto e com a entrega da Cakto testada. Se o lote atrasar, adia-se o início dos anúncios (CDC arts. 30 e 35).
+> Antes de publicar, a lista "Confirmar antes de montar" (fim do arquivo) precisa estar toda marcada.
 > A coluna TEXTO EXATO é colada como está. As condições ficam na coluna NOTA, que não vai para a página.
 
 ## Blocos
@@ -112,7 +113,7 @@
 5. **IMAGEM 5:** crachá, ficha do grupo e certificado (só se o kit existir).
 
 ## Confirmar antes de montar (Estrutura)
-- [ ] Lote 1 pronto: 30 missões, 3 níveis, gabarito e roteiro em cada uma.
+- [ ] Os itens do bloco 5 batem com o que o lote 1 **vai** entregar (30 missões, 3 níveis, gabarito e roteiro em cada uma). O lote fica pronto antes do início dos anúncios.
 - [ ] Conteúdos que o lote 1 cobre de fato (bloco 5).
 - [ ] Índice por habilidade da BNCC existe? Se não, sai dos blocos 5 e 9.
 - [ ] Duração e tamanho do grupo (bloco 5 e FAQ).
