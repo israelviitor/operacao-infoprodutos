@@ -16,7 +16,9 @@ Copy de Oferta + Estrutura (em paralelo). Decisões de nome, preço e quantidade
 - [2026-10-28] Produção: **1 missão-amostra por série (3º, 4º, 5º) para aprovação do modelo**, depois o **lote 1 com 30 missões** (10 por série, 3 níveis), que já vende; o restante até 60 entra como atualização.
 - [2026-10-28] Headline da oferta: **"Seu aluno sabe fazer a conta, mas trava quando o problema não diz qual é?"** (página e anúncios partem dela).
 - [2026-10-28] Ordem de montagem (regra geral): página + Cakto → criativos → anúncios agendados → lote 1 produzido antes do horário de início.
-- _Pendente: nome do mecanismo ("Problema com Enredo" é a recomendação; a Copy propõe na PROMESSA)._
+- [2026-10-28] Nome do mecanismo: **"Problema com Enredo"**.
+- [2026-10-28] **Kit de Ambientação** (crachá de agente, ficha do grupo, certificado) **entra no lote 1** como bônus. Estrutura produz.
+- _Pendente: bônus "Grande Missão Final" (Copy recomenda deixar fora do lote 1)._
 
 ## Status por área
 | Área | Status | Entrega (arquivo) | Atualizado |
@@ -48,6 +50,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 4. **Estrutura:** produzir o lote 1 (30 missões) no intervalo, com a entrega testada **antes** do horário de início. Se não der tempo, adiar o início.
 
 ## Histórico (mais recente em cima)
+- [2026-10-28] Copy de Oferta: dono aprovou o mecanismo "Problema com Enredo" e o Kit de Ambientação no lote 1; marcações tiradas da página.
 - [2026-10-28] Dono: nova ordem de montagem — página e criativos antes do entregável; anúncios agendados; produto pronto antes da veiculação.
 - [2026-10-28] Copy de Oferta: dono escolheu a headline 1. `copy/pagina-vendas.md` escrita e revisada pelo comitê (dado do Saeb cortado da página; garantia reescrita).
 - [2026-10-28] Copy de Oferta: `copy/PROMESSA.md` criada e revisada pelo comitê (big idea "Seu aluno não trava na conta. Trava no problema."). Aguarda o dono escolher a headline e confirmar o mecanismo "Problema com Enredo".

@@ -86,7 +86,7 @@ Versão curta (para o anúncio e o topo da página): *"Seu aluno faz a conta, ma
 - **VSL** (se houver): big idea nos primeiros 10 segundos.
 
 ## Pendências
-- Nome do mecanismo "Problema com Enredo": confirmar com o dono.
+- ~~Nome do mecanismo~~ "Problema com Enredo" aprovado pelo dono em 2026-10-28.
 - Missão-amostra por série (Estrutura) para virar prova visual.
 - Bônus "Grande Missão Final": não está no lote 1 aprovado. Só citar na página se o dono confirmar.
 - Conferir 50,6% (recorte total ou rede pública) no documento original antes do anúncio.

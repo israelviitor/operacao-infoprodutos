@@ -34,7 +34,7 @@
 | Título | Não é você. É a lista de continhas. | — | — | — |
 | Texto | Quase todo material entrega a conta pronta ("resolva 34 + 18"). O aluno aprende a calcular, mas nunca precisa decidir **qual** conta resolver. | — | — | — |
 | Fonte | Pesquisas da UFPA e da UFRGS apontam: a dificuldade está em interpretar o problema e escolher a operação. | Letra pequena | — | Links das fontes em `copy/PROMESSA.md` §5 (não colocar link clicável). |
-| Subtítulo | Por isso criamos o **Problema com Enredo** | — | — | Nome do mecanismo: recomendação do time, pendente de confirmação do dono. |
+| Subtítulo | Por isso criamos o **Problema com Enredo** | — | — | Aprovado pelo dono em 2026-10-28. |
 | Passos | **1. Ler:** a turma acha os dados na cena da história. **2. Decidir:** escolhe qual conta resolve. **3. Resolver:** faz a conta. **4. Conferir:** vê se a resposta faz sentido no caso. | Ícones numerados de 1 a 4 | — | — |
 | Texto | Só a resposta certa abre a próxima etapa. | — | **Quero as missões da minha turma** | — |
 
@@ -58,7 +58,7 @@
 | Lista | ✔ **Preto e branco, pouca tinta.** Imprime na impressora de casa ou na xerox da escola | — | — | — |
 | Lista | ✔ Missões de 30 a 50 minutos, em grupos de 3 a 5 alunos ou individual | — | — | CONFIRMAR com o lote 1 (número do dossiê). |
 | Formato | Tudo em PDF. Você recebe o acesso no e-mail assim que o pagamento é aprovado e pode imprimir para as suas turmas sempre que precisar. | — | — | CONFIRMAR a entrega da Cakto (e-mail ou área de membros) e se os termos de uso permitem imprimir à vontade (licença pessoal da professora). |
-| Bônus | **Bônus: Kit de Ambientação.** Crachá de agente, ficha de registro do grupo e certificado de missão cumprida para imprimir. | [IMAGEM 5] crachá, ficha e certificado | — | CONFIRMAR: só entra se o kit for produzido no lote 1. |
+| Bônus | **Bônus: Kit de Ambientação.** Crachá de agente, ficha de registro do grupo e certificado de missão cumprida para imprimir. | [IMAGEM 5] crachá, ficha e certificado | — | Aprovado pelo dono: entra no lote 1. |
 | Botão | — | — | **Quero as 30 missões por R$ 17,90** | — |
 
 ### 6. Para quem é / para quem não é
@@ -80,7 +80,7 @@
 | SEÇÃO | TEXTO EXATO | ELEMENTO VISUAL | BOTÃO | NOTA |
 |---|---|---|---|---|
 | Título | Tudo isso por | — | — | — |
-| Resumo | 30 missões · 3 séries · 3 níveis · gabarito comentado · roteiro de 2 min · Kit de Ambientação | Caixa com mockup pequeno | — | Tirar "Kit de Ambientação" se o bônus não entrar. |
+| Resumo | 30 missões · 3 séries · 3 níveis · gabarito comentado · roteiro de 2 min · Kit de Ambientação | Caixa com mockup pequeno | — | — |
 | Preço | **R$ 17,90** · pagamento único | Preço grande, sem "de/por" | — | — |
 | Comparação | Menos de R$ 0,60 por missão pronta. | — | — | Conta: 17,90 ÷ 30 = 0,597. Refazer se a quantidade mudar. |
 | Botão | — | — | **Quero as missões da minha turma** | — |
@@ -110,14 +110,13 @@
 2. **IMAGEM 2:** página real da etapa 1 da missão-amostra do 4º ano.
 3. **IMAGEM 3:** a mesma etapa nos 3 níveis, lado a lado.
 4. **IMAGEM 4:** gabarito comentado e roteiro de 2 minutos.
-5. **IMAGEM 5:** crachá, ficha do grupo e certificado (só se o kit existir).
+5. **IMAGEM 5:** crachá, ficha do grupo e certificado.
 
 ## Confirmar antes de montar (Estrutura)
 - [ ] Os itens do bloco 5 batem com o que o lote 1 **vai** entregar (30 missões, 3 níveis, gabarito e roteiro em cada uma). O lote fica pronto antes do início dos anúncios.
 - [ ] Conteúdos que o lote 1 cobre de fato (bloco 5).
 - [ ] Índice por habilidade da BNCC existe? Se não, sai dos blocos 5 e 9.
 - [ ] Duração e tamanho do grupo (bloco 5 e FAQ).
-- [ ] Kit de Ambientação produzido? Se não, sai dos blocos 5 e 8.
 - [ ] Entrega da Cakto (e-mail ou área de membros) e caminho de reembolso.
 - [ ] Termos de uso (licença de impressão), política de privacidade, responsável e e-mail.
 - [ ] O bônus "Grande Missão Final" **não entra** até o dono confirmar.
