@@ -27,10 +27,44 @@ function conferir(m) {
       if (valores.length !== 4) erros.push(`${tag}: precisa de 4 opções`);
       if (new Set(valores).size !== valores.length) erros.push(`${tag}: opções repetidas`);
       if (valores.filter((v) => v === String(nv.resposta)).length !== 1) erros.push(`${tag}: a resposta certa não aparece exatamente 1 vez nas opções`);
-      nv.opcoes.forEach((o) => { if (String(o.v) !== String(nv.resposta) && !o.erro) erros.push(`${tag}: opção ${o.v} sem explicação do erro`); });
+      nv.opcoes.forEach((o) => {
+        if (String(o.v) === String(nv.resposta)) return;
+        if (!o.erro) erros.push(`${tag}: opção ${o.v} sem explicação do erro`);
+        // a conta do erro precisa dar exatamente o número da opção
+        if (typeof o.calc !== 'function') erros.push(`${tag}: opção ${o.v} sem calc() do erro`);
+        else if (String(o.calc()) !== String(o.v)) erros.push(`${tag}: opção ${o.v} — a conta do erro dá "${o.calc()}"`);
+      });
     });
+    // As 4 pistas não podem se diferenciar pela forma: sem negrito, sem palavra em CAIXA ALTA, tamanhos parecidos.
+    const todas = [e.pistaCerta, ...e.pistasErradas];
+    todas.forEach((t) => {
+      if (/<b>/.test(t)) erros.push(`${m.id} E${ie + 1}: pista com negrito: ${t}`);
+      const caps = t.replace(/R\$/g, '').match(/\b[A-ZÀ-Ú]{3,}\b/g);
+      if (caps) erros.push(`${m.id} E${ie + 1}: pista com CAIXA ALTA (${caps.join(', ')}): ${t}`);
+    });
+    const tam = todas.map((t) => t.length), min = Math.min(...tam), max = Math.max(...tam);
+    if (max > min * 1.6) erros.push(`${m.id} E${ie + 1}: pistas com tamanhos muito diferentes (${tam.join(', ')})`);
   });
   return erros;
+}
+
+// Embaralha as opções do cadeado com semente fixa (sempre a mesma ordem para a mesma missão)
+// e evita que a resposta certa caia na mesma posição nos 3 níveis.
+function semente(str) { let h = 2166136261; for (const c of str) h = Math.imul(h ^ c.charCodeAt(0), 16777619); return () => ((h = Math.imul(h ^ (h >>> 15), 2246822507) >>> 0) % 1000) / 1000; }
+function ordenar(m) {
+  m.etapas.forEach((e, ie) => {
+    const usadas = new Set();
+    e.niveis.forEach((nv, iv) => {
+      const rnd = semente(`${m.id}-${ie}-${iv}`);
+      let ops;
+      for (let t = 0; t < 20; t++) {
+        ops = [...nv.opcoes].map((o) => [rnd(), o]).sort((x, y) => x[0] - y[0]).map((x) => x[1]);
+        const pos = ops.findIndex((o) => String(o.v) === String(nv.resposta));
+        if (!usadas.has(pos)) { usadas.add(pos); break; }
+      }
+      nv.ordem = ops;
+    });
+  });
 }
 
 // ---------- HTML ----------
@@ -57,7 +91,7 @@ function paginaProfessora(m) {
     <li><b>Monte os grupos e escolha o nível de cada um.</b> O mistério é o mesmo nos 3 níveis; só mudam os números e a quantidade de passos. Nível 1 ★ = apoio · Nível 2 ★★ = esperado para a série · Nível 3 ★★★ = desafio.</li>
     <li><b>Leia a abertura em voz alta</b> (ou entregue uma por grupo). Mostre os ${m.alvosPlural} e combine a missão: ${m.missaoCurta}</li>
     <li><b>Entregue as 4 etapas grampeadas.</b> Em cada etapa, ninguém diz qual conta fazer: o grupo acha os dados, escolhe a conta, resolve e confere.</li>
-    <li><b>O cadeado no pé da página corrige sozinho.</b> As respostas erradas da tabela são os erros mais comuns da série e levam a pistas falsas. Na ficha final, a conclusão não fecha e o grupo volta para procurar o erro.</li>
+    <li><b>O cadeado no pé da página corrige sozinho.</b> As respostas erradas da tabela são os erros mais comuns da série e levam a pistas falsas. Com cada pista, o grupo risca na ficha final ${m.alvosRiscar} que não combina. Com uma pista falsa, a conclusão não fecha e o grupo volta para procurar o erro.</li>
     <li><b>Feche com 5 minutos de conversa:</b> peça a cada grupo para contar <i>como decidiu qual conta fazer</i> em uma das etapas. Confira com o gabarito comentado.</li>
   </ol>
   <h2>Habilidades trabalhadas</h2>
@@ -94,19 +128,18 @@ function paginaAbertura(m) {
   <h2>${m.alvosTitulo}</h2>
   <div class="cards">${cards}</div>
   <div class="missao-box"><b>A missão de vocês:</b> ${m.missao}</div>
-  <div class="como"><b>Como funciona:</b> são 4 etapas. Em cada uma, vocês resolvem um problema e usam a resposta para abrir o cadeado. Só a resposta certa traz a pista verdadeira. Nenhuma etapa diz qual conta fazer: descubram!</div>
+  <div class="como"><b>Como funciona:</b> são 4 etapas. Em cada uma, vocês resolvem um problema e usam a resposta para abrir o cadeado. Só a resposta certa traz a pista verdadeira. A cada pista, risquem na ficha final ${m.alvosRiscar} que não combina com ela. Nenhuma etapa diz qual conta fazer: descubram!</div>
 </section>`;
 }
 
 function paginaEtapa(m, e, ie, nv, iv) {
   const nivel = NIVEIS[iv];
-  const ops = [...nv.opcoes];
+  const ops = nv.ordem || [...nv.opcoes];
   let k = 0;
   const linhas = ops.map((o) => {
     const certa = String(o.v) === String(nv.resposta);
     const bruto = certa ? sub(e.pistaCerta, o.v) : sub(e.pistasErradas[k++], o.v);
-    // Mesmo destaque em todas as linhas (só o "Risquem…"), para a pista certa não se entregar pelo negrito.
-    const texto = bruto.replace(/<\/?b>/g, '').replace(/(Risquem [^.]*\.)/g, '<b>$1</b>');
+    const texto = bruto;
     return `<tr><td class="val">${o.v}</td><td>${texto}</td></tr>`;
   }).join('');
   return `<section class="pagina etapa">
@@ -242,6 +275,7 @@ for (const arq of fs.readdirSync(PASTA_MISSOES).filter((a) => a.endsWith('.js'))
   if (filtro && m.id !== filtro) continue;
   const erros = conferir(m);
   if (erros.length) { falhou = true; console.error(erros.join('\n')); continue; }
+  ordenar(m);
   const saida = path.join(PASTA_HTML, `${m.id}.html`);
   fs.writeFileSync(saida, montar(m));
   console.log(`ok  ${m.id}  gabarito conferido (${m.etapas.length * 3} problemas)  -> ${path.relative(process.cwd(), saida)}`);
