@@ -6,7 +6,8 @@
 const { chromium } = require('playwright');
 
 const { CHROME } = require('./chrome');
-const BASE = 'https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&media_type=all';
+// País da busca: PAIS=ALL (todos) ou código (US, BR...). Padrão: BR.
+const BASE = `https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=${process.env.PAIS || 'BR'}&media_type=all`;
 
 function urlBusca(termo, exata, impressoes) {
   const q = encodeURIComponent(exata ? `"${termo}"` : termo);

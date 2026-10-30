@@ -17,3 +17,10 @@ Páginas na Biblioteca:
 - https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=1330927500104230 (Kenji The Tai Chi Expert)
 - https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=1330046653533276 (Hélène Vasseur)
 Anúncios de exemplo: https://www.facebook.com/ads/library/?id=1668487361307693 (rest · lymph 712) · https://www.facebook.com/ads/library/?id=1475861684436819 (victoryscale · lymph 126) · https://www.facebook.com/ads/library/?id=1639648604192662 (vagus)
+
+## Todos os países (busca do dono: q=REST.VICTORYSCALE.COM, country=ALL) — 2026-10-30
+- Biblioteca informa **88 anúncios** para rest.victoryscale.com em todos os países; a busca "VICTORYSCALE.COM" em todos os países informa **333** (domínio inteiro). Vistos 64 únicos (somando 21 buscas).
+- rest.victoryscale.com (37 vistos): 17 → /lymph/reset712-leg (2–13 d) · 12 → /vagus-nerve/126mf-comp (2–9 d) · **6 → /es/lymph/reset126-leg (espanhol, 3–6 d)** · 2 → /fascia/release-126mf.
+- victoryscale.com (27 vistos): 13 → /lymph/reset126-mf-comp (0–2 d) · 5 → /lymph/reset712-leg (28 d) · 3 → /FR/lymph/reset126-leg · 3 → /fascia/release-126mf · 2 → /pt/lymph/reset126-leg · 1 → /fr/taichi/walkingv2-leg.
+- Mais escalado: Lymph Reset "712" (22 vistos, único com 28 dias, renovado continuamente). Vagus Nerve cresceu de 7 (filtro BR) para 12 (global).
+- Ferramenta: `biblioteca-anuncios.js` agora aceita `PAIS=ALL` (ou US, BR…) — padrão continua BR.
