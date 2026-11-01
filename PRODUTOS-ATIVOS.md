@@ -5,6 +5,7 @@
 | Produto | Pasta | Fase | Em foco para |
 |---|---|---|---|
 | Matemática Investigativa 3º–5º | `produtos/matematica-investigativa/` | Copy de Oferta + Estrutura (amostras e promessa) | Mineração, Copy, Estrutura, Edição |
+| VittaFlow (Lymph Reset Plan, EUA) | `produtos/vittaflow/` | Tráfego (testes 01 e 02) | Análise, Tráfego |
 | Decodifica Matemática | `produtos/decodifica-matematica/` | Tráfego (testes 2 e 3) | Tráfego, Análise |
 
 Atualizado em 2026-10-28 pela Central.

@@ -1,0 +1,118 @@
+{
+ "url": "https://pay.hotmart.com/H108263923O?checkoutMode=10&bid=1793389907729",
+ "url_final": "https://pay.hotmart.com/H108263923O?checkoutMode=10&bid=1793389907729",
+ "tempo_dom_ms": 1081,
+ "tempo_carregada_ms": 1910,
+ "peso_aprox_mb": 2.01,
+ "arquivos_pesados": [
+  {
+   "url": "https://static-media.hotmart.com/TyC_mw-rsyWqV6n9dMsxBKoJW3g=/768x996/filters:quality(100):format(webp)/hotmart/checkout_custom/8f1f2654-6ecb-4793-838",
+   "kb": 510
+  },
+  {
+   "url": "https://static-media.hotmart.com/xdIXojAHOKHcr5t2UZ0VyAEHelU=/768x432/filters:quality(100):format(webp)/hotmart/checkout_custom/51e744a6-7db7-4ddb-81d",
+   "kb": 332
+  }
+ ],
+ "precos": [],
+ "titulo": "VittaFlow",
+ "altura_px": 3151,
+ "titulos": [
+  "H1: VittaFlow",
+  "H2: Personal info",
+  "H2: Select payment method",
+  "H2: Select payment method",
+  "H2: Order details"
+ ],
+ "botoes": [
+  {
+   "texto": "Skip to main content",
+   "href": "https://pay.hotmart.com/H108263923O?checkoutMode=10&bid=1793389907729#main",
+   "topo_px": -40
+  },
+  {
+   "texto": "🇺🇸 Change country",
+   "href": "",
+   "topo_px": 348
+  },
+  {
+   "texto": "Learn more",
+   "href": "https://help.hotmart.com/en/article/360051146712",
+   "topo_px": 481
+  },
+  {
+   "texto": "🇺🇸 +1",
+   "href": "",
+   "topo_px": 831
+  },
+  {
+   "texto": "Show more",
+   "href": "",
+   "topo_px": 1930
+  },
+  {
+   "texto": "Buy now",
+   "href": "",
+   "topo_px": 2089
+  },
+  {
+   "texto": "Have questions about the product? Please contact",
+   "href": "",
+   "topo_px": 2229
+  },
+  {
+   "texto": "Can't complete this purchase? Please visit our Help Center",
+   "href": "https://help.hotmart.com/en/article/360014492431?itm_medium=internal&itm_source=checkout&itm_campaign=us_en_can_t_complete_the_purchase&cktid=CKTID-H108263923O1-1793546081572-1704",
+   "topo_px": 2260
+  },
+  {
+   "texto": "CKTID-H108263923O1-1793546081572-1704",
+   "href": "",
+   "topo_px": 2325
+  },
+  {
+   "texto": "Click here to learn more",
+   "href": "",
+   "topo_px": 2385
+  },
+  {
+   "texto": "Terms of Use",
+   "href": "https://hotmart.com/en/legal/terms-of-use",
+   "topo_px": 2464
+  },
+  {
+   "texto": "Privacy Policy",
+   "href": "https://hotmart.com/en/legal/data-privacy-policy",
+   "topo_px": 2464
+  },
+  {
+   "texto": "other company policies",
+   "href": "https://hotmart.com/en/legal",
+   "topo_px": 2464
+  },
+  {
+   "texto": "here",
+   "href": "",
+   "topo_px": 2513
+  },
+  {
+   "texto": "REF.",
+   "href": "",
+   "topo_px": 2545
+  }
+ ],
+ "links_externos": [
+  "https://help.hotmart.com/en/article/360051146712",
+  "https://help.hotmart.com/en/article/360014492431?itm_medium=internal&itm_source=checkout&itm_campaign=us_en_can_t_complete_the_purchase&cktid=CKTID-H108263923O1-1793546081572-1704",
+  "https://hotmart.com/en/legal/terms-of-use",
+  "https://hotmart.com/en/legal/data-privacy-policy",
+  "https://hotmart.com/en/legal"
+ ],
+ "videos": [
+  "https://card-form-element.pci.hotmart.com/en.html?countryIsoCode=US",
+  "https://pay.hotmart.com/api/next/safe",
+  "https://sso.hotmart.com/oidc/check_session?clientId=83dcdec9-da4a-4426-9629-22987b7cedfb"
+ ],
+ "imagens": 4,
+ "texto": "Skip to main content\n00 : 14 : 54\nTake advantage of your offer before time runs out.\n🇺🇸\nChange country\nVittaFlow\nAuthor: FELIPE HONORATO BERTOLETTE\n$19.90\n(Sales tax, only if applicable in your state. Learn more)\nPersonal info\nYour email address\nConfirm your email\nYour full name\nPhone number\n🇺🇸\n+1\nAddress\nAddress line 2 (optional)\nE.g.: Apartment B2, second floor.\nZip Code\nCity\nState\nSelect your state\nAlabama\nAlaska\nArizona\nArkansas\nCalifornia\nColorado\nConnecticut\nDelaware\nDistrict of Columbia\nFlorida\nGeorgia\nHawaii\nIdaho\nIllinois\nIndiana\nIowa\nKansas\nKentucky\nLouisiana\nMaine\nMaryland\nMassachusetts\nMichigan\nMinnesota\nMississippi\nMissouri\nMontana\nNebraska\nNevada\nNew Hampshire\nNew Jersey\nNew Mexico\nNew York\nNorth Carolina\nNorth Dakota\nOhio\nOklahoma\nOregon\nPennsylvania\nRhode Island\nSouth Carolina\nSouth Dakota\nTennessee\nTexas\nUtah\nVermont\nVirginia\nWashington\nWest Virginia\nWisconsin\nWyoming\nSelect payment method\nCard\nSelect payment method\nUse two cards\nPay in 30 days\nPay Over Time\nPayPal\n\nShow more\n\nCard selected as payment method\nOrder details\n\nVittaFlow\n\n$19.90\n\nTotal of $19.90\nBuy now\n\nSecured by\n\nHave questions about the product? Please contact\nCan't complete this purchase? Please visit our Help Center\n\nIf you need to submit a request to our support team, please provide the code below:\n\nCKTID-H108263923O1-1793546081572-1704\n\nWas your information autofill in? Click here to learn more.\n\nBy clicking 'Buy Now' I declare that I (i) understand that Hotmart is processing this order on behalf of FELIPE HONORATO BERTOLETTE and has no responsibility for the content and/or control over it; (ii) agree to Hotmart’s Terms of Use, Privacy Policy and other company policies and (iii) am of legal age or authorized and accompanied by a legal guardian.\n\nLearn more about your purchase here.\n\nHotmart © 2026 - All rights reserved\n\n2026-11-01T15:14:43.073Z\nREF."
+}
