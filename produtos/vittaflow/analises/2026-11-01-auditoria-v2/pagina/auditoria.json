@@ -1,0 +1,56 @@
+{
+ "url": "https://vittaflowprotocol.lovable.app",
+ "url_final": "https://vittaflowprotocol.lovable.app/",
+ "tempo_dom_ms": 1722,
+ "tempo_carregada_ms": 1890,
+ "peso_aprox_mb": 0.25,
+ "arquivos_pesados": [],
+ "precos": [],
+ "titulo": "Lymph Reset Plan — 1-minute quiz | VittaFlow",
+ "altura_px": 860,
+ "titulos": [
+  "H1: LYMPH RESET PLAN",
+  "H2: How old are you?"
+ ],
+ "botoes": [
+  {
+   "texto": "30-39",
+   "href": "",
+   "topo_px": 572
+  },
+  {
+   "texto": "40-49",
+   "href": "",
+   "topo_px": 572
+  },
+  {
+   "texto": "50-59",
+   "href": "",
+   "topo_px": 640
+  },
+  {
+   "texto": "60+",
+   "href": "",
+   "topo_px": 640
+  },
+  {
+   "texto": "I’m 18-29",
+   "href": "",
+   "topo_px": 708
+  },
+  {
+   "texto": "Terms of Service",
+   "href": "https://vittaflowprotocol.lovable.app/terms",
+   "topo_px": 796
+  },
+  {
+   "texto": "Privacy Policy",
+   "href": "https://vittaflowprotocol.lovable.app/privacy",
+   "topo_px": 812
+  }
+ ],
+ "links_externos": [],
+ "videos": [],
+ "imagens": 2,
+ "texto": "1-MINUTE QUIZ\n\nLYMPH RESET PLAN\n\nA guided routine to loosen your fascia, support lymph drainage, and feel light in your body once again\n\nHow old are you?\n30-39\n40-49\n50-59\n60+\nI’m 18-29\n\nBy tapping an age you agree to our Terms of Service and Privacy Policy."
+}
