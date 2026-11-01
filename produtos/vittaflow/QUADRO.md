@@ -10,7 +10,7 @@ Plano digital de 4 semanas de drenagem linfática e fáscia, para o mercado dos 
 Tráfego (teste 01 e teste 02 em CBO, desde 31/10).
 
 ## Decisões do dono (valem para todas as áreas)
-- (nenhuma registrada ainda)
+- [2026-11-01] Manter o "70% off" da raspadinha. Os depoimentos são reais e ficam como estão.
 
 ## Status por área
 | Área | Status | Entrega (arquivo) | Atualizado |
@@ -30,5 +30,6 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 O dono decide o gateway (Cakto ou Hotmart) e as correções de compliance. A Estrutura executa os gargalos 1 a 3.
 
 ## Histórico (mais recente em cima)
+- [2026-11-01] Análise: prompt da Lovable v2, só com ajustes de conversão (pedido do dono).
 - [2026-11-01] Análise: prompt para a Lovable com as correções do quiz e da oferta.
 - [2026-11-01] Análise: diagnóstico parcial (R$ 356 gastos, 1 venda, CPA 3,7 vezes acima do máximo de ~R$ 97).
