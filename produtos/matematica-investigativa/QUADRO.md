@@ -4,13 +4,17 @@
 > O dossiê (`dossie.md`) diz O QUE é o produto. Este quadro diz EM QUE PÉ está e QUEM faz o quê agora.
 
 ## Em uma linha
-Kit de missões de mistério para imprimir (P&B), organizado por série (3º, 4º e 5º) e por habilidade da BNCC/Saeb, para professoras dos anos iniciais. Preço proposto: R$ 17,90 na Cakto. Modelagem vertical do "Arquivo Secreto".
+Kit de missões de mistério para imprimir (P&B), organizado por série (3º, 4º e 5º) e por habilidade da BNCC/Saeb, para professoras dos anos iniciais. Planos: Básico R$ 17,90 e Premium R$ 29,90, com 3 bumps (decisão de 04/11). Modelagem vertical do "Arquivo Secreto".
 
 ## Fase atual
 Copy de Oferta + Estrutura (em paralelo). Decisões de nome, preço e quantidade tomadas em 2026-10-28.
 
 ## Decisões do dono (valem para todas as áreas)
-- [2026-11-03] **Bônus:** Kit de Ambientação, Plano de Aplicação de 30 Dias e Cartaz do Problema com Enredo + Painel "Missões Cumpridas". **Bumps:** Desafios Relâmpago (R$ 9,90), Revisão de Fim de Ano 5º ano (R$ 14,90) e Grande Missão Final (R$ 12,90). O Cartaz já foi aplicado na página pelo dono; os preços dos bumps são a proposta da Análise.
+- [2026-11-04] **Oferta em 2 planos** (substitui a decisão de 03/11 sobre bônus e bumps e a estrutura da Cakto do dossiê §5):
+  - **Básico R$ 17,90:** 30 missões (10 por série, 3 níveis, gabarito comentado, roteiro de 2 min).
+  - **Premium R$ 29,90:** as 30 missões + Kit de Ambientação + Plano de Aplicação de 30 Dias + Cartaz do Problema com Enredo/Painel "Missões Cumpridas" + Desafios Relâmpago (30 desafios) + Grande Missão Final (1 por série).
+  - **3 bumps nos dois planos, sempre desmarcados:** Tabuada em Missão R$ 9,90 · Avaliação Diagnóstica em Missão R$ 12,90 · Revisão de Fim de Ano em Missões 3º–5º R$ 14,90.
+  - CPA de empate estimado em ~R$ 25 (hipótese: 40% no Premium e 15% de aceite em cada bump). Até haver dado real, a trava do lançamento segue o líquido do Básico (R$ 14,52).
 - [2026-10-28] Modelo das missões = o mockup do dono (abertura, perguntas numeradas com espaço de resposta, quadro DICA, ilustrações). Nomes das 30 missões aprovados (`estrutura/entregavel/INDICE-LOTE1.md`).
 - [2026-10-28] Publicação da página: por enquanto pelo **ChatGPT + v0** (dono não quer conectar o v0 aqui agora). Uma etapa por vez: depois da página no ar, seguem os próximos passos.
 - [2026-10-28] Modelar o "Arquivo Secreto" como Matemática Investigativa do 3º ao 5º ano (recomendação da Mineração). Versão em espanhol fica para depois.
@@ -39,6 +43,8 @@ Copy de Oferta + Estrutura (em paralelo). Decisões de nome, preço e quantidade
 Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ pronto · ⛔ travado
 
 ## Pedidos entre áreas (abertos)
+- [ ] [2026-11-04] **De** Análise **para** Copy de Oferta: reescrever a seção de oferta com 2 planos (cards Básico e Premium, Premium em destaque como "Mais completo", sem "mais vendido"); a seção de bônus e o "3 bônus inclusos" passam a dizer "no Premium"; textos de 1 frase dos 3 bumps. Ver a decisão de 04/11.
+- [ ] [2026-11-04] **De** Análise **para** Estrutura: (1) produzir os itens do Premium (Plano de 30 Dias, Cartaz/Painel, Desafios Relâmpago, Grande Missão Final) e os 3 bumps (Tabuada, Diagnóstica, Revisão 3º–5º) antes do início dos anúncios; (2) Cakto: 2 ofertas no mesmo produto (R$ 17,90 e R$ 29,90), com entrega separada por oferta, e os 3 bumps cadastrados só depois de produzidos; (3) página: 2 links de checkout (um por card). Se apertar o prazo, lançar com 1 ou 2 bumps.
 - [ ] [2026-11-03] **De** Análise **para** Estrutura: 2ª verificação da página — ~~cards e "Pratica:"~~ (resolvido em 04/11); falta o 1º CTA inteiro na dobra; produzir os bônus 02 e 03 e os 3 bumps. Ver `analises/2026-11-03-analise-v2.md`.
 - [ ] [2026-11-03] **De** Análise **para** Estrutura: página nova (matematica-em-missao.vercel.app): CONFIG.checkout e CONFIG.pixel vazios, "[E-MAIL]" e "[RESPONSÁVEL]" no ar; bônus 02 (Plano 30 dias) e 03 (Desafios Relâmpago) sem material; títulos "Caso/Mistério" no mockup; imagem no meio dos passos 01–04; CTA logo abaixo da dobra. Ver `analises/2026-11-03-analise.md`.
 - [ ] [2026-10-28] **De** Análise **para** Estrutura: redesign da página publicada (identidade de missão, imagens ilustradas, seções novas "missões que a turma vai resolver" e "o que a turma pratica", oferta e bônus com destaque) + bloqueios (CTAs sem link de checkout, placeholders de e-mail/responsável). Briefing: `analises/2026-10-28-analise.md`, seção 5.
@@ -58,6 +64,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 4. **Estrutura:** produzir o lote 1 (30 missões) no intervalo, com a entrega testada **antes** do horário de início. Se não der tempo, adiar o início.
 
 ## Histórico (mais recente em cima)
+- [2026-11-04] Dono aprovou a oferta em 2 planos (Básico R$ 17,90 / Premium R$ 29,90) com 3 bumps; pedidos abertos para a Copy e a Estrutura.
 - [2026-11-03] Análise: 2ª verificação (estrutura e copy); faltam 3 ajustes pequenos.
 - [2026-11-03] Análise: página nova avaliada com todos os critérios; o redesign foi atendido, mas checkout, pixel e identificação continuam vazios; o Bônus 03 é o mesmo item do bump 1.
 - [2026-10-28] Estrutura: conteúdo das 30 missões revisado pelo comitê; 13 missões corrigidas (furos de história, 3 contas fora da série no 3º ano, erros comuns, descritores Saeb, formato dos números). Pendente: decisão do dono sobre o tema "rifa" (5º-09).
