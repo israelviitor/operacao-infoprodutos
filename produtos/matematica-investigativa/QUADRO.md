@@ -36,7 +36,7 @@ Copy de Oferta + Estrutura (em paralelo). Decisões de nome, preço e quantidade
 | Estrutura — entregável | 🔵 3 missões-amostra prontas (comitê aprovou), aguardando o dono aprovar o modelo → lote 1 | `estrutura/entregavel/amostras/*.pdf` (fontes e gerador em `estrutura/entregavel/fonte/`) | 2026-10-28 |
 | Estrutura — página montada | 🔵 montada e revisada pelo comitê; falta o dono preencher checkout, pixel, responsável/e-mail e a Copy fechar 3 pedidos → publicar | `estrutura/pagina/` (`index.html`, `PUBLICAR.md`) | 2026-10-28 |
 | Estrutura — Cakto | 🔵 roteiro pronto (comitê: sobe), dono executa no painel | `estrutura/cakto-roteiro.md`, `estrutura/cakto/` (imagens) | 2026-10-28 |
-| Copy de Criativos | 🔵 lote 1 (5 vídeos + 5 imagens) revisado pelo comitê, aguardando o dono · produção depende das missões diagramadas finais | `criativos/2026-11-04-lote-1.md` | 2026-11-04 |
+| Copy de Criativos | 🔵 lote 2 (5 vídeos + 5 imagens, Hook/Body/CTA) revisado pelo comitê, aguardando o dono; o lote 1 foi substituído · a produção depende das missões diagramadas finais | `criativos/2026-11-04-lote-2.md` | 2026-11-04 |
 | Edição | ⬜ | — | — |
 | Tráfego | ⬜ pode agendar anúncios; início da veiculação só com o lote 1 pronto e a entrega testada | `trafego/` | — |
 | Análise | ✅ página nova, todos os critérios (pré-lançamento) | `analises/2026-11-03-analise.md` | 2026-11-03 |
@@ -67,6 +67,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 4. **Estrutura:** produzir o lote 1 (30 missões) no intervalo, com a entrega testada **antes** do horário de início. Se não der tempo, adiar o início.
 
 ## Histórico (mais recente em cima)
+- [2026-11-04] Copy de Criativos: lote 2 refeito com pesquisa de dores reais, alunos-redatores, teste do lead e comitê (`criativos/2026-11-04-lote-2.md`); regras novas do dono em `regras/copy-criativos.md`.
 - [2026-11-04] Copy de Criativos: lote 1 com 5 vídeos e 5 imagens, revisado pelo comitê (`criativos/2026-11-04-lote-1.md`); PROMESSA e página alinhadas à palavra-código.
 - [2026-11-05] Análise: último checkup; checkout e pixel ligados e funcionando; 4 correções antes de anunciar.
 - [2026-11-04] Estrutura: prompts dos banners do checkout (Básico e Premium) para o ChatGPT gerar (`estrutura/cakto/PROMPT-BANNERS-CHECKOUT.md`).
