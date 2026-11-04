@@ -10,6 +10,7 @@ Kit de missões de mistério para imprimir (P&B), organizado por série (3º, 4�
 Copy de Oferta + Estrutura (em paralelo). Decisões de nome, preço e quantidade tomadas em 2026-10-28.
 
 ## Decisões do dono (valem para todas as áreas)
+- [2026-11-04] Criativos: **sem rostos** (só mãos, folhas e narração) e preço no anúncio **R$ 17,90** (mockup só com o conteúdo do Básico).
 - [2026-11-04] **Oferta em 2 planos** (substitui a decisão de 03/11 sobre bônus e bumps e a estrutura da Cakto do dossiê §5):
   - **Básico R$ 17,90:** 30 missões (10 por série, 3 níveis, gabarito comentado, roteiro de 2 min).
   - **Premium R$ 29,90:** as 30 missões + Kit de Ambientação + Plano de Aplicação de 30 Dias + Cartaz do Problema com Enredo/Painel "Missões Cumpridas" + Desafios Relâmpago (30 desafios) + Grande Missão Final (1 por série).
@@ -35,7 +36,7 @@ Copy de Oferta + Estrutura (em paralelo). Decisões de nome, preço e quantidade
 | Estrutura — entregável | 🔵 3 missões-amostra prontas (comitê aprovou), aguardando o dono aprovar o modelo → lote 1 | `estrutura/entregavel/amostras/*.pdf` (fontes e gerador em `estrutura/entregavel/fonte/`) | 2026-10-28 |
 | Estrutura — página montada | 🔵 montada e revisada pelo comitê; falta o dono preencher checkout, pixel, responsável/e-mail e a Copy fechar 3 pedidos → publicar | `estrutura/pagina/` (`index.html`, `PUBLICAR.md`) | 2026-10-28 |
 | Estrutura — Cakto | 🔵 roteiro pronto (comitê: sobe), dono executa no painel | `estrutura/cakto-roteiro.md`, `estrutura/cakto/` (imagens) | 2026-10-28 |
-| Copy de Criativos | ⬜ promessa pronta, pode começar (precisa das imagens da missão-amostra) | `criativos/` | — |
+| Copy de Criativos | 🔵 lote 1 (5 vídeos + 5 imagens) revisado pelo comitê, aguardando o dono · produção depende das missões diagramadas finais | `criativos/2026-11-04-lote-1.md` | 2026-11-04 |
 | Edição | ⬜ | — | — |
 | Tráfego | ⬜ pode agendar anúncios; início da veiculação só com o lote 1 pronto e a entrega testada | `trafego/` | — |
 | Análise | ✅ página nova, todos os critérios (pré-lançamento) | `analises/2026-11-03-analise.md` | 2026-11-03 |
@@ -43,6 +44,7 @@ Copy de Oferta + Estrutura (em paralelo). Decisões de nome, preço e quantidade
 Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ pronto · ⛔ travado
 
 ## Pedidos entre áreas (abertos)
+- [ ] [2026-11-04] **De** Copy **para** Estrutura: (1) na página, bloco 3, trocar "Só a resposta certa abre a próxima etapa." por "Cada resposta vira uma letra da palavra-código. Se uma conta estiver errada, a palavra não fecha." (fiel ao conteúdo; já mudou em `copy/pagina-vendas.md`); (2) para os criativos, enviar as folhas **diagramadas finais** da Horta (etapa 1, os 3 níveis, tabela de letras, gabarito) e um mockup **só do Básico**.
 - [ ] [2026-11-05] **De** Análise **para** Estrutura: último checkup (`analises/2026-11-05-analise.md`): identificação do vendedor (rodapé, garantia, FAQ, termos e privacidade), avisos Meta/MEC no rodapé, taxa de R$ 0,99 (absorver ou mostrar), aviso P&B nas vitrines, nome/banner do checkout Premium, bumps nos 2 produtos da Cakto, compra de teste nos 2 planos.
 - [ ] [2026-11-04] **De** Análise **para** Copy de Oferta: reescrever a seção de oferta com 2 planos (cards Básico e Premium, Premium em destaque como "Mais completo", sem "mais vendido"); a seção de bônus e o "3 bônus inclusos" passam a dizer "no Premium"; textos de 1 frase dos 3 bumps. Ver a decisão de 04/11.
 - [ ] [2026-11-04] **De** Análise **para** Estrutura: (1) produzir os itens do Premium (Plano de 30 Dias, Cartaz/Painel, Desafios Relâmpago, Grande Missão Final) e os 3 bumps (Tabuada, Diagnóstica, Revisão 3º–5º) antes do início dos anúncios; (2) Cakto: 2 ofertas no mesmo produto (R$ 17,90 e R$ 29,90), com entrega separada por oferta, e os 3 bumps cadastrados só depois de produzidos; (3) página: 2 links de checkout (um por card). Se apertar o prazo, lançar com 1 ou 2 bumps.
@@ -65,6 +67,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 4. **Estrutura:** produzir o lote 1 (30 missões) no intervalo, com a entrega testada **antes** do horário de início. Se não der tempo, adiar o início.
 
 ## Histórico (mais recente em cima)
+- [2026-11-04] Copy de Criativos: lote 1 com 5 vídeos e 5 imagens, revisado pelo comitê (`criativos/2026-11-04-lote-1.md`); PROMESSA e página alinhadas à palavra-código.
 - [2026-11-05] Análise: último checkup; checkout e pixel ligados e funcionando; 4 correções antes de anunciar.
 - [2026-11-04] Estrutura: prompts dos banners do checkout (Básico e Premium) para o ChatGPT gerar (`estrutura/cakto/PROMPT-BANNERS-CHECKOUT.md`).
 - [2026-11-04] Análise: página com os 2 planos verificada (`analises/2026-11-04-analise.md`); bate com a decisão; 6 ajustes pequenos.

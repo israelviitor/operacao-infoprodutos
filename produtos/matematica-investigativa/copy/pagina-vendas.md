@@ -36,7 +36,7 @@
 | Fonte | Pesquisas da UFPA e da UFRGS apontam: a dificuldade está em interpretar o problema e escolher a operação. | Letra pequena | — | Links das fontes em `copy/PROMESSA.md` §5 (não colocar link clicável). |
 | Subtítulo | Por isso criamos o **Problema com Enredo** | — | — | Aprovado pelo dono em 2026-10-28. |
 | Passos | **1. Ler:** a turma acha os dados na cena da história. **2. Decidir:** escolhe qual conta resolve. **3. Resolver:** faz a conta. **4. Conferir:** vê se a resposta faz sentido no caso. | Ícones numerados de 1 a 4 | — | — |
-| Texto | Só a resposta certa abre a próxima etapa. | — | **Quero as missões da minha turma** | — |
+| Texto | Cada resposta vira uma letra da palavra-código. Se uma conta estiver errada, a palavra não fecha. | — | **Quero as missões da minha turma** | Alinhado ao conteúdo real em 2026-11-04 (a conferência é pela palavra-código no fim das 4 etapas). |
 
 ### 4. Demonstração
 | SEÇÃO | TEXTO EXATO | ELEMENTO VISUAL | BOTÃO | NOTA |

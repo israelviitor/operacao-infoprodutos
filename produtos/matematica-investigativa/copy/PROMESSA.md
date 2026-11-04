@@ -15,7 +15,7 @@ A turma até faz a conta quando alguém diz qual é. O que falta é ler a situa�
 Versão curta (para o anúncio e o topo da página): *"Seu aluno faz a conta, mas trava no problema? Aqui ninguém diz qual conta fazer: a turma descobre."*
 
 ## 3. Mecanismo: "Problema com Enredo"
-- **Em 2 linhas:** cada etapa da missão é uma cena da história, e ninguém diz qual conta fazer. O grupo acha os dados nas pistas, decide a operação, resolve e confere se a resposta faz sentido, e só a resposta certa abre a próxima etapa.
+- **Em 2 linhas:** cada etapa da missão é uma cena da história, e ninguém diz qual conta fazer. O grupo acha os dados nas pistas, decide a operação, resolve e confere se a resposta faz sentido, e cada resposta vira uma letra da palavra-código: se uma conta estiver errada, a palavra não fecha.
 - **Por que é diferente:** os kits de "investigação" do mercado dão a conta pronta e a resposta vira a pista. No Matemática em Missão, **escolher a conta é a própria pista**.
 - **Mecanismo do problema:** o material que chega à professora é feito para repetir, e não para pensar. O aluno faz a conta pela conta e não aprende a interpretar.
 
