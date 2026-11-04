@@ -64,6 +64,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 4. **Estrutura:** produzir o lote 1 (30 missões) no intervalo, com a entrega testada **antes** do horário de início. Se não der tempo, adiar o início.
 
 ## Histórico (mais recente em cima)
+- [2026-11-04] Estrutura: prompts dos banners do checkout (Básico e Premium) para o ChatGPT gerar (`estrutura/cakto/PROMPT-BANNERS-CHECKOUT.md`).
 - [2026-11-04] Análise: página com os 2 planos verificada (`analises/2026-11-04-analise.md`); bate com a decisão; 6 ajustes pequenos.
 - [2026-11-04] Dono aprovou a oferta em 2 planos (Básico R$ 17,90 / Premium R$ 29,90) com 3 bumps; pedidos abertos para a Copy e a Estrutura.
 - [2026-11-03] Análise: 2ª verificação (estrutura e copy); faltam 3 ajustes pequenos.
