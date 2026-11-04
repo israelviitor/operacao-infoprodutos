@@ -43,6 +43,7 @@ Copy de Oferta + Estrutura (em paralelo). Decisões de nome, preço e quantidade
 Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ pronto · ⛔ travado
 
 ## Pedidos entre áreas (abertos)
+- [ ] [2026-11-05] **De** Análise **para** Estrutura: último checkup (`analises/2026-11-05-analise.md`): identificação do vendedor (rodapé, garantia, FAQ, termos e privacidade), avisos Meta/MEC no rodapé, taxa de R$ 0,99 (absorver ou mostrar), aviso P&B nas vitrines, nome/banner do checkout Premium, bumps nos 2 produtos da Cakto, compra de teste nos 2 planos.
 - [ ] [2026-11-04] **De** Análise **para** Copy de Oferta: reescrever a seção de oferta com 2 planos (cards Básico e Premium, Premium em destaque como "Mais completo", sem "mais vendido"); a seção de bônus e o "3 bônus inclusos" passam a dizer "no Premium"; textos de 1 frase dos 3 bumps. Ver a decisão de 04/11.
 - [ ] [2026-11-04] **De** Análise **para** Estrutura: (1) produzir os itens do Premium (Plano de 30 Dias, Cartaz/Painel, Desafios Relâmpago, Grande Missão Final) e os 3 bumps (Tabuada, Diagnóstica, Revisão 3º–5º) antes do início dos anúncios; (2) Cakto: 2 ofertas no mesmo produto (R$ 17,90 e R$ 29,90), com entrega separada por oferta, e os 3 bumps cadastrados só depois de produzidos; (3) página: 2 links de checkout (um por card). Se apertar o prazo, lançar com 1 ou 2 bumps.
 - [ ] [2026-11-03] **De** Análise **para** Estrutura: 2ª verificação da página — ~~cards e "Pratica:"~~ (resolvido em 04/11); falta o 1º CTA inteiro na dobra; produzir os bônus 02 e 03 e os 3 bumps. Ver `analises/2026-11-03-analise-v2.md`.
@@ -64,6 +65,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 4. **Estrutura:** produzir o lote 1 (30 missões) no intervalo, com a entrega testada **antes** do horário de início. Se não der tempo, adiar o início.
 
 ## Histórico (mais recente em cima)
+- [2026-11-05] Análise: último checkup; checkout e pixel ligados e funcionando; 4 correções antes de anunciar.
 - [2026-11-04] Estrutura: prompts dos banners do checkout (Básico e Premium) para o ChatGPT gerar (`estrutura/cakto/PROMPT-BANNERS-CHECKOUT.md`).
 - [2026-11-04] Análise: página com os 2 planos verificada (`analises/2026-11-04-analise.md`); bate com a decisão; 6 ajustes pequenos.
 - [2026-11-04] Dono aprovou a oferta em 2 planos (Básico R$ 17,90 / Premium R$ 29,90) com 3 bumps; pedidos abertos para a Copy e a Estrutura.
