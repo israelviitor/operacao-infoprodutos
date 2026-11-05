@@ -55,7 +55,7 @@ export const Captions: React.FC<{words: Word[]; keywords: string[]; hide: [numbe
   const clean = (s: string) => s.replace(/[.,?!]/g, '').toUpperCase();
   return (
     <AbsoluteFill style={{top: '61%', height: 'auto', alignItems: 'center'}}>
-      <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '6px 30px', width: 960, transform: `scale(${0.85 + 0.15 * enter})`}}>
+      <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '6px 40px', width: 960, transform: `scale(${0.85 + 0.15 * enter})`}}>
         {c.map((w, i) => {
           const txt = clean(w.w);
           const active = t >= w.s && t < w.e + 0.05;
@@ -68,7 +68,7 @@ export const Captions: React.FC<{words: Word[]; keywords: string[]; hide: [numbe
               </span>
             );
           return (
-            <span key={i} style={{...base, color: active ? theme.yellow : theme.white, WebkitTextStroke: `12px ${theme.navyDark}`, paintOrder: 'stroke fill', textShadow: '0 8px 18px rgba(0,0,0,.6)', transform: `scale(${active ? 1.08 : 1})`, display: 'inline-block'}}>
+            <span key={i} style={{...base, color: active ? theme.yellow : theme.white, WebkitTextStroke: `12px ${theme.navyDark}`, paintOrder: 'stroke fill', textShadow: '0 8px 18px rgba(0,0,0,.6)', transform: `scale(${active ? 1.04 : 1})`, display: 'inline-block'}}>
               {txt}
             </span>
           );

@@ -1,7 +1,11 @@
 import {Composition} from 'remotion';
-import {C01} from './C01';
+import {Criativo} from './Criativo';
+import * as V from './videos';
+const list = {C01: V.C01, C02: V.C02, C03: V.C03, C04: V.C04, C05: V.C05};
 export const Root: React.FC = () => (
   <>
-    <Composition id="C01-teste" component={C01} durationInFrames={Math.round(23.4 * 30)} fps={30} width={1080} height={1920} defaultProps={{music: 'audio/729.mp3', musicVol: 0.12}} />
+    {Object.entries(list).map(([id, cfg]) => (
+      <Composition key={id} id={id} component={Criativo as any} durationInFrames={Math.round(cfg.dur * 30)} fps={30} width={1080} height={1920} defaultProps={{cfg}} />
+    ))}
   </>
 );
