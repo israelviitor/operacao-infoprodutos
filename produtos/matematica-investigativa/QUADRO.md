@@ -67,6 +67,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 4. **Estrutura:** produzir o lote 1 (30 missões) no intervalo, com a entrega testada **antes** do horário de início. Se não der tempo, adiar o início.
 
 ## Histórico (mais recente em cima)
+- [2026-11-05] Estrutura: textos dos 3 bumps (chamada, descrição curta, descrição da Cakto e escopo de produção) em `estrutura/cakto/BUMPS.md` — Copy confere.
 - [2026-11-04] Copy de Criativos: lote 2 refeito com pesquisa de dores reais, alunos-redatores, teste do lead e comitê (`criativos/2026-11-04-lote-2.md`); regras novas do dono em `regras/copy-criativos.md`.
 - [2026-11-04] Copy de Criativos: lote 1 com 5 vídeos e 5 imagens, revisado pelo comitê (`criativos/2026-11-04-lote-1.md`); PROMESSA e página alinhadas à palavra-código.
 - [2026-11-05] Análise: último checkup; checkout e pixel ligados e funcionando; 4 correções antes de anunciar.
