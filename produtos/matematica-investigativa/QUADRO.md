@@ -67,6 +67,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 4. **Estrutura:** produzir o lote 1 (30 missões) no intervalo, com a entrega testada **antes** do horário de início. Se não der tempo, adiar o início.
 
 ## Histórico (mais recente em cima)
+- [2026-11-05] Estrutura: lista única de entregáveis (front, 5 bônus do Premium, 3 bumps) com status, em `estrutura/entregavel/ENTREGAVEIS.md`.
 - [2026-11-05] Edição: Descript abandonado; teste de estilo do C01 feito por código (Remotion), aguardando aprovação (`edicao/videos/C01-teste-estilo.mp4`).
 - [2026-11-05] Edição: C01 editado e publicado no Descript (`edicoes.md`); C02–C04 aguardam créditos de IA do Descript; falta o áudio do C05.
 - [2026-11-05] Edição: o dono reescreveu e gravou os 5 vídeos (1 gancho cada, 9:16, com música); o texto gravado substitui os vídeos 1–5 do lote 2 (`edicao/2026-11-05-roteiros-gravados.md`).

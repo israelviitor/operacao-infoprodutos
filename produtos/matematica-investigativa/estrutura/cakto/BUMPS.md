@@ -37,4 +37,4 @@ Não usar o padrão "SIM, EU ACEITO ESSA OFERTA ESPECIAL!": "oferta especial" su
 ## Cuidados
 - Sem "Saeb" no nome nem na descrição (dossiê §7). O código do descritor do Saeb só aparece dentro do material do 5º ano.
 - Sem "garanta a nota" ou "bata a meta": é revisão e prática, não promessa de resultado.
-- "Tabuada em Missão" não pode repetir os "Desafios Relâmpago" do Premium. A tabuada é focada nas tabuadas do 2 ao 10; os Desafios Relâmpago são 30 desafios variados de 10 minutos.
+- "Tabuada em Missão" não pode repetir os "Desafios Relâmpago" do Premium. A tabuada é focada nas tabuadas do 2 ao 10; os Desafios Relâmpago (bônus 04 do Premium) são 30 problemas variados de 3 a 5 minutos, 10 por série.
