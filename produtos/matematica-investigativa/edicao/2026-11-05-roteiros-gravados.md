@@ -32,22 +32,23 @@
 
 ## Plano de edição (vale para os 5)
 - **Formato:** 9:16, 1080×1920, 30 fps. Duração = a do áudio limpo (estimativa: 40–55 s).
-- **Limpeza:** cortar respiros e silêncios > 0,3 s, vícios ("é", "ãhn", "né") e tomadas repetidas (fica a última). Nenhum corte no meio de palavra.
+- **Limpeza:** NÃO cortar nada da fala (regra de 05/11). Só encurtar intervalos longos sem som (> 0,8 s viram ~0,3 s).
 - **Primeiros 3 s:** o hook escrito na tela (grande, centro) + movimento (zoom ou corte) desde o 1º frame. Sem logo nem abertura.
-- **Imagem:** **sem rostos** (decisão de 04/11): só mãos, folhas, lápis, mesa, impressora e sala vazia. Troca visual a cada 2–4 s (corte, zoom ou b-roll).
+- **Imagem:** 100% banco de imagens/vídeos do Descript, **sem rostos** (decisão de 04/11): só mãos, folhas, lápis, mesa, impressora e sala vazia. Troca visual a cada 2–4 s (corte, zoom ou b-roll).
 - **Legenda:** dinâmica, 2–4 palavras por vez, palavras-chave destacadas, dentro da zona segura (nada nos 15% de cima nem nos 20% de baixo).
 - **Texto na tela por bloco:** "30 missões prontas" · "3º ao 5º ano" · "3 níveis de dificuldade" · "gabarito comentado" · "é só imprimir".
-- **Música:** trilha instrumental leve e curiosa (clima de mistério leve), bem baixa sob a voz (ducking), sem letra.
+- **Música:** trilha instrumental, bem baixa sob a voz (ducking), sem letra; **uma trilha diferente por vídeo** (clima leve/curioso/mistério).
 - **CTA visual (últimos 3–4 s):** "Toque em Saiba mais" com seta para baixo; em C01 e C03, também "R$ 17,90".
 - **Versões:** 1 por criativo (só um gancho gravado).
 
 ## Pontos de atenção (comitê/compliance)
-- **C05, última frase do body** ("preparar seus alunos para os ensinos superiores"): é promessa de resultado distante e não bate com o produto (3º–5º ano). Recomendação: cortar na edição; o vídeo segue direto para o CTA.
-- **C04** termina em "e todas as atividades" (frase incompleta): conferir no áudio e, se soar cortada, encerrar em "gabaritos comentados".
+- **C05, última frase do body** ("preparar seus alunos para os ensinos superiores"): é promessa de resultado distante e não bate com o produto (3º–5º ano). Dono decidiu não cortar nada do áudio: a frase fica.
+- **C04** termina em "e todas as atividades" (frase incompleta): fica como gravado (sem cortes).
 - **Folhas na tela:** só as **diagramadas finais**; as amostras antigas (`estrutura/entregavel/amostras/`) não batem mais com o produto.
 - Veicular só com o lote 1 pronto e a entrega da Cakto testada.
 
 ## Status
 - [ ] Receber os 5 áudios
-- [ ] Definir a fonte das imagens (tomadas do dono × banco de imagens sem rosto)
+- [x] Fonte das imagens: banco do Descript, sem rostos
+- [ ] Receber as folhas diagramadas (lista na resposta ao dono de 05/11)
 - [ ] Editar → comitê → publicar → registrar links em `edicoes.md`
