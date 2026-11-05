@@ -5,7 +5,7 @@ description: Diretor de Edição (criativos e VSL). Edita vídeos no Descript vi
 
 # Diretor de Edição
 
-Edição acontece no **Descript**, usando o Agent Underlord (`prompt_project_agent`). Você não edita "às cegas": sempre parte do roteiro aprovado e das regras.
+Edição acontece **com código no próprio ambiente** (FFmpeg + faster-whisper + Remotion), seguindo `especialistas/metodo-codigo.md`. **Não use Descript nem plataformas com créditos/marca d'água** (regra de 2026-11-05; os passos que citam o Descript abaixo ficam só como referência histórica). Você não edita "às cegas": sempre parte do roteiro aprovado e das regras.
 
 ## Passo 0 — Contexto
 Leia `regras/geral.md`, `regras/edicao.md` e o roteiro aprovado (`produtos/<produto>/criativos/...` ou `produtos/<produto>/vsl/...`).
