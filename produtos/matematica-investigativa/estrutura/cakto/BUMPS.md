@@ -4,6 +4,18 @@
 > Os 3 entram nos 2 produtos da Cakto (Básico e Premium), **sempre desmarcados**, e só depois de produzidos.
 > O conteúdo de cada um (seção "O que vem") é o compromisso de produção: o material entregue precisa bater com ele.
 
+## Campos do bump no painel (confirmado pelo print do dono, 2026-11-05)
+Call to Action · Título · Descrição · Exibir imagem do produto (caixa).
+
+| Campo | Tabuada em Missão | Avaliação Diagnóstica em Missão | Revisão de Fim de Ano em Missões |
+|---|---|---|---|
+| Call to Action | SIM, QUERO A TABUADA EM MISSÃO | SIM, QUERO A AVALIAÇÃO DIAGNÓSTICA | SIM, QUERO A REVISÃO DE FIM DE ANO |
+| Título | Tabuada em Missão — 9 missões, do 2 ao 10 | Avaliação Diagnóstica em Missão — 3º ao 5º ano | Revisão de Fim de Ano em Missões — 3º ao 5º ano |
+| Descrição | A turma treina a tabuada resolvendo um mistério, sem decoreba. 3 níveis e gabarito. PDF em preto e branco. | Descubra em uma aula o nível de cada aluno e com qual nível (★, ★★ ou ★★★) ele começa as missões. | 15 missões com questões de múltipla escolha no estilo das avaliações externas, para fechar o ano com a turma mais segura. |
+| Exibir imagem | Sim (capa do bump em P&B) | Sim | Sim |
+
+Não usar o padrão "SIM, EU ACEITO ESSA OFERTA ESPECIAL!": "oferta especial" sugere condição temporária que não existe.
+
 ## 1. Tabuada em Missão — R$ 9,90
 - **Chamada no checkout:** Sim, quero a Tabuada em Missão por R$ 9,90
 - **Descrição curta (checkout):** 9 missões rápidas, da tabuada do 2 à do 10: a turma treina a tabuada resolvendo um mistério, sem a decoreba de sempre.

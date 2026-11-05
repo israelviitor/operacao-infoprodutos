@@ -60,7 +60,7 @@ Caminho: **Produtos > Editar Produto > Configurações Avançadas > Order Bump >
 
 - No Pix, o pedido inteiro (principal + bumps) é pago num único código.
 - No reembolso, a Cakto devolve o pedido inteiro. Não dá para devolver só um item.
-- A imagem e a descrição do bump vêm do produto cadastrado. Confirmar se aceitam texto próprio. **[CONFERIR NO PAINEL]**
+- Campos do bump no painel: Call to Action, Título, Descrição e "Exibir imagem do produto" (confirmado em 2026-11-05). Textos em `estrutura/cakto/BUMPS.md`.
 
 ## 4. Upsell e downsell (fase 2)
 - **Upsell:** "Língua Portuguesa em Missão — 3º ao 5º", R$ 27. Só quando estiver produzido.
