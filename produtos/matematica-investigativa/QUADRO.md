@@ -37,7 +37,7 @@ Copy de Oferta + Estrutura (em paralelo). Decisões de nome, preço e quantidade
 | Estrutura — página montada | 🔵 montada e revisada pelo comitê; falta o dono preencher checkout, pixel, responsável/e-mail e a Copy fechar 3 pedidos → publicar | `estrutura/pagina/` (`index.html`, `PUBLICAR.md`) | 2026-10-28 |
 | Estrutura — Cakto | 🔵 roteiro pronto (comitê: sobe), dono executa no painel | `estrutura/cakto-roteiro.md`, `estrutura/cakto/` (imagens) | 2026-10-28 |
 | Copy de Criativos | 🔵 lote 2 (5 vídeos + 5 imagens, Hook/Body/CTA) revisado pelo comitê, aguardando o dono; o lote 1 foi substituído · a produção depende das missões diagramadas finais | `criativos/2026-11-04-lote-2.md` | 2026-11-04 |
-| Edição | ⬜ | — | — |
+| Edição | 🟡 5 roteiros gravados pelo dono (substituem os vídeos 1–5 do lote 2) e plano prontos; aguardando os áudios | `edicao/2026-11-05-roteiros-gravados.md` | 2026-11-05 |
 | Tráfego | ⬜ pode agendar anúncios; início da veiculação só com o lote 1 pronto e a entrega testada | `trafego/` | — |
 | Análise | ✅ página nova, todos os critérios (pré-lançamento) | `analises/2026-11-03-analise.md` | 2026-11-03 |
 
@@ -67,6 +67,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 4. **Estrutura:** produzir o lote 1 (30 missões) no intervalo, com a entrega testada **antes** do horário de início. Se não der tempo, adiar o início.
 
 ## Histórico (mais recente em cima)
+- [2026-11-05] Edição: o dono reescreveu e gravou os 5 vídeos (1 gancho cada, 9:16, com música); o texto gravado substitui os vídeos 1–5 do lote 2 (`edicao/2026-11-05-roteiros-gravados.md`).
 - [2026-11-05] Estrutura: textos dos 3 bumps (chamada, descrição curta, descrição da Cakto e escopo de produção) em `estrutura/cakto/BUMPS.md` — Copy confere.
 - [2026-11-04] Copy de Criativos: lote 2 refeito com pesquisa de dores reais, alunos-redatores, teste do lead e comitê (`criativos/2026-11-04-lote-2.md`); regras novas do dono em `regras/copy-criativos.md`.
 - [2026-11-04] Copy de Criativos: lote 1 com 5 vídeos e 5 imagens, revisado pelo comitê (`criativos/2026-11-04-lote-1.md`); PROMESSA e página alinhadas à palavra-código.
