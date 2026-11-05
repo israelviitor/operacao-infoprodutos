@@ -37,13 +37,14 @@ Copy de Oferta + Estrutura (em paralelo). Decisões de nome, preço e quantidade
 | Estrutura — página montada | 🔵 montada e revisada pelo comitê; falta o dono preencher checkout, pixel, responsável/e-mail e a Copy fechar 3 pedidos → publicar | `estrutura/pagina/` (`index.html`, `PUBLICAR.md`) | 2026-10-28 |
 | Estrutura — Cakto | 🔵 roteiro pronto (comitê: sobe), dono executa no painel | `estrutura/cakto-roteiro.md`, `estrutura/cakto/` (imagens) | 2026-10-28 |
 | Copy de Criativos | 🔵 lote 2 (5 vídeos + 5 imagens, Hook/Body/CTA) revisado pelo comitê, aguardando o dono; o lote 1 foi substituído · a produção depende das missões diagramadas finais | `criativos/2026-11-04-lote-2.md` | 2026-11-04 |
-| Edição | 🔵 teste de estilo do C01 (edição por código) aguardando o dono · C02–C04 depois da aprovação · C05 sem áudio | `edicoes.md`, `edicao/videos/` | 2026-11-05 |
+| Edição | 🔵 5 criativos editados (código, sem marca d'água) e entregues em página de download; trocar folhas/mockup quando houver as versões finais | `edicoes.md`, `edicao/videos/` | 2026-11-05 |
 | Tráfego | ⬜ pode agendar anúncios; início da veiculação só com o lote 1 pronto e a entrega testada | `trafego/` | — |
 | Análise | ✅ página nova, todos os critérios (pré-lançamento) | `analises/2026-11-03-analise.md` | 2026-11-03 |
 
 Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ pronto · ⛔ travado
 
 ## Pedidos entre áreas (abertos)
+- [ ] [2026-11-05] **De** Edição **para** Estrutura: as folhas (Horta, R$ 50, Cápsula, gabarito) e o mockup do Básico que estão nos 5 vídeos não batem com o conteúdo final do lote 1 (ex.: gabarito da Cápsula com palavra-código TEMPO; o real é ARTE). Enviar PNG das folhas diagramadas finais + mockup só do Básico para a Edição trocar e renderizar de novo.
 - [ ] [2026-11-04] **De** Copy **para** Estrutura: (1) na página, bloco 3, trocar "Só a resposta certa abre a próxima etapa." por "Cada resposta vira uma letra da palavra-código. Se uma conta estiver errada, a palavra não fecha." (fiel ao conteúdo; já mudou em `copy/pagina-vendas.md`); (2) para os criativos, enviar as folhas **diagramadas finais** da Horta (etapa 1, os 3 níveis, tabela de letras, gabarito) e um mockup **só do Básico**.
 - [ ] [2026-11-05] **De** Análise **para** Estrutura: último checkup (`analises/2026-11-05-analise.md`): identificação do vendedor (rodapé, garantia, FAQ, termos e privacidade), avisos Meta/MEC no rodapé, taxa de R$ 0,99 (absorver ou mostrar), aviso P&B nas vitrines, nome/banner do checkout Premium, bumps nos 2 produtos da Cakto, compra de teste nos 2 planos.
 - [ ] [2026-11-04] **De** Análise **para** Copy de Oferta: reescrever a seção de oferta com 2 planos (cards Básico e Premium, Premium em destaque como "Mais completo", sem "mais vendido"); a seção de bônus e o "3 bônus inclusos" passam a dizer "no Premium"; textos de 1 frase dos 3 bumps. Ver a decisão de 04/11.
@@ -67,6 +68,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 4. **Estrutura:** produzir o lote 1 (30 missões) no intervalo, com a entrega testada **antes** do horário de início. Se não der tempo, adiar o início.
 
 ## Histórico (mais recente em cima)
+- [2026-11-05] Edição: 5 criativos (C01–C05) editados por código, comitê aprovou os textos de tela, entregues em https://claude.ai/artifact/AvNsPj7qBerTjBhiyjcCMw.
 - [2026-11-05] Estrutura: lista única de entregáveis (front, 5 bônus do Premium, 3 bumps) com status, em `estrutura/entregavel/ENTREGAVEIS.md`.
 - [2026-11-05] Edição: Descript abandonado; teste de estilo do C01 feito por código (Remotion), aguardando aprovação (`edicao/videos/C01-teste-estilo.mp4`).
 - [2026-11-05] Edição: C01 editado e publicado no Descript (`edicoes.md`); C02–C04 aguardam créditos de IA do Descript; falta o áudio do C05.
