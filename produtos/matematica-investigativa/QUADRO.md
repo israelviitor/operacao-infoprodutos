@@ -37,7 +37,7 @@ Copy de Oferta + Estrutura (em paralelo). Decisões de nome, preço e quantidade
 | Estrutura — página montada | 🔵 montada e revisada pelo comitê; falta o dono preencher checkout, pixel, responsável/e-mail e a Copy fechar 3 pedidos → publicar | `estrutura/pagina/` (`index.html`, `PUBLICAR.md`) | 2026-10-28 |
 | Estrutura — Cakto | 🔵 roteiro pronto (comitê: sobe), dono executa no painel | `estrutura/cakto-roteiro.md`, `estrutura/cakto/` (imagens) | 2026-10-28 |
 | Copy de Criativos | 🔵 lote 2 (5 vídeos + 5 imagens, Hook/Body/CTA) revisado pelo comitê, aguardando o dono; o lote 1 foi substituído · a produção depende das missões diagramadas finais | `criativos/2026-11-04-lote-2.md` | 2026-11-04 |
-| Edição | 🔵 5 criativos editados (código, sem marca d'água) e entregues em página de download; trocar folhas/mockup quando houver as versões finais | `edicoes.md`, `edicao/videos/` | 2026-11-05 |
+| Edição | ✅ 5 criativos aprovados pelo dono (05/11); trocar folhas/mockup e renderizar de novo quando a Estrutura entregar as versões finais | `edicoes.md`, `edicao/videos/` | 2026-11-05 |
 | Tráfego | ⬜ pode agendar anúncios; início da veiculação só com o lote 1 pronto e a entrega testada | `trafego/` | — |
 | Análise | ✅ página nova, todos os critérios (pré-lançamento) | `analises/2026-11-03-analise.md` | 2026-11-03 |
 
@@ -68,6 +68,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 4. **Estrutura:** produzir o lote 1 (30 missões) no intervalo, com a entrega testada **antes** do horário de início. Se não der tempo, adiar o início.
 
 ## Histórico (mais recente em cima)
+- [2026-11-05] Edição: dono aprovou os 5 criativos com a música abaixada (C01 fica como está). Tráfego pode usar os vídeos da página de download.
 - [2026-11-05] Edição: 5 criativos (C01–C05) editados por código, comitê aprovou os textos de tela, entregues em https://claude.ai/artifact/AvNsPj7qBerTjBhiyjcCMw.
 - [2026-11-05] Estrutura: lista única de entregáveis (front, 5 bônus do Premium, 3 bumps) com status, em `estrutura/entregavel/ENTREGAVEIS.md`.
 - [2026-11-05] Edição: Descript abandonado; teste de estilo do C01 feito por código (Remotion), aguardando aprovação (`edicao/videos/C01-teste-estilo.mp4`).
