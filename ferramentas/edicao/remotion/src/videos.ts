@@ -43,7 +43,7 @@ export const C01: Config = {
 
 // C02 — audio c2 — "Você explica a conta, a turma entende..."
 export const C02: Config = {
-  audio: 'audio/c2.mp3', words: c2 as any, music: 'audio/822.mp3', musicVol: 0.19, dur: 50.4,
+  audio: 'audio/c2.mp3', words: c2 as any, music: 'audio/822.mp3', musicVol: 0.035, dur: 50.4,
   keys: ['CALCULAR', 'INTERPRETAR', 'OPERAÇÃO', 'HISTÓRIA', 'DESVENDAR', 'MISSÃO', 'IMPRIMIR'],
   scenes: [
     S(0, 2.4, T(4616)), S(2.4, 4.0, T(34126), {zoomIn: false}), S(4.0, 7.66, T(14782)), S(7.66, 9.28, T(34126), {startFrom: 300}),
@@ -74,7 +74,7 @@ export const C02: Config = {
 
 // C03 — audio c5 — "Você também já passou a noite procurando atividades..."
 export const C03: Config = {
-  audio: 'audio/c5.mp3', words: c5 as any, music: 'audio/786.mp3', musicVol: 0.17, dur: 52.9,
+  audio: 'audio/c5.mp3', words: c5 as any, music: 'audio/786.mp3', musicVol: 0.033, dur: 52.9,
   keys: ['BIBLIOTECA', 'MISSÃO', 'HISTÓRIA', 'INTERPRETAR', 'DESAFIOS', 'IMPRIME', 'IMPRIMIR'],
   scenes: [
     S(0, 3.44, T(17450)), S(3.44, 6.46, T(1793), {zoomIn: false}), S(6.46, 8.78, T(1781)), S(8.78, 11.14, T(14669)),
@@ -104,7 +104,7 @@ export const C03: Config = {
 
 // C04 — audio c3 — "E se, para resolver um mistério..."
 export const C04: Config = {
-  audio: 'audio/c3.mp3', words: c3 as any, music: 'audio/671.mp3', musicVol: 0.28, dur: 49.6,
+  audio: 'audio/c3.mp3', words: c3 as any, music: 'audio/671.mp3', musicVol: 0.07, dur: 49.6,
   keys: ['MISTÉRIO', 'INVESTIGAÇÃO', 'INTERPRETAR', 'OPERAÇÕES', 'PRATICANDO', 'MISSÃO'],
   scenes: [
     S(0, 3.46, T(21612)), S(3.46, 6.58, T(4616), {zoomIn: false}), S(6.58, 7.68, T(47241)), S(7.68, 10.42, HORTA, {focusY: 22}),
@@ -133,7 +133,7 @@ export const C04: Config = {
 
 // C05 — audio c4 — "É de mais ou de vezes?"
 export const C05: Config = {
-  audio: 'audio/c4.mp3', words: c4 as any, music: 'audio/830.mp3', musicVol: 0.14, dur: 43.9,
+  audio: 'audio/c4.mp3', words: c4 as any, music: 'audio/830.mp3', musicVol: 0.041, dur: 43.9,
   keys: ['CONTINHAS', 'INTERPRETAR', 'MISTÉRIO', 'HISTÓRIA', 'DECIDE', 'MISSÃO'],
   scenes: [
     S(0, 2.42, T(20235)), S(2.42, 4.38, T(14782), {zoomIn: false}), S(4.38, 5.92, T(3819)), S(5.92, 7.7, T(45564), {zoomIn: false}),
