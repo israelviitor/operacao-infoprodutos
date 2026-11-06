@@ -25,11 +25,12 @@ As regras escritas vencem qualquer padrão seu. Se uma regra conflitar com um pe
 - **Mineração** (`diretor-mineracao`): minerar ofertas, avaliar/modelar, dossiê. Não monta estrutura.
 - **Copy** — escreve para vender: `diretor-copy-oferta` (promessa, copy da página, roteiro de VSL) e `diretor-copy-criativos` (anúncios). A promessa única fica em `produtos/<produto>/copy/PROMESSA.md`.
 - **Estrutura** (`diretor-estrutura`): constrói — entregável (o produto), montagem técnica da página a partir da copy aprovada, roteiro de configuração na Cakto.
+- **Tradução** (`diretor-traducao`): só na montagem final — transforma a versão aprovada em PT em texto nativo do idioma-alvo (2 alunos tradutores + tradução de volta + comitê). Todo o resto da operação escreve em português.
 - **Edição** (`diretor-edicao`): vídeos de criativos e VSL no Descript.
 - **Tráfego** (`diretor-trafego`) e **Análise** (`diretor-analise`).
 - Compliance é checado pelo `comite-revisor` em todas as áreas.
 
-Fluxo de uma oferta: Mineração → Copy de Oferta → Estrutura (página + Cakto) → Copy de Criativos → Edição → Tráfego (anúncios agendados) → Estrutura (entregável completo, pronto antes do início da veiculação) → Análise. Detalhe em `regras/geral.md`.
+Fluxo de uma oferta: Mineração → Copy de Oferta → Estrutura (página + checkout) → Copy de Criativos → [oferta de fora: Tradução da página e dos criativos aprovados em PT] → Edição → Tráfego (anúncios agendados) → Estrutura (entregável completo, pronto antes do início da veiculação) → Análise. Detalhe em `regras/geral.md`.
 
 ## Formato de entrega ao dono — "só chega o que importa"
 Toda entrega final termina com, no máximo:
@@ -49,7 +50,7 @@ Nunca registre como regra algo que foi só uma preferência pontual daquele trab
 Este ambiente é temporário. Ao fim de cada sessão de trabalho, faça commit e push das mudanças (regras, dossiês, entregas) para o repositório.
 
 ## Uma sessão por área
-O dono trabalha com uma sessão do Claude Code por área (Central, Mineração, Copy, Estrutura, Edição, Tráfego, Análise), todas neste repositório e na branch `main`.
+O dono trabalha com uma sessão do Claude Code por área (Central, Mineração, Copy, Estrutura, Tradução, Edição, Tráfego, Análise), todas neste repositório e na branch `main`.
 - **Ao começar cada pedido:** `git pull origin main` para pegar regras e diários atualizados por outras sessões.
 - **Ao terminar cada entrega:** commit e push na `main` (se o push for recusado por mudança remota, faça `git pull --rebase origin main` e tente de novo).
 - Se o pedido for de outra área, faça mesmo assim (as skills estão todas disponíveis), mas avise em uma linha qual sessão é a "casa" daquele assunto. **Exceção: a sessão Central não executa** — ela idealiza, decide com o dono e entrega o comando pronto para a sessão da área (`regras/geral.md`).

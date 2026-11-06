@@ -6,6 +6,7 @@
 | Pesquisar um nicho / achar produto / montar dossiê | `/diretor-mineracao <produto ou nicho>` |
 | Comparar ofertas e escolher o que modelar | `/diretor-mineracao avaliar e modelar as ofertas 8, 11 e 12 de 26/10` |
 | Promessa, copy da página de vendas, roteiro de VSL | `/diretor-copy-oferta <produto>` (sessão Copy) |
+| Traduzir para o idioma-alvo (só a versão aprovada em PT) | `/diretor-traducao <produto>, <peça>, <idioma-país>` (sessão Tradução) |
 | Criar roteiros de criativos | `/diretor-copy-criativos <produto>, <quantidade/formato>` |
 | Criar o produto (PDF), montar a página, configurar a Cakto | `/diretor-estrutura <produto>` (sessão Estrutura) |
 | Editar um vídeo no Descript | `/diretor-edicao <produto>, <vídeo>, <roteiro>` |
@@ -36,7 +37,7 @@ Você também pode só falar normalmente ("faz 5 criativos pro produto X") — o
 - Uma regra ficou errada? Peça: "apague/mude a regra X".
 
 ## Sessões (uma por área)
-Central · Mineração · Copy (oferta + criativos) · Estrutura (produto, página, Cakto) · Edição · Tráfego · Análise.
+Central · Mineração · Copy (oferta + criativos) · Estrutura (produto, página, checkout) · Tradução · Edição · Tráfego · Análise.
 
 ## Áreas ainda a montar (mesmo padrão)
 Compliance dedicado.
