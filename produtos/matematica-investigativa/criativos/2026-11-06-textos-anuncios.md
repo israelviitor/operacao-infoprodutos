@@ -137,7 +137,7 @@ O que imprime bem quase sempre é lista de continhas: já diz qual conta fazer, 
 
 No Matemática em Missão, cada missão foi feita em preto e branco e sai inteira na impressora comum. O problema vem dentro de um mistério, e cada resposta vira uma letra da palavra-código.
 
-São 30 missões do 3º ao 5º ano, em 3 níveis, preto e branco, com gabarito comentado e roteiro de 2 min para você.
+São 30 missões do 3º ao 5º ano, em 3 níveis, com gabarito comentado e roteiro de 2 min para você.
 
 A partir de R$ 17,90.
 
