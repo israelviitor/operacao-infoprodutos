@@ -21,7 +21,7 @@ Estrutura (amostras) + Copy (promessa e página, com pesquisa enxuta própria). 
 |---|---|---|---|
 | Mineração / dossiê | ➖ dispensada pelo dono (base: dossiê do Matemática em Missão) | — | 2026-11-06 |
 | Copy de Oferta | ⬜ | `copy/` | — |
-| Estrutura — amostras / entregável | ⬜ | `estrutura/entregavel/` | — |
+| Estrutura — amostras / entregável | 🔵 3 amostras aguardando aprovação do formato | `estrutura/entregavel/amostras/` | 2026-11-06 |
 | Estrutura — página | ⬜ | `estrutura/pagina/` | — |
 | Estrutura — checkout (gateway USD) | ⬜ gateway: Kiwify recomendada, aguardando respostas do suporte | `produtos/_estrutura/2026-11-06-gateways-usd.md` | 2026-11-06 |
 | Tradução | ⬜ só depois das peças aprovadas em PT | `traducao/en-US/` | — |
@@ -33,11 +33,12 @@ Estrutura (amostras) + Copy (promessa e página, com pesquisa enxuta própria). 
 Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ pronto · ⛔ travado
 
 ## Pedidos entre áreas (abertos)
-- [ ] [2026-11-06] **De** Central **para** Estrutura: 3 missões-amostra para pais (8–9, 9–10 e 10–11 anos), em PT, sem moeda real, para o dono aprovar o formato.
+- [x] [2026-11-06] **De** Central **para** Estrutura: 3 missões-amostra para pais (8–9, 9–10 e 10–11 anos), em PT, sem moeda real, para o dono aprovar o formato.
 - [ ] [2026-11-06] **De** Central **para** Copy de Oferta: pesquisa enxuta (falas de pais + 3–5 concorrentes) e promessa + página de vendas em PT.
 
 ## Próximo passo
 Estrutura (amostras) e Copy (pesquisa + promessa + página, em PT) em paralelo → dono aprova → Tradução (en-US).
 
 ## Histórico (mais recente em cima)
+- [2026-11-06] Estrutura: 3 missões-amostra para pais (biscoitos 8–9, tesouro 9–10, robô 10–11) em `estrutura/entregavel/amostras/`, 4 págs cada (adulto, missão ×2, gabarito), contas verificadas pelo gerador. Nota para a Tradução: palavras-código mudam em inglês (VOVO→NANA, LAGO→LAKE, CABO→CORD), decimais com ponto.
 - [2026-11-06] Central: quadro criado com as decisões do dono (página única em USD para o mundo de língua inglesa; entregável sem moeda real).
