@@ -14,6 +14,8 @@ Estrutura (amostras) + Copy (promessa e página, com pesquisa enxuta própria). 
 - [2026-11-06] **Página única em inglês americano, preço em dólar, rodando para os países de língua inglesa** (EUA, Reino Unido, Austrália, Canadá…). Sem versões ou trocas de texto por país no lançamento. A página fala em **idade ("ages 8–11")**, não só em série. Só localizar a página se o custo por compra por país (quebra no Gerenciador) mostrar Reino Unido/Austrália muito atrás.
 - [2026-11-06] **Entregável único para todos os países: sem valores em moeda real** (nada de $, £, A$). Os problemas de dinheiro usam uma moeda fictícia do jogo (ex.: moedas de ouro, pontos) para manter a habilidade sem amarrar a um país. Mesmo critério para medidas: preferir unidades que valem em todos (minutos, horas, contagem, métrico — que também está no currículo americano), evitando polegadas/libras-peso.
 - [2026-11-06] **Pular a Mineração neste produto.** Base: dossiê do Matemática em Missão + decisões deste quadro. A Copy coleta, com os próprios alunos, falas reais de pais e 3–5 páginas de concorrentes, e registra em `copy/pesquisa/`.
+- [2026-11-06] **Mecanismo central: o método de Singapura** (país nº 1 em matemática no TIMSS e no PISA — citar com fonte): Concreto → Desenho → Abstrato + **bar model** ("desenhe o problema antes de calcular") + domínio antes de avançar. Substitui o "Método da Pista Escondida"/"Problema com Enredo"; o enredo de mistério continua como a forma divertida de treinar o método. Copy agressiva (regra geral). **Não usar "Singapore Math" como nome do produto** (marca registrada nos EUA — a Copy confirma); usar "o método de Singapura".
+- [2026-11-06] **O produto passa a conter o método de verdade:** (1) etapa "desenhe o problema" (bar model) em cada missão; (2) **Guia do Método de Singapura para Pais** como peça central (como aplicar os 3 passos em casa + o que dizer quando a criança travar); (3) cartões de bar model para imprimir. Pilha de valor da página: Guia + 30 missões + cartões + roteiros para pais + kit de missão.
 - [2026-11-06] Tradução: só na montagem final, pelo `/diretor-traducao`, a partir da versão aprovada em PT.
 
 ## Status por área
@@ -33,6 +35,8 @@ Estrutura (amostras) + Copy (promessa e página, com pesquisa enxuta própria). 
 Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ pronto · ⛔ travado
 
 ## Pedidos entre áreas (abertos)
+- [ ] [2026-11-06] **De** Central **para** Estrutura: refazer as 3 amostras com a etapa de bar model e produzir o Guia do Método de Singapura para Pais (rascunho) + 1 cartão de bar model, em PT, para o dono aprovar.
+- [ ] [2026-11-06] **De** Central **para** Copy de Oferta: reescrever PROMESSA e página com o método de Singapura como mecanismo central (estrutura sugerida pela Central: gancho do ranking → dor do problema escrito → inimigo "decorar e repetir" → revelação do bar model → "você não precisa saber matemática" → missões como treino → demonstração → pilha de valor → preço/garantia/FAQ). Confirmar a marca "Singapore Math" e os dados do TIMSS/PISA com fonte.
 - [ ] [2026-11-06] **De** Copy de Oferta **para** Estrutura: depois que o dono aprovar, montar a página com `copy/pagina-vendas.md` **a partir da versão traduzida** (Tradução). Imagens: as páginas reais das 3 amostras. No gateway em dólar, confirmar o preço final com impostos (IVA no Reino Unido, GST na Austrália), PayPal e o consentimento do direito de 14 dias (Reino Unido).
 - [ ] [2026-11-06] **De** Copy de Oferta **para** Tradução: traduzir a PROMESSA e a página para en-US só depois da aprovação do dono. Notas: preço como "US$12"/"USD 12"; criança em linguagem neutra ("your child"); nunca "summer"; o aviso da Meta no rodapé é texto fixo; o nome "Método da Pista Escondida" precisa de versão forte em inglês.
 - [x] [2026-11-06] **De** Central **para** Estrutura: 3 missões-amostra para pais (8–9, 9–10 e 10–11 anos), em PT, sem moeda real, para o dono aprovar o formato.
@@ -42,6 +46,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 Estrutura (amostras) e Copy (pesquisa + promessa + página, em PT) em paralelo → dono aprova → Tradução (en-US).
 
 ## Histórico (mais recente em cima)
+- [2026-11-06] Dono: aprovou o método de Singapura como mecanismo central e o Guia + bar model dentro do produto; Copy e Estrutura refazem.
 - [2026-11-06] Copy de Oferta: pesquisa enxuta (falas de pais + 10 concorrentes), PROMESSA (big idea "Seu filho não é ruim em matemática. Ninguém nunca o deixou escolher a conta."; mecanismo "Método da Pista Escondida") e página de 17 blocos em PT, revisadas pelo comitê e alinhadas às amostras da Estrutura.
 - [2026-11-06] Estrutura: 3 missões-amostra para pais (biscoitos 8–9, tesouro 9–10, robô 10–11) em `estrutura/entregavel/amostras/`, 4 págs cada (adulto, missão ×2, gabarito), contas verificadas pelo gerador. Nota para a Tradução: palavras-código mudam em inglês (VOVO→NANA, LAGO→LAKE, CABO→CORD), decimais com ponto.
 - [2026-11-06] Central: quadro criado com as decisões do dono (página única em USD para o mundo de língua inglesa; entregável sem moeda real).
