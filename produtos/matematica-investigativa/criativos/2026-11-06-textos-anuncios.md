@@ -76,7 +76,7 @@ Você responde, a conta sai certa. No problema seguinte, a pergunta volta.
 
 Não falta esforço seu nem da turma. Falta prática de decidir, porque a lista de continhas sempre decidiu por eles.
 
-No Matemática em Missão, ninguém diz a conta: cada resposta vira uma letra da palavra-código: se uma conta erra, a palavra não fecha.
+No Matemática em Missão, ninguém diz a conta. Cada resposta vira uma letra da palavra-código: se uma conta erra, a palavra não fecha.
 
 São 30 missões do 3º ao 5º ano, em 3 níveis, preto e branco, com gabarito comentado e roteiro de 2 min para você.
 
