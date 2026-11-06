@@ -1,12 +1,12 @@
-// Abre a página de venda, procura preços (R$) e links de checkout; se achar checkout, abre e lê o preço lá também.
+// Abre a página de venda, procura preços (R$, $, £, €, zł, kr, CHF) e links de checkout; se achar checkout, abre e lê o preço lá também.
 // Uso: node checar-preco.js <url> [<url> ...]   -> JSON por linha: {url, final, precos_pagina, checkout, precos_checkout, titulo}
 const { chromium } = require('playwright');
 
 const { CHROME } = require('./chrome');
-const CHECKOUT = /(cakto|kiwify|hotmart|eduzz|monetizze|perfectpay|lastlink|ticto|greenn|braip|kirvano|pepper|yampi|pay\.|checkout|lowify|ggcheckout)/i;
+const CHECKOUT = /(cakto|kiwify|hotmart|eduzz|monetizze|perfectpay|lastlink|ticto|greenn|braip|kirvano|pepper|yampi|pay\.|checkout|lowify|ggcheckout|clickbank|hop\.|buygoods|digistore|stripe|shopify|samcart|thrivecart|stan\.store|gumroad|payhip|systeme|clkbank|copecart|ablefy|elopage)/i;
 
 function precos(texto) {
-  const achados = texto.match(/R\$\s?\d{1,4}(?:[.,]\d{2})?/g) || [];
+  const achados = texto.match(/(?:R\$|US\$|\$|£|€|CHF|zł|kr|NOK|SEK)\s?\d{1,4}(?:[.,]\d{2})?|\d{1,4}(?:[.,]\d{2})?\s?(?:€|zł|kr|NOK|SEK|CHF)/g) || [];
   return [...new Set(achados.map((p) => p.replace(/\s/g, '')))].slice(0, 12);
 }
 

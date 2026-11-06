@@ -8,7 +8,7 @@ const { chromium } = require('playwright');
 const { CHROME } = require('./chrome');
 const AVANCAR = /^(avançar|continuar|próximo|proximo|continue|seguir|entendi|ok|vamos lá|começar|iniciar.*|obter.*|ver.*|quero.*|receber.*|acessar.*|obtenha.*|garantir.*|comprar.*|descobrir.*|fazer.*teste.*)$/i;
 const COMPRA = /(quero|obter|garantir|comprar|acessar|adquirir).*/i;
-const precos = (t) => [...new Set((t.match(/R\$\s?\d{1,4}(?:[.,]\d{2})?/g) || []).map((x) => x.replace(/\s/g, '')))].slice(0, 15);
+const precos = (t) => [...new Set((t.match(/(?:R\$|US\$|\$|£|€|CHF|zł|kr|NOK|SEK)\s?\d{1,4}(?:[.,]\d{2})?|\d{1,4}(?:[.,]\d{2})?\s?(?:€|zł|kr|NOK|SEK|CHF)/g) || []).map((x) => x.replace(/\s/g, '')))].slice(0, 15);
 
 (async () => {
   const url = process.argv[2];
