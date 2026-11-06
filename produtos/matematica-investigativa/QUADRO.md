@@ -68,6 +68,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 4. **Estrutura:** produzir o lote 1 (30 missões) no intervalo, com a entrega testada **antes** do horário de início. Se não der tempo, adiar o início.
 
 ## Histórico (mais recente em cima)
+- [2026-11-06] Copy de Criativos: texto principal e título das imagens C06–C10, revisados pelo comitê (mesmo arquivo `criativos/2026-11-06-textos-anuncios.md`).
 - [2026-11-06] Copy de Criativos: texto principal e título dos anúncios dos vídeos C01–C05, revisados pelo comitê (`criativos/2026-11-06-textos-anuncios.md`). Tráfego pode usar.
 - [2026-11-05] Edição: dono aprovou os 5 criativos com a música abaixada (C01 fica como está). Tráfego pode usar os vídeos da página de download.
 - [2026-11-05] Edição: 5 criativos (C01–C05) editados por código, comitê aprovou os textos de tela, entregues em https://claude.ai/artifact/AvNsPj7qBerTjBhiyjcCMw.

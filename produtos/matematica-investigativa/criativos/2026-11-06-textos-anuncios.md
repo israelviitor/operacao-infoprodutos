@@ -1,4 +1,4 @@
-# Textos dos anúncios — Matemática em Missão (vídeos C01–C05)
+# Textos dos anúncios — Matemática em Missão (vídeos C01–C05 e imagens C06–C10)
 
 ### C01 — Atividade que prende a atenção
 **Texto principal:**
@@ -88,6 +88,103 @@ Toque em Saiba mais e veja a folha de uma missão.
 **Títulos para teste:** Veja uma missão por dentro · Missões de matemática do 3º ao 5º ano
 
 ---
+
+# Imagens (criativos 6–10 do lote 2)
+
+### C06 — Dor: a headline da página
+**Texto principal:**
+Na lousa, todo mundo acerta. No problema escrito, vem o chute na conta.
+
+Você explica de novo, a turma acerta, e no problema seguinte o chute volta.
+
+Não falta explicação. Falta treino de escolher, porque a lista de continhas sempre escolheu por eles.
+
+No Matemática em Missão, ninguém diz a conta. Cada resposta vira uma letra da palavra-código: se uma conta estiver errada, a palavra não fecha.
+
+São 30 missões do 3º ao 5º ano, em 3 níveis, preto e branco, com gabarito comentado e roteiro de 2 min para você.
+
+A partir de R$ 17,90.
+
+Toque em Saiba mais e veja uma missão por dentro.
+
+**Título:** Problemas em que o aluno escolhe a conta
+**Títulos para teste:** Mistérios de matemática do 3º ao 5º ano · A palavra só fecha com a conta certa
+
+### C07 — Demonstração: a folha não diz a conta
+**Texto principal:**
+Na Missão da Horta, "ao todo" parece pedir conta de mais. Era de vezes.
+
+É aí que a sala chuta a conta, e você corrige o mesmo erro folha por folha.
+
+A lista de continhas sempre avisou a operação. O problema escrito não avisa.
+
+No Matemática em Missão, cada resposta vira uma letra, e as respostas erradas da tabela são os erros mais comuns: se o grupo cai num deles, a palavra não fecha e ele volta ao problema.
+
+São 30 missões do 3º ao 5º ano, em 3 níveis, preto e branco, com gabarito comentado e roteiro de 2 min para você.
+
+A partir de R$ 17,90.
+
+Toque em Saiba mais e veja uma missão por dentro.
+
+**Título:** A conta certa abre a palavra-código
+**Títulos para teste:** Missões de matemática para imprimir · Problemas que não dizem a conta
+
+### C08 — Impressão: preto e branco
+**Texto principal:**
+Sabe aquela atividade bonita da internet que sai cinza e borrada na impressora da escola?
+
+O que imprime bem quase sempre é lista de continhas: já diz qual conta fazer, e a turma só repete.
+
+No Matemática em Missão, cada missão foi feita em preto e branco e sai inteira na impressora comum. O problema vem dentro de um mistério, e cada resposta vira uma letra da palavra-código.
+
+São 30 missões do 3º ao 5º ano, em 3 níveis, preto e branco, com gabarito comentado e roteiro de 2 min para você.
+
+A partir de R$ 17,90.
+
+Toque em Saiba mais e veja uma missão por dentro.
+
+**Título:** Feita para a impressora da escola
+**Títulos para teste:** 30 missões que saem bem em P&B · Missões de matemática para imprimir
+
+### C09 — 5º ano: descritor sem simulado (só para público do 5º ano)
+**Texto principal:**
+No simulado, a turma marca X. No problema escrito, volta o chute na conta.
+
+A cobrança pelo Saeb chega, e a aula que você planejou vira mais simulado.
+
+Não é falha sua: a lista de continhas sempre deu a conta pronta, e ninguém treinou escolher.
+
+No Matemática em Missão, cada resposta vira uma letra da palavra-código. Cada missão do 5º ano indica os descritores do Saeb que pratica.
+
+São 30 missões, 10 delas do 5º ano, cada uma em 3 níveis, preto e branco, com gabarito comentado e roteiro de 2 min para você.
+
+A partir de R$ 17,90.
+
+Toque em Saiba mais e veja uma missão do 5º ano por dentro.
+
+**Título:** Revisão do 5º ano sem cara de simulado
+**Títulos para teste:** Descritores do 5º ano em missões · Missões do 5º ano com descritor do Saeb
+
+### C10 — Avaliação: a cobrança
+**Texto principal:**
+O número da avaliação sai, e a conversa na coordenação começa pela sua sala.
+
+Você reforça a tabuada, e no problema escrito a turma ainda chuta a conta.
+
+O material que chegou é lista de continhas: treina a conta pronta. O problema pede escolher.
+
+No Matemática em Missão, ninguém diz a conta. Cada resposta vira uma letra da palavra-código: se uma conta estiver errada, a palavra não fecha.
+
+São 30 missões do 3º ao 5º ano, em 3 níveis, preto e branco, com gabarito comentado e roteiro de 2 min para você.
+
+A partir de R$ 17,90.
+
+Toque em Saiba mais e veja como a palavra-código funciona.
+
+**Título:** Troque a lista de continhas por missões
+**Títulos para teste:** Problemas em que ninguém dá a conta · A palavra só fecha com a conta certa
+
+---
 ---
 
 ## Bastidores
@@ -101,3 +198,5 @@ Toque em Saiba mais e veja a folha de uma missão.
   - O texto não repete a 1ª frase do vídeo: ele complementa o vídeo com o mecanismo (palavra-código), que nem todo vídeo mostra.
 - CTA "veja uma missão por dentro": só vale se a página mostrar a missão final. Enquanto as imagens forem das amostras antigas, trocar por "conheça as 30 missões".
 - Riscos que estão no áudio, não no texto (o dono decidiu não cortar): C01 e C04 dizem "investigar/investigação", C05 diz "preparar seus alunos para os ensinos superiores" e C04 termina com a frase incompleta "e todas as atividades".
+- Imagens C06–C10 (2026-11-06): escritas por um aluno-redator (2 opções por imagem). O diretor escolheu as versões; teste do lead: C06 4,5 · C07 4,5 · C08 3,5 · C09 4 · C10 4. No C10 ficou a versão com menos exposição da professora (sem "o gráfico da minha turma na tela"), e o CTA "a folha mostra o erro" virou "veja como a palavra-código funciona". O "ao todo" do C07 confere com o enunciado da Horta (LOTE1-CONTEUDO).
+- Comitê (imagens, 2026-11-06): C08 com a abertura refeita (a dor vem antes da impressora); C06, C07, C09 e C10 ajustados. Pendências da arte: confirmar as "6 folhas por grupo" (C08) e o descritor impresso na folha do 5º ano (C09) na versão final.
