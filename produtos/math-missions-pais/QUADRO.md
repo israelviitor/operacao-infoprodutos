@@ -20,7 +20,7 @@ Estrutura (amostras) + Copy (promessa e página, com pesquisa enxuta própria). 
 | Área | Status | Entrega (arquivo) | Atualizado |
 |---|---|---|---|
 | Mineração / dossiê | ➖ dispensada pelo dono (base: dossiê do Matemática em Missão) | — | 2026-11-06 |
-| Copy de Oferta | ⬜ | `copy/` | — |
+| Copy de Oferta | 🔵 promessa + página em PT (revisadas pelo comitê), aguardando o dono: headline, preço, quantidade, garantia e bônus | `copy/PROMESSA.md`, `copy/pagina-vendas.md`, `copy/pesquisa/` | 2026-11-06 |
 | Estrutura — amostras / entregável | 🔵 3 amostras aguardando aprovação do formato | `estrutura/entregavel/amostras/` | 2026-11-06 |
 | Estrutura — página | ⬜ | `estrutura/pagina/` | — |
 | Estrutura — checkout (gateway USD) | ⬜ gateway: Kiwify recomendada, aguardando respostas do suporte | `produtos/_estrutura/2026-11-06-gateways-usd.md` | 2026-11-06 |
@@ -33,12 +33,15 @@ Estrutura (amostras) + Copy (promessa e página, com pesquisa enxuta própria). 
 Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ pronto · ⛔ travado
 
 ## Pedidos entre áreas (abertos)
+- [ ] [2026-11-06] **De** Copy de Oferta **para** Estrutura: depois que o dono aprovar, montar a página com `copy/pagina-vendas.md` **a partir da versão traduzida** (Tradução). Imagens: as páginas reais das 3 amostras. No gateway em dólar, confirmar o preço final com impostos (IVA no Reino Unido, GST na Austrália), PayPal e o consentimento do direito de 14 dias (Reino Unido).
+- [ ] [2026-11-06] **De** Copy de Oferta **para** Tradução: traduzir a PROMESSA e a página para en-US só depois da aprovação do dono. Notas: preço como "US$12"/"USD 12"; criança em linguagem neutra ("your child"); nunca "summer"; o aviso da Meta no rodapé é texto fixo; o nome "Método da Pista Escondida" precisa de versão forte em inglês.
 - [x] [2026-11-06] **De** Central **para** Estrutura: 3 missões-amostra para pais (8–9, 9–10 e 10–11 anos), em PT, sem moeda real, para o dono aprovar o formato.
-- [ ] [2026-11-06] **De** Central **para** Copy de Oferta: pesquisa enxuta (falas de pais + 3–5 concorrentes) e promessa + página de vendas em PT.
+- [x] [2026-11-06] **De** Central **para** Copy de Oferta: pesquisa enxuta (falas de pais + 3–5 concorrentes) e promessa + página de vendas em PT.
 
 ## Próximo passo
 Estrutura (amostras) e Copy (pesquisa + promessa + página, em PT) em paralelo → dono aprova → Tradução (en-US).
 
 ## Histórico (mais recente em cima)
+- [2026-11-06] Copy de Oferta: pesquisa enxuta (falas de pais + 10 concorrentes), PROMESSA (big idea "Seu filho não é ruim em matemática. Ninguém nunca o deixou escolher a conta."; mecanismo "Método da Pista Escondida") e página de 17 blocos em PT, revisadas pelo comitê e alinhadas às amostras da Estrutura.
 - [2026-11-06] Estrutura: 3 missões-amostra para pais (biscoitos 8–9, tesouro 9–10, robô 10–11) em `estrutura/entregavel/amostras/`, 4 págs cada (adulto, missão ×2, gabarito), contas verificadas pelo gerador. Nota para a Tradução: palavras-código mudam em inglês (VOVO→NANA, LAGO→LAKE, CABO→CORD), decimais com ponto.
 - [2026-11-06] Central: quadro criado com as decisões do dono (página única em USD para o mundo de língua inglesa; entregável sem moeda real).
