@@ -3,7 +3,7 @@
 const { chromium } = require('playwright');
 
 const { CHROME } = require('./chrome');
-const CHECKOUT = /(cakto|kiwify|hotmart|eduzz|monetizze|perfectpay|lastlink|ticto|greenn|braip|kirvano|pepper|yampi|pay\.|checkout|lowify|ggcheckout|clickbank|hop\.|buygoods|digistore|stripe|shopify|samcart|thrivecart|stan\.store|gumroad|payhip|systeme|clkbank|copecart|ablefy|elopage)/i;
+const CHECKOUT = /(cakto|kiwify|hotmart|eduzz|monetizze|perfectpay|lastlink|ticto|greenn|braip|kirvano|pepper|yampi|pay\.|checkout|lowify|ggcheckout|clickbank|hop\.|buygoods|digistore|stripe|myshopify\.com\/cart|\/checkouts\/|samcart|thrivecart|stan\.store|gumroad|payhip|systeme|clkbank|copecart|ablefy|elopage)/i;
 
 function precos(texto) {
   const achados = texto.match(/(?:R\$|US\$|\$|£|€|CHF|zł|kr|NOK|SEK)\s?\d{1,4}(?:[.,]\d{2})?|\d{1,4}(?:[.,]\d{2})?\s?(?:€|zł|kr|NOK|SEK|CHF)/g) || [];
