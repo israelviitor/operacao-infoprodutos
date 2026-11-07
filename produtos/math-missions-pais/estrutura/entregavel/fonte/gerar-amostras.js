@@ -3,6 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 const missoes = require('./missoes-amostra');
+const { barra } = require('./barras');
 
 const ALFA = 'ABCDEFGHIJLMNPRSTUXZ';
 const erros = [];
@@ -58,65 +59,95 @@ table.cod { border-collapse: collapse; margin: 6px 0 10px; }
 table.cod td { border: 1.5px solid #111; padding: 6px 12px; text-align: center; font-size: 12.5pt; }
 table.cod td.l { font-weight: 800; font-size: 15pt; }
 .caixas { display: flex; gap: 10px; margin: 8px 0; }
-.caixas div { width: 18mm; height: 18mm; border: 2px solid #111; border-radius: 8px; }
+.fim { display: flex; gap: 14px; align-items: flex-start; }
+.oque { flex: 1; }
+.caixas div span { font-size: 8pt; margin: 2px 4px; display: block; }
+.caixas div { width: 15mm; height: 15mm; border: 2px solid #111; border-radius: 8px; }
 .linha { border-bottom: 1.5px solid #111; height: 8mm; margin: 4px 0; }
 .adulto li, .gab li { margin-bottom: 6px; }
 .box { border: 1.5px solid #111; border-radius: 10px; padding: 8px 14px; margin: 8px 0; }
 .gab .item { border-bottom: 1px solid #999; padding: 8px 0; page-break-inside: avoid; }
 .gab .r { font-weight: 800; font-size: 13.5pt; }
 .small { font-size: 10.5pt; color: #333; }
+.desenho { border: 2px solid #111; border-radius: 8px; padding: 6px 10px; margin: 6px 0; }
+.desenho .ins { font-size: 11.5pt; margin-bottom: 6px; }
+.desenho .ins b.lbl { background: #111; color: #fff; border-radius: 4px; padding: 0 6px; margin-right: 4px; }
+.livre { height: 34mm; border: 1px solid #999; border-radius: 6px; background-image: linear-gradient(#ddd 1px, transparent 1px), linear-gradient(90deg, #ddd 1px, transparent 1px); background-size: 5mm 5mm; }
+.tag.d { background: #111; color: #fff; }
+.gab { height: auto !important; overflow: visible !important; }
+.gab .rodape { position: static; margin-top: 10px; }
+.gab .modelo { margin: 4px 0 2px; }
+.passos { display: flex; gap: 8px; margin: 6px 0; }
+.passos div { flex: 1; border: 1.5px solid #111; border-radius: 8px; padding: 6px 8px; font-size: 11pt; }
+.adulto { font-size: 11.3pt; line-height: 1.38; }
+.adulto h1 { font-size: 21pt; }
+.adulto h2 { font-size: 13.5pt; margin: 9px 0 4px; }
+.adulto ol { margin: 4px 0; padding-left: 22px; }
+.adulto li { margin-bottom: 3px !important; }
+.gab { font-size: 11pt; line-height: 1.33; }
+.gab h1 { font-size: 20pt; }
+.gab .item { padding: 5px 0 !important; }
 .rodape { position: absolute; bottom: 0; left: 0; right: 0; font-size: 8.5pt; color: #555; border-top: 1px solid #aaa; padding-top: 3px; }
 `;
 
 const topo = (m, dir) => `<div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="idade">${m.idade}</span><span class="dir">${dir}</span></div>`;
 
 function paginaAdulto(m) {
+  const nd = m.etapas.findIndex((e) => e.desenho) + 1;
   return `<section class="pagina adulto">${topo(m, 'Para o adulto · leia antes (2 minutos)')}
   <h1>${m.titulo}</h1>
   <div class="box"><b>Tempo:</b> ${m.tempo} · <b>Pratica:</b> ${m.praticas} · <b>Material:</b> lápis, borracha e esta folha impressa (opcional: relógio de ponteiros, feijões ou tampinhas).</div>
+  <h2>O método nesta missão: desenhe antes de calcular</h2>
+  <p>A etapa ${nd} é a etapa <b>“desenhe o problema”</b>. Nela, a criança passa pelos 3 passos do método de Singapura (detalhes no Guia para Pais):</p>
+  <div class="passos"><div><b>1. Concreto</b><br>${m.concreto}</div><div><b>2. Desenho</b><br>A criança desenha a barra e põe <b>?</b> no que quer descobrir. Só depois faz a conta.</div><div><b>3. Conta</b><br>Com o desenho pronto, ela escreve a conta e confere a resposta olhando o desenho.</div></div>
   <h2>Como conduzir</h2>
   <ol>
     <li><b>Leia a abertura em voz alta, com clima de mistério.</b> A 1ª etapa é curtinha, de propósito: é para a criança entrar no jogo rápido.</li>
-    <li><b>Não diga qual conta fazer.</b> O enunciado não diz se é de mais, de menos ou de vezes. Descobrir isso é o exercício. Pergunte: “O que o problema está pedindo?”</li>
-    <li><b>Se a criança travar, use a pergunta de apoio</b> do gabarito (última página). Ela ajuda sem entregar a resposta.</li>
-    <li><b>Cada resposta vira uma letra.</b> No fim, a criança procura as respostas na tabela de código. Se a palavra não fizer sentido, alguma conta está errada: volte e procure juntos. A própria folha corrige.</li>
-    <li><b>Feche perguntando:</b> “Como você descobriu qual conta fazer na etapa ${m.etapas.length - 1}?” Explicar o raciocínio fixa mais do que acertar.</li>
+    <li><b>Não diga qual conta fazer.</b> O enunciado não diz se é de mais, de menos ou de vezes. Descobrir isso é o exercício, e o desenho é o que mostra a resposta.</li>
+    <li><b>Se a criança travar, peça o desenho antes de qualquer ajuda:</b> “Me mostra isso numa barra.” Depois use a pergunta de apoio do gabarito (última página). Ela ajuda sem entregar a resposta.</li>
+    <li><b>Cada resposta vira uma letra.</b> Se a palavra-código não fizer sentido, alguma conta está errada: voltem ao desenho e procurem juntos.</li>
+    <li><b>Feche pedindo:</b> “Me explica o seu desenho da etapa ${nd}.”</li>
   </ol>
+  <div class="box"><b>Antes de avançar:</b> ${m.dominio}</div>
   <h2>Com irmãos</h2>
-  <div class="box">Imprima as páginas da missão uma vez e resolvam juntos, trocando de papel a cada etapa: <b>leitor</b> (lê em voz alta), <b>calculista</b> (faz a conta) e <b>conferente</b> (refaz de outro jeito e diz se faz sentido). Com 2 crianças, o conferente também lê. Se a diferença de idade for grande, cada um faz a missão da sua idade e os dois comparam as palavras-código no fim.</div>
-  <h2>O que não fazer</h2>
-  <ul><li>Não corrija na hora: deixe a palavra-código mostrar o erro.</li><li>Não transforme em prova: é um jogo. Se cansou, pare e continue outro dia.</li></ul>
+  <div class="box">Imprima as páginas da missão uma vez e resolvam juntos, trocando de papel a cada etapa: <b>leitor</b> (lê em voz alta), <b>desenhista</b> (faz a barra) e <b>calculista</b> (faz a conta e confere no desenho). Com 2 crianças, o leitor também desenha. Se a diferença de idade for grande, cada um faz a missão da sua idade e os dois comparam as palavras-código no fim.</div>
   <div class="rodape">Math Missions · ${m.titulo} · missão de amostra</div></section>`;
 }
 
 function etapaHTML(e, i) {
-  return `<div class="etapa"><span class="num">${i + 1}</span><span class="tit">${e.titulo}</span>${e.curta ? '<span class="tag">rapidinha</span>' : ''}
-  <p>${e.enunciado}</p>
-  <div class="espaco${e.curta ? ' curto' : ''}"><span>Espaço para pensar e fazer a conta</span></div>
+  const d = e.desenho;
+  const tag = e.curta ? '<span class="tag">rapidinha</span>' : d ? '<span class="tag d">desenhe o problema</span>' : '';
+  const desenho = d ? `<div class="desenho"><div class="ins"><b class="lbl">1º DESENHE</b>${d.instrucao}</div>${d.molde ? barra(d.molde, { largura: 560 }) : '<div class="livre"></div>'}</div>` : '';
+  return `<div class="etapa"><span class="num">${i + 1}</span><span class="tit">${e.titulo}</span>${tag}
+  <p>${e.enunciado}</p>${desenho}
+  <div class="espaco${e.curta || d ? ' curto' : ''}"><span>${d ? '2º CALCULE: a conta que o desenho mostrou' : 'Espaço para pensar e fazer a conta'}</span></div>
   <div class="resp">Minha resposta: <i></i></div></div>`;
 }
 
+const DICA = '<div class="dica"><b>DICA:</b> nenhuma pista diz qual conta fazer. Leia com calma, descubra o que está sendo pedido e escolha a conta. Na dúvida, desenhe.</div>';
+
 function paginasMissao(m) {
   const [a, b, c, d] = m.etapas;
+  const d1 = !!(a.desenho || b.desenho);
   return `<section class="pagina missao">${topo(m, 'Missão')}
   <div class="cab"><div>${ICONES[m.icone]}</div><div><h1>${m.titulo}</h1></div></div>
   <div class="abertura">${m.abertura}</div>
   ${etapaHTML(a, 0)}${etapaHTML(b, 1)}
-  <div class="dica"><b>DICA:</b> nenhuma pista diz qual conta fazer. Leia com calma, descubra o que está sendo pedido e escolha a conta.</div>
+  ${d1 ? '' : DICA}
   <div class="rodape">Math Missions · ${m.titulo}</div></section>
   <section class="pagina missao">${topo(m, 'Missão (continuação)')}
   ${etapaHTML(c, 2)}${etapaHTML(d, 3)}
-  <h2>Abra o código</h2>
-  <p>Procure cada resposta na tabela e escreva a letra na caixa da etapa.</p>
+  ${d1 ? DICA : ''}
+  <h2>Abra o código <span class="small" style="font-weight:400">· procure cada resposta na tabela e escreva a letra na caixa da etapa</span></h2>
   <table class="cod"><tr>${m.tabela.map((t) => `<td>${t[0]}</td>`).join('')}</tr><tr>${m.tabela.map((t) => `<td class="l">${t[1]}</td>`).join('')}</tr></table>
-  <div class="caixas">${m.etapas.map(() => '<div></div>').join('')}</div>
-  <p><b>O que aconteceu?</b></p><div class="linha"></div><div class="linha"></div>
+  <div class="fim"><div class="caixas">${m.etapas.map((e, i) => `<div><span>${i + 1}</span></div>`).join('')}</div><div class="oque"><b>O que aconteceu?</b><div class="linha"></div><div class="linha"></div></div></div>
   <div class="rodape">Math Missions · ${m.titulo}</div></section>`;
 }
 
 function paginaGabarito(m) {
   const itens = m.etapas.map((e, i) => `<div class="item"><b>Etapa ${i + 1} — ${e.titulo}</b> · <span class="r">${e.r}</span> (letra ${m.palavra[i]})
   <div><b>Como pensar:</b> ${e.pensar} <span class="small">Conta: ${e.conta}.</span></div>
+  ${e.desenho ? `<div><b>O desenho esperado</b> (vale qualquer desenho com as mesmas partes):</div><div class="modelo">${barra(e.desenho.modelo, { largura: 420, alturaBarra: 24, fonte: 12 })}</div><div>${e.desenho.explica}</div>` : ''}
   <div><b>Se travar, pergunte:</b> ${e.apoio}</div>
   <div class="small"><b>Erro mais comum:</b> responder ${e.ev}, quando a criança ${e.erro} Essa resposta leva a outra letra, e a palavra não fecha.</div></div>`).join('');
   return `<section class="pagina gab">${topo(m, 'Gabarito explicado · para o adulto')}

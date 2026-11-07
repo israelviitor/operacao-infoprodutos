@@ -26,29 +26,52 @@ table.cod { border-collapse: collapse; margin: 6px 0 10px; }
 table.cod td { border: 1.5px solid #111; padding: 6px 12px; text-align: center; font-size: 12.5pt; }
 table.cod td.l { font-weight: 800; font-size: 15pt; }
 .caixas { display: flex; gap: 10px; margin: 8px 0; }
-.caixas div { width: 18mm; height: 18mm; border: 2px solid #111; border-radius: 8px; }
+.fim { display: flex; gap: 14px; align-items: flex-start; }
+.oque { flex: 1; }
+.caixas div span { font-size: 8pt; margin: 2px 4px; display: block; }
+.caixas div { width: 15mm; height: 15mm; border: 2px solid #111; border-radius: 8px; }
 .linha { border-bottom: 1.5px solid #111; height: 8mm; margin: 4px 0; }
 .adulto li, .gab li { margin-bottom: 6px; }
 .box { border: 1.5px solid #111; border-radius: 10px; padding: 8px 14px; margin: 8px 0; }
 .gab .item { border-bottom: 1px solid #999; padding: 8px 0; page-break-inside: avoid; }
 .gab .r { font-weight: 800; font-size: 13.5pt; }
 .small { font-size: 10.5pt; color: #333; }
+.desenho { border: 2px solid #111; border-radius: 8px; padding: 6px 10px; margin: 6px 0; }
+.desenho .ins { font-size: 11.5pt; margin-bottom: 6px; }
+.desenho .ins b.lbl { background: #111; color: #fff; border-radius: 4px; padding: 0 6px; margin-right: 4px; }
+.livre { height: 34mm; border: 1px solid #999; border-radius: 6px; background-image: linear-gradient(#ddd 1px, transparent 1px), linear-gradient(90deg, #ddd 1px, transparent 1px); background-size: 5mm 5mm; }
+.tag.d { background: #111; color: #fff; }
+.gab { height: auto !important; overflow: visible !important; }
+.gab .rodape { position: static; margin-top: 10px; }
+.gab .modelo { margin: 4px 0 2px; }
+.passos { display: flex; gap: 8px; margin: 6px 0; }
+.passos div { flex: 1; border: 1.5px solid #111; border-radius: 8px; padding: 6px 8px; font-size: 11pt; }
+.adulto { font-size: 11.3pt; line-height: 1.38; }
+.adulto h1 { font-size: 21pt; }
+.adulto h2 { font-size: 13.5pt; margin: 9px 0 4px; }
+.adulto ol { margin: 4px 0; padding-left: 22px; }
+.adulto li { margin-bottom: 3px !important; }
+.gab { font-size: 11pt; line-height: 1.33; }
+.gab h1 { font-size: 20pt; }
+.gab .item { padding: 5px 0 !important; }
 .rodape { position: absolute; bottom: 0; left: 0; right: 0; font-size: 8.5pt; color: #555; border-top: 1px solid #aaa; padding-top: 3px; }
 </style></head><body><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="idade">8–9 anos</span><span class="dir">Para o adulto · leia antes (2 minutos)</span></div>
   <h1>O Mistério dos Biscoitos Sumidos</h1>
   <div class="box"><b>Tempo:</b> 20 a 25 minutos · <b>Pratica:</b> multiplicação (fileiras iguais), subtração e horas · <b>Material:</b> lápis, borracha e esta folha impressa (opcional: relógio de ponteiros, feijões ou tampinhas).</div>
+  <h2>O método nesta missão: desenhe antes de calcular</h2>
+  <p>A etapa 3 é a etapa <b>“desenhe o problema”</b>. Nela, a criança passa pelos 3 passos do método de Singapura (detalhes no Guia para Pais):</p>
+  <div class="passos"><div><b>1. Concreto</b><br>Separe 20 feijões, tampinhas ou bolinhas de papel: são os biscoitos. Na etapa 3, a criança põe 13 na “lata” e vê o que sobrou antes de desenhar.</div><div><b>2. Desenho</b><br>A criança desenha a barra e põe <b>?</b> no que quer descobrir. Só depois faz a conta.</div><div><b>3. Conta</b><br>Com o desenho pronto, ela escreve a conta e confere a resposta olhando o desenho.</div></div>
   <h2>Como conduzir</h2>
   <ol>
     <li><b>Leia a abertura em voz alta, com clima de mistério.</b> A 1ª etapa é curtinha, de propósito: é para a criança entrar no jogo rápido.</li>
-    <li><b>Não diga qual conta fazer.</b> O enunciado não diz se é de mais, de menos ou de vezes. Descobrir isso é o exercício. Pergunte: “O que o problema está pedindo?”</li>
-    <li><b>Se a criança travar, use a pergunta de apoio</b> do gabarito (última página). Ela ajuda sem entregar a resposta.</li>
-    <li><b>Cada resposta vira uma letra.</b> No fim, a criança procura as respostas na tabela de código. Se a palavra não fizer sentido, alguma conta está errada: volte e procure juntos. A própria folha corrige.</li>
-    <li><b>Feche perguntando:</b> “Como você descobriu qual conta fazer na etapa 3?” Explicar o raciocínio fixa mais do que acertar.</li>
+    <li><b>Não diga qual conta fazer.</b> O enunciado não diz se é de mais, de menos ou de vezes. Descobrir isso é o exercício, e o desenho é o que mostra a resposta.</li>
+    <li><b>Se a criança travar, peça o desenho antes de qualquer ajuda:</b> “Me mostra isso numa barra.” Depois use a pergunta de apoio do gabarito (última página). Ela ajuda sem entregar a resposta.</li>
+    <li><b>Cada resposta vira uma letra.</b> Se a palavra-código não fizer sentido, alguma conta está errada: voltem ao desenho e procurem juntos.</li>
+    <li><b>Feche pedindo:</b> “Me explica o seu desenho da etapa 3.”</li>
   </ol>
+  <div class="box"><b>Antes de avançar:</b> Pode passar para a próxima missão quando a criança explicar o desenho da etapa 3 com as próprias palavras (“essa parte é…”). Se ainda não, refaça só essa etapa outro dia com outros números (ex.: 25 assados, 16 na lata).</div>
   <h2>Com irmãos</h2>
-  <div class="box">Imprima as páginas da missão uma vez e resolvam juntos, trocando de papel a cada etapa: <b>leitor</b> (lê em voz alta), <b>calculista</b> (faz a conta) e <b>conferente</b> (refaz de outro jeito e diz se faz sentido). Com 2 crianças, o conferente também lê. Se a diferença de idade for grande, cada um faz a missão da sua idade e os dois comparam as palavras-código no fim.</div>
-  <h2>O que não fazer</h2>
-  <ul><li>Não corrija na hora: deixe a palavra-código mostrar o erro.</li><li>Não transforme em prova: é um jogo. Se cansou, pare e continue outro dia.</li></ul>
+  <div class="box">Imprima as páginas da missão uma vez e resolvam juntos, trocando de papel a cada etapa: <b>leitor</b> (lê em voz alta), <b>desenhista</b> (faz a barra) e <b>calculista</b> (faz a conta e confere no desenho). Com 2 crianças, o leitor também desenha. Se a diferença de idade for grande, cada um faz a missão da sua idade e os dois comparam as palavras-código no fim.</div>
   <div class="rodape">Math Missions · O Mistério dos Biscoitos Sumidos · missão de amostra</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="idade">8–9 anos</span><span class="dir">Missão</span></div>
   <div class="cab"><div><svg viewBox="0 0 120 120" width="120"><circle cx="60" cy="60" r="44" fill="none" stroke="#000" stroke-width="3"/><circle cx="45" cy="45" r="5"/><circle cx="72" cy="50" r="5"/><circle cx="55" cy="72" r="5"/><circle cx="78" cy="76" r="4"/><circle cx="38" cy="68" r="4"/><path d="M96 34 q10 -8 14 4" fill="none" stroke="#000" stroke-width="3"/></svg></div><div><h1>O Mistério dos Biscoitos Sumidos</h1></div></div>
   <div class="abertura">Sábado à tarde, a família assou uma fornada de biscoitos de chocolate e guardou na lata. Enquanto a segunda fornada assava, alguém abriu a lata escondido! Sua missão: descobrir quem foi — e só acusar alguém quando tiver provas.</div>
@@ -59,34 +82,37 @@ table.cod td.l { font-weight: 800; font-size: 15pt; }
   <p>A primeira fornada foi assada em 4 fileiras, com 5 biscoitos em cada fileira. Quantos biscoitos foram assados?</p>
   <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
   <div class="resp">Minha resposta: <i></i></div></div>
-  <div class="dica"><b>DICA:</b> nenhuma pista diz qual conta fazer. Leia com calma, descubra o que está sendo pedido e escolha a conta.</div>
+  <div class="dica"><b>DICA:</b> nenhuma pista diz qual conta fazer. Leia com calma, descubra o que está sendo pedido e escolha a conta. Na dúvida, desenhe.</div>
   <div class="rodape">Math Missions · O Mistério dos Biscoitos Sumidos</div></section>
   <section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="idade">8–9 anos</span><span class="dir">Missão (continuação)</span></div>
-  <div class="etapa"><span class="num">3</span><span class="tit">A lata mais leve</span>
-  <p>Agora há 13 biscoitos na lata. Quantos biscoitos sumiram?</p>
-  <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="etapa"><span class="num">3</span><span class="tit">A lata mais leve</span><span class="tag d">desenhe o problema</span>
+  <p>Agora há 13 biscoitos na lata. Quantos biscoitos sumiram?</p><div class="desenho"><div class="ins"><b class="lbl">1º DESENHE</b>Antes de fazer a conta, complete o desenho. A barra inteira são os biscoitos da primeira fornada. Escreva em cima quantos eram, na parte grande quantos ainda estão na lata, e ponha <b>?</b> na parte que sumiu.</div><svg class="barra" viewBox="0 0 560 84" width="560" height="84" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H551 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="237.45" y="5" width="77.1" height="20" fill="#fff"/><text x="276" y="19" text-anchor="middle" font-size="15" font-weight="700">_______</text><rect x="0" y="34" width="358.8" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="179.4" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="358.8" y="34" width="193.20000000000002" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="455.40000000000003" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text></svg></div>
+  <div class="espaco curto"><span>2º CALCULE: a conta que o desenho mostrou</span></div>
   <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">A hora do sumiço</span>
   <p>A segunda fornada levou 25 minutos no forno e saiu às 3:35 da tarde. Os biscoitos sumiram da lata na hora em que essa fornada entrou no forno. A que horas foi isso?<br><b>Quem passou pela cozinha:</b> Papai às 2:50 · Vovó às 3:10 · Tio Beto às 3:45</p>
   <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
   <div class="resp">Minha resposta: <i></i></div></div>
-  <h2>Abra o código</h2>
-  <p>Procure cada resposta na tabela e escreva a letra na caixa da etapa.</p>
+  
+  <h2>Abra o código <span class="small" style="font-weight:400">· procure cada resposta na tabela e escreva a letra na caixa da etapa</span></h2>
   <table class="cod"><tr><td>2</td><td>3:10</td><td>4:00</td><td>7</td><td>8</td><td>9</td><td>20</td><td>33</td></tr><tr><td class="l">X</td><td class="l">O</td><td class="l">H</td><td class="l">V</td><td class="l">V</td><td class="l">B</td><td class="l">O</td><td class="l">E</td></tr></table>
-  <div class="caixas"><div></div><div></div><div></div><div></div></div>
-  <p><b>O que aconteceu?</b></p><div class="linha"></div><div class="linha"></div>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>O que aconteceu?</b><div class="linha"></div><div class="linha"></div></div></div>
   <div class="rodape">Math Missions · O Mistério dos Biscoitos Sumidos</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="idade">8–9 anos</span><span class="dir">Gabarito explicado · para o adulto</span></div>
   <h1>Gabarito: O Mistério dos Biscoitos Sumidos</h1>
   <div class="item"><b>Etapa 1 — O cadeado da lata</b> · <span class="r">8</span> (letra V)
   <div><b>Como pensar:</b> Cada gato tem 4 patas. São 2 gatos: 4 + 4. <span class="small">Conta: 2 gatos × 4 patas = 8 (ou 4 + 4).</span></div>
+  
   <div><b>Se travar, pergunte:</b> “Quantas patas tem um gato? E se forem dois gatos?” Se ajudar, desenhem os gatos.</div>
   <div class="small"><b>Erro mais comum:</b> responder 2, quando a criança contou os gatos, e não as patas. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 2 — A assadeira</b> · <span class="r">20</span> (letra O)
   <div><b>Como pensar:</b> São 4 fileiras iguais. Cada fileira tem 5: 5 + 5 + 5 + 5. <span class="small">Conta: 4 fileiras × 5 = 20 (ou 5 + 5 + 5 + 5).</span></div>
+  
   <div><b>Se travar, pergunte:</b> “Desenhe a assadeira: 4 fileiras com 5 bolinhas. Quantas bolinhas você desenhou?”</div>
   <div class="small"><b>Erro mais comum:</b> responder 9, quando a criança somou 4 + 5 em vez de juntar 4 fileiras de 5. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 3 — A lata mais leve</b> · <span class="r">7</span> (letra V)
   <div><b>Como pensar:</b> Eram 20 e agora são 13. A diferença é o que sumiu: 20 − 13. <span class="small">Conta: 20 − 13 = 7.</span></div>
+  <div><b>O desenho esperado</b> (vale qualquer desenho com as mesmas partes):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="155.36" y="5" width="101.28" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">20 biscoitos</text><rect x="0" y="34" width="267.8" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="133.9" y="51" text-anchor="middle" font-size="12" font-weight="500">13 na lata</text><rect x="267.8" y="34" width="144.20000000000002" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="339.90000000000003" y="51" text-anchor="middle" font-size="12" font-weight="500">? sumiram</text></svg></div><div>O desenho mostra que a parte que sumiu é o que falta para 13 chegar a 20. Por isso a conta é de menos (ou “quanto falta”).</div>
   <div><b>Se travar, pergunte:</b> “Se eram 20 e agora são 13, sumiram mais ou menos que 10?” Contar de 13 até 20 nos dedos também resolve.</div>
   <div class="small"><b>Erro mais comum:</b> responder 33, quando a criança somou em vez de tirar. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 4 — A hora do sumiço</b> · <span class="r">3:10</span> (letra O)
   <div><b>Como pensar:</b> A segunda fornada saiu às 3:35. Para saber quando entrou no forno, é preciso voltar 25 minutos. <span class="small">Conta: 3:35 menos 25 minutos = 3:10.</span></div>
+  
   <div><b>Se travar, pergunte:</b> “Se a fornada saiu às 3:35, ela entrou no forno antes ou depois?” Use um relógio de ponteiros e volte 25 minutos.</div>
   <div class="small"><b>Erro mais comum:</b> responder 4:00, quando a criança somou os 25 minutos em vez de voltar no tempo. Essa resposta leva a outra letra, e a palavra não fecha.</div></div>
   <div class="box"><b>Palavra-código: VOVO.</b> Quem estava na cozinha às 3:10 da tarde era a VOVÓ. Ela pegou 7 biscoitos para provar e para levar à vizinha. Mistério resolvido, sem ninguém de castigo!</div>

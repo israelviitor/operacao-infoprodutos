@@ -3,6 +3,7 @@
 // Sem moeda real (moedas de ouro do jogo) e com medidas universais (minutos, contagem, metros).
 // Cada etapa: enunciado, resposta, cálculo (conferido pelo gerador), conta, erro comum + cálculo do erro,
 // como pensar, pergunta de apoio para quando a criança travar.
+const { iguais } = require('./barras');
 const hm = (min) => `${Math.floor(min / 60)}:${String(min % 60).padStart(2, '0')}`;
 
 module.exports = [
@@ -11,6 +12,8 @@ module.exports = [
     tempo: '20 a 25 minutos', praticas: 'multiplicação (fileiras iguais), subtração e horas',
     abertura: 'Sábado à tarde, a família assou uma fornada de biscoitos de chocolate e guardou na lata. Enquanto a segunda fornada assava, alguém abriu a lata escondido! Sua missão: descobrir quem foi — e só acusar alguém quando tiver provas.',
     palavra: 'VOVO',
+    concreto: 'Separe 20 feijões, tampinhas ou bolinhas de papel: são os biscoitos. Na etapa 3, a criança põe 13 na “lata” e vê o que sobrou antes de desenhar.',
+    dominio: 'Pode passar para a próxima missão quando a criança explicar o desenho da etapa 3 com as próprias palavras (“essa parte é…”). Se ainda não, refaça só essa etapa outro dia com outros números (ex.: 25 assados, 16 na lata).',
     solucao: 'Quem estava na cozinha às 3:10 da tarde era a VOVÓ. Ela pegou 7 biscoitos para provar e para levar à vizinha. Mistério resolvido, sem ninguém de castigo!',
     etapas: [
       { titulo: 'O cadeado da lata', curta: true,
@@ -26,6 +29,11 @@ module.exports = [
         pensar: 'São 4 fileiras iguais. Cada fileira tem 5: 5 + 5 + 5 + 5.',
         apoio: '“Desenhe a assadeira: 4 fileiras com 5 bolinhas. Quantas bolinhas você desenhou?”' },
       { titulo: 'A lata mais leve',
+        desenho: { nivel: 'guiado',
+          instrucao: 'Antes de fazer a conta, complete o desenho. A barra inteira são os biscoitos da primeira fornada. Escreva em cima quantos eram, na parte grande quantos ainda estão na lata, e ponha <b>?</b> na parte que sumiu.',
+          molde: [{ total: '', partes: [{ u: 13, t: '' }, { u: 7, t: '' }] }],
+          modelo: [{ total: '20 biscoitos', partes: [{ u: 13, t: '13 na lata' }, { u: 7, t: '? sumiram' }] }],
+          explica: 'O desenho mostra que a parte que sumiu é o que falta para 13 chegar a 20. Por isso a conta é de menos (ou “quanto falta”).' },
         enunciado: 'Agora há 13 biscoitos na lata. Quantos biscoitos sumiram?',
         r: '7', calc: () => String(20 - 13), conta: '20 − 13 = 7',
         ev: '33', ecalc: () => String(20 + 13), erro: 'somou em vez de tirar.',
@@ -44,6 +52,8 @@ module.exports = [
     tempo: '25 a 30 minutos', praticas: 'multiplicação, troco com moedas do jogo, frações e divisão',
     abertura: 'No acampamento, o guia escondeu um baú cheio de moedas de ouro. Ele deixou pistas pela trilha. Só quem resolver as contas chega ao baú antes do pôr do sol.',
     palavra: 'LAGO',
+    concreto: 'Separe 60 tampinhas ou feijões em 6 montinhos de 10: são as moedas de ouro. Na etapa 2, a criança separa o que pagou pela lanterna e pela corda e conta o que sobrou antes de desenhar.',
+    dominio: 'Pode passar para a próxima missão quando a criança explicar o desenho da etapa 2 com as próprias palavras. Se ainda não, refaça só essa etapa outro dia com outros números (ex.: 50 moedas, lanterna de 28, corda de 15).',
     solucao: 'O baú estava atrás da pedra grande, na beira do LAGO, a 300 metros da largada. E as 84 moedas de ouro foram divididas igualmente entre os exploradores!',
     etapas: [
       { titulo: 'As cordas da largada', curta: true,
@@ -53,6 +63,11 @@ module.exports = [
         pensar: 'Cada corda mede 3 metros. São 4 cordas: 3 + 3 + 3 + 3.',
         apoio: '“Quanto mede uma corda? E quatro cordas?” Dá para desenhar as 4 cordas e escrever 3 em cada uma.' },
       { titulo: 'O armazém do acampamento',
+        desenho: { nivel: 'meio',
+          instrucao: 'Antes de fazer a conta, divida a barra em 3 partes: a lanterna, a corda e o que sobra. Escreva o valor de cada parte e ponha <b>?</b> no que você quer descobrir. Em cima, escreva quantas moedas você tinha.',
+          molde: [{ total: '', partes: [{ u: 60, t: ' ' }] }],
+          modelo: [{ total: '60 moedas', partes: [{ u: 35, t: '35 lanterna' }, { u: 17, t: '17 corda' }, { u: 8, t: '?' }] }],
+          explica: 'O desenho mostra as 60 moedas divididas em 3 pedaços. Sabendo 2 pedaços, o terceiro é o que sobra: 60 − 35 − 17 (ou 60 − 52).' },
         enunciado: 'O guia te deu 60 moedas de ouro para a viagem. No armazém, uma lanterna custa 35 moedas de ouro e uma corda custa 17. Depois de comprar as duas coisas, quantas moedas sobram?',
         r: '8', calc: () => String(60 - 35 - 17), conta: '35 + 17 = 52 · 60 − 52 = 8',
         ev: '25', ecalc: () => String(60 - 35), erro: 'esqueceu de pagar a corda.',
@@ -77,6 +92,8 @@ module.exports = [
     tempo: '25 a 35 minutos', praticas: 'frações, números decimais, padrão em tabela e proporção',
     abertura: 'O robô aspirador da casa começou a agir estranho: limpa metade da sala e para no meio do caminho. Antes de chamar o técnico, a família decidiu investigar os registros do robô. A investigação é sua.',
     palavra: 'CABO',
+    concreto: 'Uma tira de papel ajuda: dobrada em 4, mostra os 3/4 da bateria (etapa 1). Para a etapa 4, recorte quadradinhos de papel: cada um é 1 minuto de limpeza.',
+    dominio: 'Pode passar para a próxima missão quando a criança explicar o desenho da etapa 4 com as próprias palavras. Se ainda não, refaça só essa etapa outro dia com outros números (ex.: 15 m² em 3 minutos, sala de 45 m²).',
     solucao: 'O CABO do carregador estava meio solto: a bateria nunca passava de 3/4 e durava só 5 minutos — metade dos 10 minutos de que a sala precisa. Por isso o robô limpava metade e parava. Cabo no lugar, robô consertado!',
     etapas: [
       { titulo: 'A bateria', curta: true,
@@ -98,11 +115,16 @@ module.exports = [
         pensar: 'Descobrir quanto a energia cai por minuto (15 pontos) e continuar a tabela até chegar a zero.',
         apoio: '“Quanto a energia cai de um minuto para o outro? Continue a tabela: minuto 4, minuto 5…”' },
       { titulo: 'A sala inteira',
+        desenho: { nivel: 'livre',
+          instrucao: 'Antes de fazer a conta, desenhe o problema com barras de pedaços iguais (1 pedaço = 1 minuto de limpeza). Ponha <b>?</b> no que você quer descobrir.',
+          molde: null,
+          modelo: [{ nome: '3 min', total: '12 m²', partes: iguais(3, '4') }, { nome: '? min', total: '40 m²', partes: iguais(10, '4') }],
+          explica: 'Cada pedaço é 1 minuto de limpeza (4 m²). Para cobrir 40 m² são precisos 10 pedaços, ou seja, 10 minutos.' },
         enunciado: 'O robô limpa 12 m² em 3 minutos. A sala tem 40 m². Sem parar, em quantos minutos ele limparia a sala toda?',
         r: '10 min', calc: () => 40 / (12 / 3) + ' min', conta: '12 ÷ 3 = 4 m² por minuto · 40 ÷ 4 = 10 minutos',
         ev: '3 min', ecalc: () => '3 min', erro: 'repetiu o tempo do exemplo, sem ver que a sala é maior.',
         pensar: 'Descobrir quanto ele limpa em 1 minuto (12 ÷ 3 = 4 m²) e quantos minutos são precisos para 40 m².',
-        apoio: '“Quanto o robô limpa em 1 minuto? E em quantos minutos ele chega a 40?”' },
+        apoio: '“Desenhe uma barra de 3 pedaços iguais que juntos valem 12 m². Quanto vale 1 pedaço? Agora desenhe pedaços desse tamanho até chegar a 40 m². Quantos pedaços?”' },
     ],
   },
 ];
