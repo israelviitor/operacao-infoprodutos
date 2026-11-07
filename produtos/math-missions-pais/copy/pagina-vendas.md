@@ -13,7 +13,7 @@
 > - pilha de valor → blocos 10 e 11;
 > - preço, garantia e FAQ → blocos 11, 13 e 15.
 >
-> TEXTO EXATO vai para a tradução; NOTA não vai. **[DECIDIR]** = dono; **[CONFIRMAR]** = Estrutura (amostras novas, Guia e cartões).
+> TEXTO EXATO vai para a tradução; NOTA não vai. **[DECIDIR]** = dono; **[CONFIRMAR]** = Estrutura ou checagem.
 > Fontes dos números: `pesquisa/2026-11-06-fatos-singapura.md`. Todos os números vão para o rodapé com a fonte e precisam ser conferidos na fonte primária antes de publicar.
 
 ## 1. Primeira dobra
@@ -39,7 +39,7 @@
 | SEÇÃO | TEXTO EXATO | ELEMENTO VISUAL | BOTÃO | NOTA |
 |---|---|---|---|---|
 | Título | Veja o desenho que muda tudo | — | — | Destino do botão da dobra. |
-| Carrossel | (1) "O problema escrito da missão" · (2) "Passo 2: ele desenha o problema em barras" · (3) "Com o desenho, a conta fica à vista" · (4) "Cada resposta vira uma letra da palavra-código" · (5) "O Guia do Método: os 3 passos em linguagem de casa" · (6) "O Cartão do Desenho para deixar na mesa" · (7) "O gabarito explica cada conta e o erro mais comum" | [IMAGENS 2–8] Páginas reais das amostras novas, em carrossel horizontal | — | [CONFIRMAR] as amostras com bar model, o Guia e o cartão. Dinheiro só em moedas de ouro. |
+| Carrossel | (1) "O problema escrito da missão" · (2) "Passo 2: ele desenha o problema em barras" · (3) "Com o desenho, a conta fica à vista" · (4) "Cada resposta vira uma letra da palavra-código" · (5) "O Guia do Método: os 3 passos em linguagem de casa" · (6) "O Cartão do Desenho para deixar na mesa" · (7) "O gabarito explica cada conta e o erro mais comum" | [IMAGENS 2–8] Páginas reais das amostras novas, em carrossel horizontal | — | Amostras, Guia e Cartão já existem (2026-11-07). Dinheiro só em moedas de ouro. |
 
 ## 4. Mecanismo único: o método de Singapura
 | SEÇÃO | TEXTO EXATO | ELEMENTO VISUAL | BOTÃO | NOTA |
@@ -58,14 +58,14 @@
 ## 6. Amplitude
 | SEÇÃO | TEXTO EXATO | ELEMENTO VISUAL | BOTÃO | NOTA |
 |---|---|---|---|---|
-| Números | 1 Guia do Método · 30 missões · 3 faixas de idade (8–9, 9–10, 10–11) · 4 etapas por missão, cada uma com espaço para desenhar o problema · de 20 a 35 minutos cada | Números grandes | — | [DECIDIR] a quantidade. [CONFIRMAR] a etapa de bar model em todas. |
+| Números | 1 Guia do Método · 30 missões · 3 faixas de idade (8–9, 9–10, 10–11) · 4 etapas por missão, cada uma com espaço para desenhar o problema · de 20 a 35 minutos cada | Números grandes | — | [DECIDIR] a quantidade. A etapa de bar model existe nas 3 amostras; garantir nas 30. |
 | Conteúdos | Soma e subtração · multiplicação e divisão · frações · horas e tempo · medidas · tabelas · dinheiro com moedas de ouro do jogo | Ícones | — | Conteúdos vistos nas amostras. |
 
 ## 7. Demonstração de uso
 | SEÇÃO | TEXTO EXATO | ELEMENTO VISUAL | BOTÃO | NOTA |
 |---|---|---|---|---|
 | Título | Como entra na rotina | — | — | — |
-| Cenas | Você lê o Guia uma vez, em cerca de 15 minutos · Um mistério na tarde de sábado · Uma etapa por dia depois da escola · Nas férias escolares, para não perder o ritmo · Irmãos: um lê, outro desenha, outro calcula | [IMAGENS 9–12] Ilustrações (não fotos realistas), sem rosto | — | [CONFIRMAR] o tempo de leitura do Guia. Nunca "summer". |
+| Cenas | Você lê o Guia uma vez, em cerca de 15 minutos · Um mistério na tarde de sábado · Uma etapa por dia depois da escola · Nas férias escolares, para não perder o ritmo · Irmãos: um lê, outro desenha, outro calcula | [IMAGENS 9–12] Ilustrações (não fotos realistas), sem rosto | — | Nunca "summer". |
 
 ## 8. Para quem é
 | SEÇÃO | TEXTO EXATO | ELEMENTO VISUAL | BOTÃO | NOTA |
@@ -82,7 +82,7 @@
 | SEÇÃO | TEXTO EXATO | ELEMENTO VISUAL | BOTÃO | NOTA |
 |---|---|---|---|---|
 | Título | Tudo o que você recebe | — | — | Guia como peça central (decisão do dono). |
-| Peça central | **Guia do Método de Singapura para Pais:** os 3 passos explicados em linguagem de casa, como desenhar cada tipo de problema em barras e o que dizer quando ele travar. | Capa grande | — | [CONFIRMAR] o rascunho com a Estrutura. |
+| Peça central | **Guia do Método de Singapura para Pais:** os 3 passos explicados em linguagem de casa, como desenhar cada tipo de problema em barras e o que dizer quando ele travar. | Capa grande | — | O rascunho existe (`estrutura/entregavel/amostras/guia-metodo-singapura.pdf`); o dono aprova. |
 | Item 2 | **30 Missões de Mistério** (8 a 11 anos), cada uma com a etapa "desenhe o problema" | Mockup | — | — |
 | Item 3 | **Cartão do Desenho** para imprimir: o roteiro do bar model em 4 palavras, para deixar na mesa na hora da lição | Mockup | — | Existe (Estrutura, 2026-11-07). |
 | Item 4 | **Roteiros para Pais:** a página "leia antes (2 minutos)" de cada missão, a pergunta de apoio e o gabarito com o erro comum | Mockup | — | Já existe nas amostras. |
@@ -126,7 +126,6 @@
 | Em que moeda eu pago? | Em dólar americano. Seu banco converte na hora. |
 | E se não gostarmos? | 30 dias de garantia: escreva para [E-MAIL] e devolvemos 100% do valor. |
 
-> Na FAQ, [CONFIRMAR] o tempo de leitura do Guia e os papéis do modo irmãos (as amostras falam em leitor, calculista e conferente).
 
 ## 16. Fecho emocional
 | SEÇÃO | TEXTO EXATO | ELEMENTO VISUAL | BOTÃO | NOTA |
