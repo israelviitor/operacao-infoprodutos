@@ -1,106 +1,120 @@
 # PROMESSA — Math Missions (versão para pais, 8 a 11 anos)
 
 > **Fonte única da promessa.** A página, a VSL e os criativos partem daqui.
-> Escrita em **português** (regra geral de 2026-11-06). A tradução para inglês americano é feita só na montagem final, pelo `/diretor-traducao`.
-> Mercado: **países de língua inglesa** (EUA, Reino Unido, Austrália, Canadá…), com página única em inglês americano e preço em dólar americano.
-> Base:
-> - dossiê do Matemática em Missão (`produtos/matematica-investigativa/dossie.md`);
-> - decisões em `../QUADRO.md`;
-> - pesquisa em `pesquisa/`;
-> - amostras da Estrutura em `../estrutura/entregavel/amostras/`.
->
-> Tom: **agressivo** (regra geral de 2026-11-06), com curiosidade, mecanismo de nome forte e emoção. Sem afirmar o que o produto não entrega.
-> Criada pelo `/diretor-copy-oferta` em 2026-11-06 e revisada pelo comitê. Os itens **[DECIDIR]** dependem do dono.
+> Escrita em **português**. A tradução para inglês americano é feita só na montagem final, pelo `/diretor-traducao`.
+> **Mercado:** países de língua inglesa (EUA, Reino Unido, Austrália, Canadá…), com página única em inglês americano e preço em dólar americano.
+> **Versão 2 (2026-11-06):** o mecanismo central passa a ser **o método de Singapura**, por decisão do dono. Ele substitui o "Método da Pista Escondida". O mistério continua sendo a forma divertida de treinar o método.
+> **Tom:** agressivo (regra geral de 2026-11-06). Os fatos vêm de `pesquisa/2026-11-06-fatos-singapura.md`.
+> Itens **[DECIDIR]** dependem do dono. Itens **[CONFIRMAR]** dependem da Estrutura (amostras novas) ou de checagem.
 
 ## 1. Big idea
-**"Seu filho não é ruim em matemática. Ninguém nunca o deixou escolher a conta."**
+**"O país nº 1 do mundo em matemática ensina as crianças a desenhar o problema antes de fazer a conta. A lição de casa do seu filho ensina a decorar."**
 
-A folha de continhas sai certinha. É só o problema vir escrito que vem o "é de mais ou de vezes?", o chute, o choro na mesa da cozinha e, pior, o "sou ruim em matemática". Isso não é falta de capacidade, nem birra. É um buraco que a lição de casa nunca treinou: ler a situação e decidir a conta.
+Singapura ficou em 1º lugar em matemática no TIMSS 2023 (4º e 8º ano) e no PISA 2022. Lá, a criança de 8 anos não pergunta "é de mais ou de vezes?": ela desenha o problema em barras e enxerga a conta. Em casa, o seu filho recebe a folha de repetição, faz a conta pronta e, no problema escrito, chuta. Ele não é ruim em matemática. Ninguém nunca mostrou o problema para ele.
 
 ## 2. Promessa principal
-**O Método da Pista Escondida: missões de mistério para imprimir em que seu filho de 8 a 11 anos para de chutar a conta, porque, para desvendar o caso, ele precisa ler o problema, escolher a operação e provar a resposta, com 2 minutos de preparo para você.**
+**O método do país nº 1 do mundo em matemática, adaptado para você aplicar em casa: em 3 passos (manipular, desenhar e calcular), seu filho de 8 a 11 anos aprende a ver o problema escrito antes de fazer a conta, e treina isso em 30 missões de mistério que ele vai querer resolver, mesmo que você não "saiba matemática".**
 
-Versão curta (anúncio e topo da página): *"Ele resolve problemas escritos para desvendar um mistério, e a própria folha mostra quando ele chutou."*
+Versão curta (anúncio e topo da página): *"Por que as crianças de Singapura não chutam a conta, e como ensinar isso ao seu filho em casa em 3 passos."*
 
-## 3. Mecanismo: "Método da Pista Escondida" (nome forte; a versão em inglês sai na tradução)
-- **Em 2 linhas:** em cada etapa, a conta está escondida dentro da história, e ninguém diz qual é. Cada resposta vira uma letra da palavra-código: se ele chutar a operação, a palavra não fecha, e é a folha que o manda voltar, não você.
-- **Por que é diferente:** nos escape rooms do mercado, a matemática é enfeite. Nos workbooks, a conta vem pronta. Aqui, **descobrir a conta é a pista**.
-- **Para o pai:** uma página "leia antes (2 minutos)" diz como conduzir sem explicar o método da escola. Para quando ele travar, há uma pergunta de apoio que ajuda sem entregar a resposta, e o gabarito explica cada conta e o erro mais comum.
-- **Com irmãos:** resolvem juntos, trocando de papel a cada etapa (leitor, calculista, conferente), ou cada um faz a missão da sua idade e comparam as palavras-código.
-- **Mecanismo do problema:** o que chega em casa é feito para repetir (worksheet, drill, app de pontos). A criança aprende a calcular e nunca a decidir. Entre os 8 e os 11 anos, o problema escrito toma conta da lição, e o buraco aparece.
+## 3. Mecanismo: o método de Singapura
+Em português: "o método de Singapura". Na tradução: "the Singapore method". **Nunca "Singapore Math"**, que é marca registrada nos EUA.
+- **Os 3 passos (CPA, de Bruner, base do currículo de Singapura):**
+  1. **Concreto:** a criança mexe na situação com objetos (moedas do jogo, tampinhas, feijões).
+  2. **Desenho:** ela desenha o problema em barras (o bar model). As partes e o todo ficam à vista, e a conta aparece sozinha.
+  3. **Abstrato:** só então ela escreve a conta e resolve.
+- **A regra de ouro: "desenhe antes de calcular".** Quem desenha o problema não precisa adivinhar a operação, porque está vendo qual é.
+- **Domínio antes de avançar:** uma ideia de cada vez, até ficar firme, e só então a próxima.
+- **Onde entram as missões:** são o treino divertido. Cada missão tem uma etapa "desenhe o problema" (bar model), e cada resposta vira uma letra da palavra-código. Se a conta estiver errada, a palavra não fecha e ele mesmo volta ao desenho.
+- **Para o pai:** o Guia do Método explica os 3 passos em linguagem de casa e diz o que falar quando a criança travar. Você não ensina a conta: você pede o desenho.
 
 ## 4. Inimigo
-**A folha de repetição**, ou seja, o worksheet e o drill que entregam a conta pronta, e o app de pontinhos que vira "mais tela" com pouca matemática.
-→ Nunca a criança nem o pai, e nunca a escola ou a professora. A frase-chave é **"Parece birra. É um buraco que ninguém treinou."**
+**"Decorar e repetir":** a folha de repetição, o drill, a tabuada cantada e o app de pontinhos. Esse material treina a criança a fazer a conta que mandaram, nunca a ver o problema. Por isso, no problema escrito, ela chuta.
+→ Nunca a criança nem o pai, e nunca a professora ou a escola: o culpado é o tipo de material. A frase-chave é **"Não é falta de capacidade. É falta de desenho."**
 
-## 5. Provas (o produto é novo, então sem depoimento)
-1. **Prova visual (a principal):** páginas reais da missão, com o enunciado sem a conta, a tabela da palavra-código, a página "leia antes (2 minutos)" e o gabarito com o erro comum.
-2. **Espelho da dor (inspiração, nunca depoimento do produto):** pais relatam a criança que "arithmetic is fine" mas "won't understand what he needs to do" no problema escrito, e a lição que vira "tears at the kitchen table" (`pesquisa/2026-11-06-falas-de-pais.md`; conferir antes de citar).
-3. **Âncora de preço:** reforço particular cobra por hora, e centro de matemática cobra por mês. Isto é pagamento único, menos do que uma hora de reforço. Não citar marcas.
-- *Uso interno, não vai para a página:* os estudos da USP e da EEF (narrativa e grupos em sala de aula, no Brasil e no Reino Unido) não servem para uma criança sozinha em casa.
+## 5. Provas (sem depoimento: o produto é novo)
+1. **Autoridade do método (dados com fonte):**
+   - TIMSS 2023: Singapura em 1º em matemática no 4º ano (615 pontos; centro da escala 500) e no 8º ano (605). Fonte: MOE de Singapura e timss2023.org.
+   - PISA 2022: Singapura em 1º em matemática (575 pontos; média da OCDE 472). Fonte: OCDE.
+   - Para o contraste (usar com cuidado e sempre com fonte): TIMSS 2023, 4º ano: Inglaterra 552, Austrália 525. PISA 2022: EUA 465, Reino Unido 489, Austrália 487.
+   - **Proibido:** "1º em todas as edições desde 1995", porque é falso.
+2. **A base é pública e reconhecida:**
+   - o CPA vem de Bruner (1966) e é a espinha do currículo de Singapura (NIE);
+   - o bar model está no currículo primário de lá desde os anos 1980;
+   - o Reino Unido adotou o "teaching for mastery" inspirado em Singapura (NCETM, 2017).
+3. **Prova visual:** as páginas reais da missão com a etapa "desenhe o problema", o cartão de bar model e o Guia. [CONFIRMAR as amostras novas da Estrutura]
+4. **Âncora de preço:** reforço particular cobra por hora, e centro de matemática cobra por mês. Isto é pagamento único, menos do que uma hora de reforço.
 
 ## 6. Headlines — ★ = as 3 melhores
-A regra pede headline de resultado final; a pergunta da dor vai como pré-headline.
+A regra pede headline de resultado final. A pergunta da dor vai como pré-headline.
 
 **Domínio (resultado)**
-1. ★ O Método da Pista Escondida que faz seu filho de 8 a 11 anos parar de chutar a conta nos problemas escritos.
-2. ★ Em vez de "é de mais ou de vezes?": problemas escritos que seu filho resolve sozinho para desvendar um mistério.
-3. Da briga na lição de casa a "posso fazer a próxima missão?". Matemática que ele resolve por vontade própria.
+1. ★ O método do país nº 1 do mundo em matemática, para seu filho de 8 a 11 anos parar de chutar a conta no problema escrito.
+2. ★ Seu filho resolvendo problemas escritos como as crianças de Singapura: desenhando primeiro e acertando a conta depois.
+3. Em 3 passos, seu filho de 8 a 11 anos enxerga o problema antes de calcular, com o método do país que lidera o ranking mundial.
 
 **Descoberta / curiosidade**
-4. ★ A folha de matemática que não diz qual é a conta, e por isso ensina o que nenhum worksheet ensina.
-5. Seu filho não é ruim em matemática. Ninguém nunca o deixou escolher a conta.
-6. Descubra o buraco que trava crianças de 8 a 11 anos no problema escrito, e a missão que o fecha.
+4. ★ Por que as crianças de Singapura não perguntam "é de mais ou de vezes?" (e como ensinar isso ao seu filho em casa).
+5. O segredo do país nº 1 em matemática cabe numa folha de papel: desenhe o problema antes de fazer a conta.
+6. Seu filho não é ruim em matemática. Ele só nunca aprendeu a desenhar o problema.
+
+**Provocação**
+7. A lição de casa ensina seu filho a decorar. O país nº 1 do mundo ensina a enxergar.
+8. Singapura é o nº 1 do mundo em matemática. A diferença começa com um desenho.
 
 **Inventário**
-7. 30 missões de mistério que treinam a única coisa que a lição de casa não treina: escolher a conta. [DECIDIR a quantidade]
+9. Guia do método de Singapura + 30 missões de mistério: o problema escrito treinado em casa, em 3 passos. [DECIDIR a quantidade]
 
 **Pré-headlines (pergunta da dor)**
 - Seu filho sabe fazer a conta, mas trava quando o problema vem escrito?
 - A lição de matemática aí também termina em choro?
 
-> Recomendação do time: **nº 1** (resultado + mecanismo de nome forte + idade) com a pré-headline "Seu filho sabe fazer a conta, mas trava quando o problema vem escrito?". A nº 2 é a alternativa mais suave e a nº 4 vai para anúncio de curiosidade.
-> Para anúncio no Meta, ter também uma versão em 3ª pessoa: "Quando a criança sabe a conta, mas trava no problema escrito".
+> Recomendação do time: **nº 1**, com a pré-headline "Seu filho sabe fazer a conta, mas trava quando o problema vem escrito?". A nº 4 é a mais forte para anúncio de curiosidade, e a nº 7 para provocação.
+> Atenção: "parar de chutar a conta" é uma promessa de resultado. A regra do dono permite, mas no mercado em inglês ela é a frase mais sensível (ver Riscos na página).
 
 ## 7. Palavras do público (inglês; base para a tradução)
-Todas são TRECHO, sem conferência na página original (a rede bloqueou os sites).
-- "tears at the kitchen table" / "crying over math homework"
+Todas são TRECHO, de `pesquisa/2026-11-06-falas-de-pais.md`:
+- "tears at the kitchen table"
 - "arithmetic is fine but..." / "won't understand what he needs to do"
 - "multiply instead of adding" / "which operation"
-- "rubbish at maths" (RU) / "I'm bad at math" (EUA)
+- "rubbish at maths" / "I'm bad at math"
 - "they teach it differently" / "not the way I was taught"
-- "shuts down" / "refused help" / "we fight about homework"
+- "we fight about homework"
 - "10 minutes a day" / "little and often"
-- "boring" / "school-ish" (sobre workbooks) / "not using screens"
+- "boring" / "school-ish"
 - "what looks like attitude is usually gaps"
 
-**Lacuna:** não há fala direta de pais da Austrália nem do Reddit nativo.
+**Ponte importante:** os pais do Reino Unido já ouviram falar em "bar model" e "mastery", porque a escola de lá usa. Para eles, "o método que a escola tenta usar, explicado para você em casa" é argumento. Para os pais dos EUA, o argumento é a novidade e o ranking.
 
 ## 8. Proibido dizer
-A copy ousada é bem-vinda. O que não pode é afirmar o que é falso ou proibido por lei.
-- **Fatos do produto:** nada que as missões não tenham. As amostras **não** têm 3 níveis por missão: há uma missão por faixa de idade (8–9, 9–10, 10–11). Não dizer "garantido", "notas melhores" nem "nível acima da série".
-- **Depoimentos, número de compradores e avaliações** só se forem reais (FTC, ASA, ACCC).
-- **Currículo:** sem "Common Core aligned", "National Curriculum" ou "Australian Curriculum" enquanto não existir um índice por habilidade que comprove, e sem logos.
-- **Moeda real:** nada de $, £ ou A$ dentro do produto e nas imagens do produto. Os problemas usam moedas de ouro do jogo. O preço da compra é em **dólar americano**, escrito "US$" (na tradução, "US$12" ou "USD 12", nunca só "$").
-- **Medidas** só universais: minutos, horas, contagem e metros.
-- **Idade (8 a 11 anos)** em vez de série. Grade e Year só como apoio, sem misturar os dois sistemas no mesmo título.
-- **Férias:** dizer "férias escolares", e nunca "verão" ou "summer" (na Austrália, as férias longas são em dezembro e janeiro). Não prometer que "evita o summer slide".
-- Não culpar a criança, o pai ou a escola: o culpado é o tipo de material.
-- Sem rosto de criança e sem foto que pareça cliente real.
-- Âncora "de/por" e contagem regressiva só se forem reais.
-- Não usar "detective" como marca nem personagens licenciados.
-- **Licença de uso familiar:** não prometer uso em sala de aula.
-- **Na tradução,** falar da criança em linguagem neutra ("your child"), sem fixar "he".
+Copy ousada pode. O que não pode é afirmar o que é falso ou proibido por lei.
+- **"Singapore Math"** como nome do produto, título ou headline, porque é marca registrada nos EUA (USPTO reg. 4030323). Usar "o método de Singapura" e pôr no rodapé que não há vínculo com o MOE de Singapura nem com a Singapore Math Inc. [CONFIRMAR com checagem jurídica antes de veicular em inglês]
+- **Dado falso ou sem fonte:** nada de "1º desde 1995", nem posição numérica de EUA, Reino Unido ou Austrália no PISA. Todo número leva a fonte no rodapé.
+- **Afiliação:** nada que sugira material oficial de Singapura, "currículo de Singapura completo" ou aprovação do MOE.
+- **Resultado:** "seu filho vai ficar como as crianças de Singapura", "notas melhores" e "garantido" estão proibidos. Pode: "o mesmo método", "os mesmos 3 passos", "treinar como lá".
+- **Fatos do produto:** só o que existir. O Guia, os cartões e a etapa de bar model estão sendo produzidos [CONFIRMAR]. Sem "3 níveis por missão".
+- Depoimentos, avaliações e número de compradores só se forem reais (FTC, ASA, ACCC).
+- Sem selo de currículo ("Common Core aligned", "National Curriculum") e sem logos.
+- **Moeda real:** nada de $, £ ou A$ no produto. O preço é em dólar americano, escrito "US$12" ou "USD 12" na tradução.
+- **Medidas** só universais.
+- **Idade** (8 a 11 anos) em vez de série.
+- Dizer "férias escolares", nunca "summer".
+- Não culpar a criança, o pai ou a escola.
+- Sem rosto de criança.
+- "De/por" e contagem regressiva só se forem reais.
+- **Licença** de uso familiar.
+- **Na tradução,** a criança em linguagem neutra ("your child").
+- **Não pintar Singapura como "fábrica de pressão"** nem falar de outros países com desdém. O contraste é de método, não de povo.
 
 ## 9. Como cada peça usa a promessa
-- **Anúncio:** abre com a dor ("é de mais ou de vezes?" ou o choro na lição), mostra a folha com a palavra-código na mão de um adulto e fecha com o Método da Pista Escondida.
-- **Página:** pré-headline da dor → headline 1 → dor → páginas reais → mecanismo → antes e depois → guia do pai e irmãos → oferta em US$ → garantia.
-- **VSL** (se houver): a big idea nos primeiros 10 segundos.
+- **Anúncio:** gancho do ranking ("o país nº 1 do mundo em matemática faz uma coisa que a lição de casa do seu filho não faz") ou da dor ("é de mais ou de vezes?"). Mostrar o desenho de barras na folha e fechar com os 3 passos.
+- **Página:** a ordem pedida pela Central, dentro dos 17 blocos (ver `pagina-vendas.md`).
+- **VSL** (se houver): o ranking e a big idea nos primeiros 10 segundos.
 
-## Pendências (o dono decide)
-- **[DECIDIR] Nome final:** "Math Missions" é o nome de trabalho. Conferir marca e domínio.
-- **[DECIDIR] Preço:** recomendação de **US$ 12** (o mercado avulso vai de US$ 6 a 12, e os bundles por idade de US$ 17 a 37).
-- **[DECIDIR] Quantidade:** recomendação de **30 missões, 10 por faixa de idade (8–9, 9–10 e 10–11)**.
-- **[DECIDIR] Garantia:** o especialista padrão diz 7 dias; o time recomenda **30 dias** para o mercado em inglês, se o gateway permitir.
-- **[DECIDIR] Bônus:** só entra o que existir antes da veiculação (sugestões na página).
-- **Fatos das amostras (confirmados em 2026-11-06):** 4 etapas por missão, de 20 a 35 minutos, em preto e branco, com a página "leia antes (2 minutos)", a pergunta de apoio, a palavra-código e o gabarito com o erro comum, e o modo irmãos com papéis.
+## Pendências
+- **[DECIDIR] Nome final:** "Math Missions" (nome de trabalho; conferir marca e domínio).
+- **[DECIDIR] Preço:** US$ 12 continua sendo a recomendação, mas agora há um Guia como peça central. **Recomendação nova do time: testar US$ 17**, ainda dentro da faixa dos bundles por idade (US$ 17–37) e com a pilha de valor maior.
+- **[DECIDIR] Quantidade:** 30 missões, 10 por faixa (8–9, 9–10, 10–11).
+- **[DECIDIR] Garantia:** 30 dias.
+- **[CONFIRMAR] com a Estrutura:** as amostras novas com a etapa de bar model, o rascunho do Guia e o cartão de bar model.
+- **[CONFIRMAR] juridicamente:** o uso de "Singapore method" em inglês e a busca de marca no Reino Unido e na Austrália.
