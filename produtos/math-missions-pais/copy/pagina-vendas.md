@@ -21,9 +21,9 @@
 |---|---|---|---|---|
 | Pré-headline | Seu filho sabe fazer a conta, mas trava quando o problema vem escrito? | Faixa no topo | — | — |
 | Headline | **O método do país nº 1 em matemática para seu filho parar de chutar a conta** | — | — | Headline 1 da PROMESSA. Alternativas: 4 e 7. |
-| Subheadline | Em 3 passos (manipular, desenhar e calcular), seu filho de 8 a 11 anos aprende a enxergar o problema antes de fazer a conta, e treina em missões de mistério para imprimir. Você só precisa seguir o guia. | — | — | — |
+| Subheadline | Em 3 passos (Concreto → Desenho → Conta), seu filho de 8 a 11 anos aprende a enxergar o problema antes de fazer a conta, e treina em missões de mistério para imprimir. Você só precisa seguir o guia. | — | — | — |
 | Dado de autoridade | Singapura: 1º lugar em matemática no TIMSS 2023 e no PISA 2022¹ | Linha de dado, sem medalha, bandeira ou logo oficial | — | ¹ Fonte no rodapé. |
-| Mockup | — | [IMAGEM 1] Guia do Método na frente, missões e cartões de bar model atrás, na mesa da cozinha, com mãos de adulto. Sem rosto. | — | [CONFIRMAR] capa do Guia. |
+| Mockup | — | [IMAGEM 1] Guia do Método na frente, missões e Cartão do Desenho atrás, na mesa da cozinha, com mãos de adulto. Sem rosto. | — | [CONFIRMAR] capa do Guia. |
 | Bullets | ✔ O "desenhe antes de calcular" que as escolas de Singapura usam desde os anos 80² · ✔ O fim do "é de mais ou de vezes?" e do chute · ✔ Você não precisa saber matemática: o guia diz o que falar · ✔ Fora da tela, com cara de jogo | — | — | — |
 | Botão | — | — | **Veja como funciona** | Leva ao bloco 3. |
 
@@ -39,13 +39,13 @@
 | SEÇÃO | TEXTO EXATO | ELEMENTO VISUAL | BOTÃO | NOTA |
 |---|---|---|---|---|
 | Título | Veja o desenho que muda tudo | — | — | Destino do botão da dobra. |
-| Carrossel | (1) "O problema escrito da missão" · (2) "Passo 2: ele desenha o problema em barras" · (3) "Com o desenho, a conta fica à vista" · (4) "Cada resposta vira uma letra da palavra-código" · (5) "O Guia do Método: os 3 passos em linguagem de casa" · (6) "O cartão de bar model para deixar na mesa" · (7) "O gabarito explica cada conta e o erro mais comum" | [IMAGENS 2–8] Páginas reais das amostras novas, em carrossel horizontal | — | [CONFIRMAR] as amostras com bar model, o Guia e o cartão. Dinheiro só em moedas de ouro. |
+| Carrossel | (1) "O problema escrito da missão" · (2) "Passo 2: ele desenha o problema em barras" · (3) "Com o desenho, a conta fica à vista" · (4) "Cada resposta vira uma letra da palavra-código" · (5) "O Guia do Método: os 3 passos em linguagem de casa" · (6) "O Cartão do Desenho para deixar na mesa" · (7) "O gabarito explica cada conta e o erro mais comum" | [IMAGENS 2–8] Páginas reais das amostras novas, em carrossel horizontal | — | [CONFIRMAR] as amostras com bar model, o Guia e o cartão. Dinheiro só em moedas de ouro. |
 
 ## 4. Mecanismo único: o método de Singapura
 | SEÇÃO | TEXTO EXATO | ELEMENTO VISUAL | BOTÃO | NOTA |
 |---|---|---|---|---|
 | Título | O método de Singapura em 3 passos | — | — | Nunca "Singapore Math". |
-| Passos | **1. Manipular:** ele mexe na situação com objetos (moedas do jogo, tampinhas). · **2. Desenhar:** ele desenha o problema em barras. Partes e todo ficam à vista. · **3. Calcular:** só agora ele escreve a conta e resolve. | 3 ícones: mão, barra, conta | — | CPA de Bruner, base do currículo de Singapura. |
+| Passos | **1. Concreto:** ele mexe na situação com objetos (moedas do jogo, tampinhas). · **2. Desenho:** ele desenha o problema em barras. Partes e todo ficam à vista. · **3. Conta:** só agora ele escreve a conta e resolve. | 3 ícones: mão, barra, conta | — | CPA de Bruner, base do currículo de Singapura. |
 | Regra de ouro | **Desenhe antes de calcular.** Quem desenha o problema não adivinha a operação: vê qual é. | Destaque | — | — |
 | Você não precisa saber matemática | E você? Não precisa ensinar a conta. Quando ele travar, você só diz: "Desenha pra mim." O Guia traz as frases certas para quando ele travar. | Balão com a frase | — | Gancho do pai inseguro. |
 | Missões | Para treinar, 30 missões de mistério: em cada uma, há uma etapa "desenhe o problema", e cada resposta vira uma letra da palavra-código. Se ele chutou, a palavra não fecha, e é a folha que o manda voltar ao desenho. | — | **Quero ver a oferta** | Leva ao bloco 11. |
@@ -65,7 +65,7 @@
 | SEÇÃO | TEXTO EXATO | ELEMENTO VISUAL | BOTÃO | NOTA |
 |---|---|---|---|---|
 | Título | Como entra na rotina | — | — | — |
-| Cenas | Você lê o Guia uma vez, em cerca de 15 minutos [CONFIRMAR] · Um mistério na tarde de sábado · Uma etapa por dia depois da escola · Nas férias escolares, para não perder o ritmo · Irmãos: um lê, outro desenha, outro confere [CONFIRMAR os papéis com a Estrutura] | [IMAGENS 9–12] Ilustrações (não fotos realistas), sem rosto | — | [CONFIRMAR] o tempo de leitura do Guia. Nunca "summer". |
+| Cenas | Você lê o Guia uma vez, em cerca de 15 minutos · Um mistério na tarde de sábado · Uma etapa por dia depois da escola · Nas férias escolares, para não perder o ritmo · Irmãos: um lê, outro desenha, outro calcula | [IMAGENS 9–12] Ilustrações (não fotos realistas), sem rosto | — | [CONFIRMAR] o tempo de leitura do Guia. Nunca "summer". |
 
 ## 8. Para quem é
 | SEÇÃO | TEXTO EXATO | ELEMENTO VISUAL | BOTÃO | NOTA |
@@ -84,14 +84,14 @@
 | Título | Tudo o que você recebe | — | — | Guia como peça central (decisão do dono). |
 | Peça central | **Guia do Método de Singapura para Pais:** os 3 passos explicados em linguagem de casa, como desenhar cada tipo de problema em barras e o que dizer quando ele travar. | Capa grande | — | [CONFIRMAR] o rascunho com a Estrutura. |
 | Item 2 | **30 Missões de Mistério** (8 a 11 anos), cada uma com a etapa "desenhe o problema" | Mockup | — | — |
-| Item 3 | **Cartões de Bar Model** para imprimir: os modelos de barra mais usados (parte-todo, comparação, partes iguais) para deixar na mesa | Mockup | — | [CONFIRMAR] os tipos de cartão. |
+| Item 3 | **Cartão do Desenho** para imprimir: o roteiro do bar model em 4 palavras, para deixar na mesa na hora da lição | Mockup | — | Existe (Estrutura, 2026-11-07). |
 | Item 4 | **Roteiros para Pais:** a página "leia antes (2 minutos)" de cada missão, a pergunta de apoio e o gabarito com o erro comum | Mockup | — | Já existe nas amostras. |
 | Item 5 | **Kit de Missão:** crachá de agente, ficha de pistas e certificado de missão cumprida [SÓ SE A ESTRUTURA PRODUZIR; senão sai da pilha e da recapitulação] | Mockup | — | [CONFIRMAR] a produção. |
 
 ## 11. Oferta
 | SEÇÃO | TEXTO EXATO | ELEMENTO VISUAL | BOTÃO | NOTA |
 |---|---|---|---|---|
-| Recapitulação | ✔ Guia do Método de Singapura para Pais · ✔ 30 Missões de Mistério · ✔ Cartões de Bar Model · ✔ Roteiros para Pais · ✔ Kit de Missão [só se existir] | Mockup grande com todas as peças | — | Tudo no mesmo campo visual, sem rolar (390 × 844). |
+| Recapitulação | ✔ Guia do Método de Singapura para Pais · ✔ 30 Missões de Mistério · ✔ Cartão do Desenho · ✔ Roteiros para Pais · ✔ Kit de Missão [só se existir] | Mockup grande com todas as peças | — | Tudo no mesmo campo visual, sem rolar (390 × 844). |
 | Preço | **US$ 17** (dólar americano) · pagamento único | Preço grande, sem "de/por" | — | [DECIDIR] o preço (recomendação nova: US$ 17; alternativa: US$ 12). [CONFIRMAR com o gateway] se o preço já inclui IVA/GST; só então acrescentar "preço final". Tradução: "US$17" ou "USD 17". Igual ao checkout. |
 | Âncora | Menos do que uma hora de reforço particular. | Letra menor | — | Âncora real, sem marca. [CONFIRMAR] registrar em `copy/pesquisa/` o preço médio da hora de reforço nos EUA e no Reino Unido (a ASA exige prova). |
 | Botão | — | — | **Quero o método e as missões** | **Único botão que vai ao checkout.** |
@@ -120,8 +120,8 @@
 | Para qual idade serve? | De 8 a 11 anos, com missões em 3 faixas (8–9, 9–10 e 10–11). Escolha a da idade do seu filho, ou suba e desça uma faixa conforme ele for. |
 | A escola do meu filho usa outro método. Vai confundir? | Não. O desenho em barras ajuda a entender o problema, qualquer que seja o jeito de fazer a conta. No Reino Unido, muitas escolas já usam bar model. |
 | Segue o currículo do meu país? | As missões praticam habilidades comuns nessa idade nos países de língua inglesa. Não é material oficial nem segue o currículo de um país específico. |
-| Tenho dois filhos. Funciona? | Funciona. Eles resolvem juntos, trocando de papel (leitor, desenhista, conferente) [CONFIRMAR], ou cada um faz a missão da sua idade. |
-| Quanto tempo leva? | O Guia se lê em cerca de 15 minutos [CONFIRMAR]. Cada missão leva de 20 a 35 minutos, de uma vez ou uma etapa por dia. |
+| Tenho dois filhos. Funciona? | Funciona. Eles resolvem juntos, trocando de papel (leitor, desenhista e calculista), ou cada um faz a missão da sua idade. |
+| Quanto tempo leva? | O Guia se lê em cerca de 15 minutos. Cada missão leva de 20 a 35 minutos, de uma vez ou uma etapa por dia. |
 | Preciso imprimir colorido? | Não. Tudo é em preto e branco. |
 | Em que moeda eu pago? | Em dólar americano. Seu banco converte na hora. |
 | E se não gostarmos? | 30 dias de garantia: escreva para [E-MAIL] e devolvemos 100% do valor. |
@@ -143,7 +143,7 @@
 ## Pedidos de imagem (Estrutura)
 1. Mockup com o Guia na frente, as missões e os cartões atrás, na mesa da cozinha, com mãos de adulto.
 2. Páginas reais das amostras novas: o problema, o desenho em barras, a palavra-código e o gabarito.
-3. Páginas do Guia e do cartão de bar model.
+3. Páginas do Guia e do Cartão do Desenho.
 4. Ilustrações de uso, sem rosto.
 5. Mockup do Kit de Missão.
 

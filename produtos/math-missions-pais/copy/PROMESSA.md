@@ -14,7 +14,7 @@
 Singapura ficou em 1º lugar em matemática no TIMSS 2023 (4º e 8º ano) e no PISA 2022. Lá, a criança de 8 anos aprende a não perguntar "é de mais ou de vezes?": ela desenha o problema em barras e enxerga a conta. Em casa, o seu filho recebe a folha de repetição, faz a conta pronta e, no problema escrito, chuta. Ele não é ruim em matemática. Ninguém nunca mostrou o problema para ele.
 
 ## 2. Promessa principal
-**O método do país nº 1 do mundo em matemática, adaptado para você aplicar em casa: em 3 passos (manipular, desenhar e calcular), seu filho de 8 a 11 anos aprende a ver o problema escrito antes de fazer a conta, e treina isso em 30 missões de mistério que ele vai querer resolver, mesmo que você não "saiba matemática".**
+**O método do país nº 1 do mundo em matemática, adaptado para você aplicar em casa: em 3 passos (Concreto → Desenho → Conta), seu filho de 8 a 11 anos aprende a ver o problema escrito antes de fazer a conta, e treina isso em 30 missões de mistério que ele vai querer resolver, mesmo que você não "saiba matemática".**
 
 Versão curta (anúncio e topo da página): *"Por que as crianças de Singapura não chutam a conta, e como ensinar isso ao seu filho em casa em 3 passos."*
 
@@ -43,7 +43,7 @@ Em português: "o método de Singapura". Na tradução: "the Singapore method". 
    - o CPA vem de Bruner (1966) e é a espinha do currículo de Singapura (NIE);
    - o bar model está no currículo primário de lá desde os anos 1980;
    - o Reino Unido adotou o "teaching for mastery" inspirado em Singapura (NCETM, 2017).
-3. **Prova visual:** as páginas reais da missão com a etapa "desenhe o problema", o cartão de bar model e o Guia. [CONFIRMAR as amostras novas da Estrutura]
+3. **Prova visual:** as páginas reais da missão com a etapa "desenhe o problema", o Cartão do Desenho e o Guia. [CONFIRMAR as amostras novas da Estrutura]
 4. **Âncora de preço:** reforço particular cobra por hora, e centro de matemática cobra por mês. Isto é pagamento único, menos do que uma hora de reforço.
 
 ## 6. Headlines — ★ = as 3 melhores
@@ -117,5 +117,5 @@ Copy ousada pode. O que não pode é afirmar o que é falso ou proibido por lei.
 - **[DECIDIR] Preço:** US$ 12 continua sendo a recomendação, mas agora há um Guia como peça central. **Recomendação nova do time: testar US$ 17**, ainda dentro da faixa dos bundles por idade (US$ 17–37) e com a pilha de valor maior.
 - **[DECIDIR] Quantidade:** 30 missões, 10 por faixa (8–9, 9–10, 10–11).
 - **[DECIDIR] Garantia:** 30 dias.
-- **[CONFIRMAR] com a Estrutura:** as amostras novas com a etapa de bar model, o rascunho do Guia e o cartão de bar model.
+- **[CONFIRMAR] com a Estrutura:** as amostras novas com a etapa de bar model, o rascunho do Guia e o Cartão do Desenho.
 - **[CONFIRMAR] juridicamente:** o uso de "Singapore method" em inglês, o nome do Guia ("Singapore Method Guide" fica perto da marca) e a busca de marca no Reino Unido e na Austrália.
