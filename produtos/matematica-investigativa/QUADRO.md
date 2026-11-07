@@ -45,8 +45,9 @@ Copy de Oferta + Estrutura (em paralelo). Decisões de nome, preço e quantidade
 Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ pronto · ⛔ travado
 
 ## Pedidos entre áreas (abertos)
+- [ ] [2026-11-07] **De** Copy de Oferta **para** Estrutura: montar o upsell e o downsell com `copy/upsell-downsell.md`. (1) Cadastrar o Lote 2 como **produto separado** na Cakto Members: hoje `estrutura/cakto-roteiro.md`, linha 34, diz que ele "aparece sozinho para quem já comprou", o que o liberaria de graça. (2) Confirmar a compra com 1 clique. (3) Garantir que o downsell não reaparece e que não há e-mail de recuperação a R$ 19,90. (4) Ativar só com o Lote 2 pronto e testado.
 - [ ] [2026-11-07] **De** Análise **para** Estrutura: produzir o lote 2 (+30 missões, 10 por série, mesmo padrão e revisão do lote 1) e configurar na Cakto o upsell de R$ 27 e o downsell de R$ 19,90 (mesmo produto), nos 2 planos. Só ativar com o lote 2 pronto e a entrega testada.
-- [ ] [2026-11-07] **De** Análise **para** Copy de Oferta: página de upsell ("Lote 2: complete o 2º semestre") e de downsell ("última chance: o mesmo Lote 2 por R$ 19,90"), sem apagar o valor das 30 missões já compradas.
+- [x] [2026-11-07] **De** Análise **para** Copy de Oferta: página de upsell ("Lote 2: complete o 2º semestre") e de downsell ("última chance: o mesmo Lote 2 por R$ 19,90"), sem apagar o valor das 30 missões já compradas.
 - [ ] [2026-11-07] **De** Análise **para** Tráfego: próxima fase (`analises/2026-11-07-analise.md`, seção 6): Teste 04 +20% (CPA real R$ 14,44); Testes 02/05/07/09 mantidos em R$ 15 (1 pedido cada, CPA R$ 27–29); Testes 10/01/08/03/06 pausados se não tiverem IC (com IC, seguem até R$ 50).
 - [ ] [2026-11-07] **De** Análise **para** dono: ~~vendas por campanha~~ (recebido); falta o IC por campanha e o plano de cada pedido (Básico × Premium).
 - [ ] [2026-11-07] **De** Análise **para** Tráfego: as 12 "compras" do pixel são 6 pedidos (a Cakto dispara Purchase por bump), então o CPA real é R$ 46,04 e o empate fica em ~R$ 33,66 (ticket líquido com bumps). Trava nova (`analises/2026-11-07-analise.md`, seção 5): pausar em R$ 50 sem pedido aprovado; escalar só com ≥ 2 pedidos e CPA ≤ R$ 30; verba total não sobe; concentrar em 3 ou 4 campanhas.
@@ -75,6 +76,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 4. **Estrutura:** produzir o lote 1 (30 missões) no intervalo, com a entrega testada **antes** do horário de início. Se não der tempo, adiar o início.
 
 ## Histórico (mais recente em cima)
+- [2026-11-07] Copy de Oferta: copy do upsell (Lote 2, R$ 27) e do downsell (R$ 19,90), revisada pelo comitê (`copy/upsell-downsell.md`). O ângulo "complete o 2º semestre" foi trocado, porque em novembro o Lote 1 já cobre o semestre.
 - [2026-11-07] Dono decidiu: upsell Lote 2 (+30 missões) por R$ 27 e downsell com a mesma oferta por R$ 19,90.
 - [2026-11-07] Análise: pedidos por campanha recebidos; as 5 que venderam têm CPA real de R$ 23,39 (+R$ 61,65); o prejuízo veio das 5 sem pedido; Teste 04 escala.
 - [2026-11-07] Análise: a Cakto mostra 6 pedidos (e não 12): CPA real R$ 46,04, ticket líquido R$ 33,66 com bumps (aceite de 50%/33%/17%), resultado −R$ 74,27.
