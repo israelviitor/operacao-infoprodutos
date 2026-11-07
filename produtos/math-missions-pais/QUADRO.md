@@ -49,6 +49,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 Estrutura (amostras) e Copy (pesquisa + promessa + página, em PT) em paralelo → dono aprova → Tradução (en-US).
 
 ## Histórico (mais recente em cima)
+- [2026-11-07] Dono: **pausa breve** neste produto para ajustes do Matemática em Missão. Pedidos abertos ficam para quando retomar.
 - [2026-11-07] Copy de Oferta: PROMESSA e página v2 com o método de Singapura (CPA + bar model; Guia como peça central da pilha), fatos do TIMSS/PISA e da marca levantados (`copy/pesquisa/2026-11-06-fatos-singapura.md`), revisadas pelo comitê.
 - [2026-11-07] Estrutura: amostras refeitas com a etapa "desenhe o problema" (bar model guiado 8–9, meio 9–10, livre 10–11; passo Concreto e critério de domínio na página do adulto; desenho esperado no gabarito) + rascunho do Guia do Método de Singapura para Pais (6 págs) + Cartão do Desenho (2 por folha A4), revisados pelo comitê. Em `estrutura/entregavel/amostras/`.
 - [2026-11-06] Dono: aprovou o método de Singapura como mecanismo central e o Guia + bar model dentro do produto; Copy e Estrutura refazem.
