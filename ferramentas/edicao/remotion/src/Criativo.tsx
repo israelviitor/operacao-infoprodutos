@@ -8,7 +8,7 @@ loadFonts();
 export type Scene = {from: number; to: number; src: string; zoomIn?: boolean; startFrom?: number; focusY?: number};
 // tempos de overlay em segundos (absolutos); "at" internos também em segundos absolutos
 export type Overlay =
-  | {t: 'hook'; from: number; to: number; lines: string[]; highlight: string}
+  | {t: 'hook'; from: number; to: number; lines: string[]; highlight: string; highlightAt?: number}
   | {t: 'selo'; from: number; to: number; text: string}
   | {t: 'check'; from: number; to: number; mark: '✓' | '✕'; items: {text: string; at: number}[]; size?: number}
   | {t: 'brand'; from: number; to: number}
@@ -33,7 +33,7 @@ export const Criativo: React.FC<{cfg: Config}> = ({cfg}) => {
   const rel = (o: {from: number}, at: number) => F(at) - F(o.from);
   const render = (o: Overlay) => {
     switch (o.t) {
-      case 'hook': return <HookTitle lines={o.lines} highlight={o.highlight} />;
+      case 'hook': return <HookTitle lines={o.lines} highlight={o.highlight} highlightFrom={o.highlightAt ? rel(o, o.highlightAt) : 8} />;
       case 'selo': return <Selo text={o.text} />;
       case 'check': return <Checklist mark={o.mark} size={o.size} items={o.items.map((i) => ({text: i.text, at: rel(o, i.at)}))} />;
       case 'brand': return <BrandReveal dur={F(o.to) - F(o.from)} />;

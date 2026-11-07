@@ -155,3 +155,29 @@ export const C05: Config = {
   hide: [],
   sfx: [{at: 0, name: 'impact'}, {at: 7.7, name: 'pop'}, {at: 11.18, name: 'pop'}, {at: 12.46, name: 'ding'}, {at: 17.52, name: 'impact'}, {at: 26.3, name: 'boom'}, {at: 41.18, name: 'ding'}],
 };
+
+// Variações do C04: troca só o gancho; o resto do C04 é deslocado no tempo (corte do áudio c3 em 6,10 s)
+import h2 from './data/c04-hook2.json';
+import h3 from './data/c04-hook3.json';
+const BODY = 6.58; // "Funciona assim" no C04 original
+const shiftC04 = (delta: number, words: any, audio: string, intro: Config['scenes'], hook: Config['overlays'][0], introSfx: Config['sfx']): Config => {
+  const sh = (t: number) => +(t + delta).toFixed(3);
+  return {
+    ...C04, audio, words, dur: sh(C04.dur),
+    scenes: [...intro, ...C04.scenes.filter((s) => s.from >= BODY).map((s) => ({...s, from: sh(s.from), to: sh(s.to)}))],
+    overlays: [hook, ...C04.overlays.filter((o) => o.from >= BODY).map((o: any) => ({...o, from: sh(o.from), to: sh(o.to),
+      ...(o.items ? {items: o.items.map((i: any) => ({...i, at: sh(i.at)}))} : {}), ...(o.at ? {at: sh(o.at)} : {}), ...(o.atB ? {atB: sh(o.atB)} : {}),
+      ...(o.chuteAt ? {chuteAt: sh(o.chuteAt), certoAt: sh(o.certoAt)} : {})}))],
+    sfx: [...introSfx, ...C04.sfx.filter((x) => x.at >= BODY).map((x) => ({...x, at: sh(x.at)}))],
+  };
+};
+// Hook 2 — "Isso aqui parece uma investigação de mistério, mas na verdade é uma atividade de matemática para crianças." (body em +0,431 s)
+export const C04H2: Config = shiftC04(0.431, h2, 'audio/c04-hook2.wav',
+  [S(0, 2.88, T(21612)), S(2.88, 7.011, T(34126), {zoomIn: false})],
+  {t: 'hook', from: 0, to: 7.011, lines: ['PARECE UMA', 'INVESTIGAÇÃO', 'DE MISTÉRIO...'], highlight: 'MAS É UMA ATIVIDADE|DE MATEMÁTICA!', highlightAt: 2.88},
+  [{at: 0, name: 'impact'}, {at: 2.88, name: 'pop'}]);
+// Hook 3 — "Esqueça seus alunos como estudantes, a partir de agora eles serão detetives." (body em −0,771 s)
+export const C04H3: Config = shiftC04(-0.771, h3, 'audio/c04-hook3.wav',
+  [S(0, 2.68, T(20235)), S(2.68, 5.809, T(21612), {zoomIn: false})],
+  {t: 'hook', from: 0, to: 5.809, lines: ['ESQUEÇA SEUS', 'ALUNOS COMO', 'ESTUDANTES...'], highlight: 'AGORA ELES SERÃO|DETETIVES!', highlightAt: 2.68},
+  [{at: 0, name: 'impact'}, {at: 2.68, name: 'pop'}]);

@@ -9,9 +9,9 @@ const useSpring = (delay = 0, damping = 12) => {
 };
 
 // Gancho: título gigante + linha em caixa de destaque
-export const HookTitle: React.FC<{lines: string[]; highlight: string}> = ({lines, highlight}) => {
+export const HookTitle: React.FC<{lines: string[]; highlight: string; highlightFrom?: number}> = ({lines, highlight, highlightFrom = 8}) => {
   const a = useSpring(0, 11);
-  const b = useSpring(8, 10);
+  const b = useSpring(highlightFrom, 10);
   const size = Math.min(96, ...lines.map((l) => Math.floor(940 / (l.length * 0.74))));
   return (
     <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 60, marginTop: -120}}>
@@ -22,8 +22,8 @@ export const HookTitle: React.FC<{lines: string[]; highlight: string}> = ({lines
           </div>
         ))}
       </div>
-      <div style={{marginTop: 34, transform: `rotate(-3deg) scale(${b})`, background: theme.yellow, color: theme.navyDark, ...font, fontSize: Math.min(80, Math.floor(880 / (highlight.length * 0.74))), whiteSpace: 'nowrap', padding: '10px 34px', borderRadius: 20, boxShadow: '0 12px 0 rgba(0,0,0,.35)'}}>
-        {highlight}
+      <div style={{marginTop: 34, transform: `rotate(-3deg) scale(${b})`, background: theme.yellow, color: theme.navyDark, ...font, fontSize: Math.min(80, ...highlight.split('|').map((h) => Math.floor(880 / (h.length * 0.74)))), whiteSpace: 'nowrap', padding: '10px 34px', borderRadius: 20, boxShadow: '0 12px 0 rgba(0,0,0,.35)', textAlign: 'center', lineHeight: 1.08}}>
+        {highlight.split('|').map((h, i) => <div key={i}>{h}</div>)}
       </div>
     </AbsoluteFill>
   );

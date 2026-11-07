@@ -77,6 +77,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 4. **Estrutura:** produzir o lote 1 (30 missões) no intervalo, com a entrega testada **antes** do horário de início. Se não der tempo, adiar o início.
 
 ## Histórico (mais recente em cima)
+- [2026-11-07] Edição: 2 variações de gancho do C04 (H2 e H3) renderizadas e na página de download (`edicao/videos/C04H2.mp4`, `C04H3.mp4`).
 - [2026-11-07] Estrutura: índice do lote 2 (30 missões, 11–20 por série, habilidades que o lote 1 não cobriu) revisado pelo comitê, aguardando aprovação do dono (`estrutura/entregavel/INDICE-LOTE2.md`). Produção e roteiro da Cakto (upsell/downsell) só depois.
 - [2026-11-07] Teste 03 fez 1 pedido (Premium + Tabuada); 6 de 10 campanhas já venderam.
 - [2026-11-07] Copy de Oferta: copy do upsell (Lote 2, R$ 27) e do downsell (R$ 19,90), revisada pelo comitê (`copy/upsell-downsell.md`). O ângulo "complete o 2º semestre" foi trocado, porque em novembro o Lote 1 já cobre o semestre.
