@@ -4,7 +4,7 @@
 > **Fluxo:** a pessoa compra (Básico ou Premium) → **upsell** do Lote 2 por R$ 27 → se recusar, **downsell** do mesmo Lote 2 por R$ 19,90 → página de obrigado.
 > **Só ativar com o Lote 2 pronto, a entrega testada e o Lote 2 cadastrado como PRODUTO SEPARADO na Cakto Members.** Se ele entrar como módulo do produto principal, é liberado de graça para todos os compradores (CDC arts. 30 e 35; regra geral).
 > **Princípio: o Lote 2 continua o Lote 1, nunca o conserta.** As 30 missões compradas estão completas; o Lote 2 é "mais semanas de missão".
-> **Tom agressivo, sem urgência falsa.** O "só nesta página" e o "última chance" são verdadeiros enquanto o Lote 2 não for vendido em outro canal por R$ 27 ou menos (ver Decisões do dono).
+> **Tom agressivo, sem urgência falsa.** O "só nesta página" e o "última chance" são verdadeiros: o dono decidiu vender o Lote 2 só no pós-compra (07/11).
 > **[CONFIRMAR]** = Estrutura (conteúdo do Lote 2, compra com 1 clique, downsell que não reaparece).
 
 ---
@@ -33,7 +33,7 @@ O botão aparece sem rolar no celular. O preço e o botão vêm logo depois da s
 |---|---|---|---|---|
 | Barra de status | ✅ Seu pedido está garantido. Esta é a última tela antes do seu acesso. | Faixa verde | — | — |
 | Headline | **Espere: última chance de levar o Lote 2 com este desconto, R$ 19,90** | — | — | — |
-| Subheadline | Entendo, R$ 27 pode não ser o momento. Então, só aqui, você leva **as mesmas 30 missões do Lote 2 por R$ 19,90**. Quando esta página fechar, a oferta não volta. | — | — | A última frase fica **só se** a Estrutura confirmar que (1) o downsell não reaparece ao recarregar ou voltar e (2) não há e-mail de recuperação com esse preço, e se o dono decidir não vender o Lote 2 depois por R$ 27 ou menos. Senão: "Este preço é só desta tela." |
+| Subheadline | Entendo, R$ 27 pode não ser o momento. Então, só aqui, você leva **as mesmas 30 missões do Lote 2 por R$ 19,90**. Quando esta página fechar, a oferta não volta. | — | — | O dono decidiu que o Lote 2 é vendido só no pós-compra (07/11). Falta a Estrutura confirmar que o downsell não reaparece ao recarregar ou voltar e que não há e-mail de recuperação com esse preço. Senão: "Este preço é só desta tela." |
 | Preço + botão | **R$ 19,90** · R$ 0,66 por missão | Preço grande + [IMAGEM 1] menor | **SIM, QUERO O LOTE 2 POR R$ 19,90** | 19,90 ÷ 30 = 0,663. |
 | Recapitulação | O mesmo Lote 2, nada a menos: ✔ 30 missões novas (10 por série) · ✔ Histórias inéditas · ✔ 3 níveis e gabarito comentado · ✔ Na mesma área do Lote 1. Sua série passa de 10 para 20 missões. | Lista | — | É a mesma oferta (decisão do dono). |
 | Garantia | Garantia de 7 dias, igual à do seu pedido. | Selo pequeno | — | — |
@@ -42,7 +42,7 @@ O botão aparece sem rolar no celular. O preço e o botão vêm logo depois da s
 ---
 
 ## Opções de headline do upsell
-1. ★ **Suas missões vão fazer a turma pedir a próxima. Quando as 10 da sua série acabarem, o que você entrega?**
+1. ✅ (escolhida pelo dono em 07/11) **Suas missões vão fazer a turma pedir a próxima. Quando as 10 da sua série acabarem, o que você entrega?**
 2. **Professora, você tem 10 semanas de missão na sua série. Que tal ter 20?**
 3. **Já pensou em começar 2027 com as missões prontas? +30 novas por R$ 27, só nesta página.**
 
