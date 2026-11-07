@@ -44,7 +44,8 @@ Copy de Oferta + Estrutura (em paralelo). Decisões de nome, preço e quantidade
 Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ pronto · ⛔ travado
 
 ## Pedidos entre áreas (abertos)
-- [ ] [2026-11-07] **De** Análise **para** dono: vendas da Cakto por UTM (qual campanha vendeu) e por plano (Básico × Premium); export no nível de anúncio com IC e nome do criativo.
+- [ ] [2026-11-07] **De** Análise **para** Tráfego: próxima fase (`analises/2026-11-07-analise.md`, seção 6): Teste 04 +20% (CPA real R$ 14,44); Testes 02/05/07/09 mantidos em R$ 15 (1 pedido cada, CPA R$ 27–29); Testes 10/01/08/03/06 pausados se não tiverem IC (com IC, seguem até R$ 50).
+- [ ] [2026-11-07] **De** Análise **para** dono: ~~vendas por campanha~~ (recebido); falta o IC por campanha e o plano de cada pedido (Básico × Premium).
 - [ ] [2026-11-07] **De** Análise **para** Tráfego: as 12 "compras" do pixel são 6 pedidos (a Cakto dispara Purchase por bump), então o CPA real é R$ 46,04 e o empate fica em ~R$ 33,66 (ticket líquido com bumps). Trava nova (`analises/2026-11-07-analise.md`, seção 5): pausar em R$ 50 sem pedido aprovado; escalar só com ≥ 2 pedidos e CPA ≤ R$ 30; verba total não sobe; concentrar em 3 ou 4 campanhas.
 - [ ] [2026-11-07] **De** Análise **para** Estrutura: no pixel da Cakto, Purchase 1 vez por pedido (com valor total), não por bump.
 - [ ] [2026-11-05] **De** Edição **para** Estrutura: as folhas (Horta, R$ 50, Cápsula, gabarito) e o mockup do Básico que estão nos 5 vídeos não batem com o conteúdo final do lote 1 (ex.: gabarito da Cápsula com palavra-código TEMPO; o real é ARTE). Enviar PNG das folhas diagramadas finais + mockup só do Básico para a Edição trocar e renderizar de novo.
@@ -71,6 +72,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 4. **Estrutura:** produzir o lote 1 (30 missões) no intervalo, com a entrega testada **antes** do horário de início. Se não der tempo, adiar o início.
 
 ## Histórico (mais recente em cima)
+- [2026-11-07] Análise: pedidos por campanha recebidos; as 5 que venderam têm CPA real de R$ 23,39 (+R$ 61,65); o prejuízo veio das 5 sem pedido; Teste 04 escala.
 - [2026-11-07] Análise: a Cakto mostra 6 pedidos (e não 12): CPA real R$ 46,04, ticket líquido R$ 33,66 com bumps (aceite de 50%/33%/17%), resultado −R$ 74,27.
 - [2026-11-07] Análise: 1º teste (06 a 07/11) — R$ 276 gastos, 12 compras no pixel, CPA R$ 23,02 contra a trava de R$ 14,52; a página converte 17% das visitas; o gargalo é o custo do tráfego (CPM R$ 87,50).
 - [2026-11-06] Copy de Criativos: texto principal e título das imagens C06–C10, revisados pelo comitê (mesmo arquivo `criativos/2026-11-06-textos-anuncios.md`).
