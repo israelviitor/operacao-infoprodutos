@@ -1,5 +1,6 @@
 # Página de vendas — Math Missions (pais, 8 a 11 anos) · v2: método de Singapura · PT para aprovação
 
+> Revisada pelo comitê em 2026-11-07 (veredito: Ajustar; correções aplicadas).
 > Copy para a Estrutura montar (`/diretor-estrutura`) **depois da tradução** para inglês americano (`/diretor-traducao`). Parte de `copy/PROMESSA.md` (v2).
 > 17 blocos (`regras/paginas.md`), para celular, low ticket em dólar americano, sem menu e sem pop-up. **Só o botão do bloco 11 leva ao checkout**; os outros levam ao bloco 3 (prova) ou ao bloco 11 (oferta).
 > A narrativa pedida pela Central foi encaixada nos 17 blocos:
@@ -19,11 +20,11 @@
 | SEÇÃO | TEXTO EXATO | ELEMENTO VISUAL | BOTÃO | NOTA |
 |---|---|---|---|---|
 | Pré-headline | Seu filho sabe fazer a conta, mas trava quando o problema vem escrito? | Faixa no topo | — | — |
-| Headline | **O método do país nº 1 do mundo em matemática, para seu filho de 8 a 11 anos parar de chutar a conta no problema escrito** | — | — | Headline 1 da PROMESSA. Alternativas: 4 e 7. |
-| Subheadline | Em 3 passos (manipular, desenhar e calcular), ele aprende a enxergar o problema antes de fazer a conta, e treina em missões de mistério para imprimir. Você só precisa seguir o guia. | — | — | — |
-| Selo de autoridade | 🥇 Singapura: nº 1 em matemática no TIMSS 2023 e no PISA 2022¹ | Selo discreto, sem bandeira nem logo oficial | — | ¹ Fonte no rodapé. |
+| Headline | **O método do país nº 1 em matemática para seu filho parar de chutar a conta** | — | — | Headline 1 da PROMESSA. Alternativas: 4 e 7. |
+| Subheadline | Em 3 passos (manipular, desenhar e calcular), seu filho de 8 a 11 anos aprende a enxergar o problema antes de fazer a conta, e treina em missões de mistério para imprimir. Você só precisa seguir o guia. | — | — | — |
+| Dado de autoridade | Singapura: 1º lugar em matemática no TIMSS 2023 e no PISA 2022¹ | Linha de dado, sem medalha, bandeira ou logo oficial | — | ¹ Fonte no rodapé. |
 | Mockup | — | [IMAGEM 1] Guia do Método na frente, missões e cartões de bar model atrás, na mesa da cozinha, com mãos de adulto. Sem rosto. | — | [CONFIRMAR] capa do Guia. |
-| Bullets | ✔ O "desenhe antes de calcular" que as escolas de Singapura usam desde os anos 80 · ✔ O fim do "é de mais ou de vezes?" e do chute · ✔ Você não precisa saber matemática: o guia diz o que falar · ✔ Fora da tela, com cara de jogo | — | — | — |
+| Bullets | ✔ O "desenhe antes de calcular" que as escolas de Singapura usam desde os anos 80² · ✔ O fim do "é de mais ou de vezes?" e do chute · ✔ Você não precisa saber matemática: o guia diz o que falar · ✔ Fora da tela, com cara de jogo | — | — | — |
 | Botão | — | — | **Veja como funciona** | Leva ao bloco 3. |
 
 ## 2. Dor e agitação + inimigo
@@ -31,8 +32,8 @@
 |---|---|---|---|---|
 | Título | Toda noite, a mesma cena? | — | — | — |
 | Lista | • A folha de contas sai certinha. O problema escrito, não. · • "É de mais ou de vezes?" e depois ele chuta. · • Você explica do seu jeito e ouve "não é assim que a professora faz". · • A lição termina em choro na mesa da cozinha, e às vezes o choro é dos dois. · • Ele já diz "sou ruim em matemática". | Lista | — | Tradução: "I'm bad at math". |
-| Virada | Não é falta de capacidade. É o método. A lição de casa ensina a **decorar e repetir**: a conta vem pronta, ele faz e passa para a próxima. Ninguém nunca mostrou o problema para ele. | — | — | Inimigo = tipo de material, nunca a escola. |
-| Contraste | No país nº 1 do mundo em matemática, uma criança de 8 anos não adivinha a conta. Ela **desenha o problema**, e a conta aparece. | — | — | — |
+| Virada | Não é falta de capacidade. É o método. A folha de repetição ensina a **decorar e repetir**: a conta vem pronta, ele faz e passa para a próxima. Ninguém nunca mostrou o problema para ele. | — | — | Inimigo = tipo de material, nunca a escola. |
+| Contraste | No país nº 1 do mundo em matemática, uma criança de 8 anos aprende a não adivinhar a conta. Ela **desenha o problema**, e a conta aparece. | — | — | — |
 
 ## 3. Prova do produto (a revelação, mostrada)
 | SEÇÃO | TEXTO EXATO | ELEMENTO VISUAL | BOTÃO | NOTA |
@@ -46,7 +47,7 @@
 | Título | O método de Singapura em 3 passos | — | — | Nunca "Singapore Math". |
 | Passos | **1. Manipular:** ele mexe na situação com objetos (moedas do jogo, tampinhas). · **2. Desenhar:** ele desenha o problema em barras. Partes e todo ficam à vista. · **3. Calcular:** só agora ele escreve a conta e resolve. | 3 ícones: mão, barra, conta | — | CPA de Bruner, base do currículo de Singapura. |
 | Regra de ouro | **Desenhe antes de calcular.** Quem desenha o problema não adivinha a operação: vê qual é. | Destaque | — | — |
-| Você não precisa saber matemática | E você? Não precisa ensinar a conta. Quando ele travar, você só diz: "Desenha pra mim." O Guia traz as frases certas para cada situação. | Balão com a frase | — | Gancho do pai inseguro. |
+| Você não precisa saber matemática | E você? Não precisa ensinar a conta. Quando ele travar, você só diz: "Desenha pra mim." O Guia traz as frases certas para quando ele travar. | Balão com a frase | — | Gancho do pai inseguro. |
 | Missões | Para treinar, 30 missões de mistério: em cada uma, há uma etapa "desenhe o problema", e cada resposta vira uma letra da palavra-código. Se ele chutou, a palavra não fecha, e é a folha que o manda voltar ao desenho. | — | **Quero ver a oferta** | Leva ao bloco 11. |
 
 ## 5. Antes e depois
@@ -57,14 +58,14 @@
 ## 6. Amplitude
 | SEÇÃO | TEXTO EXATO | ELEMENTO VISUAL | BOTÃO | NOTA |
 |---|---|---|---|---|
-| Números | 1 Guia do Método · 30 missões · 3 faixas de idade (8–9, 9–10, 10–11) · 4 etapas por missão, incluindo "desenhe o problema" · de 20 a 35 minutos cada | Números grandes | — | [DECIDIR] a quantidade. [CONFIRMAR] a etapa de bar model em todas. |
+| Números | 1 Guia do Método · 30 missões · 3 faixas de idade (8–9, 9–10, 10–11) · 4 etapas por missão, cada uma com espaço para desenhar o problema · de 20 a 35 minutos cada | Números grandes | — | [DECIDIR] a quantidade. [CONFIRMAR] a etapa de bar model em todas. |
 | Conteúdos | Soma e subtração · multiplicação e divisão · frações · horas e tempo · medidas · tabelas · dinheiro com moedas de ouro do jogo | Ícones | — | Conteúdos vistos nas amostras. |
 
 ## 7. Demonstração de uso
 | SEÇÃO | TEXTO EXATO | ELEMENTO VISUAL | BOTÃO | NOTA |
 |---|---|---|---|---|
 | Título | Como entra na rotina | — | — | — |
-| Cenas | Você lê o Guia uma vez, em 15 minutos · Um mistério na tarde de sábado · Uma etapa por dia depois da escola · Nas férias escolares, para não perder o ritmo · Irmãos: um lê, outro desenha, outro confere | [IMAGENS 9–12] Ilustrações (não fotos realistas), sem rosto | — | [CONFIRMAR] o tempo de leitura do Guia. Nunca "summer". |
+| Cenas | Você lê o Guia uma vez, em cerca de 15 minutos [CONFIRMAR] · Um mistério na tarde de sábado · Uma etapa por dia depois da escola · Nas férias escolares, para não perder o ritmo · Irmãos: um lê, outro desenha, outro confere [CONFIRMAR os papéis com a Estrutura] | [IMAGENS 9–12] Ilustrações (não fotos realistas), sem rosto | — | [CONFIRMAR] o tempo de leitura do Guia. Nunca "summer". |
 
 ## 8. Para quem é
 | SEÇÃO | TEXTO EXATO | ELEMENTO VISUAL | BOTÃO | NOTA |
@@ -85,14 +86,14 @@
 | Item 2 | **30 Missões de Mistério** (8 a 11 anos), cada uma com a etapa "desenhe o problema" | Mockup | — | — |
 | Item 3 | **Cartões de Bar Model** para imprimir: os modelos de barra mais usados (parte-todo, comparação, partes iguais) para deixar na mesa | Mockup | — | [CONFIRMAR] os tipos de cartão. |
 | Item 4 | **Roteiros para Pais:** a página "leia antes (2 minutos)" de cada missão, a pergunta de apoio e o gabarito com o erro comum | Mockup | — | Já existe nas amostras. |
-| Item 5 | **Kit de Missão:** crachá de agente, ficha de pistas e certificado de missão cumprida | Mockup | — | [CONFIRMAR] a produção. |
+| Item 5 | **Kit de Missão:** crachá de agente, ficha de pistas e certificado de missão cumprida [SÓ SE A ESTRUTURA PRODUZIR; senão sai da pilha e da recapitulação] | Mockup | — | [CONFIRMAR] a produção. |
 
 ## 11. Oferta
 | SEÇÃO | TEXTO EXATO | ELEMENTO VISUAL | BOTÃO | NOTA |
 |---|---|---|---|---|
-| Recapitulação | ✔ Guia do Método de Singapura para Pais · ✔ 30 Missões de Mistério · ✔ Cartões de Bar Model · ✔ Roteiros para Pais · ✔ Kit de Missão | Mockup grande com todas as peças | — | Tudo no mesmo campo visual, sem rolar (390 × 844). |
-| Preço | **US$ 17** (dólar americano) · pagamento único · preço final, sem taxas no checkout | Preço grande, sem "de/por" | — | [DECIDIR] o preço (recomendação nova: US$ 17; alternativa: US$ 12). Tradução: "US$17" ou "USD 17". Igual ao checkout. |
-| Âncora | Menos do que uma hora de reforço particular. | Letra menor | — | Âncora real, sem marca. |
+| Recapitulação | ✔ Guia do Método de Singapura para Pais · ✔ 30 Missões de Mistério · ✔ Cartões de Bar Model · ✔ Roteiros para Pais · ✔ Kit de Missão [só se existir] | Mockup grande com todas as peças | — | Tudo no mesmo campo visual, sem rolar (390 × 844). |
+| Preço | **US$ 17** (dólar americano) · pagamento único | Preço grande, sem "de/por" | — | [DECIDIR] o preço (recomendação nova: US$ 17; alternativa: US$ 12). [CONFIRMAR com o gateway] se o preço já inclui IVA/GST; só então acrescentar "preço final". Tradução: "US$17" ou "USD 17". Igual ao checkout. |
+| Âncora | Menos do que uma hora de reforço particular. | Letra menor | — | Âncora real, sem marca. [CONFIRMAR] registrar em `copy/pesquisa/` o preço médio da hora de reforço nos EUA e no Reino Unido (a ASA exige prova). |
 | Botão | — | — | **Quero o método e as missões** | **Único botão que vai ao checkout.** |
 | Selos | Pagamento seguro · Acesso imediato · Cartão e PayPal | Selos genéricos | — | Confirmar com o gateway. |
 
@@ -119,8 +120,8 @@
 | Para qual idade serve? | De 8 a 11 anos, com missões em 3 faixas (8–9, 9–10 e 10–11). Escolha a da idade do seu filho, ou suba e desça uma faixa conforme ele for. |
 | A escola do meu filho usa outro método. Vai confundir? | Não. O desenho em barras ajuda a entender o problema, qualquer que seja o jeito de fazer a conta. No Reino Unido, muitas escolas já usam bar model. |
 | Segue o currículo do meu país? | As missões praticam habilidades comuns nessa idade nos países de língua inglesa. Não é material oficial nem segue o currículo de um país específico. |
-| Tenho dois filhos. Funciona? | Funciona. Eles resolvem juntos, trocando de papel (leitor, desenhista, conferente), ou cada um faz a missão da sua idade. |
-| Quanto tempo leva? | O Guia se lê em cerca de 15 minutos. Cada missão leva de 20 a 35 minutos, de uma vez ou uma etapa por dia. |
+| Tenho dois filhos. Funciona? | Funciona. Eles resolvem juntos, trocando de papel (leitor, desenhista, conferente) [CONFIRMAR], ou cada um faz a missão da sua idade. |
+| Quanto tempo leva? | O Guia se lê em cerca de 15 minutos [CONFIRMAR]. Cada missão leva de 20 a 35 minutos, de uma vez ou uma etapa por dia. |
 | Preciso imprimir colorido? | Não. Tudo é em preto e branco. |
 | Em que moeda eu pago? | Em dólar americano. Seu banco converte na hora. |
 | E se não gostarmos? | 30 dias de garantia: escreva para [E-MAIL] e devolvemos 100% do valor. |
@@ -135,7 +136,7 @@
 ## 17. Rodapé
 | SEÇÃO | TEXTO EXATO | ELEMENTO VISUAL | BOTÃO | NOTA |
 |---|---|---|---|---|
-| Fontes | ¹ TIMSS 2023: Singapura em 1º em matemática no 4º ano (615) e no 8º ano (605), em escala de centro 500. TIMSS & PIRLS International Study Center / IEA, 2024. PISA 2022: Singapura em 1º em matemática (575; média da OCDE 472). OECD, 2023. | Letra pequena | — | Conferir na fonte primária antes de publicar. |
+| Fontes | ¹ TIMSS 2023: Singapura em 1º em matemática no 4º ano (615) e no 8º ano (605), em escala de centro 500. TIMSS & PIRLS International Study Center / IEA, 2024. PISA 2022: Singapura em 1º em matemática (575; média da OCDE 472). OECD, 2023. ² Bar model no currículo primário de Singapura desde 1983 (MOE, *The Singapore Model Method for Learning Mathematics*, 2009). | Letra pequena | — | Conferir na fonte primária antes de publicar. |
 | Aviso | Math Missions é um material independente, sem vínculo com o Ministério da Educação de Singapura, a IEA, a OCDE, a Singapore Math Inc. ou a Marshall Cavendish. "Singapore Math" é marca registrada de seus titulares. | Letra pequena | — | Checagem jurídica antes de veicular. |
 | Rodapé | Math Missions · [EMPRESA/RESPONSÁVEL] · [ENDEREÇO DA EMPRESA] · [E-MAIL] · Termos de uso · Política de privacidade · Política de reembolso · © 2026 · This site is not a part of the Facebook website or Meta Platforms, Inc. | Enxuto | — | O aviso da Meta é texto fixo, não traduzir. Sem botão nem WhatsApp. |
 

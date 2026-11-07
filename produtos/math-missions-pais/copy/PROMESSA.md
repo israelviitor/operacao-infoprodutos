@@ -5,12 +5,13 @@
 > **Mercado:** países de língua inglesa (EUA, Reino Unido, Austrália, Canadá…), com página única em inglês americano e preço em dólar americano.
 > **Versão 2 (2026-11-06):** o mecanismo central passa a ser **o método de Singapura**, por decisão do dono. Ele substitui o "Método da Pista Escondida". O mistério continua sendo a forma divertida de treinar o método.
 > **Tom:** agressivo (regra geral de 2026-11-06). Os fatos vêm de `pesquisa/2026-11-06-fatos-singapura.md`.
+> Revisada pelo comitê em 2026-11-07 (Ajustar; correções aplicadas).
 > Itens **[DECIDIR]** dependem do dono. Itens **[CONFIRMAR]** dependem da Estrutura (amostras novas) ou de checagem.
 
 ## 1. Big idea
-**"O país nº 1 do mundo em matemática ensina as crianças a desenhar o problema antes de fazer a conta. A lição de casa do seu filho ensina a decorar."**
+**"O país nº 1 do mundo em matemática ensina as crianças a desenhar o problema antes de fazer a conta. A folha de repetição que chega ao seu filho ensina a decorar."**
 
-Singapura ficou em 1º lugar em matemática no TIMSS 2023 (4º e 8º ano) e no PISA 2022. Lá, a criança de 8 anos não pergunta "é de mais ou de vezes?": ela desenha o problema em barras e enxerga a conta. Em casa, o seu filho recebe a folha de repetição, faz a conta pronta e, no problema escrito, chuta. Ele não é ruim em matemática. Ninguém nunca mostrou o problema para ele.
+Singapura ficou em 1º lugar em matemática no TIMSS 2023 (4º e 8º ano) e no PISA 2022. Lá, a criança de 8 anos aprende a não perguntar "é de mais ou de vezes?": ela desenha o problema em barras e enxerga a conta. Em casa, o seu filho recebe a folha de repetição, faz a conta pronta e, no problema escrito, chuta. Ele não é ruim em matemática. Ninguém nunca mostrou o problema para ele.
 
 ## 2. Promessa principal
 **O método do país nº 1 do mundo em matemática, adaptado para você aplicar em casa: em 3 passos (manipular, desenhar e calcular), seu filho de 8 a 11 anos aprende a ver o problema escrito antes de fazer a conta, e treina isso em 30 missões de mistério que ele vai querer resolver, mesmo que você não "saiba matemática".**
@@ -49,8 +50,8 @@ Em português: "o método de Singapura". Na tradução: "the Singapore method". 
 A regra pede headline de resultado final. A pergunta da dor vai como pré-headline.
 
 **Domínio (resultado)**
-1. ★ O método do país nº 1 do mundo em matemática, para seu filho de 8 a 11 anos parar de chutar a conta no problema escrito.
-2. ★ Seu filho resolvendo problemas escritos como as crianças de Singapura: desenhando primeiro e acertando a conta depois.
+1. ★ O método do país nº 1 em matemática para seu filho parar de chutar a conta.
+2. ★ Seu filho resolvendo problemas escritos com o método das escolas de Singapura: desenhando primeiro, calculando depois.
 3. Em 3 passos, seu filho de 8 a 11 anos enxerga o problema antes de calcular, com o método do país que lidera o ranking mundial.
 
 **Descoberta / curiosidade**
@@ -59,7 +60,7 @@ A regra pede headline de resultado final. A pergunta da dor vai como pré-headli
 6. Seu filho não é ruim em matemática. Ele só nunca aprendeu a desenhar o problema.
 
 **Provocação**
-7. A lição de casa ensina seu filho a decorar. O país nº 1 do mundo ensina a enxergar.
+7. A folha de repetição ensina seu filho a decorar. O país nº 1 do mundo ensina a enxergar.
 8. Singapura é o nº 1 do mundo em matemática. A diferença começa com um desenho.
 
 **Inventário**
@@ -107,7 +108,7 @@ Copy ousada pode. O que não pode é afirmar o que é falso ou proibido por lei.
 - **Não pintar Singapura como "fábrica de pressão"** nem falar de outros países com desdém. O contraste é de método, não de povo.
 
 ## 9. Como cada peça usa a promessa
-- **Anúncio:** gancho do ranking ("o país nº 1 do mundo em matemática faz uma coisa que a lição de casa do seu filho não faz") ou da dor ("é de mais ou de vezes?"). Mostrar o desenho de barras na folha e fechar com os 3 passos.
+- **Anúncio:** gancho do ranking ("o país nº 1 do mundo em matemática faz uma coisa que a folha de repetição do seu filho não faz") ou da dor ("é de mais ou de vezes?"). Mostrar o desenho de barras na folha e fechar com os 3 passos.
 - **Página:** a ordem pedida pela Central, dentro dos 17 blocos (ver `pagina-vendas.md`).
 - **VSL** (se houver): o ranking e a big idea nos primeiros 10 segundos.
 
@@ -117,4 +118,4 @@ Copy ousada pode. O que não pode é afirmar o que é falso ou proibido por lei.
 - **[DECIDIR] Quantidade:** 30 missões, 10 por faixa (8–9, 9–10, 10–11).
 - **[DECIDIR] Garantia:** 30 dias.
 - **[CONFIRMAR] com a Estrutura:** as amostras novas com a etapa de bar model, o rascunho do Guia e o cartão de bar model.
-- **[CONFIRMAR] juridicamente:** o uso de "Singapore method" em inglês e a busca de marca no Reino Unido e na Austrália.
+- **[CONFIRMAR] juridicamente:** o uso de "Singapore method" em inglês, o nome do Guia ("Singapore Method Guide" fica perto da marca) e a busca de marca no Reino Unido e na Austrália.
