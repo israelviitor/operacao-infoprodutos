@@ -38,12 +38,14 @@ Copy de Oferta + Estrutura (em paralelo). Decisões de nome, preço e quantidade
 | Estrutura — Cakto | 🔵 roteiro pronto (comitê: sobe), dono executa no painel | `estrutura/cakto-roteiro.md`, `estrutura/cakto/` (imagens) | 2026-10-28 |
 | Copy de Criativos | 🔵 lote 2 (5 vídeos + 5 imagens, Hook/Body/CTA) revisado pelo comitê, aguardando o dono; o lote 1 foi substituído · a produção depende das missões diagramadas finais | `criativos/2026-11-04-lote-2.md` | 2026-11-04 |
 | Edição | ✅ 5 criativos aprovados pelo dono (05/11); trocar folhas/mockup e renderizar de novo quando a Estrutura entregar as versões finais | `edicoes.md`, `edicao/videos/` | 2026-11-05 |
-| Tráfego | ⬜ pode agendar anúncios; início da veiculação só com o lote 1 pronto e a entrega testada | `trafego/` | — |
+| Tráfego | 🟡 teste 1 rodando desde 06/11 (10 campanhas, R$ 15/dia cada) | `trafego/dados/2026-11-06-campanhas.csv` | 2026-11-07 |
 | Análise | ✅ página nova, todos os critérios (pré-lançamento) | `analises/2026-11-03-analise.md` | 2026-11-03 |
 
 Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ pronto · ⛔ travado
 
 ## Pedidos entre áreas (abertos)
+- [ ] [2026-11-07] **De** Análise **para** dono: vendas aprovadas na Cakto de 06 a 07/11, por plano (Básico × Premium); Pix pendentes; export no nível de anúncio com IC e nome do criativo.
+- [ ] [2026-11-07] **De** Análise **para** Tráfego: aplicar a trava do teste 1 (`analises/2026-11-07-analise.md`, seção 4): pausar em R$ 30 sem venda aprovada (R$ 45 se houver IC); escalar +20%/dia só com ≥ 3 vendas e CPA ≤ R$ 14,52 (hoje só o Teste 04); verba total não sobe.
 - [ ] [2026-11-05] **De** Edição **para** Estrutura: as folhas (Horta, R$ 50, Cápsula, gabarito) e o mockup do Básico que estão nos 5 vídeos não batem com o conteúdo final do lote 1 (ex.: gabarito da Cápsula com palavra-código TEMPO; o real é ARTE). Enviar PNG das folhas diagramadas finais + mockup só do Básico para a Edição trocar e renderizar de novo.
 - [ ] [2026-11-04] **De** Copy **para** Estrutura: (1) na página, bloco 3, trocar "Só a resposta certa abre a próxima etapa." por "Cada resposta vira uma letra da palavra-código. Se uma conta estiver errada, a palavra não fecha." (fiel ao conteúdo; já mudou em `copy/pagina-vendas.md`); (2) para os criativos, enviar as folhas **diagramadas finais** da Horta (etapa 1, os 3 níveis, tabela de letras, gabarito) e um mockup **só do Básico**.
 - [ ] [2026-11-05] **De** Análise **para** Estrutura: último checkup (`analises/2026-11-05-analise.md`): identificação do vendedor (rodapé, garantia, FAQ, termos e privacidade), avisos Meta/MEC no rodapé, taxa de R$ 0,99 (absorver ou mostrar), aviso P&B nas vitrines, nome/banner do checkout Premium, bumps nos 2 produtos da Cakto, compra de teste nos 2 planos.
@@ -68,6 +70,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 4. **Estrutura:** produzir o lote 1 (30 missões) no intervalo, com a entrega testada **antes** do horário de início. Se não der tempo, adiar o início.
 
 ## Histórico (mais recente em cima)
+- [2026-11-07] Análise: 1º teste (06 a 07/11) — R$ 276 gastos, 12 compras no pixel, CPA R$ 23,02 contra a trava de R$ 14,52; a página converte 17% das visitas; o gargalo é o custo do tráfego (CPM R$ 87,50).
 - [2026-11-06] Copy de Criativos: texto principal e título das imagens C06–C10, revisados pelo comitê (mesmo arquivo `criativos/2026-11-06-textos-anuncios.md`).
 - [2026-11-06] Copy de Criativos: texto principal e título dos anúncios dos vídeos C01–C05, revisados pelo comitê (`criativos/2026-11-06-textos-anuncios.md`). Tráfego pode usar.
 - [2026-11-05] Edição: dono aprovou os 5 criativos com a música abaixada (C01 fica como está). Tráfego pode usar os vídeos da página de download.
