@@ -78,7 +78,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 4. **Estrutura:** produzir o lote 1 (30 missões) no intervalo, com a entrega testada **antes** do horário de início. Se não der tempo, adiar o início.
 
 ## Histórico (mais recente em cima)
-- [2026-11-08] Análise: sábado ruim (3 pedidos, sem bump, −R$ 135); o tráfego melhorou (CTR 4,42%, CPC R$ 2,35); a conversão e o ticket caíram; acumulado de 06 a 08: 10 pedidos, CPA R$ 46,67; os Testes 04 e 10 têm CPA R$ 20,82.
+- [2026-11-08] Análise: domingo de Enem ruim (3 pedidos, sem bump, −R$ 135); o tráfego melhorou (CTR 4,42%, CPC R$ 2,35); a conversão e o ticket caíram; acumulado de 06 a 08: 10 pedidos, CPA R$ 46,67; os Testes 04 e 10 têm CPA R$ 20,82.
 - [2026-11-07] Edição: 2 variações de gancho do C04 (H2 e H3) renderizadas e na página de download (`edicao/videos/C04H2.mp4`, `C04H3.mp4`).
 - [2026-11-07] Estrutura: índice do lote 2 (30 missões, 11–20 por série, habilidades que o lote 1 não cobriu) revisado pelo comitê, aguardando aprovação do dono (`estrutura/entregavel/INDICE-LOTE2.md`). Produção e roteiro da Cakto (upsell/downsell) só depois.
 - [2026-11-07] Teste 03 fez 1 pedido (Premium + Tabuada); 6 de 10 campanhas já venderam.
