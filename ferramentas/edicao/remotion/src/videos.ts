@@ -16,11 +16,11 @@ export const C01: Config = {
   audio: 'audio/c1.mp3', words: c1 as any, music: 'audio/729.mp3', musicVol: 0.12, dur: 48.3,
   keys: ['MISSÃO', 'MATEMÁTICA', 'INVESTIGAR', 'INTERPRETAR', 'CONTAS', 'ENVOLVENTE'],
   scenes: [
-    S(0, 2.9, N('m4792')), S(2.9, 5.96, N('m35954'), {zoomIn: false}), S(5.96, 8.72, N('m34170')), S(8.72, 10.68, N('m5940'), {zoomIn: false}),
+    S(0, 2.9, T(34126)), S(2.9, 5.96, T(14782), {zoomIn: false}), S(5.96, 8.72, T(45564)), S(8.72, 10.68, T(47242), {zoomIn: false}),
     S(10.68, 11.76, T(21626), {startFrom: 150}), S(11.76, 12.58, T(21623), {startFrom: 30}), S(12.58, 13.32, T(42185)), S(13.32, 14.9, T(21612)),
-    S(16.56, 19.22, HORTA, {focusY: 25}), S(19.22, 20.68, HORTA, {focusY: 45}), S(20.68, 23.34, N('m50116')),
+    S(16.56, 19.22, HORTA, {focusY: 25}), S(19.22, 20.68, HORTA, {focusY: 45}), S(20.68, 23.34, T(34126), {startFrom: 400}),
     S(23.34, 24.74, T(28901)), S(24.74, 26.66, T(46423), {zoomIn: false}), S(26.66, 29.28, T(25260)), S(29.28, 31.12, FEIRA),
-    S(31.12, 32.8, CAPSULA, {zoomIn: false}), S(32.8, 34.8, GAB, {focusY: 40}), S(34.8, 37.0, N('m36046')), S(37.0, 39.28, N('m36011'), {zoomIn: false}), S(39.28, 40.1, N('m4601')),
+    S(31.12, 32.8, CAPSULA, {zoomIn: false}), S(32.8, 34.8, GAB, {focusY: 40}), S(34.8, 37.0, T(42187)), S(37.0, 39.28, T(48298)), S(39.28, 40.1, T(6363)),
   ],
   overlays: [
     {t: 'hook', from: 0, to: 5.96, lines: ['PROBLEMAS DE', 'MATEMÁTICA QUE'], highlight: 'PRENDEM A TURMA?'},
@@ -47,11 +47,11 @@ export const C02: Config = {
   audio: 'audio/c2.mp3', words: c2 as any, music: 'audio/822.mp3', musicVol: 0.035, dur: 50.4,
   keys: ['CALCULAR', 'INTERPRETAR', 'OPERAÇÃO', 'HISTÓRIA', 'DESVENDAR', 'MISSÃO', 'IMPRIMIR'],
   scenes: [
-    S(0, 2.4, N('m4601')), S(2.4, 4.0, N('m35954'), {zoomIn: false, startFrom: 120}), S(4.0, 7.66, N('m4790')), S(7.66, 9.28, T(34126), {startFrom: 300}),
-    S(9.28, 13.92, HORTA, {focusY: 40}), S(13.92, 16.12, T(20235)), S(16.12, 19.32, N('m50109'), {zoomIn: false}), S(19.32, 20.88, T(47241)),
-    S(22.48, 24.16, T(6363)), S(24.16, 26.3, T(21612)), S(26.3, 28.22, HORTA, {focusY: 20}), S(28.22, 30.68, N('m36046'), {startFrom: 150}),
+    S(0, 2.4, T(4616)), S(2.4, 4.0, T(34126), {zoomIn: false}), S(4.0, 7.66, T(14782)), S(7.66, 9.28, T(34126), {startFrom: 300}),
+    S(9.28, 13.92, HORTA, {focusY: 40}), S(13.92, 16.12, T(20235)), S(16.12, 19.32, T(20468), {zoomIn: false}), S(19.32, 20.88, T(47241)),
+    S(22.48, 24.16, T(6363)), S(24.16, 26.3, T(21612)), S(26.3, 28.22, HORTA, {focusY: 20}), S(28.22, 30.68, T(21623)),
     S(30.68, 35.46, FEIRA, {zoomIn: false}), S(35.46, 38.78, CAPSULA), S(38.78, 40.54, HORTA, {zoomIn: false}), S(40.54, 42.36, GAB),
-    S(42.36, 44.22, N('cv_desk')), S(44.22, 46.38, N('cv_printer')),
+    S(42.36, 44.22, T(6363), {startFrom: 200}), S(44.22, 46.38, T(25260)),
   ],
   overlays: [
     {t: 'hook', from: 0, to: 7.66, lines: ['VOCÊ EXPLICA A CONTA,', 'A TURMA ENTENDE...'], highlight: 'MAS TRAVA NO PROBLEMA?'},
@@ -78,11 +78,11 @@ export const C03: Config = {
   audio: 'audio/c5.mp3', words: c5 as any, music: 'audio/786.mp3', musicVol: 0.033, dur: 52.9,
   keys: ['BIBLIOTECA', 'MISSÃO', 'HISTÓRIA', 'INTERPRETAR', 'DESAFIOS', 'IMPRIME', 'IMPRIMIR'],
   scenes: [
-    S(0, 3.44, N('cv_noite')), S(3.44, 6.46, T(1793), {zoomIn: false}), S(6.46, 8.78, N('cv_typing')), S(8.78, 11.14, T(14669)),
-    S(11.14, 14.48, T(3819), {zoomIn: false}), S(14.48, 16.82, T(28897)), S(16.82, 19.5, N('cv_studying'), {zoomIn: false}), S(19.5, 21.2, T(50726)),
-    S(21.2, 23.72, T(15841)), S(23.72, 25.96, N('cv_printer'), {startFrom: 150}), S(25.96, 28.36, HORTA, {focusY: 22}), S(28.36, 29.88, FEIRA),
-    S(29.88, 32.26, N('m16306'), {zoomIn: false}), S(32.26, 33.32, N('m15016')), S(33.32, 35.8, CAPSULA), S(35.8, 37.84, HORTA, {zoomIn: false}),
-    S(37.84, 38.96, GAB), S(38.96, 41.72, N('m50114')), S(41.72, 44.16, N('m36011'), {startFrom: 200}), S(44.16, 46.02, T(25260), {startFrom: 300}),
+    S(0, 3.44, T(17450)), S(3.44, 6.46, T(1793), {zoomIn: false}), S(6.46, 8.78, T(1781)), S(8.78, 11.14, T(14669)),
+    S(11.14, 14.48, T(3819), {zoomIn: false}), S(14.48, 16.82, T(28897)), S(16.82, 19.5, T(28901), {zoomIn: false}), S(19.5, 21.2, T(50726)),
+    S(21.2, 23.72, T(6363)), S(23.72, 25.96, T(25260)), S(25.96, 28.36, HORTA, {focusY: 22}), S(28.36, 29.88, FEIRA),
+    S(29.88, 32.26, T(42185), {zoomIn: false}), S(32.26, 33.32, T(21623)), S(33.32, 35.8, CAPSULA), S(35.8, 37.84, HORTA, {zoomIn: false}),
+    S(37.84, 38.96, GAB), S(38.96, 41.72, T(47242)), S(41.72, 44.16, T(6363), {startFrom: 200}), S(44.16, 46.02, T(25260), {startFrom: 300}),
   ],
   overlays: [
     {t: 'hook', from: 0, to: 6.46, lines: ['PASSOU A NOITE', 'PROCURANDO'], highlight: 'ATIVIDADES DIFERENTES?'},
@@ -108,10 +108,10 @@ export const C04: Config = {
   audio: 'audio/c3.mp3', words: c3 as any, music: 'audio/671.mp3', musicVol: 0.07, dur: 49.6,
   keys: ['MISTÉRIO', 'INVESTIGAÇÃO', 'INTERPRETAR', 'OPERAÇÕES', 'PRATICANDO', 'MISSÃO'],
   scenes: [
-    S(0, 3.46, T(21612)), S(3.46, 6.58, N('m16306'), {zoomIn: false}), S(6.58, 7.68, T(47241)), S(7.68, 10.42, HORTA, {focusY: 22}),
-    S(10.42, 13.48, N('m36046')), S(13.48, 15.16, T(21612), {startFrom: 120}), S(15.16, 17.3, T(21626), {startFrom: 100}), S(17.3, 18.52, T(42187)),
-    S(18.52, 21.22, FEIRA, {focusY: 40}), S(21.22, 23.22, N('m50116'), {startFrom: 150}), S(23.22, 25.68, T(42185)), S(25.68, 28.08, CAPSULA, {zoomIn: false}),
-    S(28.08, 30.16, N('m42182')), S(30.16, 31.94, T(46423)), S(31.94, 33.58, T(1781), {zoomIn: false}), S(33.58, 35.22, T(45564)),
+    S(0, 3.46, T(21612)), S(3.46, 6.58, T(4616), {zoomIn: false}), S(6.58, 7.68, T(47241)), S(7.68, 10.42, HORTA, {focusY: 22}),
+    S(10.42, 13.48, T(21623)), S(13.48, 15.16, T(21612), {startFrom: 120}), S(15.16, 17.3, T(21626), {startFrom: 100}), S(17.3, 18.52, T(42187)),
+    S(18.52, 21.22, FEIRA, {focusY: 40}), S(21.22, 23.22, T(34126), {startFrom: 200}), S(23.22, 25.68, T(42185)), S(25.68, 28.08, CAPSULA, {zoomIn: false}),
+    S(28.08, 30.16, T(48298)), S(30.16, 31.94, T(46423)), S(31.94, 33.58, T(1781), {zoomIn: false}), S(33.58, 35.22, T(45564)),
     S(36.88, 39.2, T(25260)), S(39.2, 41.14, HORTA), S(41.14, 44.22, GAB, {zoomIn: false}), S(44.22, 46.78, T(28901)),
   ],
   overlays: [
@@ -137,11 +137,11 @@ export const C05: Config = {
   audio: 'audio/c4.mp3', words: c4 as any, music: 'audio/830.mp3', musicVol: 0.041, dur: 43.9,
   keys: ['CONTINHAS', 'INTERPRETAR', 'MISTÉRIO', 'HISTÓRIA', 'DECIDE', 'MISSÃO'],
   scenes: [
-    S(0, 2.42, N('m35954')), S(2.42, 4.38, N('m5940'), {zoomIn: false}), S(4.38, 5.92, N('m36011')), S(5.92, 7.7, N('m35954'), {zoomIn: false, startFrom: 150}),
-    S(7.7, 13.78, T(47242)), S(13.78, 15.48, N('m4601'), {startFrom: 100}), S(15.48, 17.52, T(17450), {zoomIn: false}), S(17.52, 18.5, T(48298)),
-    S(18.5, 20.52, T(20468)), S(20.52, 22.48, T(34126), {zoomIn: false}), S(22.48, 24.62, N('m4790'), {startFrom: 150}), S(24.62, 26.3, T(21588)),
-    S(27.48, 29.94, CAPSULA, {focusY: 22}), S(29.94, 31.8, FEIRA, {zoomIn: false}), S(31.8, 33.74, N('m36046'), {startFrom: 100}), S(33.74, 37.12, T(21612)),
-    S(37.12, 38.92, N('m15016')), S(38.92, 40.78, N('m5886'), {zoomIn: false}),
+    S(0, 2.42, T(20235)), S(2.42, 4.38, T(14782), {zoomIn: false}), S(4.38, 5.92, T(3819)), S(5.92, 7.7, T(45564), {zoomIn: false}),
+    S(7.7, 13.78, T(47242)), S(13.78, 15.48, T(1793)), S(15.48, 17.52, T(17450), {zoomIn: false}), S(17.52, 18.5, T(48298)),
+    S(18.5, 20.52, T(20468)), S(20.52, 22.48, T(34126), {zoomIn: false}), S(22.48, 24.62, T(4616)), S(24.62, 26.3, T(21588)),
+    S(27.48, 29.94, CAPSULA, {focusY: 22}), S(29.94, 31.8, FEIRA, {zoomIn: false}), S(31.8, 33.74, T(42185)), S(33.74, 37.12, T(21612)),
+    S(37.12, 38.92, T(15841)), S(38.92, 40.78, T(50726), {zoomIn: false}),
   ],
   overlays: [
     {t: 'hook', from: 0, to: 4.38, lines: ['"É DE MAIS OU', 'DE VEZES?"'], highlight: 'SUA TURMA TAMBÉM PERGUNTA?'},
@@ -174,12 +174,12 @@ const shiftC04 = (delta: number, words: any, audio: string, intro: Config['scene
 };
 // Hook 2 — "Isso aqui parece uma investigação de mistério, mas na verdade é uma atividade de matemática para crianças." (body em +0,431 s)
 export const C04H2: Config = shiftC04(0.431, h2, 'audio/c04-hook2.wav',
-  [S(0, 2.88, T(21612)), S(2.88, 7.011, N('m4792'), {zoomIn: false})],
+  [S(0, 2.88, T(21612)), S(2.88, 7.011, T(34126), {zoomIn: false})],
   {t: 'hook', from: 0, to: 7.011, lines: ['PARECE UMA', 'INVESTIGAÇÃO', 'DE MISTÉRIO...'], highlight: 'MAS É UMA ATIVIDADE|DE MATEMÁTICA!', highlightAt: 2.88},
   [{at: 0, name: 'impact'}, {at: 2.88, name: 'pop'}]);
 // Hook 3 — "Esqueça seus alunos como estudantes, a partir de agora eles serão detetives." (body em −0,771 s)
 export const C04H3: Config = shiftC04(-0.771, h3, 'audio/c04-hook3.wav',
-  [S(0, 2.68, N('m35954')), S(2.68, 5.809, T(21612), {zoomIn: false})],
+  [S(0, 2.68, T(20235)), S(2.68, 5.809, T(21612), {zoomIn: false})],
   {t: 'hook', from: 0, to: 5.809, lines: ['ESQUEÇA SEUS', 'ALUNOS COMO', 'ESTUDANTES...'], highlight: 'AGORA ELES SERÃO|DETETIVES!', highlightAt: 2.68},
   [{at: 0, name: 'impact'}, {at: 2.68, name: 'pop'}]);
 
@@ -200,17 +200,17 @@ import w04h4 from './data/c04-h4.json';
 import w05h2 from './data/c05-h2.json';
 // C02H2 — "Seus alunos sabem fazer as contas, mas basta um problema escrito que se perdem, né?" (corte do c2 em 7,22 s; body em 5,508 s)
 export const C02H2: Config = shiftBase(C02, 7.66, -2.152, w02h2, 'audio/c02-h2.wav',
-  [S(0, 2.54, N('m4792')), S(2.54, 5.508, N('m4790'), {zoomIn: false})],
+  [S(0, 2.54, T(34126)), S(2.54, 5.508, T(14782), {zoomIn: false})],
   {t: 'hook', from: 0, to: 5.508, lines: ['SEUS ALUNOS', 'SABEM FAZER', 'AS CONTAS...'], highlight: 'MAS NO PROBLEMA|ESCRITO SE PERDEM?', highlightAt: 2.54},
   [{at: 0, name: 'impact'}, {at: 2.54, name: 'pop'}]);
 // C04H4 — "Essa atividade transforma problemas de matemática em pistas de uma investigação." (corte do c3 em 6,10 s; body em 5,313 s)
 export const C04H4: Config = shiftBase(C04, 6.58, -1.267, w04h4, 'audio/c04-h4.wav',
-  [S(0, 2.88, N('m50109')), S(2.88, 5.313, T(21612), {zoomIn: false})],
+  [S(0, 2.88, T(45564)), S(2.88, 5.313, T(21612), {zoomIn: false})],
   {t: 'hook', from: 0, to: 5.313, lines: ['ESSA ATIVIDADE', 'TRANSFORMA', 'PROBLEMAS DE', 'MATEMÁTICA...'], highlight: 'EM PISTAS DE UMA|INVESTIGAÇÃO!', highlightAt: 2.88},
   [{at: 0, name: 'impact'}, {at: 2.88, name: 'pop'}]);
 // C05H2 — "Tia, eu odeio matemática. Eu ouço isso toda aula." (corte do c4 em 4,08 s; body em 5,133 s)
 export const C05H2: Config = shiftBase(C05, 4.38, 0.753, w05h2, 'audio/c05-h2.wav',
-  [S(0, 2.94, N('m5927')), S(2.94, 5.133, N('m5940'), {zoomIn: false})],
+  [S(0, 2.94, T(20235)), S(2.94, 5.133, T(14782), {zoomIn: false})],
   {t: 'hook', from: 0, to: 5.133, lines: ['"TIA, EU ODEIO', 'MATEMÁTICA"'], highlight: 'EU OUÇO ISSO|TODA AULA.', highlightAt: 2.94},
   [{at: 0, name: 'impact'}, {at: 2.94, name: 'pop'}]);
 
