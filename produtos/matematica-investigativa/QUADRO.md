@@ -79,6 +79,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 4. **Estrutura:** produzir o lote 1 (30 missões) no intervalo, com a entrega testada **antes** do horário de início. Se não der tempo, adiar o início.
 
 ## Histórico (mais recente em cima)
+- [2026-11-09] Edição: variações de gancho C02H2, C04H4 e C05H2 renderizadas e na página de download (`edicao/videos/`).
 - [2026-11-09] Copy de Criativos: análise dos vencedores (2, 4, 5, 6, 8, 9) e lote 3 para públicos novos (reforço escolar, recomposição/intervenção, pedagoga "de humanas"), revisado pelo comitê.
 - [2026-11-09] Análise (parcial, até ~15h): 7 pedidos, todos Premium, 9 bumps, 1 upsell; CPA R$ 16,64; +R$ 183,68 no dia; acumulado de 06 a 09 empatado (+R$ 9). A decisão do dono de manter as campanhas que já tinham vendido se confirmou (regra de análise de 09/11).
 - [2026-11-08] Análise: domingo de Enem ruim (3 pedidos, sem bump, −R$ 135); o tráfego melhorou (CTR 4,42%, CPC R$ 2,35); a conversão e o ticket caíram; acumulado de 06 a 08: 10 pedidos, CPA R$ 46,67; os Testes 04 e 10 têm CPA R$ 20,82.

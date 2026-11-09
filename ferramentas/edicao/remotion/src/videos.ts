@@ -181,3 +181,34 @@ export const C04H3: Config = shiftC04(-0.771, h3, 'audio/c04-hook3.wav',
   [S(0, 2.68, T(20235)), S(2.68, 5.809, T(21612), {zoomIn: false})],
   {t: 'hook', from: 0, to: 5.809, lines: ['ESQUEÇA SEUS', 'ALUNOS COMO', 'ESTUDANTES...'], highlight: 'AGORA ELES SERÃO|DETETIVES!', highlightAt: 2.68},
   [{at: 0, name: 'impact'}, {at: 2.68, name: 'pop'}]);
+
+// Variações de gancho genéricas: troca o gancho de um vídeo aprovado e desloca o resto (body/CTA) no tempo
+const shiftBase = (base: Config, body: number, delta: number, words: any, audio: string, intro: Config['scenes'], hook: Config['overlays'][0], introSfx: Config['sfx']): Config => {
+  const sh = (t: number) => +(t + delta).toFixed(3);
+  return {
+    ...base, audio, words, dur: sh(base.dur),
+    scenes: [...intro, ...base.scenes.filter((s) => s.from >= body).map((s) => ({...s, from: sh(s.from), to: sh(s.to)}))],
+    overlays: [hook, ...base.overlays.filter((o) => o.from >= body).map((o: any) => ({...o, from: sh(o.from), to: sh(o.to),
+      ...(o.items ? {items: o.items.map((i: any) => ({...i, at: sh(i.at)}))} : {}), ...(o.at ? {at: sh(o.at)} : {}), ...(o.atB ? {atB: sh(o.atB)} : {}),
+      ...(o.chuteAt ? {chuteAt: sh(o.chuteAt), certoAt: sh(o.certoAt)} : {})}))],
+    sfx: [...introSfx, ...base.sfx.filter((x) => x.at >= body).map((x) => ({...x, at: sh(x.at)}))],
+  };
+};
+import w02h2 from './data/c02-h2.json';
+import w04h4 from './data/c04-h4.json';
+import w05h2 from './data/c05-h2.json';
+// C02H2 — "Seus alunos sabem fazer as contas, mas basta um problema escrito que se perdem, né?" (corte do c2 em 7,22 s; body em 5,508 s)
+export const C02H2: Config = shiftBase(C02, 7.66, -2.152, w02h2, 'audio/c02-h2.wav',
+  [S(0, 2.54, T(34126)), S(2.54, 5.508, T(14782), {zoomIn: false})],
+  {t: 'hook', from: 0, to: 5.508, lines: ['SEUS ALUNOS', 'SABEM FAZER', 'AS CONTAS...'], highlight: 'MAS NO PROBLEMA|ESCRITO SE PERDEM?', highlightAt: 2.54},
+  [{at: 0, name: 'impact'}, {at: 2.54, name: 'pop'}]);
+// C04H4 — "Essa atividade transforma problemas de matemática em pistas de uma investigação." (corte do c3 em 6,10 s; body em 5,313 s)
+export const C04H4: Config = shiftBase(C04, 6.58, -1.267, w04h4, 'audio/c04-h4.wav',
+  [S(0, 2.88, T(45564)), S(2.88, 5.313, T(21612), {zoomIn: false})],
+  {t: 'hook', from: 0, to: 5.313, lines: ['ESSA ATIVIDADE', 'TRANSFORMA', 'PROBLEMAS DE', 'MATEMÁTICA...'], highlight: 'EM PISTAS DE UMA|INVESTIGAÇÃO!', highlightAt: 2.88},
+  [{at: 0, name: 'impact'}, {at: 2.88, name: 'pop'}]);
+// C05H2 — "Tia, eu odeio matemática. Eu ouço isso toda aula." (corte do c4 em 4,08 s; body em 5,133 s)
+export const C05H2: Config = shiftBase(C05, 4.38, 0.753, w05h2, 'audio/c05-h2.wav',
+  [S(0, 2.94, T(20235)), S(2.94, 5.133, T(14782), {zoomIn: false})],
+  {t: 'hook', from: 0, to: 5.133, lines: ['"TIA, EU ODEIO', 'MATEMÁTICA"'], highlight: 'EU OUÇO ISSO|TODA AULA.', highlightAt: 2.94},
+  [{at: 0, name: 'impact'}, {at: 2.94, name: 'pop'}]);

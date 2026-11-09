@@ -13,6 +13,9 @@ Página de download (privada, do dono): https://claude.ai/artifact/AvNsPj7qBerTj
 | 2026-11-05 | C05 — "É de mais ou de vezes?" | 44 s | 830 Kids | ✅ aprovado (música abaixada) | `edicao/videos/C05.mp4` |
 | 2026-11-07 | C04 · H2 — gancho "Parece uma investigação de mistério…" + body/CTA do C04 | 50 s | 671 (igual ao C04) | 🔵 entregue | `edicao/videos/C04H2.mp4` |
 | 2026-11-07 | C04 · H3 — gancho "Esqueça seus alunos como estudantes…" + body/CTA do C04 | 49 s | 671 (igual ao C04) | 🔵 entregue | `edicao/videos/C04H3.mp4` |
+| 2026-11-09 | C02 · H2 — gancho "Seus alunos sabem fazer as contas, mas basta um problema escrito que se perdem, né?" + body/CTA do C02 | 48 s | 822 (igual ao C02) | 🔵 entregue | `edicao/videos/C02H2.mp4` |
+| 2026-11-09 | C04 · H4 — gancho "Essa atividade transforma problemas de matemática em pistas de uma investigação" + body/CTA do C04 | 48 s | 671 (igual ao C04) | 🔵 entregue | `edicao/videos/C04H4.mp4` |
+| 2026-11-09 | C05 · H2 — gancho "Tia, eu odeio matemática. Eu ouço isso toda aula." + body/CTA do C05 | 45 s | 830 (igual ao C05) | 🔵 entregue | `edicao/videos/C05H2.mp4` |
 
 Todos: 1080x1920, 30 fps, H.264 + AAC, -14 LUFS (±0,3), até 14 MB, conferidos por grade de quadros.
 Pendência: as folhas e o mockup na tela vieram do dono e não batem com o conteúdo final do lote 1 (comitê, 05/11). Quando a Estrutura entregar as folhas diagramadas finais e o mockup do Básico, trocar em `remotion/public/folhas/` e renderizar de novo (`scripts/render_criativos.sh C01 C02 C03 C04 C05`).
