@@ -26,7 +26,7 @@ Estrutura (amostras) + Copy (promessa e página, com pesquisa enxuta própria). 
 | Mineração / dossiê | ➖ dispensada pelo dono (base: dossiê do Matemática em Missão) | — | 2026-11-06 |
 | Copy de Oferta | 🔵 v2 (método de Singapura) da PROMESSA e da página em PT, revisada pelo comitê; aguardando o dono (headline, preço, garantia, pilha) | `copy/PROMESSA.md`, `copy/pagina-vendas.md`, `copy/pesquisa/2026-11-06-fatos-singapura.md` | 2026-11-07 |
 | Estrutura — amostras / entregável | 🔵 3 amostras com bar model + Guia do Método de Singapura (rascunho) + Cartão do Desenho, aguardando aprovação do dono | `estrutura/entregavel/amostras/` | 2026-11-07 |
-| Estrutura — página | ⬜ | `estrutura/pagina/` | — |
+| Estrutura — página | 🔵 protótipo visual em PT (headline 3 e US$ 17 provisórios) aguardando o dono; não publicado | `estrutura/pagina/index.html`, `estrutura/pagina/prints/` | 2026-11-09 |
 | Estrutura — checkout (gateway USD) | ⬜ gateway: Kiwify recomendada, aguardando respostas do suporte | `produtos/_estrutura/2026-11-06-gateways-usd.md` | 2026-11-06 |
 | Tradução | ⬜ só depois das peças aprovadas em PT | `traducao/en-US/` | — |
 | Copy de Criativos | ⬜ | `criativos/` | — |
@@ -37,7 +37,8 @@ Estrutura (amostras) + Copy (promessa e página, com pesquisa enxuta própria). 
 Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ pronto · ⛔ travado
 
 ## Pedidos entre áreas (abertos)
-- [ ] [2026-11-09] **De** Central **para** Estrutura: protótipo visual da página em PT a partir de `copy/pagina-vendas.md` (v2), com as amostras como imagens, para o dono idealizar. Não publicar, não traduzir.
+- [ ] [2026-11-09] **De** Estrutura **para** dono: o protótipo mostra a pilha **sem o Kit de Missão** (não produzido). Confirmar se ele fica de fora de vez.
+- [x] [2026-11-09] **De** Central **para** Estrutura: protótipo visual da página em PT a partir de `copy/pagina-vendas.md` (v2), com as amostras como imagens, para o dono idealizar. Não publicar, não traduzir.
 - [ ] [2026-11-07] **De** Copy de Oferta **para** Estrutura: dizer se o Kit de Missão (crachá, ficha, certificado) será produzido. Se não for, ele sai da pilha da página. (Os papéis dos irmãos, os 15 min do Guia e o Cartão do Desenho já foram alinhados na copy.)
 - [ ] [2026-11-07] **De** Copy de Oferta **para** dono/jurídico: antes de veicular em inglês, conferir no USPTO/TSDR o uso de "Singapore method" e do nome "Singapore Method Guide" (a marca "SINGAPORE MATH" é a reg. 4030323), e conferir os números do TIMSS/PISA em timss2023.org e oecd.org.
 - [x] [2026-11-07] **De** Estrutura **para** Copy de Oferta: confirmar com link oficial Singapura 1º em matemática no TIMSS 2023 (4º e 8º ano) e no PISA 2022 — o Guia cita isso em rascunho (`estrutura/entregavel/fonte/gerar-guia.js`, seção 1). Usar no Guia os mesmos termos da página: "método de Singapura", "bar model", "Concreto → Desenho → Conta". → Respondido pela Copy: fontes em `copy/pesquisa/2026-11-06-fatos-singapura.md` (MOE e timss2023.org; OCDE). Usar "1º lugar no TIMSS 2023 e no PISA 2022", nunca "desde 1995".
@@ -52,6 +53,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 Estrutura (amostras) e Copy (pesquisa + promessa + página, em PT) em paralelo → dono aprova → Tradução (en-US).
 
 ## Histórico (mais recente em cima)
+- [2026-11-09] Estrutura: protótipo visual da página v2 em PT (texto exato da copy; headline 3 e US$ 17 provisórios; imagens geradas das amostras reais: missão, etapa do bar model em branco e resolvida, palavra-código, Guia, Cartão, gabarito), celular primeiro; dobra cabe em 390 × 844. Prints em `estrutura/pagina/prints/`; prévia privada em claude.ai. Não publicado nem traduzido.
 - [2026-11-09] Dono: retomou o produto; aprovou estrutura e copy da página v2; prioridade é validar a venda; pediu a página em versão visual.
 - [2026-11-07] Dono: **pausa breve** neste produto para ajustes do Matemática em Missão. Pedidos abertos ficam para quando retomar.
 - [2026-11-07] Copy de Oferta: PROMESSA e página v2 com o método de Singapura (CPA + bar model; Guia como peça central da pilha), fatos do TIMSS/PISA e da marca levantados (`copy/pesquisa/2026-11-06-fatos-singapura.md`), revisadas pelo comitê.
