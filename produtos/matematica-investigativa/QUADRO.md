@@ -46,6 +46,7 @@ Copy de Oferta + Estrutura (em paralelo). Decisões de nome, preço e quantidade
 Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ pronto · ⛔ travado
 
 ## Pedidos entre áreas (abertos)
+- [ ] [2026-11-09] **De** Análise **para** Tráfego: em 10/11, com o dia 09 fechado e as UTMs confirmadas, +20% nas campanhas com ≥ 2 pedidos e CPA acumulado ≤ R$ 25 (hoje: 04, 12, 02); manter 05/07/10; 09 pausa só com 2 dias normais sem pedido; 11 segue até ~R$ 67 (`analises/2026-11-09-analise.md`).
 - [ ] [2026-11-08] **De** Análise **para** Tráfego: manter só os Testes 04 (R$ 18) e 10 (R$ 15) por 2 dias sem mexer; reativar o 11 até R$ 33–50; pausar com ~R$ 67 sem pedido; orçamento só sobe com CPA acumulado ≤ R$ 25 (`analises/2026-11-08-analise.md`).
 - [ ] [2026-11-07] **De** Copy de Oferta **para** Estrutura: montar o upsell e o downsell com `copy/upsell-downsell.md`. (1) Cadastrar o Lote 2 como **produto separado** na Cakto Members: hoje `estrutura/cakto-roteiro.md`, linha 34, diz que ele "aparece sozinho para quem já comprou", o que o liberaria de graça. (2) Confirmar a compra com 1 clique. (3) Garantir que o downsell não reaparece e que não há e-mail de recuperação a R$ 19,90. (4) Ativar só com o Lote 2 pronto e testado.
 - [ ] [2026-11-07] **De** Análise **para** Estrutura: produzir o lote 2 (+30 missões, 10 por série, mesmo padrão e revisão do lote 1) e configurar na Cakto o upsell de R$ 27 e o downsell de R$ 19,90 (mesmo produto), nos 2 planos. Só ativar com o lote 2 pronto e a entrega testada.
@@ -78,6 +79,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 4. **Estrutura:** produzir o lote 1 (30 missões) no intervalo, com a entrega testada **antes** do horário de início. Se não der tempo, adiar o início.
 
 ## Histórico (mais recente em cima)
+- [2026-11-09] Análise (parcial, até ~15h): 7 pedidos, todos Premium, 9 bumps, 1 upsell; CPA R$ 16,64; +R$ 183,68 no dia; acumulado de 06 a 09 empatado (+R$ 9). A decisão do dono de manter as campanhas que já tinham vendido se confirmou (regra de análise de 09/11).
 - [2026-11-08] Análise: domingo de Enem ruim (3 pedidos, sem bump, −R$ 135); o tráfego melhorou (CTR 4,42%, CPC R$ 2,35); a conversão e o ticket caíram; acumulado de 06 a 08: 10 pedidos, CPA R$ 46,67; os Testes 04 e 10 têm CPA R$ 20,82.
 - [2026-11-07] Edição: 2 variações de gancho do C04 (H2 e H3) renderizadas e na página de download (`edicao/videos/C04H2.mp4`, `C04H3.mp4`).
 - [2026-11-07] Estrutura: índice do lote 2 (30 missões, 11–20 por série, habilidades que o lote 1 não cobriu) revisado pelo comitê, aguardando aprovação do dono (`estrutura/entregavel/INDICE-LOTE2.md`). Produção e roteiro da Cakto (upsell/downsell) só depois.
