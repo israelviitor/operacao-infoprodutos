@@ -16,6 +16,8 @@ Estrutura (amostras) + Copy (promessa e página, com pesquisa enxuta própria). 
 - [2026-11-06] **Pular a Mineração neste produto.** Base: dossiê do Matemática em Missão + decisões deste quadro. A Copy coleta, com os próprios alunos, falas reais de pais e 3–5 páginas de concorrentes, e registra em `copy/pesquisa/`.
 - [2026-11-06] **Mecanismo central: o método de Singapura** (país nº 1 em matemática no TIMSS e no PISA — citar com fonte): Concreto → Desenho → Abstrato + **bar model** ("desenhe o problema antes de calcular") + domínio antes de avançar. Substitui o "Método da Pista Escondida"/"Problema com Enredo"; o enredo de mistério continua como a forma divertida de treinar o método. Copy agressiva (regra geral). **Não usar "Singapore Math" como nome do produto** (marca registrada nos EUA — a Copy confirma); usar "o método de Singapura".
 - [2026-11-06] **O produto passa a conter o método de verdade:** (1) etapa "desenhe o problema" (bar model) em cada missão; (2) **Guia do Método de Singapura para Pais** como peça central (como aplicar os 3 passos em casa + o que dizer quando a criança travar); (3) cartões de bar model para imprimir. Pilha de valor da página: Guia + 30 missões + cartões + roteiros para pais + kit de missão.
+- [2026-11-09] **Prioridade agora: validar se a venda é viável e se a escala é provável.** O entregável fica em segundo plano (as amostras atuais bastam como mockup; o lote e o Guia final só depois do teste, respeitando a regra de produto pronto antes da veiculação).
+- [2026-11-09] **Estrutura e copy da página v2 aprovadas** pelo dono. Próximo: protótipo visual da página em PT para o dono idealizar (antes da tradução).
 - [2026-11-06] Tradução: só na montagem final, pelo `/diretor-traducao`, a partir da versão aprovada em PT.
 
 ## Status por área
@@ -35,6 +37,7 @@ Estrutura (amostras) + Copy (promessa e página, com pesquisa enxuta própria). 
 Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ pronto · ⛔ travado
 
 ## Pedidos entre áreas (abertos)
+- [ ] [2026-11-09] **De** Central **para** Estrutura: protótipo visual da página em PT a partir de `copy/pagina-vendas.md` (v2), com as amostras como imagens, para o dono idealizar. Não publicar, não traduzir.
 - [ ] [2026-11-07] **De** Copy de Oferta **para** Estrutura: dizer se o Kit de Missão (crachá, ficha, certificado) será produzido. Se não for, ele sai da pilha da página. (Os papéis dos irmãos, os 15 min do Guia e o Cartão do Desenho já foram alinhados na copy.)
 - [ ] [2026-11-07] **De** Copy de Oferta **para** dono/jurídico: antes de veicular em inglês, conferir no USPTO/TSDR o uso de "Singapore method" e do nome "Singapore Method Guide" (a marca "SINGAPORE MATH" é a reg. 4030323), e conferir os números do TIMSS/PISA em timss2023.org e oecd.org.
 - [x] [2026-11-07] **De** Estrutura **para** Copy de Oferta: confirmar com link oficial Singapura 1º em matemática no TIMSS 2023 (4º e 8º ano) e no PISA 2022 — o Guia cita isso em rascunho (`estrutura/entregavel/fonte/gerar-guia.js`, seção 1). Usar no Guia os mesmos termos da página: "método de Singapura", "bar model", "Concreto → Desenho → Conta". → Respondido pela Copy: fontes em `copy/pesquisa/2026-11-06-fatos-singapura.md` (MOE e timss2023.org; OCDE). Usar "1º lugar no TIMSS 2023 e no PISA 2022", nunca "desde 1995".
@@ -49,6 +52,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 Estrutura (amostras) e Copy (pesquisa + promessa + página, em PT) em paralelo → dono aprova → Tradução (en-US).
 
 ## Histórico (mais recente em cima)
+- [2026-11-09] Dono: retomou o produto; aprovou estrutura e copy da página v2; prioridade é validar a venda; pediu a página em versão visual.
 - [2026-11-07] Dono: **pausa breve** neste produto para ajustes do Matemática em Missão. Pedidos abertos ficam para quando retomar.
 - [2026-11-07] Copy de Oferta: PROMESSA e página v2 com o método de Singapura (CPA + bar model; Guia como peça central da pilha), fatos do TIMSS/PISA e da marca levantados (`copy/pesquisa/2026-11-06-fatos-singapura.md`), revisadas pelo comitê.
 - [2026-11-07] Estrutura: amostras refeitas com a etapa "desenhe o problema" (bar model guiado 8–9, meio 9–10, livre 10–11; passo Concreto e critério de domínio na página do adulto; desenho esperado no gabarito) + rascunho do Guia do Método de Singapura para Pais (6 págs) + Cartão do Desenho (2 por folha A4), revisados pelo comitê. Em `estrutura/entregavel/amostras/`.

@@ -5,7 +5,7 @@
 | Produto | Pasta | Fase | Em foco para |
 |---|---|---|---|
 | Matemática Investigativa 3º–5º (Matemática em Missão) | `produtos/matematica-investigativa/` | Tráfego (teste 1) + funil: upsell/downsell do Lote 2 e variações do criativo 4 | **Copy, Estrutura, Edição**, Tráfego, Análise |
-| Math Missions (pais, internacional) | `produtos/math-missions-pais/` | ⏸️ Pausado pelo dono em 07/11 (Copy e Estrutura refazendo com o método de Singapura retomam depois) | — |
+| Math Missions (pais, internacional) | `produtos/math-missions-pais/` | Protótipo visual da página (PT) → decisões → Tradução → teste de venda | Copy, Estrutura, Tradução |
 | VittaFlow (Lymph Reset Plan, EUA) | `produtos/vittaflow/` | Tráfego (testes 01 e 02) | Análise, Tráfego |
 | Decodifica Matemática | `produtos/decodifica-matematica/` | Tráfego (testes 2 e 3) | Tráfego, Análise |
 
