@@ -212,3 +212,58 @@ export const C05H2: Config = shiftBase(C05, 4.38, 0.753, w05h2, 'audio/c05-h2.wa
   [S(0, 2.94, T(20235)), S(2.94, 5.133, T(14782), {zoomIn: false})],
   {t: 'hook', from: 0, to: 5.133, lines: ['"TIA, EU ODEIO', 'MATEMÁTICA"'], highlight: 'EU OUÇO ISSO|TODA AULA.', highlightAt: 2.94},
   [{at: 0, name: 'impact'}, {at: 2.94, name: 'pop'}]);
+
+import c6 from './data/c6.json';
+import c7 from './data/c7.json';
+// C06 — audio c6 — "Professora de reforço, por que uma mãe continuaria pagando suas aulas..."
+export const C06: Config = {
+  audio: 'audio/c6.mp3', words: c6 as any, music: 'audio/799.mp3', musicVol: 0.034, dur: 57.8,
+  keys: ['REFORÇO', 'EVOLUÇÃO', 'FRUSTRANTE', 'TRAVAR', 'MISTÉRIO', 'INVESTIGAR', 'PISTAS', 'APRENDIZADO', 'MELHOR', 'PARTICULAR'],
+  scenes: [
+    S(0, 4.26, T(6363)), S(4.26, 6.98, T(28901)), S(6.98, 9.48, T(1793)), S(9.48, 11.64, T(4616), {zoomIn: false}),
+    S(11.64, 13.46, T(14782)), S(13.46, 16.1, T(45564), {zoomIn: false}), S(16.1, 17.84, T(47241)), S(17.84, 21.94, T(6363), {startFrom: 200}),
+    S(21.94, 24.84, T(20235), {zoomIn: false}), S(24.84, 27.42, T(34126)), S(27.42, 30.16, T(28897), {zoomIn: false}), S(30.16, 33.62, T(47242)),
+    S(33.62, 35.82, T(21612), {zoomIn: false}), S(36.62, 38.86, T(25260)), S(38.86, 40.24, HORTA, {focusY: 22}), S(40.24, 45.02, T(21623)),
+    S(45.02, 46.82, T(48298)), S(46.82, 49.3, CAPSULA, {zoomIn: false}), S(49.3, 51.86, T(50726)),
+  ],
+  overlays: [
+    {t: 'continhas', from: 0, to: 4.26, marks: [{at: 0.4, kind: 'risco', row: 1}, {at: 1.0, kind: 'risco', row: 3}, {at: 1.7, kind: 'x', row: 4}, {at: 2.3, kind: 'risco', row: 6}, {at: 3.0, kind: 'x', row: 7}]},
+    {t: 'hook', from: 0, to: 4.26, lines: ['PROFESSORA', 'DE REFORÇO,'], highlight: 'POR QUE UMA MÃE|CONTINUARIA PAGANDO|SUAS AULAS?', highlightAt: 1.72, panel: true},
+    {t: 'selo', from: 18.54, to: 21.94, text: 'NÃO É O ALUNO. NEM VOCÊ.'},
+    {t: 'selo', from: 31.42, to: 33.62, text: '✕ OUTRA LISTA DE EXERCÍCIOS'},
+    {t: 'brand', from: 35.82, to: 36.62},
+    {t: 'counter', from: 36.62, to: 38.86, value: 30, label: 'MISSÕES PRONTAS PARA IMPRIMIR'},
+    {t: 'check', from: 40.24, to: 45.02, mark: '✓', size: 64, items: [{text: 'INVESTIGAR HISTÓRIAS', at: 40.24}, {text: 'ENCONTRAR PISTAS', at: 41.66}, {text: 'RESOLVER DESAFIOS', at: 42.84}]},
+    {t: 'big', from: 49.3, to: 51.86, text: '"A MELHOR PROFESSORA PARTICULAR', sub: 'DA CIDADE"'},
+    {t: 'cta', from: 51.86, to: 57.8, phrase: 'RECEBA AS 30 MISSÕES', price: 'R$ 17,90'},
+  ],
+  hide: [],
+  sfx: [{at: 0, name: 'impact'}, {at: 1.72, name: 'pop'}, {at: 35.82, name: 'boom'}, {at: 40.24, name: 'pop'}, {at: 41.66, name: 'pop'}, {at: 42.84, name: 'pop'}, {at: 49.3, name: 'impact'}, {at: 52.76, name: 'ding'}],
+};
+
+// C07 — audio c7 — "Seu aluno nem tenta mais..."
+export const C07: Config = {
+  audio: 'audio/c7.mp3', words: c7 as any, music: 'audio/565.mp3', musicVol: 0.05, dur: 41.0,
+  keys: ['CONTINHAS', 'VERMELHO', 'CHUTA', 'PALAVRA', 'CÓDIGO', 'LETRA', 'INVESTIGAÇÃO', 'APAIXONAREM'],
+  scenes: [
+    S(0, 4.76, T(6363)), S(4.76, 7.12, T(20468)), S(7.12, 9.16, T(47242), {zoomIn: false}), S(9.16, 10.54, T(6363)),
+    S(10.54, 13.58, T(14782)), S(13.58, 15.5, T(4326), {zoomIn: false}), S(15.5, 16.3, T(46423)), S(17.72, 19.52, HORTA, {focusY: 22}),
+    S(19.52, 23.8, T(47242), {startFrom: 200}), S(23.8, 28.48, T(21612), {zoomIn: false}), S(28.48, 30.06, T(42185)), S(30.06, 32.52, T(48298), {zoomIn: false}),
+    S(32.52, 34.76, T(25260)), S(34.76, 36.36, CAPSULA), S(36.36, 38.24, GAB, {zoomIn: false}),
+  ],
+  overlays: [
+    {t: 'continhas', from: 0, to: 4.76, marks: [{at: 0.3, kind: 'x', row: 0}, {at: 0.9, kind: 'x', row: 2}, {at: 1.5, kind: 'x', row: 3}, {at: 2.12, kind: 'x', row: 5}, {at: 2.8, kind: 'x', row: 6}, {at: 3.66, kind: 'x', row: 7}]},
+    {t: 'hook', from: 0, to: 4.76, lines: ['SEU ALUNO', 'NEM TENTA MAIS.'], highlight: 'CHUTA UM NÚMERO E|ESPERA O "TÁ ERRADO"', highlightAt: 2.12, panel: true},
+    {t: 'continhas', from: 9.16, to: 10.54, marks: [{at: 9.16, kind: 'x', row: 1}, {at: 9.36, kind: 'x', row: 4}]},
+    {t: 'big', from: 15.5, to: 16.3, text: '"NÃO."'},
+    {t: 'brand', from: 16.3, to: 17.72},
+    {t: 'code', from: 19.52, to: 28.48, word: 'REGA', wrong: {idx: 2, letter: 'X', fixAt: 23.8}, at: [21.06, 21.32, 21.9, 22.14]},
+    {t: 'counter', from: 32.52, to: 34.76, value: 30, label: 'MISSÕES PRONTAS PARA IMPRIMIR'},
+    {t: 'stars', from: 34.76, to: 36.36},
+    {t: 'selo', from: 36.36, to: 38.24, text: '✓ GABARITO COMENTADO'},
+    {t: 'cta', from: 38.24, to: 41.0, phrase: 'VEJA UMA MISSÃO POR DENTRO', price: 'R$ 17,90'},
+  ],
+  hide: [],
+  sfx: [{at: 0, name: 'impact'}, {at: 2.12, name: 'pop'}, {at: 9.36, name: 'impact', vol: 0.3}, {at: 15.5, name: 'impact', vol: 0.3}, {at: 16.3, name: 'boom'},
+    {at: 21.06, name: 'pop'}, {at: 21.32, name: 'pop'}, {at: 21.9, name: 'pop'}, {at: 22.14, name: 'pop'}, {at: 23.8, name: 'ding'}, {at: 34.76, name: 'pop'}, {at: 38.58, name: 'ding'}],
+};

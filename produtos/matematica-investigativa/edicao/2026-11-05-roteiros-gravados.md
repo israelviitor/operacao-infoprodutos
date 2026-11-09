@@ -52,3 +52,21 @@
 - [x] Fonte das imagens: banco do Descript, sem rostos
 - [ ] Receber as folhas diagramadas (lista na resposta ao dono de 05/11)
 - [ ] Editar → comitê → publicar → registrar links em `edicoes.md`
+
+---
+
+# Criativos novos gravados (2026-11-09)
+
+> Áudios no Drive: "Audio c6.mp3" → **C06**, "Audio c7.mp3" → **C07** (as imagens usam outra numeração; os vídeos seguem esta). Texto conferido pelo Whisper: bate com o roteiro.
+
+## C06 — Professora de reforço
+**Gancho:** "Professora de reforço, por que uma mãe continuaria pagando suas aulas se não percebe nenhuma evolução no filho?"
+**Corpo:** "Eu sei como é frustrante se dedicar, explicar a mesma coisa várias vezes e, mesmo assim, ver o aluno travar diante de um problema de matemática. Mas deixa eu te falar uma coisa: o problema não está no aluno. E muito menos em você. Está na forma como a matemática é apresentada. Para uma criança, passar a aula inteira resolvendo contas pode ser extremamente chato. Mas e se, em vez de receber outra lista de exercícios, ela tivesse um mistério para desvendar? Te apresento 30 missões prontas para imprimir, nas quais seus alunos precisam investigar histórias, encontrar pistas e resolver desafios matemáticos. Agora o aprendizado evolui e você vê as mães de seus alunos te intitulando como a melhor professora particular da cidade."
+**CTA:** "Basta clicar em Saiba mais e receber 30 missões que vão mudar o aprendizado de seus alunos."
+**Cenas:** abre na folha de continhas riscada sobre a mesa (animação) → folhas da missão → mockup no CTA com R$ 17,90.
+
+## C07 — O aluno que só chuta
+**Gancho:** "Seu aluno nem tenta mais. Chuta um número e espera o 'tá errado'."
+**Corpo:** "Ele passou anos na lista de continhas, onde a única resposta que recebia era um X vermelho. Aí chega na resolução dos problemas e nem tenta: chuta qualquer número e espera o 'não'. No Matemática em Missão, quem mostra o erro não é você, é a palavra-código. Cada resposta vira uma letra. Assim, o erro vira parte da investigação, e não apenas mais uma resposta marcada como errada. Faça seus alunos se apaixonarem na verdadeira matemática. São 30 missões prontas para imprimir, com três níveis de dificuldade e gabaritos comentados."
+**CTA:** "Toque em Saiba mais e veja uma missão por dentro."
+**Cenas:** abre na folha de continhas cheia de X vermelhos (animação) → na palavra-código, as letras se formam: R-E-X-A (X vermelho, "a palavra não fecha") e depois R-E-G-A em verde (palavra-código real da Missão da Horta, 3º-03) → mockup no CTA com R$ 17,90.

@@ -9,12 +9,13 @@ const useSpring = (delay = 0, damping = 12) => {
 };
 
 // Gancho: título gigante + linha em caixa de destaque
-export const HookTitle: React.FC<{lines: string[]; highlight: string; highlightFrom?: number}> = ({lines, highlight, highlightFrom = 8}) => {
+export const HookTitle: React.FC<{lines: string[]; highlight: string; highlightFrom?: number; panel?: boolean}> = ({lines, highlight, highlightFrom = 8, panel = false}) => {
   const a = useSpring(0, 11);
   const b = useSpring(highlightFrom, 10);
   const size = Math.min(96, ...lines.map((l) => Math.floor(940 / (l.length * 0.74))));
   return (
     <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', padding: 60, marginTop: -120}}>
+      {panel && <div style={{position: 'absolute', left: 40, right: 40, top: '50%', height: 860, marginTop: -560, borderRadius: 40, background: 'rgba(15,22,56,.86)', opacity: a, border: `5px solid ${theme.yellow}`}} />}
       <div style={{transform: `scale(${0.6 + 0.4 * a})`, opacity: a, textAlign: 'center'}}>
         {lines.map((l, i) => (
           <div key={i} style={{...font, fontSize: size, whiteSpace: 'nowrap', lineHeight: 1.04, color: theme.white, WebkitTextStroke: `14px ${theme.navyDark}`, paintOrder: 'stroke fill', textShadow: '0 10px 30px rgba(0,0,0,.6)'}}>
@@ -252,3 +253,76 @@ export const CTA: React.FC<{phrase: string; price?: string}> = ({phrase, price})
 export const Lupa: React.FC<{size?: number; color?: string}> = ({size = 60, color = theme.yellow}) => (
   <svg width={size} height={size} viewBox="0 0 100 100"><circle cx="40" cy="40" r="28" stroke={color} strokeWidth="12" fill="none" /><path d="M61 61 L90 90" stroke={color} strokeWidth="14" strokeLinecap="round" /></svg>
 );
+
+// Folha de continhas sobre a mesa: X vermelhos e riscos aparecendo (frames relativos)
+export const Continhas: React.FC<{marks: {at: number; kind: 'x' | 'risco'; row: number}[]}> = ({marks}) => {
+  const f = useCurrentFrame();
+  const {fps, durationInFrames} = useVideoConfig();
+  const rows = ['23 + 14 = 37', '48 − 19 = 29', '6 × 7 = 42', '56 ÷ 8 = 7', '35 + 27 = 52', '9 × 6 = 54', '81 − 46 = 35', '72 ÷ 9 = 8'];
+  const kb = interpolate(f, [0, durationInFrames], [1.02, 1.1]);
+  return (
+    <AbsoluteFill style={{background: 'radial-gradient(circle at 50% 40%, #8a5a34 0%, #5c3a20 60%, #3a2414 100%)'}}>
+      <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center', transform: `scale(${kb})`}}>
+        <div style={{width: 820, height: 1240, marginTop: -60, background: '#FBFAF5', borderRadius: 10, transform: 'rotate(-4deg)', boxShadow: '0 40px 90px rgba(0,0,0,.55)', padding: '70px 70px 0 110px', position: 'relative',
+          backgroundImage: 'repeating-linear-gradient(180deg, transparent 0 128px, #B9D3EE 128px 131px)', backgroundPositionY: 40}}>
+          <div style={{position: 'absolute', left: 80, top: 0, bottom: 0, width: 4, background: '#F2A3A3'}} />
+          <div style={{...font, fontWeight: 800, fontSize: 40, color: '#3B4A6B', marginBottom: 24}}>LISTA DE EXERCÍCIOS</div>
+          {rows.map((r, i) => {
+            const ms = marks.filter((m) => m.row === i && f >= m.at);
+            return (
+              <div key={i} style={{position: 'relative', height: 131, display: 'flex', alignItems: 'center', fontFamily: theme.font, fontWeight: 800, fontSize: 64, color: '#2B2F3A', letterSpacing: 2}}>
+                <span style={{opacity: 0.85}}>{i + 1}) {r}</span>
+                {ms.map((m, k) => {
+                  const s = spring({frame: f - m.at, fps, config: {damping: 9, stiffness: 260}});
+                  return m.kind === 'x' ? (
+                    <svg key={k} width="150" height="150" viewBox="0 0 100 100" style={{position: 'absolute', right: 10, top: -10, transform: `scale(${s}) rotate(-8deg)`}}>
+                      <path d="M15 15 L85 85 M85 15 L15 85" stroke="#E0282E" strokeWidth="14" strokeLinecap="round" />
+                    </svg>
+                  ) : (
+                    <svg key={k} width="640" height="60" viewBox="0 0 640 60" style={{position: 'absolute', left: -10, top: 36}}>
+                      <path d="M5 35 C 120 15, 220 50, 330 25 S 540 45, 635 20" stroke="#E0282E" strokeWidth="9" fill="none" strokeLinecap="round" strokeDasharray="700" strokeDashoffset={700 * (1 - s)} />
+                    </svg>
+                  );
+                })}
+              </div>
+            );
+          })}
+        </div>
+      </AbsoluteFill>
+    </AbsoluteFill>
+  );
+};
+
+// Palavra-código se formando: letras entram; a errada fica vermelha e depois vira a certa
+export const CodeWord: React.FC<{word: string; wrong: {idx: number; letter: string; fixAt: number}; at: number[]}> = ({word, wrong, at}) => {
+  const f = useCurrentFrame();
+  const {fps} = useVideoConfig();
+  const t = spring({frame: f, fps, config: {damping: 12}});
+  const fixed = f >= wrong.fixAt;
+  const done = fixed ? spring({frame: f - wrong.fixAt, fps, config: {damping: 10}}) : 0;
+  return (
+    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'flex-start', paddingTop: 330}}>
+      <div style={{transform: `scale(${t})`, background: 'rgba(15,22,56,.92)', border: `6px solid ${theme.yellow}`, borderRadius: 36, padding: '30px 44px', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 26}}>
+        <div style={{...font, fontSize: 54, color: theme.yellow, letterSpacing: 3}}>PALAVRA-CÓDIGO</div>
+        <div style={{display: 'flex', gap: 20}}>
+          {word.split('').map((ch, i) => {
+            const show = f >= at[i];
+            const s = spring({frame: f - at[i], fps, config: {damping: 9, stiffness: 240}});
+            const isWrong = i === wrong.idx && !fixed;
+            const letter = isWrong ? wrong.letter : ch;
+            const bg = isWrong ? '#E5484D' : fixed ? '#2EB872' : theme.white;
+            return (
+              <div key={i} style={{width: 150, height: 170, borderRadius: 22, background: show ? bg : 'rgba(255,255,255,.12)', border: '4px dashed rgba(255,255,255,.35)', display: 'flex', alignItems: 'center', justifyContent: 'center',
+                ...font, fontSize: 120, color: isWrong || fixed ? theme.white : theme.navyDark, transform: `scale(${show ? 0.6 + 0.4 * s : 1}) ${isWrong ? `rotate(${Math.sin(f / 2) * 4}deg)` : ''}`}}>
+                {show ? letter : ''}
+              </div>
+            );
+          })}
+        </div>
+        <div style={{...font, fontSize: 46, color: theme.white, opacity: f >= at[at.length - 1] ? 1 : 0, height: 56}}>
+          {fixed ? <span style={{color: '#46D98F', transform: `scale(${done})`, display: 'inline-block'}}>✓ A PALAVRA FECHOU!</span> : <span style={{color: '#FF8A8E'}}>✕ A PALAVRA NÃO FECHA</span>}
+        </div>
+      </div>
+    </AbsoluteFill>
+  );
+};

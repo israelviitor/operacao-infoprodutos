@@ -79,6 +79,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 4. **Estrutura:** produzir o lote 1 (30 missões) no intervalo, com a entrega testada **antes** do horário de início. Se não der tempo, adiar o início.
 
 ## Histórico (mais recente em cima)
+- [2026-11-09] Edição: criativos novos C06 (Professora de reforço) e C07 (O aluno que só chuta) editados e na página de download; roteiros em `edicao/2026-11-05-roteiros-gravados.md`.
 - [2026-11-09] Edição: variações de gancho C02H2, C04H4 e C05H2 renderizadas e na página de download (`edicao/videos/`).
 - [2026-11-09] Copy de Criativos: análise dos vencedores (2, 4, 5, 6, 8, 9) e lote 3 para públicos novos (reforço escolar, recomposição/intervenção, pedagoga "de humanas"), revisado pelo comitê.
 - [2026-11-09] Análise (parcial, até ~15h): 7 pedidos, todos Premium, 9 bumps, 1 upsell; CPA R$ 16,64; +R$ 183,68 no dia; acumulado de 06 a 09 empatado (+R$ 9). A decisão do dono de manter as campanhas que já tinham vendido se confirmou (regra de análise de 09/11).
