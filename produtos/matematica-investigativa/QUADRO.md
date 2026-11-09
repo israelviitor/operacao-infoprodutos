@@ -38,7 +38,7 @@ Copy de Oferta + Estrutura (em paralelo). Decisões de nome, preço e quantidade
 | Estrutura — entregável | 🔵 3 missões-amostra prontas (comitê aprovou), aguardando o dono aprovar o modelo → lote 1 | `estrutura/entregavel/amostras/*.pdf` (fontes e gerador em `estrutura/entregavel/fonte/`) | 2026-10-28 |
 | Estrutura — página montada | 🔵 montada e revisada pelo comitê; falta o dono preencher checkout, pixel, responsável/e-mail e a Copy fechar 3 pedidos → publicar | `estrutura/pagina/` (`index.html`, `PUBLICAR.md`) | 2026-10-28 |
 | Estrutura — Cakto | 🔵 roteiro pronto (comitê: sobe), dono executa no painel | `estrutura/cakto-roteiro.md`, `estrutura/cakto/` (imagens) | 2026-10-28 |
-| Copy de Criativos | 🔵 lote 2 (5 vídeos + 5 imagens, Hook/Body/CTA) revisado pelo comitê, aguardando o dono; o lote 1 foi substituído · a produção depende das missões diagramadas finais | `criativos/2026-11-04-lote-2.md` | 2026-11-04 |
+| Copy de Criativos | 🔵 lote 3 (públicos novos: reforço, intervenção, pedagoga; 2 vídeos + 1 imagem) revisado pelo comitê, aguardando o dono | `criativos/2026-11-09-lote-3-publico-novo.md` (anúncios no ar: `criativos/2026-11-09-anuncios-no-ar.md`) | 2026-11-09 |
 | Edição | ✅ 5 criativos aprovados pelo dono (05/11); trocar folhas/mockup e renderizar de novo quando a Estrutura entregar as versões finais | `edicoes.md`, `edicao/videos/` | 2026-11-05 |
 | Tráfego | 🟡 teste 1 rodando desde 06/11 (10 campanhas, R$ 15/dia cada) | `trafego/dados/2026-11-06-campanhas.csv` | 2026-11-07 |
 | Análise | ✅ página nova, todos os critérios (pré-lançamento) | `analises/2026-11-03-analise.md` | 2026-11-03 |
@@ -79,6 +79,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 4. **Estrutura:** produzir o lote 1 (30 missões) no intervalo, com a entrega testada **antes** do horário de início. Se não der tempo, adiar o início.
 
 ## Histórico (mais recente em cima)
+- [2026-11-09] Copy de Criativos: análise dos vencedores (2, 4, 5, 6, 8, 9) e lote 3 para públicos novos (reforço escolar, recomposição/intervenção, pedagoga "de humanas"), revisado pelo comitê.
 - [2026-11-09] Análise (parcial, até ~15h): 7 pedidos, todos Premium, 9 bumps, 1 upsell; CPA R$ 16,64; +R$ 183,68 no dia; acumulado de 06 a 09 empatado (+R$ 9). A decisão do dono de manter as campanhas que já tinham vendido se confirmou (regra de análise de 09/11).
 - [2026-11-08] Análise: domingo de Enem ruim (3 pedidos, sem bump, −R$ 135); o tráfego melhorou (CTR 4,42%, CPC R$ 2,35); a conversão e o ticket caíram; acumulado de 06 a 08: 10 pedidos, CPA R$ 46,67; os Testes 04 e 10 têm CPA R$ 20,82.
 - [2026-11-07] Edição: 2 variações de gancho do C04 (H2 e H3) renderizadas e na página de download (`edicao/videos/C04H2.mp4`, `C04H3.mp4`).
