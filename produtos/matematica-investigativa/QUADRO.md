@@ -12,7 +12,8 @@ Copy de Oferta + Estrutura (em paralelo). Decisões de nome, preço e quantidade
 ## Decisões do dono (valem para todas as áreas)
 - [2026-11-07] **Upsell/downsell:** headline do upsell = "Suas missões vão fazer a turma pedir a próxima. Quando as 10 da sua série acabarem, o que você entrega?" · **o Lote 2 é vendido só no pós-compra** (sem e-mail, remarketing ou outro canal a R$ 27 ou menos), por isso "só nesta página" e "última chance" valem.
 - [2026-11-07] **Upsell:** Lote 2 com +30 missões (10 por série, mesmo padrão do lote 1), **R$ 27**. **Downsell:** a mesma oferta (as mesmas 30 missões) com desconto maior, **R$ 19,90** (confirmado pelo dono em 07/11). As missões 31 a 60 deixam de ser atualização grátis e viram o upsell. Entra no ar só com o lote 2 pronto.
-- [2026-11-04] Criativos: **sem rostos** (só mãos, folhas e narração) e preço no anúncio **R$ 17,90** (mockup só com o conteúdo do Básico).
+- [2026-11-09] Vídeos de criativo **podem mostrar pessoas** de banco quando combinam com a fala (alunos → crianças estudando; professora → professora; mãe → mãe com filho). Substitui o "sem rostos" de 04/11. Preço no anúncio continua **R$ 17,90** (mockup só com o conteúdo do Básico).
+- ~~[2026-11-04] Criativos: **sem rostos** (só mãos, folhas e narração)~~ — substituída em 09/11.
 - [2026-11-04] **Oferta em 2 planos** (substitui a decisão de 03/11 sobre bônus e bumps e a estrutura da Cakto do dossiê §5):
   - **Básico R$ 17,90:** 30 missões (10 por série, 3 níveis, gabarito comentado, roteiro de 2 min).
   - **Premium R$ 29,90:** as 30 missões + Kit de Ambientação + Plano de Aplicação de 30 Dias + Cartaz do Problema com Enredo/Painel "Missões Cumpridas" + Desafios Relâmpago (30 desafios) + Grande Missão Final (1 por série).
