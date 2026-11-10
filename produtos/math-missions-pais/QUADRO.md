@@ -18,6 +18,7 @@ Estrutura (amostras) + Copy (promessa e página, com pesquisa enxuta própria). 
 - [2026-11-06] **O produto passa a conter o método de verdade:** (1) etapa "desenhe o problema" (bar model) em cada missão; (2) **Guia do Método de Singapura para Pais** como peça central (como aplicar os 3 passos em casa + o que dizer quando a criança travar); (3) cartões de bar model para imprimir. Pilha de valor da página: Guia + 30 missões + cartões + roteiros para pais + kit de missão.
 - [2026-11-09] **Prioridade agora: validar se a venda é viável e se a escala é provável.** O entregável fica em segundo plano (as amostras atuais bastam como mockup; o lote e o Guia final só depois do teste, respeitando a regra de produto pronto antes da veiculação).
 - [2026-11-09] **Estrutura e copy da página v2 aprovadas** pelo dono. Próximo: protótipo visual da página em PT para o dono idealizar (antes da tradução).
+- [2026-11-10] **Headline da página: nº 1 da PROMESSA — "O método do país nº 1 em matemática para seu filho parar de chutar a conta."** (substitui a nº 4 provisória do protótipo). Pré-headline: a recomendada pela Copy ("Seu filho sabe fazer a conta, mas trava quando o problema vem escrito?"), salvo mudança do dono.
 - [2026-11-06] Tradução: só na montagem final, pelo `/diretor-traducao`, a partir da versão aprovada em PT.
 
 ## Status por área
@@ -53,6 +54,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 Estrutura (amostras) e Copy (pesquisa + promessa + página, em PT) em paralelo → dono aprova → Tradução (en-US).
 
 ## Histórico (mais recente em cima)
+- [2026-11-10] Dono escolheu a headline nº 1 para a página.
 - [2026-11-09] Estrutura: protótipo visual da página v2 em PT (texto exato da copy; headline 3 e US$ 17 provisórios; imagens geradas das amostras reais: missão, etapa do bar model em branco e resolvida, palavra-código, Guia, Cartão, gabarito), celular primeiro; dobra cabe em 390 × 844. Prints em `estrutura/pagina/prints/`; prévia privada em claude.ai. Não publicado nem traduzido.
 - [2026-11-09] Dono: retomou o produto; aprovou estrutura e copy da página v2; prioridade é validar a venda; pediu a página em versão visual.
 - [2026-11-07] Dono: **pausa breve** neste produto para ajustes do Matemática em Missão. Pedidos abertos ficam para quando retomar.
