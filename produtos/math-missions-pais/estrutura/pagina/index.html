@@ -1,9 +1,9 @@
 <title>Math Missions para Pais</title>
-<meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="Protótipo visual em PT da página de vendas do Math Missions (versão para pais). Não publicar.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;700&display=swap">
+<meta content="cover" name="claude:viewport-fit-sides"/>
+<meta content="Protótipo visual em PT da página de vendas do Math Missions (versão para pais). Não publicar." name="description"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&amp;family=Figtree:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
 <style>
 /* Layout: coluna única de celular (390 px) que abre em 2 colunas na dobra e na oferta acima de 900 px.
    Motivo visual: a barra do bar model (partes + todo) como divisor e marcador. Um só visual claro, de propósito (página de venda). */
@@ -55,7 +55,7 @@ p { margin: 0; }
 .dobra { padding-block: 18px 26px; }
 .dobra .miolo { gap: 12px; }
 .dobra h1 { font-size: clamp(1.62rem, 7.2vw, 2.9rem); }
-.dobra h1 .q { white-space: nowrap; }
+.dobra h1 .q { white-space: normal; }
 .sub { color: var(--suave); font-size: .97rem; line-height: 1.45; }
 .dado { display: flex; gap: 8px; align-items: center; font: 700 .86rem/1.3 var(--texto); }
 .dado sup, .rod sup { font-size: .7em; }
@@ -165,249 +165,231 @@ details p { padding: 0 14px 14px; color: var(--suave); }
 .fecho em { font-style: normal; color: var(--caneta); }
 .rod { font-size: .78rem; color: var(--suave); display: grid; gap: 10px; }
 .rod a { color: var(--suave); }
-.prototipo { position: fixed; right: max(10px, env(safe-area-inset-right, 0px)); top: calc(6px + env(safe-area-inset-top, 0px)); background: #fff8d6; color: #5b4600; border: 1px solid #e5cf6a; font: 700 .7rem/1 var(--texto); padding: 6px 9px; border-radius: 8px; letter-spacing: .04em; z-index: 5; }
+.prototipo { display: block; text-align: center; background: #fff8d6; color: #5b4600; font: 700 .7rem/1 var(--texto); padding: 6px max(16px, env(safe-area-inset-right, 0px)) 6px max(16px, env(safe-area-inset-left, 0px)); letter-spacing: .04em; }
 </style>
-
 <div class="prototipo">PROTÓTIPO · PT · NÃO PUBLICAR</div>
-
 <!-- 1. PRIMEIRA DOBRA -->
-<div class="pre">Seu filho sabe fazer a conta, mas trava quando o problema vem escrito?</div>
-<header class="faixa dobra">
-  <div class="miolo">
-    <h1>Por que as crianças de Singapura não perguntam <span class="q">“é de mais ou de vezes?”</span></h1>
-    <p class="sub">Em 3 passos (Concreto → Desenho → Conta), seu filho de 8 a 11 anos aprende a enxergar o problema antes de fazer a conta, e treina em missões de mistério para imprimir. Você só precisa seguir o guia.</p>
-    <p class="dado"><span class="barra" aria-hidden="true"><i style="flex:3"></i><i style="flex:2"></i><i style="flex:1"></i></span><span>Singapura: 1º lugar em matemática no TIMSS 2023 e no PISA 2022<sup>1</sup></span></p>
-    <div class="mock"><img src="img/mockup-dobra.jpg" width="1000" height="760" alt="Guia do Método de Singapura para Pais na frente, uma missão e o Cartão do Desenho atrás"></div>
-    <ul class="checks">
-      <li>O “desenhe antes de calcular” que as escolas de Singapura usam desde os anos 80<sup>2</sup></li>
-      <li>O fim do “é de mais ou de vezes?” e do chute</li>
-      <li>Você não precisa saber matemática: o guia diz o que falar</li>
-      <li>Fora da tela, com cara de jogo</li>
-    </ul>
-    <a class="botao" href="#prova">Veja como funciona</a>
-  </div>
+<div class="pre" data-bloco="01-dobra" data-t="01-dobra.00">Seu filho sabe fazer a conta, mas trava quando o problema vem escrito?</div>
+<header class="faixa dobra" data-bloco="01-dobra">
+<div class="miolo">
+<h1 data-t="01-dobra.01">O método do país nº 1 em matemática para seu filho <span class="q">parar de chutar a conta.</span></h1>
+<p class="sub" data-t="01-dobra.02">Em 3 passos (Concreto → Desenho → Conta), seu filho de 8 a 11 anos aprende a enxergar o problema antes de fazer a conta, e treina em missões de mistério para imprimir. Você só precisa seguir o guia.</p>
+<p class="dado" data-t="01-dobra.03"><span aria-hidden="true" class="barra"><i style="flex:3"></i><i style="flex:2"></i><i style="flex:1"></i></span><span>Singapura: 1º lugar em matemática no TIMSS 2023 e no PISA 2022<sup>1</sup></span></p>
+<div class="mock"><img alt="Guia do Método de Singapura para Pais na frente, uma missão e o Cartão do Desenho atrás" data-t="01-dobra.04" height="760" src="img/mockup-dobra.jpg" width="1000"/></div>
+<ul class="checks">
+<li data-t="01-dobra.05">O “desenhe antes de calcular” que as escolas de Singapura usam desde os anos 80<sup>2</sup></li>
+<li data-t="01-dobra.06">O fim do “é de mais ou de vezes?” e do chute</li>
+<li data-t="01-dobra.07">Você não precisa saber matemática: o guia diz o que falar</li>
+<li data-t="01-dobra.08">Fora da tela, com cara de jogo</li>
+</ul>
+<a class="botao" data-t="01-dobra.09" href="#prova">Veja como funciona</a>
+</div>
 </header>
-
 <!-- 2. DOR + INIMIGO -->
-<section class="faixa alt">
-  <div class="miolo estreito">
-    <h2>Toda noite, a mesma cena?</h2>
-    <ul class="dor">
-      <li>A folha de contas sai certinha. O problema escrito, não.</li>
-      <li>“É de mais ou de vezes?” e depois ele chuta.</li>
-      <li>Você explica do seu jeito e ouve “não é assim que a professora faz”.</li>
-      <li>A lição termina em choro na mesa da cozinha, e às vezes o choro é dos dois.</li>
-      <li>Ele já diz “sou ruim em matemática”.</li>
-    </ul>
-    <p class="virada">Não é falta de capacidade. É o método. A folha de repetição ensina a <b>decorar e repetir</b>: a conta vem pronta, ele faz e passa para a próxima. Ninguém nunca mostrou o problema para ele.</p>
-    <p class="contraste">No país nº 1 do mundo em matemática, uma criança de 8 anos aprende a não adivinhar a conta. Ela <b>desenha o problema</b>, e a conta aparece.</p>
-  </div>
+<section class="faixa alt" data-bloco="02-dor">
+<div class="miolo estreito">
+<h2 data-t="02-dor.01">Toda noite, a mesma cena?</h2>
+<ul class="dor">
+<li data-t="02-dor.02">A folha de contas sai certinha. O problema escrito, não.</li>
+<li data-t="02-dor.03">“É de mais ou de vezes?” e depois ele chuta.</li>
+<li data-t="02-dor.04">Você explica do seu jeito e ouve “não é assim que a professora faz”.</li>
+<li data-t="02-dor.05">A lição termina em choro na mesa da cozinha, e às vezes o choro é dos dois.</li>
+<li data-t="02-dor.06">Ele já diz “sou ruim em matemática”.</li>
+</ul>
+<p class="virada" data-t="02-dor.07">Não é falta de capacidade. É o método. A folha de repetição ensina a <b>decorar e repetir</b>: a conta vem pronta, ele faz e passa para a próxima. Ninguém nunca mostrou o problema para ele.</p>
+<p class="contraste" data-t="02-dor.08">No país nº 1 do mundo em matemática, uma criança de 8 anos aprende a não adivinhar a conta. Ela <b>desenha o problema</b>, e a conta aparece.</p>
+</div>
 </section>
-
 <!-- 3. PROVA DO PRODUTO -->
-<section class="faixa" id="prova">
-  <div class="miolo">
-    <p class="rotulo">Páginas reais do material</p>
-    <h2>Veja o desenho que muda tudo</h2>
-    <div class="trilho" tabindex="0" aria-label="Páginas do material, role para o lado">
-      <figure><div class="moldura"><img src="img/c1-problema.jpg" alt="Página da missão A Caça ao Tesouro do Acampamento" loading="lazy"></div><figcaption><b>1</b>O problema escrito da missão</figcaption></figure>
-      <figure><div class="moldura"><img src="img/c2-desenhe.jpg" alt="Etapa desenhe o problema, com a barra em branco" loading="lazy"></div><figcaption><b>2</b>Passo 2: ele desenha o problema em barras</figcaption></figure>
-      <figure><div class="moldura"><img src="img/c3-resolvida.jpg" alt="A mesma etapa resolvida: barra dividida em 35, 17 e ?, conta 60 − 35 − 17 = 8" loading="lazy"></div><figcaption><b>3</b>Com o desenho, a conta fica à vista</figcaption></figure>
-      <figure><div class="moldura"><img src="img/c4-codigo.jpg" alt="Tabela da palavra-código com a palavra LAGO" loading="lazy"></div><figcaption><b>4</b>Cada resposta vira uma letra da palavra-código</figcaption></figure>
-      <figure><div class="moldura"><img src="img/c5-guia-barras.jpg" alt="Página do Guia com os desenhos em barra" loading="lazy"></div><figcaption><b>5</b>O Guia do Método: os 3 passos em linguagem de casa</figcaption></figure>
-      <figure><div class="moldura"><img src="img/c6-cartao.jpg" alt="Cartão do Desenho para imprimir" loading="lazy"></div><figcaption><b>6</b>O Cartão do Desenho para deixar na mesa</figcaption></figure>
-      <figure><div class="moldura"><img src="img/c7-gabarito.jpg" alt="Gabarito explicado para o adulto" loading="lazy"></div><figcaption><b>7</b>O gabarito explica cada conta e o erro mais comum</figcaption></figure>
-    </div>
-    <p class="dica-trilho">Arraste para o lado para ver as 7 páginas →</p>
-  </div>
+<section class="faixa" data-bloco="03-prova" id="prova">
+<div class="miolo">
+<p class="rotulo" data-t="03-prova.01">Páginas reais do material</p>
+<h2 data-t="03-prova.02">Veja o desenho que muda tudo</h2>
+<div aria-label="Páginas do material, role para o lado" class="trilho" tabindex="0">
+<figure><div class="moldura"><img alt="Página da missão A Caça ao Tesouro do Acampamento" data-t="03-prova.03" loading="lazy" src="img/c1-problema.jpg"/></div><figcaption data-t="03-prova.04"><b>1</b>O problema escrito da missão</figcaption></figure>
+<figure><div class="moldura"><img alt="Etapa desenhe o problema, com a barra em branco" data-t="03-prova.05" loading="lazy" src="img/c2-desenhe.jpg"/></div><figcaption data-t="03-prova.06"><b>2</b>Passo 2: ele desenha o problema em barras</figcaption></figure>
+<figure><div class="moldura"><img alt="A mesma etapa resolvida: barra dividida em 35, 17 e ?, conta 60 − 35 − 17 = 8" data-t="03-prova.07" loading="lazy" src="img/c3-resolvida.jpg"/></div><figcaption data-t="03-prova.08"><b>3</b>Com o desenho, a conta fica à vista</figcaption></figure>
+<figure><div class="moldura"><img alt="Tabela da palavra-código com a palavra LAGO" data-t="03-prova.09" loading="lazy" src="img/c4-codigo.jpg"/></div><figcaption data-t="03-prova.10"><b>4</b>Cada resposta vira uma letra da palavra-código</figcaption></figure>
+<figure><div class="moldura"><img alt="Página do Guia com os desenhos em barra" data-t="03-prova.11" loading="lazy" src="img/c5-guia-barras.jpg"/></div><figcaption data-t="03-prova.12"><b>5</b>O Guia do Método: os 3 passos em linguagem de casa</figcaption></figure>
+<figure><div class="moldura"><img alt="Cartão do Desenho para imprimir" data-t="03-prova.13" loading="lazy" src="img/c6-cartao.jpg"/></div><figcaption data-t="03-prova.14"><b>6</b>O Cartão do Desenho para deixar na mesa</figcaption></figure>
+<figure><div class="moldura"><img alt="Gabarito explicado para o adulto" data-t="03-prova.15" loading="lazy" src="img/c7-gabarito.jpg"/></div><figcaption data-t="03-prova.16"><b>7</b>O gabarito explica cada conta e o erro mais comum</figcaption></figure>
+</div>
+<p class="dica-trilho" data-t="03-prova.17">Arraste para o lado para ver as 7 páginas →</p>
+</div>
 </section>
-
 <!-- 4. MECANISMO -->
-<section class="faixa alt">
-  <div class="miolo">
-    <h2>O método de Singapura em 3 passos</h2>
-    <div class="passos">
-      <div class="passo">
-        <svg viewBox="0 0 58 58" aria-hidden="true"><rect x="1" y="1" width="56" height="56" rx="12" fill="#fff" stroke="#0f2547" stroke-width="2"/><circle cx="20" cy="36" r="7" fill="#fff" stroke="#0f2547" stroke-width="2.5"/><circle cx="36" cy="36" r="7" fill="#fff" stroke="#0f2547" stroke-width="2.5"/><circle cx="28" cy="22" r="7" fill="#d3363f"/></svg>
-        <p><b>1. Concreto:</b> ele mexe na situação com objetos (moedas do jogo, tampinhas).</p>
-      </div>
-      <div class="passo">
-        <svg viewBox="0 0 58 58" aria-hidden="true"><rect x="1" y="1" width="56" height="56" rx="12" fill="#fff" stroke="#0f2547" stroke-width="2"/><rect x="8" y="24" width="24" height="12" fill="#fff" stroke="#0f2547" stroke-width="2.5"/><rect x="32" y="24" width="12" height="12" fill="#fff" stroke="#0f2547" stroke-width="2.5"/><rect x="44" y="24" width="7" height="12" fill="#d3363f" stroke="#0f2547" stroke-width="2.5"/><path d="M8 18 V14 H51 V18" fill="none" stroke="#0f2547" stroke-width="2"/></svg>
-        <p><b>2. Desenho:</b> ele desenha o problema em barras. Partes e todo ficam à vista.</p>
-      </div>
-      <div class="passo">
-        <svg viewBox="0 0 58 58" aria-hidden="true"><rect x="1" y="1" width="56" height="56" rx="12" fill="#fff" stroke="#0f2547" stroke-width="2"/><text x="29" y="36" text-anchor="middle" font-family="Figtree, sans-serif" font-weight="800" font-size="15" fill="#0f2547">60−52</text><path d="M14 42 H44" stroke="#d3363f" stroke-width="2.5"/></svg>
-        <p><b>3. Conta:</b> só agora ele escreve a conta e resolve.</p>
-      </div>
-    </div>
-    <div class="ouro"><strong>Desenhe antes de calcular.</strong><span>Quem desenha o problema não adivinha a operação: vê qual é.</span></div>
-    <p>E você? Não precisa ensinar a conta. Quando ele travar, você só diz:</p>
-    <div class="balao">“Desenha pra mim.”</div>
-    <p>O Guia traz as frases certas para quando ele travar.</p>
-    <p>Para treinar, 30 missões de mistério: em cada uma, há uma etapa “desenhe o problema”, e cada resposta vira uma letra da palavra-código. Se ele chutou, a palavra não fecha, e é a folha que o manda voltar ao desenho.</p>
-    <a class="botao" href="#oferta">Quero ver a oferta</a>
-  </div>
+<section class="faixa alt" data-bloco="04-metodo">
+<div class="miolo">
+<h2 data-t="04-metodo.01">O método de Singapura em 3 passos</h2>
+<div class="passos">
+<div class="passo">
+<svg aria-hidden="true" viewbox="0 0 58 58"><rect fill="#fff" height="56" rx="12" stroke="#0f2547" stroke-width="2" width="56" x="1" y="1"></rect><circle cx="20" cy="36" fill="#fff" r="7" stroke="#0f2547" stroke-width="2.5"></circle><circle cx="36" cy="36" fill="#fff" r="7" stroke="#0f2547" stroke-width="2.5"></circle><circle cx="28" cy="22" fill="#d3363f" r="7"></circle></svg>
+<p data-t="04-metodo.02"><b>1. Concreto:</b> ele mexe na situação com objetos (moedas do jogo, tampinhas).</p>
+</div>
+<div class="passo">
+<svg aria-hidden="true" viewbox="0 0 58 58"><rect fill="#fff" height="56" rx="12" stroke="#0f2547" stroke-width="2" width="56" x="1" y="1"></rect><rect fill="#fff" height="12" stroke="#0f2547" stroke-width="2.5" width="24" x="8" y="24"></rect><rect fill="#fff" height="12" stroke="#0f2547" stroke-width="2.5" width="12" x="32" y="24"></rect><rect fill="#d3363f" height="12" stroke="#0f2547" stroke-width="2.5" width="7" x="44" y="24"></rect><path d="M8 18 V14 H51 V18" fill="none" stroke="#0f2547" stroke-width="2"></path></svg>
+<p data-t="04-metodo.03"><b>2. Desenho:</b> ele desenha o problema em barras. Partes e todo ficam à vista.</p>
+</div>
+<div class="passo">
+<svg aria-hidden="true" viewbox="0 0 58 58"><rect fill="#fff" height="56" rx="12" stroke="#0f2547" stroke-width="2" width="56" x="1" y="1"></rect><text fill="#0f2547" font-family="Figtree, sans-serif" font-size="15" font-weight="800" text-anchor="middle" x="29" y="36">60−52</text><path d="M14 42 H44" stroke="#d3363f" stroke-width="2.5"></path></svg>
+<p data-t="04-metodo.04"><b>3. Conta:</b> só agora ele escreve a conta e resolve.</p>
+</div>
+</div>
+<div class="ouro"><strong data-t="04-metodo.05">Desenhe antes de calcular.</strong><span data-t="04-metodo.06">Quem desenha o problema não adivinha a operação: vê qual é.</span></div>
+<p data-t="04-metodo.07">E você? Não precisa ensinar a conta. Quando ele travar, você só diz:</p>
+<div class="balao" data-t="04-metodo.08">“Desenha pra mim.”</div>
+<p data-t="04-metodo.09">O Guia traz as frases certas para quando ele travar.</p>
+<p data-t="04-metodo.10">Para treinar, 30 missões de mistério: em cada uma, há uma etapa “desenhe o problema”, e cada resposta vira uma letra da palavra-código. Se ele chutou, a palavra não fecha, e é a folha que o manda voltar ao desenho.</p>
+<a class="botao" data-t="04-metodo.11" href="#oferta">Quero ver a oferta</a>
+</div>
 </section>
-
 <!-- 5. ANTES E DEPOIS -->
-<section class="faixa">
-  <div class="miolo">
-    <div class="lado">
-      <div class="antes"><h3>✖ Decorar e repetir</h3><ul><li>a conta vem pronta</li><li>ele calcula no automático</li><li>no problema escrito, chuta</li><li>você corrige e ele chora</li></ul></div>
-      <div class="depois"><h3>✔ Método de Singapura</h3><ul><li>ele desenha o problema</li><li>vê qual é a conta</li><li>resolve e confere</li><li>a palavra-código corrige por você</li></ul></div>
-    </div>
-  </div>
+<section class="faixa" data-bloco="05-antes-depois">
+<div class="miolo">
+<div class="lado">
+<div class="antes"><h3 data-t="05-antes-depois.01">✖ Decorar e repetir</h3><ul><li data-t="05-antes-depois.02">a conta vem pronta</li><li data-t="05-antes-depois.03">ele calcula no automático</li><li data-t="05-antes-depois.04">no problema escrito, chuta</li><li data-t="05-antes-depois.05">você corrige e ele chora</li></ul></div>
+<div class="depois"><h3 data-t="05-antes-depois.06">✔ Método de Singapura</h3><ul><li data-t="05-antes-depois.07">ele desenha o problema</li><li data-t="05-antes-depois.08">vê qual é a conta</li><li data-t="05-antes-depois.09">resolve e confere</li><li data-t="05-antes-depois.10">a palavra-código corrige por você</li></ul></div>
+</div>
+</div>
 </section>
-
 <!-- 6. AMPLITUDE -->
-<section class="faixa alt">
-  <div class="miolo">
-    <div class="numeros">
-      <div><b>1</b><span>Guia do Método</span></div>
-      <div><b>30</b><span>missões</span></div>
-      <div><b>3</b><span>faixas de idade (8–9, 9–10, 10–11)</span></div>
-      <div><b>4</b><span>etapas por missão, cada uma com espaço para desenhar o problema</span></div>
-      <div class="largo"><b>20–35</b><span>minutos cada</span></div>
-    </div>
-    <div class="chips"><span>Soma e subtração</span><span>Multiplicação e divisão</span><span>Frações</span><span>Horas e tempo</span><span>Medidas</span><span>Tabelas</span><span>Dinheiro com moedas de ouro do jogo</span></div>
-  </div>
+<section class="faixa alt" data-bloco="06-amplitude">
+<div class="miolo">
+<div class="numeros">
+<div><b data-t="06-amplitude.01">1</b><span data-t="06-amplitude.02">Guia do Método</span></div>
+<div><b data-t="06-amplitude.03">30</b><span data-t="06-amplitude.04">missões</span></div>
+<div><b data-t="06-amplitude.05">3</b><span data-t="06-amplitude.06">faixas de idade (8–9, 9–10, 10–11)</span></div>
+<div><b data-t="06-amplitude.07">4</b><span data-t="06-amplitude.08">etapas por missão, cada uma com espaço para desenhar o problema</span></div>
+<div class="largo"><b data-t="06-amplitude.09">20–35</b><span data-t="06-amplitude.10">minutos cada</span></div>
+</div>
+<div class="chips"><span data-t="06-amplitude.11">Soma e subtração</span><span data-t="06-amplitude.12">Multiplicação e divisão</span><span data-t="06-amplitude.13">Frações</span><span data-t="06-amplitude.14">Horas e tempo</span><span data-t="06-amplitude.15">Medidas</span><span data-t="06-amplitude.16">Tabelas</span><span data-t="06-amplitude.17">Dinheiro com moedas de ouro do jogo</span></div>
+</div>
 </section>
-
 <!-- 7. ROTINA -->
-<section class="faixa">
-  <div class="miolo estreito">
-    <h2>Como entra na rotina</h2>
-    <ul class="cenas">
-      <li><svg viewBox="0 0 44 44" aria-hidden="true"><rect x="8" y="6" width="28" height="34" rx="3" fill="#fff" stroke="#0f2547" stroke-width="2.5"/><path d="M14 16h16M14 22h16M14 28h10" stroke="#0f2547" stroke-width="2.5"/></svg>Você lê o Guia uma vez, em cerca de 15 minutos</li>
-      <li><svg viewBox="0 0 44 44" aria-hidden="true"><circle cx="18" cy="18" r="10" fill="#fff" stroke="#0f2547" stroke-width="2.5"/><path d="M25 25l11 11" stroke="#0f2547" stroke-width="3"/><circle cx="18" cy="18" r="3" fill="#d3363f"/></svg>Um mistério na tarde de sábado</li>
-      <li><svg viewBox="0 0 44 44" aria-hidden="true"><rect x="6" y="9" width="32" height="28" rx="4" fill="#fff" stroke="#0f2547" stroke-width="2.5"/><path d="M6 17h32" stroke="#0f2547" stroke-width="2.5"/><rect x="12" y="23" width="6" height="6" fill="#d3363f"/></svg>Uma etapa por dia depois da escola</li>
-      <li><svg viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="8" fill="#fff" stroke="#0f2547" stroke-width="2.5"/><path d="M22 5v6M22 33v6M5 22h6M33 22h6M10 10l4 4M30 30l4 4M34 10l-4 4M14 30l-4 4" stroke="#0f2547" stroke-width="2.5"/></svg>Nas férias escolares, para não perder o ritmo</li>
-      <li><svg viewBox="0 0 44 44" aria-hidden="true"><circle cx="12" cy="16" r="5" fill="#fff" stroke="#0f2547" stroke-width="2.5"/><circle cx="22" cy="14" r="5" fill="#fff" stroke="#0f2547" stroke-width="2.5"/><circle cx="32" cy="16" r="5" fill="#d3363f"/><path d="M5 34c1-6 13-6 14 0M15 33c1-7 13-7 14 0M25 34c1-6 13-6 14 0" fill="none" stroke="#0f2547" stroke-width="2.5"/></svg>Irmãos: um lê, outro desenha, outro calcula</li>
-    </ul>
-  </div>
+<section class="faixa" data-bloco="07-rotina">
+<div class="miolo estreito">
+<h2 data-t="07-rotina.01">Como entra na rotina</h2>
+<ul class="cenas">
+<li data-t="07-rotina.02"><svg aria-hidden="true" viewbox="0 0 44 44"><rect fill="#fff" height="34" rx="3" stroke="#0f2547" stroke-width="2.5" width="28" x="8" y="6"></rect><path d="M14 16h16M14 22h16M14 28h10" stroke="#0f2547" stroke-width="2.5"></path></svg>Você lê o Guia uma vez, em cerca de 15 minutos</li>
+<li data-t="07-rotina.03"><svg aria-hidden="true" viewbox="0 0 44 44"><circle cx="18" cy="18" fill="#fff" r="10" stroke="#0f2547" stroke-width="2.5"></circle><path d="M25 25l11 11" stroke="#0f2547" stroke-width="3"></path><circle cx="18" cy="18" fill="#d3363f" r="3"></circle></svg>Um mistério na tarde de sábado</li>
+<li data-t="07-rotina.04"><svg aria-hidden="true" viewbox="0 0 44 44"><rect fill="#fff" height="28" rx="4" stroke="#0f2547" stroke-width="2.5" width="32" x="6" y="9"></rect><path d="M6 17h32" stroke="#0f2547" stroke-width="2.5"></path><rect fill="#d3363f" height="6" width="6" x="12" y="23"></rect></svg>Uma etapa por dia depois da escola</li>
+<li data-t="07-rotina.05"><svg aria-hidden="true" viewbox="0 0 44 44"><circle cx="22" cy="22" fill="#fff" r="8" stroke="#0f2547" stroke-width="2.5"></circle><path d="M22 5v6M22 33v6M5 22h6M33 22h6M10 10l4 4M30 30l4 4M34 10l-4 4M14 30l-4 4" stroke="#0f2547" stroke-width="2.5"></path></svg>Nas férias escolares, para não perder o ritmo</li>
+<li data-t="07-rotina.06"><svg aria-hidden="true" viewbox="0 0 44 44"><circle cx="12" cy="16" fill="#fff" r="5" stroke="#0f2547" stroke-width="2.5"></circle><circle cx="22" cy="14" fill="#fff" r="5" stroke="#0f2547" stroke-width="2.5"></circle><circle cx="32" cy="16" fill="#d3363f" r="5"></circle><path d="M5 34c1-6 13-6 14 0M15 33c1-7 13-7 14 0M25 34c1-6 13-6 14 0" fill="none" stroke="#0f2547" stroke-width="2.5"></path></svg>Irmãos: um lê, outro desenha, outro calcula</li>
+</ul>
+</div>
 </section>
-
 <!-- 8. PARA QUEM É -->
-<section class="faixa alt">
-  <div class="miolo estreito">
-    <h2>Para quem é</h2>
-    <ul class="checks">
-      <li>Pais de crianças de 8 a 11 anos</li>
-      <li>Quem vê o filho chutar a conta no problema escrito</li>
-      <li>Quem não se sente seguro para ensinar “do jeito da escola”</li>
-      <li>Quem já ouviu falar de bar model e nunca entendeu como usar</li>
-      <li>Famílias com irmãos ou em homeschool</li>
-      <li>Quem quer matemática fora da tela</li>
-    </ul>
-    <ul class="checks xs">
-      <li>Uso em sala de aula (a licença é familiar)</li>
-      <li>Quem procura um app ou um curso completo de conteúdo novo</li>
-    </ul>
-  </div>
+<section class="faixa alt" data-bloco="08-para-quem">
+<div class="miolo estreito">
+<h2 data-t="08-para-quem.01">Para quem é</h2>
+<ul class="checks">
+<li data-t="08-para-quem.02">Pais de crianças de 8 a 11 anos</li>
+<li data-t="08-para-quem.03">Quem vê o filho chutar a conta no problema escrito</li>
+<li data-t="08-para-quem.04">Quem não se sente seguro para ensinar “do jeito da escola”</li>
+<li data-t="08-para-quem.05">Quem já ouviu falar de bar model e nunca entendeu como usar</li>
+<li data-t="08-para-quem.06">Famílias com irmãos ou em homeschool</li>
+<li data-t="08-para-quem.07">Quem quer matemática fora da tela</li>
+</ul>
+<ul class="checks xs">
+<li data-t="08-para-quem.08">Uso em sala de aula (a licença é familiar)</li>
+<li data-t="08-para-quem.09">Quem procura um app ou um curso completo de conteúdo novo</li>
+</ul>
+</div>
 </section>
-
 <!-- 9. BENEFÍCIOS -->
-<section class="faixa">
-  <div class="miolo estreito">
-    <ul class="ganhos">
-      <li><b>Desenhar antes de calcular</b><span>ele para de adivinhar a operação.</span></li>
-      <li><b>3 passos sempre iguais</b><span>um caminho para qualquer problema escrito, não um truque por conta.</span></li>
-      <li><b>Guia do Método</b><span>você sabe exatamente o que dizer quando ele trava.</span></li>
-      <li><b>Palavra-código</b><span>ele mesmo descobre o erro, e acaba o “você corrige, ele chora”.</span></li>
-      <li><b>Mistério</b><span>ele pede a próxima missão em vez de fugir da lição.</span></li>
-      <li><b>Preto e branco, fora da tela</b><span>imprime em casa e começa hoje.</span></li>
-    </ul>
-    <a class="botao" href="#oferta">Quero ver a oferta</a>
-  </div>
+<section class="faixa" data-bloco="09-beneficios">
+<div class="miolo estreito">
+<ul class="ganhos">
+<li data-t="09-beneficios.01"><b>Desenhar antes de calcular</b><span>ele para de adivinhar a operação.</span></li>
+<li data-t="09-beneficios.02"><b>3 passos sempre iguais</b><span>um caminho para qualquer problema escrito, não um truque por conta.</span></li>
+<li data-t="09-beneficios.03"><b>Guia do Método</b><span>você sabe exatamente o que dizer quando ele trava.</span></li>
+<li data-t="09-beneficios.04"><b>Palavra-código</b><span>ele mesmo descobre o erro, e acaba o “você corrige, ele chora”.</span></li>
+<li data-t="09-beneficios.05"><b>Mistério</b><span>ele pede a próxima missão em vez de fugir da lição.</span></li>
+<li data-t="09-beneficios.06"><b>Preto e branco, fora da tela</b><span>imprime em casa e começa hoje.</span></li>
+</ul>
+<a class="botao" data-t="09-beneficios.07" href="#oferta">Quero ver a oferta</a>
+</div>
 </section>
-
 <!-- 10. PILHA DE VALOR -->
-<section class="faixa alt">
-  <div class="miolo estreito">
-    <h2>Tudo o que você recebe</h2>
-    <div class="pilha">
-      <div class="peca central"><img src="img/guia-capa.jpg" alt="Capa do Guia do Método de Singapura para Pais" loading="lazy"><div><p class="selo-central">Peça central</p><p><b>Guia do Método de Singapura para Pais:</b> os 3 passos explicados em linguagem de casa, como desenhar cada tipo de problema em barras e o que dizer quando ele travar.</p></div></div>
-      <div class="peca"><img src="img/c1-problema.jpg" alt="Página de uma missão" loading="lazy"><p><b>30 Missões de Mistério</b> (8 a 11 anos), cada uma com a etapa “desenhe o problema”</p></div>
-      <div class="peca"><img src="img/c6-cartao.jpg" alt="Cartão do Desenho" loading="lazy"><p><b>Cartão do Desenho</b> para imprimir: o roteiro do bar model em 4 palavras, para deixar na mesa na hora da lição</p></div>
-      <div class="peca"><img src="img/roteiro-adulto.jpg" alt="Página do adulto de uma missão" loading="lazy"><p><b>Roteiros para Pais:</b> a página “leia antes (2 minutos)” de cada missão, a pergunta de apoio e o gabarito com o erro comum</p></div>
-    </div>
-  </div>
+<section class="faixa alt" data-bloco="10-pilha">
+<div class="miolo estreito">
+<h2 data-t="10-pilha.01">Tudo o que você recebe</h2>
+<div class="pilha">
+<div class="peca central"><img alt="Capa do Guia do Método de Singapura para Pais" data-t="10-pilha.02" loading="lazy" src="img/guia-capa.jpg"/><div><p class="selo-central" data-t="10-pilha.03">Peça central</p><p data-t="10-pilha.04"><b>Guia do Método de Singapura para Pais:</b> os 3 passos explicados em linguagem de casa, como desenhar cada tipo de problema em barras e o que dizer quando ele travar.</p></div></div>
+<div class="peca"><img alt="Página de uma missão" data-t="10-pilha.05" loading="lazy" src="img/c1-problema.jpg"/><p data-t="10-pilha.06"><b>30 Missões de Mistério</b> (8 a 11 anos), cada uma com a etapa “desenhe o problema”</p></div>
+<div class="peca"><img alt="Cartão do Desenho" data-t="10-pilha.07" loading="lazy" src="img/c6-cartao.jpg"/><p data-t="10-pilha.08"><b>Cartão do Desenho</b> para imprimir: o roteiro do bar model em 4 palavras, para deixar na mesa na hora da lição</p></div>
+<div class="peca"><img alt="Página do adulto de uma missão" data-t="10-pilha.09" loading="lazy" src="img/roteiro-adulto.jpg"/><p data-t="10-pilha.10"><b>Roteiros para Pais:</b> a página “leia antes (2 minutos)” de cada missão, a pergunta de apoio e o gabarito com o erro comum</p></div>
+</div>
+</div>
 </section>
-
 <!-- 11. OFERTA -->
-<section class="faixa escura oferta" id="oferta">
-  <div class="miolo">
-    <div class="cartao">
-      <div class="mock"><img src="img/mockup-oferta.jpg" width="1000" height="820" alt="Guia, missões, Cartão do Desenho e roteiros para pais" loading="lazy"></div>
-      <ul class="checks">
-        <li>Guia do Método de Singapura para Pais</li>
-        <li>30 Missões de Mistério</li>
-        <li>Cartão do Desenho</li>
-        <li>Roteiros para Pais</li>
-      </ul>
-      <div class="preco"><b>US$ 17</b><span>(dólar americano) · pagamento único</span></div>
-      <p class="ancora">Menos do que uma hora de reforço particular.</p>
-      <a class="botao compra" href="#oferta" id="checkout" data-checkout="[LINK DO CHECKOUT EM USD]">Quero o método e as missões</a>
-      <div class="selos"><span>Pagamento seguro</span><span>Acesso imediato</span><span>Cartão e PayPal</span></div>
-    </div>
-  </div>
+<section class="faixa escura oferta" data-bloco="11-oferta" id="oferta">
+<div class="miolo">
+<div class="cartao">
+<div class="mock"><img alt="Guia, missões, Cartão do Desenho e roteiros para pais" data-t="11-oferta.01" height="820" loading="lazy" src="img/mockup-oferta.jpg" width="1000"/></div>
+<ul class="checks">
+<li data-t="11-oferta.02">Guia do Método de Singapura para Pais</li>
+<li data-t="11-oferta.03">30 Missões de Mistério</li>
+<li data-t="11-oferta.04">Cartão do Desenho</li>
+<li data-t="11-oferta.05">Roteiros para Pais</li>
+</ul>
+<div class="preco"><b data-t="11-oferta.06">US$ 17</b><span data-t="11-oferta.07">(dólar americano) · pagamento único</span></div>
+<p class="ancora" data-t="11-oferta.08">Menos do que uma hora de reforço particular.</p>
+<a class="botao compra checkout" data-t="11-oferta.09" href="#oferta" id="checkout">Quero o método e as missões</a>
+<div class="selos"><span data-t="11-oferta.10">Pagamento seguro</span><span data-t="11-oferta.11">Acesso imediato</span><span data-t="11-oferta.12">Cartão e PayPal</span></div>
+</div>
+</div>
 </section>
-
 <!-- 12. PROVA SOCIAL: vazio até haver avaliações reais -->
-
 <!-- 13. GARANTIA -->
-<section class="faixa">
-  <div class="miolo estreito garantia">
-    <svg viewBox="0 0 76 76" aria-hidden="true"><path d="M38 4l28 10v20c0 18-12 32-28 38C22 66 10 52 10 34V14z" fill="#fff" stroke="#0f2547" stroke-width="3"/><text x="38" y="40" text-anchor="middle" font-family="Bricolage Grotesque, sans-serif" font-weight="800" font-size="20" fill="#0f2547">30</text><text x="38" y="54" text-anchor="middle" font-family="Figtree, sans-serif" font-weight="700" font-size="9" fill="#0f2547">DIAS</text></svg>
-    <p><b>Garantia de 30 dias.</b> Teste o método com seu filho. Se não for para a sua família, por qualquer motivo, escreva para [E-MAIL] em até 30 dias da compra e devolvemos 100% do valor.</p>
-  </div>
+<section class="faixa" data-bloco="13-garantia">
+<div class="miolo estreito garantia">
+<svg aria-hidden="true" viewbox="0 0 76 76"><path d="M38 4l28 10v20c0 18-12 32-28 38C22 66 10 52 10 34V14z" fill="#fff" stroke="#0f2547" stroke-width="3"></path><text fill="#0f2547" font-family="Bricolage Grotesque, sans-serif" font-size="20" font-weight="800" text-anchor="middle" x="38" y="40">30</text><text fill="#0f2547" font-family="Figtree, sans-serif" font-size="9" font-weight="700" text-anchor="middle" x="38" y="54" data-t="13-garantia.00">DIAS</text></svg>
+<p data-t="13-garantia.01"><b>Garantia de 30 dias.</b> Teste o método com seu filho. Se não for para a sua família, por qualquer motivo, escreva para [E-MAIL] em até 30 dias da compra e devolvemos 100% do valor.</p>
+</div>
 </section>
-
 <!-- 14. COMO VOCÊ RECEBE -->
-<section class="faixa alt">
-  <div class="miolo estreito">
-    <h2>Como você recebe</h2>
-    <ol class="recebe">
-      <li>Faça o pagamento.</li>
-      <li>Receba o link de download no seu e-mail na hora.</li>
-      <li>Leia o Guia, imprima a primeira missão e comece hoje.</li>
-    </ol>
-  </div>
+<section class="faixa alt" data-bloco="14-como-recebe">
+<div class="miolo estreito">
+<h2 data-t="14-como-recebe.01">Como você recebe</h2>
+<ol class="recebe">
+<li data-t="14-como-recebe.02">Faça o pagamento.</li>
+<li data-t="14-como-recebe.03">Receba o link de download no seu e-mail na hora.</li>
+<li data-t="14-como-recebe.04">Leia o Guia, imprima a primeira missão e comece hoje.</li>
+</ol>
+</div>
 </section>
-
 <!-- 15. FAQ -->
-<section class="faixa">
-  <div class="miolo estreito">
-    <h2>Perguntas frequentes</h2>
-    <div>
-      <details><summary>Isto é o “Singapore Math”?</summary><p>Não. É um material independente que usa os mesmos princípios do método ensinado nas escolas de Singapura (os 3 passos e o desenho em barras). Não tem vínculo com o Ministério da Educação de Singapura nem com editoras de “Singapore Math”.</p></details>
-      <details><summary>Eu não sou bom em matemática. Consigo aplicar?</summary><p>Sim. O Guia foi escrito para pais, não para professores. Você não ensina a conta: você pede o desenho e usa as frases do Guia quando ele travar.</p></details>
-      <details><summary>Para qual idade serve?</summary><p>De 8 a 11 anos, com missões em 3 faixas (8–9, 9–10 e 10–11). Escolha a da idade do seu filho, ou suba e desça uma faixa conforme ele for.</p></details>
-      <details><summary>A escola do meu filho usa outro método. Vai confundir?</summary><p>Não. O desenho em barras ajuda a entender o problema, qualquer que seja o jeito de fazer a conta. No Reino Unido, muitas escolas já usam bar model.</p></details>
-      <details><summary>Segue o currículo do meu país?</summary><p>As missões praticam habilidades comuns nessa idade nos países de língua inglesa. Não é material oficial nem segue o currículo de um país específico.</p></details>
-      <details><summary>Tenho dois filhos. Funciona?</summary><p>Funciona. Eles resolvem juntos, trocando de papel (leitor, desenhista e calculista), ou cada um faz a missão da sua idade.</p></details>
-      <details><summary>Quanto tempo leva?</summary><p>O Guia se lê em cerca de 15 minutos. Cada missão leva de 20 a 35 minutos, de uma vez ou uma etapa por dia.</p></details>
-      <details><summary>Preciso imprimir colorido?</summary><p>Não. Tudo é em preto e branco.</p></details>
-      <details><summary>Em que moeda eu pago?</summary><p>Em dólar americano. Seu banco converte na hora.</p></details>
-      <details><summary>E se não gostarmos?</summary><p>30 dias de garantia: escreva para [E-MAIL] e devolvemos 100% do valor.</p></details>
-    </div>
-  </div>
+<section class="faixa" data-bloco="15-faq">
+<div class="miolo estreito">
+<h2 data-t="15-faq.01">Perguntas frequentes</h2>
+<div>
+<details><summary data-t="15-faq.02">Isto é o “Singapore Math”?</summary><p data-t="15-faq.03">Não. É um material independente que usa os mesmos princípios do método ensinado nas escolas de Singapura (os 3 passos e o desenho em barras). Não tem vínculo com o Ministério da Educação de Singapura nem com editoras de “Singapore Math”.</p></details>
+<details><summary data-t="15-faq.04">Eu não sou bom em matemática. Consigo aplicar?</summary><p data-t="15-faq.05">Sim. O Guia foi escrito para pais, não para professores. Você não ensina a conta: você pede o desenho e usa as frases do Guia quando ele travar.</p></details>
+<details><summary data-t="15-faq.06">Para qual idade serve?</summary><p data-t="15-faq.07">De 8 a 11 anos, com missões em 3 faixas (8–9, 9–10 e 10–11). Escolha a da idade do seu filho, ou suba e desça uma faixa conforme ele for.</p></details>
+<details><summary data-t="15-faq.08">A escola do meu filho usa outro método. Vai confundir?</summary><p data-t="15-faq.09">Não. O desenho em barras ajuda a entender o problema, qualquer que seja o jeito de fazer a conta. No Reino Unido, muitas escolas já usam bar model.</p></details>
+<details><summary data-t="15-faq.10">Segue o currículo do meu país?</summary><p data-t="15-faq.11">As missões praticam habilidades comuns nessa idade nos países de língua inglesa. Não é material oficial nem segue o currículo de um país específico.</p></details>
+<details><summary data-t="15-faq.12">Tenho dois filhos. Funciona?</summary><p data-t="15-faq.13">Funciona. Eles resolvem juntos, trocando de papel (leitor, desenhista e calculista), ou cada um faz a missão da sua idade.</p></details>
+<details><summary data-t="15-faq.14">Quanto tempo leva?</summary><p data-t="15-faq.15">O Guia se lê em cerca de 15 minutos. Cada missão leva de 20 a 35 minutos, de uma vez ou uma etapa por dia.</p></details>
+<details><summary data-t="15-faq.16">Preciso imprimir colorido?</summary><p data-t="15-faq.17">Não. Tudo é em preto e branco.</p></details>
+<details><summary data-t="15-faq.18">Em que moeda eu pago?</summary><p data-t="15-faq.19">Em dólar americano. Seu banco converte na hora.</p></details>
+<details><summary data-t="15-faq.20">E se não gostarmos?</summary><p data-t="15-faq.21">30 dias de garantia: escreva para [E-MAIL] e devolvemos 100% do valor.</p></details>
+</div>
+</div>
 </section>
-
 <!-- 16. FECHO -->
-<section class="faixa alt">
-  <div class="miolo estreito">
-    <p class="fecho">Na próxima lição, em vez de “é de mais ou de vezes?”, entregue um lápis e diga: <em>“Desenha pra mim.”</em></p>
-    <div class="mock"><img src="img/mockup-dobra.jpg" alt="Guia, missão e Cartão do Desenho" loading="lazy"></div>
-    <a class="botao" href="#oferta">Quero ver a oferta</a>
-  </div>
+<section class="faixa alt" data-bloco="16-fecho">
+<div class="miolo estreito">
+<p class="fecho" data-t="16-fecho.01">Na próxima lição, em vez de “é de mais ou de vezes?”, entregue um lápis e diga: <em>“Desenha pra mim.”</em></p>
+<div class="mock"><img alt="Guia, missão e Cartão do Desenho" data-t="16-fecho.02" loading="lazy" src="img/mockup-dobra.jpg"/></div>
+<a class="botao" data-t="16-fecho.03" href="#oferta">Quero ver a oferta</a>
+</div>
 </section>
-
 <!-- 17. RODAPÉ -->
-<footer class="faixa">
-  <div class="miolo estreito rod">
-    <p><sup>1</sup> TIMSS 2023: Singapura em 1º em matemática no 4º ano (615) e no 8º ano (605), em escala de centro 500. TIMSS &amp; PIRLS International Study Center / IEA, 2024. PISA 2022: Singapura em 1º em matemática (575; média da OCDE 472). OECD, 2023. <sup>2</sup> Bar model no currículo primário de Singapura desde 1983 (MOE, <i>The Singapore Model Method for Learning Mathematics</i>, 2009).</p>
-    <p>Math Missions é um material independente, sem vínculo com o Ministério da Educação de Singapura, a IEA, a OCDE, a Singapore Math Inc. ou a Marshall Cavendish. “Singapore Math” é marca registrada de seus titulares.</p>
-    <p>Math Missions · [EMPRESA/RESPONSÁVEL] · [ENDEREÇO DA EMPRESA] · [E-MAIL] · <a href="#">Termos de uso</a> · <a href="#">Política de privacidade</a> · <a href="#">Política de reembolso</a> · © 2026 · This site is not a part of the Facebook website or Meta Platforms, Inc.</p>
-  </div>
+<footer class="faixa" data-bloco="17-rodape">
+<div class="miolo estreito rod">
+<p data-t="17-rodape.01"><sup>1</sup> TIMSS 2023: Singapura em 1º em matemática no 4º ano (615) e no 8º ano (605), em escala de centro 500. TIMSS &amp; PIRLS International Study Center / IEA, 2024. PISA 2022: Singapura em 1º em matemática (575; média da OCDE 472). OECD, 2023. <sup>2</sup> Bar model no currículo primário de Singapura desde 1983 (MOE, <i>The Singapore Model Method for Learning Mathematics</i>, 2009).</p>
+<p data-t="17-rodape.02">Math Missions é um material independente, sem vínculo com o Ministério da Educação de Singapura, a IEA, a OCDE, a Singapore Math Inc. ou a Marshall Cavendish. “Singapore Math” é marca registrada de seus titulares.</p>
+<p data-t="17-rodape.03">Math Missions · [EMPRESA/RESPONSÁVEL] · [ENDEREÇO DA EMPRESA] · [E-MAIL] · <a href="termos.html">Termos de uso</a> · <a href="privacidade.html">Política de privacidade</a> · <a href="termos.html#reembolso">Política de reembolso</a> · © 2026 · This site is not a part of the Facebook website or Meta Platforms, Inc.</p>
+</div>
 </footer>
