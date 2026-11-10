@@ -82,6 +82,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 4. **Estrutura:** produzir o lote 1 (30 missões) no intervalo, com a entrega testada **antes** do horário de início. Se não der tempo, adiar o início.
 
 ## Histórico (mais recente em cima)
+- [2026-11-10] Análise: a página que clona 2 criativos do dono é a "Dra. Mariana Oliveira" / ATIVIDADES.ONLINE (Arquivo Secreto, o modelo da oferta), com ~51 anúncios; nota em `pesquisa/2026-11-10-clone/NOTA.md`.
 - [2026-11-10] Dono pausou tudo depois do dia ruim e encontrou uma biblioteca clonando os criativos; lista para 11/11 definida (8 campanhas, ~R$ 128/dia).
 - [2026-11-10] Análise (parcial): 1 pedido, −R$ 170; 63% da verba foi para 9 criativos novos ainda sem amostra (CTR 1,80%); as antigas tiveram 1 pedido em 27 LPVs; página e checkout ok; acumulado −R$ 161.
 - [2026-11-10] Copy de Criativos: texto principal e título do Meta para 9 criativos novos (imagens 1–4 e vídeos C08–C12 do dono = C04H4, C02H2, C05H2, C06, C07), revisados pelo comitê (`criativos/2026-11-10-textos-anuncios-lote-novo.md`).
