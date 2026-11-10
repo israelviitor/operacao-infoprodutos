@@ -47,6 +47,7 @@ Copy de Oferta + Estrutura (em paralelo). Decisões de nome, preço e quantidade
 Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ pronto · ⛔ travado
 
 ## Pedidos entre áreas (abertos)
+- [ ] [2026-11-10] **De** Análise **para** Tráfego: reativar 04 e 02 (CPA acumulado ~R$ 21) e manter 05/07/09/12; lote novo 13–21 com trava (cada uma até R$ 50 sem pedido; o lote para em R$ 250 com < 5 pedidos); conferir o Teste 17 (0 cliques) e o Teste 20 (0 LPV), que parecem defeito; se precisar cortar verba, tirar primeiro 13, 18 e 21 (`analises/2026-11-10-analise.md`).
 - [ ] [2026-11-09] **De** Análise **para** Tráfego: em 10/11, com o dia 09 fechado e as UTMs confirmadas, +20% nas campanhas com ≥ 2 pedidos e CPA acumulado ≤ R$ 25 (hoje: 04 e 02); manter 05/07/09/10/12; atribuição pela UTM da Cakto (o pixel errou 2 de 7 hoje); 11 segue até ~R$ 67 (`analises/2026-11-09-analise.md`).
 - [ ] [2026-11-08] **De** Análise **para** Tráfego: manter só os Testes 04 (R$ 18) e 10 (R$ 15) por 2 dias sem mexer; reativar o 11 até R$ 33–50; pausar com ~R$ 67 sem pedido; orçamento só sobe com CPA acumulado ≤ R$ 25 (`analises/2026-11-08-analise.md`).
 - [ ] [2026-11-07] **De** Copy de Oferta **para** Estrutura: montar o upsell e o downsell com `copy/upsell-downsell.md`. (1) Cadastrar o Lote 2 como **produto separado** na Cakto Members: hoje `estrutura/cakto-roteiro.md`, linha 34, diz que ele "aparece sozinho para quem já comprou", o que o liberaria de graça. (2) Confirmar a compra com 1 clique. (3) Garantir que o downsell não reaparece e que não há e-mail de recuperação a R$ 19,90. (4) Ativar só com o Lote 2 pronto e testado.
@@ -80,6 +81,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 4. **Estrutura:** produzir o lote 1 (30 missões) no intervalo, com a entrega testada **antes** do horário de início. Se não der tempo, adiar o início.
 
 ## Histórico (mais recente em cima)
+- [2026-11-10] Análise (parcial): 1 pedido, −R$ 170; 63% da verba foi para 9 criativos novos ainda sem amostra (CTR 1,80%); as antigas tiveram 1 pedido em 27 LPVs; página e checkout ok; acumulado −R$ 161.
 - [2026-11-10] Copy de Criativos: texto principal e título do Meta para 9 criativos novos (imagens 1–4 e vídeos C08–C12 do dono = C04H4, C02H2, C05H2, C06, C07), revisados pelo comitê (`criativos/2026-11-10-textos-anuncios-lote-novo.md`).
 - [2026-11-09] Edição: criativos novos C06 (Professora de reforço) e C07 (O aluno que só chuta) editados e na página de download; roteiros em `edicao/2026-11-05-roteiros-gravados.md`.
 - [2026-11-09] Edição: variações de gancho C02H2, C04H4 e C05H2 renderizadas e na página de download (`edicao/videos/`).
