@@ -4,9 +4,9 @@
 
 ### Imagem 1 — "Domingo, 22h"
 **Texto principal:**
-Segunda-feira chega e a aula de matemática ainda não existe?
+O que se acha pronto na internet é lista de continhas, e ela já diz qual conta fazer.
 
-Buscar atividade, adaptar para a série, montar o gabarito. E o que se acha pronto é lista de continhas, que já diz qual conta fazer.
+Buscar atividade, adaptar para a série, montar o gabarito: e no fim a turma só calcula, sem pensar no problema.
 
 No Matemática em Missão, a aula já vem montada: o problema vem dentro de uma história, ninguém diz a conta e cada resposta vira uma letra da palavra-código.
 
@@ -68,7 +68,7 @@ Toque em Saiba mais e veja uma missão por dentro.
 
 ### C08 (vídeo) — "Problemas viram pistas"
 **Texto principal:**
-A pista só abre quando a turma descobre qual conta fazer. Ninguém avisa se é de mais ou de vezes.
+Na pista, ninguém avisa se a conta é de mais ou de vezes. A turma descobre.
 
 Cada resposta vira uma letra da palavra-código. Se uma conta estiver errada, a palavra não fecha, e o grupo volta à história para achar onde errou.
 
@@ -152,6 +152,7 @@ Toque em Saiba mais e veja uma missão por dentro.
 ---
 
 ## Bastidores
+- Comitê (10/11): 7 aprovados; Imagem 1 (1ª linha repetia a imagem) e C08 ("a pista só abre" sugeria que a etapa trava) ajustados.
 - Escritos por um aluno-redator (2 opções e 3 títulos por criativo). O diretor escolheu as versões.
 - Teste do lead: Imagem 1: 4 · Imagem 2: 4,5 · Imagem 3: 4,5 · Imagem 4: 4,5 · C08: 4,5 · C09: 4,5 · C10: 4,5 · C11: 4,5 · C12: 4,5.
 - C10: tirei "quem mostra o erro é a palavra", para não repetir o C12, que roda junto.

@@ -80,6 +80,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 4. **Estrutura:** produzir o lote 1 (30 missões) no intervalo, com a entrega testada **antes** do horário de início. Se não der tempo, adiar o início.
 
 ## Histórico (mais recente em cima)
+- [2026-11-10] Copy de Criativos: texto principal e título do Meta para 9 criativos novos (imagens 1–4 e vídeos C08–C12 do dono = C04H4, C02H2, C05H2, C06, C07), revisados pelo comitê (`criativos/2026-11-10-textos-anuncios-lote-novo.md`).
 - [2026-11-09] Edição: criativos novos C06 (Professora de reforço) e C07 (O aluno que só chuta) editados e na página de download; roteiros em `edicao/2026-11-05-roteiros-gravados.md`.
 - [2026-11-09] Edição: variações de gancho C02H2, C04H4 e C05H2 renderizadas e na página de download (`edicao/videos/`).
 - [2026-11-09] Copy de Criativos: análise dos vencedores (2, 4, 5, 6, 8, 9) e lote 3 para públicos novos (reforço escolar, recomposição/intervenção, pedagoga "de humanas"), revisado pelo comitê.
