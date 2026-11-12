@@ -10,7 +10,7 @@ Modelagem do Matemática em Missão (`produtos/matematica-investigativa/`) para 
 Estrutura (amostras) + Copy (promessa e página, com pesquisa enxuta própria). **Sem dossiê da Mineração neste produto** (decisão do dono): a base é `produtos/matematica-investigativa/dossie.md` + este quadro.
 
 ## Decisões do dono (valem para todas as áreas)
-- [2026-11-13] **Índice das 30 missões por nível aprovado** (`estrutura/entregavel/INDICE.md`): Nível 1 o primeiro desenho, Nível 2 dois passos, Nível 3 vários passos; 10 missões cada, a 10ª é a Missão de Fechamento.
+- [2026-11-12] **Índice das 30 missões por nível aprovado** (`estrutura/entregavel/INDICE.md`): Nível 1 o primeiro desenho, Nível 2 dois passos, Nível 3 vários passos; 10 missões cada, a 10ª é a Missão de Fechamento.
 - [2026-11-06] Criar a versão do Matemática em Missão para **pais** (1 criança ou irmãos, instruções para quem não é professor, gabarito explicado), mercado internacional em inglês.
 - [2026-11-06] **Página única em inglês americano, preço em dólar, rodando para os países de língua inglesa** (EUA, Reino Unido, Austrália, Canadá…). Sem versões ou trocas de texto por país no lançamento. A página fala em **idade ("ages 8–11")**, não só em série. Só localizar a página se o custo por compra por país (quebra no Gerenciador) mostrar Reino Unido/Austrália muito atrás.
 - [2026-11-06] **Entregável único para todos os países: sem valores em moeda real** (nada de $, £, A$). Os problemas de dinheiro usam uma moeda fictícia do jogo (ex.: moedas de ouro, pontos) para manter a habilidade sem amarrar a um país. Mesmo critério para medidas: preferir unidades que valem em todos (minutos, horas, contagem, métrico — que também está no currículo americano), evitando polegadas/libras-peso.
@@ -64,7 +64,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 Estrutura (amostras) e Copy (pesquisa + promessa + página, em PT) em paralelo → dono aprova → Tradução (en-US).
 
 ## Histórico (mais recente em cima)
-- [2026-11-13] Dono aprovou o índice por nível. Estrutura: amostras renomeadas (`n1-06-biscoitos`, `n2-05-tesouro`, `n3-03-robo`, faixa "Nível N · Missão N-NN" no lugar da idade), Guia e páginas do adulto sem idade (irmãos: "cada um no seu nível"), imagens da página, prévia e pacote do ChatGPT regerados. O texto da página ainda fala em 8 a 11 anos até a Copy atualizar (pedido de 12/11).
+- [2026-11-12] Dono aprovou o índice por nível. Estrutura: amostras renomeadas (`n1-06-biscoitos`, `n2-05-tesouro`, `n3-03-robo`, faixa "Nível N · Missão N-NN" no lugar da idade), Guia e páginas do adulto sem idade (irmãos: "cada um no seu nível"), imagens da página, prévia e pacote do ChatGPT regerados. O texto da página ainda fala em 8 a 11 anos até a Copy atualizar (pedido de 12/11).
 - [2026-11-12] Estrutura: índice das 30 missões por nível (N1 o primeiro desenho, N2 dois passos, N3 vários passos; 10 cada, com Missão de Fechamento como portão de nível), sem idade, revisado pelo comitê. Amostras viram 1-06 (Biscoitos), 2-05 (Tesouro) e 3-03 (Robô). Aguardando o dono.
 - [2026-11-12] Dono: oferta sem limite de idade; missões por nível de dificuldade.
 - [2026-11-11] Dono definiu 4 bônus (Cartão, Desafios Relâmpago, Kit de Missão, Mapa de Domínio); recusou a Missão Diagnóstica.
