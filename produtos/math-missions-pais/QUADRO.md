@@ -33,7 +33,7 @@ Estrutura (amostras) + Copy (promessa e página, com pesquisa enxuta própria). 
 | Estrutura — amostras / entregável | 🔵 3 amostras com bar model + Guia do Método de Singapura (rascunho) + Cartão do Desenho, aguardando aprovação do dono | `estrutura/entregavel/amostras/` | 2026-11-07 |
 | Estrutura — página | 🔵 pacote em PT para o ChatGPT publicar (headline nº 1, textos com chave por bloco); aguardando o dono publicar e mandar o link | `estrutura/pagina/pacote-chatgpt-math-missions-pt.zip`, `estrutura/pagina/COMANDO-CHATGPT.md`, `estrutura/pagina/TEXTOS-PT.md` | 2026-11-10 |
 | Estrutura — checkout (gateway USD) | ⬜ gateway: Kiwify recomendada, aguardando respostas do suporte | `produtos/_estrutura/2026-11-06-gateways-usd.md` | 2026-11-06 |
-| Tradução | ⬜ só depois das peças aprovadas em PT | `traducao/en-US/` | — |
+| Tradução | 🔵 nomes das 10 missões + prompts de imagem em en-US; glossário criado | `traducao/en-US/nomes-missoes.md`, `traducao/en-US/nomes-missoes-final.md`, `traducao/en-US/GLOSSARIO.md` | 2026-11-12 |
 | Copy de Criativos | ⬜ | `criativos/` | — |
 | Edição | ⬜ (áudios por sotaque: o dono gera) | — | — |
 | Tráfego | ⬜ | `trafego/` | — |
@@ -64,6 +64,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 Estrutura (amostras) e Copy (pesquisa + promessa + página, em PT) em paralelo → dono aprova → Tradução (en-US).
 
 ## Histórico (mais recente em cima)
+- [2026-11-12] Tradução: nomes das 10 missões das imagens da LP e prompts de imagem em en-US (1 versão cada, comitê aplicado) + glossário en-US. Adaptações: sexta no lugar de sábado (pizza), "Locked Safe" no lugar de "Cofre de Pontos".
 - [2026-11-12] Dono aprovou o índice por nível. Estrutura: amostras renomeadas (`n1-06-biscoitos`, `n2-05-tesouro`, `n3-03-robo`, faixa "Nível N · Missão N-NN" no lugar da idade), Guia e páginas do adulto sem idade (irmãos: "cada um no seu nível"), imagens da página, prévia e pacote do ChatGPT regerados. O texto da página ainda fala em 8 a 11 anos até a Copy atualizar (pedido de 12/11).
 - [2026-11-12] Estrutura: índice das 30 missões por nível (N1 o primeiro desenho, N2 dois passos, N3 vários passos; 10 cada, com Missão de Fechamento como portão de nível), sem idade, revisado pelo comitê. Amostras viram 1-06 (Biscoitos), 2-05 (Tesouro) e 3-03 (Robô). Aguardando o dono.
 - [2026-11-12] Dono: oferta sem limite de idade; missões por nível de dificuldade.
