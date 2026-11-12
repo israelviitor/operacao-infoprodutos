@@ -26,7 +26,7 @@ Cada um devolve a tradução completa, mais as notas das escolhas difíceis. Dua
 ## Passo 2 — Versão final (você)
 Monte a versão final escolhendo, frase a frase, a mais natural das duas, ou reescrevendo quando nenhuma soa nativa. Siga `especialistas/copy-nativa.md` e `especialistas/localizacao.md`.
 
-Headlines, ganchos e CTAs saem com **3 opções** no idioma-alvo, a recomendada primeiro.
+Toda peça sai com **uma única versão final**, inclusive headlines, ganchos e CTAs (regra de 2026-11-12): você escolhe; o dono não recebe opções.
 
 ## Passo 3 — Conferência (Comitê + tradução de volta)
 1. **Tradução de volta:** dispare 1 `aluno-tradutor` novo, que não viu o original, para traduzir a versão final de volta para o português. Compare com o original em PT: toda diferença de sentido é erro a corrigir ou adaptação a justificar.
@@ -40,7 +40,7 @@ Salve em `produtos/<produto>/traducao/<idioma-pais>/`, por exemplo `en-US`, `en-
 
 Atualize o QUADRO (status da Tradução, arquivos e pedido para a Estrutura ou a Edição montar). Faça commit e push.
 
-Responda ao dono **em português**, no formato do CLAUDE.md. Em "Decisões suas", inclua as escolhas de headline e CTA (3 opções, com o significado em PT de cada uma) e os trechos marcados como "precisa de nativo humano", se houver.
+Responda ao dono **em português**, no formato do CLAUDE.md. Em "Decisões suas", só os trechos marcados como "precisa de nativo humano", se houver.
 
 ## Limite honesto
 A tradução por IA com 2 versões, tradução de volta e comitê fica muito boa, mas a recomendação do time é **revisor nativo humano** nas peças que vão receber verba alta: a página e os criativos campeões. Isso vale principalmente para idiomas menos comuns ou para humor e gírias. Marque esses trechos.

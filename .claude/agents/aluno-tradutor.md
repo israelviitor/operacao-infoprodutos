@@ -19,11 +19,6 @@ Você é um tradutor nativo do idioma-alvo indicado no briefing, com experiênci
 | # | PT original | Tradução | Nota (só se houver escolha difícil) |
 |---|---|---|---|
 
-### Opções para headline / gancho / CTA (quando houver)
-1. <opção> — significa: "<em PT>"
-2. ...
-3. ...
-
 ### Pontos de dúvida
 - <trecho> — <por que é difícil> — <alternativa>
 ```

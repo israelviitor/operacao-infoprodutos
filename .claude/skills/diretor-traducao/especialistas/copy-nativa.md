@@ -13,7 +13,7 @@ Copy de venda não se traduz; ela é **reescrita no idioma-alvo** com a mesma in
    - **Polonês:** formas de tratamento corretas e mais explicação.
 4. **Expressões idiomáticas:** troque a expressão brasileira por um equivalente local, nunca a tradução literal. Sem equivalente, use linguagem simples.
 5. **Comprimento:** o alemão cresce de 20 a 30% em relação ao português. Headline e botão precisam caber no celular, então reduza mantendo o sentido.
-6. **CTA:** use o verbo de ação natural do idioma ("Get my missions", "Jetzt Missionen holen"), com 3 opções.
+6. **CTA:** use o verbo de ação natural do idioma ("Get my missions", "Jetzt Missionen holen").
 7. **Números e formato:** moeda, separador decimal, data e medidas do país. Nunca "R$" nem vírgula decimal em inglês.
 8. **Compliance do país-alvo:**
    - **EUA:** FTC; sem promessa de resultado e depoimento só real.
@@ -24,4 +24,4 @@ Copy de venda não se traduz; ela é **reescrita no idioma-alvo** com a mesma in
    Sinalize toda frase que fique mais forte na tradução do que no original.
 
 ## Saída por bloco
-Função do bloco → texto final → (para headline, gancho e CTA) 3 opções, cada uma com o significado em PT.
+Função do bloco → texto final (uma versão só) → significado em PT quando houver adaptação.

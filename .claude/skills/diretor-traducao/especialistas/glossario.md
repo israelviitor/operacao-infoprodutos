@@ -6,7 +6,7 @@ Antes da primeira peça de um produto num idioma, crie `produtos/<produto>/tradu
 | Termo em PT | Termo no idioma-alvo | Onde usar | Proibido / evitar | Por quê |
 |---|---|---|---|---|
 
-- **Nome do produto e dos bônus:** 3 opções para o dono escolher, com o significado em PT e uma checagem rápida de que não é marca de concorrente no país.
+- **Nome do produto e dos bônus:** uma versão final, com o significado em PT e uma checagem rápida de que não é marca de concorrente no país.
 - **Nome do mecanismo** (ex.: "Problema com Enredo").
 - **Partes do produto:** missão, etapa, pista, cadeado, nível, gabarito, roteiro.
 - **Público e tratamento:** como chamar o público (parents, moms, teachers…) e a forma de tratamento (*du/Sie*, tu/vous).
