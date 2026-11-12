@@ -21,6 +21,7 @@ Estrutura (amostras) + Copy (promessa e página, com pesquisa enxuta própria). 
 - [2026-11-10] **Headline da página: nº 1 da PROMESSA — "O método do país nº 1 em matemática para seu filho parar de chutar a conta."** (substitui a nº 4 provisória do protótipo). Pré-headline: a recomendada pela Copy ("Seu filho sabe fazer a conta, mas trava quando o problema vem escrito?"), salvo mudança do dono.
 - [2026-11-10] **Ordem da página: montar primeiro em PT no ChatGPT** (pacote da Estrutura com a headline nº 1), e só depois traduzir. A Tradução entra sobre a página montada: entrega o texto em en-US bloco a bloco + o comando para o ChatGPT trocar os textos e as imagens.
 - [2026-11-11] **4 bônus** (aparecem na página como bônus, separados do Guia + 30 missões): (1) **Cartão do Desenho** (pronto); (2) **Desafios Relâmpago de 5 minutos** — 30 mini-problemas de desenho, um por dia (adaptar os Desafios Relâmpago do Matemática em Missão); (3) **Kit de Missão** — crachá de agente, ficha de pistas, certificado (adaptar o Kit de Ambientação); (4) **Mapa de Domínio** — quadro para marcar cada missão vencida (novo). **Missão Diagnóstica: recusada pelo dono.** Preparação para provas e assinatura "missão do mês" ficam no funil (bump/upsell), não como bônus. Os Roteiros para Pais continuam dentro das missões (não são bônus). Bônus prontos antes do início dos anúncios.
+- [2026-11-12] **A oferta não se limita a idade.** Sai "8 a 11 anos" da página, dos anúncios e do produto. As missões passam a ser organizadas por **nível de dificuldade** (ex.: Nível 1, 2 e 3 — do primeiro desenho de barras ao problema de várias etapas), e o pai escolhe por onde começar pelo que o filho já sabe, não pela idade. Substitui a decisão de 06/11 ("a página fala em idade") e as "3 faixas de idade" das amostras.
 - [2026-11-06] Tradução: só na montagem final, pelo `/diretor-traducao`, a partir da versão aprovada em PT.
 
 ## Status por área
@@ -40,6 +41,8 @@ Estrutura (amostras) + Copy (promessa e página, com pesquisa enxuta própria). 
 Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ pronto · ⛔ travado
 
 ## Pedidos entre áreas (abertos)
+- [ ] [2026-11-12] **De** Central **para** Copy de Oferta: tirar idade da PROMESSA e da página (blocos 1, 6 e FAQ "Qual idade serve?" → "Por onde meu filho começa?") e trocar por níveis.
+- [ ] [2026-11-12] **De** Central **para** Estrutura: índice das 30 missões por nível (sem idade) e amostras renomeadas por nível.
 - [ ] [2026-11-11] **De** Central **para** Copy de Oferta: atualizar a pilha de valor e a oferta da página com os 4 bônus (decisão de 11/11).
 - [ ] [2026-11-11] **De** Central **para** Estrutura: mockups dos 4 bônus para a página (e o pacote do ChatGPT); produzir os bônus antes do início dos anúncios.
 - [ ] [2026-11-10] **De** Estrutura **para** Tradução: depois da página em PT no ar, traduzir `estrutura/pagina/TEXTOS-PT.md` para en-US com as **mesmas chaves** (`data-t`), mantendo as tags internas, mais `termos.html` e `privacidade.html` (em `estrutura/pagina/pacote/`) e as imagens com texto (amostras, Guia e Cartão: refazer a partir das fontes traduzidas e rodar `pagina/fonte/gerar-imagens.js`). Entregar o comando para o ChatGPT trocar pela chave.
@@ -60,6 +63,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 Estrutura (amostras) e Copy (pesquisa + promessa + página, em PT) em paralelo → dono aprova → Tradução (en-US).
 
 ## Histórico (mais recente em cima)
+- [2026-11-12] Dono: oferta sem limite de idade; missões por nível de dificuldade.
 - [2026-11-11] Dono definiu 4 bônus (Cartão, Desafios Relâmpago, Kit de Missão, Mapa de Domínio); recusou a Missão Diagnóstica.
 - [2026-11-10] Estrutura: protótipo com a headline nº 1 e a pré-headline recomendada; pacote para o ChatGPT (index, termos e privacidade em PT, 11 imagens, script de UTM + pixel com CONFIG para preencher) e textos organizados por bloco com chave `data-t` (`TEXTOS-PT.md`, 152 textos) para a tradução trocar sem refazer o layout.
 - [2026-11-10] Dono: montar a página em PT no ChatGPT antes de traduzir.
