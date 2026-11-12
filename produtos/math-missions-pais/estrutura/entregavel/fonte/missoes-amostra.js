@@ -1,4 +1,4 @@
-// Math Missions (versão para pais) — 3 missões-amostra, uma por faixa de idade.
+// Math Missions (versão para pais) — 3 missões-amostra, uma por nível (índice em ../INDICE.md).
 // Escritas em PT; a tradução para en-US é feita só na montagem final (regras/geral.md).
 // Sem moeda real (moedas de ouro do jogo) e com medidas universais (minutos, contagem, metros).
 // Cada etapa: enunciado, resposta, cálculo (conferido pelo gerador), conta, erro comum + cálculo do erro,
@@ -8,7 +8,7 @@ const hm = (min) => `${Math.floor(min / 60)}:${String(min % 60).padStart(2, '0')
 
 module.exports = [
   {
-    id: 'pais-8-9-biscoitos', idade: '8–9 anos', titulo: 'O Mistério dos Biscoitos Sumidos', icone: 'biscoito',
+    id: 'n1-06-biscoitos', nivel: 'Nível 1 · Missão 1-06', titulo: 'O Mistério dos Biscoitos Sumidos', icone: 'biscoito',
     tempo: '20 a 25 minutos', praticas: 'multiplicação (fileiras iguais), subtração e horas',
     abertura: 'Sábado à tarde, a família assou uma fornada de biscoitos de chocolate e guardou na lata. Enquanto a segunda fornada assava, alguém abriu a lata escondido! Sua missão: descobrir quem foi — e só acusar alguém quando tiver provas.',
     palavra: 'VOVO',
@@ -48,7 +48,7 @@ module.exports = [
     ],
   },
   {
-    id: 'pais-9-10-tesouro', idade: '9–10 anos', titulo: 'A Caça ao Tesouro do Acampamento', icone: 'mapa',
+    id: 'n2-05-tesouro', nivel: 'Nível 2 · Missão 2-05', titulo: 'A Caça ao Tesouro do Acampamento', icone: 'mapa',
     tempo: '25 a 30 minutos', praticas: 'multiplicação, troco com moedas do jogo, frações e divisão',
     abertura: 'No acampamento, o guia escondeu um baú cheio de moedas de ouro. Ele deixou pistas pela trilha. Só quem resolver as contas chega ao baú antes do pôr do sol.',
     palavra: 'LAGO',
@@ -88,7 +88,7 @@ module.exports = [
     ],
   },
   {
-    id: 'pais-10-11-robo', idade: '10–11 anos', titulo: 'O Enigma do Robô Aspirador', icone: 'robo',
+    id: 'n3-03-robo', nivel: 'Nível 3 · Missão 3-03', titulo: 'O Enigma do Robô Aspirador', icone: 'robo',
     tempo: '25 a 35 minutos', praticas: 'frações, números decimais, padrão em tabela e proporção',
     abertura: 'O robô aspirador da casa começou a agir estranho: limpa metade da sala e para no meio do caminho. Antes de chamar o técnico, a família decidiu investigar os registros do robô. A investigação é sua.',
     palavra: 'CABO',

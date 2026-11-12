@@ -90,7 +90,7 @@ ol.roteiro li { margin-bottom: 6px; }
 
 <section>
   <h2>3. A barra (o “bar model”): 3 desenhos que resolvem quase tudo</h2>
-  <p>Quase todo problema de 8 a 11 anos cabe em um destes 3 desenhos. A barra não precisa ser bonita nem medida com régua: basta que a parte maior pareça maior.</p>
+  <p>Quase todo problema das missões, do Nível 1 ao Nível 3, cabe em um destes 3 desenhos. A barra não precisa ser bonita nem medida com régua: basta que a parte maior pareça maior.</p>
   <div class="modelo"><h3 style="margin-top:0">A. Parte e todo (juntar e tirar)</h3>
     <p class="q">“Ana tinha 24 adesivos e deu 15 para a irmã. Com quantos ficou?”</p>${EX.parteTodo}
     <p>A barra inteira é o todo (24). Um pedaço é o que ela deu (15). O outro é o <b>?</b>. Conhecendo o todo e uma parte, a conta é de menos: 24 − 15 = 9. Se o <b>?</b> estiver em cima (no todo), a conta é de mais.</p></div>
@@ -147,7 +147,7 @@ ol.roteiro li { margin-bottom: 6px; }
     <li><b>Antes:</b> leia a página do adulto da missão (2 minutos) e separe os objetos do passo Concreto.</li>
     <li><b>Durante:</b> leia a abertura com clima de mistério, deixe a criança decidir as contas e peça o desenho na etapa marcada.</li>
     <li><b>Depois:</b> confira a palavra-código e peça: “Me explica o seu desenho.”</li>
-    <li><b>Irmãos:</b> imprima a missão uma vez e trocam de papel a cada etapa: leitor, desenhista e calculista. Se a diferença de idade for grande, cada um faz a missão da sua idade e os dois comparam as palavras-código no fim.</li>
+    <li><b>Irmãos:</b> imprima a missão uma vez e trocam de papel a cada etapa: leitor, desenhista e calculista. Se estiverem em níveis diferentes, cada um faz a missão do seu nível e os dois comparam as palavras-código no fim.</li>
     <li><b>Cartão do Desenho:</b> imprima e deixe na mesa durante as missões. Ele lembra os passos e os 3 desenhos.</li>
   </ul>
   </section>

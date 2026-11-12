@@ -16,7 +16,7 @@ const TMP = path.join(RAIZ, 'fonte', '.tmp');
 fs.mkdirSync(IMG, { recursive: true });
 fs.mkdirSync(TMP, { recursive: true });
 
-const tesouro = missoes.find((m) => m.id === 'pais-9-10-tesouro');
+const tesouro = missoes.find((m) => m.id === 'n2-05-tesouro');
 const eArmazem = tesouro.etapas.find((e) => e.desenho);
 // "caneta" da criança: o desenho preenchido em azul
 const desenhoFeito = barra(eArmazem.desenho.modelo, { largura: 560 }).replace(/stroke="#000"/g, 'stroke="#1f3f8f"').replace(/<text /g, '<text fill="#1f3f8f" ');
@@ -31,7 +31,7 @@ async function main() {
   const abrir = async (f) => { await p.goto('file://' + path.join(HTML, f)); await p.emulateMedia({ media: 'print' }); };
 
   // 1. Página do problema (missão, 1ª página da criança)
-  await abrir('pais-9-10-tesouro.html');
+  await abrir('n2-05-tesouro.html');
   await p.addStyleTag({ content: 'section.pagina { height: auto !important; padding: 24px; background: #fff; } .rodape{display:none}' });
   await shot('section.missao', 'c1-problema', 0);
   // 2. Etapa "desenhe o problema" em branco
@@ -66,7 +66,7 @@ async function main() {
   pdf('guia-metodo-singapura.pdf', 1, 'guia-capa');
   pdf('guia-metodo-singapura.pdf', 3, 'c5-guia-barras');
   pdf('cartao-bar-model.pdf', 1, 'cartao-folha');
-  pdf('pais-9-10-tesouro.pdf', 2, 'missao-folha');
+  pdf('n2-05-tesouro.pdf', 2, 'missao-folha');
 
   // Composição e compressão (Python/PIL)
   execFileSync('python3', [path.join(__dirname, 'compor.py'), TMP, IMG], { stdio: 'inherit' });

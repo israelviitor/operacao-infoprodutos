@@ -38,7 +38,7 @@ body { font-family: Inter, 'DejaVu Sans', sans-serif; color: #111; font-size: 12
 .pagina { page-break-after: always; position: relative; height: 266mm; overflow: hidden; }
 .pagina:last-child { page-break-after: auto; }
 .topo { display: flex; align-items: center; gap: 10px; border-bottom: 2px solid #111; padding-bottom: 5px; margin-bottom: 12px; font-size: 9.5pt; font-weight: 800; letter-spacing: .05em; }
-.idade { background: #111; color: #fff; border-radius: 6px; padding: 3px 10px; font-size: 11pt; }
+.nivel { background: #111; color: #fff; border-radius: 6px; padding: 3px 10px; font-size: 11pt; }
 .topo .dir { margin-left: auto; }
 h1 { font-size: 24pt; margin: 4px 0 8px; line-height: 1.1; }
 h2 { font-size: 15pt; margin: 14px 0 6px; }
@@ -90,7 +90,7 @@ table.cod td.l { font-weight: 800; font-size: 15pt; }
 .rodape { position: absolute; bottom: 0; left: 0; right: 0; font-size: 8.5pt; color: #555; border-top: 1px solid #aaa; padding-top: 3px; }
 `;
 
-const topo = (m, dir) => `<div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="idade">${m.idade}</span><span class="dir">${dir}</span></div>`;
+const topo = (m, dir) => `<div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">${m.nivel}</span><span class="dir">${dir}</span></div>`;
 
 function paginaAdulto(m) {
   const nd = m.etapas.findIndex((e) => e.desenho) + 1;
@@ -110,7 +110,7 @@ function paginaAdulto(m) {
   </ol>
   <div class="box"><b>Antes de avançar:</b> ${m.dominio}</div>
   <h2>Com irmãos</h2>
-  <div class="box">Imprima as páginas da missão uma vez e resolvam juntos, trocando de papel a cada etapa: <b>leitor</b> (lê em voz alta), <b>desenhista</b> (faz a barra) e <b>calculista</b> (faz a conta e confere no desenho). Com 2 crianças, o leitor também desenha. Se a diferença de idade for grande, cada um faz a missão da sua idade e os dois comparam as palavras-código no fim.</div>
+  <div class="box">Imprima as páginas da missão uma vez e resolvam juntos, trocando de papel a cada etapa: <b>leitor</b> (lê em voz alta), <b>desenhista</b> (faz a barra) e <b>calculista</b> (faz a conta e confere no desenho). Com 2 crianças, o leitor também desenha. Se estiverem em níveis diferentes, cada um faz a missão do seu nível e os dois comparam as palavras-código no fim.</div>
   <div class="rodape">Math Missions · ${m.titulo} · missão de amostra</div></section>`;
 }
 
