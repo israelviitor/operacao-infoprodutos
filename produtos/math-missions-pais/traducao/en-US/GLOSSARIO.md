@@ -21,6 +21,16 @@
 | pontos | points | missões | fichas redondas empilhadas em imagem (parecem cassino) | política de jogos de azar da Meta |
 | público | parents / your child | página | "kids" como alvo de anúncio; gênero da criança | criança em linguagem neutra |
 | detetive | — | — | **"detective"** | termo dos concorrentes (dossiê) |
+| Cartão do Desenho | Draw-It Card (cabeçalho do cartão: DRAW-IT CARD) | página, cartão impresso | "Drawing Card" | soa como "atração principal" |
+| LEIA · DESENHE · CALCULE · CONFIRA | READ · DRAW · SOLVE · CHECK | cartão, página, Guia | "calculate", "confirm" | verbos curtos usados nas escolas americanas |
+| Desenhe antes de calcular | Draw before you solve | cartão, Guia, página | — | coerente com SOLVE |
+| Desafios Relâmpago | Lightning Challenges | página, bônus | — | de *lightning round* |
+| Kit de Missão | Mission Kit | página, bônus | — | — |
+| crachá de agente | agent badge | Kit de Missão | "detective badge" | — |
+| ficha de pistas | clue sheet | Kit de Missão | — | — |
+| Mapa de Domínio | Mastery Map | página, bônus | — | termo de escola/homeschool |
+| é de mais ou de vezes? | Do I add or multiply? | página, anúncios | — | como a criança americana pergunta |
+| hora da lição | homework time | página | "lesson time" | lesson soa aula particular |
 | pizza de sábado | Friday pizza night | missão 1-09 | — | costume de família americano |
 | aquário | fish tank | missão 2-07 | "aquarium" | aquarium soa como aquário público |
 | aspirador robô | robot vacuum | missão 3-03 | "Roomba" | marca |
