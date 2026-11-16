@@ -37,11 +37,12 @@ Estrutura (amostras) + Copy (promessa e página, com pesquisa enxuta própria). 
 | Copy de Criativos | ⬜ | `criativos/` | — |
 | Edição | ⬜ (áudios por sotaque: o dono gera) | — | — |
 | Tráfego | ⬜ | `trafego/` | — |
-| Análise | ⬜ | `analises/` | — |
+| Análise | ✅ potencial de venda da página em PT | `analises/2026-11-16-analise.md` | 2026-11-16 |
 
 Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ pronto · ⛔ travado
 
 ## Pedidos entre áreas (abertos)
+- [ ] [2026-11-16] **De** Análise **para** dono/Copy/Estrutura: (1) definir bump (US$ 7–9), upsell (US$ 17–27) e downsell antes do teste; (2) a headline no ar não é a decidida em 10/11; (3) encurtar até a oferta (preço em 13.700 px; tirar o bloco "A profissão será uma escolha dele"); (4) comprimir 9 imagens de 300–420 KB (`analises/2026-11-16-analise.md`).
 - [ ] [2026-11-12] **De** Central **para** Copy de Oferta: tirar idade da PROMESSA e da página (blocos 1, 6 e FAQ "Qual idade serve?" → "Por onde meu filho começa?") e trocar por níveis.
 - [x] [2026-11-12] **De** Central **para** Estrutura: índice das 30 missões por nível (sem idade) e amostras renomeadas por nível. → Índice aprovado pelo dono; amostras renomeadas (1-06, 2-05, 3-03), imagens da página e pacote do ChatGPT regerados.
 - [ ] [2026-11-11] **De** Central **para** Copy de Oferta: atualizar a pilha de valor e a oferta da página com os 4 bônus (decisão de 11/11).
@@ -64,6 +65,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 Estrutura (amostras) e Copy (pesquisa + promessa + página, em PT) em paralelo → dono aprova → Tradução (en-US).
 
 ## Histórico (mais recente em cima)
+- [2026-11-16] Análise: oferta boa (lacuna real, mecanismo reconhecido, núcleo já validado no BR); o lucro depende de bump/upsell; headline no ar diferente da decidida.
 - [2026-11-13] Tradução: 4 bônus da LP em en-US (Draw-It Card, 30 Lightning Challenges, Mission Kit, Mastery Map), comitê aplicado; glossário ganhou os termos dos bônus e do cartão (READ · DRAW · SOLVE · CHECK).
 - [2026-11-12] Tradução: nomes das 10 missões das imagens da LP e prompts de imagem em en-US (1 versão cada, comitê aplicado) + glossário en-US. Adaptações: sexta no lugar de sábado (pizza), "Locked Safe" no lugar de "Cofre de Pontos".
 - [2026-11-12] Dono aprovou o índice por nível. Estrutura: amostras renomeadas (`n1-06-biscoitos`, `n2-05-tesouro`, `n3-03-robo`, faixa "Nível N · Missão N-NN" no lugar da idade), Guia e páginas do adulto sem idade (irmãos: "cada um no seu nível"), imagens da página, prévia e pacote do ChatGPT regerados. O texto da página ainda fala em 8 a 11 anos até a Copy atualizar (pedido de 12/11).
