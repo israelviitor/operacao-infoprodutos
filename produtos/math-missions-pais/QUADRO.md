@@ -42,6 +42,7 @@ Estrutura (amostras) + Copy (promessa e página, com pesquisa enxuta própria). 
 Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ pronto · ⛔ travado
 
 ## Pedidos entre áreas (abertos)
+- [ ] [2026-11-16] **De** Mineração **para** dono → Copy/Estrutura: decidir bumps e upsell com base em `pesquisa/2026-11-16-funis-concorrentes.md` (recomendação: bump "Holiday Math Missions" US$ 7–9 + licença família US$ 5–7; upsell próximo nível US$ 27; downsell US$ 17; clube mensal só depois de validar). (abertos)
 - [ ] [2026-11-16] **De** Estrutura **para** Tradução: Guia final, 30 Desafios Relâmpago, Kit de Missão e Mapa de Domínio em PT prontos (`estrutura/entregavel/fonte/gerar-guia.js`, `desafios.js`, `gerar-bonus.js`). Traduzir para en-US quando o dono pedir (usar o glossário: READ · DRAW · SOLVE · CHECK, Agent Badge, Clue Sheet, Mastery Map). Decimais com ponto em inglês.
 - [ ] [2026-11-16] **De** Copy de Criativos **para** Tradução: depois da aprovação do dono, traduzir `criativos/2026-11-16-lote-1.md` para en-US (ver as notas no fim do arquivo: palavra-código, "desenha pra mim", linguagem neutra).
 - [ ] [2026-11-16] **De** Análise **para** dono/Copy/Estrutura: (1) definir bump (US$ 7–9), upsell (US$ 17–27) e downsell antes do teste; (2) a headline no ar não é a decidida em 10/11; (3) encurtar até a oferta (preço em 13.700 px; tirar o bloco "A profissão será uma escolha dele"); (4) comprimir 9 imagens de 300–420 KB (`analises/2026-11-16-analise.md`). → (4) Estrutura conferiu em 16/11: as 18 imagens da página no ar já estão entre 59 e 139 KB (todas abaixo de 150 KB); as do protótipo/pacote também (máx. 146 KB).
@@ -67,6 +68,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 Estrutura (amostras) e Copy (pesquisa + promessa + página, em PT) em paralelo → dono aprova → Tradução (en-US).
 
 ## Histórico (mais recente em cima)
+- [2026-11-16] Mineração: funis dos concorrentes (bumps, upsells, assinaturas) e recomendação → `pesquisa/2026-11-16-funis-concorrentes.md`.
 - [2026-11-16] Estrutura: Guia do Método final (7 págs; sem rascunho, fatos do TIMSS/PISA com fonte, seções novas: os 3 níveis e como usar os bônus) + 3 bônus em PT: 30 Desafios Relâmpago (10 por nível, contas conferidas pelo gerador, gabarito com o desenho de cada um; 14 págs), Kit de Missão (4 crachás, ficha de pistas, certificado por nível; 3 págs) e Mapa de Domínio (A4 paisagem, 30 missões do índice + 30 círculos dos desafios). Comitê: Ajustar, aplicado. Imagens da página: as do ar já estão < 150 KB; as do pacote também.
 - [2026-11-16] Copy de Criativos: lote 1 com 7 vídeos e 3 imagens em PT (ranking, problema escrito, choro na lição, decorar e repetir/apps, "você não precisa saber matemática", desenhe antes de calcular, mistério), revisado pelo comitê.
 - [2026-11-16] Análise: oferta boa (lacuna real, mecanismo reconhecido, núcleo já validado no BR); o lucro depende de bump/upsell; headline no ar diferente da decidida.
