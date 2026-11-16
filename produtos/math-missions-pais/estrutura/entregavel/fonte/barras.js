@@ -2,11 +2,13 @@
 // linhas: [{ nome?, total?, partes: [{ u, t }] }]
 //   u = tamanho relativo da parte; t = texto dentro da parte ('' = lacuna para a criança preencher).
 //   cinza = parte pintada; tracejada = parte que não existe de verdade (diferença numa comparação).
+// opções: totalJunto = rótulo de uma chave vertical à direita que soma todas as linhas.
 //   total = rótulo da chave em cima da linha ('' = lacuna; undefined = sem chave).
-function barra(linhas, { largura = 460, alturaBarra = 36, fonte = 15 } = {}) {
+function barra(linhas, { largura = 460, alturaBarra = 36, fonte = 15, totalJunto } = {}) {
   const temNome = linhas.some((l) => l.nome);
   const nomeW = temNome ? 78 : 0;
-  const barW = largura - nomeW - 8;
+  const juntoW = totalJunto !== undefined ? fonte * 0.62 * Math.max(4, String(totalJunto).length) + 26 : 0;
+  const barW = largura - nomeW - 8 - juntoW;
   const maxU = Math.max(...linhas.map((l) => l.partes.reduce((s, p) => s + p.u, 0)));
   const k = barW / maxU;
   const lacuna = '_______';
@@ -33,6 +35,11 @@ function barra(linhas, { largura = 460, alturaBarra = 36, fonte = 15 } = {}) {
       x += pw;
     }
     y += alturaBarra + 14;
+  }
+  if (totalJunto !== undefined) {
+    const xj = nomeW + barW + 10, y0 = 4, y1 = y - 14;
+    out += `<path d="M${xj} ${y0} H${xj + 7} V${y1} H${xj}" fill="none" stroke="#000" stroke-width="1.6"/>`;
+    out += `<text x="${xj + 12}" y="${(y0 + y1) / 2 + 5}" font-size="${fonte}" font-weight="${totalJunto === '?' ? 800 : 700}">${totalJunto}</text>`;
   }
   return `<svg class="barra" viewBox="0 0 ${largura} ${y}" width="${largura}" height="${y}" font-family="Inter, DejaVu Sans, sans-serif">${out}</svg>`;
 }

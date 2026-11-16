@@ -11,7 +11,12 @@ L = lambda n: Image.open(os.path.join(tmp, n + '.png')).convert('RGB')
 def salvar(img, nome, largura=900, q=80):
     if img.width > largura:
         img = img.resize((largura, round(img.height * largura / img.width)), Image.LANCZOS)
-    img.save(os.path.join(out, nome + '.jpg'), 'JPEG', quality=q, optimize=True, progressive=True)
+    destino = os.path.join(out, nome + '.jpg')
+    while True:  # cada imagem com menos de 150 KB (pedido da Análise, 16/11)
+        img.save(destino, 'JPEG', quality=q, optimize=True, progressive=True)
+        if os.path.getsize(destino) < 150 * 1024 or q <= 50:
+            break
+        q -= 5
 
 
 def folha(img, w):

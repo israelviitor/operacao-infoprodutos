@@ -68,7 +68,7 @@ body { font-size: 11.5pt; line-height: 1.42; }
   <div class="box"><b>Como usar (para o adulto)</b>
   <ul style="margin:6px 0 0;padding-left:20px">
     <li>Imprima as folhas e recorte, se quiser, um desafio por dia. Cabe antes do jantar, no carro ou na sala de espera.</li>
-    <li>Siga a ordem do nível do seu filho: <b>desafios 1 a 10 · Nível 1</b>, <b>11 a 20 · Nível 2</b>, <b>21 a 30 · Nível 3</b>. Se ele estiver no Nível 2, pode começar pelo desafio 11.</li>
+    <li>Siga a ordem do nível do seu filho: <b>desafios 1 a 10 · Nível 1</b>, <b>11 a 20 · Nível 2</b>, <b>21 a 30 · Nível 3</b>. Comece pelo desafio 1, mesmo que seu filho esteja no Nível 2 ou 3: os primeiros levam 1 minuto e firmam o desenho. Se ficar fácil, pule para o primeiro desafio do nível dele.</li>
     <li>A regra é uma só: <b>primeiro o desenho, depois a conta</b>. Se ele travar, pergunte “O que a pergunta quer saber?” e “Me mostra isso numa barra”.</li>
     <li>O gabarito, com o desenho esperado de cada desafio, está nas últimas páginas. Vale qualquer desenho com as mesmas partes.</li>
     <li>Desafio feito? Ele pinta o círculo do dia no Mapa de Domínio.</li>
@@ -90,7 +90,7 @@ body { font-size: 11.5pt; line-height: 1.42; }
   for (let p = 0; p < 3; p++) {
     const itens = desafios.slice(p * 10, p * 10 + 10).map((d, k) => {
       const i = p * 10 + k;
-      return `<div class="it"><div><b>Desafio ${i + 1}</b><br><b class="r">${d.r}</b></div><div>${d.conta}<div class="tipo">Desenho: ${d.desenho}</div></div><div>${barra(d.modelo, { largura: 360, alturaBarra: 22, fonte: 11 })}</div></div>`;
+      return `<div class="it"><div><b>Desafio ${i + 1}</b><br><b class="r">${d.r}</b></div><div>${d.conta}<div class="tipo">Desenho: ${d.desenho}</div></div><div>${barra(d.modelo, { largura: 360, alturaBarra: 22, fonte: 11, totalJunto: d.junto })}</div></div>`;
     }).join('');
     gab += `<section class="pagina gab">${topo('Gabarito · Nível ' + (p + 1), 'Para o adulto')}<h2 style="margin-top:0">Gabarito dos desafios ${p * 10 + 1} a ${p * 10 + 10}</h2>${itens}<div class="rodape">Math Missions · 30 Desafios Relâmpago · gabarito</div></section>`;
   }
@@ -155,7 +155,7 @@ td { height: 9mm; }
   <div class="crachas">${cracha.repeat(4)}</div><div class="rodape">Math Missions · Kit de Missão</div></section>
   <section class="pagina">${topo('Bônus · Kit de Missão', 'Ficha de pistas')}<p class="dica">Uma ficha por missão. A criança anota cada resposta e a letra da tabela de código. No fim, monta a palavra-código e marca o desenho que usou. Imprima quantas precisar.</p>
   ${ficha}${ficha}<div class="rodape">Math Missions · Kit de Missão</div></section>
-  <section class="pagina">${topo('Bônus · Kit de Missão', 'Certificado')}<p class="dica">Entregue quando a criança fechar um nível (a Missão de Fechamento com a palavra-código certa e o desenho explicado). Marque o nível concluído. São 2 por folha.</p>
+  <section class="pagina">${topo('Bônus · Kit de Missão', 'Certificado')}<p class="dica">Entregue quando a criança fechar um nível (a Missão de Fechamento com a palavra-código certa e pelo menos 3 dos 4 desenhos explicados). Marque o nível concluído. São 2 por folha.</p>
   ${cert}${cert}<div class="rodape">Math Missions · Kit de Missão</div></section>
   </body></html>`;
 }
@@ -195,7 +195,7 @@ h1 { font-size: 22pt; margin: 2px 0 2px; }
   return `<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Mapa de Domínio</title><style>${css}</style></head><body>
   <section class="pagina">${topo('Bônus', 'Para pendurar na geladeira')}
   <h1>Mapa de Domínio</h1>
-  <p class="sub">Agente: <span class="linha" style="width:70mm"></span> &nbsp; Pinte a casa da missão quando a <b>palavra-código fechar</b> e você <b>explicar o seu desenho</b>. A casa ★ é o Fechamento: o portão para o próximo nível.</p>
+  <p class="sub">Agente: <span class="linha" style="width:70mm"></span> &nbsp; Pinte a casa da missão quando a <b>palavra-código fechar</b> e você <b>explicar o seu desenho</b>. A casa ★ é o Fechamento: o portão para o próximo nível. No ★, explique pelo menos 3 dos 4 desenhos.</p>
   ${linhas}
   <div class="desafios"><b>⚡ Desafios Relâmpago</b><div class="bolas">${bolas}</div></div>
   <div class="leg"><span>■ Missão vencida: pinte a casa</span><span>★ Fechamento: libera o próximo nível</span><span>● Desafio do dia: pinte o círculo</span></div>

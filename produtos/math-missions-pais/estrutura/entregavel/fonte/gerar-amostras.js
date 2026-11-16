@@ -110,7 +110,7 @@ function paginaAdulto(m) {
   </ol>
   <div class="box"><b>Antes de avançar:</b> ${m.dominio}</div>
   <h2>Com irmãos</h2>
-  <div class="box">Imprima as páginas da missão uma vez e resolvam juntos, trocando de papel a cada etapa: <b>leitor</b> (lê em voz alta), <b>desenhista</b> (faz a barra) e <b>calculista</b> (faz a conta e confere no desenho). Com 2 crianças, o leitor também desenha. Se estiverem em níveis diferentes, cada um faz a missão do seu nível e os dois comparam as palavras-código no fim.</div>
+  <div class="box">Imprima as páginas da missão uma vez e resolvam juntos, trocando de papel a cada etapa: <b>leitor</b> (lê em voz alta), <b>desenhista</b> (faz a barra) e <b>calculista</b> (faz a conta e confere no desenho). Com 2 crianças, o leitor também desenha. Se estiverem em níveis diferentes, cada um faz a missão do seu nível e, no fim, os dois contam um ao outro como desenharam.</div>
   <div class="rodape">Math Missions · ${m.titulo} · missão de amostra</div></section>`;
 }
 

@@ -68,7 +68,7 @@ ol.roteiro li { margin-bottom: 6px; }
     <li>Os 3 níveis e por onde começar</li>
     <li>Como usar os bônus</li>
   </ol>
-  <p class="small" style="margin-top:14mm">Este guia ensina, para uso em casa, a abordagem usada nas escolas de Singapura. O Math Missions não é afiliado a nenhuma editora, escola ou marca de material didático.</p>
+  <p class="small" style="margin-top:14mm">Este guia ensina, para uso em casa, a abordagem usada nas escolas de Singapura. O Math Missions não é afiliado ao Ministério da Educação de Singapura nem a nenhuma editora, escola ou marca de material didático.</p>
 </div>
 
 <section>
@@ -102,8 +102,8 @@ ol.roteiro li { margin-bottom: 6px; }
   <div class="modelo"><h3 style="margin-top:0">C. Pedaços iguais (vezes, dividir e frações)</h3>
     <p class="q">“São 4 caixas com 6 lápis cada. Quantos lápis ao todo?”</p>${EX.unidades}
     <p>Pedaços do mesmo tamanho. Se o <b>?</b> está no total, é de vezes (4 × 6 = 24). Se o total é conhecido e o <b>?</b> está num pedaço, é de dividir.</p>
-    <p class="q">Frações: “O celular do jogo tem 80 pontos de bateria e está com 3/4 da carga. Quantos pontos tem?”</p>${EX.fracao}
-    <p>Divida a barra em 4 pedaços iguais (o “de baixo” da fração) e pinte 3 (o “de cima”). O <b>?</b> é o valor dos 3 pedaços pintados juntos. Cada pedaço vale 80 ÷ 4 = 20; os 3 pintados valem 60.</p></div>
+    <p class="q">Frações: “A barra de energia do personagem tem 80 pontos e está 3/4 cheia. Quantos pontos ele tem?”</p>${EX.fracao}
+    <p>Divida a barra em 4 pedaços iguais (o “de baixo” da fração) e pinte 3 (o “de cima”). A resposta é o valor dos 3 pedaços pintados juntos. Cada pedaço vale 80 ÷ 4 = 20; os 3 pintados valem 60.</p></div>
 </section>
 
 <section>
@@ -150,7 +150,7 @@ ol.roteiro li { margin-bottom: 6px; }
     <li><b>Antes:</b> leia a página do adulto da missão (2 minutos) e separe os objetos do passo Concreto.</li>
     <li><b>Durante:</b> leia a abertura com clima de mistério, deixe a criança decidir as contas e peça o desenho na etapa marcada.</li>
     <li><b>Depois:</b> confira a palavra-código e peça: “Me explica o seu desenho.”</li>
-    <li><b>Irmãos:</b> imprima a missão uma vez e trocam de papel a cada etapa: leitor, desenhista e calculista. Se estiverem em níveis diferentes, cada um faz a missão do seu nível e os dois comparam as palavras-código no fim.</li>
+    <li><b>Irmãos:</b> imprima a missão uma vez e trocam de papel a cada etapa: leitor, desenhista e calculista. Se estiverem em níveis diferentes, cada um faz a missão do seu nível e, no fim, os dois contam um ao outro como desenharam.</li>
     <li><b>Cartão do Desenho:</b> imprima e deixe na mesa durante as missões. Ele lembra os passos e os 3 desenhos.</li>
   </ul>
   </section>
@@ -161,11 +161,11 @@ ol.roteiro li { margin-bottom: 6px; }
   <p>As 30 missões estão em 3 níveis de dificuldade, com 10 missões cada. Você escolhe por onde começar pelo que o seu filho já sabe fazer, não pela idade nem pela série.</p>
   <table class="trava">
     <tr><th>Nível</th><th>O que tem</th><th>Comece aqui se…</th></tr>
-    <tr><td>1 · O primeiro desenho</td><td>Juntar, tirar, comparar, grupos iguais, repartir, tempo, metros e metade. Números até 100. A barra vem pronta e a criança só preenche.</td><td>ele ainda pergunta “é de mais ou de menos?”.</td></tr>
-    <tr><td>2 · Dois passos</td><td>Problemas com 3 partes, “vezes mais”, frações de uma quantidade, divisão com resto, litros, segundos e gráficos. Números até 1 000. A criança divide a barra.</td><td>ele já resolve sozinho problemas de juntar, tirar e comparar.</td></tr>
-    <tr><td>3 · Vários passos</td><td>Números com vírgula, antes e depois, soma e diferença, fração do que sobrou, partes desiguais, porcentagem simples e perímetro. A criança desenha sozinha.</td><td>ele já resolve problemas de “vezes mais” e frações de uma quantidade.</td></tr>
+    <tr><td>1 · O primeiro desenho</td><td>Juntar, tirar, comparar, grupos iguais, repartir, tempo, metros e metade, terço e quarto. Números até 100. A barra vem pronta e a criança só preenche.</td><td>ele ainda pergunta “é de mais ou de menos?”.</td></tr>
+    <tr><td>2 · Dois passos</td><td>Problemas com 3 partes, “vezes mais”, frações de uma quantidade, divisão com resto, quilos e gramas, litros, segundos e gráficos. Números até 1 000. A criança divide a barra.</td><td>ele já resolve sozinho problemas de juntar, tirar e comparar.</td></tr>
+    <tr><td>3 · Vários passos</td><td>Números com vírgula, proporção (achar 1 e depois o total), antes e depois, soma e diferença, fração do que sobrou, partes desiguais, porcentagem simples, perímetro e área. Números até 10 000. A criança desenha sozinha.</td><td>ele já resolve problemas de “vezes mais” e frações de uma quantidade.</td></tr>
   </table>
-  <p>Na dúvida, comece pelo Nível 1: as primeiras missões são rápidas, e acertar logo no começo dá confiança. Se ficar fácil demais, pule para a Missão de Fechamento do nível. Se ele resolver, suba de nível.</p>
+  <p>Na dúvida, comece pelo Nível 1: as primeiras missões são rápidas, e acertar logo no começo dá confiança. Se ficar fácil demais, pule para a Missão de Fechamento do nível. Se ele fechar a palavra-código e explicar 3 dos 4 desenhos, suba de nível.</p>
 
   <section class="cont">
   <h2>9. Como usar os bônus</h2>
