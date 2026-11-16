@@ -1,0 +1,88 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Kit de Missão</title><style>
+* { box-sizing: border-box; }
+body { font-family: Inter, 'DejaVu Sans', sans-serif; color: #111; margin: 0; }
+.pagina { page-break-after: always; position: relative; overflow: hidden; }
+.pagina:last-child { page-break-after: auto; }
+.topo { display: flex; align-items: center; gap: 10px; border-bottom: 2px solid #111; padding-bottom: 4px; margin-bottom: 10px; font-size: 9pt; font-weight: 800; letter-spacing: .05em; }
+.topo .tag { background: #111; color: #fff; border-radius: 6px; padding: 3px 10px; font-size: 10pt; letter-spacing: 0; }
+.topo .dir { margin-left: auto; }
+h1 { font-size: 24pt; margin: 6px 0 8px; line-height: 1.1; }
+h2 { font-size: 15pt; margin: 12px 0 6px; }
+.box { border: 1.5px solid #111; border-radius: 10px; padding: 8px 14px; margin: 8px 0; }
+.small { font-size: 9.5pt; color: #333; }
+.rodape { position: absolute; bottom: 0; left: 0; right: 0; font-size: 8pt; color: #555; border-top: 1px solid #aaa; padding-top: 3px; }
+.linha { display: inline-block; border-bottom: 1.4px solid #111; height: 1.1em; vertical-align: bottom; }
+
+@page { size: A4; margin: 12mm; }
+.pagina { height: 272mm; }
+body { font-size: 11.5pt; line-height: 1.4; }
+.dica { font-size: 10pt; margin: 0 0 8px; }
+.crachas { display: grid; grid-template-columns: 1fr 1fr; border-top: 1px dashed #777; border-left: 1px dashed #777; }
+.cracha { border-right: 1px dashed #777; border-bottom: 1px dashed #777; height: 108mm; padding: 6mm 6mm 5mm; display: flex; flex-direction: column; position: relative; }
+.cracha .furo { position: absolute; top: 3mm; left: 50%; margin-left: -7mm; width: 14mm; height: 3.5mm; border: 1px solid #111; border-radius: 2mm; }
+.cracha .tit { text-align: center; font-weight: 900; letter-spacing: .28em; font-size: 15pt; margin-top: 4mm; }
+.cracha .sub { text-align: center; font-size: 8.5pt; letter-spacing: .14em; margin-bottom: 4mm; }
+.cracha .foto { height: 34mm; width: 30mm; margin: 0 auto 4mm; border: 1.8px solid #111; border-radius: 3mm; display: flex; align-items: flex-end; justify-content: center; font-size: 7.5pt; padding-bottom: 1.5mm; }
+.cracha .campo { font-size: 9pt; font-weight: 700; margin-top: 3mm; }
+.cracha .campo span { display: block; border-bottom: 1px solid #111; height: 6mm; }
+.cracha .niveis { display: flex; gap: 6px; justify-content: center; margin-top: auto; font-size: 8.5pt; font-weight: 700; }
+.cracha .niveis i { display: inline-block; width: 11px; height: 11px; border: 1.5px solid #111; border-radius: 50%; vertical-align: -1px; margin-right: 3px; }
+.ficha { border: 2px solid #111; border-radius: 10px; padding: 8px 12px; height: 128mm; margin-bottom: 6mm; display: flex; flex-direction: column; gap: 6px; }
+.ficha .cab { display: flex; justify-content: space-between; font-weight: 800; }
+table { width: 100%; border-collapse: collapse; }
+th, td { border: 1px solid #111; padding: 3px 6px; font-size: 10pt; text-align: left; }
+td { height: 9mm; }
+.caixas { display: flex; gap: 6px; }
+.caixas div { width: 12mm; height: 12mm; border: 2px solid #111; border-radius: 6px; }
+.tipos { display: flex; gap: 14px; font-size: 10pt; }
+.tipos span::before { content: ''; display: inline-block; width: 11px; height: 11px; border: 1.5px solid #111; border-radius: 3px; margin-right: 5px; vertical-align: -1px; }
+.cert { height: 128mm; border: 4px double #111; border-radius: 6mm; padding: 8mm 12mm; text-align: center; display: flex; flex-direction: column; justify-content: space-between; margin-bottom: 6mm; }
+.cert .selo { font-weight: 900; letter-spacing: .35em; font-size: 10pt; }
+.cert h2 { font-size: 23pt; margin: 2mm 0; letter-spacing: .03em; }
+.cert p { margin: 0; font-size: 12.5pt; }
+.cert .nome { border-bottom: 1.5px solid #111; height: 11mm; margin: 2mm 16mm; }
+.cert .niveis { display: flex; justify-content: center; gap: 22px; font-weight: 800; }
+.cert .niveis span::before { content: ''; display: inline-block; width: 14px; height: 14px; border: 2px solid #111; border-radius: 50%; margin-right: 6px; vertical-align: -2px; }
+.cert .assin { display: flex; justify-content: space-around; font-size: 9pt; }
+.cert .assin div { border-top: 1px solid #111; width: 60mm; padding-top: 2px; }
+</style></head><body>
+  <section class="pagina"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="tag">Bônus · Kit de Missão</span><span class="dir">Crachás de agente</span></div><h1>Crachás de agente</h1>
+  <p class="dica">Entregue antes da primeira missão. Imprima, recorte na linha tracejada e passe um barbante no furo. A criança desenha o próprio rosto e inventa um código secreto. Quando fechar um nível, ela pinta o círculo. São 4 crachás por folha: um para cada irmão (e um para o adulto, se quiser jogar junto).</p>
+  <div class="crachas"><div class="cracha"><div class="furo"></div><div class="tit">AGENTE</div><div class="sub">MATH MISSIONS · DESENHE ANTES DE CALCULAR</div>
+    <div class="foto">desenhe seu rosto</div>
+    <div class="campo">Nome de agente<span></span></div><div class="campo">Código secreto<span></span></div>
+    <div class="niveis"><span><i></i>Nível 1</span><span><i></i>Nível 2</span><span><i></i>Nível 3</span></div></div><div class="cracha"><div class="furo"></div><div class="tit">AGENTE</div><div class="sub">MATH MISSIONS · DESENHE ANTES DE CALCULAR</div>
+    <div class="foto">desenhe seu rosto</div>
+    <div class="campo">Nome de agente<span></span></div><div class="campo">Código secreto<span></span></div>
+    <div class="niveis"><span><i></i>Nível 1</span><span><i></i>Nível 2</span><span><i></i>Nível 3</span></div></div><div class="cracha"><div class="furo"></div><div class="tit">AGENTE</div><div class="sub">MATH MISSIONS · DESENHE ANTES DE CALCULAR</div>
+    <div class="foto">desenhe seu rosto</div>
+    <div class="campo">Nome de agente<span></span></div><div class="campo">Código secreto<span></span></div>
+    <div class="niveis"><span><i></i>Nível 1</span><span><i></i>Nível 2</span><span><i></i>Nível 3</span></div></div><div class="cracha"><div class="furo"></div><div class="tit">AGENTE</div><div class="sub">MATH MISSIONS · DESENHE ANTES DE CALCULAR</div>
+    <div class="foto">desenhe seu rosto</div>
+    <div class="campo">Nome de agente<span></span></div><div class="campo">Código secreto<span></span></div>
+    <div class="niveis"><span><i></i>Nível 1</span><span><i></i>Nível 2</span><span><i></i>Nível 3</span></div></div></div><div class="rodape">Math Missions · Kit de Missão</div></section>
+  <section class="pagina"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="tag">Bônus · Kit de Missão</span><span class="dir">Ficha de pistas</span></div><p class="dica">Uma ficha por missão. A criança anota cada resposta e a letra da tabela de código. No fim, monta a palavra-código e marca o desenho que usou. Imprima quantas precisar.</p>
+  <div class="ficha"><div class="cab"><span>FICHA DE PISTAS</span><span>Missão nº <span class="linha" style="width:22mm"></span></span></div>
+    <div><b>Nome da missão:</b> <span class="linha" style="width:120mm"></span></div>
+    <div><b>Agente(s):</b> <span class="linha" style="width:132mm"></span></div>
+    <table><tr><th style="width:18mm">Etapa</th><th>Minha resposta</th><th style="width:22mm">Letra</th></tr>
+    <tr><td>1</td><td></td><td></td></tr><tr><td>2</td><td></td><td></td></tr><tr><td>3</td><td></td><td></td></tr><tr><td>4</td><td></td><td></td></tr></table>
+    <div style="display:flex;align-items:center;gap:12px"><b>Palavra-código:</b><div class="caixas"><div></div><div></div><div></div><div></div></div></div>
+    <div><b>O desenho que eu usei na etapa “desenhe o problema”:</b><div class="tipos" style="margin-top:4px"><span>parte e todo</span><span>comparação</span><span>pedaços iguais</span><span>outro</span></div></div>
+    <div><b>O que aconteceu?</b> <span class="linha" style="width:140mm"></span><br><span class="linha" style="width:100%;margin-top:6px"></span></div></div><div class="ficha"><div class="cab"><span>FICHA DE PISTAS</span><span>Missão nº <span class="linha" style="width:22mm"></span></span></div>
+    <div><b>Nome da missão:</b> <span class="linha" style="width:120mm"></span></div>
+    <div><b>Agente(s):</b> <span class="linha" style="width:132mm"></span></div>
+    <table><tr><th style="width:18mm">Etapa</th><th>Minha resposta</th><th style="width:22mm">Letra</th></tr>
+    <tr><td>1</td><td></td><td></td></tr><tr><td>2</td><td></td><td></td></tr><tr><td>3</td><td></td><td></td></tr><tr><td>4</td><td></td><td></td></tr></table>
+    <div style="display:flex;align-items:center;gap:12px"><b>Palavra-código:</b><div class="caixas"><div></div><div></div><div></div><div></div></div></div>
+    <div><b>O desenho que eu usei na etapa “desenhe o problema”:</b><div class="tipos" style="margin-top:4px"><span>parte e todo</span><span>comparação</span><span>pedaços iguais</span><span>outro</span></div></div>
+    <div><b>O que aconteceu?</b> <span class="linha" style="width:140mm"></span><br><span class="linha" style="width:100%;margin-top:6px"></span></div></div><div class="rodape">Math Missions · Kit de Missão</div></section>
+  <section class="pagina"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="tag">Bônus · Kit de Missão</span><span class="dir">Certificado</span></div><p class="dica">Entregue quando a criança fechar um nível (a Missão de Fechamento com a palavra-código certa e o desenho explicado). Marque o nível concluído. São 2 por folha.</p>
+  <div class="cert"><div class="selo">MATH MISSIONS</div><div><h2>Certificado de Missão Cumprida</h2><p>Certificamos que o agente</p></div><div class="nome"></div>
+    <p>fechou o caso e concluiu o</p><div class="niveis"><span>Nível 1</span><span>Nível 2</span><span>Nível 3</span></div>
+    <p>desenhando o problema antes de calcular.</p>
+    <div class="assin"><div>Chefe da Missão</div><div>Data</div></div></div><div class="cert"><div class="selo">MATH MISSIONS</div><div><h2>Certificado de Missão Cumprida</h2><p>Certificamos que o agente</p></div><div class="nome"></div>
+    <p>fechou o caso e concluiu o</p><div class="niveis"><span>Nível 1</span><span>Nível 2</span><span>Nível 3</span></div>
+    <p>desenhando o problema antes de calcular.</p>
+    <div class="assin"><div>Chefe da Missão</div><div>Data</div></div></div><div class="rodape">Math Missions · Kit de Missão</div></section>
+  </body></html>
