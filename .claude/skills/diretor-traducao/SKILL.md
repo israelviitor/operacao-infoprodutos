@@ -34,7 +34,7 @@ Toda peça sai com **uma única versão final**, inclusive headlines, ganchos e 
 
 ## Passo 4 — Entrega
 Salve em `produtos/<produto>/traducao/<idioma-pais>/`, por exemplo `en-US`, `en-GB` ou `de-DE`:
-- `<peca>.md`, numa tabela `PT (original aprovado) | <IDIOMA> (final) | Volta para PT | Nota`. A nota explica adaptações: "trocamos X por Y porque…";
+- `<peca>.md`: a versão **completa no idioma-alvo** e, logo abaixo, a **volta completa para o português** — um texto embaixo do outro, sem tabela (`regras/traducao.md`). Nota só se uma adaptação mudar o sentido, em 1 linha no fim;
 - `<peca>-final.<ext>`: só o texto final, pronto para a Estrutura e a Edição montarem;
 - `GLOSSARIO.md`, atualizado.
 

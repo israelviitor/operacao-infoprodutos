@@ -69,5 +69,5 @@ No Math Missions, seu filho pratica esse raciocínio em missões de mistério, c
 Ele calcula a distância da trilha, desenha as moedas para descobrir quanto sobrou e reúne as respostas. Cada uma revela uma letra. Juntas, elas indicam onde está o tesouro.
 Essa é uma das missões do Math Missions.
 Por trás da aventura, ele pratica interpretação, raciocínio e matemática, usando desenhos para compreender os problemas antes de calcular.
-São três níveis de dificuldade, materiais para imprimir e apoio para os pais quando necessário. O kit completo, com quatro bônus, custa US$ 17 e tem garantia de 30 dias.
+São três níveis de dificuldade, materiais para imprimir e apoio para os pais quando necessário. O kit completo, com quatro bônus, custa US$ 9,90 e tem garantia de 30 dias.
 **CTA:** Toque em "Saiba mais" e dê a primeira missão ao seu filho.

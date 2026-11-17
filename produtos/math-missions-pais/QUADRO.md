@@ -24,6 +24,7 @@ Estrutura (amostras) + Copy (promessa e página, com pesquisa enxuta própria). 
 - [2026-11-10] **Ordem da página: montar primeiro em PT no ChatGPT** (pacote da Estrutura com a headline nº 1), e só depois traduzir. A Tradução entra sobre a página montada: entrega o texto em en-US bloco a bloco + o comando para o ChatGPT trocar os textos e as imagens.
 - [2026-11-11] **4 bônus** (aparecem na página como bônus, separados do Guia + 30 missões): (1) **Cartão do Desenho** (pronto); (2) **Desafios Relâmpago de 5 minutos** — 30 mini-problemas de desenho, um por dia (adaptar os Desafios Relâmpago do Matemática em Missão); (3) **Kit de Missão** — crachá de agente, ficha de pistas, certificado (adaptar o Kit de Ambientação); (4) **Mapa de Domínio** — quadro para marcar cada missão vencida (novo). **Missão Diagnóstica: recusada pelo dono.** Preparação para provas e assinatura "missão do mês" ficam no funil (bump/upsell), não como bônus. Os Roteiros para Pais continuam dentro das missões (não são bônus). Bônus prontos antes do início dos anúncios.
 - [2026-11-12] **A oferta não se limita a idade.** Sai "8 a 11 anos" da página, dos anúncios e do produto. As missões passam a ser organizadas por **nível de dificuldade** (ex.: Nível 1, 2 e 3 — do primeiro desenho de barras ao problema de várias etapas), e o pai escolhe por onde começar pelo que o filho já sabe, não pela idade. Substitui a decisão de 06/11 ("a página fala em idade") e as "3 faixas de idade" das amostras.
+- [2026-11-17] **Preço do teste: US$ 9,90** (substitui os US$ 17; decisão do dono após a pesquisa da Mineração sobre 2 planos). Criativo 07 já atualizado. A página (`copy/pagina-vendas.md`, `TEXTOS-PT.md`) e a LP no ar ainda dizem US$ 17: trocar.
 - [2026-11-06] Tradução: só na montagem final, pelo `/diretor-traducao`, a partir da versão aprovada em PT.
 
 ## Status por área
@@ -43,6 +44,7 @@ Estrutura (amostras) + Copy (promessa e página, com pesquisa enxuta própria). 
 Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ pronto · ⛔ travado
 
 ## Pedidos entre áreas (abertos)
+- [ ] [2026-11-17] **De** Central **para** Copy de Oferta/Estrutura: trocar US$ 17 por **US$ 9,90** na página (copy, TEXTOS-PT, âncora "menos de uma hora de reforço" continua válida) e no pacote do ChatGPT; refazer o CPA de empate com a Tráfego.
 - [ ] [2026-11-16] **De** Mineração **para** dono → Copy/Estrutura: decidir bumps e upsell com base em `pesquisa/2026-11-16-funis-concorrentes.md` (recomendação: bump "Holiday Math Missions" US$ 7–9 + licença família US$ 5–7; upsell próximo nível US$ 27; downsell US$ 17; clube mensal só depois de validar). (abertos)
 - [ ] [2026-11-16] **De** Estrutura **para** Tradução: Guia final, 30 Desafios Relâmpago, Kit de Missão e Mapa de Domínio em PT prontos (`estrutura/entregavel/fonte/gerar-guia.js`, `desafios.js`, `gerar-bonus.js`). Traduzir para en-US quando o dono pedir (usar o glossário: READ · DRAW · SOLVE · CHECK, Agent Badge, Clue Sheet, Mastery Map). Decimais com ponto em inglês.
 - [ ] [2026-11-16] **De** Copy de Criativos **para** Tradução: depois da aprovação do dono, traduzir `criativos/2026-11-17-lote-1-final-dono.md` (a versão final do dono, que substitui a de 16/11) para en-US (ver as notas no fim do arquivo: palavra-código, "desenha pra mim", linguagem neutra).
@@ -69,6 +71,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 Estrutura (amostras) e Copy (pesquisa + promessa + página, em PT) em paralelo → dono aprova → Tradução (en-US).
 
 ## Histórico (mais recente em cima)
+- [2026-11-17] Dono: preço do teste US$ 9,90; criativo 07 atualizado pela Central.
 - [2026-11-17] Mineração: 2 planos em página única (formato infoproduto EN) → Basic US$ 9,90 / Complete US$ 16,90 em `pesquisa/2026-11-17-dois-planos-paginas.md` (substitui a pesquisa de lojas/assinaturas).
 - [2026-11-17] Mineração: pesquisa rápida de 2 planos (9 ofertas) → recomendação Basic US$ 9 / Complete US$ 17 em `pesquisa/2026-11-17-dois-planos.md`.
 - [2026-11-17] Dono reescreveu os 7 criativos (lote 1 final) e definiu-os como modelo de estilo; regras novas em `regras/copy-criativos.md` e `regras/compliance.md`.
