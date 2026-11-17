@@ -14,6 +14,7 @@ Sem dossiê (ou com avatar/mecanismo vazios) → pare e recomende `/diretor-mine
 - Dispare `aluno-pesquisador` em paralelo para buscar as **dores reais do público**: falas literais em comentários de anúncios, posts, grupos e vídeos do nicho, com link. Se o dossiê não tiver referências recentes, inclua também os "hooks de anúncios escalados no nicho nos últimos 30 dias".
 
 ## Passo 2 — Alunos escrevem
+**Antes de tudo, leia e passe aos alunos `especialistas/modelo-do-dono.md`: é o estilo que o dono quer (como base, nunca para copiar). Risco de política da Meta não corta copy (`regras/compliance.md`).**
 Dispare um `aluno-pesquisador` por ângulo (escolhidos com `especialistas/angulos.md`, sem repetir), com as dores reais do Passo 1, a PROMESSA e os especialistas `ganchos.md` e `roteiro.md`. Cada aluno devolve **2 versões** no formato Hook (principal + 3 variações) / Body / CTA / Layout.
 
 ## Passo 3 — Diretor avalia (teste do lead) + Comitê
