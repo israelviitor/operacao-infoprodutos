@@ -69,6 +69,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 Estrutura (amostras) e Copy (pesquisa + promessa + página, em PT) em paralelo → dono aprova → Tradução (en-US).
 
 ## Histórico (mais recente em cima)
+- [2026-11-17] Mineração: pesquisa rápida de 2 planos (9 ofertas) → recomendação Basic US$ 9 / Complete US$ 17 em `pesquisa/2026-11-17-dois-planos.md`.
 - [2026-11-17] Dono reescreveu os 7 criativos (lote 1 final) e definiu-os como modelo de estilo; regras novas em `regras/copy-criativos.md` e `regras/compliance.md`.
 - [2026-11-16] Mineração: funis dos concorrentes (bumps, upsells, assinaturas) e recomendação → `pesquisa/2026-11-16-funis-concorrentes.md`.
 - [2026-11-16] Estrutura: Guia do Método final (7 págs; sem rascunho, fatos do TIMSS/PISA com fonte, seções novas: os 3 níveis e como usar os bônus) + 3 bônus em PT: 30 Desafios Relâmpago (10 por nível, contas conferidas pelo gerador, gabarito com o desenho de cada um; 14 págs), Kit de Missão (4 crachás, ficha de pistas, certificado por nível; 3 págs) e Mapa de Domínio (A4 paisagem, 30 missões do índice + 30 círculos dos desafios). Comitê: Ajustar, aplicado. Imagens da página: as do ar já estão < 150 KB; as do pacote também.
