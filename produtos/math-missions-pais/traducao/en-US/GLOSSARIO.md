@@ -6,10 +6,11 @@
 |---|---|---|---|---|
 | Math Missions (nome de trabalho) | Math Missions | página, produto | — | nome de trabalho; checar marca antes do lançamento |
 | o método de Singapura | the Singapore method | página, Guia, anúncios | **"Singapore Math"** | "SINGAPORE MATH" é marca registrada nos EUA (reg. 4030323) |
-| ensino de Singapura (anúncios) | Singapore's approach | criativos | **"Singapore Math"** | palavra do dono nos criativos de 17/11 |
+| ensino de Singapura | the teaching of Singapore / teaching math in Singapore | criativos | **"Singapore Math"**, "Singapore's math" | tradução fiel de "ensino"; perto da marca não |
 | Guia para Pais | Parent Guide | criativos, página | — | — |
 | Saiba mais (botão da Meta) | "Learn More" | CTA dos criativos | — | nome do botão em en-US |
-| é de mais ou de vezes? / atividade | assignment (dever) · activity (atividade livre) | criativos | — | — |
+| atividade | activity | criativos | "assignment" | tradução fiel |
+| palavra secreta / palavra-código | secret word / code word | criativos, missões | trocar um pelo outro | tradução fiel do termo usado no PT |
 | bar model / desenhar o problema | bar model / draw the problem | missões, Guia | — | termo usado pelos pais e escolas |
 | missão | mission | tudo | — | — |
 | nível (1, 2, 3) | Level 1, 2, 3 | missões, página | idade e série como critério ("ages 8–11", "grade") | decisão do dono de 12/11: oferta por nível, não por idade |

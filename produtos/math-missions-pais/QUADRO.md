@@ -72,6 +72,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 Estrutura (amostras) e Copy (pesquisa + promessa + página, em PT) em paralelo → dono aprova → Tradução (en-US).
 
 ## Histórico (mais recente em cima)
+- [2026-11-17] Dono reprovou ajustes na tradução dos criativos ("só traduza"). Tradução refeita fiel, sem texto de tela/legenda criados; regra em `regras/traducao.md`.
 - [2026-11-17] Tradução: 7 criativos do lote 1 do dono em en-US (narração, variações de hook, texto de tela e legenda) + volta para o PT, comitê aplicado; glossário com "Singapore's approach" e "Parent Guide".
 - [2026-11-17] Dono: preço do teste US$ 9,90; criativo 07 atualizado pela Central.
 - [2026-11-17] Mineração: 2 planos em página única (formato infoproduto EN) → Basic US$ 9,90 / Complete US$ 16,90 em `pesquisa/2026-11-17-dois-planos-paginas.md` (substitui a pesquisa de lojas/assinaturas).
