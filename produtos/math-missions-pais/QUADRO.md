@@ -69,6 +69,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 Estrutura (amostras) e Copy (pesquisa + promessa + página, em PT) em paralelo → dono aprova → Tradução (en-US).
 
 ## Histórico (mais recente em cima)
+- [2026-11-17] Mineração: 2 planos em página única (formato infoproduto EN) → Basic US$ 9,90 / Complete US$ 16,90 em `pesquisa/2026-11-17-dois-planos-paginas.md` (substitui a pesquisa de lojas/assinaturas).
 - [2026-11-17] Mineração: pesquisa rápida de 2 planos (9 ofertas) → recomendação Basic US$ 9 / Complete US$ 17 em `pesquisa/2026-11-17-dois-planos.md`.
 - [2026-11-17] Dono reescreveu os 7 criativos (lote 1 final) e definiu-os como modelo de estilo; regras novas em `regras/copy-criativos.md` e `regras/compliance.md`.
 - [2026-11-16] Mineração: funis dos concorrentes (bumps, upsells, assinaturas) e recomendação → `pesquisa/2026-11-16-funis-concorrentes.md`.
