@@ -2,7 +2,11 @@
 // Uso: node gerar-amostras.js  -> ./html/<id>.html  (o PDF sai com ferramentas/gerar-pdf.js)
 const fs = require('fs');
 const path = require('path');
-const missoes = require('./missoes-amostra');
+// Idioma: LANG=en node gerar-amostras.js gera a versão en-US em html/en/ (dados em missoes-amostra.en.js).
+const LANG = process.env.LANG_MM || (process.argv[2] === 'en' ? 'en' : 'pt');
+const missoes = require(LANG === 'pt' ? './missoes-amostra' : './missoes-amostra.' + LANG);
+const T = require('./textos-fixos')[LANG];
+if (!T) { console.error('Faltam os textos fixos em ' + LANG); process.exit(1); }
 const { barra } = require('./barras');
 
 const ALFA = 'ABCDEFGHIJLMNPRSTUXZ';
@@ -21,7 +25,7 @@ for (const m of missoes) {
   });
   const vals = m.tabela.map((t) => t[0]);
   vals.forEach((v, i) => { if (vals.indexOf(v) !== i) erros.push(`${m.id}: o valor "${v}" aparece duas vezes na tabela de código`); });
-  m.tabela.sort((a, b) => a[0].localeCompare(b[0], 'pt-BR', { numeric: true }));
+  m.tabela.sort((a, b) => a[0].localeCompare(b[0], T.lang, { numeric: true }));
 }
 if (erros.length) { console.error(erros.join('\n')); process.exit(1); }
 
@@ -94,73 +98,67 @@ const topo = (m, dir) => `<div class="topo"><span>MATH&nbsp;MISSIONS</span><span
 
 function paginaAdulto(m) {
   const nd = m.etapas.findIndex((e) => e.desenho) + 1;
-  return `<section class="pagina adulto">${topo(m, 'Para o adulto · leia antes (2 minutos)')}
+  const f = (t) => t.replace(/\{nd\}/g, nd);
+  return `<section class="pagina adulto">${topo(m, T.adultoTopo)}
   <h1>${m.titulo}</h1>
-  <div class="box"><b>Tempo:</b> ${m.tempo} · <b>Pratica:</b> ${m.praticas} · <b>Material:</b> lápis, borracha e esta folha impressa (opcional: relógio de ponteiros, feijões ou tampinhas).</div>
-  <h2>O método nesta missão: desenhe antes de calcular</h2>
-  <p>A etapa ${nd} é a etapa <b>“desenhe o problema”</b>. Nela, a criança passa pelos 3 passos do método de Singapura (detalhes no Guia para Pais):</p>
-  <div class="passos"><div><b>1. Concreto</b><br>${m.concreto}</div><div><b>2. Desenho</b><br>A criança desenha a barra e põe <b>?</b> no que quer descobrir. Só depois faz a conta.</div><div><b>3. Conta</b><br>Com o desenho pronto, ela escreve a conta e confere a resposta olhando o desenho.</div></div>
-  <h2>Como conduzir</h2>
-  <ol>
-    <li><b>Leia a abertura em voz alta, com clima de mistério.</b> A 1ª etapa é curtinha, de propósito: é para a criança entrar no jogo rápido.</li>
-    <li><b>Não diga qual conta fazer.</b> O enunciado não diz se é de mais, de menos ou de vezes. Descobrir isso é o exercício, e o desenho é o que mostra a resposta.</li>
-    <li><b>Se a criança travar, peça o desenho antes de qualquer ajuda:</b> “Me mostra isso numa barra.” Depois use a pergunta de apoio do gabarito (última página). Ela ajuda sem entregar a resposta.</li>
-    <li><b>Cada resposta vira uma letra.</b> Se a palavra-código não fizer sentido, alguma conta está errada: voltem ao desenho e procurem juntos.</li>
-    <li><b>Feche pedindo:</b> “Me explica o seu desenho da etapa ${nd}.”</li>
-  </ol>
-  <div class="box"><b>Antes de avançar:</b> ${m.dominio}</div>
-  <h2>Com irmãos</h2>
-  <div class="box">Imprima as páginas da missão uma vez e resolvam juntos, trocando de papel a cada etapa: <b>leitor</b> (lê em voz alta), <b>desenhista</b> (faz a barra) e <b>calculista</b> (faz a conta e confere no desenho). Com 2 crianças, o leitor também desenha. Se estiverem em níveis diferentes, cada um faz a missão do seu nível e, no fim, os dois contam um ao outro como desenharam.</div>
-  <div class="rodape">Math Missions · ${m.titulo} · missão de amostra</div></section>`;
+  <div class="box"><b>${T.tempo}</b> ${m.tempo} · <b>${T.pratica}</b> ${m.praticas} · <b>${T.material}</b> ${T.materialTxt}</div>
+  <h2>${T.metodoTit}</h2>
+  <p>${f(T.metodoTxt)}</p>
+  <div class="passos"><div><b>${T.passo1}</b><br>${m.concreto}</div><div><b>${T.passo2}</b><br>${T.passo2Txt}</div><div><b>${T.passo3}</b><br>${T.passo3Txt}</div></div>
+  <h2>${T.conduzirTit}</h2>
+  <ol>${T.conduzir.map((li) => `<li>${f(li)}</li>`).join('')}</ol>
+  <div class="box"><b>${T.antesAvancar}</b> ${m.dominio}</div>
+  <h2>${T.irmaosTit}</h2>
+  <div class="box">${T.irmaosTxt}</div>
+  <div class="rodape">Math Missions · ${m.titulo} · ${T.rodapeAmostra}</div></section>`;
 }
 
 function etapaHTML(e, i) {
   const d = e.desenho;
-  const tag = e.curta ? '<span class="tag">rapidinha</span>' : d ? '<span class="tag d">desenhe o problema</span>' : '';
-  const desenho = d ? `<div class="desenho"><div class="ins"><b class="lbl">1º DESENHE</b>${d.instrucao}</div>${d.molde ? barra(d.molde, { largura: 560 }) : '<div class="livre"></div>'}</div>` : '';
+  const tag = e.curta ? `<span class="tag">${T.tagCurta}</span>` : d ? `<span class="tag d">${T.tagDesenho}</span>` : '';
+  const desenho = d ? `<div class="desenho"><div class="ins"><b class="lbl">${T.desenheLbl}</b>${d.instrucao}</div>${d.molde ? barra(d.molde, { largura: 560 }) : '<div class="livre"></div>'}</div>` : '';
   return `<div class="etapa"><span class="num">${i + 1}</span><span class="tit">${e.titulo}</span>${tag}
   <p>${e.enunciado}</p>${desenho}
-  <div class="espaco${e.curta || d ? ' curto' : ''}"><span>${d ? '2º CALCULE: a conta que o desenho mostrou' : 'Espaço para pensar e fazer a conta'}</span></div>
-  <div class="resp">Minha resposta: <i></i></div></div>`;
+  <div class="espaco${e.curta || d ? ' curto' : ''}"><span>${d ? T.calculeLbl : T.espacoLbl}</span></div>
+  <div class="resp">${T.minhaResposta} <i></i></div></div>`;
 }
-
-const DICA = '<div class="dica"><b>DICA:</b> nenhuma pista diz qual conta fazer. Leia com calma, descubra o que está sendo pedido e escolha a conta. Na dúvida, desenhe.</div>';
 
 function paginasMissao(m) {
   const [a, b, c, d] = m.etapas;
   const d1 = !!(a.desenho || b.desenho);
-  return `<section class="pagina missao">${topo(m, 'Missão')}
+  const DICA = `<div class="dica">${T.dica}</div>`;
+  return `<section class="pagina missao">${topo(m, T.missaoTopo)}
   <div class="cab"><div>${ICONES[m.icone]}</div><div><h1>${m.titulo}</h1></div></div>
   <div class="abertura">${m.abertura}</div>
   ${etapaHTML(a, 0)}${etapaHTML(b, 1)}
   ${d1 ? '' : DICA}
   <div class="rodape">Math Missions · ${m.titulo}</div></section>
-  <section class="pagina missao">${topo(m, 'Missão (continuação)')}
+  <section class="pagina missao">${topo(m, T.missaoCont)}
   ${etapaHTML(c, 2)}${etapaHTML(d, 3)}
   ${d1 ? DICA : ''}
-  <h2>Abra o código <span class="small" style="font-weight:400">· procure cada resposta na tabela e escreva a letra na caixa da etapa</span></h2>
+  <h2>${T.codigoTit} <span class="small" style="font-weight:400">${T.codigoTxt}</span></h2>
   <table class="cod"><tr>${m.tabela.map((t) => `<td>${t[0]}</td>`).join('')}</tr><tr>${m.tabela.map((t) => `<td class="l">${t[1]}</td>`).join('')}</tr></table>
-  <div class="fim"><div class="caixas">${m.etapas.map((e, i) => `<div><span>${i + 1}</span></div>`).join('')}</div><div class="oque"><b>O que aconteceu?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="fim"><div class="caixas">${m.etapas.map((e, i) => `<div><span>${i + 1}</span></div>`).join('')}</div><div class="oque"><b>${T.oQueAconteceu}</b><div class="linha"></div><div class="linha"></div></div></div>
   <div class="rodape">Math Missions · ${m.titulo}</div></section>`;
 }
 
 function paginaGabarito(m) {
-  const itens = m.etapas.map((e, i) => `<div class="item"><b>Etapa ${i + 1} — ${e.titulo}</b> · <span class="r">${e.r}</span> (letra ${m.palavra[i]})
-  <div><b>Como pensar:</b> ${e.pensar} <span class="small">Conta: ${e.conta}.</span></div>
-  ${e.desenho ? `<div><b>O desenho esperado</b> (vale qualquer desenho com as mesmas partes):</div><div class="modelo">${barra(e.desenho.modelo, { largura: 420, alturaBarra: 24, fonte: 12 })}</div><div>${e.desenho.explica}</div>` : ''}
-  <div><b>Se travar, pergunte:</b> ${e.apoio}</div>
-  <div class="small"><b>Erro mais comum:</b> responder ${e.ev}, quando a criança ${e.erro} Essa resposta leva a outra letra, e a palavra não fecha.</div></div>`).join('');
-  return `<section class="pagina gab">${topo(m, 'Gabarito explicado · para o adulto')}
-  <h1>Gabarito: ${m.titulo}</h1>
+  const itens = m.etapas.map((e, i) => `<div class="item"><b>${T.etapa} ${i + 1} — ${e.titulo}</b> · <span class="r">${e.r}</span> (${T.letra} ${m.palavra[i]})
+  <div><b>${T.comoPensar}</b> ${e.pensar} <span class="small">${T.conta} ${e.conta}.</span></div>
+  ${e.desenho ? `<div>${T.desenhoEsperado}</div><div class="modelo">${barra(e.desenho.modelo, { largura: 420, alturaBarra: 24, fonte: 12 })}</div><div>${e.desenho.explica}</div>` : ''}
+  <div><b>${T.seTravar}</b> ${e.apoio}</div>
+  <div class="small"><b>${T.erroComum}</b> ${T.erroResponder} ${e.ev}, ${T.erroQuando} ${e.erro} ${T.erroFim}</div></div>`).join('');
+  return `<section class="pagina gab">${topo(m, T.gabTopo)}
+  <h1>${T.gabTit} ${m.titulo}</h1>
   ${itens}
-  <div class="box"><b>Palavra-código: ${m.palavra}.</b> ${m.solucao}</div>
-  <div class="rodape">Math Missions · gabarito</div></section>`;
+  <div class="box"><b>${T.palavraCodigo} ${m.palavra}.</b> ${m.solucao}</div>
+  <div class="rodape">Math Missions · ${T.gabRodape}</div></section>`;
 }
 
-const OUT = path.join(__dirname, 'html');
+const OUT = path.join(__dirname, 'html', LANG === 'pt' ? '' : LANG);
 fs.mkdirSync(OUT, { recursive: true });
 for (const m of missoes) {
-  const html = `<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>${m.titulo}</title><style>${CSS}</style></head><body>${paginaAdulto(m)}${paginasMissao(m)}${paginaGabarito(m)}</body></html>`;
+  const html = `<!doctype html><html lang="${T.lang}"><head><meta charset="utf-8"><title>${m.titulo}</title><style>${CSS}</style></head><body>${paginaAdulto(m)}${paginasMissao(m)}${paginaGabarito(m)}</body></html>`;
   fs.writeFileSync(path.join(OUT, m.id + '.html'), html);
   console.log(`ok  ${m.id}: contas conferidas`);
 }
