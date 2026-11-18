@@ -37,7 +37,7 @@ Estrutura (amostras) + Copy (promessa e página, com pesquisa enxuta própria). 
 | Estrutura — checkout (gateway USD) | ⬜ gateway: Kiwify recomendada, aguardando respostas do suporte | `produtos/_estrutura/2026-11-06-gateways-usd.md` | 2026-11-06 |
 | Tradução | 🔵 en-US: nomes das missões, 4 bônus, **criativos lote 1 (7 vídeos)**; glossário | `traducao/en-US/criativos-lote-1.md`, `traducao/en-US/bonus.md`, `traducao/en-US/nomes-missoes.md`, `traducao/en-US/GLOSSARIO.md` | 2026-11-17 |
 | Copy de Criativos | ✅ lote 1 final escrito pelo dono (7 criativos), que substitui o lote 1 da Copy | `criativos/2026-11-17-lote-1-final-dono.md` | 2026-11-17 |
-| Edição | ⬜ (áudios por sotaque: o dono gera) | — | — |
+| Edição | 🔵 teste de estilo do MM01 (en-US) aguardando o dono; correspondência áudio → criativo em `edicoes.md` | `edicoes.md`, `edicao/videos/` | 2026-11-18 |
 | Tráfego | ⬜ | `trafego/` | — |
 | Análise | ✅ potencial de venda da página em PT | `analises/2026-11-16-analise.md` | 2026-11-16 |
 
@@ -73,6 +73,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 Estrutura (amostras) e Copy (pesquisa + promessa + página, em PT) em paralelo → dono aprova → Tradução (en-US).
 
 ## Histórico (mais recente em cima)
+- [2026-11-18] Edição: áudios C01–C07 do Drive conferidos e ligados aos criativos MM01–MM07 (6 usam variação de gancho); teste de estilo do MM01 em inglês entregue.
 - [2026-11-18] Estrutura (com o processo da Tradução): textos das 3 missões-amostra, do Guia e do Cartão extraídos (400 textos), 2 tradutores independentes, versão final, volta para o PT e comitê (5 trocas de naturalidade aplicadas) → `traducao/en-US/imagens-criativos-final.md`. PNG en-US gerados no mesmo visual (palavras-código NANA/LAKE/CORD) em `estrutura/imagens-criativos/en-US/`; Edição avisada.
 - [2026-11-17] Dono reprovou ajustes na tradução dos criativos ("só traduza"). Tradução refeita fiel, sem texto de tela/legenda criados; regra em `regras/traducao.md`.
 - [2026-11-17] Tradução: 7 criativos do lote 1 do dono em en-US (narração, variações de hook, texto de tela e legenda) + volta para o PT, comitê aplicado; glossário com "Singapore's approach" e "Parent Guide".

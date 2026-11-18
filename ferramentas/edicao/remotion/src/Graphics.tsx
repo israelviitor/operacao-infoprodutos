@@ -1,5 +1,6 @@
 import {AbsoluteFill, Img, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {theme} from './theme';
+import {t, brandImg, brandName} from './i18n';
 
 const font = {fontFamily: theme.font, fontWeight: 900} as const;
 const useSpring = (delay = 0, damping = 12) => {
@@ -70,10 +71,10 @@ export const BrandReveal: React.FC<{dur: number}> = ({dur}) => {
   return (
     <AbsoluteFill style={{background: `radial-gradient(circle at 50% 40%, #2B3A86 0%, ${theme.navy} 55%, ${theme.navyDark} 100%)`, alignItems: 'center'}}>
       <div style={{marginTop: 230, transform: `scale(${t})`, ...font, fontSize: 96, color: theme.white, textAlign: 'center', lineHeight: 1}}>
-        MATEMÁTICA<br />
-        <span style={{color: theme.yellow}}>EM MISSÃO</span>
+        {brandName()[0]}<br />
+        <span style={{color: theme.yellow}}>{brandName()[1]}</span>
       </div>
-      <Img src={staticFile('folhas/mockup-basico.png')} style={{width: 880, marginTop: 50, borderRadius: 24, transform: `scale(${a * kb}) rotate(${(1 - a) * -8}deg)`, boxShadow: '0 40px 90px rgba(0,0,0,.6)'}} />
+      <Img src={staticFile(brandImg())} style={{width: 880, marginTop: 50, borderRadius: 24, transform: `scale(${a * kb}) rotate(${(1 - a) * -8}deg)`, boxShadow: '0 40px 90px rgba(0,0,0,.6)'}} />
     </AbsoluteFill>
   );
 };
@@ -134,18 +135,18 @@ export const Stars: React.FC<{gap?: number}> = ({gap = 7}) => {
           return (
             <div key={n} style={{transform: `scale(${s})`, display: 'flex', alignItems: 'center', gap: 26, background: 'rgba(15,22,56,.88)', border: `5px solid ${theme.yellow}`, borderRadius: 26, padding: '14px 40px', width: 760}}>
               <div style={{fontSize: 80, color: theme.yellow, letterSpacing: 6, width: 300}}>{'★'.repeat(n)}</div>
-              <div style={{...font, fontSize: 64, color: theme.white}}>NÍVEL {n}</div>
+              <div style={{...font, fontSize: 64, color: theme.white}}>{t('level')} {n}</div>
             </div>
           );
         })}
-        <div style={{...font, fontSize: 60, color: theme.navyDark, background: theme.yellow, padding: '8px 30px', borderRadius: 16, transform: `rotate(-2deg) scale(${spring({frame: f - 3 * gap, fps, config: {damping: 12}})})`}}>3 NÍVEIS DE DIFICULDADE</div>
+        <div style={{...font, fontSize: 60, color: theme.navyDark, background: theme.yellow, padding: '8px 30px', borderRadius: 16, transform: `rotate(-2deg) scale(${spring({frame: f - 3 * gap, fps, config: {damping: 12}})})`}}>{t('levels')}</div>
       </div>
     </Panel>
   );
 };
 
 // Etiqueta de preço que sobe e desce
-export const PriceTag: React.FC<{price: string; at: number; label?: string}> = ({price, at, label = 'POR APENAS'}) => {
+export const PriceTag: React.FC<{price: string; at: number; label?: string}> = ({price, at, label = t('only')}) => {
   const f = useCurrentFrame();
   const {fps} = useVideoConfig();
   const s = spring({frame: f - at, fps, config: {damping: 9, stiffness: 160}});
@@ -235,14 +236,14 @@ export const CTA: React.FC<{phrase: string; price?: string}> = ({phrase, price})
       <div style={{marginTop: 210, display: 'flex', alignItems: 'center', gap: 18, transform: `scale(${a})`}}>
         <Lupa size={100} />
         <div style={{...font, fontSize: 76, color: theme.white, lineHeight: 0.95}}>
-          MATEMÁTICA<br /><span style={{color: theme.yellow}}>EM MISSÃO</span>
+          {brandName()[0]}<br /><span style={{color: theme.yellow}}>{brandName()[1]}</span>
         </div>
       </div>
-      <Img src={staticFile('folhas/mockup-basico.png')} style={{width: 560, marginTop: 34, borderRadius: 20, transform: `scale(${a})`, boxShadow: '0 30px 70px rgba(0,0,0,.6)'}} />
+      <Img src={staticFile(brandImg())} style={{width: 560, marginTop: 34, borderRadius: 20, transform: `scale(${a})`, boxShadow: '0 30px 70px rgba(0,0,0,.6)'}} />
       <div style={{marginTop: 34, ...font, fontSize: 66, color: theme.white, textAlign: 'center', padding: '0 60px', transform: `scale(${b})`}}>{phrase}</div>
       {price && <div style={{marginTop: 10, ...font, fontSize: 120, color: theme.yellow, transform: `scale(${b})`, lineHeight: 1.05}}>{price}</div>}
       <div style={{marginTop: 26, position: 'relative', overflow: 'hidden', transform: `scale(${b * pulse})`, background: theme.yellow, color: theme.navyDark, ...font, fontSize: 58, whiteSpace: 'nowrap', padding: '24px 64px', borderRadius: 999, boxShadow: `0 0 ${40 + 20 * Math.sin(f / 5)}px rgba(255,200,30,.7)`}}>
-        TOQUE EM SAIBA MAIS
+        {t('cta')}
         <div style={{position: 'absolute', top: 0, left: shine, width: 120, height: '100%', background: 'linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,.75), rgba(255,255,255,0))', transform: 'skewX(-20deg)'}} />
       </div>
       <svg width="120" height="130" viewBox="0 0 120 130" style={{marginTop: 20 + arrow, transform: `scale(${b})`}}><path d="M60 5 V95 M20 60 L60 115 L100 60" stroke={theme.yellow} strokeWidth="22" strokeLinecap="round" strokeLinejoin="round" fill="none" /></svg>
@@ -266,7 +267,7 @@ export const Continhas: React.FC<{marks: {at: number; kind: 'x' | 'risco'; row: 
         <div style={{width: 820, height: 1240, marginTop: -60, background: '#FBFAF5', borderRadius: 10, transform: 'rotate(-4deg)', boxShadow: '0 40px 90px rgba(0,0,0,.55)', padding: '70px 70px 0 110px', position: 'relative',
           backgroundImage: 'repeating-linear-gradient(180deg, transparent 0 128px, #B9D3EE 128px 131px)', backgroundPositionY: 40}}>
           <div style={{position: 'absolute', left: 80, top: 0, bottom: 0, width: 4, background: '#F2A3A3'}} />
-          <div style={{...font, fontWeight: 800, fontSize: 40, color: '#3B4A6B', marginBottom: 24}}>LISTA DE EXERCÍCIOS</div>
+          <div style={{...font, fontWeight: 800, fontSize: 40, color: '#3B4A6B', marginBottom: 24}}>{t('sheet')}</div>
           {rows.map((r, i) => {
             const ms = marks.filter((m) => m.row === i && f >= m.at);
             return (
@@ -303,7 +304,7 @@ export const CodeWord: React.FC<{word: string; wrong: {idx: number; letter: stri
   return (
     <AbsoluteFill style={{alignItems: 'center', justifyContent: 'flex-start', paddingTop: 330}}>
       <div style={{transform: `scale(${t})`, background: 'rgba(15,22,56,.92)', border: `6px solid ${theme.yellow}`, borderRadius: 36, padding: '30px 44px', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 26}}>
-        <div style={{...font, fontSize: 54, color: theme.yellow, letterSpacing: 3}}>PALAVRA-CÓDIGO</div>
+        <div style={{...font, fontSize: 54, color: theme.yellow, letterSpacing: 3}}>{t('code')}</div>
         <div style={{display: 'flex', gap: 20}}>
           {word.split('').map((ch, i) => {
             const show = f >= at[i];
@@ -320,7 +321,43 @@ export const CodeWord: React.FC<{word: string; wrong: {idx: number; letter: stri
           })}
         </div>
         <div style={{...font, fontSize: 46, color: theme.white, opacity: f >= at[at.length - 1] ? 1 : 0, height: 56}}>
-          {fixed ? <span style={{color: '#46D98F', transform: `scale(${done})`, display: 'inline-block'}}>✓ A PALAVRA FECHOU!</span> : <span style={{color: '#FF8A8E'}}>✕ A PALAVRA NÃO FECHA</span>}
+          {fixed ? <span style={{color: '#46D98F', transform: `scale(${done})`, display: 'inline-block'}}>{t('fit')}</span> : <span style={{color: '#FF8A8E'}}>{t('noFit')}</span>}
+        </div>
+      </div>
+    </AbsoluteFill>
+  );
+};
+
+// Desenho de barras (bar model): a barra do total aparece, depois as partes e o "?"
+export const BarModel: React.FC<{total: string; parts: {label: string; w: number; color?: string; at: number; q?: boolean}[]; answer?: {text: string; at: number}; title?: string}> = ({total, parts, answer, title}) => {
+  const f = useCurrentFrame();
+  const {fps} = useVideoConfig();
+  const W = 860;
+  const grow = interpolate(f, [0, 14], [0, 1], {extrapolateRight: 'clamp'});
+  const tIn = spring({frame: f - 4, fps, config: {damping: 12}});
+  let x = 0;
+  return (
+    <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center'}}>
+      <div style={{marginTop: -220, background: 'rgba(255,255,255,.96)', borderRadius: 34, padding: '40px 50px 54px', boxShadow: '0 30px 80px rgba(0,0,0,.5)', transform: `scale(${0.7 + 0.3 * tIn})`, opacity: tIn}}>
+        {title && <div style={{...font, fontSize: 46, color: theme.navyDark, textAlign: 'center', marginBottom: 18}}>{title}</div>}
+        <div style={{position: 'relative', width: W, height: answer ? 300 : 230}}>
+          {/* chave do total */}
+          <div style={{position: 'absolute', top: 0, left: 0, width: W * grow, borderTop: `6px solid ${theme.navyDark}`, height: 30, borderLeft: `6px solid ${theme.navyDark}`, borderRight: grow > 0.98 ? `6px solid ${theme.navyDark}` : 'none'}} />
+          <div style={{position: 'absolute', top: -70, width: W, textAlign: 'center', ...font, fontSize: 64, color: theme.navyDark, opacity: grow}}>{total}</div>
+          <div style={{position: 'absolute', top: 60, left: 0, width: W * grow, height: 150, border: `6px solid ${theme.navyDark}`, borderRadius: 10, background: '#EAF0FF'}} />
+          {parts.map((p, i) => {
+            const s = spring({frame: f - p.at, fps, config: {damping: 11, stiffness: 200}});
+            const left = x; x += p.w;
+            const qPulse = p.q ? 1 + 0.08 * Math.sin((f - p.at) / 4) : 1;
+            return f >= p.at ? (
+              <div key={i} style={{position: 'absolute', top: 60, left: W * left, width: W * p.w, height: 150, background: p.color ?? (p.q ? '#FFE08A' : '#9FD9C9'), border: `6px solid ${theme.navyDark}`, borderRadius: 10, display: 'flex', alignItems: 'center', justifyContent: 'center', opacity: s, transform: `scaleY(${0.6 + 0.4 * s})`}}>
+                <span style={{...font, fontSize: p.q ? 110 : 76, color: theme.navyDark, transform: `scale(${qPulse})`}}>{p.label}</span>
+              </div>
+            ) : null;
+          })}
+          {answer && f >= answer.at && (
+            <div style={{position: 'absolute', top: 236, width: W, textAlign: 'center', ...font, fontSize: 64, color: '#1F8A5B', transform: `scale(${spring({frame: f - answer.at, fps, config: {damping: 10}})})`}}>{answer.text}</div>
+          )}
         </div>
       </div>
     </AbsoluteFill>

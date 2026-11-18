@@ -7,15 +7,16 @@ export const fixWords = (ws: Word[]): Word[] => {
   const out: Word[] = [];
   for (const w of ws) {
     const p = out[out.length - 1];
-    if (p && (w.w === '$' || /^,\d/.test(w.w) || (p.w.endsWith('$') && /^\d/.test(w.w)))) {
-      p.w = w.w === '$' ? p.w + '$' : /^,/.test(w.w) ? p.w + w.w : p.w + ' ' + w.w;
+    if (p && (w.w === '$' || /^[,.]\d/.test(w.w) || /^-[a-z]/i.test(w.w) || (p.w.endsWith('$') && /^\d/.test(w.w)))) {
+      p.w = w.w === '$' ? p.w + '$' : /^[,.-]/.test(w.w) ? p.w + w.w : p.w + ' ' + w.w;
       p.e = w.e;
     } else out.push({...w});
   }
   return out;
 };
+const FN_EN = new Set(['to', 'the', 'a', 'an', 'of', 'and', 'in', 'for', 'with', 'your', 'their', 'at', 'on', 'that', 'what', 'this', 'these', 'those', 'is', 'are', 'can', 'more', 'each', 'every', 'how', 'when', 'into', 'by', 'from', 'as', 'or', 'but', 'they', 'you', 'it', 'its', 'our', 'my', 'be', 'do', 'not']);
 const FN = new Set(['para', 'de', 'e', 'a', 'o', 'em', 'as', 'os', 'que', 'da', 'do', 'com', 'uma', 'um', 'sua', 'seu', 'seus', 'suas', 'no', 'na', 'por', 'mais', 'quais', 'não']);
-export const chunk = (ws: Word[]): Word[][] => {
+export const chunk = (ws: Word[], fnSet: Set<string> = FN): Word[][] => {
   const res: Word[][] = [];
   let cur: Word[] = [];
   ws.forEach((w, i) => {
@@ -29,7 +30,7 @@ export const chunk = (ws: Word[]): Word[][] => {
     } else if (cur.length >= 3) {
       // não termina o bloco em palavra de ligação: ela passa para o próximo
       const last = cur[cur.length - 1];
-      if (FN.has(last.w.toLowerCase()) && cur.length > 1) {
+      if (fnSet.has(last.w.toLowerCase()) && cur.length > 1) {
         cur.pop();
         res.push(cur);
         cur = [last];
@@ -43,12 +44,12 @@ export const chunk = (ws: Word[]): Word[][] => {
   return res;
 };
 
-export const Captions: React.FC<{words: Word[]; keywords: string[]; hide: [number, number][]}> = ({words, keywords, hide}) => {
+export const Captions: React.FC<{words: Word[]; keywords: string[]; hide: [number, number][]; lang?: 'pt' | 'en'}> = ({words, keywords, hide, lang = 'pt'}) => {
   const f = useCurrentFrame();
   const {fps} = useVideoConfig();
   const t = f / fps;
   if (hide.some(([a, b]) => t >= a && t < b)) return null;
-  const chunks = chunk(fixWords(words));
+  const chunks = chunk(fixWords(words), lang === 'en' ? FN_EN : FN);
   const c = chunks.find((ch, i) => t >= ch[0].s && t < (chunks[i + 1] ? chunks[i + 1][0].s : ch[ch.length - 1].e + 0.4));
   if (!c) return null;
   const enter = spring({frame: f - Math.round(c[0].s * fps), fps, config: {damping: 14, stiffness: 220}});

@@ -1,10 +1,12 @@
 import sys, json, subprocess, numpy as np
 from faster_whisper import WhisperModel
+import os
+LANG = os.environ.get("WLANG","pt")
 m = WhisperModel("medium", device="cpu", compute_type="int8")
 for path in sys.argv[1:]:
     raw = subprocess.run(["ffmpeg","-v","error","-i",path,"-f","s16le","-ac","1","-ar","16000","-"],capture_output=True).stdout
     audio = np.frombuffer(raw, np.int16).astype(np.float32)/32768.0
-    segs, info = m.transcribe(audio, language="pt", word_timestamps=True, beam_size=5, vad_filter=False)
+    segs, info = m.transcribe(audio, language=LANG, word_timestamps=True, beam_size=5, vad_filter=False)
     words = []
     for s in segs:
         for w in s.words:

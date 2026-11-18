@@ -1,8 +1,9 @@
 import {AbsoluteFill, Audio, Sequence, staticFile, useVideoConfig, interpolate} from 'remotion';
 import {Take, Look} from './Take';
 import {Captions, Word} from './Captions';
-import {HookTitle, Checklist, BrandReveal, Selo, Counter, Badges, Stars, PriceTag, BigText, Versus, OpCard, CTA, Continhas, CodeWord} from './Graphics';
+import {HookTitle, Checklist, BrandReveal, Selo, Counter, Badges, Stars, PriceTag, BigText, Versus, OpCard, CTA, Continhas, CodeWord, BarModel} from './Graphics';
 import {loadFonts} from './Fonts';
+import {setLocale} from './i18n';
 
 loadFonts();
 export type Scene = {from: number; to: number; src: string; zoomIn?: boolean; startFrom?: number; focusY?: number};
@@ -21,15 +22,18 @@ export type Overlay =
   | {t: 'op'; from: number; to: number; chuteAt: number; certoAt: number}
   | {t: 'cta'; from: number; to: number; phrase: string; price?: string}
   | {t: 'continhas'; from: number; to: number; marks: {at: number; kind: 'x' | 'risco'; row: number}[]}
-  | {t: 'code'; from: number; to: number; word: string; wrong: {idx: number; letter: string; fixAt: number}; at: number[]};
+  | {t: 'code'; from: number; to: number; word: string; wrong: {idx: number; letter: string; fixAt: number}; at: number[]}
+  | {t: 'bar'; from: number; to: number; total: string; parts: {label: string; w: number; color?: string; at: number; q?: boolean}[]; answer?: {text: string; at: number}; title?: string};
 export type Config = {
   audio: string; words: Word[]; music: string; musicVol: number; dur: number;
   scenes: Scene[]; overlays: Overlay[]; hide: [number, number][]; keys: string[];
   sfx: {at: number; name: 'impact' | 'pop' | 'boom' | 'ding' | 'tick'; vol?: number}[];
+  lang?: 'pt' | 'en'; brandImg?: string;
 };
 const DEF_VOL = {impact: 0.45, pop: 0.3, boom: 0.4, ding: 0.35, tick: 0.2};
 
 export const Criativo: React.FC<{cfg: Config}> = ({cfg}) => {
+  setLocale(cfg.lang ?? 'pt', cfg.brandImg);
   const {fps, durationInFrames} = useVideoConfig();
   const F = (s: number) => Math.round(s * fps);
   const rel = (o: {from: number}, at: number) => F(at) - F(o.from);
@@ -48,6 +52,7 @@ export const Criativo: React.FC<{cfg: Config}> = ({cfg}) => {
       case 'op': return <OpCard chuteAt={rel(o, o.chuteAt)} certoAt={rel(o, o.certoAt)} />;
       case 'cta': return <CTA phrase={o.phrase} price={o.price} />;
       case 'continhas': return <Continhas marks={o.marks.map((m) => ({...m, at: rel(o, m.at)}))} />;
+      case 'bar': return <BarModel total={o.total} title={o.title} parts={o.parts.map((p) => ({...p, at: rel(o, p.at)}))} answer={o.answer ? {...o.answer, at: rel(o, o.answer.at)} : undefined} />;
       case 'code': return <CodeWord word={o.word} wrong={{...o.wrong, fixAt: rel(o, o.wrong.fixAt)}} at={o.at.map((a) => rel(o, a))} />;
     }
   };
@@ -64,7 +69,7 @@ export const Criativo: React.FC<{cfg: Config}> = ({cfg}) => {
       {cfg.overlays.map((o, i) => (
         <Sequence key={i} from={F(o.from)} durationInFrames={F(o.to) - F(o.from)}>{render(o)}</Sequence>
       ))}
-      <Captions words={cfg.words} keywords={cfg.keys} hide={[...cfg.hide, ...cfg.overlays.filter((o) => !['selo', 'continhas', 'code'].includes(o.t)).map((o) => [o.from, o.to] as [number, number])]} />
+      <Captions lang={cfg.lang ?? 'pt'} words={cfg.words} keywords={cfg.keys} hide={[...cfg.hide, ...cfg.overlays.filter((o) => !['selo', 'continhas', 'code'].includes(o.t)).map((o) => [o.from, o.to] as [number, number])]} />
       <Audio src={staticFile(cfg.audio)} />
       <Audio src={staticFile(cfg.music)} volume={(f) => cfg.musicVol * interpolate(f, [0, 10, durationInFrames - 45, durationInFrames], [0, 1, 1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})} />
       {[...cfg.sfx, ...counterSfx].map((s, i) => (
