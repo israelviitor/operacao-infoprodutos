@@ -1,0 +1,115 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>O Mistério do Placar do Quintal</title><style>
+@page { size: A4; margin: 14mm; }
+* { box-sizing: border-box; }
+body { font-family: Inter, 'DejaVu Sans', sans-serif; color: #111; font-size: 12.5pt; line-height: 1.45; margin: 0; }
+.pagina { page-break-after: always; position: relative; height: 266mm; overflow: hidden; }
+.pagina:last-child { page-break-after: auto; }
+.topo { display: flex; align-items: center; gap: 10px; border-bottom: 2px solid #111; padding-bottom: 5px; margin-bottom: 12px; font-size: 9.5pt; font-weight: 800; letter-spacing: .05em; }
+.nivel { background: #111; color: #fff; border-radius: 6px; padding: 3px 10px; font-size: 11pt; }
+.topo .dir { margin-left: auto; }
+h1 { font-size: 24pt; margin: 4px 0 8px; line-height: 1.1; }
+h2 { font-size: 15pt; margin: 14px 0 6px; }
+.cab { display: flex; gap: 16px; align-items: center; }
+.abertura { border: 2px solid #111; border-radius: 10px; padding: 10px 14px; font-size: 13.5pt; margin: 8px 0 14px; }
+.etapa { border: 1.5px solid #111; border-radius: 10px; padding: 10px 14px; margin-bottom: 12px; page-break-inside: avoid; }
+.etapa .num { display: inline-flex; width: 30px; height: 30px; border-radius: 8px; background: #111; color: #fff; align-items: center; justify-content: center; font-weight: 800; margin-right: 8px; }
+.etapa .tit { font-weight: 800; font-size: 13.5pt; }
+.etapa .tag { font-size: 9.5pt; border: 1px solid #111; border-radius: 10px; padding: 0 8px; margin-left: 6px; }
+.etapa p { margin: 6px 0; font-size: 13.5pt; }
+.espaco { border: 1.5px dashed #777; border-radius: 8px; height: 30mm; margin-top: 6px; position: relative; }
+.espaco.curto { height: 16mm; }
+.espaco span { position: absolute; left: 10px; top: 4px; font-size: 9pt; color: #555; }
+.resp { margin-top: 6px; font-weight: 800; }
+.resp i { display: inline-block; border-bottom: 1.5px solid #111; width: 55mm; }
+.dica { border: 2px dashed #111; border-radius: 10px; padding: 8px 12px; font-size: 11pt; margin: 10px 0; }
+table.cod { border-collapse: collapse; margin: 6px 0 10px; }
+table.cod td { border: 1.5px solid #111; padding: 6px 12px; text-align: center; font-size: 12.5pt; }
+table.cod td.l { font-weight: 800; font-size: 15pt; }
+.caixas { display: flex; gap: 10px; margin: 8px 0; }
+.fim { display: flex; gap: 14px; align-items: flex-start; }
+.oque { flex: 1; }
+.caixas div span { font-size: 8pt; margin: 2px 4px; display: block; }
+.caixas div { width: 15mm; height: 15mm; border: 2px solid #111; border-radius: 8px; }
+.linha { border-bottom: 1.5px solid #111; height: 8mm; margin: 4px 0; }
+.adulto li, .gab li { margin-bottom: 6px; }
+.box { border: 1.5px solid #111; border-radius: 10px; padding: 8px 14px; margin: 8px 0; }
+.gab .item { border-bottom: 1px solid #999; padding: 8px 0; page-break-inside: avoid; }
+.gab .r { font-weight: 800; font-size: 13.5pt; }
+.small { font-size: 10.5pt; color: #333; }
+.desenho { border: 2px solid #111; border-radius: 8px; padding: 6px 10px; margin: 6px 0; }
+.desenho .ins { font-size: 11.5pt; margin-bottom: 6px; }
+.desenho .ins b.lbl { background: #111; color: #fff; border-radius: 4px; padding: 0 6px; margin-right: 4px; }
+.livre { height: 34mm; border: 1px solid #999; border-radius: 6px; background-image: linear-gradient(#ddd 1px, transparent 1px), linear-gradient(90deg, #ddd 1px, transparent 1px); background-size: 5mm 5mm; }
+.tag.d { background: #111; color: #fff; }
+.gab { height: auto !important; overflow: visible !important; }
+.gab .rodape { position: static; margin-top: 10px; }
+.gab .modelo { margin: 4px 0 2px; }
+.passos { display: flex; gap: 8px; margin: 6px 0; }
+.passos div { flex: 1; border: 1.5px solid #111; border-radius: 8px; padding: 6px 8px; font-size: 11pt; }
+.adulto { font-size: 11.3pt; line-height: 1.38; }
+.adulto h1 { font-size: 21pt; }
+.adulto h2 { font-size: 13.5pt; margin: 9px 0 4px; }
+.adulto ol { margin: 4px 0; padding-left: 22px; }
+.adulto li { margin-bottom: 3px !important; }
+.gab { font-size: 11pt; line-height: 1.33; }
+.gab h1 { font-size: 20pt; }
+.gab .item { padding: 5px 0 !important; }
+.rodape { position: absolute; bottom: 0; left: 0; right: 0; font-size: 8.5pt; color: #555; border-top: 1px solid #aaa; padding-top: 3px; }
+</style></head><body><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 1 · Missão 1-03</span><span class="dir">Para o adulto · leia antes (2 minutos)</span></div>
+  <h1>O Mistério do Placar do Quintal</h1>
+  <div class="box"><b>Tempo:</b> 20 a 25 minutos · <b>Pratica:</b> comparação: quantos a mais, quantos a menos · <b>Material:</b> lápis, borracha e esta folha impressa (opcional: relógio de ponteiros, feijões ou tampinhas).</div>
+  <h2>O método nesta missão: desenhe antes de calcular</h2>
+  <p>A etapa 3 é a etapa <b>“desenhe o problema”</b>. Nela, a criança passa pelos 3 passos do método de Singapura (detalhes no Guia para Pais):</p>
+  <div class="passos"><div><b>1. Concreto</b><br>Faça duas fileiras de tampinhas, uma embaixo da outra: 23 para o Azul e 15 para o Verde. Na etapa 3, a criança vê quantas tampinhas do Azul ficam sem par antes de desenhar.</div><div><b>2. Desenho</b><br>A criança desenha a barra e põe <b>?</b> no que quer descobrir. Só depois faz a conta.</div><div><b>3. Conta</b><br>Com o desenho pronto, ela escreve a conta e confere a resposta olhando o desenho.</div></div>
+  <h2>Como conduzir</h2>
+  <ol><li><b>Leia a abertura em voz alta, com clima de mistério.</b> A 1ª etapa é curtinha, de propósito: é para a criança entrar no jogo rápido.</li><li><b>Não diga qual conta fazer.</b> O enunciado não diz se é de mais, de menos ou de vezes. Descobrir isso é o exercício, e o desenho é o que mostra a resposta.</li><li><b>Se a criança travar, peça o desenho antes de qualquer ajuda:</b> “Me mostra isso numa barra.” Depois use a pergunta de apoio do gabarito (última página). Ela ajuda sem entregar a resposta.</li><li><b>Cada resposta vira uma letra.</b> Se a palavra-código não fizer sentido, alguma conta está errada: voltem ao desenho e procurem juntos.</li><li><b>Feche pedindo:</b> “Me explica o seu desenho da etapa 3.”</li></ol>
+  <div class="box"><b>Antes de avançar:</b> Pode passar para a próxima missão quando a criança explicar o desenho da etapa 3 com as próprias palavras (“essa barra é do Azul, essa do Verde, e o pedaço tracejado é a diferença”). Se ainda não, refaça só essa etapa outro dia com outros números (ex.: 27 e 18).</div>
+  <h2>Com irmãos</h2>
+  <div class="box">Imprima as páginas da missão uma vez e resolvam juntos, trocando de papel a cada etapa: <b>leitor</b> (lê em voz alta), <b>desenhista</b> (faz a barra) e <b>calculista</b> (faz a conta e confere no desenho). Com 2 crianças, o leitor também desenha. Se estiverem em níveis diferentes, cada um faz a missão do seu nível e, no fim, os dois contam um ao outro como desenharam.</div>
+  <div class="rodape">Math Missions · O Mistério do Placar do Quintal · missão de amostra</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 1 · Missão 1-03</span><span class="dir">Missão</span></div>
+  <div class="cab"><div><svg viewBox="0 0 120 120" width="110"><circle cx="60" cy="60" r="42" fill="none" stroke="#000" stroke-width="3"/><path d="M60 38 L80 52 L72 76 H48 L40 52 Z" fill="#000"/><path d="M60 38 V18 M80 52 L100 44 M72 76 L84 96 M48 76 L36 96 M40 52 L20 44" stroke="#000" stroke-width="2.5"/></svg></div><div><h1>O Mistério do Placar do Quintal</h1></div></div>
+  <div class="abertura">No domingo, os primos jogaram bola no quintal em dois times, o Azul e o Verde. À noite choveu e apagou o placar de giz que estava no muro. Quem ganhou o campeonato?</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">Os gols do Azul</span><span class="tag">rapidinha</span>
+  <p>O time Azul fez 3 gols no primeiro tempo e 4 no segundo. Quantos gols o Azul fez?</p>
+  <div class="espaco curto"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">Os gols do Verde</span>
+  <p>O time Verde fez 2 gols a menos que o Azul. Quantos gols o Verde fez?</p>
+  <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  <div class="dica"><b>DICA:</b> nenhuma pista diz qual conta fazer. Leia com calma, descubra o que está sendo pedido e escolha a conta. Na dúvida, desenhe.</div>
+  
+  <div class="rodape">Math Missions · O Mistério do Placar do Quintal</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 1 · Missão 1-03</span><span class="dir">Missão (continuação)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">Os pênaltis</span><span class="tag d">desenhe o problema</span>
+  <p>Na disputa de pênaltis, o Azul acertou 23 chutes e o Verde acertou 15. Quantos chutes o Azul acertou a mais?</p><div class="desenho"><div class="ins"><b class="lbl">1º DESENHE</b>Antes de fazer a conta, complete o desenho. Escreva o número de cada time na sua barra e ponha <b>?</b> no pedaço tracejado: ele é a diferença.</div><svg class="barra" viewBox="0 0 560 104" width="560" height="104" font-family="Inter, DejaVu Sans, sans-serif"><text x="0" y="27" font-size="14" font-weight="700">Azul</text><rect x="78" y="4" width="474" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="315" y="27" text-anchor="middle" font-size="15" font-weight="500">_______</text><text x="0" y="77" font-size="14" font-weight="700">Verde</text><rect x="78" y="54" width="309.1304347826087" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="232.56521739130434" y="77" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="387.1304347826087" y="54" width="164.8695652173913" height="36" fill="#fff" stroke="#000" stroke-width="2" stroke-dasharray="6 4"/><text x="469.5652173913044" y="77" text-anchor="middle" font-size="15" font-weight="500">_______</text></svg></div>
+  <div class="espaco curto"><span>2º CALCULE: a conta que o desenho mostrou</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">Os pontos do Azul</span>
+  <p>O campeonato soma gols e pênaltis certos. O Azul fez 7 gols e acertou 23 pênaltis. Quantos pontos o Azul fez?</p>
+  <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  
+  <h2>Abra o código <span class="small" style="font-weight:400">· procure cada resposta na tabela e escreva a letra na caixa da etapa</span></h2>
+  <table class="cod"><tr><td>1</td><td>5</td><td>7</td><td>8</td><td>9</td><td>16</td><td>30</td><td>38</td></tr><tr><td class="l">R</td><td class="l">Z</td><td class="l">A</td><td class="l">U</td><td class="l">X</td><td class="l">G</td><td class="l">L</td><td class="l">D</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>O que aconteceu?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · O Mistério do Placar do Quintal</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 1 · Missão 1-03</span><span class="dir">Gabarito explicado · para o adulto</span></div>
+  <h1>Gabarito: O Mistério do Placar do Quintal</h1>
+  <div class="item"><b>Etapa 1 — Os gols do Azul</b> · <span class="r">7</span> (letra A)
+  <div><b>Como pensar:</b> Os gols dos dois tempos se juntam: 3 + 4. <span class="small">Conta: 3 + 4 = 7.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “O jogo tem dois tempos. Os gols dos dois contam?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 1, quando a criança tirou em vez de juntar. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 2 — Os gols do Verde</b> · <span class="r">5</span> (letra Z)
+  <div><b>Como pensar:</b> “A menos” quer dizer que o Verde fez menos que os 7 do Azul: 7 − 2. <span class="small">Conta: 7 − 2 = 5.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “O Verde fez mais ou menos gols que o Azul?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 9, quando a criança leu “a menos” e somou. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 3 — Os pênaltis</b> · <span class="r">8</span> (letra U)
+  <div><b>Como pensar:</b> Comparar é ver o que a barra maior tem e a menor não tem: 23 − 15. <span class="small">Conta: 23 − 15 = 8.</span></div>
+  <div><b>O desenho esperado</b> (vale qualquer desenho com as mesmas partes):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 80" width="420" height="80" font-family="Inter, DejaVu Sans, sans-serif"><text x="0" y="21" font-size="11" font-weight="700">Azul</text><rect x="78" y="4" width="334" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="245" y="21" text-anchor="middle" font-size="12" font-weight="500">23</text><text x="0" y="59" font-size="11" font-weight="700">Verde</text><rect x="78" y="42" width="217.82608695652175" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="186.91304347826087" y="59" text-anchor="middle" font-size="12" font-weight="500">15</text><rect x="295.82608695652175" y="42" width="116.17391304347827" height="24" fill="#fff" stroke="#000" stroke-width="2" stroke-dasharray="6 4"/><text x="353.9130434782609" y="59" text-anchor="middle" font-size="12" font-weight="800">?</text></svg></div><div>As duas barras alinhadas mostram que o pedaço tracejado é o que falta para o Verde chegar ao Azul. Por isso a conta é 23 − 15.</div>
+  <div><b>Se travar, pergunte:</b> “Se o Verde acertasse mais alguns chutes, ficaria igual ao Azul. Quantos?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 38, quando a criança somou os dois times em vez de comparar. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 4 — Os pontos do Azul</b> · <span class="r">30</span> (letra L)
+  <div><b>Como pensar:</b> Os pontos são gols e pênaltis juntos: 7 + 23. <span class="small">Conta: 7 + 23 = 30.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Pontos do campeonato = gols + pênaltis. Quanto dá?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 16, quando a criança tirou em vez de juntar. Essa resposta leva a outra letra, e a palavra não fecha.</div></div>
+  <div class="box"><b>Palavra-código: AZUL.</b> O time AZUL ganhou o campeonato: fez mais gols e acertou mais pênaltis. O placar de giz foi refeito no muro, agora com fita adesiva por cima!</div>
+  <div class="rodape">Math Missions · gabarito</div></section></body></html>

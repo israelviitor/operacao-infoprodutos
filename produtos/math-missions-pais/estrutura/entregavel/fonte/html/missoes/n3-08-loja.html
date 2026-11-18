@@ -1,0 +1,115 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>O Mistério da Loja do Jogo</title><style>
+@page { size: A4; margin: 14mm; }
+* { box-sizing: border-box; }
+body { font-family: Inter, 'DejaVu Sans', sans-serif; color: #111; font-size: 12.5pt; line-height: 1.45; margin: 0; }
+.pagina { page-break-after: always; position: relative; height: 266mm; overflow: hidden; }
+.pagina:last-child { page-break-after: auto; }
+.topo { display: flex; align-items: center; gap: 10px; border-bottom: 2px solid #111; padding-bottom: 5px; margin-bottom: 12px; font-size: 9.5pt; font-weight: 800; letter-spacing: .05em; }
+.nivel { background: #111; color: #fff; border-radius: 6px; padding: 3px 10px; font-size: 11pt; }
+.topo .dir { margin-left: auto; }
+h1 { font-size: 24pt; margin: 4px 0 8px; line-height: 1.1; }
+h2 { font-size: 15pt; margin: 14px 0 6px; }
+.cab { display: flex; gap: 16px; align-items: center; }
+.abertura { border: 2px solid #111; border-radius: 10px; padding: 10px 14px; font-size: 13.5pt; margin: 8px 0 14px; }
+.etapa { border: 1.5px solid #111; border-radius: 10px; padding: 10px 14px; margin-bottom: 12px; page-break-inside: avoid; }
+.etapa .num { display: inline-flex; width: 30px; height: 30px; border-radius: 8px; background: #111; color: #fff; align-items: center; justify-content: center; font-weight: 800; margin-right: 8px; }
+.etapa .tit { font-weight: 800; font-size: 13.5pt; }
+.etapa .tag { font-size: 9.5pt; border: 1px solid #111; border-radius: 10px; padding: 0 8px; margin-left: 6px; }
+.etapa p { margin: 6px 0; font-size: 13.5pt; }
+.espaco { border: 1.5px dashed #777; border-radius: 8px; height: 30mm; margin-top: 6px; position: relative; }
+.espaco.curto { height: 16mm; }
+.espaco span { position: absolute; left: 10px; top: 4px; font-size: 9pt; color: #555; }
+.resp { margin-top: 6px; font-weight: 800; }
+.resp i { display: inline-block; border-bottom: 1.5px solid #111; width: 55mm; }
+.dica { border: 2px dashed #111; border-radius: 10px; padding: 8px 12px; font-size: 11pt; margin: 10px 0; }
+table.cod { border-collapse: collapse; margin: 6px 0 10px; }
+table.cod td { border: 1.5px solid #111; padding: 6px 12px; text-align: center; font-size: 12.5pt; }
+table.cod td.l { font-weight: 800; font-size: 15pt; }
+.caixas { display: flex; gap: 10px; margin: 8px 0; }
+.fim { display: flex; gap: 14px; align-items: flex-start; }
+.oque { flex: 1; }
+.caixas div span { font-size: 8pt; margin: 2px 4px; display: block; }
+.caixas div { width: 15mm; height: 15mm; border: 2px solid #111; border-radius: 8px; }
+.linha { border-bottom: 1.5px solid #111; height: 8mm; margin: 4px 0; }
+.adulto li, .gab li { margin-bottom: 6px; }
+.box { border: 1.5px solid #111; border-radius: 10px; padding: 8px 14px; margin: 8px 0; }
+.gab .item { border-bottom: 1px solid #999; padding: 8px 0; page-break-inside: avoid; }
+.gab .r { font-weight: 800; font-size: 13.5pt; }
+.small { font-size: 10.5pt; color: #333; }
+.desenho { border: 2px solid #111; border-radius: 8px; padding: 6px 10px; margin: 6px 0; }
+.desenho .ins { font-size: 11.5pt; margin-bottom: 6px; }
+.desenho .ins b.lbl { background: #111; color: #fff; border-radius: 4px; padding: 0 6px; margin-right: 4px; }
+.livre { height: 34mm; border: 1px solid #999; border-radius: 6px; background-image: linear-gradient(#ddd 1px, transparent 1px), linear-gradient(90deg, #ddd 1px, transparent 1px); background-size: 5mm 5mm; }
+.tag.d { background: #111; color: #fff; }
+.gab { height: auto !important; overflow: visible !important; }
+.gab .rodape { position: static; margin-top: 10px; }
+.gab .modelo { margin: 4px 0 2px; }
+.passos { display: flex; gap: 8px; margin: 6px 0; }
+.passos div { flex: 1; border: 1.5px solid #111; border-radius: 8px; padding: 6px 8px; font-size: 11pt; }
+.adulto { font-size: 11.3pt; line-height: 1.38; }
+.adulto h1 { font-size: 21pt; }
+.adulto h2 { font-size: 13.5pt; margin: 9px 0 4px; }
+.adulto ol { margin: 4px 0; padding-left: 22px; }
+.adulto li { margin-bottom: 3px !important; }
+.gab { font-size: 11pt; line-height: 1.33; }
+.gab h1 { font-size: 20pt; }
+.gab .item { padding: 5px 0 !important; }
+.rodape { position: absolute; bottom: 0; left: 0; right: 0; font-size: 8.5pt; color: #555; border-top: 1px solid #aaa; padding-top: 3px; }
+</style></head><body><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-08</span><span class="dir">Para o adulto · leia antes (2 minutos)</span></div>
+  <h1>O Mistério da Loja do Jogo</h1>
+  <div class="box"><b>Tempo:</b> 25 a 35 minutos · <b>Pratica:</b> porcentagem simples: 10%, 25% e 50% em pontos do jogo · <b>Material:</b> lápis, borracha e esta folha impressa (opcional: relógio de ponteiros, feijões ou tampinhas).</div>
+  <h2>O método nesta missão: desenhe antes de calcular</h2>
+  <p>A etapa 2 é a etapa <b>“desenhe o problema”</b>. Nela, a criança passa pelos 3 passos do método de Singapura (detalhes no Guia para Pais):</p>
+  <div class="passos"><div><b>1. Concreto</b><br>Use uma tira de papel: dobre em 10 (10%), em 4 (25%) e em 2 (50%). Na etapa 2, a criança dobra a tira em 4 e risca 1 parte antes de desenhar.</div><div><b>2. Desenho</b><br>A criança desenha a barra e põe <b>?</b> no que quer descobrir. Só depois faz a conta.</div><div><b>3. Conta</b><br>Com o desenho pronto, ela escreve a conta e confere a resposta olhando o desenho.</div></div>
+  <h2>Como conduzir</h2>
+  <ol><li><b>Leia a abertura em voz alta, com clima de mistério.</b> A 1ª etapa é curtinha, de propósito: é para a criança entrar no jogo rápido.</li><li><b>Não diga qual conta fazer.</b> O enunciado não diz se é de mais, de menos ou de vezes. Descobrir isso é o exercício, e o desenho é o que mostra a resposta.</li><li><b>Se a criança travar, peça o desenho antes de qualquer ajuda:</b> “Me mostra isso numa barra.” Depois use a pergunta de apoio do gabarito (última página). Ela ajuda sem entregar a resposta.</li><li><b>Cada resposta vira uma letra.</b> Se a palavra-código não fizer sentido, alguma conta está errada: voltem ao desenho e procurem juntos.</li><li><b>Feche pedindo:</b> “Me explica o seu desenho da etapa 2.”</li></ol>
+  <div class="box"><b>Antes de avançar:</b> Pode passar para a próxima missão quando a criança explicar o desenho da etapa 2 com as próprias palavras (“25% é 1 de 4 pedaços”). Se ainda não, refaça só essa etapa outro dia com outros números (ex.: 25% de desconto em 360 pontos).</div>
+  <h2>Com irmãos</h2>
+  <div class="box">Imprima as páginas da missão uma vez e resolvam juntos, trocando de papel a cada etapa: <b>leitor</b> (lê em voz alta), <b>desenhista</b> (faz a barra) e <b>calculista</b> (faz a conta e confere no desenho). Com 2 crianças, o leitor também desenha. Se estiverem em níveis diferentes, cada um faz a missão do seu nível e, no fim, os dois contam um ao outro como desenharam.</div>
+  <div class="rodape">Math Missions · O Mistério da Loja do Jogo · missão de amostra</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-08</span><span class="dir">Missão</span></div>
+  <div class="cab"><div><svg viewBox="0 0 120 120" width="100"><path d="M60 10 L100 24 V56 q0 34 -40 54 q-40 -20 -40 -54 V24 Z" fill="none" stroke="#000" stroke-width="3"/><path d="M60 36 L66 50 H80 L68 59 L73 74 L60 65 L47 74 L52 59 L40 50 H54 Z" fill="none" stroke="#000" stroke-width="2.5"/></svg></div><div><h1>O Mistério da Loja do Jogo</h1></div></div>
+  <div class="abertura">Na loja do jogo de aventura da família, os itens ganharam desconto. Mas a soma do carrinho não fecha com os preços da vitrine. Descubra qual item está com o preço errado.</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">O desconto da espada</span><span class="tag">rapidinha</span>
+  <p>A espada custa 300 pontos e está com 10% de desconto. De quantos pontos é o desconto?</p>
+  <div class="espaco curto"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">O escudo</span><span class="tag d">desenhe o problema</span>
+  <p>O escudo custa 480 pontos e está com 25% de desconto. Quanto ele custa agora?</p><div class="desenho"><div class="ins"><b class="lbl">1º DESENHE</b>Antes de fazer a conta, desenhe a barra do preço cheio dividida em 4 pedaços iguais (25% = 1 pedaço). Ponha <b>?</b> no que você quer descobrir.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2º CALCULE: a conta que o desenho mostrou</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · O Mistério da Loja do Jogo</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-08</span><span class="dir">Missão (continuação)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">O elmo</span>
+  <p>O elmo custa 250 pontos e está com 50% de desconto. Quanto ele custa agora?</p>
+  <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">O carrinho</span>
+  <p>No carrinho estão a espada com desconto (270), o escudo com desconto (360) e o elmo. A soma do carrinho deu 880 pontos. Qual preço do elmo o carrinho usou?</p>
+  <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  <div class="dica"><b>DICA:</b> nenhuma pista diz qual conta fazer. Leia com calma, descubra o que está sendo pedido e escolha a conta. Na dúvida, desenhe.</div>
+  <h2>Abra o código <span class="small" style="font-weight:400">· procure cada resposta na tabela e escreva a letra na caixa da etapa</span></h2>
+  <table class="cod"><tr><td>30</td><td>120</td><td>125</td><td>200</td><td>250</td><td>290</td><td>360</td><td>630</td></tr><tr><td class="l">E</td><td class="l">T</td><td class="l">M</td><td class="l">Z</td><td class="l">O</td><td class="l">P</td><td class="l">L</td><td class="l">C</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>O que aconteceu?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · O Mistério da Loja do Jogo</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-08</span><span class="dir">Gabarito explicado · para o adulto</span></div>
+  <h1>Gabarito: O Mistério da Loja do Jogo</h1>
+  <div class="item"><b>Etapa 1 — O desconto da espada</b> · <span class="r">30</span> (letra E)
+  <div><b>Como pensar:</b> 10% é 1 de 10 pedaços iguais: 300 ÷ 10. <span class="small">Conta: 10% = 1/10 · 300 ÷ 10 = 30.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Se 300 fosse dividido em 10 pedaços, quanto vale um?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 290, quando a criança tirou 10 pontos em vez de 10%. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 2 — O escudo</b> · <span class="r">360</span> (letra L)
+  <div><b>Como pensar:</b> 25% é 1 de 4 pedaços. Ache o pedaço (o desconto) e tire do preço. <span class="small">Conta: 25% = 1/4 · 480 ÷ 4 = 120 · 480 − 120 = 360.</span></div>
+  <div><b>O desenho esperado</b> (vale qualquer desenho com as mesmas partes):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="188.84" y="5" width="34.32" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">480</text><rect x="0" y="34" width="103" height="24" fill="#d9d9d9" stroke="#000" stroke-width="2"/><text x="51.5" y="51" text-anchor="middle" font-size="12" font-weight="500">120</text><rect x="103" y="34" width="309" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="257.5" y="51" text-anchor="middle" font-size="12" font-weight="800">?</text></svg></div><div>O pedaço pintado é o desconto (480 ÷ 4 = 120). O preço novo são os 3 pedaços brancos: 360.</div>
+  <div><b>Se travar, pergunte:</b> “A pergunta é o desconto ou o preço depois do desconto?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 120, quando a criança respondeu o desconto, e não o preço novo. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 3 — O elmo</b> · <span class="r">125</span> (letra M)
+  <div><b>Como pensar:</b> 50% é a metade: 250 ÷ 2. <span class="small">Conta: 50% = metade · 250 ÷ 2 = 125.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Quanto é a metade de 250?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 200, quando a criança tirou 50 pontos em vez de 50%. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 4 — O carrinho</b> · <span class="r">250</span> (letra O)
+  <div><b>Como pensar:</b> O carrinho é o todo. Espada e escudo são partes conhecidas. O elmo é o que falta. <span class="small">Conta: 270 + 360 = 630 · 880 − 630 = 250.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Quanto custam espada e escudo juntos? Quanto falta para 880?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 630, quando a criança respondeu a soma dos outros dois itens. Essa resposta leva a outra letra, e a palavra não fecha.</div></div>
+  <div class="box"><b>Palavra-código: ELMO.</b> O carrinho cobrou 250 pontos pelo ELMO, sem o desconto de 50%. Com o preço certo (125), a soma fecha e sobram pontos para uma poção!</div>
+  <div class="rodape">Math Missions · gabarito</div></section></body></html>

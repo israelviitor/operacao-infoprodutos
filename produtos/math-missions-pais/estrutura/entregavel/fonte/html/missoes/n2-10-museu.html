@@ -1,0 +1,121 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>O Grande Mistério do Museu Noturno</title><style>
+@page { size: A4; margin: 14mm; }
+* { box-sizing: border-box; }
+body { font-family: Inter, 'DejaVu Sans', sans-serif; color: #111; font-size: 12.5pt; line-height: 1.45; margin: 0; }
+.pagina { page-break-after: always; position: relative; height: 266mm; overflow: hidden; }
+.pagina:last-child { page-break-after: auto; }
+.topo { display: flex; align-items: center; gap: 10px; border-bottom: 2px solid #111; padding-bottom: 5px; margin-bottom: 12px; font-size: 9.5pt; font-weight: 800; letter-spacing: .05em; }
+.nivel { background: #111; color: #fff; border-radius: 6px; padding: 3px 10px; font-size: 11pt; }
+.topo .dir { margin-left: auto; }
+h1 { font-size: 24pt; margin: 4px 0 8px; line-height: 1.1; }
+h2 { font-size: 15pt; margin: 14px 0 6px; }
+.cab { display: flex; gap: 16px; align-items: center; }
+.abertura { border: 2px solid #111; border-radius: 10px; padding: 10px 14px; font-size: 13.5pt; margin: 8px 0 14px; }
+.etapa { border: 1.5px solid #111; border-radius: 10px; padding: 10px 14px; margin-bottom: 12px; page-break-inside: avoid; }
+.etapa .num { display: inline-flex; width: 30px; height: 30px; border-radius: 8px; background: #111; color: #fff; align-items: center; justify-content: center; font-weight: 800; margin-right: 8px; }
+.etapa .tit { font-weight: 800; font-size: 13.5pt; }
+.etapa .tag { font-size: 9.5pt; border: 1px solid #111; border-radius: 10px; padding: 0 8px; margin-left: 6px; }
+.etapa p { margin: 6px 0; font-size: 13.5pt; }
+.espaco { border: 1.5px dashed #777; border-radius: 8px; height: 30mm; margin-top: 6px; position: relative; }
+.espaco.curto { height: 16mm; }
+.espaco span { position: absolute; left: 10px; top: 4px; font-size: 9pt; color: #555; }
+.resp { margin-top: 6px; font-weight: 800; }
+.resp i { display: inline-block; border-bottom: 1.5px solid #111; width: 55mm; }
+.dica { border: 2px dashed #111; border-radius: 10px; padding: 8px 12px; font-size: 11pt; margin: 10px 0; }
+table.cod { border-collapse: collapse; margin: 6px 0 10px; }
+table.cod td { border: 1.5px solid #111; padding: 6px 12px; text-align: center; font-size: 12.5pt; }
+table.cod td.l { font-weight: 800; font-size: 15pt; }
+.caixas { display: flex; gap: 10px; margin: 8px 0; }
+.fim { display: flex; gap: 14px; align-items: flex-start; }
+.oque { flex: 1; }
+.caixas div span { font-size: 8pt; margin: 2px 4px; display: block; }
+.caixas div { width: 15mm; height: 15mm; border: 2px solid #111; border-radius: 8px; }
+.linha { border-bottom: 1.5px solid #111; height: 8mm; margin: 4px 0; }
+.adulto li, .gab li { margin-bottom: 6px; }
+.box { border: 1.5px solid #111; border-radius: 10px; padding: 8px 14px; margin: 8px 0; }
+.gab .item { border-bottom: 1px solid #999; padding: 8px 0; page-break-inside: avoid; }
+.gab .r { font-weight: 800; font-size: 13.5pt; }
+.small { font-size: 10.5pt; color: #333; }
+.desenho { border: 2px solid #111; border-radius: 8px; padding: 6px 10px; margin: 6px 0; }
+.desenho .ins { font-size: 11.5pt; margin-bottom: 6px; }
+.desenho .ins b.lbl { background: #111; color: #fff; border-radius: 4px; padding: 0 6px; margin-right: 4px; }
+.livre { height: 34mm; border: 1px solid #999; border-radius: 6px; background-image: linear-gradient(#ddd 1px, transparent 1px), linear-gradient(90deg, #ddd 1px, transparent 1px); background-size: 5mm 5mm; }
+.tag.d { background: #111; color: #fff; }
+.gab { height: auto !important; overflow: visible !important; }
+.gab .rodape { position: static; margin-top: 10px; }
+.gab .modelo { margin: 4px 0 2px; }
+.passos { display: flex; gap: 8px; margin: 6px 0; }
+.passos div { flex: 1; border: 1.5px solid #111; border-radius: 8px; padding: 6px 8px; font-size: 11pt; }
+.adulto { font-size: 11.3pt; line-height: 1.38; }
+.adulto h1 { font-size: 21pt; }
+.adulto h2 { font-size: 13.5pt; margin: 9px 0 4px; }
+.adulto ol { margin: 4px 0; padding-left: 22px; }
+.adulto li { margin-bottom: 3px !important; }
+.gab { font-size: 11pt; line-height: 1.33; }
+.gab h1 { font-size: 20pt; }
+.gab .item { padding: 5px 0 !important; }
+.rodape { position: absolute; bottom: 0; left: 0; right: 0; font-size: 8.5pt; color: #555; border-top: 1px solid #aaa; padding-top: 3px; }
+</style></head><body><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 2 · Missão 2-10</span><span class="dir">Para o adulto · leia antes (2 minutos)</span></div>
+  <h1>O Grande Mistério do Museu Noturno</h1>
+  <div class="box"><b>Tempo:</b> 30 a 40 minutos · <b>Pratica:</b> Missão de Fechamento do Nível 2: 3 partes, vezes mais, fração de uma quantidade e divisão com resto · <b>Material:</b> lápis, borracha e esta folha impressa (opcional: relógio de ponteiros, feijões ou tampinhas).</div>
+  <h2>O método nesta missão: desenhe antes de calcular</h2>
+  <p>Esta é a <b>Missão de Fechamento</b> do nível: as 4 etapas são de desenho, e cada uma usa um dos desenhos que a criança já domina. Em cada etapa, ela passa pelos 3 passos do método de Singapura (detalhes no Guia para Pais):</p>
+  <div class="passos"><div><b>1. Concreto</b><br>Use tampinhas e potinhos para conferir as etapas 2 e 4 (grupos de 45 e viagens de 8) antes de cada desenho.</div><div><b>2. Desenho</b><br>A criança desenha a barra e põe <b>?</b> no que quer descobrir. Só depois faz a conta.</div><div><b>3. Conta</b><br>Com o desenho pronto, ela escreve a conta e confere a resposta olhando o desenho.</div></div>
+  <h2>Como conduzir</h2>
+  <ol><li><b>Leia a abertura em voz alta, com clima de mistério.</b> A 1ª etapa é curtinha, de propósito: é para a criança entrar no jogo rápido.</li><li><b>Não diga qual conta fazer.</b> O enunciado não diz se é de mais, de menos ou de vezes. Descobrir isso é o exercício, e o desenho é o que mostra a resposta.</li><li><b>Se a criança travar, peça o desenho antes de qualquer ajuda:</b> “Me mostra isso numa barra.” Depois use a pergunta de apoio do gabarito (última página). Ela ajuda sem entregar a resposta.</li><li><b>Cada resposta vira uma letra.</b> Se a palavra-código não fizer sentido, alguma conta está errada: voltem ao desenho e procurem juntos.</li><li><b>Feche pedindo:</b> “Me explica os seus 4 desenhos.” Para passar de nível, a palavra-código precisa fechar e a criança precisa explicar sozinha pelo menos 3 dos 4 desenhos.</li></ol>
+  <div class="box"><b>Antes de avançar:</b> Esta é a Missão de Fechamento do Nível 2. A criança passa para o Nível 3 quando a palavra-código fecha e ela explica sozinha pelo menos 3 dos 4 desenhos. Se ainda não, refaça outro dia só os desenhos que ficaram difíceis, com outros números, e volte a esta missão.</div>
+  <h2>Com irmãos</h2>
+  <div class="box">Imprima as páginas da missão uma vez e resolvam juntos, trocando de papel a cada etapa: <b>leitor</b> (lê em voz alta), <b>desenhista</b> (faz a barra) e <b>calculista</b> (faz a conta e confere no desenho). Com 2 crianças, o leitor também desenha. Se estiverem em níveis diferentes, cada um faz a missão do seu nível e, no fim, os dois contam um ao outro como desenharam.</div>
+  <div class="rodape">Math Missions · O Grande Mistério do Museu Noturno · missão de amostra</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 2 · Missão 2-10</span><span class="dir">Missão</span></div>
+  <div class="cab"><div><svg viewBox="0 0 130 110" width="120"><path d="M10 36 L65 10 L120 36 Z M14 100 H116 M18 92 H112" fill="none" stroke="#000" stroke-width="3"/><path d="M28 40 V90 M50 40 V90 M80 40 V90 M102 40 V90" stroke="#000" stroke-width="5"/><path d="M58 60 q7 -10 14 0 q2 14 -7 22 q-9 -8 -7 -22" fill="none" stroke="#000" stroke-width="2"/></svg></div><div><h1>O Grande Mistério do Museu Noturno</h1></div></div>
+  <div class="abertura">Durante a noite, um vaso antigo do museu mudou de sala. As câmeras estavam desligadas, mas o vigia anotou números no caderno. Use os 4 desenhos do Nível 2 para descobrir onde o vaso foi parar.</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">A ronda do vigia</span><span class="tag d">desenhe o problema</span>
+  <p>O vigia andou 3 corredores: 240 m, 185 m e 330 m. Quantos metros ele andou?</p><div class="desenho"><div class="ins"><b class="lbl">1º DESENHE</b>Divida a barra em 3 partes, uma por corredor. Escreva os números e ponha <b>?</b> em cima, no total.</div><svg class="barra" viewBox="0 0 560 84" width="560" height="84" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H551 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="237.45" y="5" width="77.1" height="20" fill="#fff"/><text x="276" y="19" text-anchor="middle" font-size="15" font-weight="700">_______</text><rect x="0" y="34" width="552" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="276" y="57" text-anchor="middle" font-size="15" font-weight="500"> </text></svg></div>
+  <div class="espaco curto"><span>2º CALCULE: a conta que o desenho mostrou</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · O Grande Mistério do Museu Noturno</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 2 · Missão 2-10</span><span class="dir">Missão (continuação)</span></div>
+  
+  <div class="etapa"><span class="num">2</span><span class="tit">A sala das estátuas</span><span class="tag d">desenhe o problema</span>
+  <p>A sala dos vasos tem 45 peças. A sala das estátuas tem 4 vezes as peças da sala dos vasos. Quantas peças há na sala das estátuas?</p><div class="desenho"><div class="ins"><b class="lbl">1º DESENHE</b>A barra de cima é a sala dos vasos. Divida a barra das estátuas em pedaços do tamanho da de cima e ponha <b>?</b> no total dela.</div><svg class="barra" viewBox="0 0 560 104" width="560" height="104" font-family="Inter, DejaVu Sans, sans-serif"><text x="0" y="27" font-size="14" font-weight="700">Vasos</text><rect x="78" y="4" width="118.5" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="137.25" y="27" text-anchor="middle" font-size="15" font-weight="500"> </text><text x="0" y="77" font-size="14" font-weight="700">Estátuas</text><rect x="78" y="54" width="474" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="315" y="77" text-anchor="middle" font-size="15" font-weight="500"> </text></svg></div>
+  <div class="espaco curto"><span>2º CALCULE: a conta que o desenho mostrou</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">3</span><span class="tit">As luzes apagadas</span><span class="tag d">desenhe o problema</span>
+  <p>O caderno diz: “às 2h da madrugada, 3/5 das 180 estátuas estavam com a luz apagada”. Quantas estátuas estavam no escuro?</p><div class="desenho"><div class="ins"><b class="lbl">1º DESENHE</b>Divida a barra em 5 pedaços iguais, pinte 3 e escreva quanto vale cada pedaço. A resposta é o valor dos pintados juntos.</div><svg class="barra" viewBox="0 0 560 84" width="560" height="84" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H551 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="237.45" y="5" width="77.1" height="20" fill="#fff"/><text x="276" y="19" text-anchor="middle" font-size="15" font-weight="700">_______</text><rect x="0" y="34" width="552" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="276" y="57" text-anchor="middle" font-size="15" font-weight="500"> </text></svg></div>
+  <div class="espaco curto"><span>2º CALCULE: a conta que o desenho mostrou</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · O Grande Mistério do Museu Noturno</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 2 · Missão 2-10</span><span class="dir">Missão (continuação)</span></div>
+  
+  <div class="etapa"><span class="num">4</span><span class="tit">O carrinho da limpeza</span><span class="tag d">desenhe o problema</span>
+  <p>Na madrugada, 45 peças da sala dos vasos foram levadas para a limpeza num carrinho que leva 8 peças por viagem. Quantas peças foram na última viagem, a que não encheu o carrinho?</p><div class="desenho"><div class="ins"><b class="lbl">1º DESENHE</b>Divida a barra em pedaços de 8 (uma viagem cada) até onde der. Ponha <b>?</b> no pedacinho que sobrar.</div><svg class="barra" viewBox="0 0 560 84" width="560" height="84" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H551 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="237.45" y="5" width="77.1" height="20" fill="#fff"/><text x="276" y="19" text-anchor="middle" font-size="15" font-weight="700">_______</text><rect x="0" y="34" width="552" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="276" y="57" text-anchor="middle" font-size="15" font-weight="500"> </text></svg></div>
+  <div class="espaco curto"><span>2º CALCULE: a conta que o desenho mostrou</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  
+  <h2>Abra o código <span class="small" style="font-weight:400">· procure cada resposta na tabela e escreva a letra na caixa da etapa</span></h2>
+  <table class="cod"><tr><td>5</td><td>6</td><td>36</td><td>49</td><td>108</td><td>180</td><td>425 m</td><td>755 m</td></tr><tr><td class="l">O</td><td class="l">D</td><td class="l">Z</td><td class="l">T</td><td class="l">S</td><td class="l">A</td><td class="l">N</td><td class="l">V</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>O que aconteceu?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · O Grande Mistério do Museu Noturno</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 2 · Missão 2-10</span><span class="dir">Gabarito explicado · para o adulto</span></div>
+  <h1>Gabarito: O Grande Mistério do Museu Noturno</h1>
+  <div class="item"><b>Etapa 1 — A ronda do vigia</b> · <span class="r">755 m</span> (letra V)
+  <div><b>Como pensar:</b> São 3 partes da ronda. Some duas e depois a terceira. <span class="small">Conta: 240 + 185 = 425 · 425 + 330 = 755 m.</span></div>
+  <div><b>O desenho esperado</b> (vale qualquer desenho com as mesmas partes):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="196.28" y="5" width="19.439999999999998" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">?</text><rect x="0" y="34" width="130.96688741721854" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="65.48344370860927" y="51" text-anchor="middle" font-size="12" font-weight="500">240 m</text><rect x="130.96688741721854" y="34" width="100.95364238410596" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="181.44370860927154" y="51" text-anchor="middle" font-size="12" font-weight="500">185 m</text><rect x="231.9205298013245" y="34" width="180.0794701986755" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="321.96026490066225" y="51" text-anchor="middle" font-size="12" font-weight="500">330 m</text></svg></div><div>Parte-todo com 3 partes: o total é a soma dos 3 corredores.</div>
+  <div><b>Se travar, pergunte:</b> “Quantos corredores são? Você somou todos?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 425 m, quando a criança esqueceu de somar o 3º corredor. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 2 — A sala das estátuas</b> · <span class="r">180</span> (letra A)
+  <div><b>Como pensar:</b> “4 vezes” são 4 pedaços iguais aos 45 da sala dos vasos. <span class="small">Conta: 4 × 45 = 180.</span></div>
+  <div><b>O desenho esperado</b> (vale qualquer desenho com as mesmas partes):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 110" width="420" height="110" font-family="Inter, DejaVu Sans, sans-serif"><text x="0" y="21" font-size="11" font-weight="700">Vasos</text><rect x="78" y="4" width="83.5" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="119.75" y="21" text-anchor="middle" font-size="12" font-weight="500">45</text><path d="M79 68 V60 H411 V68" fill="none" stroke="#000" stroke-width="1.6"/><rect x="235.28" y="43" width="19.439999999999998" height="20" fill="#fff"/><text x="245" y="57" text-anchor="middle" font-size="12" font-weight="700">?</text><text x="0" y="89" font-size="11" font-weight="700">Estátuas</text><rect x="78" y="72" width="83.5" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="119.75" y="89" text-anchor="middle" font-size="12" font-weight="500">45</text><rect x="161.5" y="72" width="83.5" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="203.25" y="89" text-anchor="middle" font-size="12" font-weight="500">45</text><rect x="245" y="72" width="83.5" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="286.75" y="89" text-anchor="middle" font-size="12" font-weight="500">45</text><rect x="328.5" y="72" width="83.5" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="370.25" y="89" text-anchor="middle" font-size="12" font-weight="500">45</text></svg></div><div>Vezes mais: 4 pedaços iguais aos 45 da sala dos vasos, 4 × 45.</div>
+  <div><b>Se travar, pergunte:</b> “Quantos pedaços de 45 cabem na barra das estátuas?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 49, quando a criança somou 4 em vez de pegar 4 vezes 45. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 3 — As luzes apagadas</b> · <span class="r">108</span> (letra S)
+  <div><b>Como pensar:</b> Divida 180 em 5 pedaços iguais e pegue 3. <span class="small">Conta: 180 ÷ 5 = 36 · 3 × 36 = 108.</span></div>
+  <div><b>O desenho esperado</b> (vale qualquer desenho com as mesmas partes):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="188.84" y="5" width="34.32" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">180</text><rect x="0" y="34" width="82.4" height="24" fill="#d9d9d9" stroke="#000" stroke-width="2"/><text x="41.2" y="51" text-anchor="middle" font-size="12" font-weight="500">36</text><rect x="82.4" y="34" width="82.4" height="24" fill="#d9d9d9" stroke="#000" stroke-width="2"/><text x="123.60000000000001" y="51" text-anchor="middle" font-size="12" font-weight="500">36</text><rect x="164.8" y="34" width="82.4" height="24" fill="#d9d9d9" stroke="#000" stroke-width="2"/><text x="206" y="51" text-anchor="middle" font-size="12" font-weight="500">36</text><rect x="247.20000000000002" y="34" width="82.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="288.40000000000003" y="51" text-anchor="middle" font-size="12" font-weight="500">36</text><rect x="329.6" y="34" width="82.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="370.8" y="51" text-anchor="middle" font-size="12" font-weight="500">36</text></svg></div><div>Cada quinto vale 180 ÷ 5 = 36. Os 3 pedaços pintados valem 108.</div>
+  <div><b>Se travar, pergunte:</b> “Quanto vale 1 dos 5 pedaços? E 3?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 36, quando a criança achou só 1/5 e esqueceu de pegar 3 pedaços. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 4 — O carrinho da limpeza</b> · <span class="r">5</span> (letra O)
+  <div><b>Como pensar:</b> Encha o carrinho de 8 em 8 até não dar mais. O que sobra vai na última viagem. <span class="small">Conta: 45 ÷ 8 = 5 viagens cheias (40 peças), resto 5.</span></div>
+  <div><b>O desenho esperado</b> (vale qualquer desenho com as mesmas partes):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="192.56" y="5" width="26.88" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">45</text><rect x="0" y="34" width="73.24444444444444" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="36.62222222222222" y="51" text-anchor="middle" font-size="12" font-weight="500">8</text><rect x="73.24444444444444" y="34" width="73.24444444444444" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="109.86666666666666" y="51" text-anchor="middle" font-size="12" font-weight="500">8</text><rect x="146.48888888888888" y="34" width="73.24444444444444" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="183.1111111111111" y="51" text-anchor="middle" font-size="12" font-weight="500">8</text><rect x="219.73333333333332" y="34" width="73.24444444444444" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="256.35555555555555" y="51" text-anchor="middle" font-size="12" font-weight="500">8</text><rect x="292.97777777777776" y="34" width="73.24444444444444" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="329.59999999999997" y="51" text-anchor="middle" font-size="12" font-weight="500">8</text><rect x="366.2222222222222" y="34" width="45.77777777777777" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="389.1111111111111" y="51" text-anchor="middle" font-size="12" font-weight="800">?</text></svg></div><div>Pedaços iguais com sobra: 5 viagens de 8 (40) e sobram 45 − 40 = 5.</div>
+  <div><b>Se travar, pergunte:</b> “Quantas peças vão em 5 viagens cheias? Quantas sobram?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 6, quando a criança respondeu o número de viagens, e não as peças da última. Essa resposta leva a outra letra, e a palavra não fecha.</div></div>
+  <div class="box"><b>Palavra-código: VASO.</b> Na última viagem do carrinho iam só 5 peças, e uma delas era o VASO. Ele não foi roubado: passou a noite na sala de limpeza e voltou ao lugar de manhã.</div>
+  <div class="rodape">Math Missions · gabarito</div></section></body></html>

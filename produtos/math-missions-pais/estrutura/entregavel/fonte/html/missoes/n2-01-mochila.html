@@ -1,0 +1,115 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>O Mistério da Mochila Pesada</title><style>
+@page { size: A4; margin: 14mm; }
+* { box-sizing: border-box; }
+body { font-family: Inter, 'DejaVu Sans', sans-serif; color: #111; font-size: 12.5pt; line-height: 1.45; margin: 0; }
+.pagina { page-break-after: always; position: relative; height: 266mm; overflow: hidden; }
+.pagina:last-child { page-break-after: auto; }
+.topo { display: flex; align-items: center; gap: 10px; border-bottom: 2px solid #111; padding-bottom: 5px; margin-bottom: 12px; font-size: 9.5pt; font-weight: 800; letter-spacing: .05em; }
+.nivel { background: #111; color: #fff; border-radius: 6px; padding: 3px 10px; font-size: 11pt; }
+.topo .dir { margin-left: auto; }
+h1 { font-size: 24pt; margin: 4px 0 8px; line-height: 1.1; }
+h2 { font-size: 15pt; margin: 14px 0 6px; }
+.cab { display: flex; gap: 16px; align-items: center; }
+.abertura { border: 2px solid #111; border-radius: 10px; padding: 10px 14px; font-size: 13.5pt; margin: 8px 0 14px; }
+.etapa { border: 1.5px solid #111; border-radius: 10px; padding: 10px 14px; margin-bottom: 12px; page-break-inside: avoid; }
+.etapa .num { display: inline-flex; width: 30px; height: 30px; border-radius: 8px; background: #111; color: #fff; align-items: center; justify-content: center; font-weight: 800; margin-right: 8px; }
+.etapa .tit { font-weight: 800; font-size: 13.5pt; }
+.etapa .tag { font-size: 9.5pt; border: 1px solid #111; border-radius: 10px; padding: 0 8px; margin-left: 6px; }
+.etapa p { margin: 6px 0; font-size: 13.5pt; }
+.espaco { border: 1.5px dashed #777; border-radius: 8px; height: 30mm; margin-top: 6px; position: relative; }
+.espaco.curto { height: 16mm; }
+.espaco span { position: absolute; left: 10px; top: 4px; font-size: 9pt; color: #555; }
+.resp { margin-top: 6px; font-weight: 800; }
+.resp i { display: inline-block; border-bottom: 1.5px solid #111; width: 55mm; }
+.dica { border: 2px dashed #111; border-radius: 10px; padding: 8px 12px; font-size: 11pt; margin: 10px 0; }
+table.cod { border-collapse: collapse; margin: 6px 0 10px; }
+table.cod td { border: 1.5px solid #111; padding: 6px 12px; text-align: center; font-size: 12.5pt; }
+table.cod td.l { font-weight: 800; font-size: 15pt; }
+.caixas { display: flex; gap: 10px; margin: 8px 0; }
+.fim { display: flex; gap: 14px; align-items: flex-start; }
+.oque { flex: 1; }
+.caixas div span { font-size: 8pt; margin: 2px 4px; display: block; }
+.caixas div { width: 15mm; height: 15mm; border: 2px solid #111; border-radius: 8px; }
+.linha { border-bottom: 1.5px solid #111; height: 8mm; margin: 4px 0; }
+.adulto li, .gab li { margin-bottom: 6px; }
+.box { border: 1.5px solid #111; border-radius: 10px; padding: 8px 14px; margin: 8px 0; }
+.gab .item { border-bottom: 1px solid #999; padding: 8px 0; page-break-inside: avoid; }
+.gab .r { font-weight: 800; font-size: 13.5pt; }
+.small { font-size: 10.5pt; color: #333; }
+.desenho { border: 2px solid #111; border-radius: 8px; padding: 6px 10px; margin: 6px 0; }
+.desenho .ins { font-size: 11.5pt; margin-bottom: 6px; }
+.desenho .ins b.lbl { background: #111; color: #fff; border-radius: 4px; padding: 0 6px; margin-right: 4px; }
+.livre { height: 34mm; border: 1px solid #999; border-radius: 6px; background-image: linear-gradient(#ddd 1px, transparent 1px), linear-gradient(90deg, #ddd 1px, transparent 1px); background-size: 5mm 5mm; }
+.tag.d { background: #111; color: #fff; }
+.gab { height: auto !important; overflow: visible !important; }
+.gab .rodape { position: static; margin-top: 10px; }
+.gab .modelo { margin: 4px 0 2px; }
+.passos { display: flex; gap: 8px; margin: 6px 0; }
+.passos div { flex: 1; border: 1.5px solid #111; border-radius: 8px; padding: 6px 8px; font-size: 11pt; }
+.adulto { font-size: 11.3pt; line-height: 1.38; }
+.adulto h1 { font-size: 21pt; }
+.adulto h2 { font-size: 13.5pt; margin: 9px 0 4px; }
+.adulto ol { margin: 4px 0; padding-left: 22px; }
+.adulto li { margin-bottom: 3px !important; }
+.gab { font-size: 11pt; line-height: 1.33; }
+.gab h1 { font-size: 20pt; }
+.gab .item { padding: 5px 0 !important; }
+.rodape { position: absolute; bottom: 0; left: 0; right: 0; font-size: 8.5pt; color: #555; border-top: 1px solid #aaa; padding-top: 3px; }
+</style></head><body><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 2 · Missão 2-01</span><span class="dir">Para o adulto · leia antes (2 minutos)</span></div>
+  <h1>O Mistério da Mochila Pesada</h1>
+  <div class="box"><b>Tempo:</b> 25 a 30 minutos · <b>Pratica:</b> massa em quilos e gramas; problema de 2 passos · <b>Material:</b> lápis, borracha e esta folha impressa (opcional: relógio de ponteiros, feijões ou tampinhas).</div>
+  <h2>O método nesta missão: desenhe antes de calcular</h2>
+  <p>A etapa 2 é a etapa <b>“desenhe o problema”</b>. Nela, a criança passa pelos 3 passos do método de Singapura (detalhes no Guia para Pais):</p>
+  <div class="passos"><div><b>1. Concreto</b><br>Use uma balança de cozinha, se tiver: pese um pacote de 500 g de arroz ou feijão. Na etapa 2, a criança separa 3 montinhos de tampinhas (lanche, água e casaco) antes de desenhar.</div><div><b>2. Desenho</b><br>A criança desenha a barra e põe <b>?</b> no que quer descobrir. Só depois faz a conta.</div><div><b>3. Conta</b><br>Com o desenho pronto, ela escreve a conta e confere a resposta olhando o desenho.</div></div>
+  <h2>Como conduzir</h2>
+  <ol><li><b>Leia a abertura em voz alta, com clima de mistério.</b> A 1ª etapa é curtinha, de propósito: é para a criança entrar no jogo rápido.</li><li><b>Não diga qual conta fazer.</b> O enunciado não diz se é de mais, de menos ou de vezes. Descobrir isso é o exercício, e o desenho é o que mostra a resposta.</li><li><b>Se a criança travar, peça o desenho antes de qualquer ajuda:</b> “Me mostra isso numa barra.” Depois use a pergunta de apoio do gabarito (última página). Ela ajuda sem entregar a resposta.</li><li><b>Cada resposta vira uma letra.</b> Se a palavra-código não fizer sentido, alguma conta está errada: voltem ao desenho e procurem juntos.</li><li><b>Feche pedindo:</b> “Me explica o seu desenho da etapa 2.”</li></ol>
+  <div class="box"><b>Antes de avançar:</b> Pode passar para a próxima missão quando a criança explicar o desenho da etapa 2 com as próprias palavras (“a barra é a mochila; dividi em 3 partes”). Se ainda não, refaça só essa etapa outro dia com outros números (ex.: 250 g, 400 g e 150 g).</div>
+  <h2>Com irmãos</h2>
+  <div class="box">Imprima as páginas da missão uma vez e resolvam juntos, trocando de papel a cada etapa: <b>leitor</b> (lê em voz alta), <b>desenhista</b> (faz a barra) e <b>calculista</b> (faz a conta e confere no desenho). Com 2 crianças, o leitor também desenha. Se estiverem em níveis diferentes, cada um faz a missão do seu nível e, no fim, os dois contam um ao outro como desenharam.</div>
+  <div class="rodape">Math Missions · O Mistério da Mochila Pesada · missão de amostra</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 2 · Missão 2-01</span><span class="dir">Missão</span></div>
+  <div class="cab"><div><svg viewBox="0 0 120 120" width="105"><rect x="24" y="28" width="72" height="80" rx="18" fill="none" stroke="#000" stroke-width="3"/><path d="M44 28 V18 H76 V28" fill="none" stroke="#000" stroke-width="3"/><rect x="38" y="62" width="44" height="30" rx="6" fill="none" stroke="#000" stroke-width="3"/></svg></div><div><h1>O Mistério da Mochila Pesada</h1></div></div>
+  <div class="abertura">No passeio do clube, cada mochila pode ter no máximo 800 g. A balança da entrada apitou na mochila do Theo, mas ele jura que só levou o lanche, a água e o casaco. O que está pesando tanto?</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">Meio quilo</span><span class="tag">rapidinha</span>
+  <p>1 kg tem 1 000 g. Quantos gramas há em meio quilo?</p>
+  <div class="espaco curto"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">O que Theo diz que levou</span><span class="tag d">desenhe o problema</span>
+  <p>Theo diz que levou o lanche (350 g), a garrafa de água (420 g) e o casaco (180 g). Quantos gramas pesam essas 3 coisas juntas?</p><div class="desenho"><div class="ins"><b class="lbl">1º DESENHE</b>Antes de fazer a conta, divida a barra em 3 partes: o lanche, a água e o casaco. Escreva quanto pesa cada parte e ponha <b>?</b> em cima, no total.</div><svg class="barra" viewBox="0 0 560 84" width="560" height="84" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H551 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="237.45" y="5" width="77.1" height="20" fill="#fff"/><text x="276" y="19" text-anchor="middle" font-size="15" font-weight="700">_______</text><rect x="0" y="34" width="552" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="276" y="57" text-anchor="middle" font-size="15" font-weight="500"> </text></svg></div>
+  <div class="espaco curto"><span>2º CALCULE: a conta que o desenho mostrou</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · O Mistério da Mochila Pesada</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 2 · Missão 2-01</span><span class="dir">Missão (continuação)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">O que a balança marcou</span>
+  <p>A balança marcou 1 000 g. Quantos gramas há na mochila além do lanche, da água e do casaco?</p>
+  <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">Para passar na balança</span>
+  <p>O limite é 800 g. Quantos gramas Theo precisa tirar da mochila de 1 000 g?</p>
+  <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  <div class="dica"><b>DICA:</b> nenhuma pista diz qual conta fazer. Leia com calma, descubra o que está sendo pedido e escolha a conta. Na dúvida, desenhe.</div>
+  <h2>Abra o código <span class="small" style="font-weight:400">· procure cada resposta na tabela e escreva a letra na caixa da etapa</span></h2>
+  <table class="cod"><tr><td>1 000 g</td><td>1 800 g</td><td>1 950 g</td><td>50 g</td><td>200 g</td><td>500 g</td><td>770 g</td><td>950 g</td></tr><tr><td class="l">S</td><td class="l">E</td><td class="l">B</td><td class="l">Ã</td><td class="l">O</td><td class="l">P</td><td class="l">X</td><td class="l">I</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>O que aconteceu?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · O Mistério da Mochila Pesada</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 2 · Missão 2-01</span><span class="dir">Gabarito explicado · para o adulto</span></div>
+  <h1>Gabarito: O Mistério da Mochila Pesada</h1>
+  <div class="item"><b>Etapa 1 — Meio quilo</b> · <span class="r">500 g</span> (letra P)
+  <div><b>Como pensar:</b> Meio quilo é metade de 1 000 g: 1 000 ÷ 2. <span class="small">Conta: 1 000 ÷ 2 = 500 g.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Se 1 kg são 1 000 g, quanto é a metade disso?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 1 000 g, quando a criança esqueceu de dividir o quilo ao meio. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 2 — O que Theo diz que levou</b> · <span class="r">950 g</span> (letra I)
+  <div><b>Como pensar:</b> São 3 partes da mochila. Some duas e depois a terceira. <span class="small">Conta: 350 + 420 = 770 · 770 + 180 = 950 g.</span></div>
+  <div><b>O desenho esperado</b> (vale qualquer desenho com as mesmas partes):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="196.28" y="5" width="19.439999999999998" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">?</text><rect x="0" y="34" width="151.78947368421052" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="75.89473684210526" y="51" text-anchor="middle" font-size="12" font-weight="500">350 g</text><rect x="151.78947368421052" y="34" width="182.14736842105262" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="242.86315789473684" y="51" text-anchor="middle" font-size="12" font-weight="500">420 g</text><rect x="333.93684210526317" y="34" width="78.06315789473685" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="372.9684210526316" y="51" text-anchor="middle" font-size="12" font-weight="500">180 g</text></svg></div><div>Parte-todo com 3 partes e o ? no total: some as partes, duas de cada vez.</div>
+  <div><b>Se travar, pergunte:</b> “Quantas coisas são? Você somou todas?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 770 g, quando a criança esqueceu de somar o casaco. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 3 — O que a balança marcou</b> · <span class="r">50 g</span> (letra Ã)
+  <div><b>Como pensar:</b> A balança mostra tudo. As 3 coisas pesam 950. O resto é 1 000 − 950. <span class="small">Conta: 1 000 − 950 = 50 g.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “De 950 até 1 000, faltam quantos gramas?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 1 950 g, quando a criança somou em vez de ver a diferença. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 4 — Para passar na balança</b> · <span class="r">200 g</span> (letra O)
+  <div><b>Como pensar:</b> A mochila tem 1 000 e pode ter 800. Precisa sair a diferença: 1 000 − 800. <span class="small">Conta: 1 000 − 800 = 200 g.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Quanto a mochila passou do limite?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 1 800 g, quando a criança somou o limite com o peso da mochila. Essa resposta leva a outra letra, e a palavra não fecha.</div></div>
+  <div class="box"><b>Palavra-código: PIÃO.</b> Os 50 g a mais eram um PIÃO de madeira esquecido no bolso da frente! Theo tirou o pião e deixou o casaco com a mãe: a mochila ficou abaixo dos 800 g.</div>
+  <div class="rodape">Math Missions · gabarito</div></section></body></html>

@@ -8,6 +8,8 @@ const pt = {
   materialTxt: 'lápis, borracha e esta folha impressa (opcional: relógio de ponteiros, feijões ou tampinhas).',
   metodoTit: 'O método nesta missão: desenhe antes de calcular',
   metodoTxt: 'A etapa {nd} é a etapa <b>“desenhe o problema”</b>. Nela, a criança passa pelos 3 passos do método de Singapura (detalhes no Guia para Pais):',
+  metodoTxtFech: 'Esta é a <b>Missão de Fechamento</b> do nível: as 4 etapas são de desenho, e cada uma usa um dos desenhos que a criança já domina. Em cada etapa, ela passa pelos 3 passos do método de Singapura (detalhes no Guia para Pais):',
+  conduzirFech: '<b>Feche pedindo:</b> “Me explica os seus 4 desenhos.” Para passar de nível, a palavra-código precisa fechar e a criança precisa explicar sozinha pelo menos 3 dos 4 desenhos.',
   passo1: '1. Concreto', passo2: '2. Desenho', passo3: '3. Conta',
   passo2Txt: 'A criança desenha a barra e põe <b>?</b> no que quer descobrir. Só depois faz a conta.',
   passo3Txt: 'Com o desenho pronto, ela escreve a conta e confere a resposta olhando o desenho.',

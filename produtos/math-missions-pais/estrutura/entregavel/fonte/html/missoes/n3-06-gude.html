@@ -1,0 +1,115 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>O Caso do Pote de Bolinhas de Gude</title><style>
+@page { size: A4; margin: 14mm; }
+* { box-sizing: border-box; }
+body { font-family: Inter, 'DejaVu Sans', sans-serif; color: #111; font-size: 12.5pt; line-height: 1.45; margin: 0; }
+.pagina { page-break-after: always; position: relative; height: 266mm; overflow: hidden; }
+.pagina:last-child { page-break-after: auto; }
+.topo { display: flex; align-items: center; gap: 10px; border-bottom: 2px solid #111; padding-bottom: 5px; margin-bottom: 12px; font-size: 9.5pt; font-weight: 800; letter-spacing: .05em; }
+.nivel { background: #111; color: #fff; border-radius: 6px; padding: 3px 10px; font-size: 11pt; }
+.topo .dir { margin-left: auto; }
+h1 { font-size: 24pt; margin: 4px 0 8px; line-height: 1.1; }
+h2 { font-size: 15pt; margin: 14px 0 6px; }
+.cab { display: flex; gap: 16px; align-items: center; }
+.abertura { border: 2px solid #111; border-radius: 10px; padding: 10px 14px; font-size: 13.5pt; margin: 8px 0 14px; }
+.etapa { border: 1.5px solid #111; border-radius: 10px; padding: 10px 14px; margin-bottom: 12px; page-break-inside: avoid; }
+.etapa .num { display: inline-flex; width: 30px; height: 30px; border-radius: 8px; background: #111; color: #fff; align-items: center; justify-content: center; font-weight: 800; margin-right: 8px; }
+.etapa .tit { font-weight: 800; font-size: 13.5pt; }
+.etapa .tag { font-size: 9.5pt; border: 1px solid #111; border-radius: 10px; padding: 0 8px; margin-left: 6px; }
+.etapa p { margin: 6px 0; font-size: 13.5pt; }
+.espaco { border: 1.5px dashed #777; border-radius: 8px; height: 30mm; margin-top: 6px; position: relative; }
+.espaco.curto { height: 16mm; }
+.espaco span { position: absolute; left: 10px; top: 4px; font-size: 9pt; color: #555; }
+.resp { margin-top: 6px; font-weight: 800; }
+.resp i { display: inline-block; border-bottom: 1.5px solid #111; width: 55mm; }
+.dica { border: 2px dashed #111; border-radius: 10px; padding: 8px 12px; font-size: 11pt; margin: 10px 0; }
+table.cod { border-collapse: collapse; margin: 6px 0 10px; }
+table.cod td { border: 1.5px solid #111; padding: 6px 12px; text-align: center; font-size: 12.5pt; }
+table.cod td.l { font-weight: 800; font-size: 15pt; }
+.caixas { display: flex; gap: 10px; margin: 8px 0; }
+.fim { display: flex; gap: 14px; align-items: flex-start; }
+.oque { flex: 1; }
+.caixas div span { font-size: 8pt; margin: 2px 4px; display: block; }
+.caixas div { width: 15mm; height: 15mm; border: 2px solid #111; border-radius: 8px; }
+.linha { border-bottom: 1.5px solid #111; height: 8mm; margin: 4px 0; }
+.adulto li, .gab li { margin-bottom: 6px; }
+.box { border: 1.5px solid #111; border-radius: 10px; padding: 8px 14px; margin: 8px 0; }
+.gab .item { border-bottom: 1px solid #999; padding: 8px 0; page-break-inside: avoid; }
+.gab .r { font-weight: 800; font-size: 13.5pt; }
+.small { font-size: 10.5pt; color: #333; }
+.desenho { border: 2px solid #111; border-radius: 8px; padding: 6px 10px; margin: 6px 0; }
+.desenho .ins { font-size: 11.5pt; margin-bottom: 6px; }
+.desenho .ins b.lbl { background: #111; color: #fff; border-radius: 4px; padding: 0 6px; margin-right: 4px; }
+.livre { height: 34mm; border: 1px solid #999; border-radius: 6px; background-image: linear-gradient(#ddd 1px, transparent 1px), linear-gradient(90deg, #ddd 1px, transparent 1px); background-size: 5mm 5mm; }
+.tag.d { background: #111; color: #fff; }
+.gab { height: auto !important; overflow: visible !important; }
+.gab .rodape { position: static; margin-top: 10px; }
+.gab .modelo { margin: 4px 0 2px; }
+.passos { display: flex; gap: 8px; margin: 6px 0; }
+.passos div { flex: 1; border: 1.5px solid #111; border-radius: 8px; padding: 6px 8px; font-size: 11pt; }
+.adulto { font-size: 11.3pt; line-height: 1.38; }
+.adulto h1 { font-size: 21pt; }
+.adulto h2 { font-size: 13.5pt; margin: 9px 0 4px; }
+.adulto ol { margin: 4px 0; padding-left: 22px; }
+.adulto li { margin-bottom: 3px !important; }
+.gab { font-size: 11pt; line-height: 1.33; }
+.gab h1 { font-size: 20pt; }
+.gab .item { padding: 5px 0 !important; }
+.rodape { position: absolute; bottom: 0; left: 0; right: 0; font-size: 8.5pt; color: #555; border-top: 1px solid #aaa; padding-top: 3px; }
+</style></head><body><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-06</span><span class="dir">Para o adulto · leia antes (2 minutos)</span></div>
+  <h1>O Caso do Pote de Bolinhas de Gude</h1>
+  <div class="box"><b>Tempo:</b> 25 a 35 minutos · <b>Pratica:</b> fração do que sobrou (1/3 e depois 1/4 do resto) · <b>Material:</b> lápis, borracha e esta folha impressa (opcional: relógio de ponteiros, feijões ou tampinhas).</div>
+  <h2>O método nesta missão: desenhe antes de calcular</h2>
+  <p>A etapa 2 é a etapa <b>“desenhe o problema”</b>. Nela, a criança passa pelos 3 passos do método de Singapura (detalhes no Guia para Pais):</p>
+  <div class="passos"><div><b>1. Concreto</b><br>Use uma tira de papel dividida em 6 partes iguais: a criança risca 2 partes (1/3) e depois 1 parte das 4 que sobraram (1/4 do resto), antes de desenhar.</div><div><b>2. Desenho</b><br>A criança desenha a barra e põe <b>?</b> no que quer descobrir. Só depois faz a conta.</div><div><b>3. Conta</b><br>Com o desenho pronto, ela escreve a conta e confere a resposta olhando o desenho.</div></div>
+  <h2>Como conduzir</h2>
+  <ol><li><b>Leia a abertura em voz alta, com clima de mistério.</b> A 1ª etapa é curtinha, de propósito: é para a criança entrar no jogo rápido.</li><li><b>Não diga qual conta fazer.</b> O enunciado não diz se é de mais, de menos ou de vezes. Descobrir isso é o exercício, e o desenho é o que mostra a resposta.</li><li><b>Se a criança travar, peça o desenho antes de qualquer ajuda:</b> “Me mostra isso numa barra.” Depois use a pergunta de apoio do gabarito (última página). Ela ajuda sem entregar a resposta.</li><li><b>Cada resposta vira uma letra.</b> Se a palavra-código não fizer sentido, alguma conta está errada: voltem ao desenho e procurem juntos.</li><li><b>Feche pedindo:</b> “Me explica o seu desenho da etapa 2.”</li></ol>
+  <div class="box"><b>Antes de avançar:</b> Pode passar para a próxima missão quando a criança explicar o desenho da etapa 2 com as próprias palavras (“o 1/4 é do que sobrou, não do pote todo”). Se ainda não, refaça só essa etapa outro dia com outros números (ex.: 180 bolinhas).</div>
+  <h2>Com irmãos</h2>
+  <div class="box">Imprima as páginas da missão uma vez e resolvam juntos, trocando de papel a cada etapa: <b>leitor</b> (lê em voz alta), <b>desenhista</b> (faz a barra) e <b>calculista</b> (faz a conta e confere no desenho). Com 2 crianças, o leitor também desenha. Se estiverem em níveis diferentes, cada um faz a missão do seu nível e, no fim, os dois contam um ao outro como desenharam.</div>
+  <div class="rodape">Math Missions · O Caso do Pote de Bolinhas de Gude · missão de amostra</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-06</span><span class="dir">Missão</span></div>
+  <div class="cab"><div><svg viewBox="0 0 120 120" width="105"><path d="M30 24 H90 V36 q14 10 14 30 V108 H16 V66 q0 -20 14 -30 Z" fill="none" stroke="#000" stroke-width="3"/><circle cx="44" cy="80" r="8" fill="none" stroke="#000" stroke-width="2"/><circle cx="64" cy="90" r="8" fill="none" stroke="#000" stroke-width="2"/><circle cx="78" cy="72" r="8" fill="none" stroke="#000" stroke-width="2"/><circle cx="56" cy="64" r="8" fill="none" stroke="#000" stroke-width="2"/></svg></div><div><h1>O Caso do Pote de Bolinhas de Gude</h1></div></div>
+  <div class="abertura">O pote de bolinhas de gude da família tinha 240 bolinhas. Em 2 dias de jogo com os amigos, ele esvaziou bastante. Quantas bolinhas ainda são da família?</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">O 1º dia</span><span class="tag">rapidinha</span>
+  <p>No 1º dia, a família perdeu no jogo 1/3 das 240 bolinhas. Quantas bolinhas perdeu?</p>
+  <div class="espaco curto"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">O 2º dia</span><span class="tag d">desenhe o problema</span>
+  <p>No 2º dia, a família perdeu 1/4 do que tinha sobrado do 1º dia. Quantas bolinhas restaram no pote?</p><div class="desenho"><div class="ins"><b class="lbl">1º DESENHE</b>Antes de fazer a conta, desenhe a barra do pote todo. Separe o 1º dia; depois divida o que sobrou em 4 e separe 1 pedaço. Ponha <b>?</b> no que você quer descobrir.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2º CALCULE: a conta que o desenho mostrou</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · O Caso do Pote de Bolinhas de Gude</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-06</span><span class="dir">Missão (continuação)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">As que voltaram</span>
+  <p>Os amigos devolveram 3/10 das 120 bolinhas que tinham ganhado. Quantas bolinhas voltaram?</p>
+  <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">O pote agora</span>
+  <p>O pote tinha 120 bolinhas e voltaram 36. Quantas bolinhas há agora no pote?</p>
+  <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  <div class="dica"><b>DICA:</b> nenhuma pista diz qual conta fazer. Leia com calma, descubra o que está sendo pedido e escolha a conta. Na dúvida, desenhe.</div>
+  <h2>Abra o código <span class="small" style="font-weight:400">· procure cada resposta na tabela e escreva a letra na caixa da etapa</span></h2>
+  <table class="cod"><tr><td>12</td><td>36</td><td>80</td><td>84</td><td>100</td><td>120</td><td>156</td><td>237</td></tr><tr><td class="l">A</td><td class="l">D</td><td class="l">G</td><td class="l">F</td><td class="l">T</td><td class="l">U</td><td class="l">E</td><td class="l">P</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>O que aconteceu?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · O Caso do Pote de Bolinhas de Gude</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-06</span><span class="dir">Gabarito explicado · para o adulto</span></div>
+  <h1>Gabarito: O Caso do Pote de Bolinhas de Gude</h1>
+  <div class="item"><b>Etapa 1 — O 1º dia</b> · <span class="r">80</span> (letra G)
+  <div><b>Como pensar:</b> 1/3 é 1 dos 3 pedaços iguais: 240 ÷ 3. <span class="small">Conta: 240 ÷ 3 = 80.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Divida 240 em 3 partes iguais. Quanto fica em cada uma?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 237, quando a criança tirou 3 em vez de achar 1/3. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 2 — O 2º dia</b> · <span class="r">120</span> (letra U)
+  <div><b>Como pensar:</b> Primeiro, o que sobrou do 1º dia (160). O 1/4 é desse resto. <span class="small">Conta: 240 − 80 = 160 · 160 ÷ 4 = 40 · 160 − 40 = 120.</span></div>
+  <div><b>O desenho esperado</b> (vale qualquer desenho com as mesmas partes):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="188.84" y="5" width="34.32" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">240</text><rect x="0" y="34" width="137.33333333333334" height="24" fill="#d9d9d9" stroke="#000" stroke-width="2"/><text x="68.66666666666667" y="51" text-anchor="middle" font-size="12" font-weight="500">80</text><rect x="137.33333333333334" y="34" width="68.66666666666667" height="24" fill="#d9d9d9" stroke="#000" stroke-width="2"/><text x="171.66666666666669" y="51" text-anchor="middle" font-size="12" font-weight="500">40</text><rect x="206" y="34" width="206" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="309" y="51" text-anchor="middle" font-size="12" font-weight="800">?</text></svg></div><div>O 1º dia leva 1/3 (80). O resto (160) é dividido em 4 pedaços de 40; 1 vai embora no 2º dia. Sobram 3 pedaços: 120.</div>
+  <div><b>Se travar, pergunte:</b> “O 1/4 é das 240 ou das que sobraram?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 100, quando a criança calculou 1/4 do pote inteiro, e não do que tinha sobrado. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 3 — As que voltaram</b> · <span class="r">36</span> (letra D)
+  <div><b>Como pensar:</b> Divida 120 em 10 partes e pegue 3. <span class="small">Conta: 120 ÷ 10 = 12 · 3 × 12 = 36.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Quanto é 1/10 de 120? E 3/10?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 12, quando a criança achou só 1/10 e esqueceu de pegar 3 pedaços. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 4 — O pote agora</b> · <span class="r">156</span> (letra E)
+  <div><b>Como pensar:</b> As que voltaram se juntam às que estavam no pote. <span class="small">Conta: 120 + 36 = 156.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Voltar para o pote é juntar ou tirar?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 84, quando a criança tirou em vez de somar as que voltaram. Essa resposta leva a outra letra, e a palavra não fecha.</div></div>
+  <div class="box"><b>Palavra-código: GUDE.</b> O pote ficou com 156 bolinhas de GUDE, e a família aprendeu a contar antes de começar a próxima partida.</div>
+  <div class="rodape">Math Missions · gabarito</div></section></body></html>

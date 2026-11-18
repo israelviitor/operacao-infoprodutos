@@ -1,0 +1,115 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>O Segredo da Horta de Canteiros</title><style>
+@page { size: A4; margin: 14mm; }
+* { box-sizing: border-box; }
+body { font-family: Inter, 'DejaVu Sans', sans-serif; color: #111; font-size: 12.5pt; line-height: 1.45; margin: 0; }
+.pagina { page-break-after: always; position: relative; height: 266mm; overflow: hidden; }
+.pagina:last-child { page-break-after: auto; }
+.topo { display: flex; align-items: center; gap: 10px; border-bottom: 2px solid #111; padding-bottom: 5px; margin-bottom: 12px; font-size: 9.5pt; font-weight: 800; letter-spacing: .05em; }
+.nivel { background: #111; color: #fff; border-radius: 6px; padding: 3px 10px; font-size: 11pt; }
+.topo .dir { margin-left: auto; }
+h1 { font-size: 24pt; margin: 4px 0 8px; line-height: 1.1; }
+h2 { font-size: 15pt; margin: 14px 0 6px; }
+.cab { display: flex; gap: 16px; align-items: center; }
+.abertura { border: 2px solid #111; border-radius: 10px; padding: 10px 14px; font-size: 13.5pt; margin: 8px 0 14px; }
+.etapa { border: 1.5px solid #111; border-radius: 10px; padding: 10px 14px; margin-bottom: 12px; page-break-inside: avoid; }
+.etapa .num { display: inline-flex; width: 30px; height: 30px; border-radius: 8px; background: #111; color: #fff; align-items: center; justify-content: center; font-weight: 800; margin-right: 8px; }
+.etapa .tit { font-weight: 800; font-size: 13.5pt; }
+.etapa .tag { font-size: 9.5pt; border: 1px solid #111; border-radius: 10px; padding: 0 8px; margin-left: 6px; }
+.etapa p { margin: 6px 0; font-size: 13.5pt; }
+.espaco { border: 1.5px dashed #777; border-radius: 8px; height: 30mm; margin-top: 6px; position: relative; }
+.espaco.curto { height: 16mm; }
+.espaco span { position: absolute; left: 10px; top: 4px; font-size: 9pt; color: #555; }
+.resp { margin-top: 6px; font-weight: 800; }
+.resp i { display: inline-block; border-bottom: 1.5px solid #111; width: 55mm; }
+.dica { border: 2px dashed #111; border-radius: 10px; padding: 8px 12px; font-size: 11pt; margin: 10px 0; }
+table.cod { border-collapse: collapse; margin: 6px 0 10px; }
+table.cod td { border: 1.5px solid #111; padding: 6px 12px; text-align: center; font-size: 12.5pt; }
+table.cod td.l { font-weight: 800; font-size: 15pt; }
+.caixas { display: flex; gap: 10px; margin: 8px 0; }
+.fim { display: flex; gap: 14px; align-items: flex-start; }
+.oque { flex: 1; }
+.caixas div span { font-size: 8pt; margin: 2px 4px; display: block; }
+.caixas div { width: 15mm; height: 15mm; border: 2px solid #111; border-radius: 8px; }
+.linha { border-bottom: 1.5px solid #111; height: 8mm; margin: 4px 0; }
+.adulto li, .gab li { margin-bottom: 6px; }
+.box { border: 1.5px solid #111; border-radius: 10px; padding: 8px 14px; margin: 8px 0; }
+.gab .item { border-bottom: 1px solid #999; padding: 8px 0; page-break-inside: avoid; }
+.gab .r { font-weight: 800; font-size: 13.5pt; }
+.small { font-size: 10.5pt; color: #333; }
+.desenho { border: 2px solid #111; border-radius: 8px; padding: 6px 10px; margin: 6px 0; }
+.desenho .ins { font-size: 11.5pt; margin-bottom: 6px; }
+.desenho .ins b.lbl { background: #111; color: #fff; border-radius: 4px; padding: 0 6px; margin-right: 4px; }
+.livre { height: 34mm; border: 1px solid #999; border-radius: 6px; background-image: linear-gradient(#ddd 1px, transparent 1px), linear-gradient(90deg, #ddd 1px, transparent 1px); background-size: 5mm 5mm; }
+.tag.d { background: #111; color: #fff; }
+.gab { height: auto !important; overflow: visible !important; }
+.gab .rodape { position: static; margin-top: 10px; }
+.gab .modelo { margin: 4px 0 2px; }
+.passos { display: flex; gap: 8px; margin: 6px 0; }
+.passos div { flex: 1; border: 1.5px solid #111; border-radius: 8px; padding: 6px 8px; font-size: 11pt; }
+.adulto { font-size: 11.3pt; line-height: 1.38; }
+.adulto h1 { font-size: 21pt; }
+.adulto h2 { font-size: 13.5pt; margin: 9px 0 4px; }
+.adulto ol { margin: 4px 0; padding-left: 22px; }
+.adulto li { margin-bottom: 3px !important; }
+.gab { font-size: 11pt; line-height: 1.33; }
+.gab h1 { font-size: 20pt; }
+.gab .item { padding: 5px 0 !important; }
+.rodape { position: absolute; bottom: 0; left: 0; right: 0; font-size: 8.5pt; color: #555; border-top: 1px solid #aaa; padding-top: 3px; }
+</style></head><body><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 2 · Missão 2-04</span><span class="dir">Para o adulto · leia antes (2 minutos)</span></div>
+  <h1>O Segredo da Horta de Canteiros</h1>
+  <div class="box"><b>Tempo:</b> 25 a 30 minutos · <b>Pratica:</b> fração de uma quantidade (2/3 de 24, 3/4 de 40) · <b>Material:</b> lápis, borracha e esta folha impressa (opcional: relógio de ponteiros, feijões ou tampinhas).</div>
+  <h2>O método nesta missão: desenhe antes de calcular</h2>
+  <p>A etapa 2 é a etapa <b>“desenhe o problema”</b>. Nela, a criança passa pelos 3 passos do método de Singapura (detalhes no Guia para Pais):</p>
+  <div class="passos"><div><b>1. Concreto</b><br>Faça 24 bolinhas de papel (os canteiros) e separe em 3 montinhos iguais. Na etapa 2, a criança junta 2 dos 3 montinhos antes de desenhar.</div><div><b>2. Desenho</b><br>A criança desenha a barra e põe <b>?</b> no que quer descobrir. Só depois faz a conta.</div><div><b>3. Conta</b><br>Com o desenho pronto, ela escreve a conta e confere a resposta olhando o desenho.</div></div>
+  <h2>Como conduzir</h2>
+  <ol><li><b>Leia a abertura em voz alta, com clima de mistério.</b> A 1ª etapa é curtinha, de propósito: é para a criança entrar no jogo rápido.</li><li><b>Não diga qual conta fazer.</b> O enunciado não diz se é de mais, de menos ou de vezes. Descobrir isso é o exercício, e o desenho é o que mostra a resposta.</li><li><b>Se a criança travar, peça o desenho antes de qualquer ajuda:</b> “Me mostra isso numa barra.” Depois use a pergunta de apoio do gabarito (última página). Ela ajuda sem entregar a resposta.</li><li><b>Cada resposta vira uma letra.</b> Se a palavra-código não fizer sentido, alguma conta está errada: voltem ao desenho e procurem juntos.</li><li><b>Feche pedindo:</b> “Me explica o seu desenho da etapa 2.”</li></ol>
+  <div class="box"><b>Antes de avançar:</b> Pode passar para a próxima missão quando a criança explicar o desenho da etapa 2 com as próprias palavras (“dividi em 3 e pintei 2”). Se ainda não, refaça só essa etapa outro dia com outros números (ex.: 3/4 de 20).</div>
+  <h2>Com irmãos</h2>
+  <div class="box">Imprima as páginas da missão uma vez e resolvam juntos, trocando de papel a cada etapa: <b>leitor</b> (lê em voz alta), <b>desenhista</b> (faz a barra) e <b>calculista</b> (faz a conta e confere no desenho). Com 2 crianças, o leitor também desenha. Se estiverem em níveis diferentes, cada um faz a missão do seu nível e, no fim, os dois contam um ao outro como desenharam.</div>
+  <div class="rodape">Math Missions · O Segredo da Horta de Canteiros · missão de amostra</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 2 · Missão 2-04</span><span class="dir">Missão</span></div>
+  <div class="cab"><div><svg viewBox="0 0 120 120" width="105"><path d="M60 104 V50" stroke="#000" stroke-width="4"/><path d="M60 64 q-30 -4 -34 -30 q28 2 34 30 M60 56 q26 -6 32 -30 q-28 0 -32 30" fill="none" stroke="#000" stroke-width="3"/><path d="M30 104 H90 L84 116 H36 Z" fill="none" stroke="#000" stroke-width="3"/></svg></div><div><h1>O Segredo da Horta de Canteiros</h1></div></div>
+  <div class="abertura">Na horta da família, dois terços dos canteiros amanheceram regados, e o resto, não. Quem regou parou no meio do caminho. Por quê?</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">Os canteiros</span><span class="tag">rapidinha</span>
+  <p>A horta tem 3 fileiras com 8 canteiros em cada uma. Quantos canteiros há?</p>
+  <div class="espaco curto"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">Os canteiros regados</span><span class="tag d">desenhe o problema</span>
+  <p>2/3 dos 24 canteiros foram regados. Quantos canteiros foram regados?</p><div class="desenho"><div class="ins"><b class="lbl">1º DESENHE</b>Antes de fazer a conta, divida a barra em 3 pedaços iguais (o “de baixo” da fração), pinte 2 (o “de cima”) e escreva quanto vale cada pedaço. A resposta é o valor dos pedaços pintados juntos.</div><svg class="barra" viewBox="0 0 560 84" width="560" height="84" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H551 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="237.45" y="5" width="77.1" height="20" fill="#fff"/><text x="276" y="19" text-anchor="middle" font-size="15" font-weight="700">_______</text><rect x="0" y="34" width="552" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="276" y="57" text-anchor="middle" font-size="15" font-weight="500"> </text></svg></div>
+  <div class="espaco curto"><span>2º CALCULE: a conta que o desenho mostrou</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · O Segredo da Horta de Canteiros</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 2 · Missão 2-04</span><span class="dir">Missão (continuação)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">A água que vazou</span>
+  <p>O regador saiu cheio, com 40 L. Quando chegou ao fim, 3/4 da água já tinham vazado pelo caminho. Quantos litros vazaram?</p>
+  <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">O que dava para regar</span>
+  <p>Cada canteiro precisa de 2 L de água. Com os 30 L que vazaram, quantos canteiros a mais daria para regar?</p>
+  <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  <div class="dica"><b>DICA:</b> nenhuma pista diz qual conta fazer. Leia com calma, descubra o que está sendo pedido e escolha a conta. Na dúvida, desenhe.</div>
+  <h2>Abra o código <span class="small" style="font-weight:400">· procure cada resposta na tabela e escreva a letra na caixa da etapa</span></h2>
+  <table class="cod"><tr><td>8</td><td>10 L</td><td>11</td><td>15</td><td>16</td><td>24</td><td>30 L</td><td>60</td></tr><tr><td class="l">T</td><td class="l">A</td><td class="l">N</td><td class="l">O</td><td class="l">U</td><td class="l">F</td><td class="l">R</td><td class="l">D</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>O que aconteceu?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · O Segredo da Horta de Canteiros</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 2 · Missão 2-04</span><span class="dir">Gabarito explicado · para o adulto</span></div>
+  <h1>Gabarito: O Segredo da Horta de Canteiros</h1>
+  <div class="item"><b>Etapa 1 — Os canteiros</b> · <span class="r">24</span> (letra F)
+  <div><b>Como pensar:</b> São 3 fileiras iguais de 8: 8 + 8 + 8. <span class="small">Conta: 3 × 8 = 24.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Quantos canteiros há numa fileira? E em três?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 11, quando a criança somou 3 + 8 em vez de juntar 3 fileiras de 8. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 2 — Os canteiros regados</b> · <span class="r">16</span> (letra U)
+  <div><b>Como pensar:</b> Divida em 3 partes iguais (o “de baixo”) e pegue 2 delas (o “de cima”). <span class="small">Conta: 24 ÷ 3 = 8 · 2 × 8 = 16.</span></div>
+  <div><b>O desenho esperado</b> (vale qualquer desenho com as mesmas partes):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="192.56" y="5" width="26.88" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">24</text><rect x="0" y="34" width="137.33333333333334" height="24" fill="#d9d9d9" stroke="#000" stroke-width="2"/><text x="68.66666666666667" y="51" text-anchor="middle" font-size="12" font-weight="500">8</text><rect x="137.33333333333334" y="34" width="137.33333333333334" height="24" fill="#d9d9d9" stroke="#000" stroke-width="2"/><text x="206" y="51" text-anchor="middle" font-size="12" font-weight="500">8</text><rect x="274.6666666666667" y="34" width="137.33333333333334" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="343.33333333333337" y="51" text-anchor="middle" font-size="12" font-weight="500">8</text></svg></div><div>Cada terço vale 24 ÷ 3 = 8. Os 2 pedaços pintados juntos valem 16.</div>
+  <div><b>Se travar, pergunte:</b> “Quanto vale 1 dos 3 pedaços? E 2 pedaços?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 8, quando a criança achou só 1/3 e esqueceu de pegar 2 pedaços. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 3 — A água que vazou</b> · <span class="r">30 L</span> (letra R)
+  <div><b>Como pensar:</b> Divida 40 em 4 partes (10 cada) e pegue 3 delas. <span class="small">Conta: 40 ÷ 4 = 10 · 3 × 10 = 30 L.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Quanto é 1/4 de 40? E 3/4?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 10 L, quando a criança achou só 1/4 e esqueceu de pegar 3 pedaços. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 4 — O que dava para regar</b> · <span class="r">15</span> (letra O)
+  <div><b>Como pensar:</b> Quantas vezes o 2 cabe no 30? 30 ÷ 2. <span class="small">Conta: 30 ÷ 2 = 15.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Se cada canteiro usa 2 L, quantos canteiros os 30 L regam?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 60, quando a criança multiplicou em vez de ver quantas vezes 2 L cabem em 30 L. Essa resposta leva a outra letra, e a palavra não fecha.</div></div>
+  <div class="box"><b>Palavra-código: FURO.</b> O regador tinha um FURO! A água foi vazando pelo caminho, acabou antes da hora e só 16 canteiros foram regados.</div>
+  <div class="rodape">Math Missions · gabarito</div></section></body></html>

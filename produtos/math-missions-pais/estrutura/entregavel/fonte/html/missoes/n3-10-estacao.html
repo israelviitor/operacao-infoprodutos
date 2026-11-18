@@ -1,0 +1,121 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>O Grande Mistério da Estação Espacial</title><style>
+@page { size: A4; margin: 14mm; }
+* { box-sizing: border-box; }
+body { font-family: Inter, 'DejaVu Sans', sans-serif; color: #111; font-size: 12.5pt; line-height: 1.45; margin: 0; }
+.pagina { page-break-after: always; position: relative; height: 266mm; overflow: hidden; }
+.pagina:last-child { page-break-after: auto; }
+.topo { display: flex; align-items: center; gap: 10px; border-bottom: 2px solid #111; padding-bottom: 5px; margin-bottom: 12px; font-size: 9.5pt; font-weight: 800; letter-spacing: .05em; }
+.nivel { background: #111; color: #fff; border-radius: 6px; padding: 3px 10px; font-size: 11pt; }
+.topo .dir { margin-left: auto; }
+h1 { font-size: 24pt; margin: 4px 0 8px; line-height: 1.1; }
+h2 { font-size: 15pt; margin: 14px 0 6px; }
+.cab { display: flex; gap: 16px; align-items: center; }
+.abertura { border: 2px solid #111; border-radius: 10px; padding: 10px 14px; font-size: 13.5pt; margin: 8px 0 14px; }
+.etapa { border: 1.5px solid #111; border-radius: 10px; padding: 10px 14px; margin-bottom: 12px; page-break-inside: avoid; }
+.etapa .num { display: inline-flex; width: 30px; height: 30px; border-radius: 8px; background: #111; color: #fff; align-items: center; justify-content: center; font-weight: 800; margin-right: 8px; }
+.etapa .tit { font-weight: 800; font-size: 13.5pt; }
+.etapa .tag { font-size: 9.5pt; border: 1px solid #111; border-radius: 10px; padding: 0 8px; margin-left: 6px; }
+.etapa p { margin: 6px 0; font-size: 13.5pt; }
+.espaco { border: 1.5px dashed #777; border-radius: 8px; height: 30mm; margin-top: 6px; position: relative; }
+.espaco.curto { height: 16mm; }
+.espaco span { position: absolute; left: 10px; top: 4px; font-size: 9pt; color: #555; }
+.resp { margin-top: 6px; font-weight: 800; }
+.resp i { display: inline-block; border-bottom: 1.5px solid #111; width: 55mm; }
+.dica { border: 2px dashed #111; border-radius: 10px; padding: 8px 12px; font-size: 11pt; margin: 10px 0; }
+table.cod { border-collapse: collapse; margin: 6px 0 10px; }
+table.cod td { border: 1.5px solid #111; padding: 6px 12px; text-align: center; font-size: 12.5pt; }
+table.cod td.l { font-weight: 800; font-size: 15pt; }
+.caixas { display: flex; gap: 10px; margin: 8px 0; }
+.fim { display: flex; gap: 14px; align-items: flex-start; }
+.oque { flex: 1; }
+.caixas div span { font-size: 8pt; margin: 2px 4px; display: block; }
+.caixas div { width: 15mm; height: 15mm; border: 2px solid #111; border-radius: 8px; }
+.linha { border-bottom: 1.5px solid #111; height: 8mm; margin: 4px 0; }
+.adulto li, .gab li { margin-bottom: 6px; }
+.box { border: 1.5px solid #111; border-radius: 10px; padding: 8px 14px; margin: 8px 0; }
+.gab .item { border-bottom: 1px solid #999; padding: 8px 0; page-break-inside: avoid; }
+.gab .r { font-weight: 800; font-size: 13.5pt; }
+.small { font-size: 10.5pt; color: #333; }
+.desenho { border: 2px solid #111; border-radius: 8px; padding: 6px 10px; margin: 6px 0; }
+.desenho .ins { font-size: 11.5pt; margin-bottom: 6px; }
+.desenho .ins b.lbl { background: #111; color: #fff; border-radius: 4px; padding: 0 6px; margin-right: 4px; }
+.livre { height: 34mm; border: 1px solid #999; border-radius: 6px; background-image: linear-gradient(#ddd 1px, transparent 1px), linear-gradient(90deg, #ddd 1px, transparent 1px); background-size: 5mm 5mm; }
+.tag.d { background: #111; color: #fff; }
+.gab { height: auto !important; overflow: visible !important; }
+.gab .rodape { position: static; margin-top: 10px; }
+.gab .modelo { margin: 4px 0 2px; }
+.passos { display: flex; gap: 8px; margin: 6px 0; }
+.passos div { flex: 1; border: 1.5px solid #111; border-radius: 8px; padding: 6px 8px; font-size: 11pt; }
+.adulto { font-size: 11.3pt; line-height: 1.38; }
+.adulto h1 { font-size: 21pt; }
+.adulto h2 { font-size: 13.5pt; margin: 9px 0 4px; }
+.adulto ol { margin: 4px 0; padding-left: 22px; }
+.adulto li { margin-bottom: 3px !important; }
+.gab { font-size: 11pt; line-height: 1.33; }
+.gab h1 { font-size: 20pt; }
+.gab .item { padding: 5px 0 !important; }
+.rodape { position: absolute; bottom: 0; left: 0; right: 0; font-size: 8.5pt; color: #555; border-top: 1px solid #aaa; padding-top: 3px; }
+</style></head><body><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-10</span><span class="dir">Para o adulto · leia antes (2 minutos)</span></div>
+  <h1>O Grande Mistério da Estação Espacial</h1>
+  <div class="box"><b>Tempo:</b> 30 a 45 minutos · <b>Pratica:</b> Missão de Fechamento do Nível 3: soma e diferença, fração do que sobrou, partes desiguais e antes e depois · <b>Material:</b> lápis, borracha e esta folha impressa (opcional: relógio de ponteiros, feijões ou tampinhas).</div>
+  <h2>O método nesta missão: desenhe antes de calcular</h2>
+  <p>Esta é a <b>Missão de Fechamento</b> do nível: as 4 etapas são de desenho, e cada uma usa um dos desenhos que a criança já domina. Em cada etapa, ela passa pelos 3 passos do método de Singapura (detalhes no Guia para Pais):</p>
+  <div class="passos"><div><b>1. Concreto</b><br>Use tiras de papel e tesoura: a criança corta, dobra e compara tiras para conferir cada etapa antes de desenhar.</div><div><b>2. Desenho</b><br>A criança desenha a barra e põe <b>?</b> no que quer descobrir. Só depois faz a conta.</div><div><b>3. Conta</b><br>Com o desenho pronto, ela escreve a conta e confere a resposta olhando o desenho.</div></div>
+  <h2>Como conduzir</h2>
+  <ol><li><b>Leia a abertura em voz alta, com clima de mistério.</b> A 1ª etapa é curtinha, de propósito: é para a criança entrar no jogo rápido.</li><li><b>Não diga qual conta fazer.</b> O enunciado não diz se é de mais, de menos ou de vezes. Descobrir isso é o exercício, e o desenho é o que mostra a resposta.</li><li><b>Se a criança travar, peça o desenho antes de qualquer ajuda:</b> “Me mostra isso numa barra.” Depois use a pergunta de apoio do gabarito (última página). Ela ajuda sem entregar a resposta.</li><li><b>Cada resposta vira uma letra.</b> Se a palavra-código não fizer sentido, alguma conta está errada: voltem ao desenho e procurem juntos.</li><li><b>Feche pedindo:</b> “Me explica os seus 4 desenhos.” Para passar de nível, a palavra-código precisa fechar e a criança precisa explicar sozinha pelo menos 3 dos 4 desenhos.</li></ol>
+  <div class="box"><b>Antes de avançar:</b> Esta é a Missão de Fechamento do Nível 3. A criança conclui as Math Missions quando a palavra-código fecha e ela explica sozinha pelo menos 3 dos 4 desenhos. Se ainda não, refaça outro dia só os desenhos que ficaram difíceis, com outros números, e volte a esta missão.</div>
+  <h2>Com irmãos</h2>
+  <div class="box">Imprima as páginas da missão uma vez e resolvam juntos, trocando de papel a cada etapa: <b>leitor</b> (lê em voz alta), <b>desenhista</b> (faz a barra) e <b>calculista</b> (faz a conta e confere no desenho). Com 2 crianças, o leitor também desenha. Se estiverem em níveis diferentes, cada um faz a missão do seu nível e, no fim, os dois contam um ao outro como desenharam.</div>
+  <div class="rodape">Math Missions · O Grande Mistério da Estação Espacial · missão de amostra</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-10</span><span class="dir">Missão</span></div>
+  <div class="cab"><div><svg viewBox="0 0 120 130" width="100"><path d="M60 8 q26 24 22 72 H38 q-4 -48 22 -72 Z" fill="none" stroke="#000" stroke-width="3"/><circle cx="60" cy="48" r="10" fill="none" stroke="#000" stroke-width="3"/><path d="M38 66 L22 92 L40 86 M82 66 L98 92 L80 86 M48 80 q12 34 24 0" fill="none" stroke="#000" stroke-width="3"/></svg></div><div><h1>O Grande Mistério da Estação Espacial</h1></div></div>
+  <div class="abertura">Na estação espacial do jogo, o oxigênio está acabando mais rápido do que o previsto. A comandante precisa achar o problema antes do fim do turno. Use os 4 desenhos do Nível 3.</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">Os dois tanques</span><span class="tag d">desenhe o problema</span>
+  <p>Os 2 tanques de oxigênio têm juntos 1 200 L. O tanque A tem 300 L a mais que o B. Quantos litros tem o tanque A?</p><div class="desenho"><div class="ins"><b class="lbl">1º DESENHE</b>Desenhe uma barra para cada tanque, mostrando o pedaço “a mais”. Marque o total e ponha <b>?</b> no que você quer descobrir.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2º CALCULE: a conta que o desenho mostrou</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · O Grande Mistério da Estação Espacial</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-10</span><span class="dir">Missão (continuação)</span></div>
+  
+  <div class="etapa"><span class="num">2</span><span class="tit">Os turnos</span><span class="tag d">desenhe o problema</span>
+  <p>No 1º turno, gastou-se 1/5 do tanque A (750 L). No 2º turno, 1/3 do que tinha sobrado. Quantos litros restaram no tanque A?</p><div class="desenho"><div class="ins"><b class="lbl">1º DESENHE</b>Desenhe a barra do tanque A. Separe o 1º turno; depois divida o que sobrou em 3 e separe 1 pedaço. Ponha <b>?</b> no que você quer descobrir.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2º CALCULE: a conta que o desenho mostrou</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">3</span><span class="tit">Cabine e laboratório</span><span class="tag d">desenhe o problema</span>
+  <p>Os 400 L restantes são divididos entre a cabine e o laboratório na razão 3 : 5. Quantos litros vão para a cabine?</p><div class="desenho"><div class="ins"><b class="lbl">1º DESENHE</b>Desenhe uma barra para a cabine e outra para o laboratório, com pedaços iguais (3 e 5). Marque o total e ponha <b>?</b> no que você quer descobrir.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2º CALCULE: a conta que o desenho mostrou</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · O Grande Mistério da Estação Espacial</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-10</span><span class="dir">Missão (continuação)</span></div>
+  
+  <div class="etapa"><span class="num">4</span><span class="tit">O equilíbrio</span><span class="tag d">desenhe o problema</span>
+  <p>Depois de consertado o tubo, a cabine tem 150 L e o laboratório, 250 L. A comandante quer os dois iguais. Quantos litros devem passar do laboratório para a cabine?</p><div class="desenho"><div class="ins"><b class="lbl">1º DESENHE</b>Desenhe as duas barras antes da troca, alinhadas à esquerda. Mostre a diferença e ponha <b>?</b> no pedaço que passa para a cabine.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2º CALCULE: a conta que o desenho mostrou</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  
+  <h2>Abra o código <span class="small" style="font-weight:400">· procure cada resposta na tabela e escreva a letra na caixa da etapa</span></h2>
+  <table class="cod"><tr><td>50 L</td><td>100 L</td><td>150 L</td><td>240 L</td><td>350 L</td><td>400 L</td><td>450 L</td><td>750 L</td></tr><tr><td class="l">O</td><td class="l">G</td><td class="l">B</td><td class="l">D</td><td class="l">Z</td><td class="l">U</td><td class="l">R</td><td class="l">T</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>O que aconteceu?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · O Grande Mistério da Estação Espacial</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-10</span><span class="dir">Gabarito explicado · para o adulto</span></div>
+  <h1>Gabarito: O Grande Mistério da Estação Espacial</h1>
+  <div class="item"><b>Etapa 1 — Os dois tanques</b> · <span class="r">750 L</span> (letra T)
+  <div><b>Como pensar:</b> Tire o pedaço “a mais”, divida o resto por 2 (é o B) e some o pedaço de volta para achar o A. <span class="small">Conta: 1 200 − 300 = 900 · 900 ÷ 2 = 450 (tanque B) · 450 + 300 = 750 L.</span></div>
+  <div><b>O desenho esperado</b> (vale qualquer desenho com as mesmas partes):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 110" width="420" height="110" font-family="Inter, DejaVu Sans, sans-serif"><path d="M79 30 V22 H332.92 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="196.24" y="5" width="19.439999999999998" height="20" fill="#fff"/><text x="205.96" y="19" text-anchor="middle" font-size="12" font-weight="700">?</text><text x="0" y="51" font-size="11" font-weight="700">Tanque A</text><rect x="78" y="34" width="153.552" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="154.776" y="51" text-anchor="middle" font-size="12" font-weight="500">450</text><rect x="231.552" y="34" width="102.36800000000001" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="282.736" y="51" text-anchor="middle" font-size="12" font-weight="500">300</text><text x="0" y="89" font-size="11" font-weight="700">Tanque B</text><rect x="78" y="72" width="153.552" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="154.776" y="89" text-anchor="middle" font-size="12" font-weight="500">450</text><path d="M343.92 4 H350.92 V96 H343.92" fill="none" stroke="#000" stroke-width="1.6"/><text x="355.92" y="55" font-size="12" font-weight="700">1 200 L</text></svg></div><div>Soma e diferença: sem os 300 L, sobram 2 barras iguais de 450 L. O tanque A é 450 + 300.</div>
+  <div><b>Se travar, pergunte:</b> “Sem os 300 a mais, os tanques seriam iguais. Quanto teria cada um?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 450 L, quando a criança achou o tanque B e esqueceu de somar os 300 L a mais do A. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 2 — Os turnos</b> · <span class="r">400 L</span> (letra U)
+  <div><b>Como pensar:</b> Primeiro o 1º turno (1/5 de 750). O 1/3 do 2º turno é do que sobrou. <span class="small">Conta: 750 ÷ 5 = 150 · sobram 600 · 600 ÷ 3 = 200 · 600 − 200 = 400 L.</span></div>
+  <div><b>O desenho esperado</b> (vale qualquer desenho com as mesmas partes):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="181.4" y="5" width="49.2" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">750 L</text><rect x="0" y="34" width="82.4" height="24" fill="#d9d9d9" stroke="#000" stroke-width="2"/><text x="41.2" y="51" text-anchor="middle" font-size="12" font-weight="500">150</text><rect x="82.4" y="34" width="109.86666666666667" height="24" fill="#d9d9d9" stroke="#000" stroke-width="2"/><text x="137.33333333333334" y="51" text-anchor="middle" font-size="12" font-weight="500">200</text><rect x="192.26666666666668" y="34" width="219.73333333333335" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="302.1333333333333" y="51" text-anchor="middle" font-size="12" font-weight="800">?</text></svg></div><div>Fração do que sobrou: o 1º turno leva 150 L; dos 600 que sobram, 1/3 (200) vai no 2º turno. Restam 400 L.</div>
+  <div><b>Se travar, pergunte:</b> “O 1/3 é dos 750 L ou do que ficou depois do 1º turno?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 350 L, quando a criança calculou 1/3 do tanque cheio, e não do que tinha sobrado. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 3 — Cabine e laboratório</b> · <span class="r">150 L</span> (letra B)
+  <div><b>Como pensar:</b> A divisão tem 8 partes iguais (3 + 5). Ache 1 parte e pegue 3. <span class="small">Conta: 3 + 5 = 8 partes · 400 ÷ 8 = 50 · 3 × 50 = 150 L.</span></div>
+  <div><b>O desenho esperado</b> (vale qualquer desenho com as mesmas partes):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 110" width="420" height="110" font-family="Inter, DejaVu Sans, sans-serif"><path d="M79 30 V22 H239.48000000000002 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="149.52" y="5" width="19.439999999999998" height="20" fill="#fff"/><text x="159.24" y="19" text-anchor="middle" font-size="12" font-weight="700">?</text><text x="0" y="51" font-size="11" font-weight="700">Cabine</text><rect x="78" y="34" width="54.160000000000004" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="105.08" y="51" text-anchor="middle" font-size="12" font-weight="500">50</text><rect x="132.16" y="34" width="54.160000000000004" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="159.24" y="51" text-anchor="middle" font-size="12" font-weight="500">50</text><rect x="186.32" y="34" width="54.160000000000004" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="213.4" y="51" text-anchor="middle" font-size="12" font-weight="500">50</text><text x="0" y="89" font-size="11" font-weight="700">Laboratório</text><rect x="78" y="72" width="54.160000000000004" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="105.08" y="89" text-anchor="middle" font-size="12" font-weight="500">50</text><rect x="132.16" y="72" width="54.160000000000004" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="159.24" y="89" text-anchor="middle" font-size="12" font-weight="500">50</text><rect x="186.32" y="72" width="54.160000000000004" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="213.4" y="89" text-anchor="middle" font-size="12" font-weight="500">50</text><rect x="240.48" y="72" width="54.160000000000004" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="267.56" y="89" text-anchor="middle" font-size="12" font-weight="500">50</text><rect x="294.64" y="72" width="54.160000000000004" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="321.71999999999997" y="89" text-anchor="middle" font-size="12" font-weight="500">50</text><path d="M358.8 4 H365.8 V96 H358.8" fill="none" stroke="#000" stroke-width="1.6"/><text x="370.8" y="55" font-size="12" font-weight="700">400 L</text></svg></div><div>Partes desiguais: 8 pedaços de 50 L. A cabine fica com 3 pedaços: 150 L.</div>
+  <div><b>Se travar, pergunte:</b> “Quantas partes são ao todo? Quanto vale cada parte?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 240 L, quando a criança dividiu por 5 em vez de pelas 8 partes da divisão. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 4 — O equilíbrio</b> · <span class="r">50 L</span> (letra O)
+  <div><b>Como pensar:</b> Para empatar, passa metade da diferença. <span class="small">Conta: 250 − 150 = 100 · 100 ÷ 2 = 50 L (os dois ficam com 200 L).</span></div>
+  <div><b>O desenho esperado</b> (vale qualquer desenho com as mesmas partes):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 80" width="420" height="80" font-family="Inter, DejaVu Sans, sans-serif"><text x="0" y="21" font-size="11" font-weight="700">Laboratório</text><rect x="78" y="4" width="200.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="178.2" y="21" text-anchor="middle" font-size="12" font-weight="500">150</text><rect x="278.4" y="4" width="66.8" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="311.79999999999995" y="21" text-anchor="middle" font-size="12" font-weight="800">?</text><rect x="345.2" y="4" width="66.8" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="378.59999999999997" y="21" text-anchor="middle" font-size="12" font-weight="500"> </text><text x="0" y="59" font-size="11" font-weight="700">Cabine</text><rect x="78" y="42" width="200.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="178.2" y="59" text-anchor="middle" font-size="12" font-weight="500">150</text></svg></div><div>Antes e depois: a diferença (100 L) é dividida ao meio. Passam 50 L e os dois ficam com 200 L.</div>
+  <div><b>Se travar, pergunte:</b> “Se passar 100 L, quem fica com mais? E se passar a metade?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 100 L, quando a criança passou a diferença toda, e aí a cabine ficou com mais. Essa resposta leva a outra letra, e a palavra não fecha.</div></div>
+  <div class="box"><b>Palavra-código: TUBO.</b> O oxigênio vazava por um TUBO solto entre os tanques. Com o tubo consertado, a comandante equilibrou a cabine e o laboratório com 200 L cada. Missão cumprida!</div>
+  <div class="rodape">Math Missions · gabarito</div></section></body></html>

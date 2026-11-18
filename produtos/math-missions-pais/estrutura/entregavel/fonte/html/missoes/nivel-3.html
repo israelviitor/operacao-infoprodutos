@@ -1,0 +1,634 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Math Missions · Nível 3</title><style>
+@page { size: A4; margin: 14mm; }
+* { box-sizing: border-box; }
+body { font-family: Inter, 'DejaVu Sans', sans-serif; color: #111; font-size: 12.5pt; line-height: 1.45; margin: 0; }
+.pagina { page-break-after: always; position: relative; height: 266mm; overflow: hidden; }
+.pagina:last-child { page-break-after: auto; }
+.topo { display: flex; align-items: center; gap: 10px; border-bottom: 2px solid #111; padding-bottom: 5px; margin-bottom: 12px; font-size: 9.5pt; font-weight: 800; letter-spacing: .05em; }
+.nivel { background: #111; color: #fff; border-radius: 6px; padding: 3px 10px; font-size: 11pt; }
+.topo .dir { margin-left: auto; }
+h1 { font-size: 24pt; margin: 4px 0 8px; line-height: 1.1; }
+h2 { font-size: 15pt; margin: 14px 0 6px; }
+.cab { display: flex; gap: 16px; align-items: center; }
+.abertura { border: 2px solid #111; border-radius: 10px; padding: 10px 14px; font-size: 13.5pt; margin: 8px 0 14px; }
+.etapa { border: 1.5px solid #111; border-radius: 10px; padding: 10px 14px; margin-bottom: 12px; page-break-inside: avoid; }
+.etapa .num { display: inline-flex; width: 30px; height: 30px; border-radius: 8px; background: #111; color: #fff; align-items: center; justify-content: center; font-weight: 800; margin-right: 8px; }
+.etapa .tit { font-weight: 800; font-size: 13.5pt; }
+.etapa .tag { font-size: 9.5pt; border: 1px solid #111; border-radius: 10px; padding: 0 8px; margin-left: 6px; }
+.etapa p { margin: 6px 0; font-size: 13.5pt; }
+.espaco { border: 1.5px dashed #777; border-radius: 8px; height: 30mm; margin-top: 6px; position: relative; }
+.espaco.curto { height: 16mm; }
+.espaco span { position: absolute; left: 10px; top: 4px; font-size: 9pt; color: #555; }
+.resp { margin-top: 6px; font-weight: 800; }
+.resp i { display: inline-block; border-bottom: 1.5px solid #111; width: 55mm; }
+.dica { border: 2px dashed #111; border-radius: 10px; padding: 8px 12px; font-size: 11pt; margin: 10px 0; }
+table.cod { border-collapse: collapse; margin: 6px 0 10px; }
+table.cod td { border: 1.5px solid #111; padding: 6px 12px; text-align: center; font-size: 12.5pt; }
+table.cod td.l { font-weight: 800; font-size: 15pt; }
+.caixas { display: flex; gap: 10px; margin: 8px 0; }
+.fim { display: flex; gap: 14px; align-items: flex-start; }
+.oque { flex: 1; }
+.caixas div span { font-size: 8pt; margin: 2px 4px; display: block; }
+.caixas div { width: 15mm; height: 15mm; border: 2px solid #111; border-radius: 8px; }
+.linha { border-bottom: 1.5px solid #111; height: 8mm; margin: 4px 0; }
+.adulto li, .gab li { margin-bottom: 6px; }
+.box { border: 1.5px solid #111; border-radius: 10px; padding: 8px 14px; margin: 8px 0; }
+.gab .item { border-bottom: 1px solid #999; padding: 8px 0; page-break-inside: avoid; }
+.gab .r { font-weight: 800; font-size: 13.5pt; }
+.small { font-size: 10.5pt; color: #333; }
+.desenho { border: 2px solid #111; border-radius: 8px; padding: 6px 10px; margin: 6px 0; }
+.desenho .ins { font-size: 11.5pt; margin-bottom: 6px; }
+.desenho .ins b.lbl { background: #111; color: #fff; border-radius: 4px; padding: 0 6px; margin-right: 4px; }
+.livre { height: 34mm; border: 1px solid #999; border-radius: 6px; background-image: linear-gradient(#ddd 1px, transparent 1px), linear-gradient(90deg, #ddd 1px, transparent 1px); background-size: 5mm 5mm; }
+.tag.d { background: #111; color: #fff; }
+.gab { height: auto !important; overflow: visible !important; }
+.gab .rodape { position: static; margin-top: 10px; }
+.gab .modelo { margin: 4px 0 2px; }
+.passos { display: flex; gap: 8px; margin: 6px 0; }
+.passos div { flex: 1; border: 1.5px solid #111; border-radius: 8px; padding: 6px 8px; font-size: 11pt; }
+.adulto { font-size: 11.3pt; line-height: 1.38; }
+.adulto h1 { font-size: 21pt; }
+.adulto h2 { font-size: 13.5pt; margin: 9px 0 4px; }
+.adulto ol { margin: 4px 0; padding-left: 22px; }
+.adulto li { margin-bottom: 3px !important; }
+.gab { font-size: 11pt; line-height: 1.33; }
+.gab h1 { font-size: 20pt; }
+.gab .item { padding: 5px 0 !important; }
+.rodape { position: absolute; bottom: 0; left: 0; right: 0; font-size: 8.5pt; color: #555; border-top: 1px solid #aaa; padding-top: 3px; }
+</style></head><body><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-01</span><span class="dir">Para o adulto · leia antes (2 minutos)</span></div>
+  <h1>O Mistério do Salto em Distância</h1>
+  <div class="box"><b>Tempo:</b> 25 a 35 minutos · <b>Pratica:</b> números com vírgula em metros: somar e subtrair · <b>Material:</b> lápis, borracha e esta folha impressa (opcional: relógio de ponteiros, feijões ou tampinhas).</div>
+  <h2>O método nesta missão: desenhe antes de calcular</h2>
+  <p>A etapa 3 é a etapa <b>“desenhe o problema”</b>. Nela, a criança passa pelos 3 passos do método de Singapura (detalhes no Guia para Pais):</p>
+  <div class="passos"><div><b>1. Concreto</b><br>Use uma fita métrica ou trena: a criança mede 3,35 m no chão e vê quanto falta para 4 m. Na etapa 3, ela marca os dois saltos de Sofia um depois do outro antes de desenhar.</div><div><b>2. Desenho</b><br>A criança desenha a barra e põe <b>?</b> no que quer descobrir. Só depois faz a conta.</div><div><b>3. Conta</b><br>Com o desenho pronto, ela escreve a conta e confere a resposta olhando o desenho.</div></div>
+  <h2>Como conduzir</h2>
+  <ol><li><b>Leia a abertura em voz alta, com clima de mistério.</b> A 1ª etapa é curtinha, de propósito: é para a criança entrar no jogo rápido.</li><li><b>Não diga qual conta fazer.</b> O enunciado não diz se é de mais, de menos ou de vezes. Descobrir isso é o exercício, e o desenho é o que mostra a resposta.</li><li><b>Se a criança travar, peça o desenho antes de qualquer ajuda:</b> “Me mostra isso numa barra.” Depois use a pergunta de apoio do gabarito (última página). Ela ajuda sem entregar a resposta.</li><li><b>Cada resposta vira uma letra.</b> Se a palavra-código não fizer sentido, alguma conta está errada: voltem ao desenho e procurem juntos.</li><li><b>Feche pedindo:</b> “Me explica o seu desenho da etapa 3.”</li></ol>
+  <div class="box"><b>Antes de avançar:</b> Pode passar para a próxima missão quando a criança explicar o desenho da etapa 3 com as próprias palavras. Se ainda não, refaça só essa etapa outro dia com outros números (ex.: soma 7,6 m, 1º salto 3,85 m).</div>
+  <h2>Com irmãos</h2>
+  <div class="box">Imprima as páginas da missão uma vez e resolvam juntos, trocando de papel a cada etapa: <b>leitor</b> (lê em voz alta), <b>desenhista</b> (faz a barra) e <b>calculista</b> (faz a conta e confere no desenho). Com 2 crianças, o leitor também desenha. Se estiverem em níveis diferentes, cada um faz a missão do seu nível e, no fim, os dois contam um ao outro como desenharam.</div>
+  <div class="rodape">Math Missions · O Mistério do Salto em Distância · missão de amostra</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-01</span><span class="dir">Missão</span></div>
+  <div class="cab"><div><svg viewBox="0 0 130 110" width="120"><path d="M10 90 H120" stroke="#000" stroke-width="3"/><path d="M20 86 q40 -80 90 0" fill="none" stroke="#000" stroke-width="3" stroke-dasharray="6 4"/><g stroke="#000" stroke-width="2"><path d="M20 98 V104 M40 98 V104 M60 98 V104 M80 98 V104 M100 98 V104"/></g><circle cx="110" cy="80" r="6"/></svg></div><div><h1>O Mistério do Salto em Distância</h1></div></div>
+  <div class="abertura">No festival de atletismo do bairro, a medalha do salto em distância foi para o atleta errado. O juiz anotou as medidas com vírgula… e alguém se confundiu. Refaça as contas e descubra quem venceu de verdade.</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">Quanto falta para 4 m</span><span class="tag">rapidinha</span>
+  <p>Rui saltou 3,35 m. Quanto faltou para ele chegar a 4 m?</p>
+  <div class="espaco curto"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">Os dois saltos do Rui</span>
+  <p>Rui fez 2 saltos: 3,35 m e 3,8 m. Quantos metros os dois saltos somam?</p>
+  <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  <div class="dica"><b>DICA:</b> nenhuma pista diz qual conta fazer. Leia com calma, descubra o que está sendo pedido e escolha a conta. Na dúvida, desenhe.</div>
+  
+  <div class="rodape">Math Missions · O Mistério do Salto em Distância</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-01</span><span class="dir">Missão (continuação)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">O 2º salto de Sofia</span><span class="tag d">desenhe o problema</span>
+  <p>Os dois saltos de Sofia somam 8,3 m. O 1º salto mediu 3,95 m. Quanto mediu o 2º salto?</p><div class="desenho"><div class="ins"><b class="lbl">1º DESENHE</b>Antes de fazer a conta, desenhe o problema com uma barra: o todo e as partes. Ponha <b>?</b> no que você quer descobrir.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2º CALCULE: a conta que o desenho mostrou</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">O vencedor de verdade</span>
+  <p>O salto de Sofia foi anotado como 3,45 m, mas a medida certa é 4,35 m. O melhor salto de Rui foi 3,8 m. Com a medida certa, quantos metros Sofia saltou a mais que Rui?</p>
+  <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  
+  <h2>Abra o código <span class="small" style="font-weight:400">· procure cada resposta na tabela e escreva a letra na caixa da etapa</span></h2>
+  <table class="cod"><tr><td>0,35 m</td><td>0,55 m</td><td>0,65 m</td><td>1,35 m</td><td>4,35 m</td><td>6,43 m</td><td>7,15 m</td><td>12,25 m</td></tr><tr><td class="l">G</td><td class="l">A</td><td class="l">F</td><td class="l">R</td><td class="l">T</td><td class="l">X</td><td class="l">I</td><td class="l">C</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>O que aconteceu?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · O Mistério do Salto em Distância</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-01</span><span class="dir">Gabarito explicado · para o adulto</span></div>
+  <h1>Gabarito: O Mistério do Salto em Distância</h1>
+  <div class="item"><b>Etapa 1 — Quanto falta para 4 m</b> · <span class="r">0,65 m</span> (letra F)
+  <div><b>Como pensar:</b> Escreva 4 como 4,00 e subtraia com as vírgulas alinhadas: 4,00 − 3,35. <span class="small">Conta: 4,00 − 3,35 = 0,65 m.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “De 3,35 até 3,40 faltam quanto? E de 3,40 até 4,00?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 1,35 m, quando a criança tirou só o 3 (4 − 3 = 1) e copiou o 0,35 sem subtrair. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 2 — Os dois saltos do Rui</b> · <span class="r">7,15 m</span> (letra I)
+  <div><b>Como pensar:</b> Escreva 3,8 como 3,80 e some com as vírgulas alinhadas. <span class="small">Conta: 3,35 + 3,80 = 7,15 m.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “3,8 é o mesmo que 3,80 ou que 3,08?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 6,43 m, quando a criança leu 3,8 como 3,08 e somou sem alinhar a vírgula. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 3 — O 2º salto de Sofia</b> · <span class="r">4,35 m</span> (letra T)
+  <div><b>Como pensar:</b> A soma dos saltos é o todo. O 1º salto é uma parte. O 2º é o que falta: 8,30 − 3,95. <span class="small">Conta: 8,30 − 3,95 = 4,35 m.</span></div>
+  <div><b>O desenho esperado</b> (vale qualquer desenho com as mesmas partes):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="181.4" y="5" width="49.2" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">8,3 m</text><rect x="0" y="34" width="196.0722891566265" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="98.03614457831326" y="51" text-anchor="middle" font-size="12" font-weight="500">3,95 m</text><rect x="196.0722891566265" y="34" width="215.9277108433735" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="304.03614457831327" y="51" text-anchor="middle" font-size="12" font-weight="800">?</text></svg></div><div>Parte-todo com vírgula: conhecendo o todo (8,3) e uma parte (3,95), a outra parte é 8,30 − 3,95.</div>
+  <div><b>Se travar, pergunte:</b> “O que a pergunta quer: o total ou uma das partes?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 12,25 m, quando a criança somou em vez de achar a parte que falta. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 4 — O vencedor de verdade</b> · <span class="r">0,55 m</span> (letra A)
+  <div><b>Como pensar:</b> Compare a medida certa de Sofia (4,35) com a de Rui (3,80). <span class="small">Conta: 4,35 − 3,80 = 0,55 m.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Qual medida de Sofia é a certa? Agora compare com 3,80.”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 0,35 m, quando a criança usou a medida anotada errada (3,45) e achou que Rui ganhou. Essa resposta leva a outra letra, e a palavra não fecha.</div></div>
+  <div class="box"><b>Palavra-código: FITA.</b> O juiz anotou o salto de Sofia como 3,45 m, mas a FITA métrica marcava 4,35 m. Com a medida certa, Sofia saltou 0,55 m a mais que Rui, e a medalha voltou para ela.</div>
+  <div class="rodape">Math Missions · gabarito</div></section><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-02</span><span class="dir">Para o adulto · leia antes (2 minutos)</span></div>
+  <h1>O Caso da Fábrica de Sucos</h1>
+  <div class="box"><b>Tempo:</b> 25 a 35 minutos · <b>Pratica:</b> proporção pela unidade: achar 1 e depois o total · <b>Material:</b> lápis, borracha e esta folha impressa (opcional: relógio de ponteiros, feijões ou tampinhas).</div>
+  <h2>O método nesta missão: desenhe antes de calcular</h2>
+  <p>A etapa 2 é a etapa <b>“desenhe o problema”</b>. Nela, a criança passa pelos 3 passos do método de Singapura (detalhes no Guia para Pais):</p>
+  <div class="passos"><div><b>1. Concreto</b><br>Use garrafas e um copo medidor (ou copos iguais): a criança vê quantos copos de 500 mL enchem 2 L. Na etapa 2, ela separa 2 garrafinhas por litro antes de desenhar.</div><div><b>2. Desenho</b><br>A criança desenha a barra e põe <b>?</b> no que quer descobrir. Só depois faz a conta.</div><div><b>3. Conta</b><br>Com o desenho pronto, ela escreve a conta e confere a resposta olhando o desenho.</div></div>
+  <h2>Como conduzir</h2>
+  <ol><li><b>Leia a abertura em voz alta, com clima de mistério.</b> A 1ª etapa é curtinha, de propósito: é para a criança entrar no jogo rápido.</li><li><b>Não diga qual conta fazer.</b> O enunciado não diz se é de mais, de menos ou de vezes. Descobrir isso é o exercício, e o desenho é o que mostra a resposta.</li><li><b>Se a criança travar, peça o desenho antes de qualquer ajuda:</b> “Me mostra isso numa barra.” Depois use a pergunta de apoio do gabarito (última página). Ela ajuda sem entregar a resposta.</li><li><b>Cada resposta vira uma letra.</b> Se a palavra-código não fizer sentido, alguma conta está errada: voltem ao desenho e procurem juntos.</li><li><b>Feche pedindo:</b> “Me explica o seu desenho da etapa 2.”</li></ol>
+  <div class="box"><b>Antes de avançar:</b> Pode passar para a próxima missão quando a criança explicar o desenho da etapa 2 com as próprias palavras (“primeiro achei quanto vale 1 pedaço”). Se ainda não, refaça só essa etapa outro dia com outros números (ex.: 3 garrafas = 1,5 L; quantas em 6 L?).</div>
+  <h2>Com irmãos</h2>
+  <div class="box">Imprima as páginas da missão uma vez e resolvam juntos, trocando de papel a cada etapa: <b>leitor</b> (lê em voz alta), <b>desenhista</b> (faz a barra) e <b>calculista</b> (faz a conta e confere no desenho). Com 2 crianças, o leitor também desenha. Se estiverem em níveis diferentes, cada um faz a missão do seu nível e, no fim, os dois contam um ao outro como desenharam.</div>
+  <div class="rodape">Math Missions · O Caso da Fábrica de Sucos · missão de amostra</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-02</span><span class="dir">Missão</span></div>
+  <div class="cab"><div><svg viewBox="0 0 120 130" width="100"><path d="M50 8 H70 V30 q18 10 18 30 V118 H32 V60 q0 -20 18 -30 Z" fill="none" stroke="#000" stroke-width="3"/><path d="M32 74 H88" stroke="#000" stroke-width="2"/><path d="M44 96 q16 -14 32 0" fill="none" stroke="#000" stroke-width="2"/></svg></div><div><h1>O Caso da Fábrica de Sucos</h1></div></div>
+  <div class="abertura">A máquina da fábrica de sucos enche garrafas sempre no mesmo ritmo, mas ninguém anotou esse ritmo. O gerente quer saber quantas garrafas vão sair até o fim do dia.</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">As garrafas</span><span class="tag">rapidinha</span>
+  <p>Cada garrafa tem 500 mL. Quantos litros têm 4 garrafas?</p>
+  <div class="espaco curto"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">O ritmo da máquina</span><span class="tag d">desenhe o problema</span>
+  <p>Com 2 L de suco, a máquina enche 4 garrafas. Quantas garrafas ela enche com 7 L?</p><div class="desenho"><div class="ins"><b class="lbl">1º DESENHE</b>Antes de fazer a conta, desenhe o problema com barras de pedaços iguais (1 pedaço = 1 garrafa). Ponha <b>?</b> no que você quer descobrir.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2º CALCULE: a conta que o desenho mostrou</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · O Caso da Fábrica de Sucos</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-02</span><span class="dir">Missão (continuação)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">Uma hora de máquina</span>
+  <p>A máquina enche 6 garrafas a cada 3 minutos. Quantas garrafas ela enche em 1 hora (60 minutos)?</p>
+  <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">O tanque</span>
+  <p>O tanque da fábrica tem 450 L de suco. Quantas garrafas de 500 mL dá para encher?</p>
+  <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  <div class="dica"><b>DICA:</b> nenhuma pista diz qual conta fazer. Leia com calma, descubra o que está sendo pedido e escolha a conta. Na dúvida, desenhe.</div>
+  <h2>Abra o código <span class="small" style="font-weight:400">· procure cada resposta na tabela e escreva a letra na caixa da etapa</span></h2>
+  <table class="cod"><tr><td>2 L</td><td>14</td><td>20 L</td><td>28</td><td>120</td><td>225</td><td>360</td><td>900</td></tr><tr><td class="l">S</td><td class="l">U</td><td class="l">N</td><td class="l">T</td><td class="l">C</td><td class="l">E</td><td class="l">A</td><td class="l">O</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>O que aconteceu?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · O Caso da Fábrica de Sucos</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-02</span><span class="dir">Gabarito explicado · para o adulto</span></div>
+  <h1>Gabarito: O Caso da Fábrica de Sucos</h1>
+  <div class="item"><b>Etapa 1 — As garrafas</b> · <span class="r">2 L</span> (letra S)
+  <div><b>Como pensar:</b> 4 garrafas de 500 mL dão 2 000 mL. Cada 1 000 mL é 1 L. <span class="small">Conta: 4 × 500 = 2 000 mL = 2 L.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Quantos mL tem 1 L? E quantos mL têm as 4 garrafas?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 20 L, quando a criança achou que 1 L tem 100 mL. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 2 — O ritmo da máquina</b> · <span class="r">14</span> (letra U)
+  <div><b>Como pensar:</b> Primeiro ache quanto vale 1 L (2 garrafas). Depois, 7 L. <span class="small">Conta: 4 ÷ 2 = 2 garrafas por litro · 7 × 2 = 14.</span></div>
+  <div><b>O desenho esperado</b> (vale qualquer desenho com as mesmas partes):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 110" width="420" height="110" font-family="Inter, DejaVu Sans, sans-serif"><text x="0" y="21" font-size="11" font-weight="700">2 L</text><rect x="78" y="4" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="89.92857142857143" y="21" text-anchor="middle" font-size="12" font-weight="500">0,5</text><rect x="101.85714285714286" y="4" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="113.78571428571429" y="21" text-anchor="middle" font-size="12" font-weight="500">0,5</text><rect x="125.71428571428572" y="4" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="137.64285714285714" y="21" text-anchor="middle" font-size="12" font-weight="500">0,5</text><rect x="149.57142857142858" y="4" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="161.5" y="21" text-anchor="middle" font-size="12" font-weight="500">0,5</text><path d="M79 68 V60 H411 V68" fill="none" stroke="#000" stroke-width="1.6"/><rect x="201.8" y="43" width="86.4" height="20" fill="#fff"/><text x="245" y="57" text-anchor="middle" font-size="12" font-weight="700">? garrafas</text><text x="0" y="89" font-size="11" font-weight="700">7 L</text><rect x="78" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="89.92857142857143" y="89" text-anchor="middle" font-size="12" font-weight="500">0,5</text><rect x="101.85714285714286" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="113.78571428571429" y="89" text-anchor="middle" font-size="12" font-weight="500">0,5</text><rect x="125.71428571428572" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="137.64285714285714" y="89" text-anchor="middle" font-size="12" font-weight="500">0,5</text><rect x="149.57142857142858" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="161.5" y="89" text-anchor="middle" font-size="12" font-weight="500">0,5</text><rect x="173.42857142857144" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="185.35714285714286" y="89" text-anchor="middle" font-size="12" font-weight="500">0,5</text><rect x="197.2857142857143" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="209.21428571428572" y="89" text-anchor="middle" font-size="12" font-weight="500">0,5</text><rect x="221.14285714285717" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="233.07142857142858" y="89" text-anchor="middle" font-size="12" font-weight="500">0,5</text><rect x="245.00000000000003" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="256.92857142857144" y="89" text-anchor="middle" font-size="12" font-weight="500">0,5</text><rect x="268.8571428571429" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="280.78571428571433" y="89" text-anchor="middle" font-size="12" font-weight="500">0,5</text><rect x="292.7142857142857" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="304.64285714285717" y="89" text-anchor="middle" font-size="12" font-weight="500">0,5</text><rect x="316.57142857142856" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="328.5" y="89" text-anchor="middle" font-size="12" font-weight="500">0,5</text><rect x="340.4285714285714" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="352.35714285714283" y="89" text-anchor="middle" font-size="12" font-weight="500">0,5</text><rect x="364.2857142857142" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="376.21428571428567" y="89" text-anchor="middle" font-size="12" font-weight="500">0,5</text><rect x="388.14285714285705" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="400.0714285714285" y="89" text-anchor="middle" font-size="12" font-weight="500">0,5</text></svg></div><div>Cada pedaço é 1 garrafa de 0,5 L. Em 7 L cabem 14 pedaços desse tamanho.</div>
+  <div><b>Se travar, pergunte:</b> “Se 2 L enchem 4 garrafas, quantas 1 L enche?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 28, quando a criança multiplicou 7 × 4, como se cada litro enchesse 4 garrafas. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 3 — Uma hora de máquina</b> · <span class="r">120</span> (letra C)
+  <div><b>Como pensar:</b> Ache quanto ela enche em 1 minuto e depois em 60. <span class="small">Conta: 6 ÷ 3 = 2 garrafas por minuto · 60 × 2 = 120.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Em 1 minuto, quantas garrafas? E em 60?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 360, quando a criança usou 6 garrafas por minuto, e não a cada 3 minutos. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 4 — O tanque</b> · <span class="r">900</span> (letra O)
+  <div><b>Como pensar:</b> Cada litro enche 2 garrafas de meio litro. 450 litros enchem 450 × 2. <span class="small">Conta: 1 L enche 2 garrafas · 450 × 2 = 900.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Quantas garrafas enche 1 L? E 450 L?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 225, quando a criança dividiu por 2 em vez de multiplicar (cada litro enche 2 garrafas). Essa resposta leva a outra letra, e a palavra não fecha.</div></div>
+  <div class="box"><b>Palavra-código: SUCO.</b> A máquina enche 2 garrafas por minuto, e o tanque de 450 L rende 900 garrafas de SUCO: um dia inteiro de trabalho.</div>
+  <div class="rodape">Math Missions · gabarito</div></section><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-03</span><span class="dir">Para o adulto · leia antes (2 minutos)</span></div>
+  <h1>O Enigma do Robô Aspirador</h1>
+  <div class="box"><b>Tempo:</b> 25 a 35 minutos · <b>Pratica:</b> frações, números decimais, padrão em tabela e proporção · <b>Material:</b> lápis, borracha e esta folha impressa (opcional: relógio de ponteiros, feijões ou tampinhas).</div>
+  <h2>O método nesta missão: desenhe antes de calcular</h2>
+  <p>A etapa 4 é a etapa <b>“desenhe o problema”</b>. Nela, a criança passa pelos 3 passos do método de Singapura (detalhes no Guia para Pais):</p>
+  <div class="passos"><div><b>1. Concreto</b><br>Uma tira de papel ajuda: dobrada em 4, mostra os 3/4 da bateria (etapa 1). Para a etapa 4, recorte quadradinhos de papel: cada um é 1 minuto de limpeza.</div><div><b>2. Desenho</b><br>A criança desenha a barra e põe <b>?</b> no que quer descobrir. Só depois faz a conta.</div><div><b>3. Conta</b><br>Com o desenho pronto, ela escreve a conta e confere a resposta olhando o desenho.</div></div>
+  <h2>Como conduzir</h2>
+  <ol><li><b>Leia a abertura em voz alta, com clima de mistério.</b> A 1ª etapa é curtinha, de propósito: é para a criança entrar no jogo rápido.</li><li><b>Não diga qual conta fazer.</b> O enunciado não diz se é de mais, de menos ou de vezes. Descobrir isso é o exercício, e o desenho é o que mostra a resposta.</li><li><b>Se a criança travar, peça o desenho antes de qualquer ajuda:</b> “Me mostra isso numa barra.” Depois use a pergunta de apoio do gabarito (última página). Ela ajuda sem entregar a resposta.</li><li><b>Cada resposta vira uma letra.</b> Se a palavra-código não fizer sentido, alguma conta está errada: voltem ao desenho e procurem juntos.</li><li><b>Feche pedindo:</b> “Me explica o seu desenho da etapa 4.”</li></ol>
+  <div class="box"><b>Antes de avançar:</b> Pode passar para a próxima missão quando a criança explicar o desenho da etapa 4 com as próprias palavras. Se ainda não, refaça só essa etapa outro dia com outros números (ex.: 15 m² em 3 minutos, sala de 45 m²).</div>
+  <h2>Com irmãos</h2>
+  <div class="box">Imprima as páginas da missão uma vez e resolvam juntos, trocando de papel a cada etapa: <b>leitor</b> (lê em voz alta), <b>desenhista</b> (faz a barra) e <b>calculista</b> (faz a conta e confere no desenho). Com 2 crianças, o leitor também desenha. Se estiverem em níveis diferentes, cada um faz a missão do seu nível e, no fim, os dois contam um ao outro como desenharam.</div>
+  <div class="rodape">Math Missions · O Enigma do Robô Aspirador · missão de amostra</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-03</span><span class="dir">Missão</span></div>
+  <div class="cab"><div><svg viewBox="0 0 120 120" width="120"><ellipse cx="60" cy="74" rx="46" ry="30" fill="none" stroke="#000" stroke-width="3"/><circle cx="44" cy="68" r="7" fill="none" stroke="#000" stroke-width="3"/><circle cx="76" cy="68" r="7" fill="none" stroke="#000" stroke-width="3"/><path d="M48 86 q12 8 24 0" fill="none" stroke="#000" stroke-width="3"/><path d="M60 44 V24" stroke="#000" stroke-width="3"/><circle cx="60" cy="20" r="5" fill="none" stroke="#000" stroke-width="3"/><path d="M14 40 l8 6 M106 40 l-8 6 M20 30 l6 8 M100 30 l-6 8" stroke="#000" stroke-width="2.5"/></svg></div><div><h1>O Enigma do Robô Aspirador</h1></div></div>
+  <div class="abertura">O robô aspirador da casa começou a agir estranho: limpa metade da sala e para no meio do caminho. Antes de chamar o técnico, a família decidiu investigar os registros do robô. A investigação é sua.</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">A bateria</span><span class="tag">rapidinha</span>
+  <p>A bateria cheia do robô tem 100 pontos de energia. A tela mostra que ela está com 3/4 da carga. Quantos pontos de energia o robô tem?</p>
+  <div class="espaco curto"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">O caminho do robô</span>
+  <p>Na primeira volta, o robô andou 2,4 m em linha reta, virou e andou mais 1,85 m. Quantos metros ele andou ao todo?</p>
+  <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  <div class="dica"><b>DICA:</b> nenhuma pista diz qual conta fazer. Leia com calma, descubra o que está sendo pedido e escolha a conta. Na dúvida, desenhe.</div>
+  
+  <div class="rodape">Math Missions · O Enigma do Robô Aspirador</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-03</span><span class="dir">Missão (continuação)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">O registro de energia</span>
+  <p>O robô anota a energia enquanto limpa: no minuto 0, 75 pontos; no minuto 1, 60; no minuto 2, 45; no minuto 3, 30. Se continuar gastando do mesmo jeito, em que minuto a energia chega a zero?</p>
+  <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">A sala inteira</span><span class="tag d">desenhe o problema</span>
+  <p>O robô limpa 12 m² em 3 minutos. A sala tem 40 m². Sem parar, em quantos minutos ele limparia a sala toda?</p><div class="desenho"><div class="ins"><b class="lbl">1º DESENHE</b>Antes de fazer a conta, desenhe o problema com barras de pedaços iguais (1 pedaço = 1 minuto de limpeza). Ponha <b>?</b> no que você quer descobrir.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2º CALCULE: a conta que o desenho mostrou</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  
+  <h2>Abra o código <span class="small" style="font-weight:400">· procure cada resposta na tabela e escreva a letra na caixa da etapa</span></h2>
+  <table class="cod"><tr><td>3 min</td><td>3,89 m</td><td>4 min</td><td>4,25 m</td><td>5 min</td><td>10 min</td><td>25</td><td>75</td></tr><tr><td class="l">F</td><td class="l">T</td><td class="l">Z</td><td class="l">A</td><td class="l">B</td><td class="l">O</td><td class="l">P</td><td class="l">C</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>O que aconteceu?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · O Enigma do Robô Aspirador</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-03</span><span class="dir">Gabarito explicado · para o adulto</span></div>
+  <h1>Gabarito: O Enigma do Robô Aspirador</h1>
+  <div class="item"><b>Etapa 1 — A bateria</b> · <span class="r">75</span> (letra C)
+  <div><b>Como pensar:</b> Dividir 100 em 4 partes (25 cada) e pegar 3 delas. <span class="small">Conta: 100 ÷ 4 = 25 · 3 × 25 = 75.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Quanto vale um quarto de 100? E três quartos?” Desenhar uma barra dividida em 4 partes ajuda.</div>
+  <div class="small"><b>Erro mais comum:</b> responder 25, quando a criança calculou só 1/4 (ou o que falta para encher). Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 2 — O caminho do robô</b> · <span class="r">4,25 m</span> (letra A)
+  <div><b>Como pensar:</b> Escrever 2,4 como 2,40 e somar com a vírgula alinhada: 2,40 + 1,85. <span class="small">Conta: 2,40 + 1,85 = 4,25.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “2,4 é o mesmo que 2,40? Agora some os centímetros com os centímetros.”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 3,89 m, quando a criança somou sem alinhar a vírgula (fez 4 + 85 = 89). Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 3 — O registro de energia</b> · <span class="r">5 min</span> (letra B)
+  <div><b>Como pensar:</b> Descobrir quanto a energia cai por minuto (15 pontos) e continuar a tabela até chegar a zero. <span class="small">Conta: gasta 15 pontos por minuto · 75 ÷ 15 = 5 minutos (ou continuar a tabela: minuto 4 = 15, minuto 5 = 0).</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Quanto a energia cai de um minuto para o outro? Continue a tabela: minuto 4, minuto 5…”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 4 min, quando a criança contou só mais 1 minuto depois do minuto 3. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 4 — A sala inteira</b> · <span class="r">10 min</span> (letra O)
+  <div><b>Como pensar:</b> Descobrir quanto ele limpa em 1 minuto (12 ÷ 3 = 4 m²) e quantos minutos são precisos para 40 m². <span class="small">Conta: 12 ÷ 3 = 4 m² por minuto · 40 ÷ 4 = 10 minutos.</span></div>
+  <div><b>O desenho esperado</b> (vale qualquer desenho com as mesmas partes):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 140" width="420" height="140" font-family="Inter, DejaVu Sans, sans-serif"><path d="M79 30 V22 H177.2 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="103.5" y="5" width="49.2" height="20" fill="#fff"/><text x="128.1" y="19" text-anchor="middle" font-size="12" font-weight="700">12 m²</text><text x="0" y="51" font-size="11" font-weight="700">3 min</text><rect x="78" y="34" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="94.7" y="51" text-anchor="middle" font-size="12" font-weight="500">4</text><rect x="111.4" y="34" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="128.1" y="51" text-anchor="middle" font-size="12" font-weight="500">4</text><rect x="144.8" y="34" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="161.5" y="51" text-anchor="middle" font-size="12" font-weight="500">4</text><path d="M79 98 V90 H411 V98" fill="none" stroke="#000" stroke-width="1.6"/><rect x="220.4" y="73" width="49.2" height="20" fill="#fff"/><text x="245" y="87" text-anchor="middle" font-size="12" font-weight="700">40 m²</text><text x="0" y="119" font-size="11" font-weight="700">? min</text><rect x="78" y="102" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="94.7" y="119" text-anchor="middle" font-size="12" font-weight="500">4</text><rect x="111.4" y="102" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="128.1" y="119" text-anchor="middle" font-size="12" font-weight="500">4</text><rect x="144.8" y="102" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="161.5" y="119" text-anchor="middle" font-size="12" font-weight="500">4</text><rect x="178.20000000000002" y="102" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="194.9" y="119" text-anchor="middle" font-size="12" font-weight="500">4</text><rect x="211.60000000000002" y="102" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="228.3" y="119" text-anchor="middle" font-size="12" font-weight="500">4</text><rect x="245.00000000000003" y="102" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="261.70000000000005" y="119" text-anchor="middle" font-size="12" font-weight="500">4</text><rect x="278.40000000000003" y="102" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="295.1" y="119" text-anchor="middle" font-size="12" font-weight="500">4</text><rect x="311.8" y="102" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="328.5" y="119" text-anchor="middle" font-size="12" font-weight="500">4</text><rect x="345.2" y="102" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="361.9" y="119" text-anchor="middle" font-size="12" font-weight="500">4</text><rect x="378.59999999999997" y="102" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="395.29999999999995" y="119" text-anchor="middle" font-size="12" font-weight="500">4</text></svg></div><div>Cada pedaço é 1 minuto de limpeza (4 m²). Para cobrir 40 m² são precisos 10 pedaços, ou seja, 10 minutos.</div>
+  <div><b>Se travar, pergunte:</b> “Desenhe uma barra de 3 pedaços iguais que juntos valem 12 m². Quanto vale 1 pedaço? Agora desenhe pedaços desse tamanho até chegar a 40 m². Quantos pedaços?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 3 min, quando a criança repetiu o tempo do exemplo, sem ver que a sala é maior. Essa resposta leva a outra letra, e a palavra não fecha.</div></div>
+  <div class="box"><b>Palavra-código: CABO.</b> O CABO do carregador estava meio solto: a bateria nunca passava de 3/4 e durava só 5 minutos — metade dos 10 minutos de que a sala precisa. Por isso o robô limpava metade e parava. Cabo no lugar, robô consertado!</div>
+  <div class="rodape">Math Missions · gabarito</div></section><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-04</span><span class="dir">Para o adulto · leia antes (2 minutos)</span></div>
+  <h1>O Segredo das Duas Abóboras do Concurso</h1>
+  <div class="box"><b>Tempo:</b> 25 a 35 minutos · <b>Pratica:</b> soma e diferença: achar as duas partes · <b>Material:</b> lápis, borracha e esta folha impressa (opcional: relógio de ponteiros, feijões ou tampinhas).</div>
+  <h2>O método nesta missão: desenhe antes de calcular</h2>
+  <p>A etapa 2 é a etapa <b>“desenhe o problema”</b>. Nela, a criança passa pelos 3 passos do método de Singapura (detalhes no Guia para Pais):</p>
+  <div class="passos"><div><b>1. Concreto</b><br>Use dois barbantes: um mais comprido que o outro. Na etapa 2, a criança corta do mais comprido o pedaço “a mais” e vê que sobram dois pedaços iguais, antes de desenhar.</div><div><b>2. Desenho</b><br>A criança desenha a barra e põe <b>?</b> no que quer descobrir. Só depois faz a conta.</div><div><b>3. Conta</b><br>Com o desenho pronto, ela escreve a conta e confere a resposta olhando o desenho.</div></div>
+  <h2>Como conduzir</h2>
+  <ol><li><b>Leia a abertura em voz alta, com clima de mistério.</b> A 1ª etapa é curtinha, de propósito: é para a criança entrar no jogo rápido.</li><li><b>Não diga qual conta fazer.</b> O enunciado não diz se é de mais, de menos ou de vezes. Descobrir isso é o exercício, e o desenho é o que mostra a resposta.</li><li><b>Se a criança travar, peça o desenho antes de qualquer ajuda:</b> “Me mostra isso numa barra.” Depois use a pergunta de apoio do gabarito (última página). Ela ajuda sem entregar a resposta.</li><li><b>Cada resposta vira uma letra.</b> Se a palavra-código não fizer sentido, alguma conta está errada: voltem ao desenho e procurem juntos.</li><li><b>Feche pedindo:</b> “Me explica o seu desenho da etapa 2.”</li></ol>
+  <div class="box"><b>Antes de avançar:</b> Pode passar para a próxima missão quando a criança explicar o desenho da etapa 2 com as próprias palavras (“tirei o pedaço a mais e sobraram duas barras iguais”). Se ainda não, refaça só essa etapa outro dia com outros números (ex.: juntas 7 kg, uma pesa 0,8 kg a mais).</div>
+  <h2>Com irmãos</h2>
+  <div class="box">Imprima as páginas da missão uma vez e resolvam juntos, trocando de papel a cada etapa: <b>leitor</b> (lê em voz alta), <b>desenhista</b> (faz a barra) e <b>calculista</b> (faz a conta e confere no desenho). Com 2 crianças, o leitor também desenha. Se estiverem em níveis diferentes, cada um faz a missão do seu nível e, no fim, os dois contam um ao outro como desenharam.</div>
+  <div class="rodape">Math Missions · O Segredo das Duas Abóboras do Concurso · missão de amostra</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-04</span><span class="dir">Missão</span></div>
+  <div class="cab"><div><svg viewBox="0 0 130 110" width="120"><ellipse cx="65" cy="64" rx="48" ry="36" fill="none" stroke="#000" stroke-width="3"/><path d="M65 28 q-20 36 0 72 M65 28 q20 36 0 72" fill="none" stroke="#000" stroke-width="2"/><path d="M65 28 q2 -14 12 -18" fill="none" stroke="#000" stroke-width="4"/></svg></div><div><h1>O Segredo das Duas Abóboras do Concurso</h1></div></div>
+  <div class="abertura">No concurso de abóboras da feira, duas abóboras foram pesadas juntas por engano: 9 kg. O juiz só lembra que a laranja pesava 1,4 kg a mais que a verde. Qual ganha o troféu de maior abóbora?</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">Quilos em gramas</span><span class="tag">rapidinha</span>
+  <p>Quantos gramas são 1,4 kg?</p>
+  <div class="espaco curto"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">A abóbora verde</span><span class="tag d">desenhe o problema</span>
+  <p>Juntas, as duas abóboras pesam 9 kg, e a laranja pesa 1,4 kg a mais que a verde. Quanto pesa a abóbora verde?</p><div class="desenho"><div class="ins"><b class="lbl">1º DESENHE</b>Antes de fazer a conta, desenhe uma barra para cada abóbora, alinhadas à esquerda, mostrando o pedaço “a mais”. Marque o total das duas e ponha <b>?</b> no que você quer descobrir.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2º CALCULE: a conta que o desenho mostrou</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · O Segredo das Duas Abóboras do Concurso</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-04</span><span class="dir">Missão (continuação)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">A abóbora laranja</span>
+  <p>A verde pesa 3,8 kg. Quanto pesa a abóbora laranja, que tem 1,4 kg a mais?</p>
+  <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">O recorde</span>
+  <p>O recorde do ano passado era 5,05 kg. Por quantos quilos a abóbora laranja (5,2 kg) bateu o recorde?</p>
+  <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  <div class="dica"><b>DICA:</b> nenhuma pista diz qual conta fazer. Leia com calma, descubra o que está sendo pedido e escolha a conta. Na dúvida, desenhe.</div>
+  <h2>Abra o código <span class="small" style="font-weight:400">· procure cada resposta na tabela e escreva a letra na caixa da etapa</span></h2>
+  <table class="cod"><tr><td>0,15 kg</td><td>1 400 g</td><td>2,4 kg</td><td>3,8 kg</td><td>5,2 kg</td><td>7,6 kg</td><td>10,25 kg</td><td>140 g</td></tr><tr><td class="l">O</td><td class="l">P</td><td class="l">D</td><td class="l">E</td><td class="l">S</td><td class="l">A</td><td class="l">H</td><td class="l">U</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>O que aconteceu?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · O Segredo das Duas Abóboras do Concurso</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-04</span><span class="dir">Gabarito explicado · para o adulto</span></div>
+  <h1>Gabarito: O Segredo das Duas Abóboras do Concurso</h1>
+  <div class="item"><b>Etapa 1 — Quilos em gramas</b> · <span class="r">1 400 g</span> (letra P)
+  <div><b>Como pensar:</b> 1 kg tem 1 000 g. 1,4 kg é 1 000 g mais 4 décimos de 1 000 (400 g). <span class="small">Conta: 1,4 × 1 000 = 1 400 g.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Quantos gramas tem 1 kg? E 0,4 kg?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 140 g, quando a criança multiplicou por 100 em vez de 1 000. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 2 — A abóbora verde</b> · <span class="r">3,8 kg</span> (letra E)
+  <div><b>Como pensar:</b> Tire o pedaço “a mais” (1,4). O que sobra são duas barras iguais: divida por 2. <span class="small">Conta: 9 − 1,4 = 7,6 · 7,6 ÷ 2 = 3,8 kg.</span></div>
+  <div><b>O desenho esperado</b> (vale qualquer desenho com as mesmas partes):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 80" width="420" height="80" font-family="Inter, DejaVu Sans, sans-serif"><text x="0" y="21" font-size="11" font-weight="700">Laranja</text><rect x="78" y="4" width="203.32923076923078" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="179.6646153846154" y="21" text-anchor="middle" font-size="12" font-weight="500"> </text><rect x="281.3292307692308" y="4" width="74.91076923076923" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="318.7846153846154" y="21" text-anchor="middle" font-size="12" font-weight="500">1,4 kg</text><text x="0" y="59" font-size="11" font-weight="700">Verde</text><rect x="78" y="42" width="203.32923076923078" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="179.6646153846154" y="59" text-anchor="middle" font-size="12" font-weight="800">?</text><path d="M366.24 4 H373.24 V66 H366.24" fill="none" stroke="#000" stroke-width="1.6"/><text x="378.24" y="40" font-size="12" font-weight="700">9 kg</text></svg></div><div>Tirando o pedaço de 1,4 kg, sobram 2 barras iguais que juntas pesam 7,6 kg. Cada uma vale 3,8 kg.</div>
+  <div><b>Se travar, pergunte:</b> “Se a laranja não tivesse o 1,4 a mais, as duas seriam iguais. Quanto pesariam juntas?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 7,6 kg, quando a criança tirou o 1,4 e esqueceu de dividir por 2. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 3 — A abóbora laranja</b> · <span class="r">5,2 kg</span> (letra S)
+  <div><b>Como pensar:</b> A laranja é a verde mais o pedaço a mais. <span class="small">Conta: 3,8 + 1,4 = 5,2 kg.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “A laranja é mais pesada ou mais leve que a verde?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 2,4 kg, quando a criança tirou em vez de somar o pedaço a mais. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 4 — O recorde</b> · <span class="r">0,15 kg</span> (letra O)
+  <div><b>Como pensar:</b> Escreva 5,2 como 5,20 e subtraia com as vírgulas alinhadas. <span class="small">Conta: 5,20 − 5,05 = 0,15 kg.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “5,2 é o mesmo que 5,20? Quanto falta de 5,05 até 5,20?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 10,25 kg, quando a criança somou em vez de comparar. Essa resposta leva a outra letra, e a palavra não fecha.</div></div>
+  <div class="box"><b>Palavra-código: PESO.</b> A abóbora laranja ganhou o troféu: 5,2 kg, o novo recorde do concurso. O PESO certo saiu do desenho das duas barras.</div>
+  <div class="rodape">Math Missions · gabarito</div></section><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-05</span><span class="dir">Para o adulto · leia antes (2 minutos)</span></div>
+  <h1>O Mistério do Cofre de Pontos</h1>
+  <div class="box"><b>Tempo:</b> 25 a 35 minutos · <b>Pratica:</b> antes e depois: o que muda e o que fica igual · <b>Material:</b> lápis, borracha e esta folha impressa (opcional: relógio de ponteiros, feijões ou tampinhas).</div>
+  <h2>O método nesta missão: desenhe antes de calcular</h2>
+  <p>A etapa 2 é a etapa <b>“desenhe o problema”</b>. Nela, a criança passa pelos 3 passos do método de Singapura (detalhes no Guia para Pais):</p>
+  <div class="passos"><div><b>1. Concreto</b><br>Faça duas fileiras de tampinhas (uma tampinha = 10 pontos): 35 para Nina e 21 para Caio. Na etapa 2, a criança passa tampinhas de uma fileira para a outra até ficarem iguais, antes de desenhar.</div><div><b>2. Desenho</b><br>A criança desenha a barra e põe <b>?</b> no que quer descobrir. Só depois faz a conta.</div><div><b>3. Conta</b><br>Com o desenho pronto, ela escreve a conta e confere a resposta olhando o desenho.</div></div>
+  <h2>Como conduzir</h2>
+  <ol><li><b>Leia a abertura em voz alta, com clima de mistério.</b> A 1ª etapa é curtinha, de propósito: é para a criança entrar no jogo rápido.</li><li><b>Não diga qual conta fazer.</b> O enunciado não diz se é de mais, de menos ou de vezes. Descobrir isso é o exercício, e o desenho é o que mostra a resposta.</li><li><b>Se a criança travar, peça o desenho antes de qualquer ajuda:</b> “Me mostra isso numa barra.” Depois use a pergunta de apoio do gabarito (última página). Ela ajuda sem entregar a resposta.</li><li><b>Cada resposta vira uma letra.</b> Se a palavra-código não fizer sentido, alguma conta está errada: voltem ao desenho e procurem juntos.</li><li><b>Feche pedindo:</b> “Me explica o seu desenho da etapa 2.”</li></ol>
+  <div class="box"><b>Antes de avançar:</b> Pode passar para a próxima missão quando a criança explicar o desenho da etapa 2 com as próprias palavras (“a diferença foi dividida ao meio”). Se ainda não, refaça só essa etapa outro dia com outros números (ex.: Nina 420, Caio 260).</div>
+  <h2>Com irmãos</h2>
+  <div class="box">Imprima as páginas da missão uma vez e resolvam juntos, trocando de papel a cada etapa: <b>leitor</b> (lê em voz alta), <b>desenhista</b> (faz a barra) e <b>calculista</b> (faz a conta e confere no desenho). Com 2 crianças, o leitor também desenha. Se estiverem em níveis diferentes, cada um faz a missão do seu nível e, no fim, os dois contam um ao outro como desenharam.</div>
+  <div class="rodape">Math Missions · O Mistério do Cofre de Pontos · missão de amostra</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-05</span><span class="dir">Missão</span></div>
+  <div class="cab"><div><svg viewBox="0 0 120 120" width="105"><rect x="14" y="20" width="92" height="84" rx="8" fill="none" stroke="#000" stroke-width="3"/><circle cx="60" cy="62" r="20" fill="none" stroke="#000" stroke-width="3"/><path d="M60 42 V50 M60 74 V82 M40 62 H48 M72 62 H80" stroke="#000" stroke-width="3"/><circle cx="60" cy="62" r="4"/></svg></div><div><h1>O Mistério do Cofre de Pontos</h1></div></div>
+  <div class="abertura">Nina e Caio guardam os pontos de um jogo de tabuleiro num cofre de papel. Depois de uma troca, os dois ficaram com a mesma quantidade, mas ninguém lembra quanto cada um deu. O caderno do jogo tem as pistas.</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">Os pontos da Nina</span><span class="tag">rapidinha</span>
+  <p>Nina ganhou 50 pontos numa rodada e chegou a 350. Quantos pontos ela tinha antes?</p>
+  <div class="espaco curto"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">A troca</span><span class="tag d">desenhe o problema</span>
+  <p>Nina tinha 350 pontos e Caio, 210. Nina deu alguns pontos para Caio e os dois ficaram com a mesma quantidade. Quantos pontos Nina deu?</p><div class="desenho"><div class="ins"><b class="lbl">1º DESENHE</b>Antes de fazer a conta, desenhe a barra de cada um antes da troca, alinhadas à esquerda. Mostre a diferença e ponha <b>?</b> no pedaço que Nina dá.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2º CALCULE: a conta que o desenho mostrou</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · O Mistério do Cofre de Pontos</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-05</span><span class="dir">Missão (continuação)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">Depois da troca</span>
+  <p>Depois da troca, com quantos pontos cada um ficou?</p>
+  <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">A rodada seguinte</span>
+  <p>Na rodada seguinte, cada um gastou 1/5 dos seus 280 pontos. Com quantos pontos cada um ficou?</p>
+  <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  <div class="dica"><b>DICA:</b> nenhuma pista diz qual conta fazer. Leia com calma, descubra o que está sendo pedido e escolha a conta. Na dúvida, desenhe.</div>
+  <h2>Abra o código <span class="small" style="font-weight:400">· procure cada resposta na tabela e escreva a letra na caixa da etapa</span></h2>
+  <table class="cod"><tr><td>56</td><td>70</td><td>140</td><td>210</td><td>224</td><td>280</td><td>300</td><td>400</td></tr><tr><td class="l">C</td><td class="l">O</td><td class="l">T</td><td class="l">Z</td><td class="l">O</td><td class="l">G</td><td class="l">J</td><td class="l">P</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>O que aconteceu?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · O Mistério do Cofre de Pontos</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-05</span><span class="dir">Gabarito explicado · para o adulto</span></div>
+  <h1>Gabarito: O Mistério do Cofre de Pontos</h1>
+  <div class="item"><b>Etapa 1 — Os pontos da Nina</b> · <span class="r">300</span> (letra J)
+  <div><b>Como pensar:</b> Antes de ganhar, ela tinha 50 a menos: 350 − 50. <span class="small">Conta: 350 − 50 = 300.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Antes da rodada, Nina tinha mais ou menos que 350?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 400, quando a criança somou em vez de voltar para antes da rodada. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 2 — A troca</b> · <span class="r">70</span> (letra O)
+  <div><b>Como pensar:</b> A diferença é 140. Para empatar, metade da diferença passa de um para o outro. <span class="small">Conta: 350 − 210 = 140 · 140 ÷ 2 = 70.</span></div>
+  <div><b>O desenho esperado</b> (vale qualquer desenho com as mesmas partes):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 80" width="420" height="80" font-family="Inter, DejaVu Sans, sans-serif"><text x="0" y="21" font-size="11" font-weight="700">Nina</text><rect x="78" y="4" width="200.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="178.2" y="21" text-anchor="middle" font-size="12" font-weight="500">210</text><rect x="278.4" y="4" width="66.8" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="311.79999999999995" y="21" text-anchor="middle" font-size="12" font-weight="800">?</text><rect x="345.2" y="4" width="66.8" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="378.59999999999997" y="21" text-anchor="middle" font-size="12" font-weight="500"> </text><text x="0" y="59" font-size="11" font-weight="700">Caio</text><rect x="78" y="42" width="200.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="178.2" y="59" text-anchor="middle" font-size="12" font-weight="500">210</text></svg></div><div>A diferença (140) é dividida ao meio: um pedaço fica com Nina e o outro vai para Caio. Assim as duas barras ficam iguais.</div>
+  <div><b>Se travar, pergunte:</b> “Se Nina der 140, quem fica com mais? E se der a metade?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 140, quando a criança deu a diferença toda, e aí Caio ficou com mais. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 3 — Depois da troca</b> · <span class="r">280</span> (letra G)
+  <div><b>Como pensar:</b> Nina perdeu 70; Caio ganhou 70. Confira os dois lados. <span class="small">Conta: 350 − 70 = 280 (e 210 + 70 = 280).</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Quanto Nina tem agora? E Caio? Ficou igual?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 210, quando a criança esqueceu de somar os 70 que Caio recebeu. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 4 — A rodada seguinte</b> · <span class="r">224</span> (letra O)
+  <div><b>Como pensar:</b> Ache 1/5 de 280 (o que gastou) e tire de 280. <span class="small">Conta: 280 ÷ 5 = 56 · 280 − 56 = 224.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “A pergunta é o que gastou ou o que sobrou?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 56, quando a criança respondeu o que gastou, e não o que sobrou. Essa resposta leva a outra letra, e a palavra não fecha.</div></div>
+  <div class="box"><b>Palavra-código: JOGO.</b> Nina deu 70 pontos e os dois ficaram com 280. A troca foi justa e o JOGO continuou: na rodada seguinte, cada um ficou com 224.</div>
+  <div class="rodape">Math Missions · gabarito</div></section><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-06</span><span class="dir">Para o adulto · leia antes (2 minutos)</span></div>
+  <h1>O Caso do Pote de Bolinhas de Gude</h1>
+  <div class="box"><b>Tempo:</b> 25 a 35 minutos · <b>Pratica:</b> fração do que sobrou (1/3 e depois 1/4 do resto) · <b>Material:</b> lápis, borracha e esta folha impressa (opcional: relógio de ponteiros, feijões ou tampinhas).</div>
+  <h2>O método nesta missão: desenhe antes de calcular</h2>
+  <p>A etapa 2 é a etapa <b>“desenhe o problema”</b>. Nela, a criança passa pelos 3 passos do método de Singapura (detalhes no Guia para Pais):</p>
+  <div class="passos"><div><b>1. Concreto</b><br>Use uma tira de papel dividida em 6 partes iguais: a criança risca 2 partes (1/3) e depois 1 parte das 4 que sobraram (1/4 do resto), antes de desenhar.</div><div><b>2. Desenho</b><br>A criança desenha a barra e põe <b>?</b> no que quer descobrir. Só depois faz a conta.</div><div><b>3. Conta</b><br>Com o desenho pronto, ela escreve a conta e confere a resposta olhando o desenho.</div></div>
+  <h2>Como conduzir</h2>
+  <ol><li><b>Leia a abertura em voz alta, com clima de mistério.</b> A 1ª etapa é curtinha, de propósito: é para a criança entrar no jogo rápido.</li><li><b>Não diga qual conta fazer.</b> O enunciado não diz se é de mais, de menos ou de vezes. Descobrir isso é o exercício, e o desenho é o que mostra a resposta.</li><li><b>Se a criança travar, peça o desenho antes de qualquer ajuda:</b> “Me mostra isso numa barra.” Depois use a pergunta de apoio do gabarito (última página). Ela ajuda sem entregar a resposta.</li><li><b>Cada resposta vira uma letra.</b> Se a palavra-código não fizer sentido, alguma conta está errada: voltem ao desenho e procurem juntos.</li><li><b>Feche pedindo:</b> “Me explica o seu desenho da etapa 2.”</li></ol>
+  <div class="box"><b>Antes de avançar:</b> Pode passar para a próxima missão quando a criança explicar o desenho da etapa 2 com as próprias palavras (“o 1/4 é do que sobrou, não do pote todo”). Se ainda não, refaça só essa etapa outro dia com outros números (ex.: 180 bolinhas).</div>
+  <h2>Com irmãos</h2>
+  <div class="box">Imprima as páginas da missão uma vez e resolvam juntos, trocando de papel a cada etapa: <b>leitor</b> (lê em voz alta), <b>desenhista</b> (faz a barra) e <b>calculista</b> (faz a conta e confere no desenho). Com 2 crianças, o leitor também desenha. Se estiverem em níveis diferentes, cada um faz a missão do seu nível e, no fim, os dois contam um ao outro como desenharam.</div>
+  <div class="rodape">Math Missions · O Caso do Pote de Bolinhas de Gude · missão de amostra</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-06</span><span class="dir">Missão</span></div>
+  <div class="cab"><div><svg viewBox="0 0 120 120" width="105"><path d="M30 24 H90 V36 q14 10 14 30 V108 H16 V66 q0 -20 14 -30 Z" fill="none" stroke="#000" stroke-width="3"/><circle cx="44" cy="80" r="8" fill="none" stroke="#000" stroke-width="2"/><circle cx="64" cy="90" r="8" fill="none" stroke="#000" stroke-width="2"/><circle cx="78" cy="72" r="8" fill="none" stroke="#000" stroke-width="2"/><circle cx="56" cy="64" r="8" fill="none" stroke="#000" stroke-width="2"/></svg></div><div><h1>O Caso do Pote de Bolinhas de Gude</h1></div></div>
+  <div class="abertura">O pote de bolinhas de gude da família tinha 240 bolinhas. Em 2 dias de jogo com os amigos, ele esvaziou bastante. Quantas bolinhas ainda são da família?</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">O 1º dia</span><span class="tag">rapidinha</span>
+  <p>No 1º dia, a família perdeu no jogo 1/3 das 240 bolinhas. Quantas bolinhas perdeu?</p>
+  <div class="espaco curto"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">O 2º dia</span><span class="tag d">desenhe o problema</span>
+  <p>No 2º dia, a família perdeu 1/4 do que tinha sobrado do 1º dia. Quantas bolinhas restaram no pote?</p><div class="desenho"><div class="ins"><b class="lbl">1º DESENHE</b>Antes de fazer a conta, desenhe a barra do pote todo. Separe o 1º dia; depois divida o que sobrou em 4 e separe 1 pedaço. Ponha <b>?</b> no que você quer descobrir.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2º CALCULE: a conta que o desenho mostrou</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · O Caso do Pote de Bolinhas de Gude</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-06</span><span class="dir">Missão (continuação)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">As que voltaram</span>
+  <p>Os amigos devolveram 3/10 das 120 bolinhas que tinham ganhado. Quantas bolinhas voltaram?</p>
+  <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">O pote agora</span>
+  <p>O pote tinha 120 bolinhas e voltaram 36. Quantas bolinhas há agora no pote?</p>
+  <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  <div class="dica"><b>DICA:</b> nenhuma pista diz qual conta fazer. Leia com calma, descubra o que está sendo pedido e escolha a conta. Na dúvida, desenhe.</div>
+  <h2>Abra o código <span class="small" style="font-weight:400">· procure cada resposta na tabela e escreva a letra na caixa da etapa</span></h2>
+  <table class="cod"><tr><td>12</td><td>36</td><td>80</td><td>84</td><td>100</td><td>120</td><td>156</td><td>237</td></tr><tr><td class="l">A</td><td class="l">D</td><td class="l">G</td><td class="l">F</td><td class="l">T</td><td class="l">U</td><td class="l">E</td><td class="l">P</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>O que aconteceu?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · O Caso do Pote de Bolinhas de Gude</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-06</span><span class="dir">Gabarito explicado · para o adulto</span></div>
+  <h1>Gabarito: O Caso do Pote de Bolinhas de Gude</h1>
+  <div class="item"><b>Etapa 1 — O 1º dia</b> · <span class="r">80</span> (letra G)
+  <div><b>Como pensar:</b> 1/3 é 1 dos 3 pedaços iguais: 240 ÷ 3. <span class="small">Conta: 240 ÷ 3 = 80.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Divida 240 em 3 partes iguais. Quanto fica em cada uma?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 237, quando a criança tirou 3 em vez de achar 1/3. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 2 — O 2º dia</b> · <span class="r">120</span> (letra U)
+  <div><b>Como pensar:</b> Primeiro, o que sobrou do 1º dia (160). O 1/4 é desse resto. <span class="small">Conta: 240 − 80 = 160 · 160 ÷ 4 = 40 · 160 − 40 = 120.</span></div>
+  <div><b>O desenho esperado</b> (vale qualquer desenho com as mesmas partes):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="188.84" y="5" width="34.32" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">240</text><rect x="0" y="34" width="137.33333333333334" height="24" fill="#d9d9d9" stroke="#000" stroke-width="2"/><text x="68.66666666666667" y="51" text-anchor="middle" font-size="12" font-weight="500">80</text><rect x="137.33333333333334" y="34" width="68.66666666666667" height="24" fill="#d9d9d9" stroke="#000" stroke-width="2"/><text x="171.66666666666669" y="51" text-anchor="middle" font-size="12" font-weight="500">40</text><rect x="206" y="34" width="206" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="309" y="51" text-anchor="middle" font-size="12" font-weight="800">?</text></svg></div><div>O 1º dia leva 1/3 (80). O resto (160) é dividido em 4 pedaços de 40; 1 vai embora no 2º dia. Sobram 3 pedaços: 120.</div>
+  <div><b>Se travar, pergunte:</b> “O 1/4 é das 240 ou das que sobraram?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 100, quando a criança calculou 1/4 do pote inteiro, e não do que tinha sobrado. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 3 — As que voltaram</b> · <span class="r">36</span> (letra D)
+  <div><b>Como pensar:</b> Divida 120 em 10 partes e pegue 3. <span class="small">Conta: 120 ÷ 10 = 12 · 3 × 12 = 36.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Quanto é 1/10 de 120? E 3/10?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 12, quando a criança achou só 1/10 e esqueceu de pegar 3 pedaços. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 4 — O pote agora</b> · <span class="r">156</span> (letra E)
+  <div><b>Como pensar:</b> As que voltaram se juntam às que estavam no pote. <span class="small">Conta: 120 + 36 = 156.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Voltar para o pote é juntar ou tirar?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 84, quando a criança tirou em vez de somar as que voltaram. Essa resposta leva a outra letra, e a palavra não fecha.</div></div>
+  <div class="box"><b>Palavra-código: GUDE.</b> O pote ficou com 156 bolinhas de GUDE, e a família aprendeu a contar antes de começar a próxima partida.</div>
+  <div class="rodape">Math Missions · gabarito</div></section><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-07</span><span class="dir">Para o adulto · leia antes (2 minutos)</span></div>
+  <h1>O Enigma da Receita Gigante</h1>
+  <div class="box"><b>Tempo:</b> 25 a 35 minutos · <b>Pratica:</b> partes desiguais (razão 3 : 2) com total em gramas · <b>Material:</b> lápis, borracha e esta folha impressa (opcional: relógio de ponteiros, feijões ou tampinhas).</div>
+  <h2>O método nesta missão: desenhe antes de calcular</h2>
+  <p>A etapa 2 é a etapa <b>“desenhe o problema”</b>. Nela, a criança passa pelos 3 passos do método de Singapura (detalhes no Guia para Pais):</p>
+  <div class="passos"><div><b>1. Concreto</b><br>Use copinhos iguais: 3 copinhos de arroz (farinha) e 2 de sal grosso (açúcar). Na etapa 2, a criança vê que a mistura tem 5 copinhos iguais antes de desenhar.</div><div><b>2. Desenho</b><br>A criança desenha a barra e põe <b>?</b> no que quer descobrir. Só depois faz a conta.</div><div><b>3. Conta</b><br>Com o desenho pronto, ela escreve a conta e confere a resposta olhando o desenho.</div></div>
+  <h2>Como conduzir</h2>
+  <ol><li><b>Leia a abertura em voz alta, com clima de mistério.</b> A 1ª etapa é curtinha, de propósito: é para a criança entrar no jogo rápido.</li><li><b>Não diga qual conta fazer.</b> O enunciado não diz se é de mais, de menos ou de vezes. Descobrir isso é o exercício, e o desenho é o que mostra a resposta.</li><li><b>Se a criança travar, peça o desenho antes de qualquer ajuda:</b> “Me mostra isso numa barra.” Depois use a pergunta de apoio do gabarito (última página). Ela ajuda sem entregar a resposta.</li><li><b>Cada resposta vira uma letra.</b> Se a palavra-código não fizer sentido, alguma conta está errada: voltem ao desenho e procurem juntos.</li><li><b>Feche pedindo:</b> “Me explica o seu desenho da etapa 2.”</li></ol>
+  <div class="box"><b>Antes de avançar:</b> Pode passar para a próxima missão quando a criança explicar o desenho da etapa 2 com as próprias palavras (“são 5 pedaços iguais: 3 de farinha e 2 de açúcar”). Se ainda não, refaça só essa etapa outro dia com outros números (ex.: 1 000 g na razão 3 : 2).</div>
+  <h2>Com irmãos</h2>
+  <div class="box">Imprima as páginas da missão uma vez e resolvam juntos, trocando de papel a cada etapa: <b>leitor</b> (lê em voz alta), <b>desenhista</b> (faz a barra) e <b>calculista</b> (faz a conta e confere no desenho). Com 2 crianças, o leitor também desenha. Se estiverem em níveis diferentes, cada um faz a missão do seu nível e, no fim, os dois contam um ao outro como desenharam.</div>
+  <div class="rodape">Math Missions · O Enigma da Receita Gigante · missão de amostra</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-07</span><span class="dir">Missão</span></div>
+  <div class="cab"><div><svg viewBox="0 0 130 110" width="120"><path d="M18 56 H112 V98 H18 Z M18 72 q12 10 23 0 q12 10 24 0 q12 10 24 0 q12 10 23 0" fill="none" stroke="#000" stroke-width="3"/><path d="M50 56 V36 M65 56 V30 M80 56 V36" stroke="#000" stroke-width="3"/><path d="M50 30 v-4 M65 24 v-4 M80 30 v-4" stroke="#000" stroke-width="4" stroke-linecap="round"/></svg></div><div><h1>O Enigma da Receita Gigante</h1></div></div>
+  <div class="abertura">Para a festa do bairro, a receita do bolo foi triplicada. Mas o bolo desandou! Na receita, para cada 3 partes de farinha vão 2 partes de açúcar. Onde foi o erro?</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">Os ovos da receita</span><span class="tag">rapidinha</span>
+  <p>A receita normal leva 3 ovos. Triplicada, quantos ovos ela leva?</p>
+  <div class="espaco curto"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">A farinha</span><span class="tag d">desenhe o problema</span>
+  <p>A mistura de farinha e açúcar da receita triplicada pesa 1 500 g, com 3 partes de farinha para 2 de açúcar. Quantos gramas de farinha?</p><div class="desenho"><div class="ins"><b class="lbl">1º DESENHE</b>Antes de fazer a conta, desenhe uma barra para a farinha e outra para o açúcar, com pedaços iguais (3 e 2). Marque o total das duas e ponha <b>?</b> no que você quer descobrir.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2º CALCULE: a conta que o desenho mostrou</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · O Enigma da Receita Gigante</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-07</span><span class="dir">Missão (continuação)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">O açúcar</span>
+  <p>E quantos gramas de açúcar vão na mistura de 1 500 g?</p>
+  <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">O peso dos ovos</span>
+  <p>A receita triplicada pede 9 ovos de 55 g cada. Quantos gramas de ovo vão na massa?</p>
+  <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  <div class="dica"><b>DICA:</b> nenhuma pista diz qual conta fazer. Leia com calma, descubra o que está sendo pedido e escolha a conta. Na dúvida, desenhe.</div>
+  <h2>Abra o código <span class="small" style="font-weight:400">· procure cada resposta na tabela e escreva a letra na caixa da etapa</span></h2>
+  <table class="cod"><tr><td>6</td><td>9</td><td>64 g</td><td>495 g</td><td>500 g</td><td>600 g</td><td>750 g</td><td>900 g</td></tr><tr><td class="l">P</td><td class="l">O</td><td class="l">D</td><td class="l">S</td><td class="l">U</td><td class="l">O</td><td class="l">A</td><td class="l">V</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>O que aconteceu?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · O Enigma da Receita Gigante</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-07</span><span class="dir">Gabarito explicado · para o adulto</span></div>
+  <h1>Gabarito: O Enigma da Receita Gigante</h1>
+  <div class="item"><b>Etapa 1 — Os ovos da receita</b> · <span class="r">9</span> (letra O)
+  <div><b>Como pensar:</b> Triplicar é pegar 3 vezes: 3 + 3 + 3. <span class="small">Conta: 3 × 3 = 9.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Se você fizer a receita 3 vezes, quantos ovos usa?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 6, quando a criança somou 3 em vez de triplicar. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 2 — A farinha</b> · <span class="r">900 g</span> (letra V)
+  <div><b>Como pensar:</b> A mistura tem 5 partes iguais (3 + 2). Ache quanto vale 1 parte e pegue 3. <span class="small">Conta: 3 + 2 = 5 partes · 1 500 ÷ 5 = 300 · 3 × 300 = 900 g.</span></div>
+  <div><b>O desenho esperado</b> (vale qualquer desenho com as mesmas partes):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 110" width="420" height="110" font-family="Inter, DejaVu Sans, sans-serif"><path d="M79 30 V22 H332.92 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="196.24" y="5" width="19.439999999999998" height="20" fill="#fff"/><text x="205.96" y="19" text-anchor="middle" font-size="12" font-weight="700">?</text><text x="0" y="51" font-size="11" font-weight="700">Farinha</text><rect x="78" y="34" width="85.30666666666667" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="120.65333333333334" y="51" text-anchor="middle" font-size="12" font-weight="500">300</text><rect x="163.30666666666667" y="34" width="85.30666666666667" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="205.96" y="51" text-anchor="middle" font-size="12" font-weight="500">300</text><rect x="248.61333333333334" y="34" width="85.30666666666667" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="291.26666666666665" y="51" text-anchor="middle" font-size="12" font-weight="500">300</text><text x="0" y="89" font-size="11" font-weight="700">Açúcar</text><rect x="78" y="72" width="85.30666666666667" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="120.65333333333334" y="89" text-anchor="middle" font-size="12" font-weight="500">300</text><rect x="163.30666666666667" y="72" width="85.30666666666667" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="205.96" y="89" text-anchor="middle" font-size="12" font-weight="500">300</text><path d="M343.92 4 H350.92 V96 H343.92" fill="none" stroke="#000" stroke-width="1.6"/><text x="355.92" y="55" font-size="12" font-weight="700">1 500 g</text></svg></div><div>São 5 pedaços iguais que juntos pesam 1 500 g. Cada pedaço vale 300 g; a farinha é 3 pedaços.</div>
+  <div><b>Se travar, pergunte:</b> “Quantas partes a mistura tem ao todo? Quanto vale cada uma?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 500 g, quando a criança dividiu por 3, sem contar as 5 partes da mistura. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 3 — O açúcar</b> · <span class="r">600 g</span> (letra O)
+  <div><b>Como pensar:</b> O açúcar é 2 dos 5 pedaços de 300 g. <span class="small">Conta: 2 × 300 = 600 g (ou 1 500 − 900).</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Quantos pedaços de 300 g são de açúcar?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 750 g, quando a criança dividiu a mistura ao meio, como se as partes fossem iguais. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 4 — O peso dos ovos</b> · <span class="r">495 g</span> (letra S)
+  <div><b>Como pensar:</b> São 9 ovos iguais de 55 g: 9 × 55. Dica: 10 × 55 e tire um ovo. <span class="small">Conta: 9 × 55 = 495 g (10 × 55 = 550; 550 − 55 = 495).</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Quanto pesariam 10 ovos? E 9?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 64 g, quando a criança somou 9 + 55 em vez de juntar 9 ovos de 55 g. Essa resposta leva a outra letra, e a palavra não fecha.</div></div>
+  <div class="box"><b>Palavra-código: OVOS.</b> O erro foi nos OVOS: a farinha e o açúcar foram triplicados, mas os ovos não. A receita certa leva 9 ovos, e o bolo de 3 vezes deu certo na segunda tentativa.</div>
+  <div class="rodape">Math Missions · gabarito</div></section><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-08</span><span class="dir">Para o adulto · leia antes (2 minutos)</span></div>
+  <h1>O Mistério da Loja do Jogo</h1>
+  <div class="box"><b>Tempo:</b> 25 a 35 minutos · <b>Pratica:</b> porcentagem simples: 10%, 25% e 50% em pontos do jogo · <b>Material:</b> lápis, borracha e esta folha impressa (opcional: relógio de ponteiros, feijões ou tampinhas).</div>
+  <h2>O método nesta missão: desenhe antes de calcular</h2>
+  <p>A etapa 2 é a etapa <b>“desenhe o problema”</b>. Nela, a criança passa pelos 3 passos do método de Singapura (detalhes no Guia para Pais):</p>
+  <div class="passos"><div><b>1. Concreto</b><br>Use uma tira de papel: dobre em 10 (10%), em 4 (25%) e em 2 (50%). Na etapa 2, a criança dobra a tira em 4 e risca 1 parte antes de desenhar.</div><div><b>2. Desenho</b><br>A criança desenha a barra e põe <b>?</b> no que quer descobrir. Só depois faz a conta.</div><div><b>3. Conta</b><br>Com o desenho pronto, ela escreve a conta e confere a resposta olhando o desenho.</div></div>
+  <h2>Como conduzir</h2>
+  <ol><li><b>Leia a abertura em voz alta, com clima de mistério.</b> A 1ª etapa é curtinha, de propósito: é para a criança entrar no jogo rápido.</li><li><b>Não diga qual conta fazer.</b> O enunciado não diz se é de mais, de menos ou de vezes. Descobrir isso é o exercício, e o desenho é o que mostra a resposta.</li><li><b>Se a criança travar, peça o desenho antes de qualquer ajuda:</b> “Me mostra isso numa barra.” Depois use a pergunta de apoio do gabarito (última página). Ela ajuda sem entregar a resposta.</li><li><b>Cada resposta vira uma letra.</b> Se a palavra-código não fizer sentido, alguma conta está errada: voltem ao desenho e procurem juntos.</li><li><b>Feche pedindo:</b> “Me explica o seu desenho da etapa 2.”</li></ol>
+  <div class="box"><b>Antes de avançar:</b> Pode passar para a próxima missão quando a criança explicar o desenho da etapa 2 com as próprias palavras (“25% é 1 de 4 pedaços”). Se ainda não, refaça só essa etapa outro dia com outros números (ex.: 25% de desconto em 360 pontos).</div>
+  <h2>Com irmãos</h2>
+  <div class="box">Imprima as páginas da missão uma vez e resolvam juntos, trocando de papel a cada etapa: <b>leitor</b> (lê em voz alta), <b>desenhista</b> (faz a barra) e <b>calculista</b> (faz a conta e confere no desenho). Com 2 crianças, o leitor também desenha. Se estiverem em níveis diferentes, cada um faz a missão do seu nível e, no fim, os dois contam um ao outro como desenharam.</div>
+  <div class="rodape">Math Missions · O Mistério da Loja do Jogo · missão de amostra</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-08</span><span class="dir">Missão</span></div>
+  <div class="cab"><div><svg viewBox="0 0 120 120" width="100"><path d="M60 10 L100 24 V56 q0 34 -40 54 q-40 -20 -40 -54 V24 Z" fill="none" stroke="#000" stroke-width="3"/><path d="M60 36 L66 50 H80 L68 59 L73 74 L60 65 L47 74 L52 59 L40 50 H54 Z" fill="none" stroke="#000" stroke-width="2.5"/></svg></div><div><h1>O Mistério da Loja do Jogo</h1></div></div>
+  <div class="abertura">Na loja do jogo de aventura da família, os itens ganharam desconto. Mas a soma do carrinho não fecha com os preços da vitrine. Descubra qual item está com o preço errado.</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">O desconto da espada</span><span class="tag">rapidinha</span>
+  <p>A espada custa 300 pontos e está com 10% de desconto. De quantos pontos é o desconto?</p>
+  <div class="espaco curto"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">O escudo</span><span class="tag d">desenhe o problema</span>
+  <p>O escudo custa 480 pontos e está com 25% de desconto. Quanto ele custa agora?</p><div class="desenho"><div class="ins"><b class="lbl">1º DESENHE</b>Antes de fazer a conta, desenhe a barra do preço cheio dividida em 4 pedaços iguais (25% = 1 pedaço). Ponha <b>?</b> no que você quer descobrir.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2º CALCULE: a conta que o desenho mostrou</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · O Mistério da Loja do Jogo</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-08</span><span class="dir">Missão (continuação)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">O elmo</span>
+  <p>O elmo custa 250 pontos e está com 50% de desconto. Quanto ele custa agora?</p>
+  <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">O carrinho</span>
+  <p>No carrinho estão a espada com desconto (270), o escudo com desconto (360) e o elmo. A soma do carrinho deu 880 pontos. Qual preço do elmo o carrinho usou?</p>
+  <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  <div class="dica"><b>DICA:</b> nenhuma pista diz qual conta fazer. Leia com calma, descubra o que está sendo pedido e escolha a conta. Na dúvida, desenhe.</div>
+  <h2>Abra o código <span class="small" style="font-weight:400">· procure cada resposta na tabela e escreva a letra na caixa da etapa</span></h2>
+  <table class="cod"><tr><td>30</td><td>120</td><td>125</td><td>200</td><td>250</td><td>290</td><td>360</td><td>630</td></tr><tr><td class="l">E</td><td class="l">T</td><td class="l">M</td><td class="l">Z</td><td class="l">O</td><td class="l">P</td><td class="l">L</td><td class="l">C</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>O que aconteceu?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · O Mistério da Loja do Jogo</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-08</span><span class="dir">Gabarito explicado · para o adulto</span></div>
+  <h1>Gabarito: O Mistério da Loja do Jogo</h1>
+  <div class="item"><b>Etapa 1 — O desconto da espada</b> · <span class="r">30</span> (letra E)
+  <div><b>Como pensar:</b> 10% é 1 de 10 pedaços iguais: 300 ÷ 10. <span class="small">Conta: 10% = 1/10 · 300 ÷ 10 = 30.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Se 300 fosse dividido em 10 pedaços, quanto vale um?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 290, quando a criança tirou 10 pontos em vez de 10%. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 2 — O escudo</b> · <span class="r">360</span> (letra L)
+  <div><b>Como pensar:</b> 25% é 1 de 4 pedaços. Ache o pedaço (o desconto) e tire do preço. <span class="small">Conta: 25% = 1/4 · 480 ÷ 4 = 120 · 480 − 120 = 360.</span></div>
+  <div><b>O desenho esperado</b> (vale qualquer desenho com as mesmas partes):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="188.84" y="5" width="34.32" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">480</text><rect x="0" y="34" width="103" height="24" fill="#d9d9d9" stroke="#000" stroke-width="2"/><text x="51.5" y="51" text-anchor="middle" font-size="12" font-weight="500">120</text><rect x="103" y="34" width="309" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="257.5" y="51" text-anchor="middle" font-size="12" font-weight="800">?</text></svg></div><div>O pedaço pintado é o desconto (480 ÷ 4 = 120). O preço novo são os 3 pedaços brancos: 360.</div>
+  <div><b>Se travar, pergunte:</b> “A pergunta é o desconto ou o preço depois do desconto?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 120, quando a criança respondeu o desconto, e não o preço novo. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 3 — O elmo</b> · <span class="r">125</span> (letra M)
+  <div><b>Como pensar:</b> 50% é a metade: 250 ÷ 2. <span class="small">Conta: 50% = metade · 250 ÷ 2 = 125.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Quanto é a metade de 250?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 200, quando a criança tirou 50 pontos em vez de 50%. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 4 — O carrinho</b> · <span class="r">250</span> (letra O)
+  <div><b>Como pensar:</b> O carrinho é o todo. Espada e escudo são partes conhecidas. O elmo é o que falta. <span class="small">Conta: 270 + 360 = 630 · 880 − 630 = 250.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Quanto custam espada e escudo juntos? Quanto falta para 880?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 630, quando a criança respondeu a soma dos outros dois itens. Essa resposta leva a outra letra, e a palavra não fecha.</div></div>
+  <div class="box"><b>Palavra-código: ELMO.</b> O carrinho cobrou 250 pontos pelo ELMO, sem o desconto de 50%. Com o preço certo (125), a soma fecha e sobram pontos para uma poção!</div>
+  <div class="rodape">Math Missions · gabarito</div></section><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-09</span><span class="dir">Para o adulto · leia antes (2 minutos)</span></div>
+  <h1>O Caso do Jardim Retangular</h1>
+  <div class="box"><b>Tempo:</b> 25 a 35 minutos · <b>Pratica:</b> perímetro (m) e área (m²) · <b>Material:</b> lápis, borracha e esta folha impressa (opcional: relógio de ponteiros, feijões ou tampinhas).</div>
+  <h2>O método nesta missão: desenhe antes de calcular</h2>
+  <p>A etapa 3 é a etapa <b>“desenhe o problema”</b>. Nela, a criança passa pelos 3 passos do método de Singapura (detalhes no Guia para Pais):</p>
+  <div class="passos"><div><b>1. Concreto</b><br>Numa folha quadriculada, a criança desenha o jardim com 12 quadradinhos de comprimento e 8 de largura e conta os quadradinhos de dentro (área) e os lados de fora (perímetro).</div><div><b>2. Desenho</b><br>A criança desenha a barra e põe <b>?</b> no que quer descobrir. Só depois faz a conta.</div><div><b>3. Conta</b><br>Com o desenho pronto, ela escreve a conta e confere a resposta olhando o desenho.</div></div>
+  <h2>Como conduzir</h2>
+  <ol><li><b>Leia a abertura em voz alta, com clima de mistério.</b> A 1ª etapa é curtinha, de propósito: é para a criança entrar no jogo rápido.</li><li><b>Não diga qual conta fazer.</b> O enunciado não diz se é de mais, de menos ou de vezes. Descobrir isso é o exercício, e o desenho é o que mostra a resposta.</li><li><b>Se a criança travar, peça o desenho antes de qualquer ajuda:</b> “Me mostra isso numa barra.” Depois use a pergunta de apoio do gabarito (última página). Ela ajuda sem entregar a resposta.</li><li><b>Cada resposta vira uma letra.</b> Se a palavra-código não fizer sentido, alguma conta está errada: voltem ao desenho e procurem juntos.</li><li><b>Feche pedindo:</b> “Me explica o seu desenho da etapa 3.”</li></ol>
+  <div class="box"><b>Antes de avançar:</b> Pode passar para a próxima missão quando a criança explicar o desenho da etapa 3 com as próprias palavras. Se ainda não, refaça só essa etapa outro dia com outros números (ex.: jardim de 10 m por 6 m, 27,5 m de tela).</div>
+  <h2>Com irmãos</h2>
+  <div class="box">Imprima as páginas da missão uma vez e resolvam juntos, trocando de papel a cada etapa: <b>leitor</b> (lê em voz alta), <b>desenhista</b> (faz a barra) e <b>calculista</b> (faz a conta e confere no desenho). Com 2 crianças, o leitor também desenha. Se estiverem em níveis diferentes, cada um faz a missão do seu nível e, no fim, os dois contam um ao outro como desenharam.</div>
+  <div class="rodape">Math Missions · O Caso do Jardim Retangular · missão de amostra</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-09</span><span class="dir">Missão</span></div>
+  <div class="cab"><div><svg viewBox="0 0 130 110" width="120"><g fill="none" stroke="#000" stroke-width="3"><path d="M16 96 V34 l8 -12 8 12 V96 M48 96 V34 l8 -12 8 12 V96 M80 96 V34 l8 -12 8 12 V96"/><path d="M10 50 H120 M10 78 H120" stroke-dasharray="0"/></g><path d="M104 96 V40" stroke="#000" stroke-width="3" stroke-dasharray="6 4"/></svg></div><div><h1>O Caso do Jardim Retangular</h1></div></div>
+  <div class="abertura">A família comprou tela nova para cercar o jardim retangular, mas ela não deu para fechar tudo. A loja jura que mandou a medida certa. Quem errou a conta?</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">A área do jardim</span><span class="tag">rapidinha</span>
+  <p>O jardim mede 12 m de comprimento e 8 m de largura. Qual é a área do jardim?</p>
+  <div class="espaco curto"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">A volta do jardim</span>
+  <p>Qual é o perímetro do jardim, isto é, a volta toda?</p>
+  <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  <div class="dica"><b>DICA:</b> nenhuma pista diz qual conta fazer. Leia com calma, descubra o que está sendo pedido e escolha a conta. Na dúvida, desenhe.</div>
+  
+  <div class="rodape">Math Missions · O Caso do Jardim Retangular</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-09</span><span class="dir">Missão (continuação)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">A tela que faltou</span><span class="tag d">desenhe o problema</span>
+  <p>A loja mandou 34,5 m de tela. Quantos metros faltam para fechar a volta do jardim (40 m)?</p><div class="desenho"><div class="ins"><b class="lbl">1º DESENHE</b>Antes de fazer a conta, desenhe a volta do jardim como uma barra: o todo e a parte que a tela cobre. Ponha <b>?</b> no que você quer descobrir.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2º CALCULE: a conta que o desenho mostrou</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">Os rolos</span>
+  <p>A tela é vendida em rolos de 2,5 m. Quantos rolos a família precisa comprar para cobrir os 5,5 m que faltam?</p>
+  <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  
+  <h2>Abra o código <span class="small" style="font-weight:400">· procure cada resposta na tabela e escreva a letra na caixa da etapa</span></h2>
+  <table class="cod"><tr><td>2</td><td>3</td><td>5,5 m</td><td>20 m</td><td>20 m²</td><td>40 m</td><td>74,5 m</td><td>96 m²</td></tr><tr><td class="l">H</td><td class="l">A</td><td class="l">L</td><td class="l">Z</td><td class="l">S</td><td class="l">E</td><td class="l">D</td><td class="l">T</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>O que aconteceu?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · O Caso do Jardim Retangular</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-09</span><span class="dir">Gabarito explicado · para o adulto</span></div>
+  <h1>Gabarito: O Caso do Jardim Retangular</h1>
+  <div class="item"><b>Etapa 1 — A área do jardim</b> · <span class="r">96 m²</span> (letra T)
+  <div><b>Como pensar:</b> A área conta os quadradinhos de 1 m² de dentro: 12 fileiras de 8. <span class="small">Conta: 12 × 8 = 96 m².</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Na folha quadriculada, quantos quadradinhos cabem dentro do jardim?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 20 m², quando a criança somou os lados em vez de multiplicar. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 2 — A volta do jardim</b> · <span class="r">40 m</span> (letra E)
+  <div><b>Como pensar:</b> O retângulo tem 4 lados: 2 de 12 m e 2 de 8 m. <span class="small">Conta: 12 + 8 + 12 + 8 = 40 m.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Passe o dedo em volta do jardim. Quantos lados você contou?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 20 m, quando a criança somou só 2 lados, e não os 4. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 3 — A tela que faltou</b> · <span class="r">5,5 m</span> (letra L)
+  <div><b>Como pensar:</b> A volta toda é o todo (40). A tela é uma parte. O que falta é a outra. <span class="small">Conta: 40,0 − 34,5 = 5,5 m.</span></div>
+  <div><b>O desenho esperado</b> (vale qualquer desenho com as mesmas partes):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="185.12" y="5" width="41.76" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">40 m</text><rect x="0" y="34" width="355.35" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="177.675" y="51" text-anchor="middle" font-size="12" font-weight="500">34,5 m</text><rect x="355.35" y="34" width="56.65" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="383.675" y="51" text-anchor="middle" font-size="12" font-weight="800">?</text></svg></div><div>O perímetro (40 m) é o todo; a tela que chegou é uma parte. O que falta é 40 − 34,5.</div>
+  <div><b>Se travar, pergunte:</b> “De 34,5 até 40, faltam quantos metros?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 74,5 m, quando a criança somou em vez de ver o que falta. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 4 — Os rolos</b> · <span class="r">3</span> (letra A)
+  <div><b>Como pensar:</b> Some rolos de 2,5 m até passar de 5,5 m. <span class="small">Conta: 2 rolos = 5 m (não chega) · 3 rolos = 7,5 m: 3 rolos.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Com 2 rolos, quantos metros você tem? Chega?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 2, quando a criança comprou 2 rolos, que dão só 5 m e não fecham a cerca. Essa resposta leva a outra letra, e a palavra não fecha.</div></div>
+  <div class="box"><b>Palavra-código: TELA.</b> Faltaram 5,5 m de TELA: a loja mandou 34,5 m, mas o jardim tem 40 m de volta. Com 3 rolos a mais, a cerca fechou.</div>
+  <div class="rodape">Math Missions · gabarito</div></section><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-10</span><span class="dir">Para o adulto · leia antes (2 minutos)</span></div>
+  <h1>O Grande Mistério da Estação Espacial</h1>
+  <div class="box"><b>Tempo:</b> 30 a 45 minutos · <b>Pratica:</b> Missão de Fechamento do Nível 3: soma e diferença, fração do que sobrou, partes desiguais e antes e depois · <b>Material:</b> lápis, borracha e esta folha impressa (opcional: relógio de ponteiros, feijões ou tampinhas).</div>
+  <h2>O método nesta missão: desenhe antes de calcular</h2>
+  <p>Esta é a <b>Missão de Fechamento</b> do nível: as 4 etapas são de desenho, e cada uma usa um dos desenhos que a criança já domina. Em cada etapa, ela passa pelos 3 passos do método de Singapura (detalhes no Guia para Pais):</p>
+  <div class="passos"><div><b>1. Concreto</b><br>Use tiras de papel e tesoura: a criança corta, dobra e compara tiras para conferir cada etapa antes de desenhar.</div><div><b>2. Desenho</b><br>A criança desenha a barra e põe <b>?</b> no que quer descobrir. Só depois faz a conta.</div><div><b>3. Conta</b><br>Com o desenho pronto, ela escreve a conta e confere a resposta olhando o desenho.</div></div>
+  <h2>Como conduzir</h2>
+  <ol><li><b>Leia a abertura em voz alta, com clima de mistério.</b> A 1ª etapa é curtinha, de propósito: é para a criança entrar no jogo rápido.</li><li><b>Não diga qual conta fazer.</b> O enunciado não diz se é de mais, de menos ou de vezes. Descobrir isso é o exercício, e o desenho é o que mostra a resposta.</li><li><b>Se a criança travar, peça o desenho antes de qualquer ajuda:</b> “Me mostra isso numa barra.” Depois use a pergunta de apoio do gabarito (última página). Ela ajuda sem entregar a resposta.</li><li><b>Cada resposta vira uma letra.</b> Se a palavra-código não fizer sentido, alguma conta está errada: voltem ao desenho e procurem juntos.</li><li><b>Feche pedindo:</b> “Me explica os seus 4 desenhos.” Para passar de nível, a palavra-código precisa fechar e a criança precisa explicar sozinha pelo menos 3 dos 4 desenhos.</li></ol>
+  <div class="box"><b>Antes de avançar:</b> Esta é a Missão de Fechamento do Nível 3. A criança conclui as Math Missions quando a palavra-código fecha e ela explica sozinha pelo menos 3 dos 4 desenhos. Se ainda não, refaça outro dia só os desenhos que ficaram difíceis, com outros números, e volte a esta missão.</div>
+  <h2>Com irmãos</h2>
+  <div class="box">Imprima as páginas da missão uma vez e resolvam juntos, trocando de papel a cada etapa: <b>leitor</b> (lê em voz alta), <b>desenhista</b> (faz a barra) e <b>calculista</b> (faz a conta e confere no desenho). Com 2 crianças, o leitor também desenha. Se estiverem em níveis diferentes, cada um faz a missão do seu nível e, no fim, os dois contam um ao outro como desenharam.</div>
+  <div class="rodape">Math Missions · O Grande Mistério da Estação Espacial · missão de amostra</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-10</span><span class="dir">Missão</span></div>
+  <div class="cab"><div><svg viewBox="0 0 120 130" width="100"><path d="M60 8 q26 24 22 72 H38 q-4 -48 22 -72 Z" fill="none" stroke="#000" stroke-width="3"/><circle cx="60" cy="48" r="10" fill="none" stroke="#000" stroke-width="3"/><path d="M38 66 L22 92 L40 86 M82 66 L98 92 L80 86 M48 80 q12 34 24 0" fill="none" stroke="#000" stroke-width="3"/></svg></div><div><h1>O Grande Mistério da Estação Espacial</h1></div></div>
+  <div class="abertura">Na estação espacial do jogo, o oxigênio está acabando mais rápido do que o previsto. A comandante precisa achar o problema antes do fim do turno. Use os 4 desenhos do Nível 3.</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">Os dois tanques</span><span class="tag d">desenhe o problema</span>
+  <p>Os 2 tanques de oxigênio têm juntos 1 200 L. O tanque A tem 300 L a mais que o B. Quantos litros tem o tanque A?</p><div class="desenho"><div class="ins"><b class="lbl">1º DESENHE</b>Desenhe uma barra para cada tanque, mostrando o pedaço “a mais”. Marque o total e ponha <b>?</b> no que você quer descobrir.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2º CALCULE: a conta que o desenho mostrou</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · O Grande Mistério da Estação Espacial</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-10</span><span class="dir">Missão (continuação)</span></div>
+  
+  <div class="etapa"><span class="num">2</span><span class="tit">Os turnos</span><span class="tag d">desenhe o problema</span>
+  <p>No 1º turno, gastou-se 1/5 do tanque A (750 L). No 2º turno, 1/3 do que tinha sobrado. Quantos litros restaram no tanque A?</p><div class="desenho"><div class="ins"><b class="lbl">1º DESENHE</b>Desenhe a barra do tanque A. Separe o 1º turno; depois divida o que sobrou em 3 e separe 1 pedaço. Ponha <b>?</b> no que você quer descobrir.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2º CALCULE: a conta que o desenho mostrou</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">3</span><span class="tit">Cabine e laboratório</span><span class="tag d">desenhe o problema</span>
+  <p>Os 400 L restantes são divididos entre a cabine e o laboratório na razão 3 : 5. Quantos litros vão para a cabine?</p><div class="desenho"><div class="ins"><b class="lbl">1º DESENHE</b>Desenhe uma barra para a cabine e outra para o laboratório, com pedaços iguais (3 e 5). Marque o total e ponha <b>?</b> no que você quer descobrir.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2º CALCULE: a conta que o desenho mostrou</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · O Grande Mistério da Estação Espacial</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-10</span><span class="dir">Missão (continuação)</span></div>
+  
+  <div class="etapa"><span class="num">4</span><span class="tit">O equilíbrio</span><span class="tag d">desenhe o problema</span>
+  <p>Depois de consertado o tubo, a cabine tem 150 L e o laboratório, 250 L. A comandante quer os dois iguais. Quantos litros devem passar do laboratório para a cabine?</p><div class="desenho"><div class="ins"><b class="lbl">1º DESENHE</b>Desenhe as duas barras antes da troca, alinhadas à esquerda. Mostre a diferença e ponha <b>?</b> no pedaço que passa para a cabine.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2º CALCULE: a conta que o desenho mostrou</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  
+  <h2>Abra o código <span class="small" style="font-weight:400">· procure cada resposta na tabela e escreva a letra na caixa da etapa</span></h2>
+  <table class="cod"><tr><td>50 L</td><td>100 L</td><td>150 L</td><td>240 L</td><td>350 L</td><td>400 L</td><td>450 L</td><td>750 L</td></tr><tr><td class="l">O</td><td class="l">G</td><td class="l">B</td><td class="l">D</td><td class="l">Z</td><td class="l">U</td><td class="l">R</td><td class="l">T</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>O que aconteceu?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · O Grande Mistério da Estação Espacial</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-10</span><span class="dir">Gabarito explicado · para o adulto</span></div>
+  <h1>Gabarito: O Grande Mistério da Estação Espacial</h1>
+  <div class="item"><b>Etapa 1 — Os dois tanques</b> · <span class="r">750 L</span> (letra T)
+  <div><b>Como pensar:</b> Tire o pedaço “a mais”, divida o resto por 2 (é o B) e some o pedaço de volta para achar o A. <span class="small">Conta: 1 200 − 300 = 900 · 900 ÷ 2 = 450 (tanque B) · 450 + 300 = 750 L.</span></div>
+  <div><b>O desenho esperado</b> (vale qualquer desenho com as mesmas partes):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 110" width="420" height="110" font-family="Inter, DejaVu Sans, sans-serif"><path d="M79 30 V22 H332.92 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="196.24" y="5" width="19.439999999999998" height="20" fill="#fff"/><text x="205.96" y="19" text-anchor="middle" font-size="12" font-weight="700">?</text><text x="0" y="51" font-size="11" font-weight="700">Tanque A</text><rect x="78" y="34" width="153.552" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="154.776" y="51" text-anchor="middle" font-size="12" font-weight="500">450</text><rect x="231.552" y="34" width="102.36800000000001" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="282.736" y="51" text-anchor="middle" font-size="12" font-weight="500">300</text><text x="0" y="89" font-size="11" font-weight="700">Tanque B</text><rect x="78" y="72" width="153.552" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="154.776" y="89" text-anchor="middle" font-size="12" font-weight="500">450</text><path d="M343.92 4 H350.92 V96 H343.92" fill="none" stroke="#000" stroke-width="1.6"/><text x="355.92" y="55" font-size="12" font-weight="700">1 200 L</text></svg></div><div>Soma e diferença: sem os 300 L, sobram 2 barras iguais de 450 L. O tanque A é 450 + 300.</div>
+  <div><b>Se travar, pergunte:</b> “Sem os 300 a mais, os tanques seriam iguais. Quanto teria cada um?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 450 L, quando a criança achou o tanque B e esqueceu de somar os 300 L a mais do A. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 2 — Os turnos</b> · <span class="r">400 L</span> (letra U)
+  <div><b>Como pensar:</b> Primeiro o 1º turno (1/5 de 750). O 1/3 do 2º turno é do que sobrou. <span class="small">Conta: 750 ÷ 5 = 150 · sobram 600 · 600 ÷ 3 = 200 · 600 − 200 = 400 L.</span></div>
+  <div><b>O desenho esperado</b> (vale qualquer desenho com as mesmas partes):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="181.4" y="5" width="49.2" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">750 L</text><rect x="0" y="34" width="82.4" height="24" fill="#d9d9d9" stroke="#000" stroke-width="2"/><text x="41.2" y="51" text-anchor="middle" font-size="12" font-weight="500">150</text><rect x="82.4" y="34" width="109.86666666666667" height="24" fill="#d9d9d9" stroke="#000" stroke-width="2"/><text x="137.33333333333334" y="51" text-anchor="middle" font-size="12" font-weight="500">200</text><rect x="192.26666666666668" y="34" width="219.73333333333335" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="302.1333333333333" y="51" text-anchor="middle" font-size="12" font-weight="800">?</text></svg></div><div>Fração do que sobrou: o 1º turno leva 150 L; dos 600 que sobram, 1/3 (200) vai no 2º turno. Restam 400 L.</div>
+  <div><b>Se travar, pergunte:</b> “O 1/3 é dos 750 L ou do que ficou depois do 1º turno?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 350 L, quando a criança calculou 1/3 do tanque cheio, e não do que tinha sobrado. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 3 — Cabine e laboratório</b> · <span class="r">150 L</span> (letra B)
+  <div><b>Como pensar:</b> A divisão tem 8 partes iguais (3 + 5). Ache 1 parte e pegue 3. <span class="small">Conta: 3 + 5 = 8 partes · 400 ÷ 8 = 50 · 3 × 50 = 150 L.</span></div>
+  <div><b>O desenho esperado</b> (vale qualquer desenho com as mesmas partes):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 110" width="420" height="110" font-family="Inter, DejaVu Sans, sans-serif"><path d="M79 30 V22 H239.48000000000002 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="149.52" y="5" width="19.439999999999998" height="20" fill="#fff"/><text x="159.24" y="19" text-anchor="middle" font-size="12" font-weight="700">?</text><text x="0" y="51" font-size="11" font-weight="700">Cabine</text><rect x="78" y="34" width="54.160000000000004" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="105.08" y="51" text-anchor="middle" font-size="12" font-weight="500">50</text><rect x="132.16" y="34" width="54.160000000000004" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="159.24" y="51" text-anchor="middle" font-size="12" font-weight="500">50</text><rect x="186.32" y="34" width="54.160000000000004" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="213.4" y="51" text-anchor="middle" font-size="12" font-weight="500">50</text><text x="0" y="89" font-size="11" font-weight="700">Laboratório</text><rect x="78" y="72" width="54.160000000000004" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="105.08" y="89" text-anchor="middle" font-size="12" font-weight="500">50</text><rect x="132.16" y="72" width="54.160000000000004" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="159.24" y="89" text-anchor="middle" font-size="12" font-weight="500">50</text><rect x="186.32" y="72" width="54.160000000000004" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="213.4" y="89" text-anchor="middle" font-size="12" font-weight="500">50</text><rect x="240.48" y="72" width="54.160000000000004" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="267.56" y="89" text-anchor="middle" font-size="12" font-weight="500">50</text><rect x="294.64" y="72" width="54.160000000000004" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="321.71999999999997" y="89" text-anchor="middle" font-size="12" font-weight="500">50</text><path d="M358.8 4 H365.8 V96 H358.8" fill="none" stroke="#000" stroke-width="1.6"/><text x="370.8" y="55" font-size="12" font-weight="700">400 L</text></svg></div><div>Partes desiguais: 8 pedaços de 50 L. A cabine fica com 3 pedaços: 150 L.</div>
+  <div><b>Se travar, pergunte:</b> “Quantas partes são ao todo? Quanto vale cada parte?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 240 L, quando a criança dividiu por 5 em vez de pelas 8 partes da divisão. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 4 — O equilíbrio</b> · <span class="r">50 L</span> (letra O)
+  <div><b>Como pensar:</b> Para empatar, passa metade da diferença. <span class="small">Conta: 250 − 150 = 100 · 100 ÷ 2 = 50 L (os dois ficam com 200 L).</span></div>
+  <div><b>O desenho esperado</b> (vale qualquer desenho com as mesmas partes):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 80" width="420" height="80" font-family="Inter, DejaVu Sans, sans-serif"><text x="0" y="21" font-size="11" font-weight="700">Laboratório</text><rect x="78" y="4" width="200.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="178.2" y="21" text-anchor="middle" font-size="12" font-weight="500">150</text><rect x="278.4" y="4" width="66.8" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="311.79999999999995" y="21" text-anchor="middle" font-size="12" font-weight="800">?</text><rect x="345.2" y="4" width="66.8" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="378.59999999999997" y="21" text-anchor="middle" font-size="12" font-weight="500"> </text><text x="0" y="59" font-size="11" font-weight="700">Cabine</text><rect x="78" y="42" width="200.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="178.2" y="59" text-anchor="middle" font-size="12" font-weight="500">150</text></svg></div><div>Antes e depois: a diferença (100 L) é dividida ao meio. Passam 50 L e os dois ficam com 200 L.</div>
+  <div><b>Se travar, pergunte:</b> “Se passar 100 L, quem fica com mais? E se passar a metade?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 100 L, quando a criança passou a diferença toda, e aí a cabine ficou com mais. Essa resposta leva a outra letra, e a palavra não fecha.</div></div>
+  <div class="box"><b>Palavra-código: TUBO.</b> O oxigênio vazava por um TUBO solto entre os tanques. Com o tubo consertado, a comandante equilibrou a cabine e o laboratório com 200 L cada. Missão cumprida!</div>
+  <div class="rodape">Math Missions · gabarito</div></section></body></html>

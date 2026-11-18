@@ -1,0 +1,115 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>O Mistério da Lancheira Trocada</title><style>
+@page { size: A4; margin: 14mm; }
+* { box-sizing: border-box; }
+body { font-family: Inter, 'DejaVu Sans', sans-serif; color: #111; font-size: 12.5pt; line-height: 1.45; margin: 0; }
+.pagina { page-break-after: always; position: relative; height: 266mm; overflow: hidden; }
+.pagina:last-child { page-break-after: auto; }
+.topo { display: flex; align-items: center; gap: 10px; border-bottom: 2px solid #111; padding-bottom: 5px; margin-bottom: 12px; font-size: 9.5pt; font-weight: 800; letter-spacing: .05em; }
+.nivel { background: #111; color: #fff; border-radius: 6px; padding: 3px 10px; font-size: 11pt; }
+.topo .dir { margin-left: auto; }
+h1 { font-size: 24pt; margin: 4px 0 8px; line-height: 1.1; }
+h2 { font-size: 15pt; margin: 14px 0 6px; }
+.cab { display: flex; gap: 16px; align-items: center; }
+.abertura { border: 2px solid #111; border-radius: 10px; padding: 10px 14px; font-size: 13.5pt; margin: 8px 0 14px; }
+.etapa { border: 1.5px solid #111; border-radius: 10px; padding: 10px 14px; margin-bottom: 12px; page-break-inside: avoid; }
+.etapa .num { display: inline-flex; width: 30px; height: 30px; border-radius: 8px; background: #111; color: #fff; align-items: center; justify-content: center; font-weight: 800; margin-right: 8px; }
+.etapa .tit { font-weight: 800; font-size: 13.5pt; }
+.etapa .tag { font-size: 9.5pt; border: 1px solid #111; border-radius: 10px; padding: 0 8px; margin-left: 6px; }
+.etapa p { margin: 6px 0; font-size: 13.5pt; }
+.espaco { border: 1.5px dashed #777; border-radius: 8px; height: 30mm; margin-top: 6px; position: relative; }
+.espaco.curto { height: 16mm; }
+.espaco span { position: absolute; left: 10px; top: 4px; font-size: 9pt; color: #555; }
+.resp { margin-top: 6px; font-weight: 800; }
+.resp i { display: inline-block; border-bottom: 1.5px solid #111; width: 55mm; }
+.dica { border: 2px dashed #111; border-radius: 10px; padding: 8px 12px; font-size: 11pt; margin: 10px 0; }
+table.cod { border-collapse: collapse; margin: 6px 0 10px; }
+table.cod td { border: 1.5px solid #111; padding: 6px 12px; text-align: center; font-size: 12.5pt; }
+table.cod td.l { font-weight: 800; font-size: 15pt; }
+.caixas { display: flex; gap: 10px; margin: 8px 0; }
+.fim { display: flex; gap: 14px; align-items: flex-start; }
+.oque { flex: 1; }
+.caixas div span { font-size: 8pt; margin: 2px 4px; display: block; }
+.caixas div { width: 15mm; height: 15mm; border: 2px solid #111; border-radius: 8px; }
+.linha { border-bottom: 1.5px solid #111; height: 8mm; margin: 4px 0; }
+.adulto li, .gab li { margin-bottom: 6px; }
+.box { border: 1.5px solid #111; border-radius: 10px; padding: 8px 14px; margin: 8px 0; }
+.gab .item { border-bottom: 1px solid #999; padding: 8px 0; page-break-inside: avoid; }
+.gab .r { font-weight: 800; font-size: 13.5pt; }
+.small { font-size: 10.5pt; color: #333; }
+.desenho { border: 2px solid #111; border-radius: 8px; padding: 6px 10px; margin: 6px 0; }
+.desenho .ins { font-size: 11.5pt; margin-bottom: 6px; }
+.desenho .ins b.lbl { background: #111; color: #fff; border-radius: 4px; padding: 0 6px; margin-right: 4px; }
+.livre { height: 34mm; border: 1px solid #999; border-radius: 6px; background-image: linear-gradient(#ddd 1px, transparent 1px), linear-gradient(90deg, #ddd 1px, transparent 1px); background-size: 5mm 5mm; }
+.tag.d { background: #111; color: #fff; }
+.gab { height: auto !important; overflow: visible !important; }
+.gab .rodape { position: static; margin-top: 10px; }
+.gab .modelo { margin: 4px 0 2px; }
+.passos { display: flex; gap: 8px; margin: 6px 0; }
+.passos div { flex: 1; border: 1.5px solid #111; border-radius: 8px; padding: 6px 8px; font-size: 11pt; }
+.adulto { font-size: 11.3pt; line-height: 1.38; }
+.adulto h1 { font-size: 21pt; }
+.adulto h2 { font-size: 13.5pt; margin: 9px 0 4px; }
+.adulto ol { margin: 4px 0; padding-left: 22px; }
+.adulto li { margin-bottom: 3px !important; }
+.gab { font-size: 11pt; line-height: 1.33; }
+.gab h1 { font-size: 20pt; }
+.gab .item { padding: 5px 0 !important; }
+.rodape { position: absolute; bottom: 0; left: 0; right: 0; font-size: 8.5pt; color: #555; border-top: 1px solid #aaa; padding-top: 3px; }
+</style></head><body><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 1 · Missão 1-01</span><span class="dir">Para o adulto · leia antes (2 minutos)</span></div>
+  <h1>O Mistério da Lancheira Trocada</h1>
+  <div class="box"><b>Tempo:</b> 20 a 25 minutos · <b>Pratica:</b> adição: juntar (até 100) · <b>Material:</b> lápis, borracha e esta folha impressa (opcional: relógio de ponteiros, feijões ou tampinhas).</div>
+  <h2>O método nesta missão: desenhe antes de calcular</h2>
+  <p>A etapa 2 é a etapa <b>“desenhe o problema”</b>. Nela, a criança passa pelos 3 passos do método de Singapura (detalhes no Guia para Pais):</p>
+  <div class="passos"><div><b>1. Concreto</b><br>Separe feijões ou tampinhas para serem as uvas. Na etapa 2, a criança faz um montinho de 24 e outro de 15, junta os dois e conta antes de desenhar.</div><div><b>2. Desenho</b><br>A criança desenha a barra e põe <b>?</b> no que quer descobrir. Só depois faz a conta.</div><div><b>3. Conta</b><br>Com o desenho pronto, ela escreve a conta e confere a resposta olhando o desenho.</div></div>
+  <h2>Como conduzir</h2>
+  <ol><li><b>Leia a abertura em voz alta, com clima de mistério.</b> A 1ª etapa é curtinha, de propósito: é para a criança entrar no jogo rápido.</li><li><b>Não diga qual conta fazer.</b> O enunciado não diz se é de mais, de menos ou de vezes. Descobrir isso é o exercício, e o desenho é o que mostra a resposta.</li><li><b>Se a criança travar, peça o desenho antes de qualquer ajuda:</b> “Me mostra isso numa barra.” Depois use a pergunta de apoio do gabarito (última página). Ela ajuda sem entregar a resposta.</li><li><b>Cada resposta vira uma letra.</b> Se a palavra-código não fizer sentido, alguma conta está errada: voltem ao desenho e procurem juntos.</li><li><b>Feche pedindo:</b> “Me explica o seu desenho da etapa 2.”</li></ol>
+  <div class="box"><b>Antes de avançar:</b> Pode passar para a próxima missão quando a criança explicar o desenho da etapa 2 com as próprias palavras (“essa parte é…, essa outra é…, e em cima vai o total”). Se ainda não, refaça só essa etapa outro dia com outros números (ex.: 32 uvas em cima e 16 embaixo).</div>
+  <h2>Com irmãos</h2>
+  <div class="box">Imprima as páginas da missão uma vez e resolvam juntos, trocando de papel a cada etapa: <b>leitor</b> (lê em voz alta), <b>desenhista</b> (faz a barra) e <b>calculista</b> (faz a conta e confere no desenho). Com 2 crianças, o leitor também desenha. Se estiverem em níveis diferentes, cada um faz a missão do seu nível e, no fim, os dois contam um ao outro como desenharam.</div>
+  <div class="rodape">Math Missions · O Mistério da Lancheira Trocada · missão de amostra</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 1 · Missão 1-01</span><span class="dir">Missão</span></div>
+  <div class="cab"><div><svg viewBox="0 0 120 110" width="115"><rect x="12" y="38" width="96" height="62" rx="10" fill="none" stroke="#000" stroke-width="3"/><path d="M42 38 V24 H78 V38" fill="none" stroke="#000" stroke-width="3"/><path d="M12 60 H108" stroke="#000" stroke-width="2"/><circle cx="60" cy="60" r="5"/></svg></div><div><h1>O Mistério da Lancheira Trocada</h1></div></div>
+  <div class="abertura">No piquenique do parque, duas lancheiras azuis iguaizinhas foram trocadas. A de Lia tem um bilhete dentro: “a minha é a que tem mais uvas”. Conte com cuidado e descubra qual lancheira é de quem.</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">A lancheira A</span><span class="tag">rapidinha</span>
+  <p>A lancheira A tem 6 uvas verdes e 5 uvas roxas. Quantas uvas há na lancheira A?</p>
+  <div class="espaco curto"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">A lancheira B</span><span class="tag d">desenhe o problema</span>
+  <p>A lancheira B tem 24 uvas no pote de cima e 15 uvas no pote de baixo. Quantas uvas há na lancheira B?</p><div class="desenho"><div class="ins"><b class="lbl">1º DESENHE</b>Antes de fazer a conta, complete o desenho. Escreva em cada parte quantas uvas há em cada pote e ponha <b>?</b> em cima, no total.</div><svg class="barra" viewBox="0 0 560 84" width="560" height="84" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H551 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="237.45" y="5" width="77.1" height="20" fill="#fff"/><text x="276" y="19" text-anchor="middle" font-size="15" font-weight="700">_______</text><rect x="0" y="34" width="339.6923076923077" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="169.84615384615384" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="339.6923076923077" y="34" width="212.3076923076923" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="445.8461538461538" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text></svg></div>
+  <div class="espaco curto"><span>2º CALCULE: a conta que o desenho mostrou</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · O Mistério da Lancheira Trocada</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 1 · Missão 1-01</span><span class="dir">Missão (continuação)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">Os guardanapos</span>
+  <p>Na toalha há 10 guardanapos ao lado da lancheira A, 10 ao lado da lancheira B e mais 7 soltos. Quantos guardanapos há ao todo?</p>
+  <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">Todas as uvas</span>
+  <p>Juntando as uvas das duas lancheiras (11 e 39), quantas uvas há no piquenique?</p>
+  <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  <div class="dica"><b>DICA:</b> nenhuma pista diz qual conta fazer. Leia com calma, descubra o que está sendo pedido e escolha a conta. Na dúvida, desenhe.</div>
+  <h2>Abra o código <span class="small" style="font-weight:400">· procure cada resposta na tabela e escreva a letra na caixa da etapa</span></h2>
+  <table class="cod"><tr><td>1</td><td>9</td><td>11</td><td>20</td><td>27</td><td>39</td><td>40</td><td>50</td></tr><tr><td class="l">X</td><td class="l">C</td><td class="l">U</td><td class="l">F</td><td class="l">A</td><td class="l">V</td><td class="l">I</td><td class="l">S</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>O que aconteceu?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · O Mistério da Lancheira Trocada</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 1 · Missão 1-01</span><span class="dir">Gabarito explicado · para o adulto</span></div>
+  <h1>Gabarito: O Mistério da Lancheira Trocada</h1>
+  <div class="item"><b>Etapa 1 — A lancheira A</b> · <span class="r">11</span> (letra U)
+  <div><b>Como pensar:</b> As uvas verdes e as roxas estão juntas na mesma lancheira: 6 + 5. <span class="small">Conta: 6 + 5 = 11.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Se você puser as uvas verdes e as roxas num prato só, quantas ficam?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 1, quando a criança tirou em vez de juntar. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 2 — A lancheira B</b> · <span class="r">39</span> (letra V)
+  <div><b>Como pensar:</b> Os dois potes são partes da mesma lancheira. O total é a soma das partes: 24 + 15. <span class="small">Conta: 24 + 15 = 39.</span></div>
+  <div><b>O desenho esperado</b> (vale qualquer desenho com as mesmas partes):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="196.28" y="5" width="19.439999999999998" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">?</text><rect x="0" y="34" width="253.53846153846155" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="126.76923076923077" y="51" text-anchor="middle" font-size="12" font-weight="500">24 em cima</text><rect x="253.53846153846155" y="34" width="158.46153846153845" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="332.7692307692308" y="51" text-anchor="middle" font-size="12" font-weight="500">15 embaixo</text></svg></div><div>O desenho mostra 2 partes e o total desconhecido em cima. Quando o ? está no todo, a conta é de mais: 24 + 15.</div>
+  <div><b>Se travar, pergunte:</b> “O que a pergunta quer saber: as uvas de um pote ou da lancheira toda?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 9, quando a criança fez a conta de menos, sem ver que os dois potes se juntam. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 3 — Os guardanapos</b> · <span class="r">27</span> (letra A)
+  <div><b>Como pensar:</b> São 3 grupos: 10, 10 e 7. Junta tudo: 10 + 10 = 20 e mais 7. <span class="small">Conta: 10 + 10 + 7 = 27.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Quantos grupos de guardanapos existem? Você contou todos?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 20, quando a criança esqueceu os guardanapos soltos. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 4 — Todas as uvas</b> · <span class="r">50</span> (letra S)
+  <div><b>Como pensar:</b> Some as dezenas (10 + 30 = 40) e as unidades (1 + 9 = 10). Depois junte: 40 + 10. <span class="small">Conta: 11 + 39 = 50 (1 + 9 = 10; 10 + 30 + 10 = 50).</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Quanto é 1 + 9? Isso vira mais uma dezena?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 40, quando a criança somou só as dezenas e esqueceu que 1 + 9 forma mais uma dezena. Essa resposta leva a outra letra, e a palavra não fecha.</div></div>
+  <div class="box"><b>Palavra-código: UVAS.</b> As UVAS resolveram o caso: a lancheira B, com 39 uvas, é a da Lia. A lancheira A, com 11, é a do Theo. Cada um almoçou com a sua!</div>
+  <div class="rodape">Math Missions · gabarito</div></section></body></html>

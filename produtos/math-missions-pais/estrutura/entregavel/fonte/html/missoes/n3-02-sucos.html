@@ -1,0 +1,115 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>O Caso da Fábrica de Sucos</title><style>
+@page { size: A4; margin: 14mm; }
+* { box-sizing: border-box; }
+body { font-family: Inter, 'DejaVu Sans', sans-serif; color: #111; font-size: 12.5pt; line-height: 1.45; margin: 0; }
+.pagina { page-break-after: always; position: relative; height: 266mm; overflow: hidden; }
+.pagina:last-child { page-break-after: auto; }
+.topo { display: flex; align-items: center; gap: 10px; border-bottom: 2px solid #111; padding-bottom: 5px; margin-bottom: 12px; font-size: 9.5pt; font-weight: 800; letter-spacing: .05em; }
+.nivel { background: #111; color: #fff; border-radius: 6px; padding: 3px 10px; font-size: 11pt; }
+.topo .dir { margin-left: auto; }
+h1 { font-size: 24pt; margin: 4px 0 8px; line-height: 1.1; }
+h2 { font-size: 15pt; margin: 14px 0 6px; }
+.cab { display: flex; gap: 16px; align-items: center; }
+.abertura { border: 2px solid #111; border-radius: 10px; padding: 10px 14px; font-size: 13.5pt; margin: 8px 0 14px; }
+.etapa { border: 1.5px solid #111; border-radius: 10px; padding: 10px 14px; margin-bottom: 12px; page-break-inside: avoid; }
+.etapa .num { display: inline-flex; width: 30px; height: 30px; border-radius: 8px; background: #111; color: #fff; align-items: center; justify-content: center; font-weight: 800; margin-right: 8px; }
+.etapa .tit { font-weight: 800; font-size: 13.5pt; }
+.etapa .tag { font-size: 9.5pt; border: 1px solid #111; border-radius: 10px; padding: 0 8px; margin-left: 6px; }
+.etapa p { margin: 6px 0; font-size: 13.5pt; }
+.espaco { border: 1.5px dashed #777; border-radius: 8px; height: 30mm; margin-top: 6px; position: relative; }
+.espaco.curto { height: 16mm; }
+.espaco span { position: absolute; left: 10px; top: 4px; font-size: 9pt; color: #555; }
+.resp { margin-top: 6px; font-weight: 800; }
+.resp i { display: inline-block; border-bottom: 1.5px solid #111; width: 55mm; }
+.dica { border: 2px dashed #111; border-radius: 10px; padding: 8px 12px; font-size: 11pt; margin: 10px 0; }
+table.cod { border-collapse: collapse; margin: 6px 0 10px; }
+table.cod td { border: 1.5px solid #111; padding: 6px 12px; text-align: center; font-size: 12.5pt; }
+table.cod td.l { font-weight: 800; font-size: 15pt; }
+.caixas { display: flex; gap: 10px; margin: 8px 0; }
+.fim { display: flex; gap: 14px; align-items: flex-start; }
+.oque { flex: 1; }
+.caixas div span { font-size: 8pt; margin: 2px 4px; display: block; }
+.caixas div { width: 15mm; height: 15mm; border: 2px solid #111; border-radius: 8px; }
+.linha { border-bottom: 1.5px solid #111; height: 8mm; margin: 4px 0; }
+.adulto li, .gab li { margin-bottom: 6px; }
+.box { border: 1.5px solid #111; border-radius: 10px; padding: 8px 14px; margin: 8px 0; }
+.gab .item { border-bottom: 1px solid #999; padding: 8px 0; page-break-inside: avoid; }
+.gab .r { font-weight: 800; font-size: 13.5pt; }
+.small { font-size: 10.5pt; color: #333; }
+.desenho { border: 2px solid #111; border-radius: 8px; padding: 6px 10px; margin: 6px 0; }
+.desenho .ins { font-size: 11.5pt; margin-bottom: 6px; }
+.desenho .ins b.lbl { background: #111; color: #fff; border-radius: 4px; padding: 0 6px; margin-right: 4px; }
+.livre { height: 34mm; border: 1px solid #999; border-radius: 6px; background-image: linear-gradient(#ddd 1px, transparent 1px), linear-gradient(90deg, #ddd 1px, transparent 1px); background-size: 5mm 5mm; }
+.tag.d { background: #111; color: #fff; }
+.gab { height: auto !important; overflow: visible !important; }
+.gab .rodape { position: static; margin-top: 10px; }
+.gab .modelo { margin: 4px 0 2px; }
+.passos { display: flex; gap: 8px; margin: 6px 0; }
+.passos div { flex: 1; border: 1.5px solid #111; border-radius: 8px; padding: 6px 8px; font-size: 11pt; }
+.adulto { font-size: 11.3pt; line-height: 1.38; }
+.adulto h1 { font-size: 21pt; }
+.adulto h2 { font-size: 13.5pt; margin: 9px 0 4px; }
+.adulto ol { margin: 4px 0; padding-left: 22px; }
+.adulto li { margin-bottom: 3px !important; }
+.gab { font-size: 11pt; line-height: 1.33; }
+.gab h1 { font-size: 20pt; }
+.gab .item { padding: 5px 0 !important; }
+.rodape { position: absolute; bottom: 0; left: 0; right: 0; font-size: 8.5pt; color: #555; border-top: 1px solid #aaa; padding-top: 3px; }
+</style></head><body><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-02</span><span class="dir">Para o adulto · leia antes (2 minutos)</span></div>
+  <h1>O Caso da Fábrica de Sucos</h1>
+  <div class="box"><b>Tempo:</b> 25 a 35 minutos · <b>Pratica:</b> proporção pela unidade: achar 1 e depois o total · <b>Material:</b> lápis, borracha e esta folha impressa (opcional: relógio de ponteiros, feijões ou tampinhas).</div>
+  <h2>O método nesta missão: desenhe antes de calcular</h2>
+  <p>A etapa 2 é a etapa <b>“desenhe o problema”</b>. Nela, a criança passa pelos 3 passos do método de Singapura (detalhes no Guia para Pais):</p>
+  <div class="passos"><div><b>1. Concreto</b><br>Use garrafas e um copo medidor (ou copos iguais): a criança vê quantos copos de 500 mL enchem 2 L. Na etapa 2, ela separa 2 garrafinhas por litro antes de desenhar.</div><div><b>2. Desenho</b><br>A criança desenha a barra e põe <b>?</b> no que quer descobrir. Só depois faz a conta.</div><div><b>3. Conta</b><br>Com o desenho pronto, ela escreve a conta e confere a resposta olhando o desenho.</div></div>
+  <h2>Como conduzir</h2>
+  <ol><li><b>Leia a abertura em voz alta, com clima de mistério.</b> A 1ª etapa é curtinha, de propósito: é para a criança entrar no jogo rápido.</li><li><b>Não diga qual conta fazer.</b> O enunciado não diz se é de mais, de menos ou de vezes. Descobrir isso é o exercício, e o desenho é o que mostra a resposta.</li><li><b>Se a criança travar, peça o desenho antes de qualquer ajuda:</b> “Me mostra isso numa barra.” Depois use a pergunta de apoio do gabarito (última página). Ela ajuda sem entregar a resposta.</li><li><b>Cada resposta vira uma letra.</b> Se a palavra-código não fizer sentido, alguma conta está errada: voltem ao desenho e procurem juntos.</li><li><b>Feche pedindo:</b> “Me explica o seu desenho da etapa 2.”</li></ol>
+  <div class="box"><b>Antes de avançar:</b> Pode passar para a próxima missão quando a criança explicar o desenho da etapa 2 com as próprias palavras (“primeiro achei quanto vale 1 pedaço”). Se ainda não, refaça só essa etapa outro dia com outros números (ex.: 3 garrafas = 1,5 L; quantas em 6 L?).</div>
+  <h2>Com irmãos</h2>
+  <div class="box">Imprima as páginas da missão uma vez e resolvam juntos, trocando de papel a cada etapa: <b>leitor</b> (lê em voz alta), <b>desenhista</b> (faz a barra) e <b>calculista</b> (faz a conta e confere no desenho). Com 2 crianças, o leitor também desenha. Se estiverem em níveis diferentes, cada um faz a missão do seu nível e, no fim, os dois contam um ao outro como desenharam.</div>
+  <div class="rodape">Math Missions · O Caso da Fábrica de Sucos · missão de amostra</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-02</span><span class="dir">Missão</span></div>
+  <div class="cab"><div><svg viewBox="0 0 120 130" width="100"><path d="M50 8 H70 V30 q18 10 18 30 V118 H32 V60 q0 -20 18 -30 Z" fill="none" stroke="#000" stroke-width="3"/><path d="M32 74 H88" stroke="#000" stroke-width="2"/><path d="M44 96 q16 -14 32 0" fill="none" stroke="#000" stroke-width="2"/></svg></div><div><h1>O Caso da Fábrica de Sucos</h1></div></div>
+  <div class="abertura">A máquina da fábrica de sucos enche garrafas sempre no mesmo ritmo, mas ninguém anotou esse ritmo. O gerente quer saber quantas garrafas vão sair até o fim do dia.</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">As garrafas</span><span class="tag">rapidinha</span>
+  <p>Cada garrafa tem 500 mL. Quantos litros têm 4 garrafas?</p>
+  <div class="espaco curto"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">O ritmo da máquina</span><span class="tag d">desenhe o problema</span>
+  <p>Com 2 L de suco, a máquina enche 4 garrafas. Quantas garrafas ela enche com 7 L?</p><div class="desenho"><div class="ins"><b class="lbl">1º DESENHE</b>Antes de fazer a conta, desenhe o problema com barras de pedaços iguais (1 pedaço = 1 garrafa). Ponha <b>?</b> no que você quer descobrir.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2º CALCULE: a conta que o desenho mostrou</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · O Caso da Fábrica de Sucos</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-02</span><span class="dir">Missão (continuação)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">Uma hora de máquina</span>
+  <p>A máquina enche 6 garrafas a cada 3 minutos. Quantas garrafas ela enche em 1 hora (60 minutos)?</p>
+  <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">O tanque</span>
+  <p>O tanque da fábrica tem 450 L de suco. Quantas garrafas de 500 mL dá para encher?</p>
+  <div class="espaco"><span>Espaço para pensar e fazer a conta</span></div>
+  <div class="resp">Minha resposta: <i></i></div></div>
+  <div class="dica"><b>DICA:</b> nenhuma pista diz qual conta fazer. Leia com calma, descubra o que está sendo pedido e escolha a conta. Na dúvida, desenhe.</div>
+  <h2>Abra o código <span class="small" style="font-weight:400">· procure cada resposta na tabela e escreva a letra na caixa da etapa</span></h2>
+  <table class="cod"><tr><td>2 L</td><td>14</td><td>20 L</td><td>28</td><td>120</td><td>225</td><td>360</td><td>900</td></tr><tr><td class="l">S</td><td class="l">U</td><td class="l">N</td><td class="l">T</td><td class="l">C</td><td class="l">E</td><td class="l">A</td><td class="l">O</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>O que aconteceu?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · O Caso da Fábrica de Sucos</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Nível 3 · Missão 3-02</span><span class="dir">Gabarito explicado · para o adulto</span></div>
+  <h1>Gabarito: O Caso da Fábrica de Sucos</h1>
+  <div class="item"><b>Etapa 1 — As garrafas</b> · <span class="r">2 L</span> (letra S)
+  <div><b>Como pensar:</b> 4 garrafas de 500 mL dão 2 000 mL. Cada 1 000 mL é 1 L. <span class="small">Conta: 4 × 500 = 2 000 mL = 2 L.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Quantos mL tem 1 L? E quantos mL têm as 4 garrafas?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 20 L, quando a criança achou que 1 L tem 100 mL. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 2 — O ritmo da máquina</b> · <span class="r">14</span> (letra U)
+  <div><b>Como pensar:</b> Primeiro ache quanto vale 1 L (2 garrafas). Depois, 7 L. <span class="small">Conta: 4 ÷ 2 = 2 garrafas por litro · 7 × 2 = 14.</span></div>
+  <div><b>O desenho esperado</b> (vale qualquer desenho com as mesmas partes):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 110" width="420" height="110" font-family="Inter, DejaVu Sans, sans-serif"><text x="0" y="21" font-size="11" font-weight="700">2 L</text><rect x="78" y="4" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="89.92857142857143" y="21" text-anchor="middle" font-size="12" font-weight="500">0,5</text><rect x="101.85714285714286" y="4" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="113.78571428571429" y="21" text-anchor="middle" font-size="12" font-weight="500">0,5</text><rect x="125.71428571428572" y="4" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="137.64285714285714" y="21" text-anchor="middle" font-size="12" font-weight="500">0,5</text><rect x="149.57142857142858" y="4" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="161.5" y="21" text-anchor="middle" font-size="12" font-weight="500">0,5</text><path d="M79 68 V60 H411 V68" fill="none" stroke="#000" stroke-width="1.6"/><rect x="201.8" y="43" width="86.4" height="20" fill="#fff"/><text x="245" y="57" text-anchor="middle" font-size="12" font-weight="700">? garrafas</text><text x="0" y="89" font-size="11" font-weight="700">7 L</text><rect x="78" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="89.92857142857143" y="89" text-anchor="middle" font-size="12" font-weight="500">0,5</text><rect x="101.85714285714286" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="113.78571428571429" y="89" text-anchor="middle" font-size="12" font-weight="500">0,5</text><rect x="125.71428571428572" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="137.64285714285714" y="89" text-anchor="middle" font-size="12" font-weight="500">0,5</text><rect x="149.57142857142858" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="161.5" y="89" text-anchor="middle" font-size="12" font-weight="500">0,5</text><rect x="173.42857142857144" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="185.35714285714286" y="89" text-anchor="middle" font-size="12" font-weight="500">0,5</text><rect x="197.2857142857143" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="209.21428571428572" y="89" text-anchor="middle" font-size="12" font-weight="500">0,5</text><rect x="221.14285714285717" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="233.07142857142858" y="89" text-anchor="middle" font-size="12" font-weight="500">0,5</text><rect x="245.00000000000003" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="256.92857142857144" y="89" text-anchor="middle" font-size="12" font-weight="500">0,5</text><rect x="268.8571428571429" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="280.78571428571433" y="89" text-anchor="middle" font-size="12" font-weight="500">0,5</text><rect x="292.7142857142857" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="304.64285714285717" y="89" text-anchor="middle" font-size="12" font-weight="500">0,5</text><rect x="316.57142857142856" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="328.5" y="89" text-anchor="middle" font-size="12" font-weight="500">0,5</text><rect x="340.4285714285714" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="352.35714285714283" y="89" text-anchor="middle" font-size="12" font-weight="500">0,5</text><rect x="364.2857142857142" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="376.21428571428567" y="89" text-anchor="middle" font-size="12" font-weight="500">0,5</text><rect x="388.14285714285705" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="400.0714285714285" y="89" text-anchor="middle" font-size="12" font-weight="500">0,5</text></svg></div><div>Cada pedaço é 1 garrafa de 0,5 L. Em 7 L cabem 14 pedaços desse tamanho.</div>
+  <div><b>Se travar, pergunte:</b> “Se 2 L enchem 4 garrafas, quantas 1 L enche?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 28, quando a criança multiplicou 7 × 4, como se cada litro enchesse 4 garrafas. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 3 — Uma hora de máquina</b> · <span class="r">120</span> (letra C)
+  <div><b>Como pensar:</b> Ache quanto ela enche em 1 minuto e depois em 60. <span class="small">Conta: 6 ÷ 3 = 2 garrafas por minuto · 60 × 2 = 120.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Em 1 minuto, quantas garrafas? E em 60?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 360, quando a criança usou 6 garrafas por minuto, e não a cada 3 minutos. Essa resposta leva a outra letra, e a palavra não fecha.</div></div><div class="item"><b>Etapa 4 — O tanque</b> · <span class="r">900</span> (letra O)
+  <div><b>Como pensar:</b> Cada litro enche 2 garrafas de meio litro. 450 litros enchem 450 × 2. <span class="small">Conta: 1 L enche 2 garrafas · 450 × 2 = 900.</span></div>
+  
+  <div><b>Se travar, pergunte:</b> “Quantas garrafas enche 1 L? E 450 L?”</div>
+  <div class="small"><b>Erro mais comum:</b> responder 225, quando a criança dividiu por 2 em vez de multiplicar (cada litro enche 2 garrafas). Essa resposta leva a outra letra, e a palavra não fecha.</div></div>
+  <div class="box"><b>Palavra-código: SUCO.</b> A máquina enche 2 garrafas por minuto, e o tanque de 450 L rende 900 garrafas de SUCO: um dia inteiro de trabalho.</div>
+  <div class="rodape">Math Missions · gabarito</div></section></body></html>
