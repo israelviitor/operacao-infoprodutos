@@ -298,12 +298,12 @@ export const Continhas: React.FC<{marks: {at: number; kind: 'x' | 'risco'; row: 
 export const CodeWord: React.FC<{word: string; wrong: {idx: number; letter: string; fixAt: number}; at: number[]}> = ({word, wrong, at}) => {
   const f = useCurrentFrame();
   const {fps} = useVideoConfig();
-  const t = spring({frame: f, fps, config: {damping: 12}});
+  const tIn = spring({frame: f, fps, config: {damping: 12}});
   const fixed = f >= wrong.fixAt;
   const done = fixed ? spring({frame: f - wrong.fixAt, fps, config: {damping: 10}}) : 0;
   return (
     <AbsoluteFill style={{alignItems: 'center', justifyContent: 'flex-start', paddingTop: 330}}>
-      <div style={{transform: `scale(${t})`, background: 'rgba(15,22,56,.92)', border: `6px solid ${theme.yellow}`, borderRadius: 36, padding: '30px 44px', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 26}}>
+      <div style={{transform: `scale(${tIn})`, background: 'rgba(15,22,56,.92)', border: `6px solid ${theme.yellow}`, borderRadius: 36, padding: '30px 44px', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 26}}>
         <div style={{...font, fontSize: 54, color: theme.yellow, letterSpacing: 3}}>{t('code')}</div>
         <div style={{display: 'flex', gap: 20}}>
           {word.split('').map((ch, i) => {
