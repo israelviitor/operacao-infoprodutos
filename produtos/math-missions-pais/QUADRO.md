@@ -36,7 +36,7 @@ Estrutura (amostras) + Copy (promessa e página, com pesquisa enxuta própria). 
 | Estrutura — amostras / entregável | 🔵 Guia final + 4 bônus prontos em PT (Cartão, 30 Desafios Relâmpago, Kit de Missão, Mapa de Domínio), revisados pelo comitê; aguardando o dono. Faltam as 30 missões | `estrutura/entregavel/final/`, `estrutura/entregavel/amostras/` | 2026-11-16 |
 | Estrutura — página | 🔵 pacote em PT para o ChatGPT publicar (headline nº 1, textos com chave por bloco); aguardando o dono publicar e mandar o link | `estrutura/pagina/pacote-chatgpt-math-missions-pt.zip`, `estrutura/pagina/COMANDO-CHATGPT.md`, `estrutura/pagina/TEXTOS-PT.md` | 2026-11-10 |
 | Estrutura — checkout (gateway USD) | ⬜ gateway: Kiwify recomendada, aguardando respostas do suporte | `produtos/_estrutura/2026-11-06-gateways-usd.md` | 2026-11-06 |
-| Tradução | 🔵 en-US: nomes das missões, 4 bônus, **criativos lote 1 (7 vídeos)**; glossário | `traducao/en-US/criativos-lote-1.md`, `traducao/en-US/bonus.md`, `traducao/en-US/nomes-missoes.md`, `traducao/en-US/GLOSSARIO.md` | 2026-11-17 |
+| Tradução | 🔵 en-US: nomes das missões, 4 bônus da LP, criativos lote 1, imagens dos criativos, **Guia + 4 bônus do entregável** (textos prontos para a Estrutura gerar os PDFs); glossário | `traducao/en-US/guia-e-bonus-entregavel.md`, `traducao/en-US/bonus-entregavel-final.md`, `traducao/en-US/criativos-lote-1.md`, `traducao/en-US/GLOSSARIO.md` | 2026-11-18 |
 | Copy de Criativos | ✅ lote 1 final escrito pelo dono (7 criativos), que substitui o lote 1 da Copy | `criativos/2026-11-17-lote-1-final-dono.md` | 2026-11-17 |
 | Edição | 🔵 7 criativos en-US (MM01–MM07) entregues na página de download, aguardando o dono | `edicoes.md`, `edicao/videos/` | 2026-11-18 |
 | Tráfego | ⬜ | `trafego/` | — |
@@ -45,6 +45,7 @@ Estrutura (amostras) + Copy (promessa e página, com pesquisa enxuta própria). 
 Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ pronto · ⛔ travado
 
 ## Pedidos entre áreas (abertos)
+- [ ] [2026-11-18] **De** Tradução **para** Estrutura: gerar os PDFs en-US do Guia e dos 4 bônus. Guia e Cartão: `fonte/html/en/parent-guide.html` e `draw-it-card.html` (já montados em 18/11). Desafios, Kit e Mapa: dicionário PT → EN de `traducao/en-US/bonus-entregavel-final.md` (chaves de `traducao/en-US/fontes/bonus-entregavel-pt.md`) + `dic-guia-cartao.json`, aplicado com `textos_html.py aplicar` (testado: nenhum texto faltando).
 - [ ] [2026-11-18] **De** Central **para** Copy de Oferta: página com 2 cards (Basic US$ 9,90 / Complete US$ 17, Complete em destaque), pilha e FAQ coerentes; texto de 1 linha para o criativo 07 ("a partir de US$ 9,90").
 - [ ] [2026-11-18] **De** Central **para** Estrutura: 2 ofertas na Kiwify com entrega separada (Basic: Guia + 30 missões; Complete: + 4 bônus); 2 links de checkout na página.
 - [ ] [2026-11-18] **De** Central **para** Tráfego/Edição: CPA de empate com os 2 planos; criativo 07 com o preço corrigido antes de subir.
@@ -52,7 +53,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 - [x] [2026-11-17] **De** Tradução **para** Edição: montar os 7 vídeos do lote 1 com a narração, o texto de tela e a legenda em inglês de `traducao/en-US/criativos-lote-1.md` (áudios por sotaque: o dono gera).
 - [ ] [2026-11-17] **De** Central **para** Copy de Oferta/Estrutura: trocar US$ 17 por **US$ 9,90** na página (copy, TEXTOS-PT, âncora "menos de uma hora de reforço" continua válida) e no pacote do ChatGPT; refazer o CPA de empate com a Tráfego.
 - [ ] [2026-11-16] **De** Mineração **para** dono → Copy/Estrutura: decidir bumps e upsell com base em `pesquisa/2026-11-16-funis-concorrentes.md` (recomendação: bump "Holiday Math Missions" US$ 7–9 + licença família US$ 5–7; upsell próximo nível US$ 27; downsell US$ 17; clube mensal só depois de validar). (abertos)
-- [ ] [2026-11-16] **De** Estrutura **para** Tradução: Guia final, 30 Desafios Relâmpago, Kit de Missão e Mapa de Domínio em PT prontos (`estrutura/entregavel/fonte/gerar-guia.js`, `desafios.js`, `gerar-bonus.js`). Traduzir para en-US quando o dono pedir (usar o glossário: READ · DRAW · SOLVE · CHECK, Agent Badge, Clue Sheet, Mastery Map). Decimais com ponto em inglês.
+- [x] [2026-11-16] **De** Estrutura **para** Tradução: Guia final, 30 Desafios Relâmpago, Kit de Missão e Mapa de Domínio em PT prontos (`estrutura/entregavel/fonte/gerar-guia.js`, `desafios.js`, `gerar-bonus.js`). Traduzir para en-US quando o dono pedir (usar o glossário: READ · DRAW · SOLVE · CHECK, Agent Badge, Clue Sheet, Mastery Map). Decimais com ponto em inglês.
 - [x] [2026-11-16] **De** Copy de Criativos **para** Tradução: depois da aprovação do dono, traduzir `criativos/2026-11-17-lote-1-final-dono.md` (a versão final do dono, que substitui a de 16/11) para en-US (ver as notas no fim do arquivo: palavra-código, "desenha pra mim", linguagem neutra).
 - [ ] [2026-11-16] **De** Análise **para** dono/Copy/Estrutura: (1) definir bump (US$ 7–9), upsell (US$ 17–27) e downsell antes do teste; (2) a headline no ar não é a decidida em 10/11; (3) encurtar até a oferta (preço em 13.700 px; tirar o bloco "A profissão será uma escolha dele"); (4) comprimir 9 imagens de 300–420 KB (`analises/2026-11-16-analise.md`). → (4) Estrutura conferiu em 16/11: as 18 imagens da página no ar já estão entre 59 e 139 KB (todas abaixo de 150 KB); as do protótipo/pacote também (máx. 146 KB).
 - [ ] [2026-11-12] **De** Central **para** Copy de Oferta: tirar idade da PROMESSA e da página (blocos 1, 6 e FAQ "Qual idade serve?" → "Por onde meu filho começa?") e trocar por níveis.
@@ -77,6 +78,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 Estrutura (amostras) e Copy (pesquisa + promessa + página, em PT) em paralelo → dono aprova → Tradução (en-US).
 
 ## Histórico (mais recente em cima)
+- [2026-11-18] Tradução: Guia do Método + 4 bônus do entregável em en-US, fiel (Guia e Cartão de 18/11 reaproveitados; Desafios, Kit e Mapa novos: 293 textos, 2 tradutores, volta para o PT, comitê com 1 correção). Pedido aberto para a Estrutura gerar os PDFs.
 - [2026-11-18] Dono: dois planos, Basic US$ 9,90 e Complete US$ 17.
 - [2026-11-18] Edição: 7 criativos em inglês (MM01–MM07) prontos na página de download https://claude.ai/artifact/9LCph5haKKUgJ9YU8hM8TJ, com o gancho cinético aprovado pelo dono.
 - [2026-11-18] Edição: áudios C01–C07 do Drive conferidos e ligados aos criativos MM01–MM07 (6 usam variação de gancho); teste de estilo do MM01 em inglês entregue.
