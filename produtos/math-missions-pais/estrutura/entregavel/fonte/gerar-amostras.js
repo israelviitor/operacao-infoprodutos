@@ -8,7 +8,7 @@ const path = require('path');
 const ARG = process.argv[2];
 const LANG = process.env.LANG_MM || (ARG === 'en' ? 'en' : 'pt');
 const TODAS = ARG === 'todas';
-const missoes = TODAS ? require('./missoes/todas') : require(LANG === 'pt' ? './missoes-amostra' : './missoes-amostra.' + LANG);
+const missoes = TODAS ? require(LANG === 'pt' ? './missoes/todas' : './missoes/todas.' + LANG) : require(LANG === 'pt' ? './missoes-amostra' : './missoes-amostra.' + LANG);
 const T = require('./textos-fixos')[LANG];
 if (!T) { console.error('Faltam os textos fixos em ' + LANG); process.exit(1); }
 const { barra } = require('./barras');
@@ -191,7 +191,7 @@ function paginaGabarito(m) {
   <div class="rodape">Math Missions · ${T.gabRodape}</div></section>`).join('');
 }
 
-const OUT = path.join(__dirname, 'html', TODAS ? 'missoes' : LANG === 'pt' ? '' : LANG);
+const OUT = path.join(__dirname, 'html', TODAS ? (LANG === 'pt' ? 'missoes' : 'missoes-' + LANG) : LANG === 'pt' ? '' : LANG);
 fs.mkdirSync(OUT, { recursive: true });
 const doc = (titulo, corpo) => `<!doctype html><html lang="${T.lang}"><head><meta charset="utf-8"><title>${titulo}</title><style>${CSS}</style></head><body>${corpo}</body></html>`;
 const corpoDe = (m) => `${paginaAdulto(m)}${paginasMissao(m)}${paginaGabarito(m)}`;
@@ -201,6 +201,6 @@ for (const m of missoes) {
 }
 if (TODAS) for (const nv of [1, 2, 3]) {
   const doNivel = missoes.filter((m) => m.id.startsWith(`n${nv}-`));
-  fs.writeFileSync(path.join(OUT, `nivel-${nv}.html`), doc(`Math Missions · Nível ${nv}`, doNivel.map(corpoDe).join('')));
+  fs.writeFileSync(path.join(OUT, `nivel-${nv}.html`), doc(`Math Missions · ${LANG === 'pt' ? 'Nível' : 'Level'} ${nv}`, doNivel.map(corpoDe).join('')));
   console.log(`ok  nível ${nv}: ${doNivel.length} missões`);
 }
