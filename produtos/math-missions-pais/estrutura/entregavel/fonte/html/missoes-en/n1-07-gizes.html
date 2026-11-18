@@ -1,0 +1,115 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>The Case of the Shared Chalk</title><style>
+@page { size: A4; margin: 14mm; }
+* { box-sizing: border-box; }
+body { font-family: Inter, 'DejaVu Sans', sans-serif; color: #111; font-size: 12.5pt; line-height: 1.45; margin: 0; }
+.pagina { page-break-after: always; position: relative; height: 266mm; overflow: hidden; }
+.pagina:last-child { page-break-after: auto; }
+.topo { display: flex; align-items: center; gap: 10px; border-bottom: 2px solid #111; padding-bottom: 5px; margin-bottom: 12px; font-size: 9.5pt; font-weight: 800; letter-spacing: .05em; }
+.nivel { background: #111; color: #fff; border-radius: 6px; padding: 3px 10px; font-size: 11pt; }
+.topo .dir { margin-left: auto; }
+h1 { font-size: 24pt; margin: 4px 0 8px; line-height: 1.1; }
+h2 { font-size: 15pt; margin: 14px 0 6px; }
+.cab { display: flex; gap: 16px; align-items: center; }
+.abertura { border: 2px solid #111; border-radius: 10px; padding: 10px 14px; font-size: 13.5pt; margin: 8px 0 14px; }
+.etapa { border: 1.5px solid #111; border-radius: 10px; padding: 10px 14px; margin-bottom: 12px; page-break-inside: avoid; }
+.etapa .num { display: inline-flex; width: 30px; height: 30px; border-radius: 8px; background: #111; color: #fff; align-items: center; justify-content: center; font-weight: 800; margin-right: 8px; }
+.etapa .tit { font-weight: 800; font-size: 13.5pt; }
+.etapa .tag { font-size: 9.5pt; border: 1px solid #111; border-radius: 10px; padding: 0 8px; margin-left: 6px; }
+.etapa p { margin: 6px 0; font-size: 13.5pt; }
+.espaco { border: 1.5px dashed #777; border-radius: 8px; height: 30mm; margin-top: 6px; position: relative; }
+.espaco.curto { height: 16mm; }
+.espaco span { position: absolute; left: 10px; top: 4px; font-size: 9pt; color: #555; }
+.resp { margin-top: 6px; font-weight: 800; }
+.resp i { display: inline-block; border-bottom: 1.5px solid #111; width: 55mm; }
+.dica { border: 2px dashed #111; border-radius: 10px; padding: 8px 12px; font-size: 11pt; margin: 10px 0; }
+table.cod { border-collapse: collapse; margin: 6px 0 10px; }
+table.cod td { border: 1.5px solid #111; padding: 6px 12px; text-align: center; font-size: 12.5pt; }
+table.cod td.l { font-weight: 800; font-size: 15pt; }
+.caixas { display: flex; gap: 10px; margin: 8px 0; }
+.fim { display: flex; gap: 14px; align-items: flex-start; }
+.oque { flex: 1; }
+.caixas div span { font-size: 8pt; margin: 2px 4px; display: block; }
+.caixas div { width: 15mm; height: 15mm; border: 2px solid #111; border-radius: 8px; }
+.linha { border-bottom: 1.5px solid #111; height: 8mm; margin: 4px 0; }
+.adulto li, .gab li { margin-bottom: 6px; }
+.box { border: 1.5px solid #111; border-radius: 10px; padding: 8px 14px; margin: 8px 0; }
+.gab .item { border-bottom: 1px solid #999; padding: 8px 0; page-break-inside: avoid; }
+.gab .r { font-weight: 800; font-size: 13.5pt; }
+.small { font-size: 10.5pt; color: #333; }
+.desenho { border: 2px solid #111; border-radius: 8px; padding: 6px 10px; margin: 6px 0; }
+.desenho .ins { font-size: 11.5pt; margin-bottom: 6px; }
+.desenho .ins b.lbl { background: #111; color: #fff; border-radius: 4px; padding: 0 6px; margin-right: 4px; }
+.livre { height: 34mm; border: 1px solid #999; border-radius: 6px; background-image: linear-gradient(#ddd 1px, transparent 1px), linear-gradient(90deg, #ddd 1px, transparent 1px); background-size: 5mm 5mm; }
+.tag.d { background: #111; color: #fff; }
+.gab { height: auto !important; overflow: visible !important; }
+.gab .rodape { position: static; margin-top: 10px; }
+.gab .modelo { margin: 4px 0 2px; }
+.passos { display: flex; gap: 8px; margin: 6px 0; }
+.passos div { flex: 1; border: 1.5px solid #111; border-radius: 8px; padding: 6px 8px; font-size: 11pt; }
+.adulto { font-size: 11.3pt; line-height: 1.38; }
+.adulto h1 { font-size: 21pt; }
+.adulto h2 { font-size: 13.5pt; margin: 9px 0 4px; }
+.adulto ol { margin: 4px 0; padding-left: 22px; }
+.adulto li { margin-bottom: 3px !important; }
+.gab { font-size: 11pt; line-height: 1.33; }
+.gab h1 { font-size: 20pt; }
+.gab .item { padding: 5px 0 !important; }
+.rodape { position: absolute; bottom: 0; left: 0; right: 0; font-size: 8.5pt; color: #555; border-top: 1px solid #aaa; padding-top: 3px; }
+</style></head><body><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-07</span><span class="dir">For the adult · read first (2 minutes)</span></div>
+  <h1>The Case of the Shared Chalk</h1>
+  <div class="box"><b>Time:</b> 20 to 25 minutes · <b>Practice:</b> division: sharing equally · <b>Materials:</b> pencil, eraser, and this printed sheet (optional: analog clock, dried beans, or bottle caps).</div>
+  <h2>The method in this mission: draw before you solve</h2>
+  <p>Stage 2 is the <b>“draw the problem”</b> stage. In it, your child goes through the 3 steps of the Singapore method (details in the Parent Guide):</p>
+  <div class="passos"><div><b>1. Concrete</b><br>Use 12 pencils or sticks as chalk and 3 small plates, one for each grandchild. In stage 2, your child hands out one on each plate, one round at a time, before drawing.</div><div><b>2. Drawing</b><br>Your child draws the bar and puts a <b>?</b> on what they want to find out. Only then do they do the math.</div><div><b>3. Calculation</b><br>With the drawing done, they write the equation and check the answer by looking at the drawing.</div></div>
+  <h2>How to run the mission</h2>
+  <ol><li><b>Read the opening out loud, with an air of mystery.</b> Stage 1 is very short, on purpose: it gets your child into the game quickly.</li><li><b>Don't say which operation to use.</b> The problem doesn't say whether to add, subtract, or multiply. Figuring that out is the exercise, and the drawing is what shows the answer.</li><li><b>If your child gets stuck, ask for the drawing before giving any help:</b> “Show me that in a bar.” Then use the support question from the answer key (last page). It helps without giving away the answer.</li><li><b>Each answer becomes a letter.</b> If the code word doesn't make sense, one of the calculations is wrong: go back to the drawing and look for it together.</li><li><b>Wrap up by asking:</b> “Explain your drawing from stage 2 to me.”</li></ol>
+  <div class="box"><b>Before moving on:</b> You can move on to the next mission when your child explains the drawing in stage 2 in their own words (“each piece is a grandchild”). If not yet, redo just that stage another day with different numbers (e.g., 15 pieces of chalk for 3 grandchildren).</div>
+  <h2>With siblings</h2>
+  <div class="box">Print the mission pages once and solve them together, switching roles at each stage: <b>reader</b> (reads out loud), <b>illustrator</b> (draws the bar), and <b>number cruncher</b> (does the math and checks it against the drawing). With 2 children, the reader also draws. If they're at different levels, each one does the mission for their level and, at the end, they tell each other how they drew it.</div>
+  <div class="rodape">Math Missions · The Case of the Shared Chalk</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-07</span><span class="dir">Mission</span></div>
+  <div class="cab"><div><svg viewBox="0 0 130 110" width="120"><g fill="none" stroke="#000" stroke-width="3"><rect x="14" y="40" width="70" height="16" rx="4" transform="rotate(-20 49 48)"/><rect x="30" y="62" width="70" height="16" rx="4" transform="rotate(-8 65 70)"/><rect x="44" y="84" width="70" height="16" rx="4"/></g></svg></div><div><h1>The Case of the Shared Chalk</h1></div></div>
+  <div class="abertura">At Nana's house, a box of chalk was shared among the 3 grandchildren so they could draw on the sidewalk. At the end, Bia complained: “I didn't get any pink chalk!” Was the sharing fair?</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">The box of chalk</span><span class="tag">quick one</span>
+  <p>The box had 2 rows with 6 pieces of chalk in each one. How many pieces of chalk were in the box?</p>
+  <div class="espaco curto"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">The sharing</span><span class="tag d">draw the problem</span>
+  <p>The 12 pieces of chalk were shared equally among the 3 grandchildren. How many pieces of chalk did each grandchild get?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Before doing the math, complete the drawing. The whole bar is the 12 pieces of chalk, already divided into 3 equal pieces (one per grandchild). Write 12 on top and put a <b>?</b> on one piece.</div><svg class="barra" viewBox="0 0 560 84" width="560" height="84" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H551 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="237.45" y="5" width="77.1" height="20" fill="#fff"/><text x="276" y="19" text-anchor="middle" font-size="15" font-weight="700">_______</text><rect x="0" y="34" width="184" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="92" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="184" y="34" width="184" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="276" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="368" y="34" width="184" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="460" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text></svg></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · The Case of the Shared Chalk</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-07</span><span class="dir">Mission (continued)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">The pink chalk</span>
+  <p>There were 3 pieces of pink chalk in the box. Theo took 2 and Lia took 1. How many pieces of pink chalk were left for Bia?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">The fair trade</span>
+  <p>To be fair, each grandchild should have 1 piece of pink chalk. Theo has 2. How many pieces of pink chalk does he need to give to Bia?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  <div class="dica"><b>TIP:</b> no clue tells you which operation to use. Read carefully, figure out what's being asked, and choose the operation. When in doubt, draw.</div>
+  <h2>Crack the code <span class="small" style="font-weight:400">· find each answer in the table and write the letter in that stage's box</span></h2>
+  <table class="cod"><tr><td>0</td><td>1</td><td>2</td><td>4</td><td>6</td><td>8</td><td>9</td><td>12</td></tr><tr><td class="l">N</td><td class="l">K</td><td class="l">D</td><td class="l">I</td><td class="l">A</td><td class="l">R</td><td class="l">U</td><td class="l">P</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>What happened?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · The Case of the Shared Chalk</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-07</span><span class="dir">Answer key explained · for the adult</span></div>
+  <h1>Answer key: The Case of the Shared Chalk</h1>
+  <div class="item"><b>Stage 1 — The box of chalk</b> · <span class="r">12</span> (letter P)
+  <div><b>How to think:</b> There are 2 equal rows of 6: 6 + 6. <span class="small">Calculation: 2 × 6 = 12 (or 6 + 6).</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “How many pieces of chalk are in one row? What about in two?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 8, when your child added 2 + 6 instead of putting together 2 rows of 6. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 2 — The sharing</b> · <span class="r">4</span> (letter I)
+  <div><b>How to think:</b> Sharing equally is making 3 parts of the same size: 12 ÷ 3. <span class="small">Calculation: 12 ÷ 3 = 4.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="192.56" y="5" width="26.88" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">12</text><rect x="0" y="34" width="137.33333333333334" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="68.66666666666667" y="51" text-anchor="middle" font-size="12" font-weight="800">?</text><rect x="137.33333333333334" y="34" width="137.33333333333334" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="206" y="51" text-anchor="middle" font-size="12" font-weight="500"> </text><rect x="274.6666666666667" y="34" width="137.33333333333334" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="343.33333333333337" y="51" text-anchor="middle" font-size="12" font-weight="500"> </text></svg></div><div>The total is known and the ? is on a piece equal to the others: it's division, 12 ÷ 3.</div>
+  <div><b>If they get stuck, ask:</b> “If each grandchild gets 1 piece of chalk per round, how many rounds can you do with 12?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 9, when your child took away 3 instead of sharing into 3 equal parts. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 3 — The pink chalk</b> · <span class="r">0</span> (letter N)
+  <div><b>How to think:</b> There were 3. Theo took away 2 and Lia took away 1. What was left is 3 − 2 − 1. <span class="small">Calculation: 3 − 2 − 1 = 0.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “Take 3 pencils: take away 2 for Theo and 1 for Lia. Is any left?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 6, when your child added all the numbers in the problem. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 4 — The fair trade</b> · <span class="r">1</span> (letter K)
+  <div><b>How to think:</b> Theo keeps 1 and gives away whatever is more than that: 2 − 1. <span class="small">Calculation: 2 − 1 = 1.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “If Theo gives away 2, how many does he have left? Is that fair?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 2, when your child gave away all of Theo's pink chalk, and he was left with none. That answer leads to a different letter, and the word doesn't work out.</div></div>
+  <div class="box"><b>Code word: PINK.</b> Each grandchild got 4 pieces of chalk, but the 3 PINK pieces all ended up with Theo and Lia. Theo gave 1 to Bia, and the sharing became truly fair.</div>
+  <div class="rodape">Math Missions · answer key</div></section></body></html>

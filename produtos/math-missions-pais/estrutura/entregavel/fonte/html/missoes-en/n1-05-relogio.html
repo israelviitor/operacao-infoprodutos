@@ -1,0 +1,115 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>The Mystery of the Library Clock</title><style>
+@page { size: A4; margin: 14mm; }
+* { box-sizing: border-box; }
+body { font-family: Inter, 'DejaVu Sans', sans-serif; color: #111; font-size: 12.5pt; line-height: 1.45; margin: 0; }
+.pagina { page-break-after: always; position: relative; height: 266mm; overflow: hidden; }
+.pagina:last-child { page-break-after: auto; }
+.topo { display: flex; align-items: center; gap: 10px; border-bottom: 2px solid #111; padding-bottom: 5px; margin-bottom: 12px; font-size: 9.5pt; font-weight: 800; letter-spacing: .05em; }
+.nivel { background: #111; color: #fff; border-radius: 6px; padding: 3px 10px; font-size: 11pt; }
+.topo .dir { margin-left: auto; }
+h1 { font-size: 24pt; margin: 4px 0 8px; line-height: 1.1; }
+h2 { font-size: 15pt; margin: 14px 0 6px; }
+.cab { display: flex; gap: 16px; align-items: center; }
+.abertura { border: 2px solid #111; border-radius: 10px; padding: 10px 14px; font-size: 13.5pt; margin: 8px 0 14px; }
+.etapa { border: 1.5px solid #111; border-radius: 10px; padding: 10px 14px; margin-bottom: 12px; page-break-inside: avoid; }
+.etapa .num { display: inline-flex; width: 30px; height: 30px; border-radius: 8px; background: #111; color: #fff; align-items: center; justify-content: center; font-weight: 800; margin-right: 8px; }
+.etapa .tit { font-weight: 800; font-size: 13.5pt; }
+.etapa .tag { font-size: 9.5pt; border: 1px solid #111; border-radius: 10px; padding: 0 8px; margin-left: 6px; }
+.etapa p { margin: 6px 0; font-size: 13.5pt; }
+.espaco { border: 1.5px dashed #777; border-radius: 8px; height: 30mm; margin-top: 6px; position: relative; }
+.espaco.curto { height: 16mm; }
+.espaco span { position: absolute; left: 10px; top: 4px; font-size: 9pt; color: #555; }
+.resp { margin-top: 6px; font-weight: 800; }
+.resp i { display: inline-block; border-bottom: 1.5px solid #111; width: 55mm; }
+.dica { border: 2px dashed #111; border-radius: 10px; padding: 8px 12px; font-size: 11pt; margin: 10px 0; }
+table.cod { border-collapse: collapse; margin: 6px 0 10px; }
+table.cod td { border: 1.5px solid #111; padding: 6px 12px; text-align: center; font-size: 12.5pt; }
+table.cod td.l { font-weight: 800; font-size: 15pt; }
+.caixas { display: flex; gap: 10px; margin: 8px 0; }
+.fim { display: flex; gap: 14px; align-items: flex-start; }
+.oque { flex: 1; }
+.caixas div span { font-size: 8pt; margin: 2px 4px; display: block; }
+.caixas div { width: 15mm; height: 15mm; border: 2px solid #111; border-radius: 8px; }
+.linha { border-bottom: 1.5px solid #111; height: 8mm; margin: 4px 0; }
+.adulto li, .gab li { margin-bottom: 6px; }
+.box { border: 1.5px solid #111; border-radius: 10px; padding: 8px 14px; margin: 8px 0; }
+.gab .item { border-bottom: 1px solid #999; padding: 8px 0; page-break-inside: avoid; }
+.gab .r { font-weight: 800; font-size: 13.5pt; }
+.small { font-size: 10.5pt; color: #333; }
+.desenho { border: 2px solid #111; border-radius: 8px; padding: 6px 10px; margin: 6px 0; }
+.desenho .ins { font-size: 11.5pt; margin-bottom: 6px; }
+.desenho .ins b.lbl { background: #111; color: #fff; border-radius: 4px; padding: 0 6px; margin-right: 4px; }
+.livre { height: 34mm; border: 1px solid #999; border-radius: 6px; background-image: linear-gradient(#ddd 1px, transparent 1px), linear-gradient(90deg, #ddd 1px, transparent 1px); background-size: 5mm 5mm; }
+.tag.d { background: #111; color: #fff; }
+.gab { height: auto !important; overflow: visible !important; }
+.gab .rodape { position: static; margin-top: 10px; }
+.gab .modelo { margin: 4px 0 2px; }
+.passos { display: flex; gap: 8px; margin: 6px 0; }
+.passos div { flex: 1; border: 1.5px solid #111; border-radius: 8px; padding: 6px 8px; font-size: 11pt; }
+.adulto { font-size: 11.3pt; line-height: 1.38; }
+.adulto h1 { font-size: 21pt; }
+.adulto h2 { font-size: 13.5pt; margin: 9px 0 4px; }
+.adulto ol { margin: 4px 0; padding-left: 22px; }
+.adulto li { margin-bottom: 3px !important; }
+.gab { font-size: 11pt; line-height: 1.33; }
+.gab h1 { font-size: 20pt; }
+.gab .item { padding: 5px 0 !important; }
+.rodape { position: absolute; bottom: 0; left: 0; right: 0; font-size: 8.5pt; color: #555; border-top: 1px solid #aaa; padding-top: 3px; }
+</style></head><body><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-05</span><span class="dir">For the adult · read first (2 minutes)</span></div>
+  <h1>The Mystery of the Library Clock</h1>
+  <div class="box"><b>Time:</b> 20 to 25 minutes · <b>Practice:</b> time: duration in minutes, start and end · <b>Materials:</b> pencil, eraser, and this printed sheet (optional: analog clock, dried beans, or bottle caps).</div>
+  <h2>The method in this mission: draw before you solve</h2>
+  <p>Stage 2 is the <b>“draw the problem”</b> stage. In it, your child goes through the 3 steps of the Singapore method (details in the Parent Guide):</p>
+  <div class="passos"><div><b>1. Concrete</b><br>Use an analog clock (or draw one). In stage 2, your child turns the long hand 35 minutes and then 25 more, and sees how many times it went around before drawing.</div><div><b>2. Drawing</b><br>Your child draws the bar and puts a <b>?</b> on what they want to find out. Only then do they do the math.</div><div><b>3. Calculation</b><br>With the drawing done, they write the equation and check the answer by looking at the drawing.</div></div>
+  <h2>How to run the mission</h2>
+  <ol><li><b>Read the opening out loud, with an air of mystery.</b> Stage 1 is very short, on purpose: it gets your child into the game quickly.</li><li><b>Don't say which operation to use.</b> The problem doesn't say whether to add, subtract, or multiply. Figuring that out is the exercise, and the drawing is what shows the answer.</li><li><b>If your child gets stuck, ask for the drawing before giving any help:</b> “Show me that in a bar.” Then use the support question from the answer key (last page). It helps without giving away the answer.</li><li><b>Each answer becomes a letter.</b> If the code word doesn't make sense, one of the calculations is wrong: go back to the drawing and look for it together.</li><li><b>Wrap up by asking:</b> “Explain your drawing from stage 2 to me.”</li></ol>
+  <div class="box"><b>Before moving on:</b> You can move on to the next mission when your child explains the drawing in stage 2 in their own words. If not yet, redo just that stage another day with different numbers (e.g., 40 minutes of story and 20 of drawing).</div>
+  <h2>With siblings</h2>
+  <div class="box">Print the mission pages once and solve them together, switching roles at each stage: <b>reader</b> (reads out loud), <b>illustrator</b> (draws the bar), and <b>number cruncher</b> (does the math and checks it against the drawing). With 2 children, the reader also draws. If they're at different levels, each one does the mission for their level and, at the end, they tell each other how they drew it.</div>
+  <div class="rodape">Math Missions · The Mystery of the Library Clock</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-05</span><span class="dir">Mission</span></div>
+  <div class="cab"><div><svg viewBox="0 0 120 120" width="110"><circle cx="60" cy="60" r="44" fill="none" stroke="#000" stroke-width="4"/><path d="M60 60 V30 M60 60 L80 72" stroke="#000" stroke-width="5" stroke-linecap="round"/><path d="M60 20 V26 M60 94 V100 M20 60 H26 M94 60 H100" stroke="#000" stroke-width="3"/></svg></div><div><h1>The Mystery of the Library Clock</h1></div></div>
+  <div class="abertura">At the neighborhood library, the reading session ended, but nobody wrote down what time it started. The librarian needs to know for the report. The clues are in the clocks.</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">The wall clock</span><span class="tag">quick one</span>
+  <p>The wall clock has the short hand on the 4 and the long hand on the 12. What time is it?</p>
+  <div class="espaco curto"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">The two parts of the session</span><span class="tag d">draw the problem</span>
+  <p>The session had 2 parts: 35 minutes of story and 25 minutes of drawing. How many minutes did the whole session last?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Before doing the math, complete the drawing. The bar is the session, like a timeline. Write the minutes of each part and put a <b>?</b> on top, on the total.</div><svg class="barra" viewBox="0 0 560 84" width="560" height="84" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H551 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="237.45" y="5" width="77.1" height="20" fill="#fff"/><text x="276" y="19" text-anchor="middle" font-size="15" font-weight="700">_______</text><rect x="0" y="34" width="322" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="161" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="322" y="34" width="229.99999999999997" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="437" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text></svg></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · The Mystery of the Library Clock</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-05</span><span class="dir">Mission (continued)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">The start of the session</span>
+  <p>60 minutes is 1 hour. The session ended at 4:00 p.m. What time did it start?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">The library bell</span>
+  <p>The library bell rings every 30 minutes: at 3:00, at 3:30, at 4:00… How many times did it ring during the session, from 3:00 to 4:00, counting both ends?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  <div class="dica"><b>TIP:</b> no clue tells you which operation to use. Read carefully, figure out what's being asked, and choose the operation. When in doubt, draw.</div>
+  <h2>Crack the code <span class="small" style="font-weight:400">· find each answer in the table and write the letter in that stage's box</span></h2>
+  <table class="cod"><tr><td>2</td><td>3</td><td>3:00</td><td>4:00</td><td>5:00</td><td>10 min</td><td>12:20</td><td>60 min</td></tr><tr><td class="l">H</td><td class="l">L</td><td class="l">L</td><td class="l">B</td><td class="l">D</td><td class="l">Z</td><td class="l">T</td><td class="l">E</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>What happened?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · The Mystery of the Library Clock</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-05</span><span class="dir">Answer key explained · for the adult</span></div>
+  <h1>Answer key: The Mystery of the Library Clock</h1>
+  <div class="item"><b>Stage 1 — The wall clock</b> · <span class="r">4:00</span> (letter B)
+  <div><b>How to think:</b> The short hand shows the hour. The long hand on the 12 means “o'clock.” <span class="small">Calculation: short hand on the 4 = 4 hours; long hand on the 12 = o'clock: 4:00.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “Which hand shows the hour: the short one or the long one?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 12:20, when your child mixed up the hands (read the long one as the hour and the short one as the minutes). That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 2 — The two parts of the session</b> · <span class="r">60 min</span> (letter E)
+  <div><b>How to think:</b> The two parts, one after the other, make up the whole session: 35 + 25. <span class="small">Calculation: 35 + 25 = 60 minutes.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="196.28" y="5" width="19.439999999999998" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">?</text><rect x="0" y="34" width="240.33333333333331" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="120.16666666666666" y="51" text-anchor="middle" font-size="12" font-weight="500">35 min story</text><rect x="240.33333333333331" y="34" width="171.66666666666666" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="326.16666666666663" y="51" text-anchor="middle" font-size="12" font-weight="500">25 min drawing</text></svg></div><div>The bar is a timeline: the two parts together make up the session. With the ? on the whole, the math is 35 + 25.</div>
+  <div><b>If they get stuck, ask:</b> “The session is the story and the drawing together. How much time is that?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 10 min, when your child took away instead of putting the two parts together. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 3 — The start of the session</b> · <span class="r">3:00</span> (letter L)
+  <div><b>How to think:</b> If it ended at 4:00 and lasted 1 hour, it started 1 hour earlier. <span class="small">Calculation: 4:00 minus 1 hour = 3:00.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “Did the session start before or after it ended?” Move the short hand back 1 number.</div>
+  <div class="small"><b>Most common mistake:</b> answering 5:00, when your child went forward 1 hour instead of going back. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 4 — The library bell</b> · <span class="r">3</span> (letter L)
+  <div><b>How to think:</b> List the times: 3:00, 3:30, 4:00. Count the rings. <span class="small">Calculation: 3:00, 3:30, and 4:00 = 3 times.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “Write down all the times the bell rings between 3:00 and 4:00. How many are there?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 2, when your child forgot to count one of the ends (the 3:00 ring). That answer leads to a different letter, and the word doesn't work out.</div></div>
+  <div class="box"><b>Code word: BELL.</b> The session started at 3:00 p.m., and the library BELL confirmed it: it rang 3 times during the reading. The report is done!</div>
+  <div class="rodape">Math Missions · answer key</div></section></body></html>

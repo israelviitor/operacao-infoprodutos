@@ -1,0 +1,115 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>The Locked Safe Mystery</title><style>
+@page { size: A4; margin: 14mm; }
+* { box-sizing: border-box; }
+body { font-family: Inter, 'DejaVu Sans', sans-serif; color: #111; font-size: 12.5pt; line-height: 1.45; margin: 0; }
+.pagina { page-break-after: always; position: relative; height: 266mm; overflow: hidden; }
+.pagina:last-child { page-break-after: auto; }
+.topo { display: flex; align-items: center; gap: 10px; border-bottom: 2px solid #111; padding-bottom: 5px; margin-bottom: 12px; font-size: 9.5pt; font-weight: 800; letter-spacing: .05em; }
+.nivel { background: #111; color: #fff; border-radius: 6px; padding: 3px 10px; font-size: 11pt; }
+.topo .dir { margin-left: auto; }
+h1 { font-size: 24pt; margin: 4px 0 8px; line-height: 1.1; }
+h2 { font-size: 15pt; margin: 14px 0 6px; }
+.cab { display: flex; gap: 16px; align-items: center; }
+.abertura { border: 2px solid #111; border-radius: 10px; padding: 10px 14px; font-size: 13.5pt; margin: 8px 0 14px; }
+.etapa { border: 1.5px solid #111; border-radius: 10px; padding: 10px 14px; margin-bottom: 12px; page-break-inside: avoid; }
+.etapa .num { display: inline-flex; width: 30px; height: 30px; border-radius: 8px; background: #111; color: #fff; align-items: center; justify-content: center; font-weight: 800; margin-right: 8px; }
+.etapa .tit { font-weight: 800; font-size: 13.5pt; }
+.etapa .tag { font-size: 9.5pt; border: 1px solid #111; border-radius: 10px; padding: 0 8px; margin-left: 6px; }
+.etapa p { margin: 6px 0; font-size: 13.5pt; }
+.espaco { border: 1.5px dashed #777; border-radius: 8px; height: 30mm; margin-top: 6px; position: relative; }
+.espaco.curto { height: 16mm; }
+.espaco span { position: absolute; left: 10px; top: 4px; font-size: 9pt; color: #555; }
+.resp { margin-top: 6px; font-weight: 800; }
+.resp i { display: inline-block; border-bottom: 1.5px solid #111; width: 55mm; }
+.dica { border: 2px dashed #111; border-radius: 10px; padding: 8px 12px; font-size: 11pt; margin: 10px 0; }
+table.cod { border-collapse: collapse; margin: 6px 0 10px; }
+table.cod td { border: 1.5px solid #111; padding: 6px 12px; text-align: center; font-size: 12.5pt; }
+table.cod td.l { font-weight: 800; font-size: 15pt; }
+.caixas { display: flex; gap: 10px; margin: 8px 0; }
+.fim { display: flex; gap: 14px; align-items: flex-start; }
+.oque { flex: 1; }
+.caixas div span { font-size: 8pt; margin: 2px 4px; display: block; }
+.caixas div { width: 15mm; height: 15mm; border: 2px solid #111; border-radius: 8px; }
+.linha { border-bottom: 1.5px solid #111; height: 8mm; margin: 4px 0; }
+.adulto li, .gab li { margin-bottom: 6px; }
+.box { border: 1.5px solid #111; border-radius: 10px; padding: 8px 14px; margin: 8px 0; }
+.gab .item { border-bottom: 1px solid #999; padding: 8px 0; page-break-inside: avoid; }
+.gab .r { font-weight: 800; font-size: 13.5pt; }
+.small { font-size: 10.5pt; color: #333; }
+.desenho { border: 2px solid #111; border-radius: 8px; padding: 6px 10px; margin: 6px 0; }
+.desenho .ins { font-size: 11.5pt; margin-bottom: 6px; }
+.desenho .ins b.lbl { background: #111; color: #fff; border-radius: 4px; padding: 0 6px; margin-right: 4px; }
+.livre { height: 34mm; border: 1px solid #999; border-radius: 6px; background-image: linear-gradient(#ddd 1px, transparent 1px), linear-gradient(90deg, #ddd 1px, transparent 1px); background-size: 5mm 5mm; }
+.tag.d { background: #111; color: #fff; }
+.gab { height: auto !important; overflow: visible !important; }
+.gab .rodape { position: static; margin-top: 10px; }
+.gab .modelo { margin: 4px 0 2px; }
+.passos { display: flex; gap: 8px; margin: 6px 0; }
+.passos div { flex: 1; border: 1.5px solid #111; border-radius: 8px; padding: 6px 8px; font-size: 11pt; }
+.adulto { font-size: 11.3pt; line-height: 1.38; }
+.adulto h1 { font-size: 21pt; }
+.adulto h2 { font-size: 13.5pt; margin: 9px 0 4px; }
+.adulto ol { margin: 4px 0; padding-left: 22px; }
+.adulto li { margin-bottom: 3px !important; }
+.gab { font-size: 11pt; line-height: 1.33; }
+.gab h1 { font-size: 20pt; }
+.gab .item { padding: 5px 0 !important; }
+.rodape { position: absolute; bottom: 0; left: 0; right: 0; font-size: 8.5pt; color: #555; border-top: 1px solid #aaa; padding-top: 3px; }
+</style></head><body><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-05</span><span class="dir">For the adult · read first (2 minutes)</span></div>
+  <h1>The Locked Safe Mystery</h1>
+  <div class="box"><b>Time:</b> 25 to 35 minutes · <b>Practice:</b> before and after: what changes and what stays the same · <b>Materials:</b> pencil, eraser, and this printed sheet (optional: analog clock, dried beans, or bottle caps).</div>
+  <h2>The method in this mission: draw before you solve</h2>
+  <p>Stage 2 is the <b>“draw the problem”</b> stage. In it, your child goes through the 3 steps of the Singapore method (details in the Parent Guide):</p>
+  <div class="passos"><div><b>1. Concrete</b><br>Make two rows of bottle caps (one cap = 10 points): 35 for Nina and 21 for Caio. In stage 2, your child moves caps from one row to the other until they're equal, before drawing.</div><div><b>2. Drawing</b><br>Your child draws the bar and puts a <b>?</b> on what they want to find out. Only then do they do the math.</div><div><b>3. Calculation</b><br>With the drawing done, they write the equation and check the answer by looking at the drawing.</div></div>
+  <h2>How to run the mission</h2>
+  <ol><li><b>Read the opening out loud, with an air of mystery.</b> Stage 1 is very short, on purpose: it gets your child into the game quickly.</li><li><b>Don't say which operation to use.</b> The problem doesn't say whether to add, subtract, or multiply. Figuring that out is the exercise, and the drawing is what shows the answer.</li><li><b>If your child gets stuck, ask for the drawing before giving any help:</b> “Show me that in a bar.” Then use the support question from the answer key (last page). It helps without giving away the answer.</li><li><b>Each answer becomes a letter.</b> If the code word doesn't make sense, one of the calculations is wrong: go back to the drawing and look for it together.</li><li><b>Wrap up by asking:</b> “Explain your drawing from stage 2 to me.”</li></ol>
+  <div class="box"><b>Before moving on:</b> You can move on to the next mission when your child explains the drawing in stage 2 in their own words (“the difference was split in half”). If not yet, redo just that stage another day with different numbers (e.g., Nina 420, Caio 260).</div>
+  <h2>With siblings</h2>
+  <div class="box">Print the mission pages once and solve them together, switching roles at each stage: <b>reader</b> (reads out loud), <b>illustrator</b> (draws the bar), and <b>number cruncher</b> (does the math and checks it against the drawing). With 2 children, the reader also draws. If they're at different levels, each one does the mission for their level and, at the end, they tell each other how they drew it.</div>
+  <div class="rodape">Math Missions · The Locked Safe Mystery</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-05</span><span class="dir">Mission</span></div>
+  <div class="cab"><div><svg viewBox="0 0 120 120" width="105"><rect x="14" y="20" width="92" height="84" rx="8" fill="none" stroke="#000" stroke-width="3"/><circle cx="60" cy="62" r="20" fill="none" stroke="#000" stroke-width="3"/><path d="M60 42 V50 M60 74 V82 M40 62 H48 M72 62 H80" stroke="#000" stroke-width="3"/><circle cx="60" cy="62" r="4"/></svg></div><div><h1>The Locked Safe Mystery</h1></div></div>
+  <div class="abertura">Nina and Caio keep the points from a board game in a paper safe. After a trade, the two ended up with the same amount, but nobody remembers how many Nina gave. The game notebook has the clues.</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">Nina's points</span><span class="tag">quick one</span>
+  <p>Nina won 50 points in a round and reached 350. How many points did she have before?</p>
+  <div class="espaco curto"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">The trade</span><span class="tag d">draw the problem</span>
+  <p>Nina had 350 points and Caio, 210. Nina gave some points to Caio and the two ended up with the same amount. How many points did Nina give?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Before doing the math, draw Nina's and Caio's bars before the trade and, underneath, after the trade. Show the difference and put a <b>?</b> on the piece Nina gives.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · The Locked Safe Mystery</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-05</span><span class="dir">Mission (continued)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">After the trade</span>
+  <p>After the trade, how many points did each one end up with?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">The next round</span>
+  <p>In the next round, each one spent 1/5 of their 280 points. How many points did each one end up with?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  <div class="dica"><b>TIP:</b> no clue tells you which operation to use. Read carefully, figure out what's being asked, and choose the operation. When in doubt, draw.</div>
+  <h2>Crack the code <span class="small" style="font-weight:400">· find each answer in the table and write the letter in that stage's box</span></h2>
+  <table class="cod"><tr><td>56</td><td>70</td><td>140</td><td>210</td><td>224</td><td>280</td><td>300</td><td>400</td></tr><tr><td class="l">H</td><td class="l">A</td><td class="l">X</td><td class="l">C</td><td class="l">E</td><td class="l">M</td><td class="l">G</td><td class="l">S</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>What happened?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · The Locked Safe Mystery</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-05</span><span class="dir">Answer key explained · for the adult</span></div>
+  <h1>Answer key: The Locked Safe Mystery</h1>
+  <div class="item"><b>Stage 1 — Nina's points</b> · <span class="r">300</span> (letter G)
+  <div><b>How to think:</b> Before winning, she had 50 fewer: 350 − 50. <span class="small">Calculation: 350 − 50 = 300.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “Before the round, did Nina have more or less than 350?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 400, when your child added instead of going back to before the round. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 2 — The trade</b> · <span class="r">70</span> (letter A)
+  <div><b>How to think:</b> The difference is 140. To tie, half of the difference goes from one to the other. <span class="small">Calculation: 350 − 210 = 140 · 140 ÷ 2 = 70.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 156" width="420" height="156" font-family="Inter, DejaVu Sans, sans-serif"><text x="0" y="21" font-size="11" font-weight="700">Nina before</text><rect x="78" y="4" width="200.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="178.2" y="21" text-anchor="middle" font-size="12" font-weight="500">210</text><rect x="278.4" y="4" width="66.8" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="311.79999999999995" y="21" text-anchor="middle" font-size="12" font-weight="500">70 stays</text><rect x="345.2" y="4" width="66.8" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="378.59999999999997" y="21" text-anchor="middle" font-size="12" font-weight="500">? gives</text><text x="0" y="59" font-size="11" font-weight="700">Caio before</text><rect x="78" y="42" width="200.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="178.2" y="59" text-anchor="middle" font-size="12" font-weight="500">210</text><text x="0" y="97" font-size="11" font-weight="700">Nina after</text><rect x="78" y="80" width="200.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="178.2" y="97" text-anchor="middle" font-size="12" font-weight="500">210</text><rect x="278.4" y="80" width="66.8" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="311.79999999999995" y="97" text-anchor="middle" font-size="12" font-weight="500">70</text><text x="0" y="135" font-size="11" font-weight="700">Caio after</text><rect x="78" y="118" width="200.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="178.2" y="135" text-anchor="middle" font-size="12" font-weight="500">210</text><rect x="278.4" y="118" width="66.8" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="311.79999999999995" y="135" text-anchor="middle" font-size="12" font-weight="500">70</text></svg></div><div>Before: the difference (140) is split in half; one piece stays with Nina and the other goes to Caio. After: the two bars are equal, with 280.</div>
+  <div><b>If they get stuck, ask:</b> “If Nina gives 140, who ends up with more? And if she gives half?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 140, when your child gave the whole difference, and then Caio ended up with more. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 3 — After the trade</b> · <span class="r">280</span> (letter M)
+  <div><b>How to think:</b> Nina lost 70; Caio gained 70. Check both sides. <span class="small">Calculation: 350 − 70 = 280 (and 210 + 70 = 280).</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “How much does Nina have now? And Caio? Is it equal?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 210, when your child forgot to add the 70 that Caio received. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 4 — The next round</b> · <span class="r">224</span> (letter E)
+  <div><b>How to think:</b> Find 1/5 of 280 (what was spent) and take it away from 280. <span class="small">Calculation: 280 ÷ 5 = 56 · 280 − 56 = 224.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “Is the question what was spent or what was left?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 56, when your child answered what was spent, not what was left. That answer leads to a different letter, and the word doesn't work out.</div></div>
+  <div class="box"><b>Code word: GAME.</b> Nina gave 70 points and the two ended up with 280. The trade was fair and the GAME went on: in the next round, each one ended up with 224.</div>
+  <div class="rodape">Math Missions · answer key</div></section></body></html>

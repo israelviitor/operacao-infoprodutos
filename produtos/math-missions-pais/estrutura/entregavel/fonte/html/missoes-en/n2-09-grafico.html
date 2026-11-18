@@ -1,0 +1,115 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>The Mystery of the Torn Graph</title><style>
+@page { size: A4; margin: 14mm; }
+* { box-sizing: border-box; }
+body { font-family: Inter, 'DejaVu Sans', sans-serif; color: #111; font-size: 12.5pt; line-height: 1.45; margin: 0; }
+.pagina { page-break-after: always; position: relative; height: 266mm; overflow: hidden; }
+.pagina:last-child { page-break-after: auto; }
+.topo { display: flex; align-items: center; gap: 10px; border-bottom: 2px solid #111; padding-bottom: 5px; margin-bottom: 12px; font-size: 9.5pt; font-weight: 800; letter-spacing: .05em; }
+.nivel { background: #111; color: #fff; border-radius: 6px; padding: 3px 10px; font-size: 11pt; }
+.topo .dir { margin-left: auto; }
+h1 { font-size: 24pt; margin: 4px 0 8px; line-height: 1.1; }
+h2 { font-size: 15pt; margin: 14px 0 6px; }
+.cab { display: flex; gap: 16px; align-items: center; }
+.abertura { border: 2px solid #111; border-radius: 10px; padding: 10px 14px; font-size: 13.5pt; margin: 8px 0 14px; }
+.etapa { border: 1.5px solid #111; border-radius: 10px; padding: 10px 14px; margin-bottom: 12px; page-break-inside: avoid; }
+.etapa .num { display: inline-flex; width: 30px; height: 30px; border-radius: 8px; background: #111; color: #fff; align-items: center; justify-content: center; font-weight: 800; margin-right: 8px; }
+.etapa .tit { font-weight: 800; font-size: 13.5pt; }
+.etapa .tag { font-size: 9.5pt; border: 1px solid #111; border-radius: 10px; padding: 0 8px; margin-left: 6px; }
+.etapa p { margin: 6px 0; font-size: 13.5pt; }
+.espaco { border: 1.5px dashed #777; border-radius: 8px; height: 30mm; margin-top: 6px; position: relative; }
+.espaco.curto { height: 16mm; }
+.espaco span { position: absolute; left: 10px; top: 4px; font-size: 9pt; color: #555; }
+.resp { margin-top: 6px; font-weight: 800; }
+.resp i { display: inline-block; border-bottom: 1.5px solid #111; width: 55mm; }
+.dica { border: 2px dashed #111; border-radius: 10px; padding: 8px 12px; font-size: 11pt; margin: 10px 0; }
+table.cod { border-collapse: collapse; margin: 6px 0 10px; }
+table.cod td { border: 1.5px solid #111; padding: 6px 12px; text-align: center; font-size: 12.5pt; }
+table.cod td.l { font-weight: 800; font-size: 15pt; }
+.caixas { display: flex; gap: 10px; margin: 8px 0; }
+.fim { display: flex; gap: 14px; align-items: flex-start; }
+.oque { flex: 1; }
+.caixas div span { font-size: 8pt; margin: 2px 4px; display: block; }
+.caixas div { width: 15mm; height: 15mm; border: 2px solid #111; border-radius: 8px; }
+.linha { border-bottom: 1.5px solid #111; height: 8mm; margin: 4px 0; }
+.adulto li, .gab li { margin-bottom: 6px; }
+.box { border: 1.5px solid #111; border-radius: 10px; padding: 8px 14px; margin: 8px 0; }
+.gab .item { border-bottom: 1px solid #999; padding: 8px 0; page-break-inside: avoid; }
+.gab .r { font-weight: 800; font-size: 13.5pt; }
+.small { font-size: 10.5pt; color: #333; }
+.desenho { border: 2px solid #111; border-radius: 8px; padding: 6px 10px; margin: 6px 0; }
+.desenho .ins { font-size: 11.5pt; margin-bottom: 6px; }
+.desenho .ins b.lbl { background: #111; color: #fff; border-radius: 4px; padding: 0 6px; margin-right: 4px; }
+.livre { height: 34mm; border: 1px solid #999; border-radius: 6px; background-image: linear-gradient(#ddd 1px, transparent 1px), linear-gradient(90deg, #ddd 1px, transparent 1px); background-size: 5mm 5mm; }
+.tag.d { background: #111; color: #fff; }
+.gab { height: auto !important; overflow: visible !important; }
+.gab .rodape { position: static; margin-top: 10px; }
+.gab .modelo { margin: 4px 0 2px; }
+.passos { display: flex; gap: 8px; margin: 6px 0; }
+.passos div { flex: 1; border: 1.5px solid #111; border-radius: 8px; padding: 6px 8px; font-size: 11pt; }
+.adulto { font-size: 11.3pt; line-height: 1.38; }
+.adulto h1 { font-size: 21pt; }
+.adulto h2 { font-size: 13.5pt; margin: 9px 0 4px; }
+.adulto ol { margin: 4px 0; padding-left: 22px; }
+.adulto li { margin-bottom: 3px !important; }
+.gab { font-size: 11pt; line-height: 1.33; }
+.gab h1 { font-size: 20pt; }
+.gab .item { padding: 5px 0 !important; }
+.rodape { position: absolute; bottom: 0; left: 0; right: 0; font-size: 8.5pt; color: #555; border-top: 1px solid #aaa; padding-top: 3px; }
+</style></head><body><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 2 · Mission 2-09</span><span class="dir">For the adult · read first (2 minutes)</span></div>
+  <h1>The Mystery of the Torn Graph</h1>
+  <div class="box"><b>Time:</b> 25 to 30 minutes · <b>Practice:</b> table and bar graph; comparing; pattern in a table · <b>Materials:</b> pencil, eraser, and this printed sheet (optional: analog clock, dried beans, or bottle caps).</div>
+  <h2>The method in this mission: draw before you solve</h2>
+  <p>Stage 3 is the <b>“draw the problem”</b> stage. In it, your child goes through the 3 steps of the Singapore method (details in the Parent Guide):</p>
+  <div class="passos"><div><b>1. Concrete</b><br>Build the columns of the graph with stacked bottle caps (1 cap = 1 vote, or 1 cap = 5 votes). In stage 3, your child puts Trovão's and Faísca's columns side by side before drawing.</div><div><b>2. Drawing</b><br>Your child draws the bar and puts a <b>?</b> on what they want to find out. Only then do they do the math.</div><div><b>3. Calculation</b><br>With the drawing done, they write the equation and check the answer by looking at the drawing.</div></div>
+  <h2>How to run the mission</h2>
+  <ol><li><b>Read the opening out loud, with an air of mystery.</b> Stage 1 is very short, on purpose: it gets your child into the game quickly.</li><li><b>Don't say which operation to use.</b> The problem doesn't say whether to add, subtract, or multiply. Figuring that out is the exercise, and the drawing is what shows the answer.</li><li><b>If your child gets stuck, ask for the drawing before giving any help:</b> “Show me that in a bar.” Then use the support question from the answer key (last page). It helps without giving away the answer.</li><li><b>Each answer becomes a letter.</b> If the code word doesn't make sense, one of the calculations is wrong: go back to the drawing and look for it together.</li><li><b>Wrap up by asking:</b> “Explain your drawing from stage 3 to me.”</li></ol>
+  <div class="box"><b>Before moving on:</b> You can move on to the next mission when your child explains the drawing in stage 3 in their own words. If not yet, redo just that stage another day with different numbers (e.g., 42 and 35 votes).</div>
+  <h2>With siblings</h2>
+  <div class="box">Print the mission pages once and solve them together, switching roles at each stage: <b>reader</b> (reads out loud), <b>illustrator</b> (draws the bar), and <b>number cruncher</b> (does the math and checks it against the drawing). With 2 children, the reader also draws. If they're at different levels, each one does the mission for their level and, at the end, they tell each other how they drew it.</div>
+  <div class="rodape">Math Missions · The Mystery of the Torn Graph</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 2 · Mission 2-09</span><span class="dir">Mission</span></div>
+  <div class="cab"><div><svg viewBox="0 0 130 110" width="120"><path d="M14 12 V98 H120" fill="none" stroke="#000" stroke-width="3"/><rect x="26" y="40" width="20" height="58" fill="none" stroke="#000" stroke-width="3"/><rect x="56" y="54" width="20" height="44" fill="none" stroke="#000" stroke-width="3"/><path d="M86 98 V30 H106 V60 l-6 6 6 6 -6 6 6 6 V98" fill="none" stroke="#000" stroke-width="3" stroke-dasharray="5 3"/></svg></div><div><h1>The Mystery of the Torn Graph</h1></div></div>
+  <div class="abertura">The neighborhood club voted on the name of the new mascot: Faísca, Biscoito, or Trovão. The bar graph with the results got torn, and the column for one of the names disappeared. Which name won?</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">The piece that was left</span><span class="tag">quick one</span>
+  <p>Look at the part of the graph that was left. How many votes did Faísca and Biscoito get together?<br><svg viewBox="0 0 300 150" width="248" height="124" font-family="Inter, DejaVu Sans, sans-serif" font-size="11"><path d="M30 10 V120 H290" fill="none" stroke="#000" stroke-width="1.5"/><g stroke="#ccc"><path d="M30 92.5 H290 M30 65 H290 M30 37.5 H290"/></g><g font-size="9" text-anchor="end"><text x="26" y="123">0</text><text x="26" y="96">10</text><text x="26" y="68">20</text><text x="26" y="41">30</text><text x="26" y="14">40</text></g><rect x="50" y="26.5" width="50" height="93.5" fill="#fff" stroke="#000" stroke-width="2"/><text x="75" y="22" text-anchor="middle" font-weight="700">34</text><rect x="125" y="45.75" width="50" height="74.25" fill="#fff" stroke="#000" stroke-width="2"/><text x="150" y="41" text-anchor="middle" font-weight="700">27</text><path d="M200 120 V70 l8 -6 8 6 8 -6 8 6 8 -6 8 6 V120" fill="none" stroke="#000" stroke-width="2" stroke-dasharray="5 3"/><text x="75" y="136" text-anchor="middle">Faísca</text><text x="150" y="136" text-anchor="middle">Biscoito</text><text x="225" y="136" text-anchor="middle">Trovão</text><text x="225" y="98" text-anchor="middle" font-size="9">torn</text></svg></p>
+  <div class="espaco curto"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">The torn column</span>
+  <p>There were 100 votes in all. Faísca and Biscoito add up to 61. How many votes did Trovão, the name on the torn column, get?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  <div class="dica"><b>TIP:</b> no clue tells you which operation to use. Read carefully, figure out what's being asked, and choose the operation. When in doubt, draw.</div>
+  
+  <div class="rodape">Math Missions · The Mystery of the Torn Graph</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 2 · Mission 2-09</span><span class="dir">Mission (continued)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">The winner</span><span class="tag d">draw the problem</span>
+  <p>From the graph and from stage 2: how many more votes did the winner get than 2nd place?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Before doing the math, write the votes for 1st place on the top bar and the votes for 2nd place on the bottom one. On the smaller bar, mark off the piece it needs to be the same as the bigger one and put a <b>?</b> on it.</div><svg class="barra" viewBox="0 0 560 104" width="560" height="104" font-family="Inter, DejaVu Sans, sans-serif"><text x="0" y="27" font-size="14" font-weight="700">1st place</text><rect x="78" y="4" width="474" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="315" y="27" text-anchor="middle" font-size="15" font-weight="500"> </text><text x="0" y="77" font-size="14" font-weight="700">2nd place</text><rect x="78" y="54" width="413.2307692307692" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="284.61538461538464" y="77" text-anchor="middle" font-size="15" font-weight="500"> </text></svg></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">The pattern in the ballot box</span>
+  <p>The ballot box was opened every hour, and the club wrote Trovão's votes in the table. If the pattern kept going until 1 p.m., how many votes would Trovão have at 1 p.m.?<br><table style="border-collapse:collapse;margin-top:4px;font-size:11pt"><tr><td style="border:1.5px solid #111;padding:2px 8px"><b>Time</b></td><td style="border:1.5px solid #111;padding:2px 8px">9 a.m.</td><td style="border:1.5px solid #111;padding:2px 8px">10 a.m.</td><td style="border:1.5px solid #111;padding:2px 8px">11 a.m.</td><td style="border:1.5px solid #111;padding:2px 8px">12 p.m.</td><td style="border:1.5px solid #111;padding:2px 8px">1 p.m.</td></tr><tr><td style="border:1.5px solid #111;padding:2px 8px"><b>Trovão's votes</b></td><td style="border:1.5px solid #111;padding:2px 8px">9</td><td style="border:1.5px solid #111;padding:2px 8px">19</td><td style="border:1.5px solid #111;padding:2px 8px">29</td><td style="border:1.5px solid #111;padding:2px 8px">?</td><td style="border:1.5px solid #111;padding:2px 8px">?</td></tr></table></p>
+  <div class="espaco curto"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  <h2>Crack the code <span class="small" style="font-weight:400">· find each answer in the table and write the letter in that stage's box</span></h2>
+  <table class="cod"><tr><td>5</td><td>7</td><td>12</td><td>39</td><td>40</td><td>49</td><td>61</td><td>161</td></tr><tr><td class="l">T</td><td class="l">R</td><td class="l">B</td><td class="l">O</td><td class="l">F</td><td class="l">E</td><td class="l">V</td><td class="l">X</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>What happened?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · The Mystery of the Torn Graph</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 2 · Mission 2-09</span><span class="dir">Answer key explained · for the adult</span></div>
+  <h1>Answer key: The Mystery of the Torn Graph</h1>
+  <div class="item"><b>Stage 1 — The piece that was left</b> · <span class="r">61</span> (letter V)
+  <div><b>How to think:</b> The votes for the two names go together: 34 + 27. <span class="small">Calculation: 34 + 27 = 61.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “Does the question want the two together or the difference?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 7, when your child subtracted instead of putting together. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 2 — The torn column</b> · <span class="r">39</span> (letter O)
+  <div><b>How to think:</b> The 100 votes are the whole. 61 are already known. Trovão is the rest: 100 − 61. <span class="small">Calculation: 100 − 61 = 39.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “From 61 to 100, how many votes are missing?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 161, when your child added instead of finding what's missing to make 100. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 3 — The winner</b> · <span class="r">5</span> (letter T)
+  <div><b>How to think:</b> First find 1st and 2nd place. Then compare the two columns. <span class="small">Calculation: 1st Trovão (39), 2nd Faísca (34) · 39 − 34 = 5.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 80" width="420" height="80" font-family="Inter, DejaVu Sans, sans-serif"><text x="0" y="21" font-size="11" font-weight="700">Trovão</text><rect x="78" y="4" width="334" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="245" y="21" text-anchor="middle" font-size="12" font-weight="500">39</text><text x="0" y="59" font-size="11" font-weight="700">Faísca</text><rect x="78" y="42" width="291.1794871794872" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="223.5897435897436" y="59" text-anchor="middle" font-size="12" font-weight="500">34</text><rect x="369.1794871794872" y="42" width="42.82051282051282" height="24" fill="#fff" stroke="#000" stroke-width="2" stroke-dasharray="6 4"/><text x="390.5897435897436" y="59" text-anchor="middle" font-size="12" font-weight="800">?</text></svg></div><div>The columns of the graph become bars. The dashed piece is the difference: 39 − 34.</div>
+  <div><b>If they get stuck, ask:</b> “How many votes did Faísca need to tie?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 12, when your child compared with last place, not with 2nd. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 4 — The pattern in the ballot box</b> · <span class="r">49</span> (letter E)
+  <div><b>How to think:</b> Find out how much it goes up from one hour to the next (10) and continue the table. <span class="small">Calculation: goes up 10 each hour: 11 a.m. → 29, 12 p.m. → 39, 1 p.m. → 49.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “From 9 to 19, how much did it go up? And from 19 to 29? Keep going: 12 p.m., 1 p.m.”</div>
+  <div class="small"><b>Most common mistake:</b> answering 40, when your child added 1 instead of 10 each hour. That answer leads to a different letter, and the word doesn't work out.</div></div>
+  <div class="box"><b>Code word: VOTE.</b> Trovão won, with 39 VOTES, 5 more than Faísca. The graph was redone and hung on the club's bulletin board.</div>
+  <div class="rodape">Math Missions · answer key</div></section></body></html>

@@ -1,0 +1,638 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Math Missions · Level 1</title><style>
+@page { size: A4; margin: 14mm; }
+* { box-sizing: border-box; }
+body { font-family: Inter, 'DejaVu Sans', sans-serif; color: #111; font-size: 12.5pt; line-height: 1.45; margin: 0; }
+.pagina { page-break-after: always; position: relative; height: 266mm; overflow: hidden; }
+.pagina:last-child { page-break-after: auto; }
+.topo { display: flex; align-items: center; gap: 10px; border-bottom: 2px solid #111; padding-bottom: 5px; margin-bottom: 12px; font-size: 9.5pt; font-weight: 800; letter-spacing: .05em; }
+.nivel { background: #111; color: #fff; border-radius: 6px; padding: 3px 10px; font-size: 11pt; }
+.topo .dir { margin-left: auto; }
+h1 { font-size: 24pt; margin: 4px 0 8px; line-height: 1.1; }
+h2 { font-size: 15pt; margin: 14px 0 6px; }
+.cab { display: flex; gap: 16px; align-items: center; }
+.abertura { border: 2px solid #111; border-radius: 10px; padding: 10px 14px; font-size: 13.5pt; margin: 8px 0 14px; }
+.etapa { border: 1.5px solid #111; border-radius: 10px; padding: 10px 14px; margin-bottom: 12px; page-break-inside: avoid; }
+.etapa .num { display: inline-flex; width: 30px; height: 30px; border-radius: 8px; background: #111; color: #fff; align-items: center; justify-content: center; font-weight: 800; margin-right: 8px; }
+.etapa .tit { font-weight: 800; font-size: 13.5pt; }
+.etapa .tag { font-size: 9.5pt; border: 1px solid #111; border-radius: 10px; padding: 0 8px; margin-left: 6px; }
+.etapa p { margin: 6px 0; font-size: 13.5pt; }
+.espaco { border: 1.5px dashed #777; border-radius: 8px; height: 30mm; margin-top: 6px; position: relative; }
+.espaco.curto { height: 16mm; }
+.espaco span { position: absolute; left: 10px; top: 4px; font-size: 9pt; color: #555; }
+.resp { margin-top: 6px; font-weight: 800; }
+.resp i { display: inline-block; border-bottom: 1.5px solid #111; width: 55mm; }
+.dica { border: 2px dashed #111; border-radius: 10px; padding: 8px 12px; font-size: 11pt; margin: 10px 0; }
+table.cod { border-collapse: collapse; margin: 6px 0 10px; }
+table.cod td { border: 1.5px solid #111; padding: 6px 12px; text-align: center; font-size: 12.5pt; }
+table.cod td.l { font-weight: 800; font-size: 15pt; }
+.caixas { display: flex; gap: 10px; margin: 8px 0; }
+.fim { display: flex; gap: 14px; align-items: flex-start; }
+.oque { flex: 1; }
+.caixas div span { font-size: 8pt; margin: 2px 4px; display: block; }
+.caixas div { width: 15mm; height: 15mm; border: 2px solid #111; border-radius: 8px; }
+.linha { border-bottom: 1.5px solid #111; height: 8mm; margin: 4px 0; }
+.adulto li, .gab li { margin-bottom: 6px; }
+.box { border: 1.5px solid #111; border-radius: 10px; padding: 8px 14px; margin: 8px 0; }
+.gab .item { border-bottom: 1px solid #999; padding: 8px 0; page-break-inside: avoid; }
+.gab .r { font-weight: 800; font-size: 13.5pt; }
+.small { font-size: 10.5pt; color: #333; }
+.desenho { border: 2px solid #111; border-radius: 8px; padding: 6px 10px; margin: 6px 0; }
+.desenho .ins { font-size: 11.5pt; margin-bottom: 6px; }
+.desenho .ins b.lbl { background: #111; color: #fff; border-radius: 4px; padding: 0 6px; margin-right: 4px; }
+.livre { height: 34mm; border: 1px solid #999; border-radius: 6px; background-image: linear-gradient(#ddd 1px, transparent 1px), linear-gradient(90deg, #ddd 1px, transparent 1px); background-size: 5mm 5mm; }
+.tag.d { background: #111; color: #fff; }
+.gab { height: auto !important; overflow: visible !important; }
+.gab .rodape { position: static; margin-top: 10px; }
+.gab .modelo { margin: 4px 0 2px; }
+.passos { display: flex; gap: 8px; margin: 6px 0; }
+.passos div { flex: 1; border: 1.5px solid #111; border-radius: 8px; padding: 6px 8px; font-size: 11pt; }
+.adulto { font-size: 11.3pt; line-height: 1.38; }
+.adulto h1 { font-size: 21pt; }
+.adulto h2 { font-size: 13.5pt; margin: 9px 0 4px; }
+.adulto ol { margin: 4px 0; padding-left: 22px; }
+.adulto li { margin-bottom: 3px !important; }
+.gab { font-size: 11pt; line-height: 1.33; }
+.gab h1 { font-size: 20pt; }
+.gab .item { padding: 5px 0 !important; }
+.rodape { position: absolute; bottom: 0; left: 0; right: 0; font-size: 8.5pt; color: #555; border-top: 1px solid #aaa; padding-top: 3px; }
+</style></head><body><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-01</span><span class="dir">For the adult · read first (2 minutes)</span></div>
+  <h1>The Mystery of the Swapped Lunchbox</h1>
+  <div class="box"><b>Time:</b> 20 to 25 minutes · <b>Practice:</b> addition: putting together (up to 100) · <b>Materials:</b> pencil, eraser, and this printed sheet (optional: analog clock, dried beans, or bottle caps).</div>
+  <h2>The method in this mission: draw before you solve</h2>
+  <p>Stage 2 is the <b>“draw the problem”</b> stage. In it, your child goes through the 3 steps of the Singapore method (details in the Parent Guide):</p>
+  <div class="passos"><div><b>1. Concrete</b><br>Set aside dried beans or bottle caps to be the grapes. In stage 2, your child makes one little pile of 24 and another of 15, puts the two together, and counts before drawing.</div><div><b>2. Drawing</b><br>Your child draws the bar and puts a <b>?</b> on what they want to find out. Only then do they do the math.</div><div><b>3. Calculation</b><br>With the drawing done, they write the equation and check the answer by looking at the drawing.</div></div>
+  <h2>How to run the mission</h2>
+  <ol><li><b>Read the opening out loud, with an air of mystery.</b> Stage 1 is very short, on purpose: it gets your child into the game quickly.</li><li><b>Don't say which operation to use.</b> The problem doesn't say whether to add, subtract, or multiply. Figuring that out is the exercise, and the drawing is what shows the answer.</li><li><b>If your child gets stuck, ask for the drawing before giving any help:</b> “Show me that in a bar.” Then use the support question from the answer key (last page). It helps without giving away the answer.</li><li><b>Each answer becomes a letter.</b> If the code word doesn't make sense, one of the calculations is wrong: go back to the drawing and look for it together.</li><li><b>Wrap up by asking:</b> “Explain your drawing from stage 2 to me.”</li></ol>
+  <div class="box"><b>Before moving on:</b> You can move on to the next mission when your child explains the drawing in stage 2 in their own words (“this part is…, this other part is…, and the total goes on top”). If not yet, redo just that stage another day with different numbers (e.g., 32 grapes on top and 16 on the bottom).</div>
+  <h2>With siblings</h2>
+  <div class="box">Print the mission pages once and solve them together, switching roles at each stage: <b>reader</b> (reads out loud), <b>illustrator</b> (draws the bar), and <b>number cruncher</b> (does the math and checks it against the drawing). With 2 children, the reader also draws. If they're at different levels, each one does the mission for their level and, at the end, they tell each other how they drew it.</div>
+  <div class="rodape">Math Missions · The Mystery of the Swapped Lunchbox</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-01</span><span class="dir">Mission</span></div>
+  <div class="cab"><div><svg viewBox="0 0 120 110" width="115"><rect x="12" y="38" width="96" height="62" rx="10" fill="none" stroke="#000" stroke-width="3"/><path d="M42 38 V24 H78 V38" fill="none" stroke="#000" stroke-width="3"/><path d="M12 60 H108" stroke="#000" stroke-width="2"/><circle cx="60" cy="60" r="5"/></svg></div><div><h1>The Mystery of the Swapped Lunchbox</h1></div></div>
+  <div class="abertura">At the picnic in the park, Lia's and Theo's identical blue lunchboxes got swapped. Lia left a note on the picnic blanket: “mine is the one with more grapes.” Count carefully and find out which lunchbox belongs to whom.</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">Lunchbox A</span><span class="tag">quick one</span>
+  <p>Lunchbox A has 6 green grapes and 5 purple grapes. How many grapes are in lunchbox A?</p>
+  <div class="espaco curto"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">Lunchbox B</span><span class="tag d">draw the problem</span>
+  <p>Lunchbox B has 24 grapes in the top container and 15 grapes in the bottom container. How many grapes are in lunchbox B?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Before doing the math, complete the drawing. In each part, write how many grapes are in each container, and put a <b>?</b> on top, on the total.</div><svg class="barra" viewBox="0 0 560 84" width="560" height="84" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H551 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="237.45" y="5" width="77.1" height="20" fill="#fff"/><text x="276" y="19" text-anchor="middle" font-size="15" font-weight="700">_______</text><rect x="0" y="34" width="339.6923076923077" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="169.84615384615384" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="339.6923076923077" y="34" width="212.3076923076923" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="445.8461538461538" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text></svg></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · The Mystery of the Swapped Lunchbox</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-01</span><span class="dir">Mission (continued)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">The napkins</span>
+  <p>On the picnic blanket there are 10 napkins next to lunchbox A, 10 next to lunchbox B, and 7 more loose ones. How many napkins are there in all?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">All the grapes</span>
+  <p>Putting together the grapes from the two lunchboxes (11 and 39), how many grapes are at the picnic?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  <div class="dica"><b>TIP:</b> no clue tells you which operation to use. Read carefully, figure out what's being asked, and choose the operation. When in doubt, draw.</div>
+  <h2>Crack the code <span class="small" style="font-weight:400">· find each answer in the table and write the letter in that stage's box</span></h2>
+  <table class="cod"><tr><td>1</td><td>9</td><td>11</td><td>20</td><td>27</td><td>39</td><td>40</td><td>50</td></tr><tr><td class="l">X</td><td class="l">B</td><td class="l">M</td><td class="l">F</td><td class="l">R</td><td class="l">O</td><td class="l">I</td><td class="l">E</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>What happened?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · The Mystery of the Swapped Lunchbox</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-01</span><span class="dir">Answer key explained · for the adult</span></div>
+  <h1>Answer key: The Mystery of the Swapped Lunchbox</h1>
+  <div class="item"><b>Stage 1 — Lunchbox A</b> · <span class="r">11</span> (letter M)
+  <div><b>How to think:</b> The green grapes and the purple grapes are together in the same lunchbox: 6 + 5. <span class="small">Calculation: 6 + 5 = 11.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “If you put the green grapes and the purple grapes on one plate, how many are there?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 1, when your child took away instead of putting together. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 2 — Lunchbox B</b> · <span class="r">39</span> (letter O)
+  <div><b>How to think:</b> The two containers are parts of the same lunchbox. The total is the sum of the parts: 24 + 15. <span class="small">Calculation: 24 + 15 = 39.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="196.28" y="5" width="19.439999999999998" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">?</text><rect x="0" y="34" width="253.53846153846155" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="126.76923076923077" y="51" text-anchor="middle" font-size="12" font-weight="500">24 on top</text><rect x="253.53846153846155" y="34" width="158.46153846153845" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="332.7692307692308" y="51" text-anchor="middle" font-size="12" font-weight="500">15 on the bottom</text></svg></div><div>The drawing shows 2 parts and the unknown total on top. When the ? is on the whole, it's addition: 24 + 15.</div>
+  <div><b>If they get stuck, ask:</b> “What does the question want to know: the grapes in one container or in the whole lunchbox?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 9, when your child subtracted, without seeing that the two containers go together. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 3 — The napkins</b> · <span class="r">27</span> (letter R)
+  <div><b>How to think:</b> There are 3 groups: 10, 10, and 7. Put it all together: 10 + 10 = 20, plus 7. <span class="small">Calculation: 10 + 10 + 7 = 27.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “How many groups of napkins are there? Did you count all of them?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 20, when your child forgot the loose napkins. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 4 — All the grapes</b> · <span class="r">50</span> (letter E)
+  <div><b>How to think:</b> Add the tens (10 + 30 = 40) and the ones (1 + 9 = 10). Then put them together: 40 + 10. <span class="small">Calculation: 11 + 39 = 50 (1 + 9 = 10; 10 + 30 + 10 = 50).</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “What is 1 + 9? Does that make one more ten?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 40, when your child added only the tens and forgot that 1 + 9 makes one more ten. That answer leads to a different letter, and the word doesn't work out.</div></div>
+  <div class="box"><b>Code word: MORE.</b> MORE grapes solved the case: lunchbox B, with 39 grapes, is Lia's. Lunchbox A, with 11, is Theo's. Each of them had lunch with their own!</div>
+  <div class="rodape">Math Missions · answer key</div></section><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-02</span><span class="dir">For the adult · read first (2 minutes)</span></div>
+  <h1>The Case of the Missing Stickers</h1>
+  <div class="box"><b>Time:</b> 20 to 25 minutes · <b>Practice:</b> subtraction: taking away and “how many are missing” · <b>Materials:</b> pencil, eraser, and this printed sheet (optional: analog clock, dried beans, or bottle caps).</div>
+  <h2>The method in this mission: draw before you solve</h2>
+  <p>Stage 2 is the <b>“draw the problem”</b> stage. In it, your child goes through the 3 steps of the Singapore method (details in the Parent Guide):</p>
+  <div class="passos"><div><b>1. Concrete</b><br>Use 48 little pieces of paper as stickers. In stage 2, your child sets aside 31 (the ones still stuck in) and sees how many are left before drawing.</div><div><b>2. Drawing</b><br>Your child draws the bar and puts a <b>?</b> on what they want to find out. Only then do they do the math.</div><div><b>3. Calculation</b><br>With the drawing done, they write the equation and check the answer by looking at the drawing.</div></div>
+  <h2>How to run the mission</h2>
+  <ol><li><b>Read the opening out loud, with an air of mystery.</b> Stage 1 is very short, on purpose: it gets your child into the game quickly.</li><li><b>Don't say which operation to use.</b> The problem doesn't say whether to add, subtract, or multiply. Figuring that out is the exercise, and the drawing is what shows the answer.</li><li><b>If your child gets stuck, ask for the drawing before giving any help:</b> “Show me that in a bar.” Then use the support question from the answer key (last page). It helps without giving away the answer.</li><li><b>Each answer becomes a letter.</b> If the code word doesn't make sense, one of the calculations is wrong: go back to the drawing and look for it together.</li><li><b>Wrap up by asking:</b> “Explain your drawing from stage 2 to me.”</li></ol>
+  <div class="box"><b>Before moving on:</b> You can move on to the next mission when your child explains the drawing in stage 2 in their own words. If not yet, redo just that stage another day with different numbers (e.g., 45 before, 28 today).</div>
+  <h2>With siblings</h2>
+  <div class="box">Print the mission pages once and solve them together, switching roles at each stage: <b>reader</b> (reads out loud), <b>illustrator</b> (draws the bar), and <b>number cruncher</b> (does the math and checks it against the drawing). With 2 children, the reader also draws. If they're at different levels, each one does the mission for their level and, at the end, they tell each other how they drew it.</div>
+  <div class="rodape">Math Missions · The Case of the Missing Stickers</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-02</span><span class="dir">Mission</span></div>
+  <div class="cab"><div><svg viewBox="0 0 120 110" width="115"><rect x="14" y="14" width="92" height="84" rx="6" fill="none" stroke="#000" stroke-width="3"/><path d="M60 14 V98" stroke="#000" stroke-width="2"/><rect x="24" y="26" width="26" height="30" fill="none" stroke="#000" stroke-width="2"/><rect x="70" y="26" width="26" height="30" fill="none" stroke="#000" stroke-width="2" stroke-dasharray="4 3"/><rect x="24" y="62" width="26" height="28" fill="none" stroke="#000" stroke-width="2" stroke-dasharray="4 3"/><rect x="70" y="62" width="26" height="28" fill="none" stroke="#000" stroke-width="2"/></svg></div><div><h1>The Case of the Missing Stickers</h1></div></div>
+  <div class="abertura">The family's sticker album woke up with empty pages, and there were stickers scattered across the living room floor. Someone messed with the album during the night. Who was it?</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">Page 1</span><span class="tag">quick one</span>
+  <p>Page 1 holds 10 stickers, and only 3 are stuck in. How many are missing on page 1?</p>
+  <div class="espaco curto"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">The stickers that came out</span><span class="tag d">draw the problem</span>
+  <p>Before, 48 stickers were stuck in the album. Today there are only 31. How many stickers came out of the album?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Before doing the math, complete the drawing. The whole bar is the stickers from before. Write that number on top, write the ones still stuck in in the big part, and put a <b>?</b> on the part that came out.</div><svg class="barra" viewBox="0 0 560 84" width="560" height="84" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H551 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="237.45" y="5" width="77.1" height="20" fill="#fff"/><text x="276" y="19" text-anchor="middle" font-size="15" font-weight="700">_______</text><rect x="0" y="34" width="356.5" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="178.25" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="356.5" y="34" width="195.5" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="454.25" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text></svg></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · The Case of the Missing Stickers</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-02</span><span class="dir">Mission (continued)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">The stickers that were found</span>
+  <p>On the living room floor, the family found 12 of the 17 stickers that came out. How many are still missing?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">The marks on the couch</span>
+  <p>On the couch there were 3 paw prints, each with 4 little toes. How many little toes are there in all in the prints?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  <div class="dica"><b>TIP:</b> no clue tells you which operation to use. Read carefully, figure out what's being asked, and choose the operation. When in doubt, draw.</div>
+  <h2>Crack the code <span class="small" style="font-weight:400">· find each answer in the table and write the letter in that stage's box</span></h2>
+  <table class="cod"><tr><td>3</td><td>5</td><td>7</td><td>12</td><td>13</td><td>17</td><td>29</td><td>79</td></tr><tr><td class="l">J</td><td class="l">W</td><td class="l">P</td><td class="l">S</td><td class="l">Z</td><td class="l">A</td><td class="l">G</td><td class="l">D</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>What happened?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · The Case of the Missing Stickers</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-02</span><span class="dir">Answer key explained · for the adult</span></div>
+  <h1>Answer key: The Case of the Missing Stickers</h1>
+  <div class="item"><b>Stage 1 — Page 1</b> · <span class="r">7</span> (letter P)
+  <div><b>How to think:</b> The whole page has 10 spots. 3 are taken. What's missing is 10 − 3. <span class="small">Calculation: 10 − 3 = 7.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “If 3 spots are filled, how many are empty?” Counting on your fingers from 3 to 10 also works.</div>
+  <div class="small"><b>Most common mistake:</b> answering 13, when your child added instead of seeing how many are missing. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 2 — The stickers that came out</b> · <span class="r">17</span> (letter A)
+  <div><b>How to think:</b> The 48 from before are the whole. The 31 that stayed are one part. The other part is what came out: 48 − 31. <span class="small">Calculation: 48 − 31 = 17.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="192.56" y="5" width="26.88" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">48</text><rect x="0" y="34" width="266.08333333333337" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="133.04166666666669" y="51" text-anchor="middle" font-size="12" font-weight="500">31 stuck in</text><rect x="266.08333333333337" y="34" width="145.91666666666669" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="339.04166666666674" y="51" text-anchor="middle" font-size="12" font-weight="500">? came out</text></svg></div><div>Knowing the whole (48) and one part (31), the other part is what's missing: 48 − 31.</div>
+  <div><b>If they get stuck, ask:</b> “There were 48 and now there are 31. Did more or fewer than 20 come out?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 79, when your child added instead of subtracting. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 3 — The stickers that were found</b> · <span class="r">5</span> (letter W)
+  <div><b>How to think:</b> Of the 17 that came out, 12 have already turned up. The missing ones are what's left: 17 − 12. <span class="small">Calculation: 17 − 12 = 5.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “If 12 have already come back, how many of the 17 are still missing?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 29, when your child put the found ones together with the ones that came out. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 4 — The marks on the couch</b> · <span class="r">12</span> (letter S)
+  <div><b>How to think:</b> Each print has 4 little toes. There are 3 prints: 4 + 4 + 4. <span class="small">Calculation: 4 + 4 + 4 = 12.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “Draw the 3 paws with 4 little toes each. How many little toes did you draw?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 3, when your child counted the prints, not the toes. That answer leads to a different letter, and the word doesn't work out.</div></div>
+  <div class="box"><b>Code word: PAWS.</b> It was the cat, PAWS and all! The 5 missing stickers were under the cushion where it sleeps, along with the little paw prints.</div>
+  <div class="rodape">Math Missions · answer key</div></section><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-03</span><span class="dir">For the adult · read first (2 minutes)</span></div>
+  <h1>The Mystery of the Backyard Scoreboard</h1>
+  <div class="box"><b>Time:</b> 20 to 25 minutes · <b>Practice:</b> comparison: how many more, how many fewer · <b>Materials:</b> pencil, eraser, and this printed sheet (optional: analog clock, dried beans, or bottle caps).</div>
+  <h2>The method in this mission: draw before you solve</h2>
+  <p>Stage 3 is the <b>“draw the problem”</b> stage. In it, your child goes through the 3 steps of the Singapore method (details in the Parent Guide):</p>
+  <div class="passos"><div><b>1. Concrete</b><br>Make two rows of bottle caps, one under the other: 23 for Blue and 15 for Green. In stage 3, your child sees how many of Blue's bottle caps are left without a pair before drawing.</div><div><b>2. Drawing</b><br>Your child draws the bar and puts a <b>?</b> on what they want to find out. Only then do they do the math.</div><div><b>3. Calculation</b><br>With the drawing done, they write the equation and check the answer by looking at the drawing.</div></div>
+  <h2>How to run the mission</h2>
+  <ol><li><b>Read the opening out loud, with an air of mystery.</b> Stage 1 is very short, on purpose: it gets your child into the game quickly.</li><li><b>Don't say which operation to use.</b> The problem doesn't say whether to add, subtract, or multiply. Figuring that out is the exercise, and the drawing is what shows the answer.</li><li><b>If your child gets stuck, ask for the drawing before giving any help:</b> “Show me that in a bar.” Then use the support question from the answer key (last page). It helps without giving away the answer.</li><li><b>Each answer becomes a letter.</b> If the code word doesn't make sense, one of the calculations is wrong: go back to the drawing and look for it together.</li><li><b>Wrap up by asking:</b> “Explain your drawing from stage 3 to me.”</li></ol>
+  <div class="box"><b>Before moving on:</b> You can move on to the next mission when your child explains the drawing in stage 3 in their own words (“this bar is Blue's, this one is Green's, and the dashed piece is the difference”). If not yet, redo just that stage another day with different numbers (e.g., 27 and 18).</div>
+  <h2>With siblings</h2>
+  <div class="box">Print the mission pages once and solve them together, switching roles at each stage: <b>reader</b> (reads out loud), <b>illustrator</b> (draws the bar), and <b>number cruncher</b> (does the math and checks it against the drawing). With 2 children, the reader also draws. If they're at different levels, each one does the mission for their level and, at the end, they tell each other how they drew it.</div>
+  <div class="rodape">Math Missions · The Mystery of the Backyard Scoreboard</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-03</span><span class="dir">Mission</span></div>
+  <div class="cab"><div><svg viewBox="0 0 120 120" width="110"><circle cx="60" cy="60" r="42" fill="none" stroke="#000" stroke-width="3"/><path d="M60 38 L80 52 L72 76 H48 L40 52 Z" fill="#000"/><path d="M60 38 V18 M80 52 L100 44 M72 76 L84 96 M48 76 L36 96 M40 52 L20 44" stroke="#000" stroke-width="2.5"/></svg></div><div><h1>The Mystery of the Backyard Scoreboard</h1></div></div>
+  <div class="abertura">On Sunday, the cousins played soccer in the backyard in two teams, Blue and Green. That night it rained and washed away the chalk scoreboard on the wall. Who won the tournament?</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">Blue's goals</span><span class="tag">quick one</span>
+  <p>Team Blue scored 3 goals in the first half and 4 in the second. How many goals did Blue score?</p>
+  <div class="espaco curto"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">Green's goals</span>
+  <p>Team Green scored 2 fewer goals than Blue. How many goals did Green score?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  <div class="dica"><b>TIP:</b> no clue tells you which operation to use. Read carefully, figure out what's being asked, and choose the operation. When in doubt, draw.</div>
+  
+  <div class="rodape">Math Missions · The Mystery of the Backyard Scoreboard</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-03</span><span class="dir">Mission (continued)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">The shots on target</span><span class="tag d">draw the problem</span>
+  <p>After the game, the teams did a shots-on-target challenge: Blue made 23 and Green made 15. How many more shots did Blue make?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Before doing the math, complete the drawing. Write each team's number on its bar and put a <b>?</b> on the dashed piece: it's the difference.</div><svg class="barra" viewBox="0 0 560 104" width="560" height="104" font-family="Inter, DejaVu Sans, sans-serif"><text x="0" y="27" font-size="14" font-weight="700">Blue</text><rect x="78" y="4" width="474" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="315" y="27" text-anchor="middle" font-size="15" font-weight="500">_______</text><text x="0" y="77" font-size="14" font-weight="700">Green</text><rect x="78" y="54" width="309.1304347826087" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="232.56521739130434" y="77" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="387.1304347826087" y="54" width="164.8695652173913" height="36" fill="#fff" stroke="#000" stroke-width="2" stroke-dasharray="6 4"/><text x="469.5652173913044" y="77" text-anchor="middle" font-size="15" font-weight="500">_______</text></svg></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">Blue's points</span>
+  <p>The tournament adds up goals and shots on target. Blue scored 7 goals and made 23 shots on target. How many points did Blue get?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  <h2>Crack the code <span class="small" style="font-weight:400">· find each answer in the table and write the letter in that stage's box</span></h2>
+  <table class="cod"><tr><td>1</td><td>5</td><td>7</td><td>8</td><td>9</td><td>16</td><td>30</td><td>38</td></tr><tr><td class="l">S</td><td class="l">L</td><td class="l">B</td><td class="l">U</td><td class="l">Z</td><td class="l">H</td><td class="l">E</td><td class="l">D</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>What happened?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · The Mystery of the Backyard Scoreboard</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-03</span><span class="dir">Answer key explained · for the adult</span></div>
+  <h1>Answer key: The Mystery of the Backyard Scoreboard</h1>
+  <div class="item"><b>Stage 1 — Blue's goals</b> · <span class="r">7</span> (letter B)
+  <div><b>How to think:</b> The goals from the two halves go together: 3 + 4. <span class="small">Calculation: 3 + 4 = 7.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “The game has two halves. Do the goals from both count?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 1, when your child took away instead of putting together. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 2 — Green's goals</b> · <span class="r">5</span> (letter L)
+  <div><b>How to think:</b> “Fewer” means Green scored less than Blue's 7: 7 − 2. <span class="small">Calculation: 7 − 2 = 5.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “Did Green score more or fewer goals than Blue?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 9, when your child read “fewer” and added. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 3 — The shots on target</b> · <span class="r">8</span> (letter U)
+  <div><b>How to think:</b> Comparing is seeing what the bigger bar has that the smaller one doesn't: 23 − 15. <span class="small">Calculation: 23 − 15 = 8.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 80" width="420" height="80" font-family="Inter, DejaVu Sans, sans-serif"><text x="0" y="21" font-size="11" font-weight="700">Blue</text><rect x="78" y="4" width="334" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="245" y="21" text-anchor="middle" font-size="12" font-weight="500">23</text><text x="0" y="59" font-size="11" font-weight="700">Green</text><rect x="78" y="42" width="217.82608695652175" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="186.91304347826087" y="59" text-anchor="middle" font-size="12" font-weight="500">15</text><rect x="295.82608695652175" y="42" width="116.17391304347827" height="24" fill="#fff" stroke="#000" stroke-width="2" stroke-dasharray="6 4"/><text x="353.9130434782609" y="59" text-anchor="middle" font-size="12" font-weight="800">?</text></svg></div><div>The two bars lined up show that the dashed piece is what Green needs to reach Blue. That's why the math is 23 − 15.</div>
+  <div><b>If they get stuck, ask:</b> “If Green made a few more shots, it would be even with Blue. How many?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 38, when your child added the two teams instead of comparing. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 4 — Blue's points</b> · <span class="r">30</span> (letter E)
+  <div><b>How to think:</b> The points are goals and shots on target together: 7 + 23. <span class="small">Calculation: 7 + 23 = 30.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “Tournament points = goals + shots on target. How much is that?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 16, when your child took away instead of putting together. That answer leads to a different letter, and the word doesn't work out.</div></div>
+  <div class="box"><b>Code word: BLUE.</b> Team BLUE won the tournament: they scored more goals and made more shots on target. The chalk scoreboard was redone on the wall, now with tape over it!</div>
+  <div class="rodape">Math Missions · answer key</div></section><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-04</span><span class="dir">For the adult · read first (2 minutes)</span></div>
+  <h1>The Riddle of the Neighbor's Orchard</h1>
+  <div class="box"><b>Time:</b> 20 to 25 minutes · <b>Practice:</b> multiplication: equal groups (×2, ×5, ×10) · <b>Materials:</b> pencil, eraser, and this printed sheet (optional: analog clock, dried beans, or bottle caps).</div>
+  <h2>The method in this mission: draw before you solve</h2>
+  <p>Stage 2 is the <b>“draw the problem”</b> stage. In it, your child goes through the 3 steps of the Singapore method (details in the Parent Guide):</p>
+  <div class="passos"><div><b>1. Concrete</b><br>Use 6 small containers (or cups) as baskets and 5 dried beans in each one. In stage 2, your child counts the beans by 5s before drawing.</div><div><b>2. Drawing</b><br>Your child draws the bar and puts a <b>?</b> on what they want to find out. Only then do they do the math.</div><div><b>3. Calculation</b><br>With the drawing done, they write the equation and check the answer by looking at the drawing.</div></div>
+  <h2>How to run the mission</h2>
+  <ol><li><b>Read the opening out loud, with an air of mystery.</b> Stage 1 is very short, on purpose: it gets your child into the game quickly.</li><li><b>Don't say which operation to use.</b> The problem doesn't say whether to add, subtract, or multiply. Figuring that out is the exercise, and the drawing is what shows the answer.</li><li><b>If your child gets stuck, ask for the drawing before giving any help:</b> “Show me that in a bar.” Then use the support question from the answer key (last page). It helps without giving away the answer.</li><li><b>Each answer becomes a letter.</b> If the code word doesn't make sense, one of the calculations is wrong: go back to the drawing and look for it together.</li><li><b>Wrap up by asking:</b> “Explain your drawing from stage 2 to me.”</li></ol>
+  <div class="box"><b>Before moving on:</b> You can move on to the next mission when your child explains the drawing in stage 2 in their own words (“each piece is a basket”). If not yet, redo just that stage another day with different numbers (e.g., 4 baskets with 10).</div>
+  <h2>With siblings</h2>
+  <div class="box">Print the mission pages once and solve them together, switching roles at each stage: <b>reader</b> (reads out loud), <b>illustrator</b> (draws the bar), and <b>number cruncher</b> (does the math and checks it against the drawing). With 2 children, the reader also draws. If they're at different levels, each one does the mission for their level and, at the end, they tell each other how they drew it.</div>
+  <div class="rodape">Math Missions · The Riddle of the Neighbor's Orchard</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-04</span><span class="dir">Mission</span></div>
+  <div class="cab"><div><svg viewBox="0 0 120 120" width="110"><circle cx="60" cy="48" r="34" fill="none" stroke="#000" stroke-width="3"/><path d="M60 82 V112 M46 112 H74" stroke="#000" stroke-width="4"/><circle cx="48" cy="40" r="6"/><circle cx="70" cy="52" r="6"/><circle cx="58" cy="62" r="6"/></svg></div><div><h1>The Riddle of the Neighbor's Orchard</h1></div></div>
+  <div class="abertura">The neighbor picked fruit in her orchard and wrote in her notebook: “I picked 60 fruits.” But when she counted what was in the baskets, the numbers didn't add up. Help find out what happened.</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">The oranges</span><span class="tag">quick one</span>
+  <p>There are 2 baskets with 10 oranges in each one. How many oranges?</p>
+  <div class="espaco curto"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">The apples</span><span class="tag d">draw the problem</span>
+  <p>There are 6 baskets of apples, with 5 apples in each one. How many apples?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Before doing the math, complete the drawing. Each piece of the bar is a basket. Write how many apples are in each basket and put a <b>?</b> on top, on the total.</div><svg class="barra" viewBox="0 0 560 84" width="560" height="84" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H551 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="237.45" y="5" width="77.1" height="20" fill="#fff"/><text x="276" y="19" text-anchor="middle" font-size="15" font-weight="700">_______</text><rect x="0" y="34" width="92" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="46" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="92" y="34" width="92" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="138" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="184" y="34" width="92" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="230" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="276" y="34" width="92" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="322" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="368" y="34" width="92" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="414" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="460" y="34" width="92" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="506" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text></svg></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · The Riddle of the Neighbor's Orchard</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-04</span><span class="dir">Mission (continued)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">Everything in the baskets</span>
+  <p>Putting together the oranges and the apples, how many fruits are in the baskets?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">The missing fruits</span>
+  <p>The neighbor wrote down 60 fruits, but there are 50 in the baskets. How many fruits went missing?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  <div class="dica"><b>TIP:</b> no clue tells you which operation to use. Read carefully, figure out what's being asked, and choose the operation. When in doubt, draw.</div>
+  <h2>Crack the code <span class="small" style="font-weight:400">· find each answer in the table and write the letter in that stage's box</span></h2>
+  <table class="cod"><tr><td>8</td><td>10</td><td>11</td><td>12</td><td>20</td><td>30</td><td>50</td><td>110</td></tr><tr><td class="l">C</td><td class="l">R</td><td class="l">X</td><td class="l">S</td><td class="l">P</td><td class="l">E</td><td class="l">A</td><td class="l">G</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>What happened?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · The Riddle of the Neighbor's Orchard</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-04</span><span class="dir">Answer key explained · for the adult</span></div>
+  <h1>Answer key: The Riddle of the Neighbor's Orchard</h1>
+  <div class="item"><b>Stage 1 — The oranges</b> · <span class="r">20</span> (letter P)
+  <div><b>How to think:</b> Each basket has 10. There are 2 baskets: 10 + 10. <span class="small">Calculation: 2 × 10 = 20 (or 10 + 10).</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “How many oranges are in one basket? What about in two?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 12, when your child added 2 + 10 instead of putting together 2 baskets of 10. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 2 — The apples</b> · <span class="r">30</span> (letter E)
+  <div><b>How to think:</b> There are 6 equal groups of 5. Count by 5s six times. <span class="small">Calculation: 6 × 5 = 30 (5, 10, 15, 20, 25, 30).</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="196.28" y="5" width="19.439999999999998" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">?</text><rect x="0" y="34" width="68.66666666666667" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="34.333333333333336" y="51" text-anchor="middle" font-size="12" font-weight="500">5</text><rect x="68.66666666666667" y="34" width="68.66666666666667" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="103" y="51" text-anchor="middle" font-size="12" font-weight="500">5</text><rect x="137.33333333333334" y="34" width="68.66666666666667" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="171.66666666666669" y="51" text-anchor="middle" font-size="12" font-weight="500">5</text><rect x="206" y="34" width="68.66666666666667" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="240.33333333333334" y="51" text-anchor="middle" font-size="12" font-weight="500">5</text><rect x="274.6666666666667" y="34" width="68.66666666666667" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="309" y="51" text-anchor="middle" font-size="12" font-weight="500">5</text><rect x="343.33333333333337" y="34" width="68.66666666666667" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="377.6666666666667" y="51" text-anchor="middle" font-size="12" font-weight="500">5</text></svg></div><div>Equal pieces with the ? on the total: it's multiplication (6 × 5), or adding 5 six times.</div>
+  <div><b>If they get stuck, ask:</b> “Count by 5s, once for each basket: 5, 10, 15…”</div>
+  <div class="small"><b>Most common mistake:</b> answering 11, when your child added 6 + 5 instead of putting together 6 baskets of 5. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 3 — Everything in the baskets</b> · <span class="r">50</span> (letter A)
+  <div><b>How to think:</b> The fruits are 20 oranges and 30 apples: 20 + 30. <span class="small">Calculation: 20 + 30 = 50.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “Is the question about baskets or about fruits?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 8, when your child counted the baskets, not the fruits. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 4 — The missing fruits</b> · <span class="r">10</span> (letter R)
+  <div><b>How to think:</b> The notebook says 60. The baskets have 50. What's missing is 60 − 50. <span class="small">Calculation: 60 − 50 = 10.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “From 50 to 60, how many are missing?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 110, when your child added instead of seeing how many are missing. That answer leads to a different letter, and the word doesn't work out.</div></div>
+  <div class="box"><b>Code word: PEAR.</b> 10 PEARS went missing: their basket fell behind the wall in the wind. They were there, all in one piece, and the neighbor's count worked out to 60.</div>
+  <div class="rodape">Math Missions · answer key</div></section><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-05</span><span class="dir">For the adult · read first (2 minutes)</span></div>
+  <h1>The Mystery of the Library Clock</h1>
+  <div class="box"><b>Time:</b> 20 to 25 minutes · <b>Practice:</b> time: duration in minutes, start and end · <b>Materials:</b> pencil, eraser, and this printed sheet (optional: analog clock, dried beans, or bottle caps).</div>
+  <h2>The method in this mission: draw before you solve</h2>
+  <p>Stage 2 is the <b>“draw the problem”</b> stage. In it, your child goes through the 3 steps of the Singapore method (details in the Parent Guide):</p>
+  <div class="passos"><div><b>1. Concrete</b><br>Use an analog clock (or draw one). In stage 2, your child turns the long hand 35 minutes and then 25 more, and sees how many times it went around before drawing.</div><div><b>2. Drawing</b><br>Your child draws the bar and puts a <b>?</b> on what they want to find out. Only then do they do the math.</div><div><b>3. Calculation</b><br>With the drawing done, they write the equation and check the answer by looking at the drawing.</div></div>
+  <h2>How to run the mission</h2>
+  <ol><li><b>Read the opening out loud, with an air of mystery.</b> Stage 1 is very short, on purpose: it gets your child into the game quickly.</li><li><b>Don't say which operation to use.</b> The problem doesn't say whether to add, subtract, or multiply. Figuring that out is the exercise, and the drawing is what shows the answer.</li><li><b>If your child gets stuck, ask for the drawing before giving any help:</b> “Show me that in a bar.” Then use the support question from the answer key (last page). It helps without giving away the answer.</li><li><b>Each answer becomes a letter.</b> If the code word doesn't make sense, one of the calculations is wrong: go back to the drawing and look for it together.</li><li><b>Wrap up by asking:</b> “Explain your drawing from stage 2 to me.”</li></ol>
+  <div class="box"><b>Before moving on:</b> You can move on to the next mission when your child explains the drawing in stage 2 in their own words. If not yet, redo just that stage another day with different numbers (e.g., 40 minutes of story and 20 of drawing).</div>
+  <h2>With siblings</h2>
+  <div class="box">Print the mission pages once and solve them together, switching roles at each stage: <b>reader</b> (reads out loud), <b>illustrator</b> (draws the bar), and <b>number cruncher</b> (does the math and checks it against the drawing). With 2 children, the reader also draws. If they're at different levels, each one does the mission for their level and, at the end, they tell each other how they drew it.</div>
+  <div class="rodape">Math Missions · The Mystery of the Library Clock</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-05</span><span class="dir">Mission</span></div>
+  <div class="cab"><div><svg viewBox="0 0 120 120" width="110"><circle cx="60" cy="60" r="44" fill="none" stroke="#000" stroke-width="4"/><path d="M60 60 V30 M60 60 L80 72" stroke="#000" stroke-width="5" stroke-linecap="round"/><path d="M60 20 V26 M60 94 V100 M20 60 H26 M94 60 H100" stroke="#000" stroke-width="3"/></svg></div><div><h1>The Mystery of the Library Clock</h1></div></div>
+  <div class="abertura">At the neighborhood library, the reading session ended, but nobody wrote down what time it started. The librarian needs to know for the report. The clues are in the clocks.</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">The wall clock</span><span class="tag">quick one</span>
+  <p>The wall clock has the short hand on the 4 and the long hand on the 12. What time is it?</p>
+  <div class="espaco curto"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">The two parts of the session</span><span class="tag d">draw the problem</span>
+  <p>The session had 2 parts: 35 minutes of story and 25 minutes of drawing. How many minutes did the whole session last?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Before doing the math, complete the drawing. The bar is the session, like a timeline. Write the minutes of each part and put a <b>?</b> on top, on the total.</div><svg class="barra" viewBox="0 0 560 84" width="560" height="84" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H551 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="237.45" y="5" width="77.1" height="20" fill="#fff"/><text x="276" y="19" text-anchor="middle" font-size="15" font-weight="700">_______</text><rect x="0" y="34" width="322" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="161" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="322" y="34" width="229.99999999999997" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="437" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text></svg></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · The Mystery of the Library Clock</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-05</span><span class="dir">Mission (continued)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">The start of the session</span>
+  <p>60 minutes is 1 hour. The session ended at 4:00 p.m. What time did it start?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">The library bell</span>
+  <p>The library bell rings every 30 minutes: at 3:00, at 3:30, at 4:00… How many times did it ring during the session, from 3:00 to 4:00, counting both ends?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  <div class="dica"><b>TIP:</b> no clue tells you which operation to use. Read carefully, figure out what's being asked, and choose the operation. When in doubt, draw.</div>
+  <h2>Crack the code <span class="small" style="font-weight:400">· find each answer in the table and write the letter in that stage's box</span></h2>
+  <table class="cod"><tr><td>2</td><td>3</td><td>3:00</td><td>4:00</td><td>5:00</td><td>10 min</td><td>12:20</td><td>60 min</td></tr><tr><td class="l">H</td><td class="l">L</td><td class="l">L</td><td class="l">B</td><td class="l">D</td><td class="l">Z</td><td class="l">T</td><td class="l">E</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>What happened?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · The Mystery of the Library Clock</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-05</span><span class="dir">Answer key explained · for the adult</span></div>
+  <h1>Answer key: The Mystery of the Library Clock</h1>
+  <div class="item"><b>Stage 1 — The wall clock</b> · <span class="r">4:00</span> (letter B)
+  <div><b>How to think:</b> The short hand shows the hour. The long hand on the 12 means “o'clock.” <span class="small">Calculation: short hand on the 4 = 4 hours; long hand on the 12 = o'clock: 4:00.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “Which hand shows the hour: the short one or the long one?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 12:20, when your child mixed up the hands (read the long one as the hour and the short one as the minutes). That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 2 — The two parts of the session</b> · <span class="r">60 min</span> (letter E)
+  <div><b>How to think:</b> The two parts, one after the other, make up the whole session: 35 + 25. <span class="small">Calculation: 35 + 25 = 60 minutes.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="196.28" y="5" width="19.439999999999998" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">?</text><rect x="0" y="34" width="240.33333333333331" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="120.16666666666666" y="51" text-anchor="middle" font-size="12" font-weight="500">35 min story</text><rect x="240.33333333333331" y="34" width="171.66666666666666" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="326.16666666666663" y="51" text-anchor="middle" font-size="12" font-weight="500">25 min drawing</text></svg></div><div>The bar is a timeline: the two parts together make up the session. With the ? on the whole, the math is 35 + 25.</div>
+  <div><b>If they get stuck, ask:</b> “The session is the story and the drawing together. How much time is that?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 10 min, when your child took away instead of putting the two parts together. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 3 — The start of the session</b> · <span class="r">3:00</span> (letter L)
+  <div><b>How to think:</b> If it ended at 4:00 and lasted 1 hour, it started 1 hour earlier. <span class="small">Calculation: 4:00 minus 1 hour = 3:00.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “Did the session start before or after it ended?” Move the short hand back 1 number.</div>
+  <div class="small"><b>Most common mistake:</b> answering 5:00, when your child went forward 1 hour instead of going back. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 4 — The library bell</b> · <span class="r">3</span> (letter L)
+  <div><b>How to think:</b> List the times: 3:00, 3:30, 4:00. Count the rings. <span class="small">Calculation: 3:00, 3:30, and 4:00 = 3 times.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “Write down all the times the bell rings between 3:00 and 4:00. How many are there?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 2, when your child forgot to count one of the ends (the 3:00 ring). That answer leads to a different letter, and the word doesn't work out.</div></div>
+  <div class="box"><b>Code word: BELL.</b> The session started at 3:00 p.m., and the library BELL confirmed it: it rang 3 times during the reading. The report is done!</div>
+  <div class="rodape">Math Missions · answer key</div></section><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-06</span><span class="dir">For the adult · read first (2 minutes)</span></div>
+  <h1>The Vanishing Cookie Mystery</h1>
+  <div class="box"><b>Time:</b> 20 to 25 minutes · <b>Practice:</b> multiplication (equal rows), subtraction, and telling time · <b>Materials:</b> pencil, eraser, and this printed sheet (optional: analog clock, dried beans, or bottle caps).</div>
+  <h2>The method in this mission: draw before you solve</h2>
+  <p>Stage 3 is the <b>“draw the problem”</b> stage. In it, your child goes through the 3 steps of the Singapore method (details in the Parent Guide):</p>
+  <div class="passos"><div><b>1. Concrete</b><br>Set aside 20 dried beans, bottle caps, or paper balls: these are the cookies. In stage 3, your child puts 13 in the “tin” and sees what's left before drawing.</div><div><b>2. Drawing</b><br>Your child draws the bar and puts a <b>?</b> on what they want to find out. Only then do they do the math.</div><div><b>3. Calculation</b><br>With the drawing done, they write the equation and check the answer by looking at the drawing.</div></div>
+  <h2>How to run the mission</h2>
+  <ol><li><b>Read the opening out loud, with an air of mystery.</b> Stage 1 is very short, on purpose: it gets your child into the game quickly.</li><li><b>Don't say which operation to use.</b> The problem doesn't say whether to add, subtract, or multiply. Figuring that out is the exercise, and the drawing is what shows the answer.</li><li><b>If your child gets stuck, ask for the drawing before giving any help:</b> “Show me that in a bar.” Then use the support question from the answer key (last page). It helps without giving away the answer.</li><li><b>Each answer becomes a letter.</b> If the code word doesn't make sense, one of the calculations is wrong: go back to the drawing and look for it together.</li><li><b>Wrap up by asking:</b> “Explain your drawing from stage 3 to me.”</li></ol>
+  <div class="box"><b>Before moving on:</b> You can move on to the next mission when your child explains the drawing in stage 3 in their own words (“this part is…”). If not yet, redo just that stage another day with different numbers (e.g., 25 baked, 16 in the tin).</div>
+  <h2>With siblings</h2>
+  <div class="box">Print the mission pages once and solve them together, switching roles at each stage: <b>reader</b> (reads out loud), <b>illustrator</b> (draws the bar), and <b>number cruncher</b> (does the math and checks it against the drawing). With 2 children, the reader also draws. If they're at different levels, each one does the mission for their level and, at the end, they tell each other how they drew it.</div>
+  <div class="rodape">Math Missions · The Vanishing Cookie Mystery</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-06</span><span class="dir">Mission</span></div>
+  <div class="cab"><div><svg viewBox="0 0 120 120" width="120"><circle cx="60" cy="60" r="44" fill="none" stroke="#000" stroke-width="3"/><circle cx="45" cy="45" r="5"/><circle cx="72" cy="50" r="5"/><circle cx="55" cy="72" r="5"/><circle cx="78" cy="76" r="4"/><circle cx="38" cy="68" r="4"/><path d="M96 34 q10 -8 14 4" fill="none" stroke="#000" stroke-width="3"/></svg></div><div><h1>The Vanishing Cookie Mystery</h1></div></div>
+  <div class="abertura">On Saturday afternoon, the family baked a batch of chocolate cookies and put them in the tin. While the second batch was baking, someone secretly opened the tin! Your mission: find out who it was — and only accuse someone once you have proof.</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">The lock on the tin</span><span class="tag">quick one</span>
+  <p>The tin has a number lock. The note stuck to it says: “The code is the number of paws on 2 cats.” What is the code?</p>
+  <div class="espaco curto"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">The baking sheet</span>
+  <p>The first batch was baked in 4 rows, with 5 cookies in each row. How many cookies were baked?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  <div class="dica"><b>TIP:</b> no clue tells you which operation to use. Read carefully, figure out what's being asked, and choose the operation. When in doubt, draw.</div>
+  
+  <div class="rodape">Math Missions · The Vanishing Cookie Mystery</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-06</span><span class="dir">Mission (continued)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">The lighter tin</span><span class="tag d">draw the problem</span>
+  <p>Now there are 13 cookies in the tin. How many cookies went missing?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Before doing the math, complete the drawing. The whole bar is the cookies from the first batch. Write how many there were on top, write how many are still in the tin in the big part, and put a <b>?</b> on the part that went missing.</div><svg class="barra" viewBox="0 0 560 84" width="560" height="84" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H551 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="237.45" y="5" width="77.1" height="20" fill="#fff"/><text x="276" y="19" text-anchor="middle" font-size="15" font-weight="700">_______</text><rect x="0" y="34" width="358.8" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="179.4" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="358.8" y="34" width="193.20000000000002" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="455.40000000000003" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text></svg></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">When they went missing</span>
+  <p>The second batch spent 25 minutes in the oven and came out at 3:35 p.m. The cookies disappeared from the tin right when that batch went into the oven. What time was that?<br><b>Who passed through the kitchen:</b> Dad at 2:50 · Nana at 3:10 · Uncle Beto at 3:45</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  <h2>Crack the code <span class="small" style="font-weight:400">· find each answer in the table and write the letter in that stage's box</span></h2>
+  <table class="cod"><tr><td>2</td><td>3:10</td><td>4:00</td><td>7</td><td>8</td><td>9</td><td>20</td><td>33</td></tr><tr><td class="l">S</td><td class="l">A</td><td class="l">F</td><td class="l">N</td><td class="l">N</td><td class="l">X</td><td class="l">A</td><td class="l">C</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>What happened?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · The Vanishing Cookie Mystery</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-06</span><span class="dir">Answer key explained · for the adult</span></div>
+  <h1>Answer key: The Vanishing Cookie Mystery</h1>
+  <div class="item"><b>Stage 1 — The lock on the tin</b> · <span class="r">8</span> (letter N)
+  <div><b>How to think:</b> Each cat has 4 paws. There are 2 cats: 4 + 4. <span class="small">Calculation: 2 cats × 4 paws = 8 (or 4 + 4).</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “How many paws does one cat have? What if there are two cats?” If it helps, draw the cats together.</div>
+  <div class="small"><b>Most common mistake:</b> answering 2, when your child counted the cats, not the paws. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 2 — The baking sheet</b> · <span class="r">20</span> (letter A)
+  <div><b>How to think:</b> There are 4 equal rows. Each row has 5: 5 + 5 + 5 + 5. <span class="small">Calculation: 4 rows × 5 = 20 (or 5 + 5 + 5 + 5).</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “Draw the baking sheet: 4 rows with 5 dots. How many dots did you draw?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 9, when your child added 4 + 5 instead of putting together 4 rows of 5. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 3 — The lighter tin</b> · <span class="r">7</span> (letter N)
+  <div><b>How to think:</b> There were 20 and now there are 13. The difference is what went missing: 20 − 13. <span class="small">Calculation: 20 − 13 = 7.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="162.8" y="5" width="86.4" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">20 cookies</text><rect x="0" y="34" width="267.8" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="133.9" y="51" text-anchor="middle" font-size="12" font-weight="500">13 in the tin</text><rect x="267.8" y="34" width="144.20000000000002" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="339.90000000000003" y="51" text-anchor="middle" font-size="12" font-weight="500">? missing</text></svg></div><div>The drawing shows that the missing part is what it takes to get from 13 to 20. That's why it's subtraction (or a “how many more to get there”).</div>
+  <div><b>If they get stuck, ask:</b> “If there were 20 and now there are 13, did more or fewer than 10 go missing?” Counting from 13 to 20 on your fingers also works.</div>
+  <div class="small"><b>Most common mistake:</b> answering 33, when your child added instead of subtracting. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 4 — When they went missing</b> · <span class="r">3:10</span> (letter A)
+  <div><b>How to think:</b> The second batch came out at 3:35. To find out when it went into the oven, you have to go back 25 minutes. <span class="small">Calculation: 3:35 minus 25 minutes = 3:10.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “If the batch came out at 3:35, did it go into the oven before or after that?” Use an analog clock and go back 25 minutes.</div>
+  <div class="small"><b>Most common mistake:</b> answering 4:00, when your child added the 25 minutes instead of going back in time. That answer leads to a different letter, and the word doesn't work out.</div></div>
+  <div class="box"><b>Code word: NANA.</b> The person in the kitchen at 3:10 p.m. was NANA. She took 7 cookies to taste and to bring to the neighbor. Mystery solved, and nobody's in trouble!</div>
+  <div class="rodape">Math Missions · answer key</div></section><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-07</span><span class="dir">For the adult · read first (2 minutes)</span></div>
+  <h1>The Case of the Shared Chalk</h1>
+  <div class="box"><b>Time:</b> 20 to 25 minutes · <b>Practice:</b> division: sharing equally · <b>Materials:</b> pencil, eraser, and this printed sheet (optional: analog clock, dried beans, or bottle caps).</div>
+  <h2>The method in this mission: draw before you solve</h2>
+  <p>Stage 2 is the <b>“draw the problem”</b> stage. In it, your child goes through the 3 steps of the Singapore method (details in the Parent Guide):</p>
+  <div class="passos"><div><b>1. Concrete</b><br>Use 12 pencils or sticks as chalk and 3 small plates, one for each grandchild. In stage 2, your child hands out one on each plate, one round at a time, before drawing.</div><div><b>2. Drawing</b><br>Your child draws the bar and puts a <b>?</b> on what they want to find out. Only then do they do the math.</div><div><b>3. Calculation</b><br>With the drawing done, they write the equation and check the answer by looking at the drawing.</div></div>
+  <h2>How to run the mission</h2>
+  <ol><li><b>Read the opening out loud, with an air of mystery.</b> Stage 1 is very short, on purpose: it gets your child into the game quickly.</li><li><b>Don't say which operation to use.</b> The problem doesn't say whether to add, subtract, or multiply. Figuring that out is the exercise, and the drawing is what shows the answer.</li><li><b>If your child gets stuck, ask for the drawing before giving any help:</b> “Show me that in a bar.” Then use the support question from the answer key (last page). It helps without giving away the answer.</li><li><b>Each answer becomes a letter.</b> If the code word doesn't make sense, one of the calculations is wrong: go back to the drawing and look for it together.</li><li><b>Wrap up by asking:</b> “Explain your drawing from stage 2 to me.”</li></ol>
+  <div class="box"><b>Before moving on:</b> You can move on to the next mission when your child explains the drawing in stage 2 in their own words (“each piece is a grandchild”). If not yet, redo just that stage another day with different numbers (e.g., 15 pieces of chalk for 3 grandchildren).</div>
+  <h2>With siblings</h2>
+  <div class="box">Print the mission pages once and solve them together, switching roles at each stage: <b>reader</b> (reads out loud), <b>illustrator</b> (draws the bar), and <b>number cruncher</b> (does the math and checks it against the drawing). With 2 children, the reader also draws. If they're at different levels, each one does the mission for their level and, at the end, they tell each other how they drew it.</div>
+  <div class="rodape">Math Missions · The Case of the Shared Chalk</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-07</span><span class="dir">Mission</span></div>
+  <div class="cab"><div><svg viewBox="0 0 130 110" width="120"><g fill="none" stroke="#000" stroke-width="3"><rect x="14" y="40" width="70" height="16" rx="4" transform="rotate(-20 49 48)"/><rect x="30" y="62" width="70" height="16" rx="4" transform="rotate(-8 65 70)"/><rect x="44" y="84" width="70" height="16" rx="4"/></g></svg></div><div><h1>The Case of the Shared Chalk</h1></div></div>
+  <div class="abertura">At Nana's house, a box of chalk was shared among the 3 grandchildren so they could draw on the sidewalk. At the end, Bia complained: “I didn't get any pink chalk!” Was the sharing fair?</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">The box of chalk</span><span class="tag">quick one</span>
+  <p>The box had 2 rows with 6 pieces of chalk in each one. How many pieces of chalk were in the box?</p>
+  <div class="espaco curto"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">The sharing</span><span class="tag d">draw the problem</span>
+  <p>The 12 pieces of chalk were shared equally among the 3 grandchildren. How many pieces of chalk did each grandchild get?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Before doing the math, complete the drawing. The whole bar is the 12 pieces of chalk, already divided into 3 equal pieces (one per grandchild). Write 12 on top and put a <b>?</b> on one piece.</div><svg class="barra" viewBox="0 0 560 84" width="560" height="84" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H551 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="237.45" y="5" width="77.1" height="20" fill="#fff"/><text x="276" y="19" text-anchor="middle" font-size="15" font-weight="700">_______</text><rect x="0" y="34" width="184" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="92" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="184" y="34" width="184" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="276" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="368" y="34" width="184" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="460" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text></svg></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · The Case of the Shared Chalk</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-07</span><span class="dir">Mission (continued)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">The pink chalk</span>
+  <p>There were 3 pieces of pink chalk in the box. Theo took 2 and Lia took 1. How many pieces of pink chalk were left for Bia?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">The fair trade</span>
+  <p>To be fair, each grandchild should have 1 piece of pink chalk. Theo has 2. How many pieces of pink chalk does he need to give to Bia?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  <div class="dica"><b>TIP:</b> no clue tells you which operation to use. Read carefully, figure out what's being asked, and choose the operation. When in doubt, draw.</div>
+  <h2>Crack the code <span class="small" style="font-weight:400">· find each answer in the table and write the letter in that stage's box</span></h2>
+  <table class="cod"><tr><td>0</td><td>1</td><td>2</td><td>4</td><td>6</td><td>8</td><td>9</td><td>12</td></tr><tr><td class="l">N</td><td class="l">K</td><td class="l">D</td><td class="l">I</td><td class="l">A</td><td class="l">R</td><td class="l">U</td><td class="l">P</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>What happened?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · The Case of the Shared Chalk</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-07</span><span class="dir">Answer key explained · for the adult</span></div>
+  <h1>Answer key: The Case of the Shared Chalk</h1>
+  <div class="item"><b>Stage 1 — The box of chalk</b> · <span class="r">12</span> (letter P)
+  <div><b>How to think:</b> There are 2 equal rows of 6: 6 + 6. <span class="small">Calculation: 2 × 6 = 12 (or 6 + 6).</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “How many pieces of chalk are in one row? What about in two?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 8, when your child added 2 + 6 instead of putting together 2 rows of 6. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 2 — The sharing</b> · <span class="r">4</span> (letter I)
+  <div><b>How to think:</b> Sharing equally is making 3 parts of the same size: 12 ÷ 3. <span class="small">Calculation: 12 ÷ 3 = 4.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="192.56" y="5" width="26.88" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">12</text><rect x="0" y="34" width="137.33333333333334" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="68.66666666666667" y="51" text-anchor="middle" font-size="12" font-weight="800">?</text><rect x="137.33333333333334" y="34" width="137.33333333333334" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="206" y="51" text-anchor="middle" font-size="12" font-weight="500"> </text><rect x="274.6666666666667" y="34" width="137.33333333333334" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="343.33333333333337" y="51" text-anchor="middle" font-size="12" font-weight="500"> </text></svg></div><div>The total is known and the ? is on a piece equal to the others: it's division, 12 ÷ 3.</div>
+  <div><b>If they get stuck, ask:</b> “If each grandchild gets 1 piece of chalk per round, how many rounds can you do with 12?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 9, when your child took away 3 instead of sharing into 3 equal parts. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 3 — The pink chalk</b> · <span class="r">0</span> (letter N)
+  <div><b>How to think:</b> There were 3. Theo took away 2 and Lia took away 1. What was left is 3 − 2 − 1. <span class="small">Calculation: 3 − 2 − 1 = 0.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “Take 3 pencils: take away 2 for Theo and 1 for Lia. Is any left?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 6, when your child added all the numbers in the problem. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 4 — The fair trade</b> · <span class="r">1</span> (letter K)
+  <div><b>How to think:</b> Theo keeps 1 and gives away whatever is more than that: 2 − 1. <span class="small">Calculation: 2 − 1 = 1.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “If Theo gives away 2, how many does he have left? Is that fair?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 2, when your child gave away all of Theo's pink chalk, and he was left with none. That answer leads to a different letter, and the word doesn't work out.</div></div>
+  <div class="box"><b>Code word: PINK.</b> Each grandchild got 4 pieces of chalk, but the 3 PINK pieces all ended up with Theo and Lia. Theo gave 1 to Bia, and the sharing became truly fair.</div>
+  <div class="rodape">Math Missions · answer key</div></section><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-08</span><span class="dir">For the adult · read first (2 minutes)</span></div>
+  <h1>The Scooter Track in the Square</h1>
+  <div class="box"><b>Time:</b> 20 to 25 minutes · <b>Practice:</b> measuring in meters: adding sections and how much is missing · <b>Materials:</b> pencil, eraser, and this printed sheet (optional: analog clock, dried beans, or bottle caps).</div>
+  <h2>The method in this mission: draw before you solve</h2>
+  <p>Stage 3 is the <b>“draw the problem”</b> stage. In it, your child goes through the 3 steps of the Singapore method (details in the Parent Guide):</p>
+  <div class="passos"><div><b>1. Concrete</b><br>Use a tape measure or steps: in the hallway, mark 2 meters on the floor with tape. In stage 3, your child sets aside 9 little piles of 10 dried beans (the 90 m track), takes away 6 piles and 3 more beans (the 63 m), and counts what's left before drawing.</div><div><b>2. Drawing</b><br>Your child draws the bar and puts a <b>?</b> on what they want to find out. Only then do they do the math.</div><div><b>3. Calculation</b><br>With the drawing done, they write the equation and check the answer by looking at the drawing.</div></div>
+  <h2>How to run the mission</h2>
+  <ol><li><b>Read the opening out loud, with an air of mystery.</b> Stage 1 is very short, on purpose: it gets your child into the game quickly.</li><li><b>Don't say which operation to use.</b> The problem doesn't say whether to add, subtract, or multiply. Figuring that out is the exercise, and the drawing is what shows the answer.</li><li><b>If your child gets stuck, ask for the drawing before giving any help:</b> “Show me that in a bar.” Then use the support question from the answer key (last page). It helps without giving away the answer.</li><li><b>Each answer becomes a letter.</b> If the code word doesn't make sense, one of the calculations is wrong: go back to the drawing and look for it together.</li><li><b>Wrap up by asking:</b> “Explain your drawing from stage 3 to me.”</li></ol>
+  <div class="box"><b>Before moving on:</b> You can move on to the next mission when your child explains the drawing in stage 3 in their own words. If not yet, redo just that stage another day with different numbers (e.g., an 80 m track, two sections that add up to 52 m).</div>
+  <h2>With siblings</h2>
+  <div class="box">Print the mission pages once and solve them together, switching roles at each stage: <b>reader</b> (reads out loud), <b>illustrator</b> (draws the bar), and <b>number cruncher</b> (does the math and checks it against the drawing). With 2 children, the reader also draws. If they're at different levels, each one does the mission for their level and, at the end, they tell each other how they drew it.</div>
+  <div class="rodape">Math Missions · The Scooter Track in the Square</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-08</span><span class="dir">Mission</span></div>
+  <div class="cab"><div><svg viewBox="0 0 130 110" width="120"><circle cx="26" cy="90" r="12" fill="none" stroke="#000" stroke-width="3"/><circle cx="104" cy="90" r="12" fill="none" stroke="#000" stroke-width="3"/><path d="M26 90 H96 L104 90 M96 90 L86 18 M74 18 H98" fill="none" stroke="#000" stroke-width="4" stroke-linecap="round"/></svg></div><div><h1>The Scooter Track in the Square</h1></div></div>
+  <div class="abertura">The scooter track in the square has 3 sections, but the sign with the length of one of them has faded. Saturday's race goes from the start to the finish: how long is each part of the track?</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">The pushes</span><span class="tag">quick one</span>
+  <p>Ana gave the scooter 10 pushes, and each push carried the scooter 2 meters. How many meters did she go?</p>
+  <div class="espaco curto"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">The first two sections</span>
+  <p>The 1st section of the track is 35 m and the 2nd is 28 m. How many meters are the two sections together?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  <div class="dica"><b>TIP:</b> no clue tells you which operation to use. Read carefully, figure out what's being asked, and choose the operation. When in doubt, draw.</div>
+  
+  <div class="rodape">Math Missions · The Scooter Track in the Square</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-08</span><span class="dir">Mission (continued)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">The faded section</span><span class="tag d">draw the problem</span>
+  <p>The whole track is 90 m. The first two sections add up to 63 m. How long is the 3rd section, the one with the faded sign?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Before doing the math, complete the drawing. The whole bar is the whole track. Write its length on top, write the first two sections in the big part, and put a <b>?</b> on the faded section.</div><svg class="barra" viewBox="0 0 560 84" width="560" height="84" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H551 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="237.45" y="5" width="77.1" height="20" fill="#fff"/><text x="276" y="19" text-anchor="middle" font-size="15" font-weight="700">_______</text><rect x="0" y="34" width="386.40000000000003" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="193.20000000000002" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="386.40000000000003" y="34" width="165.60000000000002" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="469.20000000000005" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text></svg></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">Almost at the finish</span>
+  <p>In the race, Theo has already gone 75 m of the 90 m track. How many meters are left for him to finish?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  <h2>Crack the code <span class="small" style="font-weight:400">· find each answer in the table and write the letter in that stage's box</span></h2>
+  <table class="cod"><tr><td>7 m</td><td>12 m</td><td>15 m</td><td>20 m</td><td>27 m</td><td>63 m</td><td>153 m</td><td>165 m</td></tr><tr><td class="l">B</td><td class="l">X</td><td class="l">E</td><td class="l">L</td><td class="l">N</td><td class="l">I</td><td class="l">F</td><td class="l">J</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>What happened?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · The Scooter Track in the Square</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-08</span><span class="dir">Answer key explained · for the adult</span></div>
+  <h1>Answer key: The Scooter Track in the Square</h1>
+  <div class="item"><b>Stage 1 — The pushes</b> · <span class="r">20 m</span> (letter L)
+  <div><b>How to think:</b> Each push is worth 2 meters. There are 10 pushes: 2 + 2 + … ten times. <span class="small">Calculation: 10 × 2 = 20 meters.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “How far does one push go? What about two? And ten?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 12 m, when your child added 10 + 2 instead of putting together 10 pushes of 2 meters. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 2 — The first two sections</b> · <span class="r">63 m</span> (letter I)
+  <div><b>How to think:</b> The sections come one after the other: the length is the sum. <span class="small">Calculation: 35 + 28 = 63 meters.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “If you ride the 1st section and then the 2nd, how far did you go in all?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 7 m, when your child took away instead of putting the sections together. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 3 — The faded section</b> · <span class="r">27 m</span> (letter N)
+  <div><b>How to think:</b> The whole track is the whole (90). The two sections are one part (63). The faded section is the missing part. <span class="small">Calculation: 90 − 63 = 27 meters.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="185.12" y="5" width="41.76" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">90 m</text><rect x="0" y="34" width="288.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="144.2" y="51" text-anchor="middle" font-size="12" font-weight="500">63 m</text><rect x="288.4" y="34" width="123.6" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="350.2" y="51" text-anchor="middle" font-size="12" font-weight="800">?</text></svg></div><div>With the whole and one part known, the missing part is 90 − 63.</div>
+  <div><b>If they get stuck, ask:</b> “From 63 to 90, how many meters are missing?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 153 m, when your child added instead of seeing what's missing. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 4 — Almost at the finish</b> · <span class="r">15 m</span> (letter E)
+  <div><b>How to think:</b> The track is 90. He has already gone 75. What's left is 90 − 75. <span class="small">Calculation: 90 − 75 = 15 meters.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “From 75 to 90, how many meters?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 165 m, when your child added what he had gone to the whole track. That answer leads to a different letter, and the word doesn't work out.</div></div>
+  <div class="box"><b>Code word: LINE.</b> The section with the faded sign is 27 m long: it's the last one, the one that reaches the finish LINE. The new sign has already been painted with the right length.</div>
+  <div class="rodape">Math Missions · answer key</div></section><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-09</span><span class="dir">For the adult · read first (2 minutes)</span></div>
+  <h1>The Secret of Friday Pizza Night</h1>
+  <div class="box"><b>Time:</b> 20 to 25 minutes · <b>Practice:</b> unit fractions: half, third, and fourth · <b>Materials:</b> pencil, eraser, and this printed sheet (optional: analog clock, dried beans, or bottle caps).</div>
+  <h2>The method in this mission: draw before you solve</h2>
+  <p>Stage 2 is the <b>“draw the problem”</b> stage. In it, your child goes through the 3 steps of the Singapore method (details in the Parent Guide):</p>
+  <div class="passos"><div><b>1. Concrete</b><br>Draw a pizza on paper and cut it into 8 slices. In stage 2, your child sorts 12 dried beans (the garlic rolls) into 4 equal little piles before drawing.</div><div><b>2. Drawing</b><br>Your child draws the bar and puts a <b>?</b> on what they want to find out. Only then do they do the math.</div><div><b>3. Calculation</b><br>With the drawing done, they write the equation and check the answer by looking at the drawing.</div></div>
+  <h2>How to run the mission</h2>
+  <ol><li><b>Read the opening out loud, with an air of mystery.</b> Stage 1 is very short, on purpose: it gets your child into the game quickly.</li><li><b>Don't say which operation to use.</b> The problem doesn't say whether to add, subtract, or multiply. Figuring that out is the exercise, and the drawing is what shows the answer.</li><li><b>If your child gets stuck, ask for the drawing before giving any help:</b> “Show me that in a bar.” Then use the support question from the answer key (last page). It helps without giving away the answer.</li><li><b>Each answer becomes a letter.</b> If the code word doesn't make sense, one of the calculations is wrong: go back to the drawing and look for it together.</li><li><b>Wrap up by asking:</b> “Explain your drawing from stage 2 to me.”</li></ol>
+  <div class="box"><b>Before moving on:</b> You can move on to the next mission when your child explains the drawing in stage 2 in their own words (“the bar has 4 equal pieces, and I colored in 1”). If not yet, redo just that stage another day with different numbers (e.g., a fourth of 20).</div>
+  <h2>With siblings</h2>
+  <div class="box">Print the mission pages once and solve them together, switching roles at each stage: <b>reader</b> (reads out loud), <b>illustrator</b> (draws the bar), and <b>number cruncher</b> (does the math and checks it against the drawing). With 2 children, the reader also draws. If they're at different levels, each one does the mission for their level and, at the end, they tell each other how they drew it.</div>
+  <div class="rodape">Math Missions · The Secret of Friday Pizza Night</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-09</span><span class="dir">Mission</span></div>
+  <div class="cab"><div><svg viewBox="0 0 120 120" width="110"><circle cx="60" cy="60" r="44" fill="none" stroke="#000" stroke-width="3"/><path d="M60 16 V104 M16 60 H104 M29 29 L91 91 M91 29 L29 91" stroke="#000" stroke-width="2"/><path d="M60 60 L91 29 A44 44 0 0 1 104 60 Z" fill="#fff" stroke="#000" stroke-width="2" stroke-dasharray="4 3"/></svg></div><div><h1>The Secret of Friday Pizza Night</h1></div></div>
+  <div class="abertura">Friday is pizza night at the home of the 5 people and Tobi the dog. The pizza arrived cut into 8 equal slices, but when everyone sat down at the table, a cheese slice was missing. Who ate before it was time?</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">Half cheese</span><span class="tag">quick one</span>
+  <p>The pizza has 8 slices. Half are cheese. How many slices are cheese?</p>
+  <div class="espaco curto"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">The garlic rolls</span><span class="tag d">draw the problem</span>
+  <p>The family also ordered 12 garlic rolls. A fourth of the rolls are stuffed with cheese. How many rolls are stuffed?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Before doing the math, complete the drawing. The whole bar is the 12 rolls, already divided into 4 equal pieces. Write 12 on top, color in 1 piece, and put a <b>?</b> on it.</div><svg class="barra" viewBox="0 0 560 84" width="560" height="84" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H551 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="237.45" y="5" width="77.1" height="20" fill="#fff"/><text x="276" y="19" text-anchor="middle" font-size="15" font-weight="700">_______</text><rect x="0" y="34" width="138" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="69" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="138" y="34" width="138" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="207" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="276" y="34" width="138" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="345" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="414" y="34" width="138" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="483" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text></svg></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · The Secret of Friday Pizza Night</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-09</span><span class="dir">Mission (continued)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">The missing slice</span>
+  <p>Of the 4 cheese slices, only 3 were in the box. How many cheese slices went missing?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">Who was in the kitchen</span>
+  <p>A third of the 6 members of the household (5 people and Tobi) were in the kitchen when the pizza arrived. How many members of the household were in the kitchen?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  <div class="dica"><b>TIP:</b> no clue tells you which operation to use. Read carefully, figure out what's being asked, and choose the operation. When in doubt, draw.</div>
+  <h2>Crack the code <span class="small" style="font-weight:400">· find each answer in the table and write the letter in that stage's box</span></h2>
+  <table class="cod"><tr><td>1</td><td>2</td><td>3</td><td>4</td><td>6</td><td>7</td><td>8</td><td>9</td></tr><tr><td class="l">B</td><td class="l">I</td><td class="l">O</td><td class="l">T</td><td class="l">P</td><td class="l">A</td><td class="l">U</td><td class="l">E</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>What happened?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · The Secret of Friday Pizza Night</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-09</span><span class="dir">Answer key explained · for the adult</span></div>
+  <h1>Answer key: The Secret of Friday Pizza Night</h1>
+  <div class="item"><b>Stage 1 — Half cheese</b> · <span class="r">4</span> (letter T)
+  <div><b>How to think:</b> Half is dividing into 2 equal parts: 8 ÷ 2. <span class="small">Calculation: 8 ÷ 2 = 4.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “If the pizza were divided into 2 equal sides, how many slices would be on each side?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 6, when your child took away 2 instead of dividing into 2 equal parts. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 2 — The garlic rolls</b> · <span class="r">3</span> (letter O)
+  <div><b>How to think:</b> A fourth is 1 of the 4 equal parts: 12 ÷ 4. <span class="small">Calculation: 12 ÷ 4 = 3.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="192.56" y="5" width="26.88" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">12</text><rect x="0" y="34" width="103" height="24" fill="#d9d9d9" stroke="#000" stroke-width="2"/><text x="51.5" y="51" text-anchor="middle" font-size="12" font-weight="800">?</text><rect x="103" y="34" width="103" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="154.5" y="51" text-anchor="middle" font-size="12" font-weight="500"> </text><rect x="206" y="34" width="103" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="257.5" y="51" text-anchor="middle" font-size="12" font-weight="500"> </text><rect x="309" y="34" width="103" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="360.5" y="51" text-anchor="middle" font-size="12" font-weight="500"> </text></svg></div><div>A fourth is 1 of the 4 equal pieces. To find how much one piece is worth: 12 ÷ 4.</div>
+  <div><b>If they get stuck, ask:</b> “Divide the 12 rolls onto 4 equal plates. How many are on each plate?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 8, when your child took away 4 instead of dividing into 4 equal parts. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 3 — The missing slice</b> · <span class="r">1</span> (letter B)
+  <div><b>How to think:</b> There were 4 and there are 3. What's missing is 4 − 3. <span class="small">Calculation: 4 − 3 = 1.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “From 3 to 4, how many are missing?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 7, when your child added instead of seeing how many are missing. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 4 — Who was in the kitchen</b> · <span class="r">2</span> (letter I)
+  <div><b>How to think:</b> A third is 1 of the 3 equal parts: 6 ÷ 3. <span class="small">Calculation: 6 ÷ 3 = 2.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “Divide the 6 members of the household into 3 equal groups. How many are in one group?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 9, when your child added 6 + 3 instead of dividing into 3 parts. That answer leads to a different letter, and the word doesn't work out.</div></div>
+  <div class="box"><b>Code word: TOBI.</b> There were 2 in the kitchen: Dad and… TOBI! The dog took the cheese slice from the box while Dad went to get the plates.</div>
+  <div class="rodape">Math Missions · answer key</div></section><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-10</span><span class="dir">For the adult · read first (2 minutes)</span></div>
+  <h1>The Great Neighborhood Fair Mystery</h1>
+  <div class="box"><b>Time:</b> 25 to 35 minutes · <b>Practice:</b> Level 1 Final Mission: putting together, taking away and comparing, equal groups and half, with gold game coins · <b>Materials:</b> pencil, eraser, and this printed sheet (optional: analog clock, dried beans, or bottle caps).</div>
+  <h2>The method in this mission: draw before you solve</h2>
+  <p>This is the level's <b>Final Mission</b>: all 4 stages are drawing stages, and each one uses one of the drawings your child has already mastered. In each stage, your child goes through the 3 steps of the Singapore method (details in the Parent Guide):</p>
+  <div class="passos"><div><b>1. Concrete</b><br>Sort 80 bottle caps into 8 little piles of 10 (the gold coins). Use the piles to check stages 1, 3, and 4 before each drawing.</div><div><b>2. Drawing</b><br>Your child draws the bar and puts a <b>?</b> on what they want to find out. Only then do they do the math.</div><div><b>3. Calculation</b><br>With the drawing done, they write the equation and check the answer by looking at the drawing.</div></div>
+  <h2>How to run the mission</h2>
+  <ol><li><b>Read the opening out loud, with an air of mystery.</b> Here all 4 stages are drawing stages: set aside more time and, if needed, split the mission over 2 days.</li><li><b>Don't say which operation to use.</b> The problem doesn't say whether to add, subtract, or multiply. Figuring that out is the exercise, and the drawing is what shows the answer.</li><li><b>If your child gets stuck, ask for the drawing before giving any help:</b> “Show me that in a bar.” Then use the support question from the answer key (last page). It helps without giving away the answer.</li><li><b>Each answer becomes a letter.</b> If the code word doesn't make sense, one of the calculations is wrong: go back to the drawing and look for it together.</li><li><b>Wrap up by asking:</b> “Explain your 4 drawings to me.” To move up a level, the code word has to work out and your child has to explain at least 3 of the 4 drawings on their own.</li></ol>
+  <div class="box"><b>Before moving on:</b> This is the Level 1 Final Mission. Your child moves up to Level 2 when the code word works out and they explain at least 3 of the 4 drawings on their own. If not yet, redo just the drawings that were hard another day, with different numbers, and come back to this mission.</div>
+  <h2>With siblings</h2>
+  <div class="box">Print the mission pages once and solve them together, switching roles at each stage: <b>reader</b> (reads out loud), <b>illustrator</b> (draws the bar), and <b>number cruncher</b> (does the math and checks it against the drawing). With 2 children, the reader also draws. If they're at different levels, each one does the mission for their level and, at the end, they tell each other how they drew it.</div>
+  <div class="rodape">Math Missions · The Great Neighborhood Fair Mystery</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-10</span><span class="dir">Mission</span></div>
+  <div class="cab"><div><svg viewBox="0 0 130 110" width="120"><path d="M14 40 L30 14 H100 L116 40 Z" fill="none" stroke="#000" stroke-width="3"/><path d="M14 40 q12 12 25 0 q13 12 26 0 q13 12 26 0 q13 12 25 0" fill="none" stroke="#000" stroke-width="3"/><path d="M24 46 V100 M106 46 V100 M14 100 H116" stroke="#000" stroke-width="3"/><circle cx="64" cy="78" r="9" fill="none" stroke="#000" stroke-width="3"/></svg></div><div><h1>The Great Neighborhood Fair Mystery</h1></div></div>
+  <div class="abertura">At the neighborhood swap fair, the stands use gold game coins. At the end of the day, the cake stand's cash box should have had 80 coins, but it didn't add up. Use the 4 drawings you've already mastered to find the mistake.</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">The day's sales</span><span class="tag d">draw the problem</span>
+  <p>In the morning, the stand sold cakes for 35 gold game coins. In the afternoon, it sold them for 45. How many coins came in that day?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Complete the drawing: in each part, write the coins from the morning and from the afternoon, and put a <b>?</b> on top, on the total.</div><svg class="barra" viewBox="0 0 560 84" width="560" height="84" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H551 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="237.45" y="5" width="77.1" height="20" fill="#fff"/><text x="276" y="19" text-anchor="middle" font-size="15" font-weight="700">_______</text><rect x="0" y="34" width="241.5" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="120.75" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="241.5" y="34" width="310.5" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="396.75" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text></svg></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · The Great Neighborhood Fair Mystery</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-10</span><span class="dir">Mission (continued)</span></div>
+  
+  <div class="etapa"><span class="num">2</span><span class="tit">The juice stand</span><span class="tag d">draw the problem</span>
+  <p>The juice stand made 62 coins. How many more coins did the cake stand (80) make than the juice stand?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Complete the drawing: write each stand's number on its bar and put a <b>?</b> on the dashed piece.</div><svg class="barra" viewBox="0 0 560 104" width="560" height="104" font-family="Inter, DejaVu Sans, sans-serif"><text x="0" y="27" font-size="14" font-weight="700">Cakes</text><rect x="78" y="4" width="474" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="315" y="27" text-anchor="middle" font-size="15" font-weight="500">_______</text><text x="0" y="77" font-size="14" font-weight="700">Juices</text><rect x="78" y="54" width="367.34999999999997" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="261.67499999999995" y="77" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="445.34999999999997" y="54" width="106.64999999999999" height="36" fill="#fff" stroke="#000" stroke-width="2" stroke-dasharray="6 4"/><text x="498.67499999999995" y="77" text-anchor="middle" font-size="15" font-weight="500">_______</text></svg></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">3</span><span class="tit">The little bags</span><span class="tag d">draw the problem</span>
+  <p>In the cash box there were 6 little bags with 10 coins in each one. How many coins were in the little bags?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Complete the drawing: each piece is a little bag. Write how many coins are in each one and put a <b>?</b> on top, on the total.</div><svg class="barra" viewBox="0 0 560 84" width="560" height="84" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H551 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="237.45" y="5" width="77.1" height="20" fill="#fff"/><text x="276" y="19" text-anchor="middle" font-size="15" font-weight="700">_______</text><rect x="0" y="34" width="92" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="46" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="92" y="34" width="92" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="138" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="184" y="34" width="92" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="230" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="276" y="34" width="92" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="322" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="368" y="34" width="92" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="414" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="460" y="34" width="92" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="506" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text></svg></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · The Great Neighborhood Fair Mystery</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-10</span><span class="dir">Mission (continued)</span></div>
+  
+  <div class="etapa"><span class="num">4</span><span class="tit">The missing coins</span><span class="tag d">draw the problem</span>
+  <p>The cash box should have had 80 coins, but it only had the 60 from the little bags. The 20 missing coins were found: half in an empty cake box and half in the vendor's apron. How many coins were in the cake box?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Complete the drawing: the bar is the missing coins, divided into 2 halves. Write the total on top and put a <b>?</b> on the cake box half.</div><svg class="barra" viewBox="0 0 560 84" width="560" height="84" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H551 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="237.45" y="5" width="77.1" height="20" fill="#fff"/><text x="276" y="19" text-anchor="middle" font-size="15" font-weight="700">_______</text><rect x="0" y="34" width="276" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="138" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="276" y="34" width="276" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="414" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text></svg></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  <h2>Crack the code <span class="small" style="font-weight:400">· find each answer in the table and write the letter in that stage's box</span></h2>
+  <table class="cod"><tr><td>10</td><td>16</td><td>18</td><td>20</td><td>60</td><td>70</td><td>80</td><td>142</td></tr><tr><td class="l">E</td><td class="l">B</td><td class="l">A</td><td class="l">G</td><td class="l">K</td><td class="l">R</td><td class="l">C</td><td class="l">U</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>What happened?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · The Great Neighborhood Fair Mystery</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-10</span><span class="dir">Answer key explained · for the adult</span></div>
+  <h1>Answer key: The Great Neighborhood Fair Mystery</h1>
+  <div class="item"><b>Stage 1 — The day's sales</b> · <span class="r">80</span> (letter C)
+  <div><b>How to think:</b> Morning and afternoon are the parts; the whole day is the total: 35 + 45. <span class="small">Calculation: 35 + 45 = 80.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="196.28" y="5" width="19.439999999999998" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">?</text><rect x="0" y="34" width="180.25" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="90.125" y="51" text-anchor="middle" font-size="12" font-weight="500">35 morning</text><rect x="180.25" y="34" width="231.75000000000003" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="296.125" y="51" text-anchor="middle" font-size="12" font-weight="500">45 afternoon</text></svg></div><div>Part-whole with the ? on the whole: it's addition, 35 + 45.</div>
+  <div><b>If they get stuck, ask:</b> “What is 5 + 5? Does that make one more ten?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 70, when your child added only the tens and forgot that 5 + 5 makes one more ten. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 2 — The juice stand</b> · <span class="r">18</span> (letter A)
+  <div><b>How to think:</b> Comparing is finding the piece the bigger bar has extra: 80 − 62. <span class="small">Calculation: 80 − 62 = 18.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 80" width="420" height="80" font-family="Inter, DejaVu Sans, sans-serif"><text x="0" y="21" font-size="11" font-weight="700">Cakes</text><rect x="78" y="4" width="334" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="245" y="21" text-anchor="middle" font-size="12" font-weight="500">80</text><text x="0" y="59" font-size="11" font-weight="700">Juices</text><rect x="78" y="42" width="258.84999999999997" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="207.42499999999998" y="59" text-anchor="middle" font-size="12" font-weight="500">62</text><rect x="336.84999999999997" y="42" width="75.14999999999999" height="24" fill="#fff" stroke="#000" stroke-width="2" stroke-dasharray="6 4"/><text x="374.42499999999995" y="59" text-anchor="middle" font-size="12" font-weight="800">?</text></svg></div><div>Comparison: the dashed piece is the difference, 80 − 62.</div>
+  <div><b>If they get stuck, ask:</b> “How many more does the juice stand need to reach 80?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 142, when your child added the two stands instead of comparing. That answer leads to a different letter, and the word doesn't work out.</div></div>
+  
+  <div class="rodape">Math Missions · answer key</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-10</span><span class="dir">Answer key explained · for the adult</span></div>
+  
+  <div class="item"><b>Stage 3 — The little bags</b> · <span class="r">60</span> (letter K)
+  <div><b>How to think:</b> There are 6 equal groups of 10: count by 10s six times. <span class="small">Calculation: 6 × 10 = 60.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="196.28" y="5" width="19.439999999999998" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">?</text><rect x="0" y="34" width="68.66666666666667" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="34.333333333333336" y="51" text-anchor="middle" font-size="12" font-weight="500">10</text><rect x="68.66666666666667" y="34" width="68.66666666666667" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="103" y="51" text-anchor="middle" font-size="12" font-weight="500">10</text><rect x="137.33333333333334" y="34" width="68.66666666666667" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="171.66666666666669" y="51" text-anchor="middle" font-size="12" font-weight="500">10</text><rect x="206" y="34" width="68.66666666666667" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="240.33333333333334" y="51" text-anchor="middle" font-size="12" font-weight="500">10</text><rect x="274.6666666666667" y="34" width="68.66666666666667" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="309" y="51" text-anchor="middle" font-size="12" font-weight="500">10</text><rect x="343.33333333333337" y="34" width="68.66666666666667" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="377.6666666666667" y="51" text-anchor="middle" font-size="12" font-weight="500">10</text></svg></div><div>Equal pieces with the ? on the total: the math is 6 × 10.</div>
+  <div><b>If they get stuck, ask:</b> “Count by 10s, once for each little bag.”</div>
+  <div class="small"><b>Most common mistake:</b> answering 16, when your child added 6 + 10 instead of putting together 6 little bags of 10. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 4 — The missing coins</b> · <span class="r">10</span> (letter E)
+  <div><b>How to think:</b> The 20 missing coins are the whole. Half of that: 20 ÷ 2. <span class="small">Calculation: 20 ÷ 2 = 10.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="192.56" y="5" width="26.88" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">20</text><rect x="0" y="34" width="206" height="24" fill="#d9d9d9" stroke="#000" stroke-width="2"/><text x="103" y="51" text-anchor="middle" font-size="12" font-weight="500">? box</text><rect x="206" y="34" width="206" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="309" y="51" text-anchor="middle" font-size="12" font-weight="500">apron</text></svg></div><div>Half is 1 of the 2 equal pieces: 20 ÷ 2.</div>
+  <div><b>If they get stuck, ask:</b> “If 20 coins are divided into 2 equal little piles, how many are in each one?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 20, when your child answered with the 20 missing coins, without dividing in half. That answer leads to a different letter, and the word doesn't work out.</div></div>
+  <div class="box"><b>Code word: CAKE.</b> The coins didn't disappear: half of the missing ones were inside an empty CAKE box, and the other half were in the vendor's apron. The cash box added up to 80!</div>
+  <div class="rodape">Math Missions · answer key</div></section></body></html>

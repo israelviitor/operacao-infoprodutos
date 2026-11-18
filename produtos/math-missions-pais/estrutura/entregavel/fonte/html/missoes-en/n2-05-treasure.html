@@ -1,0 +1,115 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>The Campout Treasure Hunt</title><style>
+@page { size: A4; margin: 14mm; }
+* { box-sizing: border-box; }
+body { font-family: Inter, 'DejaVu Sans', sans-serif; color: #111; font-size: 12.5pt; line-height: 1.45; margin: 0; }
+.pagina { page-break-after: always; position: relative; height: 266mm; overflow: hidden; }
+.pagina:last-child { page-break-after: auto; }
+.topo { display: flex; align-items: center; gap: 10px; border-bottom: 2px solid #111; padding-bottom: 5px; margin-bottom: 12px; font-size: 9.5pt; font-weight: 800; letter-spacing: .05em; }
+.nivel { background: #111; color: #fff; border-radius: 6px; padding: 3px 10px; font-size: 11pt; }
+.topo .dir { margin-left: auto; }
+h1 { font-size: 24pt; margin: 4px 0 8px; line-height: 1.1; }
+h2 { font-size: 15pt; margin: 14px 0 6px; }
+.cab { display: flex; gap: 16px; align-items: center; }
+.abertura { border: 2px solid #111; border-radius: 10px; padding: 10px 14px; font-size: 13.5pt; margin: 8px 0 14px; }
+.etapa { border: 1.5px solid #111; border-radius: 10px; padding: 10px 14px; margin-bottom: 12px; page-break-inside: avoid; }
+.etapa .num { display: inline-flex; width: 30px; height: 30px; border-radius: 8px; background: #111; color: #fff; align-items: center; justify-content: center; font-weight: 800; margin-right: 8px; }
+.etapa .tit { font-weight: 800; font-size: 13.5pt; }
+.etapa .tag { font-size: 9.5pt; border: 1px solid #111; border-radius: 10px; padding: 0 8px; margin-left: 6px; }
+.etapa p { margin: 6px 0; font-size: 13.5pt; }
+.espaco { border: 1.5px dashed #777; border-radius: 8px; height: 30mm; margin-top: 6px; position: relative; }
+.espaco.curto { height: 16mm; }
+.espaco span { position: absolute; left: 10px; top: 4px; font-size: 9pt; color: #555; }
+.resp { margin-top: 6px; font-weight: 800; }
+.resp i { display: inline-block; border-bottom: 1.5px solid #111; width: 55mm; }
+.dica { border: 2px dashed #111; border-radius: 10px; padding: 8px 12px; font-size: 11pt; margin: 10px 0; }
+table.cod { border-collapse: collapse; margin: 6px 0 10px; }
+table.cod td { border: 1.5px solid #111; padding: 6px 12px; text-align: center; font-size: 12.5pt; }
+table.cod td.l { font-weight: 800; font-size: 15pt; }
+.caixas { display: flex; gap: 10px; margin: 8px 0; }
+.fim { display: flex; gap: 14px; align-items: flex-start; }
+.oque { flex: 1; }
+.caixas div span { font-size: 8pt; margin: 2px 4px; display: block; }
+.caixas div { width: 15mm; height: 15mm; border: 2px solid #111; border-radius: 8px; }
+.linha { border-bottom: 1.5px solid #111; height: 8mm; margin: 4px 0; }
+.adulto li, .gab li { margin-bottom: 6px; }
+.box { border: 1.5px solid #111; border-radius: 10px; padding: 8px 14px; margin: 8px 0; }
+.gab .item { border-bottom: 1px solid #999; padding: 8px 0; page-break-inside: avoid; }
+.gab .r { font-weight: 800; font-size: 13.5pt; }
+.small { font-size: 10.5pt; color: #333; }
+.desenho { border: 2px solid #111; border-radius: 8px; padding: 6px 10px; margin: 6px 0; }
+.desenho .ins { font-size: 11.5pt; margin-bottom: 6px; }
+.desenho .ins b.lbl { background: #111; color: #fff; border-radius: 4px; padding: 0 6px; margin-right: 4px; }
+.livre { height: 34mm; border: 1px solid #999; border-radius: 6px; background-image: linear-gradient(#ddd 1px, transparent 1px), linear-gradient(90deg, #ddd 1px, transparent 1px); background-size: 5mm 5mm; }
+.tag.d { background: #111; color: #fff; }
+.gab { height: auto !important; overflow: visible !important; }
+.gab .rodape { position: static; margin-top: 10px; }
+.gab .modelo { margin: 4px 0 2px; }
+.passos { display: flex; gap: 8px; margin: 6px 0; }
+.passos div { flex: 1; border: 1.5px solid #111; border-radius: 8px; padding: 6px 8px; font-size: 11pt; }
+.adulto { font-size: 11.3pt; line-height: 1.38; }
+.adulto h1 { font-size: 21pt; }
+.adulto h2 { font-size: 13.5pt; margin: 9px 0 4px; }
+.adulto ol { margin: 4px 0; padding-left: 22px; }
+.adulto li { margin-bottom: 3px !important; }
+.gab { font-size: 11pt; line-height: 1.33; }
+.gab h1 { font-size: 20pt; }
+.gab .item { padding: 5px 0 !important; }
+.rodape { position: absolute; bottom: 0; left: 0; right: 0; font-size: 8.5pt; color: #555; border-top: 1px solid #aaa; padding-top: 3px; }
+</style></head><body><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 2 · Mission 2-05</span><span class="dir">For the adult · read first (2 minutes)</span></div>
+  <h1>The Campout Treasure Hunt</h1>
+  <div class="box"><b>Time:</b> 25 to 30 minutes · <b>Practice:</b> multiplication, making change with game coins, fractions, and division · <b>Materials:</b> pencil, eraser, and this printed sheet (optional: analog clock, dried beans, or bottle caps).</div>
+  <h2>The method in this mission: draw before you solve</h2>
+  <p>Stage 2 is the <b>“draw the problem”</b> stage. In it, your child goes through the 3 steps of the Singapore method (details in the Parent Guide):</p>
+  <div class="passos"><div><b>1. Concrete</b><br>Set aside 60 bottle caps or dried beans in 6 piles of 10: these are the gold coins. In stage 2, your child sets aside what they paid for the flashlight and the rope and counts what's left before drawing.</div><div><b>2. Drawing</b><br>Your child draws the bar and puts a <b>?</b> on what they want to find out. Only then do they do the math.</div><div><b>3. Calculation</b><br>With the drawing done, they write the equation and check the answer by looking at the drawing.</div></div>
+  <h2>How to run the mission</h2>
+  <ol><li><b>Read the opening out loud, with an air of mystery.</b> Stage 1 is very short, on purpose: it gets your child into the game quickly.</li><li><b>Don't say which operation to use.</b> The problem doesn't say whether to add, subtract, or multiply. Figuring that out is the exercise, and the drawing is what shows the answer.</li><li><b>If your child gets stuck, ask for the drawing before giving any help:</b> “Show me that in a bar.” Then use the support question from the answer key (last page). It helps without giving away the answer.</li><li><b>Each answer becomes a letter.</b> If the code word doesn't make sense, one of the calculations is wrong: go back to the drawing and look for it together.</li><li><b>Wrap up by asking:</b> “Explain your drawing from stage 2 to me.”</li></ol>
+  <div class="box"><b>Before moving on:</b> You can move on to the next mission when your child explains the drawing in stage 2 in their own words. If not yet, redo just that stage another day with different numbers (e.g., 50 coins, a flashlight for 28, a rope for 15).</div>
+  <h2>With siblings</h2>
+  <div class="box">Print the mission pages once and solve them together, switching roles at each stage: <b>reader</b> (reads out loud), <b>illustrator</b> (draws the bar), and <b>number cruncher</b> (does the math and checks it against the drawing). With 2 children, the reader also draws. If they're at different levels, each one does the mission for their level and, at the end, they tell each other how they drew it.</div>
+  <div class="rodape">Math Missions · The Campout Treasure Hunt</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 2 · Mission 2-05</span><span class="dir">Mission</span></div>
+  <div class="cab"><div><svg viewBox="0 0 140 110" width="140"><path d="M10 15 L50 5 L90 15 L130 5 L130 95 L90 105 L50 95 L10 105 Z" fill="none" stroke="#000" stroke-width="3"/><path d="M50 5 V95 M90 15 V105" stroke="#000" stroke-width="1.5" stroke-dasharray="4 4"/><path d="M22 85 Q45 60 65 70 T110 35" fill="none" stroke="#000" stroke-width="2.5" stroke-dasharray="6 5"/><path d="M104 28 l12 12 M116 28 l-12 12" stroke="#000" stroke-width="4"/></svg></div><div><h1>The Campout Treasure Hunt</h1></div></div>
+  <div class="abertura">At camp, the guide hid a chest full of gold coins. He left clues along the trail. Only those who solve the math will reach the chest before sunset.</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">The starting ropes</span><span class="tag">quick one</span>
+  <p>First clue: “Leave the tent and follow 4 ropes stretched out on the ground, each one 3 meters long.” How many meters did you walk?</p>
+  <div class="espaco curto"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">The camp store</span><span class="tag d">draw the problem</span>
+  <p>The guide gave you 60 gold coins for the trip. At the store, a flashlight costs 35 gold coins and a rope costs 17. After buying both, how many coins are left?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Before doing the math, split the bar into 3 parts: the flashlight, the rope, and what's left. Write the value of each part and put a <b>?</b> on what you want to find out. On top, write how many coins you had.</div><svg class="barra" viewBox="0 0 560 84" width="560" height="84" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H551 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="237.45" y="5" width="77.1" height="20" fill="#fff"/><text x="276" y="19" text-anchor="middle" font-size="15" font-weight="700">_______</text><rect x="0" y="34" width="552" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="276" y="57" text-anchor="middle" font-size="15" font-weight="500"> </text></svg></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · The Campout Treasure Hunt</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 2 · Mission 2-05</span><span class="dir">Mission (continued)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">The trail map</span>
+  <p>The trail to the chest is 400 meters long. The map says: “The chest is 3/4 of the way along the trail, counting from the start.” How many meters from the start is the chest?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">The chest</span>
+  <p>Inside the chest there are 84 gold coins, to be split equally among 4 explorers. How many coins does each one get?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  <div class="dica"><b>TIP:</b> no clue tells you which operation to use. Read carefully, figure out what's being asked, and choose the operation. When in doubt, draw.</div>
+  <h2>Crack the code <span class="small" style="font-weight:400">· find each answer in the table and write the letter in that stage's box</span></h2>
+  <table class="cod"><tr><td>7 m</td><td>8</td><td>12 m</td><td>21</td><td>25</td><td>80</td><td>100 m</td><td>300 m</td></tr><tr><td class="l">U</td><td class="l">A</td><td class="l">L</td><td class="l">E</td><td class="l">B</td><td class="l">I</td><td class="l">F</td><td class="l">K</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>What happened?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · The Campout Treasure Hunt</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 2 · Mission 2-05</span><span class="dir">Answer key explained · for the adult</span></div>
+  <h1>Answer key: The Campout Treasure Hunt</h1>
+  <div class="item"><b>Stage 1 — The starting ropes</b> · <span class="r">12 m</span> (letter L)
+  <div><b>How to think:</b> Each rope is 3 meters long. There are 4 ropes: 3 + 3 + 3 + 3. <span class="small">Calculation: 4 ropes × 3 meters = 12 meters.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “How long is one rope? And four ropes?” You can draw the 4 ropes and write 3 on each one.</div>
+  <div class="small"><b>Most common mistake:</b> answering 7 m, when your child added 4 + 3 instead of putting together 4 ropes of 3 meters. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 2 — The camp store</b> · <span class="r">8</span> (letter A)
+  <div><b>How to think:</b> First, how much the two things cost together (35 + 17). Then, how much is left of the 60 coins. <span class="small">Calculation: 35 + 17 = 52 · 60 − 52 = 8.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="170.24" y="5" width="71.52" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">60 coins</text><rect x="0" y="34" width="240.33333333333331" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="120.16666666666666" y="51" text-anchor="middle" font-size="12" font-weight="500">35 flashlight</text><rect x="240.33333333333331" y="34" width="116.73333333333332" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="298.7" y="51" text-anchor="middle" font-size="12" font-weight="500">17 rope</text><rect x="357.0666666666666" y="34" width="54.93333333333333" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="384.53333333333325" y="51" text-anchor="middle" font-size="12" font-weight="800">?</text></svg></div><div>The drawing shows the 60 coins split into 3 pieces. If you know 2 pieces, the third is what's left: 60 − 35 − 17 (or 60 − 52).</div>
+  <div><b>If they get stuck, ask:</b> “How much did you spend in all? And how much did you have at the start?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 25, when your child forgot to pay for the rope. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 3 — The trail map</b> · <span class="r">300 m</span> (letter K)
+  <div><b>How to think:</b> Split the trail into 4 equal parts (100 meters each) and walk 3 of those parts. <span class="small">Calculation: 400 ÷ 4 = 100 meters in each part · 3 parts = 300 meters.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “If the trail were cut into 4 equal pieces, how long would each piece be? And 3 pieces?” Drawing a line helps.</div>
+  <div class="small"><b>Most common mistake:</b> answering 100 m, when your child found only 1/4 of the trail and forgot to multiply by 3. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 4 — The chest</b> · <span class="r">21</span> (letter E)
+  <div><b>How to think:</b> Share 84 into 4 equal parts. You can break it up: 80 ÷ 4 = 20 and 4 ÷ 4 = 1. <span class="small">Calculation: 84 ÷ 4 = 21 (80 ÷ 4 = 20 and 4 ÷ 4 = 1).</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “If there were 8 coins for 4 people, how many would each one get? And 80?” Beans or bottle caps help with sharing.</div>
+  <div class="small"><b>Most common mistake:</b> answering 80, when your child subtracted 4 instead of sharing. That answer leads to a different letter, and the word doesn't work out.</div></div>
+  <div class="box"><b>Code word: LAKE.</b> The chest was behind the big rock, at the edge of the LAKE, 300 meters from the start. And the 84 gold coins were split equally among the explorers!</div>
+  <div class="rodape">Math Missions · answer key</div></section></body></html>

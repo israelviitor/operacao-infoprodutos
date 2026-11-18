@@ -1,0 +1,638 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Math Missions · Level 3</title><style>
+@page { size: A4; margin: 14mm; }
+* { box-sizing: border-box; }
+body { font-family: Inter, 'DejaVu Sans', sans-serif; color: #111; font-size: 12.5pt; line-height: 1.45; margin: 0; }
+.pagina { page-break-after: always; position: relative; height: 266mm; overflow: hidden; }
+.pagina:last-child { page-break-after: auto; }
+.topo { display: flex; align-items: center; gap: 10px; border-bottom: 2px solid #111; padding-bottom: 5px; margin-bottom: 12px; font-size: 9.5pt; font-weight: 800; letter-spacing: .05em; }
+.nivel { background: #111; color: #fff; border-radius: 6px; padding: 3px 10px; font-size: 11pt; }
+.topo .dir { margin-left: auto; }
+h1 { font-size: 24pt; margin: 4px 0 8px; line-height: 1.1; }
+h2 { font-size: 15pt; margin: 14px 0 6px; }
+.cab { display: flex; gap: 16px; align-items: center; }
+.abertura { border: 2px solid #111; border-radius: 10px; padding: 10px 14px; font-size: 13.5pt; margin: 8px 0 14px; }
+.etapa { border: 1.5px solid #111; border-radius: 10px; padding: 10px 14px; margin-bottom: 12px; page-break-inside: avoid; }
+.etapa .num { display: inline-flex; width: 30px; height: 30px; border-radius: 8px; background: #111; color: #fff; align-items: center; justify-content: center; font-weight: 800; margin-right: 8px; }
+.etapa .tit { font-weight: 800; font-size: 13.5pt; }
+.etapa .tag { font-size: 9.5pt; border: 1px solid #111; border-radius: 10px; padding: 0 8px; margin-left: 6px; }
+.etapa p { margin: 6px 0; font-size: 13.5pt; }
+.espaco { border: 1.5px dashed #777; border-radius: 8px; height: 30mm; margin-top: 6px; position: relative; }
+.espaco.curto { height: 16mm; }
+.espaco span { position: absolute; left: 10px; top: 4px; font-size: 9pt; color: #555; }
+.resp { margin-top: 6px; font-weight: 800; }
+.resp i { display: inline-block; border-bottom: 1.5px solid #111; width: 55mm; }
+.dica { border: 2px dashed #111; border-radius: 10px; padding: 8px 12px; font-size: 11pt; margin: 10px 0; }
+table.cod { border-collapse: collapse; margin: 6px 0 10px; }
+table.cod td { border: 1.5px solid #111; padding: 6px 12px; text-align: center; font-size: 12.5pt; }
+table.cod td.l { font-weight: 800; font-size: 15pt; }
+.caixas { display: flex; gap: 10px; margin: 8px 0; }
+.fim { display: flex; gap: 14px; align-items: flex-start; }
+.oque { flex: 1; }
+.caixas div span { font-size: 8pt; margin: 2px 4px; display: block; }
+.caixas div { width: 15mm; height: 15mm; border: 2px solid #111; border-radius: 8px; }
+.linha { border-bottom: 1.5px solid #111; height: 8mm; margin: 4px 0; }
+.adulto li, .gab li { margin-bottom: 6px; }
+.box { border: 1.5px solid #111; border-radius: 10px; padding: 8px 14px; margin: 8px 0; }
+.gab .item { border-bottom: 1px solid #999; padding: 8px 0; page-break-inside: avoid; }
+.gab .r { font-weight: 800; font-size: 13.5pt; }
+.small { font-size: 10.5pt; color: #333; }
+.desenho { border: 2px solid #111; border-radius: 8px; padding: 6px 10px; margin: 6px 0; }
+.desenho .ins { font-size: 11.5pt; margin-bottom: 6px; }
+.desenho .ins b.lbl { background: #111; color: #fff; border-radius: 4px; padding: 0 6px; margin-right: 4px; }
+.livre { height: 34mm; border: 1px solid #999; border-radius: 6px; background-image: linear-gradient(#ddd 1px, transparent 1px), linear-gradient(90deg, #ddd 1px, transparent 1px); background-size: 5mm 5mm; }
+.tag.d { background: #111; color: #fff; }
+.gab { height: auto !important; overflow: visible !important; }
+.gab .rodape { position: static; margin-top: 10px; }
+.gab .modelo { margin: 4px 0 2px; }
+.passos { display: flex; gap: 8px; margin: 6px 0; }
+.passos div { flex: 1; border: 1.5px solid #111; border-radius: 8px; padding: 6px 8px; font-size: 11pt; }
+.adulto { font-size: 11.3pt; line-height: 1.38; }
+.adulto h1 { font-size: 21pt; }
+.adulto h2 { font-size: 13.5pt; margin: 9px 0 4px; }
+.adulto ol { margin: 4px 0; padding-left: 22px; }
+.adulto li { margin-bottom: 3px !important; }
+.gab { font-size: 11pt; line-height: 1.33; }
+.gab h1 { font-size: 20pt; }
+.gab .item { padding: 5px 0 !important; }
+.rodape { position: absolute; bottom: 0; left: 0; right: 0; font-size: 8.5pt; color: #555; border-top: 1px solid #aaa; padding-top: 3px; }
+</style></head><body><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-01</span><span class="dir">For the adult · read first (2 minutes)</span></div>
+  <h1>The Mystery of the Long Jump</h1>
+  <div class="box"><b>Time:</b> 25 to 35 minutes · <b>Practice:</b> decimal numbers in meters: adding and subtracting · <b>Materials:</b> pencil, eraser, and this printed sheet (optional: analog clock, dried beans, or bottle caps).</div>
+  <h2>The method in this mission: draw before you solve</h2>
+  <p>Stage 3 is the <b>“draw the problem”</b> stage. In it, your child goes through the 3 steps of the Singapore method (details in the Parent Guide):</p>
+  <div class="passos"><div><b>1. Concrete</b><br>Use a sewing tape measure or a retractable tape measure: your child measures 3.35 m on the floor and sees how much is missing to reach 4 m. In stage 3, they mark Sofia's three jumps one after the other before drawing.</div><div><b>2. Drawing</b><br>Your child draws the bar and puts a <b>?</b> on what they want to find out. Only then do they do the math.</div><div><b>3. Calculation</b><br>With the drawing done, they write the equation and check the answer by looking at the drawing.</div></div>
+  <h2>How to run the mission</h2>
+  <ol><li><b>Read the opening out loud, with an air of mystery.</b> Stage 1 is very short, on purpose: it gets your child into the game quickly.</li><li><b>Don't say which operation to use.</b> The problem doesn't say whether to add, subtract, or multiply. Figuring that out is the exercise, and the drawing is what shows the answer.</li><li><b>If your child gets stuck, ask for the drawing before giving any help:</b> “Show me that in a bar.” Then use the support question from the answer key (last page). It helps without giving away the answer.</li><li><b>Each answer becomes a letter.</b> If the code word doesn't make sense, one of the calculations is wrong: go back to the drawing and look for it together.</li><li><b>Wrap up by asking:</b> “Explain your drawing from stage 3 to me.”</li></ol>
+  <div class="box"><b>Before moving on:</b> You can move on to the next mission when your child explains the drawing in stage 3 in their own words. If not yet, redo just that stage another day with different numbers (e.g., a total of 11 m, jumps of 3.85 m and 3.6 m).</div>
+  <h2>With siblings</h2>
+  <div class="box">Print the mission pages once and solve them together, switching roles at each stage: <b>reader</b> (reads out loud), <b>illustrator</b> (draws the bar), and <b>number cruncher</b> (does the math and checks it against the drawing). With 2 children, the reader also draws. If they're at different levels, each one does the mission for their level and, at the end, they tell each other how they drew it.</div>
+  <div class="rodape">Math Missions · The Mystery of the Long Jump</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-01</span><span class="dir">Mission</span></div>
+  <div class="cab"><div><svg viewBox="0 0 130 110" width="120"><path d="M10 90 H120" stroke="#000" stroke-width="3"/><path d="M20 86 q40 -80 90 0" fill="none" stroke="#000" stroke-width="3" stroke-dasharray="6 4"/><g stroke="#000" stroke-width="2"><path d="M20 98 V104 M40 98 V104 M60 98 V104 M80 98 V104 M100 98 V104"/></g><circle cx="110" cy="80" r="6"/></svg></div><div><h1>The Mystery of the Long Jump</h1></div></div>
+  <div class="abertura">At the neighborhood track and field festival, the long jump medal went to the wrong athlete. The judge wrote down the measurements with decimal points… and someone got mixed up. Redo the math and find out who really won.</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">How much is missing to reach 4 m</span><span class="tag">quick one</span>
+  <p>Rui jumped 3.35 m. How much was he missing to reach 4 m?</p>
+  <div class="espaco curto"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">Rui's two jumps</span>
+  <p>Rui made 2 jumps: 3.35 m and 3.8 m. How many meters do the two jumps add up to?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  <div class="dica"><b>TIP:</b> no clue tells you which operation to use. Read carefully, figure out what's being asked, and choose the operation. When in doubt, draw.</div>
+  
+  <div class="rodape">Math Missions · The Mystery of the Long Jump</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-01</span><span class="dir">Mission (continued)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">Sofia's 3rd jump</span><span class="tag d">draw the problem</span>
+  <p>Sofia made 3 jumps, which add up to 12 m. The 1st measured 3.95 m and the 2nd, 3.7 m. How much did the 3rd jump measure?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Before doing the math, draw the problem with a bar: the whole and the 3 parts. Put a <b>?</b> on what you want to find out.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">The real winner</span>
+  <p>Sofia's 3rd jump was written down as 3.45 m, but the right measurement is 4.35 m. Rui's best jump was 3.8 m. With the right measurement, how many meters farther did Sofia jump than Rui?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  <h2>Crack the code <span class="small" style="font-weight:400">· find each answer in the table and write the letter in that stage's box</span></h2>
+  <table class="cod"><tr><td>0.35 m</td><td>0.55 m</td><td>0.65 m</td><td>1.35 m</td><td>4.35 m</td><td>6.43 m</td><td>7.15 m</td><td>8.05 m</td></tr><tr><td class="l">G</td><td class="l">E</td><td class="l">T</td><td class="l">R</td><td class="l">P</td><td class="l">X</td><td class="l">A</td><td class="l">C</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>What happened?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · The Mystery of the Long Jump</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-01</span><span class="dir">Answer key explained · for the adult</span></div>
+  <h1>Answer key: The Mystery of the Long Jump</h1>
+  <div class="item"><b>Stage 1 — How much is missing to reach 4 m</b> · <span class="r">0.65 m</span> (letter T)
+  <div><b>How to think:</b> Write 4 as 4.00 and subtract with the decimal points lined up: 4.00 − 3.35. <span class="small">Calculation: 4.00 − 3.35 = 0.65 m.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “From 3.35 to 3.40, how much is missing? And from 3.40 to 4.00?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 1.35 m, when your child subtracted only the 3 (4 − 3 = 1) and copied the 0.35 without subtracting. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 2 — Rui's two jumps</b> · <span class="r">7.15 m</span> (letter A)
+  <div><b>How to think:</b> Write 3.8 as 3.80 and add with the decimal points lined up. <span class="small">Calculation: 3.35 + 3.80 = 7.15 m.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “Is 3.8 the same as 3.80 or as 3.08?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 6.43 m, when your child read 3.8 as 3.08 and added without lining up the decimal points. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 3 — Sofia's 3rd jump</b> · <span class="r">4.35 m</span> (letter P)
+  <div><b>How to think:</b> The sum of the 3 jumps is the whole. Put the known parts together and take them away from the whole. <span class="small">Calculation: 3.95 + 3.70 = 7.65 · 12.00 − 7.65 = 4.35 m.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="185.12" y="5" width="41.76" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">12 m</text><rect x="0" y="34" width="135.61666666666667" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="67.80833333333334" y="51" text-anchor="middle" font-size="12" font-weight="500">3.95 m</text><rect x="135.61666666666667" y="34" width="127.03333333333333" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="199.13333333333333" y="51" text-anchor="middle" font-size="12" font-weight="500">3.7 m</text><rect x="262.65" y="34" width="149.35" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="337.325" y="51" text-anchor="middle" font-size="12" font-weight="800">?</text></svg></div><div>Part-whole with decimals and 3 parts: the two known parts add up to 7.65 m; the missing one is 12.00 − 7.65.</div>
+  <div><b>If they get stuck, ask:</b> “How many parts do you already know? What do they add up to?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 8.05 m, when your child subtracted only the 1st jump and forgot about the 2nd. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 4 — The real winner</b> · <span class="r">0.55 m</span> (letter E)
+  <div><b>How to think:</b> Compare Sofia's right measurement (4.35) with Rui's (3.80). <span class="small">Calculation: 4.35 − 3.80 = 0.55 m.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “Which of Sofia's measurements is the right one? Now compare it with 3.80.”</div>
+  <div class="small"><b>Most common mistake:</b> answering 0.35 m, when your child used the wrong measurement that was written down (3.45) and thought Rui won. That answer leads to a different letter, and the word doesn't work out.</div></div>
+  <div class="box"><b>Code word: TAPE.</b> The judge wrote down Sofia's 3rd jump as 3.45 m, but the measuring TAPE showed 4.35 m. With the right measurement, Sofia jumped 0.55 m more than Rui, and the medal went back to her.</div>
+  <div class="rodape">Math Missions · answer key</div></section><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-02</span><span class="dir">For the adult · read first (2 minutes)</span></div>
+  <h1>The Case of the Juice Factory</h1>
+  <div class="box"><b>Time:</b> 25 to 35 minutes · <b>Practice:</b> proportion through the unit: find 1 and then the total · <b>Materials:</b> pencil, eraser, and this printed sheet (optional: analog clock, dried beans, or bottle caps).</div>
+  <h2>The method in this mission: draw before you solve</h2>
+  <p>Stage 2 is the <b>“draw the problem”</b> stage. In it, your child goes through the 3 steps of the Singapore method (details in the Parent Guide):</p>
+  <div class="passos"><div><b>1. Concrete</b><br>Use bottles and a measuring cup (or identical cups): your child sees how many 500 mL cups fill 2 L. In stage 2, they set aside 2 small bottles per liter before drawing.</div><div><b>2. Drawing</b><br>Your child draws the bar and puts a <b>?</b> on what they want to find out. Only then do they do the math.</div><div><b>3. Calculation</b><br>With the drawing done, they write the equation and check the answer by looking at the drawing.</div></div>
+  <h2>How to run the mission</h2>
+  <ol><li><b>Read the opening out loud, with an air of mystery.</b> Stage 1 is very short, on purpose: it gets your child into the game quickly.</li><li><b>Don't say which operation to use.</b> The problem doesn't say whether to add, subtract, or multiply. Figuring that out is the exercise, and the drawing is what shows the answer.</li><li><b>If your child gets stuck, ask for the drawing before giving any help:</b> “Show me that in a bar.” Then use the support question from the answer key (last page). It helps without giving away the answer.</li><li><b>Each answer becomes a letter.</b> If the code word doesn't make sense, one of the calculations is wrong: go back to the drawing and look for it together.</li><li><b>Wrap up by asking:</b> “Explain your drawing from stage 2 to me.”</li></ol>
+  <div class="box"><b>Before moving on:</b> You can move on to the next mission when your child explains the drawing in stage 2 in their own words (“first I found what 1 piece is worth”). If not yet, redo just that stage another day with different numbers (e.g., 3 bottles = 1.5 L; how many in 6 L?).</div>
+  <h2>With siblings</h2>
+  <div class="box">Print the mission pages once and solve them together, switching roles at each stage: <b>reader</b> (reads out loud), <b>illustrator</b> (draws the bar), and <b>number cruncher</b> (does the math and checks it against the drawing). With 2 children, the reader also draws. If they're at different levels, each one does the mission for their level and, at the end, they tell each other how they drew it.</div>
+  <div class="rodape">Math Missions · The Case of the Juice Factory</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-02</span><span class="dir">Mission</span></div>
+  <div class="cab"><div><svg viewBox="0 0 120 130" width="100"><path d="M50 8 H70 V30 q18 10 18 30 V118 H32 V60 q0 -20 18 -30 Z" fill="none" stroke="#000" stroke-width="3"/><path d="M32 74 H88" stroke="#000" stroke-width="2"/><path d="M44 96 q16 -14 32 0" fill="none" stroke="#000" stroke-width="2"/></svg></div><div><h1>The Case of the Juice Factory</h1></div></div>
+  <div class="abertura">The juice factory's machine always fills bottles at the same pace, but nobody wrote that pace down. The manager wants to know how many bottles will come out by the end of the day.</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">The bottles</span><span class="tag">quick one</span>
+  <p>Each bottle holds 500 mL. How many liters do 4 bottles hold?</p>
+  <div class="espaco curto"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">The machine's pace</span><span class="tag d">draw the problem</span>
+  <p>With 2 L of juice, the machine fills 4 bottles. How many bottles does it fill with 7 L?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Before doing the math, draw the problem with bars made of equal pieces (1 piece = 1 bottle). Put a <b>?</b> on what you want to find out.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · The Case of the Juice Factory</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-02</span><span class="dir">Mission (continued)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">One hour of the machine</span>
+  <p>The machine fills 6 bottles every 3 minutes. How many bottles does it fill in 1 hour (60 minutes)?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">The tank</span>
+  <p>The factory's tank holds 450 L of juice. How many 500 mL bottles can it fill?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  <div class="dica"><b>TIP:</b> no clue tells you which operation to use. Read carefully, figure out what's being asked, and choose the operation. When in doubt, draw.</div>
+  <h2>Crack the code <span class="small" style="font-weight:400">· find each answer in the table and write the letter in that stage's box</span></h2>
+  <table class="cod"><tr><td>2 L</td><td>14</td><td>20 L</td><td>28</td><td>120</td><td>225</td><td>360</td><td>900</td></tr><tr><td class="l">L</td><td class="l">I</td><td class="l">S</td><td class="l">X</td><td class="l">M</td><td class="l">F</td><td class="l">B</td><td class="l">E</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>What happened?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · The Case of the Juice Factory</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-02</span><span class="dir">Answer key explained · for the adult</span></div>
+  <h1>Answer key: The Case of the Juice Factory</h1>
+  <div class="item"><b>Stage 1 — The bottles</b> · <span class="r">2 L</span> (letter L)
+  <div><b>How to think:</b> 4 bottles of 500 mL make 2,000 mL. Every 1,000 mL is 1 L. <span class="small">Calculation: 4 × 500 = 2,000 mL = 2 L.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “How many mL are in 1 L? And how many mL do the 4 bottles hold?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 20 L, when your child thought 1 L has 100 mL. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 2 — The machine's pace</b> · <span class="r">14</span> (letter I)
+  <div><b>How to think:</b> First find what 1 L is worth (2 bottles). Then, 7 L. <span class="small">Calculation: 4 ÷ 2 = 2 bottles per liter · 7 × 2 = 14.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 110" width="420" height="110" font-family="Inter, DejaVu Sans, sans-serif"><text x="0" y="21" font-size="11" font-weight="700">2 L</text><rect x="78" y="4" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="89.92857142857143" y="21" text-anchor="middle" font-size="12" font-weight="500">0.5</text><rect x="101.85714285714286" y="4" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="113.78571428571429" y="21" text-anchor="middle" font-size="12" font-weight="500">0.5</text><rect x="125.71428571428572" y="4" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="137.64285714285714" y="21" text-anchor="middle" font-size="12" font-weight="500">0.5</text><rect x="149.57142857142858" y="4" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="161.5" y="21" text-anchor="middle" font-size="12" font-weight="500">0.5</text><path d="M79 68 V60 H411 V68" fill="none" stroke="#000" stroke-width="1.6"/><rect x="205.52" y="43" width="78.96" height="20" fill="#fff"/><text x="245" y="57" text-anchor="middle" font-size="12" font-weight="700">? bottles</text><text x="0" y="89" font-size="11" font-weight="700">7 L</text><rect x="78" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="89.92857142857143" y="89" text-anchor="middle" font-size="12" font-weight="500">0.5</text><rect x="101.85714285714286" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="113.78571428571429" y="89" text-anchor="middle" font-size="12" font-weight="500">0.5</text><rect x="125.71428571428572" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="137.64285714285714" y="89" text-anchor="middle" font-size="12" font-weight="500">0.5</text><rect x="149.57142857142858" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="161.5" y="89" text-anchor="middle" font-size="12" font-weight="500">0.5</text><rect x="173.42857142857144" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="185.35714285714286" y="89" text-anchor="middle" font-size="12" font-weight="500">0.5</text><rect x="197.2857142857143" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="209.21428571428572" y="89" text-anchor="middle" font-size="12" font-weight="500">0.5</text><rect x="221.14285714285717" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="233.07142857142858" y="89" text-anchor="middle" font-size="12" font-weight="500">0.5</text><rect x="245.00000000000003" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="256.92857142857144" y="89" text-anchor="middle" font-size="12" font-weight="500">0.5</text><rect x="268.8571428571429" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="280.78571428571433" y="89" text-anchor="middle" font-size="12" font-weight="500">0.5</text><rect x="292.7142857142857" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="304.64285714285717" y="89" text-anchor="middle" font-size="12" font-weight="500">0.5</text><rect x="316.57142857142856" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="328.5" y="89" text-anchor="middle" font-size="12" font-weight="500">0.5</text><rect x="340.4285714285714" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="352.35714285714283" y="89" text-anchor="middle" font-size="12" font-weight="500">0.5</text><rect x="364.2857142857142" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="376.21428571428567" y="89" text-anchor="middle" font-size="12" font-weight="500">0.5</text><rect x="388.14285714285705" y="72" width="23.857142857142858" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="400.0714285714285" y="89" text-anchor="middle" font-size="12" font-weight="500">0.5</text></svg></div><div>Each piece is 1 bottle of 0.5 L. 14 pieces that size fit in 7 L.</div>
+  <div><b>If they get stuck, ask:</b> “If 2 L fill 4 bottles, how many does 1 L fill?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 28, when your child multiplied 7 × 4, as if each liter filled 4 bottles. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 3 — One hour of the machine</b> · <span class="r">120</span> (letter M)
+  <div><b>How to think:</b> Find how many it fills in 1 minute and then in 60. <span class="small">Calculation: 6 ÷ 3 = 2 bottles per minute · 60 × 2 = 120.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “In 1 minute, how many bottles? And in 60?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 360, when your child used 6 bottles per minute, not every 3 minutes. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 4 — The tank</b> · <span class="r">900</span> (letter E)
+  <div><b>How to think:</b> Each liter fills 2 half-liter bottles. 450 liters fill 450 × 2. <span class="small">Calculation: 1 L fills 2 bottles · 450 × 2 = 900.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “How many bottles does 1 L fill? And 450 L?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 225, when your child divided by 2 instead of multiplying (each liter fills 2 bottles). That answer leads to a different letter, and the word doesn't work out.</div></div>
+  <div class="box"><b>Code word: LIME.</b> The machine fills 2 bottles per minute, and the 450 L tank makes 900 bottles of LIME juice: a whole day of work.</div>
+  <div class="rodape">Math Missions · answer key</div></section><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-03</span><span class="dir">For the adult · read first (2 minutes)</span></div>
+  <h1>The Riddle of the Robot Vacuum</h1>
+  <div class="box"><b>Time:</b> 25 to 35 minutes · <b>Practice:</b> fractions, decimals, patterns in a table, and proportion · <b>Materials:</b> pencil, eraser, and this printed sheet (optional: analog clock, dried beans, or bottle caps).</div>
+  <h2>The method in this mission: draw before you solve</h2>
+  <p>Stage 4 is the <b>“draw the problem”</b> stage. In it, your child goes through the 3 steps of the Singapore method (details in the Parent Guide):</p>
+  <div class="passos"><div><b>1. Concrete</b><br>A strip of paper helps: folded into 4, it shows 3/4 of the battery (stage 1). For stage 4, cut out small paper squares: each one is 1 minute of cleaning.</div><div><b>2. Drawing</b><br>Your child draws the bar and puts a <b>?</b> on what they want to find out. Only then do they do the math.</div><div><b>3. Calculation</b><br>With the drawing done, they write the equation and check the answer by looking at the drawing.</div></div>
+  <h2>How to run the mission</h2>
+  <ol><li><b>Read the opening out loud, with an air of mystery.</b> Stage 1 is very short, on purpose: it gets your child into the game quickly.</li><li><b>Don't say which operation to use.</b> The problem doesn't say whether to add, subtract, or multiply. Figuring that out is the exercise, and the drawing is what shows the answer.</li><li><b>If your child gets stuck, ask for the drawing before giving any help:</b> “Show me that in a bar.” Then use the support question from the answer key (last page). It helps without giving away the answer.</li><li><b>Each answer becomes a letter.</b> If the code word doesn't make sense, one of the calculations is wrong: go back to the drawing and look for it together.</li><li><b>Wrap up by asking:</b> “Explain your drawing from stage 4 to me.”</li></ol>
+  <div class="box"><b>Before moving on:</b> You can move on to the next mission when your child explains the drawing in stage 4 in their own words. If not yet, redo just that stage another day with different numbers (e.g., 15 m² in 3 minutes, a 45 m² living room).</div>
+  <h2>With siblings</h2>
+  <div class="box">Print the mission pages once and solve them together, switching roles at each stage: <b>reader</b> (reads out loud), <b>illustrator</b> (draws the bar), and <b>number cruncher</b> (does the math and checks it against the drawing). With 2 children, the reader also draws. If they're at different levels, each one does the mission for their level and, at the end, they tell each other how they drew it.</div>
+  <div class="rodape">Math Missions · The Riddle of the Robot Vacuum</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-03</span><span class="dir">Mission</span></div>
+  <div class="cab"><div><svg viewBox="0 0 120 120" width="120"><ellipse cx="60" cy="74" rx="46" ry="30" fill="none" stroke="#000" stroke-width="3"/><circle cx="44" cy="68" r="7" fill="none" stroke="#000" stroke-width="3"/><circle cx="76" cy="68" r="7" fill="none" stroke="#000" stroke-width="3"/><path d="M48 86 q12 8 24 0" fill="none" stroke="#000" stroke-width="3"/><path d="M60 44 V24" stroke="#000" stroke-width="3"/><circle cx="60" cy="20" r="5" fill="none" stroke="#000" stroke-width="3"/><path d="M14 40 l8 6 M106 40 l-8 6 M20 30 l6 8 M100 30 l-6 8" stroke="#000" stroke-width="2.5"/></svg></div><div><h1>The Riddle of the Robot Vacuum</h1></div></div>
+  <div class="abertura">The family's robot vacuum started acting strange: it cleans half the living room and stops partway. Before calling a technician, the family decided to investigate the robot's logs. The investigation is yours.</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">The battery</span><span class="tag">quick one</span>
+  <p>The robot's full battery has 100 energy points. The screen shows it's at 3/4 charge. How many energy points does the robot have?</p>
+  <div class="espaco curto"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">The robot's path</span>
+  <p>On its first run, the robot went 2.4 m in a straight line, turned, and went another 1.85 m. How many meters did it travel in all?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  <div class="dica"><b>TIP:</b> no clue tells you which operation to use. Read carefully, figure out what's being asked, and choose the operation. When in doubt, draw.</div>
+  
+  <div class="rodape">Math Missions · The Riddle of the Robot Vacuum</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-03</span><span class="dir">Mission (continued)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">The energy log</span>
+  <p>The robot records its energy while it cleans: at minute 0, 75 points; at minute 1, 60; at minute 2, 45; at minute 3, 30. If it keeps using energy the same way, at what minute does the energy reach zero?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">The whole room</span><span class="tag d">draw the problem</span>
+  <p>The robot cleans 12 m² in 3 minutes. The living room is 40 m². Without stopping, how many minutes would it take to clean the whole room?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Before doing the math, draw the problem with bars made of equal pieces (1 piece = 1 minute of cleaning). Put a <b>?</b> on what you want to find out.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  <h2>Crack the code <span class="small" style="font-weight:400">· find each answer in the table and write the letter in that stage's box</span></h2>
+  <table class="cod"><tr><td>3 min</td><td>3.89 m</td><td>4 min</td><td>4.25 m</td><td>5 min</td><td>10 min</td><td>25</td><td>75</td></tr><tr><td class="l">F</td><td class="l">U</td><td class="l">A</td><td class="l">O</td><td class="l">R</td><td class="l">D</td><td class="l">P</td><td class="l">C</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>What happened?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · The Riddle of the Robot Vacuum</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-03</span><span class="dir">Answer key explained · for the adult</span></div>
+  <h1>Answer key: The Riddle of the Robot Vacuum</h1>
+  <div class="item"><b>Stage 1 — The battery</b> · <span class="r">75</span> (letter C)
+  <div><b>How to think:</b> Split 100 into 4 parts (25 each) and take 3 of them. <span class="small">Calculation: 100 ÷ 4 = 25 · 3 × 25 = 75.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “What is one quarter of 100? And three quarters?” Drawing a bar split into 4 parts helps.</div>
+  <div class="small"><b>Most common mistake:</b> answering 25, when your child calculated only 1/4 (or what's missing to fill it up). That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 2 — The robot's path</b> · <span class="r">4.25 m</span> (letter O)
+  <div><b>How to think:</b> Write 2.4 as 2.40 and add with the decimal points lined up: 2.40 + 1.85. <span class="small">Calculation: 2.40 + 1.85 = 4.25.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “Is 2.4 the same as 2.40? Now add centimeters to centimeters.”</div>
+  <div class="small"><b>Most common mistake:</b> answering 3.89 m, when your child added without lining up the decimal points (did 4 + 85 = 89). That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 3 — The energy log</b> · <span class="r">5 min</span> (letter R)
+  <div><b>How to think:</b> Find out how much the energy drops per minute (15 points) and continue the table until it reaches zero. <span class="small">Calculation: uses 15 points per minute · 75 ÷ 15 = 5 minutes (or continue the table: minute 4 = 15, minute 5 = 0).</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “How much does the energy drop from one minute to the next? Continue the table: minute 4, minute 5…”</div>
+  <div class="small"><b>Most common mistake:</b> answering 4 min, when your child counted only 1 more minute after minute 3. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 4 — The whole room</b> · <span class="r">10 min</span> (letter D)
+  <div><b>How to think:</b> Find out how much it cleans in 1 minute (12 ÷ 3 = 4 m²) and how many minutes it takes to do 40 m². <span class="small">Calculation: 12 ÷ 3 = 4 m² per minute · 40 ÷ 4 = 10 minutes.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 140" width="420" height="140" font-family="Inter, DejaVu Sans, sans-serif"><path d="M79 30 V22 H177.2 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="103.5" y="5" width="49.2" height="20" fill="#fff"/><text x="128.1" y="19" text-anchor="middle" font-size="12" font-weight="700">12 m²</text><text x="0" y="51" font-size="11" font-weight="700">3 min</text><rect x="78" y="34" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="94.7" y="51" text-anchor="middle" font-size="12" font-weight="500">4</text><rect x="111.4" y="34" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="128.1" y="51" text-anchor="middle" font-size="12" font-weight="500">4</text><rect x="144.8" y="34" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="161.5" y="51" text-anchor="middle" font-size="12" font-weight="500">4</text><path d="M79 98 V90 H411 V98" fill="none" stroke="#000" stroke-width="1.6"/><rect x="220.4" y="73" width="49.2" height="20" fill="#fff"/><text x="245" y="87" text-anchor="middle" font-size="12" font-weight="700">40 m²</text><text x="0" y="119" font-size="11" font-weight="700">? min</text><rect x="78" y="102" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="94.7" y="119" text-anchor="middle" font-size="12" font-weight="500">4</text><rect x="111.4" y="102" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="128.1" y="119" text-anchor="middle" font-size="12" font-weight="500">4</text><rect x="144.8" y="102" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="161.5" y="119" text-anchor="middle" font-size="12" font-weight="500">4</text><rect x="178.20000000000002" y="102" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="194.9" y="119" text-anchor="middle" font-size="12" font-weight="500">4</text><rect x="211.60000000000002" y="102" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="228.3" y="119" text-anchor="middle" font-size="12" font-weight="500">4</text><rect x="245.00000000000003" y="102" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="261.70000000000005" y="119" text-anchor="middle" font-size="12" font-weight="500">4</text><rect x="278.40000000000003" y="102" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="295.1" y="119" text-anchor="middle" font-size="12" font-weight="500">4</text><rect x="311.8" y="102" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="328.5" y="119" text-anchor="middle" font-size="12" font-weight="500">4</text><rect x="345.2" y="102" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="361.9" y="119" text-anchor="middle" font-size="12" font-weight="500">4</text><rect x="378.59999999999997" y="102" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="395.29999999999995" y="119" text-anchor="middle" font-size="12" font-weight="500">4</text></svg></div><div>Each piece is 1 minute of cleaning (4 m²). To cover 40 m², you need 10 pieces, which means 10 minutes.</div>
+  <div><b>If they get stuck, ask:</b> “Draw a bar with 3 equal pieces that together are worth 12 m². How much is 1 piece worth? Now draw pieces that size until you reach 40 m². How many pieces?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 3 min, when your child repeated the time from the example, without seeing that the room is bigger. That answer leads to a different letter, and the word doesn't work out.</div></div>
+  <div class="box"><b>Code word: CORD.</b> The charger CORD was partly loose: the battery never got above 3/4 and lasted only 5 minutes — half of the 10 minutes the living room needs. That's why the robot cleaned half and stopped. Cord back in place, robot fixed!</div>
+  <div class="rodape">Math Missions · answer key</div></section><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-04</span><span class="dir">For the adult · read first (2 minutes)</span></div>
+  <h1>The Secret of the Two Contest Pumpkins</h1>
+  <div class="box"><b>Time:</b> 25 to 35 minutes · <b>Practice:</b> sum and difference: finding the two parts · <b>Materials:</b> pencil, eraser, and this printed sheet (optional: analog clock, dried beans, or bottle caps).</div>
+  <h2>The method in this mission: draw before you solve</h2>
+  <p>Stage 2 is the <b>“draw the problem”</b> stage. In it, your child goes through the 3 steps of the Singapore method (details in the Parent Guide):</p>
+  <div class="passos"><div><b>1. Concrete</b><br>Use two pieces of string: one longer than the other. In stage 2, your child cuts the “extra” piece off the longer one and sees that two equal pieces are left, before drawing.</div><div><b>2. Drawing</b><br>Your child draws the bar and puts a <b>?</b> on what they want to find out. Only then do they do the math.</div><div><b>3. Calculation</b><br>With the drawing done, they write the equation and check the answer by looking at the drawing.</div></div>
+  <h2>How to run the mission</h2>
+  <ol><li><b>Read the opening out loud, with an air of mystery.</b> Stage 1 is very short, on purpose: it gets your child into the game quickly.</li><li><b>Don't say which operation to use.</b> The problem doesn't say whether to add, subtract, or multiply. Figuring that out is the exercise, and the drawing is what shows the answer.</li><li><b>If your child gets stuck, ask for the drawing before giving any help:</b> “Show me that in a bar.” Then use the support question from the answer key (last page). It helps without giving away the answer.</li><li><b>Each answer becomes a letter.</b> If the code word doesn't make sense, one of the calculations is wrong: go back to the drawing and look for it together.</li><li><b>Wrap up by asking:</b> “Explain your drawing from stage 2 to me.”</li></ol>
+  <div class="box"><b>Before moving on:</b> You can move on to the next mission when your child explains the drawing in stage 2 in their own words (“I took away the extra piece and two equal bars were left”). If not yet, redo just that stage another day with different numbers (e.g., 7 kg together, one weighs 0.8 kg more).</div>
+  <h2>With siblings</h2>
+  <div class="box">Print the mission pages once and solve them together, switching roles at each stage: <b>reader</b> (reads out loud), <b>illustrator</b> (draws the bar), and <b>number cruncher</b> (does the math and checks it against the drawing). With 2 children, the reader also draws. If they're at different levels, each one does the mission for their level and, at the end, they tell each other how they drew it.</div>
+  <div class="rodape">Math Missions · The Secret of the Two Contest Pumpkins</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-04</span><span class="dir">Mission</span></div>
+  <div class="cab"><div><svg viewBox="0 0 130 110" width="120"><ellipse cx="65" cy="64" rx="48" ry="36" fill="none" stroke="#000" stroke-width="3"/><path d="M65 28 q-20 36 0 72 M65 28 q20 36 0 72" fill="none" stroke="#000" stroke-width="2"/><path d="M65 28 q2 -14 12 -18" fill="none" stroke="#000" stroke-width="4"/></svg></div><div><h1>The Secret of the Two Contest Pumpkins</h1></div></div>
+  <div class="abertura">At the fair's pumpkin contest, two pumpkins were weighed together by mistake: 9 kg. The judge only remembers that the orange one weighed 1.4 kg more than the green one. The contest record is 5.05 kg. Did either of them break the record?</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">Kilograms into grams</span><span class="tag">quick one</span>
+  <p>How many grams is 1.4 kg?</p>
+  <div class="espaco curto"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">The green pumpkin</span><span class="tag d">draw the problem</span>
+  <p>Together, the two pumpkins weigh 9 kg, and the orange one weighs 1.4 kg more than the green one. How much does the green pumpkin weigh?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Before doing the math, draw one bar for each pumpkin, lined up on the left, showing the “extra” piece. Mark the total of the two and put a <b>?</b> on what you want to find out.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · The Secret of the Two Contest Pumpkins</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-04</span><span class="dir">Mission (continued)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">The orange pumpkin</span>
+  <p>The green one weighs 3.8 kg. How much does the orange pumpkin, which has 1.4 kg more, weigh?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">The record</span>
+  <p>Last year's record was 5.05 kg. By how many kilograms did the orange pumpkin (5.2 kg) break the record?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  <div class="dica"><b>TIP:</b> no clue tells you which operation to use. Read carefully, figure out what's being asked, and choose the operation. When in doubt, draw.</div>
+  <h2>Crack the code <span class="small" style="font-weight:400">· find each answer in the table and write the letter in that stage's box</span></h2>
+  <table class="cod"><tr><td>0.15 kg</td><td>1,400 g</td><td>2.4 kg</td><td>3.8 kg</td><td>5.2 kg</td><td>7.6 kg</td><td>10.25 kg</td><td>140 g</td></tr><tr><td class="l">S</td><td class="l">M</td><td class="l">E</td><td class="l">A</td><td class="l">S</td><td class="l">B</td><td class="l">H</td><td class="l">U</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>What happened?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · The Secret of the Two Contest Pumpkins</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-04</span><span class="dir">Answer key explained · for the adult</span></div>
+  <h1>Answer key: The Secret of the Two Contest Pumpkins</h1>
+  <div class="item"><b>Stage 1 — Kilograms into grams</b> · <span class="r">1,400 g</span> (letter M)
+  <div><b>How to think:</b> 1 kg has 1,000 g. 1.4 kg is 1,000 g plus 4 tenths of 1,000 (400 g). <span class="small">Calculation: 1.4 × 1,000 = 1,400 g.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “How many grams are in 1 kg? And in 0.4 kg?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 140 g, when your child multiplied by 100 instead of 1,000. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 2 — The green pumpkin</b> · <span class="r">3.8 kg</span> (letter A)
+  <div><b>How to think:</b> Take away the “extra” piece (1.4). What's left is two equal bars: divide by 2. <span class="small">Calculation: 9 − 1.4 = 7.6 · 7.6 ÷ 2 = 3.8 kg.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 80" width="420" height="80" font-family="Inter, DejaVu Sans, sans-serif"><text x="0" y="21" font-size="11" font-weight="700">Orange</text><rect x="78" y="4" width="203.32923076923078" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="179.6646153846154" y="21" text-anchor="middle" font-size="12" font-weight="500"> </text><rect x="281.3292307692308" y="4" width="74.91076923076923" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="318.7846153846154" y="21" text-anchor="middle" font-size="12" font-weight="500">1.4 kg</text><text x="0" y="59" font-size="11" font-weight="700">Green</text><rect x="78" y="42" width="203.32923076923078" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="179.6646153846154" y="59" text-anchor="middle" font-size="12" font-weight="800">?</text><path d="M366.24 4 H373.24 V66 H366.24" fill="none" stroke="#000" stroke-width="1.6"/><text x="378.24" y="40" font-size="12" font-weight="700">9 kg</text></svg></div><div>Taking away the 1.4 kg piece, 2 equal bars are left that together weigh 7.6 kg. Each one is worth 3.8 kg.</div>
+  <div><b>If they get stuck, ask:</b> “If the orange one didn't have the extra 1.4, the two would be equal. How much would they weigh together?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 7.6 kg, when your child subtracted the 1.4 and forgot to divide by 2. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 3 — The orange pumpkin</b> · <span class="r">5.2 kg</span> (letter S)
+  <div><b>How to think:</b> The orange one is the green one plus the extra piece. <span class="small">Calculation: 3.8 + 1.4 = 5.2 kg.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “Is the orange one heavier or lighter than the green one?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 2.4 kg, when your child subtracted the extra piece instead of adding it. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 4 — The record</b> · <span class="r">0.15 kg</span> (letter S)
+  <div><b>How to think:</b> Write 5.2 as 5.20 and subtract with the decimal points lined up. <span class="small">Calculation: 5.20 − 5.05 = 0.15 kg.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “Is 5.2 the same as 5.20? How much is missing from 5.05 up to 5.20?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 10.25 kg, when your child added instead of comparing. That answer leads to a different letter, and the word doesn't work out.</div></div>
+  <div class="box"><b>Code word: MASS.</b> The orange pumpkin won the trophy: 5.2 kg, the contest's new record. The right MASS came out of the drawing of the two bars.</div>
+  <div class="rodape">Math Missions · answer key</div></section><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-05</span><span class="dir">For the adult · read first (2 minutes)</span></div>
+  <h1>The Locked Safe Mystery</h1>
+  <div class="box"><b>Time:</b> 25 to 35 minutes · <b>Practice:</b> before and after: what changes and what stays the same · <b>Materials:</b> pencil, eraser, and this printed sheet (optional: analog clock, dried beans, or bottle caps).</div>
+  <h2>The method in this mission: draw before you solve</h2>
+  <p>Stage 2 is the <b>“draw the problem”</b> stage. In it, your child goes through the 3 steps of the Singapore method (details in the Parent Guide):</p>
+  <div class="passos"><div><b>1. Concrete</b><br>Make two rows of bottle caps (one cap = 10 points): 35 for Nina and 21 for Caio. In stage 2, your child moves caps from one row to the other until they're equal, before drawing.</div><div><b>2. Drawing</b><br>Your child draws the bar and puts a <b>?</b> on what they want to find out. Only then do they do the math.</div><div><b>3. Calculation</b><br>With the drawing done, they write the equation and check the answer by looking at the drawing.</div></div>
+  <h2>How to run the mission</h2>
+  <ol><li><b>Read the opening out loud, with an air of mystery.</b> Stage 1 is very short, on purpose: it gets your child into the game quickly.</li><li><b>Don't say which operation to use.</b> The problem doesn't say whether to add, subtract, or multiply. Figuring that out is the exercise, and the drawing is what shows the answer.</li><li><b>If your child gets stuck, ask for the drawing before giving any help:</b> “Show me that in a bar.” Then use the support question from the answer key (last page). It helps without giving away the answer.</li><li><b>Each answer becomes a letter.</b> If the code word doesn't make sense, one of the calculations is wrong: go back to the drawing and look for it together.</li><li><b>Wrap up by asking:</b> “Explain your drawing from stage 2 to me.”</li></ol>
+  <div class="box"><b>Before moving on:</b> You can move on to the next mission when your child explains the drawing in stage 2 in their own words (“the difference was split in half”). If not yet, redo just that stage another day with different numbers (e.g., Nina 420, Caio 260).</div>
+  <h2>With siblings</h2>
+  <div class="box">Print the mission pages once and solve them together, switching roles at each stage: <b>reader</b> (reads out loud), <b>illustrator</b> (draws the bar), and <b>number cruncher</b> (does the math and checks it against the drawing). With 2 children, the reader also draws. If they're at different levels, each one does the mission for their level and, at the end, they tell each other how they drew it.</div>
+  <div class="rodape">Math Missions · The Locked Safe Mystery</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-05</span><span class="dir">Mission</span></div>
+  <div class="cab"><div><svg viewBox="0 0 120 120" width="105"><rect x="14" y="20" width="92" height="84" rx="8" fill="none" stroke="#000" stroke-width="3"/><circle cx="60" cy="62" r="20" fill="none" stroke="#000" stroke-width="3"/><path d="M60 42 V50 M60 74 V82 M40 62 H48 M72 62 H80" stroke="#000" stroke-width="3"/><circle cx="60" cy="62" r="4"/></svg></div><div><h1>The Locked Safe Mystery</h1></div></div>
+  <div class="abertura">Nina and Caio keep the points from a board game in a paper safe. After a trade, the two ended up with the same amount, but nobody remembers how many Nina gave. The game notebook has the clues.</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">Nina's points</span><span class="tag">quick one</span>
+  <p>Nina won 50 points in a round and reached 350. How many points did she have before?</p>
+  <div class="espaco curto"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">The trade</span><span class="tag d">draw the problem</span>
+  <p>Nina had 350 points and Caio, 210. Nina gave some points to Caio and the two ended up with the same amount. How many points did Nina give?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Before doing the math, draw Nina's and Caio's bars before the trade and, underneath, after the trade. Show the difference and put a <b>?</b> on the piece Nina gives.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · The Locked Safe Mystery</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-05</span><span class="dir">Mission (continued)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">After the trade</span>
+  <p>After the trade, how many points did each one end up with?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">The next round</span>
+  <p>In the next round, each one spent 1/5 of their 280 points. How many points did each one end up with?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  <div class="dica"><b>TIP:</b> no clue tells you which operation to use. Read carefully, figure out what's being asked, and choose the operation. When in doubt, draw.</div>
+  <h2>Crack the code <span class="small" style="font-weight:400">· find each answer in the table and write the letter in that stage's box</span></h2>
+  <table class="cod"><tr><td>56</td><td>70</td><td>140</td><td>210</td><td>224</td><td>280</td><td>300</td><td>400</td></tr><tr><td class="l">H</td><td class="l">A</td><td class="l">X</td><td class="l">C</td><td class="l">E</td><td class="l">M</td><td class="l">G</td><td class="l">S</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>What happened?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · The Locked Safe Mystery</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-05</span><span class="dir">Answer key explained · for the adult</span></div>
+  <h1>Answer key: The Locked Safe Mystery</h1>
+  <div class="item"><b>Stage 1 — Nina's points</b> · <span class="r">300</span> (letter G)
+  <div><b>How to think:</b> Before winning, she had 50 fewer: 350 − 50. <span class="small">Calculation: 350 − 50 = 300.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “Before the round, did Nina have more or less than 350?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 400, when your child added instead of going back to before the round. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 2 — The trade</b> · <span class="r">70</span> (letter A)
+  <div><b>How to think:</b> The difference is 140. To tie, half of the difference goes from one to the other. <span class="small">Calculation: 350 − 210 = 140 · 140 ÷ 2 = 70.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 156" width="420" height="156" font-family="Inter, DejaVu Sans, sans-serif"><text x="0" y="21" font-size="11" font-weight="700">Nina before</text><rect x="78" y="4" width="200.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="178.2" y="21" text-anchor="middle" font-size="12" font-weight="500">210</text><rect x="278.4" y="4" width="66.8" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="311.79999999999995" y="21" text-anchor="middle" font-size="12" font-weight="500">70 stays</text><rect x="345.2" y="4" width="66.8" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="378.59999999999997" y="21" text-anchor="middle" font-size="12" font-weight="500">? gives</text><text x="0" y="59" font-size="11" font-weight="700">Caio before</text><rect x="78" y="42" width="200.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="178.2" y="59" text-anchor="middle" font-size="12" font-weight="500">210</text><text x="0" y="97" font-size="11" font-weight="700">Nina after</text><rect x="78" y="80" width="200.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="178.2" y="97" text-anchor="middle" font-size="12" font-weight="500">210</text><rect x="278.4" y="80" width="66.8" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="311.79999999999995" y="97" text-anchor="middle" font-size="12" font-weight="500">70</text><text x="0" y="135" font-size="11" font-weight="700">Caio after</text><rect x="78" y="118" width="200.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="178.2" y="135" text-anchor="middle" font-size="12" font-weight="500">210</text><rect x="278.4" y="118" width="66.8" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="311.79999999999995" y="135" text-anchor="middle" font-size="12" font-weight="500">70</text></svg></div><div>Before: the difference (140) is split in half; one piece stays with Nina and the other goes to Caio. After: the two bars are equal, with 280.</div>
+  <div><b>If they get stuck, ask:</b> “If Nina gives 140, who ends up with more? And if she gives half?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 140, when your child gave the whole difference, and then Caio ended up with more. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 3 — After the trade</b> · <span class="r">280</span> (letter M)
+  <div><b>How to think:</b> Nina lost 70; Caio gained 70. Check both sides. <span class="small">Calculation: 350 − 70 = 280 (and 210 + 70 = 280).</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “How much does Nina have now? And Caio? Is it equal?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 210, when your child forgot to add the 70 that Caio received. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 4 — The next round</b> · <span class="r">224</span> (letter E)
+  <div><b>How to think:</b> Find 1/5 of 280 (what was spent) and take it away from 280. <span class="small">Calculation: 280 ÷ 5 = 56 · 280 − 56 = 224.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “Is the question what was spent or what was left?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 56, when your child answered what was spent, not what was left. That answer leads to a different letter, and the word doesn't work out.</div></div>
+  <div class="box"><b>Code word: GAME.</b> Nina gave 70 points and the two ended up with 280. The trade was fair and the GAME went on: in the next round, each one ended up with 224.</div>
+  <div class="rodape">Math Missions · answer key</div></section><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-06</span><span class="dir">For the adult · read first (2 minutes)</span></div>
+  <h1>The Case of the Marble Jar</h1>
+  <div class="box"><b>Time:</b> 25 to 35 minutes · <b>Practice:</b> fraction of what was left (1/3 and then 1/4 of the rest) · <b>Materials:</b> pencil, eraser, and this printed sheet (optional: analog clock, dried beans, or bottle caps).</div>
+  <h2>The method in this mission: draw before you solve</h2>
+  <p>Stage 2 is the <b>“draw the problem”</b> stage. In it, your child goes through the 3 steps of the Singapore method (details in the Parent Guide):</p>
+  <div class="passos"><div><b>1. Concrete</b><br>Use a strip of paper divided into 6 equal parts: your child crosses out 2 parts (1/3) and then 1 part of the 4 that are left (1/4 of the rest), before drawing.</div><div><b>2. Drawing</b><br>Your child draws the bar and puts a <b>?</b> on what they want to find out. Only then do they do the math.</div><div><b>3. Calculation</b><br>With the drawing done, they write the equation and check the answer by looking at the drawing.</div></div>
+  <h2>How to run the mission</h2>
+  <ol><li><b>Read the opening out loud, with an air of mystery.</b> Stage 1 is very short, on purpose: it gets your child into the game quickly.</li><li><b>Don't say which operation to use.</b> The problem doesn't say whether to add, subtract, or multiply. Figuring that out is the exercise, and the drawing is what shows the answer.</li><li><b>If your child gets stuck, ask for the drawing before giving any help:</b> “Show me that in a bar.” Then use the support question from the answer key (last page). It helps without giving away the answer.</li><li><b>Each answer becomes a letter.</b> If the code word doesn't make sense, one of the calculations is wrong: go back to the drawing and look for it together.</li><li><b>Wrap up by asking:</b> “Explain your drawing from stage 2 to me.”</li></ol>
+  <div class="box"><b>Before moving on:</b> You can move on to the next mission when your child explains the drawing in stage 2 in their own words (“the 1/4 is of what was left, not of the whole jar”). If not yet, redo just that stage another day with different numbers (e.g., 180 marbles).</div>
+  <h2>With siblings</h2>
+  <div class="box">Print the mission pages once and solve them together, switching roles at each stage: <b>reader</b> (reads out loud), <b>illustrator</b> (draws the bar), and <b>number cruncher</b> (does the math and checks it against the drawing). With 2 children, the reader also draws. If they're at different levels, each one does the mission for their level and, at the end, they tell each other how they drew it.</div>
+  <div class="rodape">Math Missions · The Case of the Marble Jar</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-06</span><span class="dir">Mission</span></div>
+  <div class="cab"><div><svg viewBox="0 0 120 120" width="105"><path d="M30 24 H90 V36 q14 10 14 30 V108 H16 V66 q0 -20 14 -30 Z" fill="none" stroke="#000" stroke-width="3"/><circle cx="44" cy="80" r="8" fill="none" stroke="#000" stroke-width="2"/><circle cx="64" cy="90" r="8" fill="none" stroke="#000" stroke-width="2"/><circle cx="78" cy="72" r="8" fill="none" stroke="#000" stroke-width="2"/><circle cx="56" cy="64" r="8" fill="none" stroke="#000" stroke-width="2"/></svg></div><div><h1>The Case of the Marble Jar</h1></div></div>
+  <div class="abertura">The family's marble jar had 240 marbles. Over 2 days, the family lent marbles to friends to play with, and the jar got pretty empty. How many marbles are in the jar now?</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">The 1st day</span><span class="tag">quick one</span>
+  <p>On the 1st day, the family lent 1/3 of the 240 marbles to friends to play with. How many marbles did they lend?</p>
+  <div class="espaco curto"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">The 2nd day</span><span class="tag d">draw the problem</span>
+  <p>On the 2nd day, the family lent 1/4 of what was left in the jar. How many marbles were left in the jar?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Before doing the math, draw the bar for the whole jar. Separate the 1st day's loan; then divide what's left into 4 and separate 1 piece. Put a <b>?</b> on what you want to find out.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · The Case of the Marble Jar</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-06</span><span class="dir">Mission (continued)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">The ones that came back</span>
+  <p>The friends returned 3/10 of the 120 marbles they had borrowed. How many marbles came back?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">The jar now</span>
+  <p>The jar had 120 marbles and 36 came back. How many marbles are in the jar now?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  <div class="dica"><b>TIP:</b> no clue tells you which operation to use. Read carefully, figure out what's being asked, and choose the operation. When in doubt, draw.</div>
+  <h2>Crack the code <span class="small" style="font-weight:400">· find each answer in the table and write the letter in that stage's box</span></h2>
+  <table class="cod"><tr><td>12</td><td>36</td><td>80</td><td>84</td><td>100</td><td>120</td><td>156</td><td>237</td></tr><tr><td class="l">Z</td><td class="l">A</td><td class="l">L</td><td class="l">D</td><td class="l">T</td><td class="l">O</td><td class="l">N</td><td class="l">P</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>What happened?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · The Case of the Marble Jar</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-06</span><span class="dir">Answer key explained · for the adult</span></div>
+  <h1>Answer key: The Case of the Marble Jar</h1>
+  <div class="item"><b>Stage 1 — The 1st day</b> · <span class="r">80</span> (letter L)
+  <div><b>How to think:</b> 1/3 is 1 of the 3 equal pieces: 240 ÷ 3. <span class="small">Calculation: 240 ÷ 3 = 80.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “Divide 240 into 3 equal parts. How many are in each one?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 237, when your child subtracted 3 instead of finding 1/3. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 2 — The 2nd day</b> · <span class="r">120</span> (letter O)
+  <div><b>How to think:</b> First, what was left after the 1st day (160). The 1/4 is of that rest. <span class="small">Calculation: 240 − 80 = 160 · 160 ÷ 4 = 40 · 160 − 40 = 120.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="188.84" y="5" width="34.32" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">240</text><rect x="0" y="34" width="137.33333333333334" height="24" fill="#d9d9d9" stroke="#000" stroke-width="2"/><text x="68.66666666666667" y="51" text-anchor="middle" font-size="12" font-weight="500">80</text><rect x="137.33333333333334" y="34" width="68.66666666666667" height="24" fill="#d9d9d9" stroke="#000" stroke-width="2"/><text x="171.66666666666669" y="51" text-anchor="middle" font-size="12" font-weight="500">40</text><rect x="206" y="34" width="206" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="309" y="51" text-anchor="middle" font-size="12" font-weight="800">?</text></svg></div><div>The 1st day takes 1/3 (80). The rest (160) is divided into 4 pieces of 40; 1 is lent on the 2nd day. 3 pieces are left: 120.</div>
+  <div><b>If they get stuck, ask:</b> “Is the 1/4 of the 240 or of the ones that were left?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 100, when your child found 1/4 of the whole jar, not of what was left. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 3 — The ones that came back</b> · <span class="r">36</span> (letter A)
+  <div><b>How to think:</b> Divide 120 into 10 parts and take 3. <span class="small">Calculation: 120 ÷ 10 = 12 · 3 × 12 = 36.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “What is 1/10 of 120? And 3/10?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 12, when your child found only 1/10 and forgot to take 3 pieces. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 4 — The jar now</b> · <span class="r">156</span> (letter N)
+  <div><b>How to think:</b> The ones that came back join the ones that were in the jar. <span class="small">Calculation: 120 + 36 = 156.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “Is going back into the jar putting together or taking away?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 84, when your child subtracted instead of adding the ones that came back. That answer leads to a different letter, and the word doesn't work out.</div></div>
+  <div class="box"><b>Code word: LOAN.</b> The jar ended up with 156 marbles. The other 84 are still on LOAN, and now the family writes down every loan.</div>
+  <div class="rodape">Math Missions · answer key</div></section><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-07</span><span class="dir">For the adult · read first (2 minutes)</span></div>
+  <h1>The Riddle of the Giant Recipe</h1>
+  <div class="box"><b>Time:</b> 25 to 35 minutes · <b>Practice:</b> unequal parts (ratio 3 : 2) with a total in grams · <b>Materials:</b> pencil, eraser, and this printed sheet (optional: analog clock, dried beans, or bottle caps).</div>
+  <h2>The method in this mission: draw before you solve</h2>
+  <p>Stage 2 is the <b>“draw the problem”</b> stage. In it, your child goes through the 3 steps of the Singapore method (details in the Parent Guide):</p>
+  <div class="passos"><div><b>1. Concrete</b><br>Use identical small cups: 3 cups of rice (flour) and 2 of coarse salt (sugar). In stage 2, your child sees that the mix has 5 equal cups before drawing.</div><div><b>2. Drawing</b><br>Your child draws the bar and puts a <b>?</b> on what they want to find out. Only then do they do the math.</div><div><b>3. Calculation</b><br>With the drawing done, they write the equation and check the answer by looking at the drawing.</div></div>
+  <h2>How to run the mission</h2>
+  <ol><li><b>Read the opening out loud, with an air of mystery.</b> Stage 1 is very short, on purpose: it gets your child into the game quickly.</li><li><b>Don't say which operation to use.</b> The problem doesn't say whether to add, subtract, or multiply. Figuring that out is the exercise, and the drawing is what shows the answer.</li><li><b>If your child gets stuck, ask for the drawing before giving any help:</b> “Show me that in a bar.” Then use the support question from the answer key (last page). It helps without giving away the answer.</li><li><b>Each answer becomes a letter.</b> If the code word doesn't make sense, one of the calculations is wrong: go back to the drawing and look for it together.</li><li><b>Wrap up by asking:</b> “Explain your drawing from stage 2 to me.”</li></ol>
+  <div class="box"><b>Before moving on:</b> You can move on to the next mission when your child explains the drawing in stage 2 in their own words (“there are 5 equal pieces: 3 of flour and 2 of sugar”). If not yet, redo just that stage another day with different numbers (e.g., 1,000 g in the ratio 3 : 2).</div>
+  <h2>With siblings</h2>
+  <div class="box">Print the mission pages once and solve them together, switching roles at each stage: <b>reader</b> (reads out loud), <b>illustrator</b> (draws the bar), and <b>number cruncher</b> (does the math and checks it against the drawing). With 2 children, the reader also draws. If they're at different levels, each one does the mission for their level and, at the end, they tell each other how they drew it.</div>
+  <div class="rodape">Math Missions · The Riddle of the Giant Recipe</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-07</span><span class="dir">Mission</span></div>
+  <div class="cab"><div><svg viewBox="0 0 130 110" width="120"><path d="M18 56 H112 V98 H18 Z M18 72 q12 10 23 0 q12 10 24 0 q12 10 24 0 q12 10 23 0" fill="none" stroke="#000" stroke-width="3"/><path d="M50 56 V36 M65 56 V30 M80 56 V36" stroke="#000" stroke-width="3"/><path d="M50 30 v-4 M65 24 v-4 M80 30 v-4" stroke="#000" stroke-width="4" stroke-linecap="round"/></svg></div><div><h1>The Riddle of the Giant Recipe</h1></div></div>
+  <div class="abertura">For the neighborhood party, the cake recipe was tripled. But the cake flopped! In the recipe, for every 3 parts of flour there are 2 parts of sugar. Where was the mistake?</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">The recipe's eggs</span><span class="tag">quick one</span>
+  <p>The normal recipe takes 3 eggs. Tripled, how many eggs does it take?</p>
+  <div class="espaco curto"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">The flour</span><span class="tag d">draw the problem</span>
+  <p>The flour and sugar mix for the tripled recipe weighs 1,500 g, with 3 parts of flour for every 2 of sugar. How many grams of flour?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Before doing the math, draw one bar for the flour and another for the sugar, with equal pieces (3 and 2). Mark the total of the two and put a <b>?</b> on what you want to find out.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · The Riddle of the Giant Recipe</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-07</span><span class="dir">Mission (continued)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">The sugar</span>
+  <p>And how many grams of sugar go in the 1,500 g mix?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">The eggs in the batter</span>
+  <p>The batter that flopped had only 165 g of egg. Each egg weighs 55 g. How many eggs were used?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  <div class="dica"><b>TIP:</b> no clue tells you which operation to use. Read carefully, figure out what's being asked, and choose the operation. When in doubt, draw.</div>
+  <h2>Crack the code <span class="small" style="font-weight:400">· find each answer in the table and write the letter in that stage's box</span></h2>
+  <table class="cod"><tr><td>3</td><td>6</td><td>9</td><td>110</td><td>500 g</td><td>600 g</td><td>750 g</td><td>900 g</td></tr><tr><td class="l">S</td><td class="l">T</td><td class="l">E</td><td class="l">H</td><td class="l">Z</td><td class="l">G</td><td class="l">C</td><td class="l">G</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>What happened?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · The Riddle of the Giant Recipe</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-07</span><span class="dir">Answer key explained · for the adult</span></div>
+  <h1>Answer key: The Riddle of the Giant Recipe</h1>
+  <div class="item"><b>Stage 1 — The recipe's eggs</b> · <span class="r">9</span> (letter E)
+  <div><b>How to think:</b> Tripling is taking it 3 times: 3 + 3 + 3. <span class="small">Calculation: 3 × 3 = 9.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “If you make the recipe 3 times, how many eggs do you use?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 6, when your child added 3 instead of tripling. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 2 — The flour</b> · <span class="r">900 g</span> (letter G)
+  <div><b>How to think:</b> The mix has 5 equal parts (3 + 2). Find what 1 part is worth and take 3. <span class="small">Calculation: 3 + 2 = 5 parts · 1,500 ÷ 5 = 300 · 3 × 300 = 900 g.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 110" width="420" height="110" font-family="Inter, DejaVu Sans, sans-serif"><path d="M79 30 V22 H332.92 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="196.24" y="5" width="19.439999999999998" height="20" fill="#fff"/><text x="205.96" y="19" text-anchor="middle" font-size="12" font-weight="700">?</text><text x="0" y="51" font-size="11" font-weight="700">Flour</text><rect x="78" y="34" width="85.30666666666667" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="120.65333333333334" y="51" text-anchor="middle" font-size="12" font-weight="500">300</text><rect x="163.30666666666667" y="34" width="85.30666666666667" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="205.96" y="51" text-anchor="middle" font-size="12" font-weight="500">300</text><rect x="248.61333333333334" y="34" width="85.30666666666667" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="291.26666666666665" y="51" text-anchor="middle" font-size="12" font-weight="500">300</text><text x="0" y="89" font-size="11" font-weight="700">Sugar</text><rect x="78" y="72" width="85.30666666666667" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="120.65333333333334" y="89" text-anchor="middle" font-size="12" font-weight="500">300</text><rect x="163.30666666666667" y="72" width="85.30666666666667" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="205.96" y="89" text-anchor="middle" font-size="12" font-weight="500">300</text><path d="M343.92 4 H350.92 V96 H343.92" fill="none" stroke="#000" stroke-width="1.6"/><text x="355.92" y="55" font-size="12" font-weight="700">1,500 g</text></svg></div><div>There are 5 equal pieces that together weigh 1,500 g. Each piece is worth 300 g; the flour is 3 pieces.</div>
+  <div><b>If they get stuck, ask:</b> “How many parts does the mix have in all? What is each one worth?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 500 g, when your child divided by 3, without counting the 5 parts of the mix. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 3 — The sugar</b> · <span class="r">600 g</span> (letter G)
+  <div><b>How to think:</b> The sugar is 2 of the 5 pieces of 300 g. <span class="small">Calculation: 2 × 300 = 600 g (or 1,500 − 900).</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “How many 300 g pieces are sugar?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 750 g, when your child split the mix in half, as if the parts were equal. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 4 — The eggs in the batter</b> · <span class="r">3</span> (letter S)
+  <div><b>How to think:</b> How many times does 55 fit into 165? Add 55 until you reach 165. <span class="small">Calculation: 165 ÷ 55 = 3 (55 + 55 + 55 = 165).</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “How much do 2 eggs weigh? And 3?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 110, when your child subtracted one egg instead of seeing how many 55 g eggs fit into 165 g. That answer leads to a different letter, and the word doesn't work out.</div></div>
+  <div class="box"><b>Code word: EGGS.</b> The mistake was in the EGGS: the flour and the sugar were tripled, but the eggs weren't. The right recipe takes 9 eggs, and the cake times 3 turned out right on the second try.</div>
+  <div class="rodape">Math Missions · answer key</div></section><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-08</span><span class="dir">For the adult · read first (2 minutes)</span></div>
+  <h1>The Mystery of the Game Shop</h1>
+  <div class="box"><b>Time:</b> 25 to 35 minutes · <b>Practice:</b> simple percentages: 10%, 25%, and 50% in game points · <b>Materials:</b> pencil, eraser, and this printed sheet (optional: analog clock, dried beans, or bottle caps).</div>
+  <h2>The method in this mission: draw before you solve</h2>
+  <p>Stage 2 is the <b>“draw the problem”</b> stage. In it, your child goes through the 3 steps of the Singapore method (details in the Parent Guide):</p>
+  <div class="passos"><div><b>1. Concrete</b><br>Use a strip of paper: fold it into 10 (10%), into 4 (25%), and into 2 (50%). In stage 2, your child folds the strip into 4 and crosses out 1 part before drawing.</div><div><b>2. Drawing</b><br>Your child draws the bar and puts a <b>?</b> on what they want to find out. Only then do they do the math.</div><div><b>3. Calculation</b><br>With the drawing done, they write the equation and check the answer by looking at the drawing.</div></div>
+  <h2>How to run the mission</h2>
+  <ol><li><b>Read the opening out loud, with an air of mystery.</b> Stage 1 is very short, on purpose: it gets your child into the game quickly.</li><li><b>Don't say which operation to use.</b> The problem doesn't say whether to add, subtract, or multiply. Figuring that out is the exercise, and the drawing is what shows the answer.</li><li><b>If your child gets stuck, ask for the drawing before giving any help:</b> “Show me that in a bar.” Then use the support question from the answer key (last page). It helps without giving away the answer.</li><li><b>Each answer becomes a letter.</b> If the code word doesn't make sense, one of the calculations is wrong: go back to the drawing and look for it together.</li><li><b>Wrap up by asking:</b> “Explain your drawing from stage 2 to me.”</li></ol>
+  <div class="box"><b>Before moving on:</b> You can move on to the next mission when your child explains the drawing in stage 2 in their own words (“25% is 1 of 4 pieces”). If not yet, redo just that stage another day with different numbers (e.g., a 25% discount on 360 points).</div>
+  <h2>With siblings</h2>
+  <div class="box">Print the mission pages once and solve them together, switching roles at each stage: <b>reader</b> (reads out loud), <b>illustrator</b> (draws the bar), and <b>number cruncher</b> (does the math and checks it against the drawing). With 2 children, the reader also draws. If they're at different levels, each one does the mission for their level and, at the end, they tell each other how they drew it.</div>
+  <div class="rodape">Math Missions · The Mystery of the Game Shop</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-08</span><span class="dir">Mission</span></div>
+  <div class="cab"><div><svg viewBox="0 0 120 120" width="100"><path d="M60 10 L100 24 V56 q0 34 -40 54 q-40 -20 -40 -54 V24 Z" fill="none" stroke="#000" stroke-width="3"/><path d="M60 36 L66 50 H80 L68 59 L73 74 L60 65 L47 74 L52 59 L40 50 H54 Z" fill="none" stroke="#000" stroke-width="2.5"/></svg></div><div><h1>The Mystery of the Game Shop</h1></div></div>
+  <div class="abertura">In the shop of the family's adventure game, the items got discounts. But the cart total doesn't match the prices in the shop window. Find out which item has the wrong price.</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">The sword's discount</span><span class="tag">quick one</span>
+  <p>The sword costs 300 points and has a 10% discount. How many points is the discount?</p>
+  <div class="espaco curto"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">The shield</span><span class="tag d">draw the problem</span>
+  <p>The shield costs 480 points and has a 25% discount. How much does it cost now?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Before doing the math, draw the bar for the full price divided into 4 equal pieces (25% = 1 piece). Put a <b>?</b> on what you want to find out.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · The Mystery of the Game Shop</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-08</span><span class="dir">Mission (continued)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">The helm</span>
+  <p>The helm costs 250 points and has a 50% discount. How much does it cost now?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">The cart</span>
+  <p>In the cart are the discounted sword (270), the discounted shield (360), and the helm. The cart total came to 880 points. What price for the helm did the cart use?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  <div class="dica"><b>TIP:</b> no clue tells you which operation to use. Read carefully, figure out what's being asked, and choose the operation. When in doubt, draw.</div>
+  <h2>Crack the code <span class="small" style="font-weight:400">· find each answer in the table and write the letter in that stage's box</span></h2>
+  <table class="cod"><tr><td>30</td><td>120</td><td>125</td><td>200</td><td>250</td><td>290</td><td>360</td><td>630</td></tr><tr><td class="l">H</td><td class="l">U</td><td class="l">L</td><td class="l">A</td><td class="l">M</td><td class="l">R</td><td class="l">E</td><td class="l">D</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>What happened?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · The Mystery of the Game Shop</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-08</span><span class="dir">Answer key explained · for the adult</span></div>
+  <h1>Answer key: The Mystery of the Game Shop</h1>
+  <div class="item"><b>Stage 1 — The sword's discount</b> · <span class="r">30</span> (letter H)
+  <div><b>How to think:</b> 10% is 1 of 10 equal pieces: 300 ÷ 10. <span class="small">Calculation: 10% = 1/10 · 300 ÷ 10 = 30.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “If 300 were divided into 10 pieces, what would one be worth?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 290, when your child took off 10 points instead of 10%. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 2 — The shield</b> · <span class="r">360</span> (letter E)
+  <div><b>How to think:</b> 25% is 1 of 4 pieces. Find the piece (the discount) and take it off the price. <span class="small">Calculation: 25% = 1/4 · 480 ÷ 4 = 120 · 480 − 120 = 360.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="188.84" y="5" width="34.32" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">480</text><rect x="0" y="34" width="103" height="24" fill="#d9d9d9" stroke="#000" stroke-width="2"/><text x="51.5" y="51" text-anchor="middle" font-size="12" font-weight="500">120</text><rect x="103" y="34" width="309" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="257.5" y="51" text-anchor="middle" font-size="12" font-weight="800">?</text></svg></div><div>The shaded piece is the discount (480 ÷ 4 = 120). The new price is the 3 white pieces: 360.</div>
+  <div><b>If they get stuck, ask:</b> “Is the question the discount or the price after the discount?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 120, when your child answered the discount, not the new price. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 3 — The helm</b> · <span class="r">125</span> (letter L)
+  <div><b>How to think:</b> 50% is half: 250 ÷ 2. <span class="small">Calculation: 50% = half · 250 ÷ 2 = 125.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “What is half of 250?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 200, when your child took off 50 points instead of 50%. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 4 — The cart</b> · <span class="r">250</span> (letter M)
+  <div><b>How to think:</b> The cart is the whole. The sword and the shield are known parts. The helm is what's missing. <span class="small">Calculation: 270 + 360 = 630 · 880 − 630 = 250.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “How much do the sword and the shield cost together? How much is missing to reach 880?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 630, when your child answered the sum of the other two items. That answer leads to a different letter, and the word doesn't work out.</div></div>
+  <div class="box"><b>Code word: HELM.</b> The cart charged 250 points for the HELM, without the 50% discount. With the right price (125), the cart total adds up.</div>
+  <div class="rodape">Math Missions · answer key</div></section><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-09</span><span class="dir">For the adult · read first (2 minutes)</span></div>
+  <h1>The Case of the Rectangular Garden</h1>
+  <div class="box"><b>Time:</b> 25 to 35 minutes · <b>Practice:</b> perimeter (m) and area (m²) · <b>Materials:</b> pencil, eraser, and this printed sheet (optional: analog clock, dried beans, or bottle caps).</div>
+  <h2>The method in this mission: draw before you solve</h2>
+  <p>Stage 3 is the <b>“draw the problem”</b> stage. In it, your child goes through the 3 steps of the Singapore method (details in the Parent Guide):</p>
+  <div class="passos"><div><b>1. Concrete</b><br>On a sheet of graph paper, your child draws the garden 12 squares long and 8 squares wide and counts the squares inside (area) and the sides outside (perimeter).</div><div><b>2. Drawing</b><br>Your child draws the bar and puts a <b>?</b> on what they want to find out. Only then do they do the math.</div><div><b>3. Calculation</b><br>With the drawing done, they write the equation and check the answer by looking at the drawing.</div></div>
+  <h2>How to run the mission</h2>
+  <ol><li><b>Read the opening out loud, with an air of mystery.</b> Stage 1 is very short, on purpose: it gets your child into the game quickly.</li><li><b>Don't say which operation to use.</b> The problem doesn't say whether to add, subtract, or multiply. Figuring that out is the exercise, and the drawing is what shows the answer.</li><li><b>If your child gets stuck, ask for the drawing before giving any help:</b> “Show me that in a bar.” Then use the support question from the answer key (last page). It helps without giving away the answer.</li><li><b>Each answer becomes a letter.</b> If the code word doesn't make sense, one of the calculations is wrong: go back to the drawing and look for it together.</li><li><b>Wrap up by asking:</b> “Explain your drawing from stage 3 to me.”</li></ol>
+  <div class="box"><b>Before moving on:</b> You can move on to the next mission when your child explains the drawing in stage 3 in their own words. If not yet, redo just that stage another day with different numbers (e.g., a 10 m by 6 m garden, 27.5 m of wire fencing).</div>
+  <h2>With siblings</h2>
+  <div class="box">Print the mission pages once and solve them together, switching roles at each stage: <b>reader</b> (reads out loud), <b>illustrator</b> (draws the bar), and <b>number cruncher</b> (does the math and checks it against the drawing). With 2 children, the reader also draws. If they're at different levels, each one does the mission for their level and, at the end, they tell each other how they drew it.</div>
+  <div class="rodape">Math Missions · The Case of the Rectangular Garden</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-09</span><span class="dir">Mission</span></div>
+  <div class="cab"><div><svg viewBox="0 0 130 110" width="120"><g fill="none" stroke="#000" stroke-width="3"><path d="M16 96 V34 l8 -12 8 12 V96 M48 96 V34 l8 -12 8 12 V96 M80 96 V34 l8 -12 8 12 V96"/><path d="M10 50 H120 M10 78 H120" stroke-dasharray="0"/></g><path d="M104 96 V40" stroke="#000" stroke-width="3" stroke-dasharray="6 4"/></svg></div><div><h1>The Case of the Rectangular Garden</h1></div></div>
+  <div class="abertura">The family bought new wire fencing to fence in the rectangular garden, but it wasn't enough to close it all. The store swears it sent the right measurement. Who got the math wrong?</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">The garden's area</span><span class="tag">quick one</span>
+  <p>The garden is 12 m long and 8 m wide. What is the area of the garden?</p>
+  <div class="espaco curto"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">The vegetable patch</span>
+  <p>Half of the garden's area (96 m²) will become a vegetable patch. How many m² of vegetable patch?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  <div class="dica"><b>TIP:</b> no clue tells you which operation to use. Read carefully, figure out what's being asked, and choose the operation. When in doubt, draw.</div>
+  
+  <div class="rodape">Math Missions · The Case of the Rectangular Garden</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-09</span><span class="dir">Mission (continued)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">The missing fencing</span><span class="tag d">draw the problem</span>
+  <p>The garden measures 12 m by 8 m, and the store sent 34.5 m of wire fencing. How many meters are missing to close the whole way around the garden?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Before doing the math, draw the way around the garden as a bar: the whole (the 4 sides) and the part the fencing covers. Put a <b>?</b> on what you want to find out.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">The rolls</span>
+  <p>The wire fencing is sold in 2.5 m rolls. How many rolls does the family need to buy to cover the 5.5 m that are missing?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  <h2>Crack the code <span class="small" style="font-weight:400">· find each answer in the table and write the letter in that stage's box</span></h2>
+  <table class="cod"><tr><td>2</td><td>3</td><td>5.5 m</td><td>20 m²</td><td>48 m²</td><td>74.5 m</td><td>94 m²</td><td>96 m²</td></tr><tr><td class="l">F</td><td class="l">E</td><td class="l">R</td><td class="l">S</td><td class="l">I</td><td class="l">B</td><td class="l">X</td><td class="l">W</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>What happened?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · The Case of the Rectangular Garden</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-09</span><span class="dir">Answer key explained · for the adult</span></div>
+  <h1>Answer key: The Case of the Rectangular Garden</h1>
+  <div class="item"><b>Stage 1 — The garden's area</b> · <span class="r">96 m²</span> (letter W)
+  <div><b>How to think:</b> The area counts the 1 m² squares inside: 12 rows of 8. <span class="small">Calculation: 12 × 8 = 96 m².</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “On the graph paper, how many squares fit inside the garden?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 20 m², when your child added the sides instead of multiplying. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 2 — The vegetable patch</b> · <span class="r">48 m²</span> (letter I)
+  <div><b>How to think:</b> Half is dividing into 2 equal parts: 96 ÷ 2. <span class="small">Calculation: 96 ÷ 2 = 48 m².</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “If the garden were divided into 2 equal parts, how much would each one have?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 94 m², when your child subtracted 2 instead of dividing in half. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 3 — The missing fencing</b> · <span class="r">5.5 m</span> (letter R)
+  <div><b>How to think:</b> First the whole way around (the 4 sides). It is the whole; the fencing is one part; what's missing is the other. <span class="small">Calculation: 12 + 8 + 12 + 8 = 40 · 40.0 − 34.5 = 5.5 m.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="118.16" y="5" width="175.68" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">40 m (12 + 8 + 12 + 8)</text><rect x="0" y="34" width="355.35" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="177.675" y="51" text-anchor="middle" font-size="12" font-weight="500">34.5 m</text><rect x="355.35" y="34" width="56.65" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="383.675" y="51" text-anchor="middle" font-size="12" font-weight="800">?</text></svg></div><div>The perimeter (12 + 8 + 12 + 8 = 40 m) is the whole; the fencing that arrived is one part. What's missing is 40 − 34.5.</div>
+  <div><b>If they get stuck, ask:</b> “How long is the way around the garden? From 34.5 up to that, how many meters are missing?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 74.5 m, when your child added the fencing to the way around instead of seeing what's missing. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 4 — The rolls</b> · <span class="r">3</span> (letter E)
+  <div><b>How to think:</b> Add 2.5 m rolls until you go past 5.5 m. <span class="small">Calculation: 2 rolls = 5 m (not enough) · 3 rolls = 7.5 m: 3 rolls.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “With 2 rolls, how many meters do you have? Is it enough?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 2, when your child bought 2 rolls, which make only 5 m and don't close the fence. That answer leads to a different letter, and the word doesn't work out.</div></div>
+  <div class="box"><b>Code word: WIRE.</b> 5.5 m of WIRE fencing was missing: the store sent 34.5 m, but the garden is 40 m all the way around. With 3 more rolls, the fence was closed.</div>
+  <div class="rodape">Math Missions · answer key</div></section><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-10</span><span class="dir">For the adult · read first (2 minutes)</span></div>
+  <h1>The Great Space Station Mystery</h1>
+  <div class="box"><b>Time:</b> 30 to 45 minutes · <b>Practice:</b> Level 3 Final Mission: sum and difference, fraction of what was left, unequal parts, and before and after · <b>Materials:</b> pencil, eraser, and this printed sheet (optional: analog clock, dried beans, or bottle caps).</div>
+  <h2>The method in this mission: draw before you solve</h2>
+  <p>This is the level's <b>Final Mission</b>: all 4 stages are drawing stages, and each one uses one of the drawings your child has already mastered. In each stage, your child goes through the 3 steps of the Singapore method (details in the Parent Guide):</p>
+  <div class="passos"><div><b>1. Concrete</b><br>Use paper strips and scissors: your child cuts, folds, and compares strips to check each stage before drawing.</div><div><b>2. Drawing</b><br>Your child draws the bar and puts a <b>?</b> on what they want to find out. Only then do they do the math.</div><div><b>3. Calculation</b><br>With the drawing done, they write the equation and check the answer by looking at the drawing.</div></div>
+  <h2>How to run the mission</h2>
+  <ol><li><b>Read the opening out loud, with an air of mystery.</b> Here all 4 stages are drawing stages: set aside more time and, if needed, split the mission over 2 days.</li><li><b>Don't say which operation to use.</b> The problem doesn't say whether to add, subtract, or multiply. Figuring that out is the exercise, and the drawing is what shows the answer.</li><li><b>If your child gets stuck, ask for the drawing before giving any help:</b> “Show me that in a bar.” Then use the support question from the answer key (last page). It helps without giving away the answer.</li><li><b>Each answer becomes a letter.</b> If the code word doesn't make sense, one of the calculations is wrong: go back to the drawing and look for it together.</li><li><b>Wrap up by asking:</b> “Explain your 4 drawings to me.” To move up a level, the code word has to work out and your child has to explain at least 3 of the 4 drawings on their own.</li></ol>
+  <div class="box"><b>Before moving on:</b> This is the Level 3 Final Mission. Your child completes Math Missions when the code word works out and they explain at least 3 of the 4 drawings on their own. If not yet, redo just the drawings that were hard another day, with different numbers, and come back to this mission.</div>
+  <h2>With siblings</h2>
+  <div class="box">Print the mission pages once and solve them together, switching roles at each stage: <b>reader</b> (reads out loud), <b>illustrator</b> (draws the bar), and <b>number cruncher</b> (does the math and checks it against the drawing). With 2 children, the reader also draws. If they're at different levels, each one does the mission for their level and, at the end, they tell each other how they drew it.</div>
+  <div class="rodape">Math Missions · The Great Space Station Mystery</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-10</span><span class="dir">Mission</span></div>
+  <div class="cab"><div><svg viewBox="0 0 120 130" width="100"><path d="M60 8 q26 24 22 72 H38 q-4 -48 22 -72 Z" fill="none" stroke="#000" stroke-width="3"/><circle cx="60" cy="48" r="10" fill="none" stroke="#000" stroke-width="3"/><path d="M38 66 L22 92 L40 86 M82 66 L98 92 L80 86 M48 80 q12 34 24 0" fill="none" stroke="#000" stroke-width="3"/></svg></div><div><h1>The Great Space Station Mystery</h1></div></div>
+  <div class="abertura">On the game's space station, the oxygen is running out faster than expected. The commander needs to find the problem before the end of the shift. Use the 4 drawings from Level 3.</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">The two tanks</span><span class="tag d">draw the problem</span>
+  <p>Together, the 2 oxygen tanks hold 1,200 L. Tank A has 300 L more than tank B. How many liters does tank A hold?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Draw one bar for each tank, showing the “extra” piece. Mark the total and put a <b>?</b> on what you want to find out.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · The Great Space Station Mystery</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-10</span><span class="dir">Mission (continued)</span></div>
+  
+  <div class="etapa"><span class="num">2</span><span class="tit">The shifts</span><span class="tag d">draw the problem</span>
+  <p>In the 1st shift, 1/5 of tank A (750 L) was used up. In the 2nd shift, 1/3 of what was left. The computer predicted 450 L at the end of the 2nd shift. How many liters were really left in tank A?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Draw the bar for tank A. Separate the 1st shift; then divide what's left into 3 and separate 1 piece. Put a <b>?</b> on what you want to find out.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">3</span><span class="tit">Cabin and lab</span><span class="tag d">draw the problem</span>
+  <p>The remaining 400 L are divided between the cabin and the lab in the ratio 3 : 5. How many liters go to the cabin?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Draw one bar for the cabin and another for the lab, with equal pieces (3 and 5). Mark the total and put a <b>?</b> on what you want to find out.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · The Great Space Station Mystery</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-10</span><span class="dir">Mission (continued)</span></div>
+  
+  <div class="etapa"><span class="num">4</span><span class="tit">The balance</span><span class="tag d">draw the problem</span>
+  <p>After the tube was fixed, the cabin has 150 L and the lab, 250 L. The commander wants the two to be equal. How many liters should go from the lab to the cabin?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Draw the two bars before the transfer, lined up on the left. Show the difference and put a <b>?</b> on the piece that goes to the cabin.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  <h2>Crack the code <span class="small" style="font-weight:400">· find each answer in the table and write the letter in that stage's box</span></h2>
+  <table class="cod"><tr><td>50 L</td><td>100 L</td><td>150 L</td><td>240 L</td><td>350 L</td><td>400 L</td><td>450 L</td><td>750 L</td></tr><tr><td class="l">E</td><td class="l">I</td><td class="l">B</td><td class="l">F</td><td class="l">A</td><td class="l">U</td><td class="l">S</td><td class="l">T</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>What happened?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · The Great Space Station Mystery</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-10</span><span class="dir">Answer key explained · for the adult</span></div>
+  <h1>Answer key: The Great Space Station Mystery</h1>
+  <div class="item"><b>Stage 1 — The two tanks</b> · <span class="r">750 L</span> (letter T)
+  <div><b>How to think:</b> Take away the “extra” piece, divide the rest by 2 (that's B), and add the piece back to find A. <span class="small">Calculation: 1,200 − 300 = 900 · 900 ÷ 2 = 450 (tank B) · 450 + 300 = 750 L.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 110" width="420" height="110" font-family="Inter, DejaVu Sans, sans-serif"><path d="M79 30 V22 H332.92 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="196.24" y="5" width="19.439999999999998" height="20" fill="#fff"/><text x="205.96" y="19" text-anchor="middle" font-size="12" font-weight="700">?</text><text x="0" y="51" font-size="11" font-weight="700">Tank A</text><rect x="78" y="34" width="153.552" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="154.776" y="51" text-anchor="middle" font-size="12" font-weight="500">450</text><rect x="231.552" y="34" width="102.36800000000001" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="282.736" y="51" text-anchor="middle" font-size="12" font-weight="500">300</text><text x="0" y="89" font-size="11" font-weight="700">Tank B</text><rect x="78" y="72" width="153.552" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="154.776" y="89" text-anchor="middle" font-size="12" font-weight="500">450</text><path d="M343.92 4 H350.92 V96 H343.92" fill="none" stroke="#000" stroke-width="1.6"/><text x="355.92" y="55" font-size="12" font-weight="700">1,200 L</text></svg></div><div>Sum and difference: without the 300 L, 2 equal bars of 450 L are left. Tank A is 450 + 300.</div>
+  <div><b>If they get stuck, ask:</b> “Without the extra 300, the tanks would be equal. How much would each one have?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 450 L, when your child found tank B and forgot to add tank A's extra 300 L. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 2 — The shifts</b> · <span class="r">400 L</span> (letter U)
+  <div><b>How to think:</b> First the 1st shift (1/5 of 750). The 1/3 of the 2nd shift is of what was left. <span class="small">Calculation: 750 ÷ 5 = 150 · 600 left · 600 ÷ 3 = 200 · 600 − 200 = 400 L.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="181.4" y="5" width="49.2" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">750 L</text><rect x="0" y="34" width="82.4" height="24" fill="#d9d9d9" stroke="#000" stroke-width="2"/><text x="41.2" y="51" text-anchor="middle" font-size="12" font-weight="500">150</text><rect x="82.4" y="34" width="109.86666666666667" height="24" fill="#d9d9d9" stroke="#000" stroke-width="2"/><text x="137.33333333333334" y="51" text-anchor="middle" font-size="12" font-weight="500">200</text><rect x="192.26666666666668" y="34" width="219.73333333333335" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="302.1333333333333" y="51" text-anchor="middle" font-size="12" font-weight="800">?</text></svg></div><div>Fraction of what was left: the 1st shift takes 150 L; of the 600 that are left, 1/3 (200) goes in the 2nd shift. 400 L are left.</div>
+  <div><b>If they get stuck, ask:</b> “Is the 1/3 of the 750 L or of what was left after the 1st shift?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 350 L, when your child found 1/3 of the full tank, not of what was left. That answer leads to a different letter, and the word doesn't work out.</div></div>
+  
+  <div class="rodape">Math Missions · answer key</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-10</span><span class="dir">Answer key explained · for the adult</span></div>
+  
+  <div class="item"><b>Stage 3 — Cabin and lab</b> · <span class="r">150 L</span> (letter B)
+  <div><b>How to think:</b> The split has 8 equal parts (3 + 5). Find 1 part and take 3. <span class="small">Calculation: 3 + 5 = 8 parts · 400 ÷ 8 = 50 · 3 × 50 = 150 L.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 110" width="420" height="110" font-family="Inter, DejaVu Sans, sans-serif"><path d="M79 30 V22 H239.48000000000002 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="149.52" y="5" width="19.439999999999998" height="20" fill="#fff"/><text x="159.24" y="19" text-anchor="middle" font-size="12" font-weight="700">?</text><text x="0" y="51" font-size="11" font-weight="700">Cabin</text><rect x="78" y="34" width="54.160000000000004" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="105.08" y="51" text-anchor="middle" font-size="12" font-weight="500">50</text><rect x="132.16" y="34" width="54.160000000000004" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="159.24" y="51" text-anchor="middle" font-size="12" font-weight="500">50</text><rect x="186.32" y="34" width="54.160000000000004" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="213.4" y="51" text-anchor="middle" font-size="12" font-weight="500">50</text><text x="0" y="89" font-size="11" font-weight="700">Lab</text><rect x="78" y="72" width="54.160000000000004" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="105.08" y="89" text-anchor="middle" font-size="12" font-weight="500">50</text><rect x="132.16" y="72" width="54.160000000000004" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="159.24" y="89" text-anchor="middle" font-size="12" font-weight="500">50</text><rect x="186.32" y="72" width="54.160000000000004" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="213.4" y="89" text-anchor="middle" font-size="12" font-weight="500">50</text><rect x="240.48" y="72" width="54.160000000000004" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="267.56" y="89" text-anchor="middle" font-size="12" font-weight="500">50</text><rect x="294.64" y="72" width="54.160000000000004" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="321.71999999999997" y="89" text-anchor="middle" font-size="12" font-weight="500">50</text><path d="M358.8 4 H365.8 V96 H358.8" fill="none" stroke="#000" stroke-width="1.6"/><text x="370.8" y="55" font-size="12" font-weight="700">400 L</text></svg></div><div>Unequal parts: 8 pieces of 50 L. The cabin gets 3 pieces: 150 L.</div>
+  <div><b>If they get stuck, ask:</b> “How many parts are there in all? What is each part worth?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 240 L, when your child divided by 5 instead of by the 8 parts of the split. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 4 — The balance</b> · <span class="r">50 L</span> (letter E)
+  <div><b>How to think:</b> To tie, move half of the difference. <span class="small">Calculation: 250 − 150 = 100 · 100 ÷ 2 = 50 L (the two end up with 200 L).</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 80" width="420" height="80" font-family="Inter, DejaVu Sans, sans-serif"><text x="0" y="21" font-size="11" font-weight="700">Lab</text><rect x="78" y="4" width="200.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="178.2" y="21" text-anchor="middle" font-size="12" font-weight="500">150</text><rect x="278.4" y="4" width="66.8" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="311.79999999999995" y="21" text-anchor="middle" font-size="12" font-weight="800">?</text><rect x="345.2" y="4" width="66.8" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="378.59999999999997" y="21" text-anchor="middle" font-size="12" font-weight="500"> </text><text x="0" y="59" font-size="11" font-weight="700">Cabin</text><rect x="78" y="42" width="200.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="178.2" y="59" text-anchor="middle" font-size="12" font-weight="500">150</text></svg></div><div>Before and after: the difference (100 L) is split in half. 50 L go over and the two end up with 200 L.</div>
+  <div><b>If they get stuck, ask:</b> “If 100 L go over, who ends up with more? And if half goes over?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 100 L, when your child moved the whole difference, and then the cabin ended up with more. That answer leads to a different letter, and the word doesn't work out.</div></div>
+  <div class="box"><b>Code word: TUBE.</b> 400 L were left, 50 L less than expected: the oxygen was leaking through a loose TUBE between the tanks. With the tube fixed, the commander balanced the cabin and the lab with 200 L each. Mission accomplished!</div>
+  <div class="rodape">Math Missions · answer key</div></section></body></html>

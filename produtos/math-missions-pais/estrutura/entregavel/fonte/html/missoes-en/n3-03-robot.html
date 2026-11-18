@@ -1,0 +1,115 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>The Riddle of the Robot Vacuum</title><style>
+@page { size: A4; margin: 14mm; }
+* { box-sizing: border-box; }
+body { font-family: Inter, 'DejaVu Sans', sans-serif; color: #111; font-size: 12.5pt; line-height: 1.45; margin: 0; }
+.pagina { page-break-after: always; position: relative; height: 266mm; overflow: hidden; }
+.pagina:last-child { page-break-after: auto; }
+.topo { display: flex; align-items: center; gap: 10px; border-bottom: 2px solid #111; padding-bottom: 5px; margin-bottom: 12px; font-size: 9.5pt; font-weight: 800; letter-spacing: .05em; }
+.nivel { background: #111; color: #fff; border-radius: 6px; padding: 3px 10px; font-size: 11pt; }
+.topo .dir { margin-left: auto; }
+h1 { font-size: 24pt; margin: 4px 0 8px; line-height: 1.1; }
+h2 { font-size: 15pt; margin: 14px 0 6px; }
+.cab { display: flex; gap: 16px; align-items: center; }
+.abertura { border: 2px solid #111; border-radius: 10px; padding: 10px 14px; font-size: 13.5pt; margin: 8px 0 14px; }
+.etapa { border: 1.5px solid #111; border-radius: 10px; padding: 10px 14px; margin-bottom: 12px; page-break-inside: avoid; }
+.etapa .num { display: inline-flex; width: 30px; height: 30px; border-radius: 8px; background: #111; color: #fff; align-items: center; justify-content: center; font-weight: 800; margin-right: 8px; }
+.etapa .tit { font-weight: 800; font-size: 13.5pt; }
+.etapa .tag { font-size: 9.5pt; border: 1px solid #111; border-radius: 10px; padding: 0 8px; margin-left: 6px; }
+.etapa p { margin: 6px 0; font-size: 13.5pt; }
+.espaco { border: 1.5px dashed #777; border-radius: 8px; height: 30mm; margin-top: 6px; position: relative; }
+.espaco.curto { height: 16mm; }
+.espaco span { position: absolute; left: 10px; top: 4px; font-size: 9pt; color: #555; }
+.resp { margin-top: 6px; font-weight: 800; }
+.resp i { display: inline-block; border-bottom: 1.5px solid #111; width: 55mm; }
+.dica { border: 2px dashed #111; border-radius: 10px; padding: 8px 12px; font-size: 11pt; margin: 10px 0; }
+table.cod { border-collapse: collapse; margin: 6px 0 10px; }
+table.cod td { border: 1.5px solid #111; padding: 6px 12px; text-align: center; font-size: 12.5pt; }
+table.cod td.l { font-weight: 800; font-size: 15pt; }
+.caixas { display: flex; gap: 10px; margin: 8px 0; }
+.fim { display: flex; gap: 14px; align-items: flex-start; }
+.oque { flex: 1; }
+.caixas div span { font-size: 8pt; margin: 2px 4px; display: block; }
+.caixas div { width: 15mm; height: 15mm; border: 2px solid #111; border-radius: 8px; }
+.linha { border-bottom: 1.5px solid #111; height: 8mm; margin: 4px 0; }
+.adulto li, .gab li { margin-bottom: 6px; }
+.box { border: 1.5px solid #111; border-radius: 10px; padding: 8px 14px; margin: 8px 0; }
+.gab .item { border-bottom: 1px solid #999; padding: 8px 0; page-break-inside: avoid; }
+.gab .r { font-weight: 800; font-size: 13.5pt; }
+.small { font-size: 10.5pt; color: #333; }
+.desenho { border: 2px solid #111; border-radius: 8px; padding: 6px 10px; margin: 6px 0; }
+.desenho .ins { font-size: 11.5pt; margin-bottom: 6px; }
+.desenho .ins b.lbl { background: #111; color: #fff; border-radius: 4px; padding: 0 6px; margin-right: 4px; }
+.livre { height: 34mm; border: 1px solid #999; border-radius: 6px; background-image: linear-gradient(#ddd 1px, transparent 1px), linear-gradient(90deg, #ddd 1px, transparent 1px); background-size: 5mm 5mm; }
+.tag.d { background: #111; color: #fff; }
+.gab { height: auto !important; overflow: visible !important; }
+.gab .rodape { position: static; margin-top: 10px; }
+.gab .modelo { margin: 4px 0 2px; }
+.passos { display: flex; gap: 8px; margin: 6px 0; }
+.passos div { flex: 1; border: 1.5px solid #111; border-radius: 8px; padding: 6px 8px; font-size: 11pt; }
+.adulto { font-size: 11.3pt; line-height: 1.38; }
+.adulto h1 { font-size: 21pt; }
+.adulto h2 { font-size: 13.5pt; margin: 9px 0 4px; }
+.adulto ol { margin: 4px 0; padding-left: 22px; }
+.adulto li { margin-bottom: 3px !important; }
+.gab { font-size: 11pt; line-height: 1.33; }
+.gab h1 { font-size: 20pt; }
+.gab .item { padding: 5px 0 !important; }
+.rodape { position: absolute; bottom: 0; left: 0; right: 0; font-size: 8.5pt; color: #555; border-top: 1px solid #aaa; padding-top: 3px; }
+</style></head><body><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-03</span><span class="dir">For the adult · read first (2 minutes)</span></div>
+  <h1>The Riddle of the Robot Vacuum</h1>
+  <div class="box"><b>Time:</b> 25 to 35 minutes · <b>Practice:</b> fractions, decimals, patterns in a table, and proportion · <b>Materials:</b> pencil, eraser, and this printed sheet (optional: analog clock, dried beans, or bottle caps).</div>
+  <h2>The method in this mission: draw before you solve</h2>
+  <p>Stage 4 is the <b>“draw the problem”</b> stage. In it, your child goes through the 3 steps of the Singapore method (details in the Parent Guide):</p>
+  <div class="passos"><div><b>1. Concrete</b><br>A strip of paper helps: folded into 4, it shows 3/4 of the battery (stage 1). For stage 4, cut out small paper squares: each one is 1 minute of cleaning.</div><div><b>2. Drawing</b><br>Your child draws the bar and puts a <b>?</b> on what they want to find out. Only then do they do the math.</div><div><b>3. Calculation</b><br>With the drawing done, they write the equation and check the answer by looking at the drawing.</div></div>
+  <h2>How to run the mission</h2>
+  <ol><li><b>Read the opening out loud, with an air of mystery.</b> Stage 1 is very short, on purpose: it gets your child into the game quickly.</li><li><b>Don't say which operation to use.</b> The problem doesn't say whether to add, subtract, or multiply. Figuring that out is the exercise, and the drawing is what shows the answer.</li><li><b>If your child gets stuck, ask for the drawing before giving any help:</b> “Show me that in a bar.” Then use the support question from the answer key (last page). It helps without giving away the answer.</li><li><b>Each answer becomes a letter.</b> If the code word doesn't make sense, one of the calculations is wrong: go back to the drawing and look for it together.</li><li><b>Wrap up by asking:</b> “Explain your drawing from stage 4 to me.”</li></ol>
+  <div class="box"><b>Before moving on:</b> You can move on to the next mission when your child explains the drawing in stage 4 in their own words. If not yet, redo just that stage another day with different numbers (e.g., 15 m² in 3 minutes, a 45 m² living room).</div>
+  <h2>With siblings</h2>
+  <div class="box">Print the mission pages once and solve them together, switching roles at each stage: <b>reader</b> (reads out loud), <b>illustrator</b> (draws the bar), and <b>number cruncher</b> (does the math and checks it against the drawing). With 2 children, the reader also draws. If they're at different levels, each one does the mission for their level and, at the end, they tell each other how they drew it.</div>
+  <div class="rodape">Math Missions · The Riddle of the Robot Vacuum</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-03</span><span class="dir">Mission</span></div>
+  <div class="cab"><div><svg viewBox="0 0 120 120" width="120"><ellipse cx="60" cy="74" rx="46" ry="30" fill="none" stroke="#000" stroke-width="3"/><circle cx="44" cy="68" r="7" fill="none" stroke="#000" stroke-width="3"/><circle cx="76" cy="68" r="7" fill="none" stroke="#000" stroke-width="3"/><path d="M48 86 q12 8 24 0" fill="none" stroke="#000" stroke-width="3"/><path d="M60 44 V24" stroke="#000" stroke-width="3"/><circle cx="60" cy="20" r="5" fill="none" stroke="#000" stroke-width="3"/><path d="M14 40 l8 6 M106 40 l-8 6 M20 30 l6 8 M100 30 l-6 8" stroke="#000" stroke-width="2.5"/></svg></div><div><h1>The Riddle of the Robot Vacuum</h1></div></div>
+  <div class="abertura">The family's robot vacuum started acting strange: it cleans half the living room and stops partway. Before calling a technician, the family decided to investigate the robot's logs. The investigation is yours.</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">The battery</span><span class="tag">quick one</span>
+  <p>The robot's full battery has 100 energy points. The screen shows it's at 3/4 charge. How many energy points does the robot have?</p>
+  <div class="espaco curto"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">The robot's path</span>
+  <p>On its first run, the robot went 2.4 m in a straight line, turned, and went another 1.85 m. How many meters did it travel in all?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  <div class="dica"><b>TIP:</b> no clue tells you which operation to use. Read carefully, figure out what's being asked, and choose the operation. When in doubt, draw.</div>
+  
+  <div class="rodape">Math Missions · The Riddle of the Robot Vacuum</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-03</span><span class="dir">Mission (continued)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">The energy log</span>
+  <p>The robot records its energy while it cleans: at minute 0, 75 points; at minute 1, 60; at minute 2, 45; at minute 3, 30. If it keeps using energy the same way, at what minute does the energy reach zero?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">The whole room</span><span class="tag d">draw the problem</span>
+  <p>The robot cleans 12 m² in 3 minutes. The living room is 40 m². Without stopping, how many minutes would it take to clean the whole room?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Before doing the math, draw the problem with bars made of equal pieces (1 piece = 1 minute of cleaning). Put a <b>?</b> on what you want to find out.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  <h2>Crack the code <span class="small" style="font-weight:400">· find each answer in the table and write the letter in that stage's box</span></h2>
+  <table class="cod"><tr><td>3 min</td><td>3.89 m</td><td>4 min</td><td>4.25 m</td><td>5 min</td><td>10 min</td><td>25</td><td>75</td></tr><tr><td class="l">F</td><td class="l">U</td><td class="l">A</td><td class="l">O</td><td class="l">R</td><td class="l">D</td><td class="l">P</td><td class="l">C</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>What happened?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · The Riddle of the Robot Vacuum</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-03</span><span class="dir">Answer key explained · for the adult</span></div>
+  <h1>Answer key: The Riddle of the Robot Vacuum</h1>
+  <div class="item"><b>Stage 1 — The battery</b> · <span class="r">75</span> (letter C)
+  <div><b>How to think:</b> Split 100 into 4 parts (25 each) and take 3 of them. <span class="small">Calculation: 100 ÷ 4 = 25 · 3 × 25 = 75.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “What is one quarter of 100? And three quarters?” Drawing a bar split into 4 parts helps.</div>
+  <div class="small"><b>Most common mistake:</b> answering 25, when your child calculated only 1/4 (or what's missing to fill it up). That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 2 — The robot's path</b> · <span class="r">4.25 m</span> (letter O)
+  <div><b>How to think:</b> Write 2.4 as 2.40 and add with the decimal points lined up: 2.40 + 1.85. <span class="small">Calculation: 2.40 + 1.85 = 4.25.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “Is 2.4 the same as 2.40? Now add centimeters to centimeters.”</div>
+  <div class="small"><b>Most common mistake:</b> answering 3.89 m, when your child added without lining up the decimal points (did 4 + 85 = 89). That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 3 — The energy log</b> · <span class="r">5 min</span> (letter R)
+  <div><b>How to think:</b> Find out how much the energy drops per minute (15 points) and continue the table until it reaches zero. <span class="small">Calculation: uses 15 points per minute · 75 ÷ 15 = 5 minutes (or continue the table: minute 4 = 15, minute 5 = 0).</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “How much does the energy drop from one minute to the next? Continue the table: minute 4, minute 5…”</div>
+  <div class="small"><b>Most common mistake:</b> answering 4 min, when your child counted only 1 more minute after minute 3. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 4 — The whole room</b> · <span class="r">10 min</span> (letter D)
+  <div><b>How to think:</b> Find out how much it cleans in 1 minute (12 ÷ 3 = 4 m²) and how many minutes it takes to do 40 m². <span class="small">Calculation: 12 ÷ 3 = 4 m² per minute · 40 ÷ 4 = 10 minutes.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 140" width="420" height="140" font-family="Inter, DejaVu Sans, sans-serif"><path d="M79 30 V22 H177.2 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="103.5" y="5" width="49.2" height="20" fill="#fff"/><text x="128.1" y="19" text-anchor="middle" font-size="12" font-weight="700">12 m²</text><text x="0" y="51" font-size="11" font-weight="700">3 min</text><rect x="78" y="34" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="94.7" y="51" text-anchor="middle" font-size="12" font-weight="500">4</text><rect x="111.4" y="34" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="128.1" y="51" text-anchor="middle" font-size="12" font-weight="500">4</text><rect x="144.8" y="34" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="161.5" y="51" text-anchor="middle" font-size="12" font-weight="500">4</text><path d="M79 98 V90 H411 V98" fill="none" stroke="#000" stroke-width="1.6"/><rect x="220.4" y="73" width="49.2" height="20" fill="#fff"/><text x="245" y="87" text-anchor="middle" font-size="12" font-weight="700">40 m²</text><text x="0" y="119" font-size="11" font-weight="700">? min</text><rect x="78" y="102" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="94.7" y="119" text-anchor="middle" font-size="12" font-weight="500">4</text><rect x="111.4" y="102" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="128.1" y="119" text-anchor="middle" font-size="12" font-weight="500">4</text><rect x="144.8" y="102" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="161.5" y="119" text-anchor="middle" font-size="12" font-weight="500">4</text><rect x="178.20000000000002" y="102" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="194.9" y="119" text-anchor="middle" font-size="12" font-weight="500">4</text><rect x="211.60000000000002" y="102" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="228.3" y="119" text-anchor="middle" font-size="12" font-weight="500">4</text><rect x="245.00000000000003" y="102" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="261.70000000000005" y="119" text-anchor="middle" font-size="12" font-weight="500">4</text><rect x="278.40000000000003" y="102" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="295.1" y="119" text-anchor="middle" font-size="12" font-weight="500">4</text><rect x="311.8" y="102" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="328.5" y="119" text-anchor="middle" font-size="12" font-weight="500">4</text><rect x="345.2" y="102" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="361.9" y="119" text-anchor="middle" font-size="12" font-weight="500">4</text><rect x="378.59999999999997" y="102" width="33.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="395.29999999999995" y="119" text-anchor="middle" font-size="12" font-weight="500">4</text></svg></div><div>Each piece is 1 minute of cleaning (4 m²). To cover 40 m², you need 10 pieces, which means 10 minutes.</div>
+  <div><b>If they get stuck, ask:</b> “Draw a bar with 3 equal pieces that together are worth 12 m². How much is 1 piece worth? Now draw pieces that size until you reach 40 m². How many pieces?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 3 min, when your child repeated the time from the example, without seeing that the room is bigger. That answer leads to a different letter, and the word doesn't work out.</div></div>
+  <div class="box"><b>Code word: CORD.</b> The charger CORD was partly loose: the battery never got above 3/4 and lasted only 5 minutes — half of the 10 minutes the living room needs. That's why the robot cleaned half and stopped. Cord back in place, robot fixed!</div>
+  <div class="rodape">Math Missions · answer key</div></section></body></html>

@@ -1,0 +1,115 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>The Riddle of the Neighbor's Orchard</title><style>
+@page { size: A4; margin: 14mm; }
+* { box-sizing: border-box; }
+body { font-family: Inter, 'DejaVu Sans', sans-serif; color: #111; font-size: 12.5pt; line-height: 1.45; margin: 0; }
+.pagina { page-break-after: always; position: relative; height: 266mm; overflow: hidden; }
+.pagina:last-child { page-break-after: auto; }
+.topo { display: flex; align-items: center; gap: 10px; border-bottom: 2px solid #111; padding-bottom: 5px; margin-bottom: 12px; font-size: 9.5pt; font-weight: 800; letter-spacing: .05em; }
+.nivel { background: #111; color: #fff; border-radius: 6px; padding: 3px 10px; font-size: 11pt; }
+.topo .dir { margin-left: auto; }
+h1 { font-size: 24pt; margin: 4px 0 8px; line-height: 1.1; }
+h2 { font-size: 15pt; margin: 14px 0 6px; }
+.cab { display: flex; gap: 16px; align-items: center; }
+.abertura { border: 2px solid #111; border-radius: 10px; padding: 10px 14px; font-size: 13.5pt; margin: 8px 0 14px; }
+.etapa { border: 1.5px solid #111; border-radius: 10px; padding: 10px 14px; margin-bottom: 12px; page-break-inside: avoid; }
+.etapa .num { display: inline-flex; width: 30px; height: 30px; border-radius: 8px; background: #111; color: #fff; align-items: center; justify-content: center; font-weight: 800; margin-right: 8px; }
+.etapa .tit { font-weight: 800; font-size: 13.5pt; }
+.etapa .tag { font-size: 9.5pt; border: 1px solid #111; border-radius: 10px; padding: 0 8px; margin-left: 6px; }
+.etapa p { margin: 6px 0; font-size: 13.5pt; }
+.espaco { border: 1.5px dashed #777; border-radius: 8px; height: 30mm; margin-top: 6px; position: relative; }
+.espaco.curto { height: 16mm; }
+.espaco span { position: absolute; left: 10px; top: 4px; font-size: 9pt; color: #555; }
+.resp { margin-top: 6px; font-weight: 800; }
+.resp i { display: inline-block; border-bottom: 1.5px solid #111; width: 55mm; }
+.dica { border: 2px dashed #111; border-radius: 10px; padding: 8px 12px; font-size: 11pt; margin: 10px 0; }
+table.cod { border-collapse: collapse; margin: 6px 0 10px; }
+table.cod td { border: 1.5px solid #111; padding: 6px 12px; text-align: center; font-size: 12.5pt; }
+table.cod td.l { font-weight: 800; font-size: 15pt; }
+.caixas { display: flex; gap: 10px; margin: 8px 0; }
+.fim { display: flex; gap: 14px; align-items: flex-start; }
+.oque { flex: 1; }
+.caixas div span { font-size: 8pt; margin: 2px 4px; display: block; }
+.caixas div { width: 15mm; height: 15mm; border: 2px solid #111; border-radius: 8px; }
+.linha { border-bottom: 1.5px solid #111; height: 8mm; margin: 4px 0; }
+.adulto li, .gab li { margin-bottom: 6px; }
+.box { border: 1.5px solid #111; border-radius: 10px; padding: 8px 14px; margin: 8px 0; }
+.gab .item { border-bottom: 1px solid #999; padding: 8px 0; page-break-inside: avoid; }
+.gab .r { font-weight: 800; font-size: 13.5pt; }
+.small { font-size: 10.5pt; color: #333; }
+.desenho { border: 2px solid #111; border-radius: 8px; padding: 6px 10px; margin: 6px 0; }
+.desenho .ins { font-size: 11.5pt; margin-bottom: 6px; }
+.desenho .ins b.lbl { background: #111; color: #fff; border-radius: 4px; padding: 0 6px; margin-right: 4px; }
+.livre { height: 34mm; border: 1px solid #999; border-radius: 6px; background-image: linear-gradient(#ddd 1px, transparent 1px), linear-gradient(90deg, #ddd 1px, transparent 1px); background-size: 5mm 5mm; }
+.tag.d { background: #111; color: #fff; }
+.gab { height: auto !important; overflow: visible !important; }
+.gab .rodape { position: static; margin-top: 10px; }
+.gab .modelo { margin: 4px 0 2px; }
+.passos { display: flex; gap: 8px; margin: 6px 0; }
+.passos div { flex: 1; border: 1.5px solid #111; border-radius: 8px; padding: 6px 8px; font-size: 11pt; }
+.adulto { font-size: 11.3pt; line-height: 1.38; }
+.adulto h1 { font-size: 21pt; }
+.adulto h2 { font-size: 13.5pt; margin: 9px 0 4px; }
+.adulto ol { margin: 4px 0; padding-left: 22px; }
+.adulto li { margin-bottom: 3px !important; }
+.gab { font-size: 11pt; line-height: 1.33; }
+.gab h1 { font-size: 20pt; }
+.gab .item { padding: 5px 0 !important; }
+.rodape { position: absolute; bottom: 0; left: 0; right: 0; font-size: 8.5pt; color: #555; border-top: 1px solid #aaa; padding-top: 3px; }
+</style></head><body><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-04</span><span class="dir">For the adult · read first (2 minutes)</span></div>
+  <h1>The Riddle of the Neighbor's Orchard</h1>
+  <div class="box"><b>Time:</b> 20 to 25 minutes · <b>Practice:</b> multiplication: equal groups (×2, ×5, ×10) · <b>Materials:</b> pencil, eraser, and this printed sheet (optional: analog clock, dried beans, or bottle caps).</div>
+  <h2>The method in this mission: draw before you solve</h2>
+  <p>Stage 2 is the <b>“draw the problem”</b> stage. In it, your child goes through the 3 steps of the Singapore method (details in the Parent Guide):</p>
+  <div class="passos"><div><b>1. Concrete</b><br>Use 6 small containers (or cups) as baskets and 5 dried beans in each one. In stage 2, your child counts the beans by 5s before drawing.</div><div><b>2. Drawing</b><br>Your child draws the bar and puts a <b>?</b> on what they want to find out. Only then do they do the math.</div><div><b>3. Calculation</b><br>With the drawing done, they write the equation and check the answer by looking at the drawing.</div></div>
+  <h2>How to run the mission</h2>
+  <ol><li><b>Read the opening out loud, with an air of mystery.</b> Stage 1 is very short, on purpose: it gets your child into the game quickly.</li><li><b>Don't say which operation to use.</b> The problem doesn't say whether to add, subtract, or multiply. Figuring that out is the exercise, and the drawing is what shows the answer.</li><li><b>If your child gets stuck, ask for the drawing before giving any help:</b> “Show me that in a bar.” Then use the support question from the answer key (last page). It helps without giving away the answer.</li><li><b>Each answer becomes a letter.</b> If the code word doesn't make sense, one of the calculations is wrong: go back to the drawing and look for it together.</li><li><b>Wrap up by asking:</b> “Explain your drawing from stage 2 to me.”</li></ol>
+  <div class="box"><b>Before moving on:</b> You can move on to the next mission when your child explains the drawing in stage 2 in their own words (“each piece is a basket”). If not yet, redo just that stage another day with different numbers (e.g., 4 baskets with 10).</div>
+  <h2>With siblings</h2>
+  <div class="box">Print the mission pages once and solve them together, switching roles at each stage: <b>reader</b> (reads out loud), <b>illustrator</b> (draws the bar), and <b>number cruncher</b> (does the math and checks it against the drawing). With 2 children, the reader also draws. If they're at different levels, each one does the mission for their level and, at the end, they tell each other how they drew it.</div>
+  <div class="rodape">Math Missions · The Riddle of the Neighbor's Orchard</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-04</span><span class="dir">Mission</span></div>
+  <div class="cab"><div><svg viewBox="0 0 120 120" width="110"><circle cx="60" cy="48" r="34" fill="none" stroke="#000" stroke-width="3"/><path d="M60 82 V112 M46 112 H74" stroke="#000" stroke-width="4"/><circle cx="48" cy="40" r="6"/><circle cx="70" cy="52" r="6"/><circle cx="58" cy="62" r="6"/></svg></div><div><h1>The Riddle of the Neighbor's Orchard</h1></div></div>
+  <div class="abertura">The neighbor picked fruit in her orchard and wrote in her notebook: “I picked 60 fruits.” But when she counted what was in the baskets, the numbers didn't add up. Help find out what happened.</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">The oranges</span><span class="tag">quick one</span>
+  <p>There are 2 baskets with 10 oranges in each one. How many oranges?</p>
+  <div class="espaco curto"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">The apples</span><span class="tag d">draw the problem</span>
+  <p>There are 6 baskets of apples, with 5 apples in each one. How many apples?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Before doing the math, complete the drawing. Each piece of the bar is a basket. Write how many apples are in each basket and put a <b>?</b> on top, on the total.</div><svg class="barra" viewBox="0 0 560 84" width="560" height="84" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H551 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="237.45" y="5" width="77.1" height="20" fill="#fff"/><text x="276" y="19" text-anchor="middle" font-size="15" font-weight="700">_______</text><rect x="0" y="34" width="92" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="46" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="92" y="34" width="92" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="138" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="184" y="34" width="92" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="230" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="276" y="34" width="92" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="322" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="368" y="34" width="92" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="414" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text><rect x="460" y="34" width="92" height="36" fill="#fff" stroke="#000" stroke-width="2"/><text x="506" y="57" text-anchor="middle" font-size="15" font-weight="500">_______</text></svg></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · The Riddle of the Neighbor's Orchard</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-04</span><span class="dir">Mission (continued)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">Everything in the baskets</span>
+  <p>Putting together the oranges and the apples, how many fruits are in the baskets?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">The missing fruits</span>
+  <p>The neighbor wrote down 60 fruits, but there are 50 in the baskets. How many fruits went missing?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  <div class="dica"><b>TIP:</b> no clue tells you which operation to use. Read carefully, figure out what's being asked, and choose the operation. When in doubt, draw.</div>
+  <h2>Crack the code <span class="small" style="font-weight:400">· find each answer in the table and write the letter in that stage's box</span></h2>
+  <table class="cod"><tr><td>8</td><td>10</td><td>11</td><td>12</td><td>20</td><td>30</td><td>50</td><td>110</td></tr><tr><td class="l">C</td><td class="l">R</td><td class="l">X</td><td class="l">S</td><td class="l">P</td><td class="l">E</td><td class="l">A</td><td class="l">G</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>What happened?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · The Riddle of the Neighbor's Orchard</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 1 · Mission 1-04</span><span class="dir">Answer key explained · for the adult</span></div>
+  <h1>Answer key: The Riddle of the Neighbor's Orchard</h1>
+  <div class="item"><b>Stage 1 — The oranges</b> · <span class="r">20</span> (letter P)
+  <div><b>How to think:</b> Each basket has 10. There are 2 baskets: 10 + 10. <span class="small">Calculation: 2 × 10 = 20 (or 10 + 10).</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “How many oranges are in one basket? What about in two?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 12, when your child added 2 + 10 instead of putting together 2 baskets of 10. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 2 — The apples</b> · <span class="r">30</span> (letter E)
+  <div><b>How to think:</b> There are 6 equal groups of 5. Count by 5s six times. <span class="small">Calculation: 6 × 5 = 30 (5, 10, 15, 20, 25, 30).</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="196.28" y="5" width="19.439999999999998" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">?</text><rect x="0" y="34" width="68.66666666666667" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="34.333333333333336" y="51" text-anchor="middle" font-size="12" font-weight="500">5</text><rect x="68.66666666666667" y="34" width="68.66666666666667" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="103" y="51" text-anchor="middle" font-size="12" font-weight="500">5</text><rect x="137.33333333333334" y="34" width="68.66666666666667" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="171.66666666666669" y="51" text-anchor="middle" font-size="12" font-weight="500">5</text><rect x="206" y="34" width="68.66666666666667" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="240.33333333333334" y="51" text-anchor="middle" font-size="12" font-weight="500">5</text><rect x="274.6666666666667" y="34" width="68.66666666666667" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="309" y="51" text-anchor="middle" font-size="12" font-weight="500">5</text><rect x="343.33333333333337" y="34" width="68.66666666666667" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="377.6666666666667" y="51" text-anchor="middle" font-size="12" font-weight="500">5</text></svg></div><div>Equal pieces with the ? on the total: it's multiplication (6 × 5), or adding 5 six times.</div>
+  <div><b>If they get stuck, ask:</b> “Count by 5s, once for each basket: 5, 10, 15…”</div>
+  <div class="small"><b>Most common mistake:</b> answering 11, when your child added 6 + 5 instead of putting together 6 baskets of 5. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 3 — Everything in the baskets</b> · <span class="r">50</span> (letter A)
+  <div><b>How to think:</b> The fruits are 20 oranges and 30 apples: 20 + 30. <span class="small">Calculation: 20 + 30 = 50.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “Is the question about baskets or about fruits?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 8, when your child counted the baskets, not the fruits. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 4 — The missing fruits</b> · <span class="r">10</span> (letter R)
+  <div><b>How to think:</b> The notebook says 60. The baskets have 50. What's missing is 60 − 50. <span class="small">Calculation: 60 − 50 = 10.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “From 50 to 60, how many are missing?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 110, when your child added instead of seeing how many are missing. That answer leads to a different letter, and the word doesn't work out.</div></div>
+  <div class="box"><b>Code word: PEAR.</b> 10 PEARS went missing: their basket fell behind the wall in the wind. They were there, all in one piece, and the neighbor's count worked out to 60.</div>
+  <div class="rodape">Math Missions · answer key</div></section></body></html>

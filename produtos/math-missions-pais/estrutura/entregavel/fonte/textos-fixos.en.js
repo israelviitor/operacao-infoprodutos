@@ -1,4 +1,4 @@
-// Gerado por montar-en.js a partir de traducao/en-US/imagens-criativos-final.md. Não editar à mão.
+// Gerado por montar-en.js / montar-missoes-en.js. Não editar à mão.
 module.exports = {
   "lang": "en",
   "adultoTopo": "For the adult · read first (2 minutes)",
@@ -50,5 +50,8 @@ module.exports = {
   "gabTopo": "Answer key explained · for the adult",
   "gabTit": "Answer key:",
   "gabRodape": "answer key",
-  "palavraCodigo": "Code word:"
+  "palavraCodigo": "Code word:",
+  "metodoTxtFech": "This is the level's <b>Final Mission</b>: all 4 stages are drawing stages, and each one uses one of the drawings your child has already mastered. In each stage, your child goes through the 3 steps of the Singapore method (details in the Parent Guide):",
+  "conduzir1Fech": "<b>Read the opening out loud, with an air of mystery.</b> Here all 4 stages are drawing stages: set aside more time and, if needed, split the mission over 2 days.",
+  "conduzirFech": "<b>Wrap up by asking:</b> “Explain your 4 drawings to me.” To move up a level, the code word has to work out and your child has to explain at least 3 of the 4 drawings on their own."
 };

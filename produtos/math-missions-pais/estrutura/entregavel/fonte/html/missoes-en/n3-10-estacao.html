@@ -1,0 +1,125 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>The Great Space Station Mystery</title><style>
+@page { size: A4; margin: 14mm; }
+* { box-sizing: border-box; }
+body { font-family: Inter, 'DejaVu Sans', sans-serif; color: #111; font-size: 12.5pt; line-height: 1.45; margin: 0; }
+.pagina { page-break-after: always; position: relative; height: 266mm; overflow: hidden; }
+.pagina:last-child { page-break-after: auto; }
+.topo { display: flex; align-items: center; gap: 10px; border-bottom: 2px solid #111; padding-bottom: 5px; margin-bottom: 12px; font-size: 9.5pt; font-weight: 800; letter-spacing: .05em; }
+.nivel { background: #111; color: #fff; border-radius: 6px; padding: 3px 10px; font-size: 11pt; }
+.topo .dir { margin-left: auto; }
+h1 { font-size: 24pt; margin: 4px 0 8px; line-height: 1.1; }
+h2 { font-size: 15pt; margin: 14px 0 6px; }
+.cab { display: flex; gap: 16px; align-items: center; }
+.abertura { border: 2px solid #111; border-radius: 10px; padding: 10px 14px; font-size: 13.5pt; margin: 8px 0 14px; }
+.etapa { border: 1.5px solid #111; border-radius: 10px; padding: 10px 14px; margin-bottom: 12px; page-break-inside: avoid; }
+.etapa .num { display: inline-flex; width: 30px; height: 30px; border-radius: 8px; background: #111; color: #fff; align-items: center; justify-content: center; font-weight: 800; margin-right: 8px; }
+.etapa .tit { font-weight: 800; font-size: 13.5pt; }
+.etapa .tag { font-size: 9.5pt; border: 1px solid #111; border-radius: 10px; padding: 0 8px; margin-left: 6px; }
+.etapa p { margin: 6px 0; font-size: 13.5pt; }
+.espaco { border: 1.5px dashed #777; border-radius: 8px; height: 30mm; margin-top: 6px; position: relative; }
+.espaco.curto { height: 16mm; }
+.espaco span { position: absolute; left: 10px; top: 4px; font-size: 9pt; color: #555; }
+.resp { margin-top: 6px; font-weight: 800; }
+.resp i { display: inline-block; border-bottom: 1.5px solid #111; width: 55mm; }
+.dica { border: 2px dashed #111; border-radius: 10px; padding: 8px 12px; font-size: 11pt; margin: 10px 0; }
+table.cod { border-collapse: collapse; margin: 6px 0 10px; }
+table.cod td { border: 1.5px solid #111; padding: 6px 12px; text-align: center; font-size: 12.5pt; }
+table.cod td.l { font-weight: 800; font-size: 15pt; }
+.caixas { display: flex; gap: 10px; margin: 8px 0; }
+.fim { display: flex; gap: 14px; align-items: flex-start; }
+.oque { flex: 1; }
+.caixas div span { font-size: 8pt; margin: 2px 4px; display: block; }
+.caixas div { width: 15mm; height: 15mm; border: 2px solid #111; border-radius: 8px; }
+.linha { border-bottom: 1.5px solid #111; height: 8mm; margin: 4px 0; }
+.adulto li, .gab li { margin-bottom: 6px; }
+.box { border: 1.5px solid #111; border-radius: 10px; padding: 8px 14px; margin: 8px 0; }
+.gab .item { border-bottom: 1px solid #999; padding: 8px 0; page-break-inside: avoid; }
+.gab .r { font-weight: 800; font-size: 13.5pt; }
+.small { font-size: 10.5pt; color: #333; }
+.desenho { border: 2px solid #111; border-radius: 8px; padding: 6px 10px; margin: 6px 0; }
+.desenho .ins { font-size: 11.5pt; margin-bottom: 6px; }
+.desenho .ins b.lbl { background: #111; color: #fff; border-radius: 4px; padding: 0 6px; margin-right: 4px; }
+.livre { height: 34mm; border: 1px solid #999; border-radius: 6px; background-image: linear-gradient(#ddd 1px, transparent 1px), linear-gradient(90deg, #ddd 1px, transparent 1px); background-size: 5mm 5mm; }
+.tag.d { background: #111; color: #fff; }
+.gab { height: auto !important; overflow: visible !important; }
+.gab .rodape { position: static; margin-top: 10px; }
+.gab .modelo { margin: 4px 0 2px; }
+.passos { display: flex; gap: 8px; margin: 6px 0; }
+.passos div { flex: 1; border: 1.5px solid #111; border-radius: 8px; padding: 6px 8px; font-size: 11pt; }
+.adulto { font-size: 11.3pt; line-height: 1.38; }
+.adulto h1 { font-size: 21pt; }
+.adulto h2 { font-size: 13.5pt; margin: 9px 0 4px; }
+.adulto ol { margin: 4px 0; padding-left: 22px; }
+.adulto li { margin-bottom: 3px !important; }
+.gab { font-size: 11pt; line-height: 1.33; }
+.gab h1 { font-size: 20pt; }
+.gab .item { padding: 5px 0 !important; }
+.rodape { position: absolute; bottom: 0; left: 0; right: 0; font-size: 8.5pt; color: #555; border-top: 1px solid #aaa; padding-top: 3px; }
+</style></head><body><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-10</span><span class="dir">For the adult · read first (2 minutes)</span></div>
+  <h1>The Great Space Station Mystery</h1>
+  <div class="box"><b>Time:</b> 30 to 45 minutes · <b>Practice:</b> Level 3 Final Mission: sum and difference, fraction of what was left, unequal parts, and before and after · <b>Materials:</b> pencil, eraser, and this printed sheet (optional: analog clock, dried beans, or bottle caps).</div>
+  <h2>The method in this mission: draw before you solve</h2>
+  <p>This is the level's <b>Final Mission</b>: all 4 stages are drawing stages, and each one uses one of the drawings your child has already mastered. In each stage, your child goes through the 3 steps of the Singapore method (details in the Parent Guide):</p>
+  <div class="passos"><div><b>1. Concrete</b><br>Use paper strips and scissors: your child cuts, folds, and compares strips to check each stage before drawing.</div><div><b>2. Drawing</b><br>Your child draws the bar and puts a <b>?</b> on what they want to find out. Only then do they do the math.</div><div><b>3. Calculation</b><br>With the drawing done, they write the equation and check the answer by looking at the drawing.</div></div>
+  <h2>How to run the mission</h2>
+  <ol><li><b>Read the opening out loud, with an air of mystery.</b> Here all 4 stages are drawing stages: set aside more time and, if needed, split the mission over 2 days.</li><li><b>Don't say which operation to use.</b> The problem doesn't say whether to add, subtract, or multiply. Figuring that out is the exercise, and the drawing is what shows the answer.</li><li><b>If your child gets stuck, ask for the drawing before giving any help:</b> “Show me that in a bar.” Then use the support question from the answer key (last page). It helps without giving away the answer.</li><li><b>Each answer becomes a letter.</b> If the code word doesn't make sense, one of the calculations is wrong: go back to the drawing and look for it together.</li><li><b>Wrap up by asking:</b> “Explain your 4 drawings to me.” To move up a level, the code word has to work out and your child has to explain at least 3 of the 4 drawings on their own.</li></ol>
+  <div class="box"><b>Before moving on:</b> This is the Level 3 Final Mission. Your child completes Math Missions when the code word works out and they explain at least 3 of the 4 drawings on their own. If not yet, redo just the drawings that were hard another day, with different numbers, and come back to this mission.</div>
+  <h2>With siblings</h2>
+  <div class="box">Print the mission pages once and solve them together, switching roles at each stage: <b>reader</b> (reads out loud), <b>illustrator</b> (draws the bar), and <b>number cruncher</b> (does the math and checks it against the drawing). With 2 children, the reader also draws. If they're at different levels, each one does the mission for their level and, at the end, they tell each other how they drew it.</div>
+  <div class="rodape">Math Missions · The Great Space Station Mystery</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-10</span><span class="dir">Mission</span></div>
+  <div class="cab"><div><svg viewBox="0 0 120 130" width="100"><path d="M60 8 q26 24 22 72 H38 q-4 -48 22 -72 Z" fill="none" stroke="#000" stroke-width="3"/><circle cx="60" cy="48" r="10" fill="none" stroke="#000" stroke-width="3"/><path d="M38 66 L22 92 L40 86 M82 66 L98 92 L80 86 M48 80 q12 34 24 0" fill="none" stroke="#000" stroke-width="3"/></svg></div><div><h1>The Great Space Station Mystery</h1></div></div>
+  <div class="abertura">On the game's space station, the oxygen is running out faster than expected. The commander needs to find the problem before the end of the shift. Use the 4 drawings from Level 3.</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">The two tanks</span><span class="tag d">draw the problem</span>
+  <p>Together, the 2 oxygen tanks hold 1,200 L. Tank A has 300 L more than tank B. How many liters does tank A hold?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Draw one bar for each tank, showing the “extra” piece. Mark the total and put a <b>?</b> on what you want to find out.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · The Great Space Station Mystery</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-10</span><span class="dir">Mission (continued)</span></div>
+  
+  <div class="etapa"><span class="num">2</span><span class="tit">The shifts</span><span class="tag d">draw the problem</span>
+  <p>In the 1st shift, 1/5 of tank A (750 L) was used up. In the 2nd shift, 1/3 of what was left. The computer predicted 450 L at the end of the 2nd shift. How many liters were really left in tank A?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Draw the bar for tank A. Separate the 1st shift; then divide what's left into 3 and separate 1 piece. Put a <b>?</b> on what you want to find out.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">3</span><span class="tit">Cabin and lab</span><span class="tag d">draw the problem</span>
+  <p>The remaining 400 L are divided between the cabin and the lab in the ratio 3 : 5. How many liters go to the cabin?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Draw one bar for the cabin and another for the lab, with equal pieces (3 and 5). Mark the total and put a <b>?</b> on what you want to find out.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  
+  <div class="rodape">Math Missions · The Great Space Station Mystery</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-10</span><span class="dir">Mission (continued)</span></div>
+  
+  <div class="etapa"><span class="num">4</span><span class="tit">The balance</span><span class="tag d">draw the problem</span>
+  <p>After the tube was fixed, the cabin has 150 L and the lab, 250 L. The commander wants the two to be equal. How many liters should go from the lab to the cabin?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Draw the two bars before the transfer, lined up on the left. Show the difference and put a <b>?</b> on the piece that goes to the cabin.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  <h2>Crack the code <span class="small" style="font-weight:400">· find each answer in the table and write the letter in that stage's box</span></h2>
+  <table class="cod"><tr><td>50 L</td><td>100 L</td><td>150 L</td><td>240 L</td><td>350 L</td><td>400 L</td><td>450 L</td><td>750 L</td></tr><tr><td class="l">E</td><td class="l">I</td><td class="l">B</td><td class="l">F</td><td class="l">A</td><td class="l">U</td><td class="l">S</td><td class="l">T</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>What happened?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · The Great Space Station Mystery</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-10</span><span class="dir">Answer key explained · for the adult</span></div>
+  <h1>Answer key: The Great Space Station Mystery</h1>
+  <div class="item"><b>Stage 1 — The two tanks</b> · <span class="r">750 L</span> (letter T)
+  <div><b>How to think:</b> Take away the “extra” piece, divide the rest by 2 (that's B), and add the piece back to find A. <span class="small">Calculation: 1,200 − 300 = 900 · 900 ÷ 2 = 450 (tank B) · 450 + 300 = 750 L.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 110" width="420" height="110" font-family="Inter, DejaVu Sans, sans-serif"><path d="M79 30 V22 H332.92 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="196.24" y="5" width="19.439999999999998" height="20" fill="#fff"/><text x="205.96" y="19" text-anchor="middle" font-size="12" font-weight="700">?</text><text x="0" y="51" font-size="11" font-weight="700">Tank A</text><rect x="78" y="34" width="153.552" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="154.776" y="51" text-anchor="middle" font-size="12" font-weight="500">450</text><rect x="231.552" y="34" width="102.36800000000001" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="282.736" y="51" text-anchor="middle" font-size="12" font-weight="500">300</text><text x="0" y="89" font-size="11" font-weight="700">Tank B</text><rect x="78" y="72" width="153.552" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="154.776" y="89" text-anchor="middle" font-size="12" font-weight="500">450</text><path d="M343.92 4 H350.92 V96 H343.92" fill="none" stroke="#000" stroke-width="1.6"/><text x="355.92" y="55" font-size="12" font-weight="700">1,200 L</text></svg></div><div>Sum and difference: without the 300 L, 2 equal bars of 450 L are left. Tank A is 450 + 300.</div>
+  <div><b>If they get stuck, ask:</b> “Without the extra 300, the tanks would be equal. How much would each one have?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 450 L, when your child found tank B and forgot to add tank A's extra 300 L. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 2 — The shifts</b> · <span class="r">400 L</span> (letter U)
+  <div><b>How to think:</b> First the 1st shift (1/5 of 750). The 1/3 of the 2nd shift is of what was left. <span class="small">Calculation: 750 ÷ 5 = 150 · 600 left · 600 ÷ 3 = 200 · 600 − 200 = 400 L.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="181.4" y="5" width="49.2" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">750 L</text><rect x="0" y="34" width="82.4" height="24" fill="#d9d9d9" stroke="#000" stroke-width="2"/><text x="41.2" y="51" text-anchor="middle" font-size="12" font-weight="500">150</text><rect x="82.4" y="34" width="109.86666666666667" height="24" fill="#d9d9d9" stroke="#000" stroke-width="2"/><text x="137.33333333333334" y="51" text-anchor="middle" font-size="12" font-weight="500">200</text><rect x="192.26666666666668" y="34" width="219.73333333333335" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="302.1333333333333" y="51" text-anchor="middle" font-size="12" font-weight="800">?</text></svg></div><div>Fraction of what was left: the 1st shift takes 150 L; of the 600 that are left, 1/3 (200) goes in the 2nd shift. 400 L are left.</div>
+  <div><b>If they get stuck, ask:</b> “Is the 1/3 of the 750 L or of what was left after the 1st shift?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 350 L, when your child found 1/3 of the full tank, not of what was left. That answer leads to a different letter, and the word doesn't work out.</div></div>
+  
+  <div class="rodape">Math Missions · answer key</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-10</span><span class="dir">Answer key explained · for the adult</span></div>
+  
+  <div class="item"><b>Stage 3 — Cabin and lab</b> · <span class="r">150 L</span> (letter B)
+  <div><b>How to think:</b> The split has 8 equal parts (3 + 5). Find 1 part and take 3. <span class="small">Calculation: 3 + 5 = 8 parts · 400 ÷ 8 = 50 · 3 × 50 = 150 L.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 110" width="420" height="110" font-family="Inter, DejaVu Sans, sans-serif"><path d="M79 30 V22 H239.48000000000002 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="149.52" y="5" width="19.439999999999998" height="20" fill="#fff"/><text x="159.24" y="19" text-anchor="middle" font-size="12" font-weight="700">?</text><text x="0" y="51" font-size="11" font-weight="700">Cabin</text><rect x="78" y="34" width="54.160000000000004" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="105.08" y="51" text-anchor="middle" font-size="12" font-weight="500">50</text><rect x="132.16" y="34" width="54.160000000000004" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="159.24" y="51" text-anchor="middle" font-size="12" font-weight="500">50</text><rect x="186.32" y="34" width="54.160000000000004" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="213.4" y="51" text-anchor="middle" font-size="12" font-weight="500">50</text><text x="0" y="89" font-size="11" font-weight="700">Lab</text><rect x="78" y="72" width="54.160000000000004" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="105.08" y="89" text-anchor="middle" font-size="12" font-weight="500">50</text><rect x="132.16" y="72" width="54.160000000000004" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="159.24" y="89" text-anchor="middle" font-size="12" font-weight="500">50</text><rect x="186.32" y="72" width="54.160000000000004" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="213.4" y="89" text-anchor="middle" font-size="12" font-weight="500">50</text><rect x="240.48" y="72" width="54.160000000000004" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="267.56" y="89" text-anchor="middle" font-size="12" font-weight="500">50</text><rect x="294.64" y="72" width="54.160000000000004" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="321.71999999999997" y="89" text-anchor="middle" font-size="12" font-weight="500">50</text><path d="M358.8 4 H365.8 V96 H358.8" fill="none" stroke="#000" stroke-width="1.6"/><text x="370.8" y="55" font-size="12" font-weight="700">400 L</text></svg></div><div>Unequal parts: 8 pieces of 50 L. The cabin gets 3 pieces: 150 L.</div>
+  <div><b>If they get stuck, ask:</b> “How many parts are there in all? What is each part worth?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 240 L, when your child divided by 5 instead of by the 8 parts of the split. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 4 — The balance</b> · <span class="r">50 L</span> (letter E)
+  <div><b>How to think:</b> To tie, move half of the difference. <span class="small">Calculation: 250 − 150 = 100 · 100 ÷ 2 = 50 L (the two end up with 200 L).</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 80" width="420" height="80" font-family="Inter, DejaVu Sans, sans-serif"><text x="0" y="21" font-size="11" font-weight="700">Lab</text><rect x="78" y="4" width="200.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="178.2" y="21" text-anchor="middle" font-size="12" font-weight="500">150</text><rect x="278.4" y="4" width="66.8" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="311.79999999999995" y="21" text-anchor="middle" font-size="12" font-weight="800">?</text><rect x="345.2" y="4" width="66.8" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="378.59999999999997" y="21" text-anchor="middle" font-size="12" font-weight="500"> </text><text x="0" y="59" font-size="11" font-weight="700">Cabin</text><rect x="78" y="42" width="200.4" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="178.2" y="59" text-anchor="middle" font-size="12" font-weight="500">150</text></svg></div><div>Before and after: the difference (100 L) is split in half. 50 L go over and the two end up with 200 L.</div>
+  <div><b>If they get stuck, ask:</b> “If 100 L go over, who ends up with more? And if half goes over?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 100 L, when your child moved the whole difference, and then the cabin ended up with more. That answer leads to a different letter, and the word doesn't work out.</div></div>
+  <div class="box"><b>Code word: TUBE.</b> 400 L were left, 50 L less than expected: the oxygen was leaking through a loose TUBE between the tanks. With the tube fixed, the commander balanced the cabin and the lab with 200 L each. Mission accomplished!</div>
+  <div class="rodape">Math Missions · answer key</div></section></body></html>

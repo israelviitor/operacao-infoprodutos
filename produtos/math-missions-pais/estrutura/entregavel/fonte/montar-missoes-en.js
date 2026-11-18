@@ -37,7 +37,7 @@ const traduz = (o, p, top) => {
   if (typeof o === 'string' && o.trim() && !SO_SIMBOLO.test(o)) return pega(p);
   return o;
 };
-const TEMPO = { '20 a 25 minutos': '20 to 25 minutes', '25 a 30 minutos': '25 to 30 minutes', '25 a 35 minutos': '25 to 35 minutes' };
+const TEMPO = { '20 a 25 minutos': '20 to 25 minutes', '30 a 40 minutos': '30 to 40 minutes', '30 a 45 minutos': '30 to 45 minutes', '25 a 30 minutos': '25 to 30 minutes', '25 a 35 minutos': '25 to 35 minutes' };
 const novas = [...require('./missoes/nivel1'), ...require('./missoes/nivel2'), ...require('./missoes/nivel3')].map((m) => {
   const o = traduz(m, m.id, true);
   o.nivel = m.nivel.replace('Nível', 'Level').replace('Missão', 'Mission');

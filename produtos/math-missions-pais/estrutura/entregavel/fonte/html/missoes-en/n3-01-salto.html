@@ -1,0 +1,115 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>The Mystery of the Long Jump</title><style>
+@page { size: A4; margin: 14mm; }
+* { box-sizing: border-box; }
+body { font-family: Inter, 'DejaVu Sans', sans-serif; color: #111; font-size: 12.5pt; line-height: 1.45; margin: 0; }
+.pagina { page-break-after: always; position: relative; height: 266mm; overflow: hidden; }
+.pagina:last-child { page-break-after: auto; }
+.topo { display: flex; align-items: center; gap: 10px; border-bottom: 2px solid #111; padding-bottom: 5px; margin-bottom: 12px; font-size: 9.5pt; font-weight: 800; letter-spacing: .05em; }
+.nivel { background: #111; color: #fff; border-radius: 6px; padding: 3px 10px; font-size: 11pt; }
+.topo .dir { margin-left: auto; }
+h1 { font-size: 24pt; margin: 4px 0 8px; line-height: 1.1; }
+h2 { font-size: 15pt; margin: 14px 0 6px; }
+.cab { display: flex; gap: 16px; align-items: center; }
+.abertura { border: 2px solid #111; border-radius: 10px; padding: 10px 14px; font-size: 13.5pt; margin: 8px 0 14px; }
+.etapa { border: 1.5px solid #111; border-radius: 10px; padding: 10px 14px; margin-bottom: 12px; page-break-inside: avoid; }
+.etapa .num { display: inline-flex; width: 30px; height: 30px; border-radius: 8px; background: #111; color: #fff; align-items: center; justify-content: center; font-weight: 800; margin-right: 8px; }
+.etapa .tit { font-weight: 800; font-size: 13.5pt; }
+.etapa .tag { font-size: 9.5pt; border: 1px solid #111; border-radius: 10px; padding: 0 8px; margin-left: 6px; }
+.etapa p { margin: 6px 0; font-size: 13.5pt; }
+.espaco { border: 1.5px dashed #777; border-radius: 8px; height: 30mm; margin-top: 6px; position: relative; }
+.espaco.curto { height: 16mm; }
+.espaco span { position: absolute; left: 10px; top: 4px; font-size: 9pt; color: #555; }
+.resp { margin-top: 6px; font-weight: 800; }
+.resp i { display: inline-block; border-bottom: 1.5px solid #111; width: 55mm; }
+.dica { border: 2px dashed #111; border-radius: 10px; padding: 8px 12px; font-size: 11pt; margin: 10px 0; }
+table.cod { border-collapse: collapse; margin: 6px 0 10px; }
+table.cod td { border: 1.5px solid #111; padding: 6px 12px; text-align: center; font-size: 12.5pt; }
+table.cod td.l { font-weight: 800; font-size: 15pt; }
+.caixas { display: flex; gap: 10px; margin: 8px 0; }
+.fim { display: flex; gap: 14px; align-items: flex-start; }
+.oque { flex: 1; }
+.caixas div span { font-size: 8pt; margin: 2px 4px; display: block; }
+.caixas div { width: 15mm; height: 15mm; border: 2px solid #111; border-radius: 8px; }
+.linha { border-bottom: 1.5px solid #111; height: 8mm; margin: 4px 0; }
+.adulto li, .gab li { margin-bottom: 6px; }
+.box { border: 1.5px solid #111; border-radius: 10px; padding: 8px 14px; margin: 8px 0; }
+.gab .item { border-bottom: 1px solid #999; padding: 8px 0; page-break-inside: avoid; }
+.gab .r { font-weight: 800; font-size: 13.5pt; }
+.small { font-size: 10.5pt; color: #333; }
+.desenho { border: 2px solid #111; border-radius: 8px; padding: 6px 10px; margin: 6px 0; }
+.desenho .ins { font-size: 11.5pt; margin-bottom: 6px; }
+.desenho .ins b.lbl { background: #111; color: #fff; border-radius: 4px; padding: 0 6px; margin-right: 4px; }
+.livre { height: 34mm; border: 1px solid #999; border-radius: 6px; background-image: linear-gradient(#ddd 1px, transparent 1px), linear-gradient(90deg, #ddd 1px, transparent 1px); background-size: 5mm 5mm; }
+.tag.d { background: #111; color: #fff; }
+.gab { height: auto !important; overflow: visible !important; }
+.gab .rodape { position: static; margin-top: 10px; }
+.gab .modelo { margin: 4px 0 2px; }
+.passos { display: flex; gap: 8px; margin: 6px 0; }
+.passos div { flex: 1; border: 1.5px solid #111; border-radius: 8px; padding: 6px 8px; font-size: 11pt; }
+.adulto { font-size: 11.3pt; line-height: 1.38; }
+.adulto h1 { font-size: 21pt; }
+.adulto h2 { font-size: 13.5pt; margin: 9px 0 4px; }
+.adulto ol { margin: 4px 0; padding-left: 22px; }
+.adulto li { margin-bottom: 3px !important; }
+.gab { font-size: 11pt; line-height: 1.33; }
+.gab h1 { font-size: 20pt; }
+.gab .item { padding: 5px 0 !important; }
+.rodape { position: absolute; bottom: 0; left: 0; right: 0; font-size: 8.5pt; color: #555; border-top: 1px solid #aaa; padding-top: 3px; }
+</style></head><body><section class="pagina adulto"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-01</span><span class="dir">For the adult · read first (2 minutes)</span></div>
+  <h1>The Mystery of the Long Jump</h1>
+  <div class="box"><b>Time:</b> 25 to 35 minutes · <b>Practice:</b> decimal numbers in meters: adding and subtracting · <b>Materials:</b> pencil, eraser, and this printed sheet (optional: analog clock, dried beans, or bottle caps).</div>
+  <h2>The method in this mission: draw before you solve</h2>
+  <p>Stage 3 is the <b>“draw the problem”</b> stage. In it, your child goes through the 3 steps of the Singapore method (details in the Parent Guide):</p>
+  <div class="passos"><div><b>1. Concrete</b><br>Use a sewing tape measure or a retractable tape measure: your child measures 3.35 m on the floor and sees how much is missing to reach 4 m. In stage 3, they mark Sofia's three jumps one after the other before drawing.</div><div><b>2. Drawing</b><br>Your child draws the bar and puts a <b>?</b> on what they want to find out. Only then do they do the math.</div><div><b>3. Calculation</b><br>With the drawing done, they write the equation and check the answer by looking at the drawing.</div></div>
+  <h2>How to run the mission</h2>
+  <ol><li><b>Read the opening out loud, with an air of mystery.</b> Stage 1 is very short, on purpose: it gets your child into the game quickly.</li><li><b>Don't say which operation to use.</b> The problem doesn't say whether to add, subtract, or multiply. Figuring that out is the exercise, and the drawing is what shows the answer.</li><li><b>If your child gets stuck, ask for the drawing before giving any help:</b> “Show me that in a bar.” Then use the support question from the answer key (last page). It helps without giving away the answer.</li><li><b>Each answer becomes a letter.</b> If the code word doesn't make sense, one of the calculations is wrong: go back to the drawing and look for it together.</li><li><b>Wrap up by asking:</b> “Explain your drawing from stage 3 to me.”</li></ol>
+  <div class="box"><b>Before moving on:</b> You can move on to the next mission when your child explains the drawing in stage 3 in their own words. If not yet, redo just that stage another day with different numbers (e.g., a total of 11 m, jumps of 3.85 m and 3.6 m).</div>
+  <h2>With siblings</h2>
+  <div class="box">Print the mission pages once and solve them together, switching roles at each stage: <b>reader</b> (reads out loud), <b>illustrator</b> (draws the bar), and <b>number cruncher</b> (does the math and checks it against the drawing). With 2 children, the reader also draws. If they're at different levels, each one does the mission for their level and, at the end, they tell each other how they drew it.</div>
+  <div class="rodape">Math Missions · The Mystery of the Long Jump</div></section><section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-01</span><span class="dir">Mission</span></div>
+  <div class="cab"><div><svg viewBox="0 0 130 110" width="120"><path d="M10 90 H120" stroke="#000" stroke-width="3"/><path d="M20 86 q40 -80 90 0" fill="none" stroke="#000" stroke-width="3" stroke-dasharray="6 4"/><g stroke="#000" stroke-width="2"><path d="M20 98 V104 M40 98 V104 M60 98 V104 M80 98 V104 M100 98 V104"/></g><circle cx="110" cy="80" r="6"/></svg></div><div><h1>The Mystery of the Long Jump</h1></div></div>
+  <div class="abertura">At the neighborhood track and field festival, the long jump medal went to the wrong athlete. The judge wrote down the measurements with decimal points… and someone got mixed up. Redo the math and find out who really won.</div>
+  <div class="etapa"><span class="num">1</span><span class="tit">How much is missing to reach 4 m</span><span class="tag">quick one</span>
+  <p>Rui jumped 3.35 m. How much was he missing to reach 4 m?</p>
+  <div class="espaco curto"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">2</span><span class="tit">Rui's two jumps</span>
+  <p>Rui made 2 jumps: 3.35 m and 3.8 m. How many meters do the two jumps add up to?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  <div class="dica"><b>TIP:</b> no clue tells you which operation to use. Read carefully, figure out what's being asked, and choose the operation. When in doubt, draw.</div>
+  
+  <div class="rodape">Math Missions · The Mystery of the Long Jump</div></section>
+<section class="pagina missao"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-01</span><span class="dir">Mission (continued)</span></div>
+  
+  <div class="etapa"><span class="num">3</span><span class="tit">Sofia's 3rd jump</span><span class="tag d">draw the problem</span>
+  <p>Sofia made 3 jumps, which add up to 12 m. The 1st measured 3.95 m and the 2nd, 3.7 m. How much did the 3rd jump measure?</p><div class="desenho"><div class="ins"><b class="lbl">1. DRAW</b>Before doing the math, draw the problem with a bar: the whole and the 3 parts. Put a <b>?</b> on what you want to find out.</div><div class="livre"></div></div>
+  <div class="espaco curto"><span>2. SOLVE: the math the drawing showed</span></div>
+  <div class="resp">My answer: <i></i></div></div><div class="etapa"><span class="num">4</span><span class="tit">The real winner</span>
+  <p>Sofia's 3rd jump was written down as 3.45 m, but the right measurement is 4.35 m. Rui's best jump was 3.8 m. With the right measurement, how many meters farther did Sofia jump than Rui?</p>
+  <div class="espaco"><span>Space to think and do the math</span></div>
+  <div class="resp">My answer: <i></i></div></div>
+  
+  <h2>Crack the code <span class="small" style="font-weight:400">· find each answer in the table and write the letter in that stage's box</span></h2>
+  <table class="cod"><tr><td>0.35 m</td><td>0.55 m</td><td>0.65 m</td><td>1.35 m</td><td>4.35 m</td><td>6.43 m</td><td>7.15 m</td><td>8.05 m</td></tr><tr><td class="l">G</td><td class="l">E</td><td class="l">T</td><td class="l">R</td><td class="l">P</td><td class="l">X</td><td class="l">A</td><td class="l">C</td></tr></table>
+  <div class="fim"><div class="caixas"><div><span>1</span></div><div><span>2</span></div><div><span>3</span></div><div><span>4</span></div></div><div class="oque"><b>What happened?</b><div class="linha"></div><div class="linha"></div></div></div>
+  <div class="rodape">Math Missions · The Mystery of the Long Jump</div></section><section class="pagina gab"><div class="topo"><span>MATH&nbsp;MISSIONS</span><span class="nivel">Level 3 · Mission 3-01</span><span class="dir">Answer key explained · for the adult</span></div>
+  <h1>Answer key: The Mystery of the Long Jump</h1>
+  <div class="item"><b>Stage 1 — How much is missing to reach 4 m</b> · <span class="r">0.65 m</span> (letter T)
+  <div><b>How to think:</b> Write 4 as 4.00 and subtract with the decimal points lined up: 4.00 − 3.35. <span class="small">Calculation: 4.00 − 3.35 = 0.65 m.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “From 3.35 to 3.40, how much is missing? And from 3.40 to 4.00?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 1.35 m, when your child subtracted only the 3 (4 − 3 = 1) and copied the 0.35 without subtracting. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 2 — Rui's two jumps</b> · <span class="r">7.15 m</span> (letter A)
+  <div><b>How to think:</b> Write 3.8 as 3.80 and add with the decimal points lined up. <span class="small">Calculation: 3.35 + 3.80 = 7.15 m.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “Is 3.8 the same as 3.80 or as 3.08?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 6.43 m, when your child read 3.8 as 3.08 and added without lining up the decimal points. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 3 — Sofia's 3rd jump</b> · <span class="r">4.35 m</span> (letter P)
+  <div><b>How to think:</b> The sum of the 3 jumps is the whole. Put the known parts together and take them away from the whole. <span class="small">Calculation: 3.95 + 3.70 = 7.65 · 12.00 − 7.65 = 4.35 m.</span></div>
+  <div><b>The expected drawing</b> (any drawing with the same parts counts):</div><div class="modelo"><svg class="barra" viewBox="0 0 420 72" width="420" height="72" font-family="Inter, DejaVu Sans, sans-serif"><path d="M1 30 V22 H411 V30" fill="none" stroke="#000" stroke-width="1.6"/><rect x="185.12" y="5" width="41.76" height="20" fill="#fff"/><text x="206" y="19" text-anchor="middle" font-size="12" font-weight="700">12 m</text><rect x="0" y="34" width="135.61666666666667" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="67.80833333333334" y="51" text-anchor="middle" font-size="12" font-weight="500">3.95 m</text><rect x="135.61666666666667" y="34" width="127.03333333333333" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="199.13333333333333" y="51" text-anchor="middle" font-size="12" font-weight="500">3.7 m</text><rect x="262.65" y="34" width="149.35" height="24" fill="#fff" stroke="#000" stroke-width="2"/><text x="337.325" y="51" text-anchor="middle" font-size="12" font-weight="800">?</text></svg></div><div>Part-whole with decimals and 3 parts: the two known parts add up to 7.65 m; the missing one is 12.00 − 7.65.</div>
+  <div><b>If they get stuck, ask:</b> “How many parts do you already know? What do they add up to?”</div>
+  <div class="small"><b>Most common mistake:</b> answering 8.05 m, when your child subtracted only the 1st jump and forgot about the 2nd. That answer leads to a different letter, and the word doesn't work out.</div></div><div class="item"><b>Stage 4 — The real winner</b> · <span class="r">0.55 m</span> (letter E)
+  <div><b>How to think:</b> Compare Sofia's right measurement (4.35) with Rui's (3.80). <span class="small">Calculation: 4.35 − 3.80 = 0.55 m.</span></div>
+  
+  <div><b>If they get stuck, ask:</b> “Which of Sofia's measurements is the right one? Now compare it with 3.80.”</div>
+  <div class="small"><b>Most common mistake:</b> answering 0.35 m, when your child used the wrong measurement that was written down (3.45) and thought Rui won. That answer leads to a different letter, and the word doesn't work out.</div></div>
+  <div class="box"><b>Code word: TAPE.</b> The judge wrote down Sofia's 3rd jump as 3.45 m, but the measuring TAPE showed 4.35 m. With the right measurement, Sofia jumped 0.55 m more than Rui, and the medal went back to her.</div>
+  <div class="rodape">Math Missions · answer key</div></section></body></html>
