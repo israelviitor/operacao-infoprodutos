@@ -139,11 +139,11 @@ function paginaAdulto(m) {
   <p>${f(m.fechamento ? T.metodoTxtFech : T.metodoTxt)}</p>
   <div class="passos"><div><b>${T.passo1}</b><br>${m.concreto}</div><div><b>${T.passo2}</b><br>${T.passo2Txt}</div><div><b>${T.passo3}</b><br>${T.passo3Txt}</div></div>
   <h2>${T.conduzirTit}</h2>
-  <ol>${T.conduzir.map((li, i) => `<li>${f(m.fechamento && i === T.conduzir.length - 1 ? T.conduzirFech : li)}</li>`).join('')}</ol>
+  <ol>${T.conduzir.map((li, i) => `<li>${f(m.fechamento && i === T.conduzir.length - 1 ? T.conduzirFech : m.fechamento && i === 0 ? T.conduzir1Fech : li)}</li>`).join('')}</ol>
   <div class="box"><b>${T.antesAvancar}</b> ${m.dominio}</div>
   <h2>${T.irmaosTit}</h2>
   <div class="box">${T.irmaosTxt}</div>
-  <div class="rodape">Math Missions · ${m.titulo} · ${T.rodapeAmostra}</div></section>`;
+  <div class="rodape">Math Missions · ${m.titulo}${TODAS ? '' : ' · ' + T.rodapeAmostra}</div></section>`;
 }
 
 function etapaHTML(e, i) {
@@ -152,7 +152,7 @@ function etapaHTML(e, i) {
   const desenho = d ? `<div class="desenho"><div class="ins"><b class="lbl">${T.desenheLbl}</b>${d.instrucao}</div>${d.molde ? barra(d.molde, { largura: 560 }) : '<div class="livre"></div>'}</div>` : '';
   return `<div class="etapa"><span class="num">${i + 1}</span><span class="tit">${e.titulo}</span>${tag}
   <p>${e.enunciado}</p>${desenho}
-  <div class="espaco${e.curta || d ? ' curto' : ''}"><span>${d ? T.calculeLbl : T.espacoLbl}</span></div>
+  <div class="espaco${e.curta || d || e.compacta ? ' curto' : ''}"><span>${d ? T.calculeLbl : T.espacoLbl}</span></div>
   <div class="resp">${T.minhaResposta} <i></i></div></div>`;
 }
 
@@ -177,16 +177,18 @@ function paginasMissao(m) {
 }
 
 function paginaGabarito(m) {
-  const itens = m.etapas.map((e, i) => `<div class="item"><b>${T.etapa} ${i + 1} — ${e.titulo}</b> · <span class="r">${e.r}</span> (${T.letra} ${m.palavra[i]})
+  const item = (e, i) => `<div class="item"><b>${T.etapa} ${i + 1} — ${e.titulo}</b> · <span class="r">${e.r}</span> (${T.letra} ${m.palavra[i]})
   <div><b>${T.comoPensar}</b> ${e.pensar} <span class="small">${T.conta} ${e.conta}.</span></div>
   ${e.desenho ? `<div>${T.desenhoEsperado}</div><div class="modelo">${barra(e.desenho.modelo, { largura: 420, alturaBarra: 24, fonte: 12, totalJunto: e.desenho.junto })}</div><div>${e.desenho.explica}</div>` : ''}
   <div><b>${T.seTravar}</b> ${e.apoio}</div>
-  <div class="small"><b>${T.erroComum}</b> ${T.erroResponder} ${e.ev}, ${T.erroQuando} ${e.erro} ${T.erroFim}</div></div>`).join('');
-  return `<section class="pagina gab">${topo(m, T.gabTopo)}
-  <h1>${T.gabTit} ${m.titulo}</h1>
-  ${itens}
-  <div class="box"><b>${T.palavraCodigo} ${m.palavra}.</b> ${m.solucao}</div>
-  <div class="rodape">Math Missions · ${T.gabRodape}</div></section>`;
+  <div class="small"><b>${T.erroComum}</b> ${T.erroResponder} ${e.ev}, ${T.erroQuando} ${e.erro} ${T.erroFim}</div></div>`;
+  // Fechamento (4 desenhos no gabarito): 2 páginas, cada uma com cabeçalho.
+  const grupos = m.fechamento ? [[0, 1], [2, 3]] : [[0, 1, 2, 3]];
+  return grupos.map((g, k) => `<section class="pagina gab">${topo(m, T.gabTopo)}
+  ${k === 0 ? `<h1>${T.gabTit} ${m.titulo}</h1>` : ''}
+  ${g.map((i) => item(m.etapas[i], i)).join('')}
+  ${k === grupos.length - 1 ? `<div class="box"><b>${T.palavraCodigo} ${m.palavra}.</b> ${m.solucao}</div>` : ''}
+  <div class="rodape">Math Missions · ${T.gabRodape}</div></section>`).join('');
 }
 
 const OUT = path.join(__dirname, 'html', TODAS ? 'missoes' : LANG === 'pt' ? '' : LANG);
