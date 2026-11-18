@@ -1,7 +1,7 @@
 import {AbsoluteFill, Audio, Sequence, staticFile, useVideoConfig, interpolate} from 'remotion';
 import {Take, Look} from './Take';
 import {Captions, Word} from './Captions';
-import {HookTitle, Checklist, BrandReveal, Selo, Counter, Badges, Stars, PriceTag, BigText, Versus, OpCard, CTA, Continhas, CodeWord, BarModel} from './Graphics';
+import {HookTitle, Checklist, BrandReveal, Selo, Counter, Badges, Stars, PriceTag, BigText, Versus, OpCard, CTA, Continhas, CodeWord, BarModel, HookKinetic} from './Graphics';
 import {loadFonts} from './Fonts';
 import {setLocale} from './i18n';
 
@@ -23,6 +23,7 @@ export type Overlay =
   | {t: 'cta'; from: number; to: number; phrase: string; price?: string}
   | {t: 'continhas'; from: number; to: number; marks: {at: number; kind: 'x' | 'risco'; row: number}[]}
   | {t: 'code'; from: number; to: number; word: string; wrong: {idx: number; letter: string; fixAt: number}; at: number[]}
+  | {t: 'hookk'; from: number; to: number; lines: string[]; times: number[]; emph: string[]; hl: string[]; hlTimes: number[]}
   | {t: 'bar'; from: number; to: number; total: string; parts: {label: string; w: number; color?: string; at: number; q?: boolean}[]; answer?: {text: string; at: number}; title?: string};
 export type Config = {
   audio: string; words: Word[]; music: string; musicVol: number; dur: number;
@@ -52,6 +53,7 @@ export const Criativo: React.FC<{cfg: Config}> = ({cfg}) => {
       case 'op': return <OpCard chuteAt={rel(o, o.chuteAt)} certoAt={rel(o, o.certoAt)} />;
       case 'cta': return <CTA phrase={o.phrase} price={o.price} />;
       case 'continhas': return <Continhas marks={o.marks.map((m) => ({...m, at: rel(o, m.at)}))} />;
+      case 'hookk': return <HookKinetic lines={o.lines} emph={o.emph} hl={o.hl} times={o.times.map((x) => x - o.from)} hlTimes={o.hlTimes.map((x) => x - o.from)} />;
       case 'bar': return <BarModel total={o.total} title={o.title} parts={o.parts.map((p) => ({...p, at: rel(o, p.at)}))} answer={o.answer ? {...o.answer, at: rel(o, o.answer.at)} : undefined} />;
       case 'code': return <CodeWord word={o.word} wrong={{...o.wrong, fixAt: rel(o, o.wrong.fixAt)}} at={o.at.map((a) => rel(o, a))} />;
     }

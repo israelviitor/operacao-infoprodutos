@@ -5,6 +5,8 @@ import mm01 from './data/mm01.json';
 const T = (id: number | string) => `takes/${id}.mp4`;
 const GUIA = 'mm/guia.png', CARTAO = 'mm/cartao.png', COOKIE = 'mm/cookie.png', TESOURO = 'mm/tesouro.png';
 const S = (from: number, to: number, src: string, x: Partial<Config['scenes'][0]> = {}) => ({from, to, src, ...x});
+// tempos (s) das primeiras n palavras faladas a partir da palavra i
+const wt = (w: any[], i: number, n: number) => w.slice(i, i + n).map((x) => x.s);
 const base = {lang: 'en' as const, brandImg: GUIA, hide: [] as [number, number][]};
 
 // MM01 — Learning from Singapore (gancho gravado: variação 2)
@@ -18,7 +20,7 @@ export const MM01: Config = {
     S(36.7, 38.72, TESOURO), S(38.72, 40.2, COOKIE, {focusY: 20, zoomIn: false}), S(40.2, 42.5, GUIA, {focusY: 40}), S(42.5, 44.92, T(42185)), S(44.92, 47.36, T(21626), {startFrom: 120, zoomIn: false}),
   ],
   overlays: [
-    {t: 'hook', from: 0, to: 4.88, lines: ['BEFORE YOU PUSH', 'YOUR CHILD TO DO', 'MORE MATH...'], highlight: 'GET TO KNOW THIS|WAY OF LEARNING', highlightAt: 2.66},
+    {t: 'hookk', from: 0, to: 4.88, lines: ['BEFORE YOU', 'PUSH YOUR', 'CHILD TO DO', 'MORE MATH...'], times: wt(mm01 as any, 0, 9), emph: ['PUSH', 'MORE', 'MATH'], hl: ['GET TO KNOW THIS', 'WAY OF LEARNING'], hlTimes: wt(mm01 as any, 9, 7)},
     {t: 'bar', from: 9.2, to: 11.72, total: '20', parts: [{label: '12', w: 0.6, at: 9.66}, {label: '8', w: 0.4, at: 10.0}]},
     {t: 'big', from: 13.16, to: 15.72, text: 'SINGAPORE', sub: '#1 IN THE WORLD'},
     {t: 'brand', from: 26.6, to: 28.6},

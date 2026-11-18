@@ -363,3 +363,51 @@ export const BarModel: React.FC<{total: string; parts: {label: string; w: number
     </AbsoluteFill>
   );
 };
+
+// Gancho "cinético": cada palavra entra quando é falada (pop), palavras fortes em amarelo,
+// fundo escurecido e caixa de destaque que entra com tremor e se preenche palavra a palavra.
+export const HookKinetic: React.FC<{lines: string[]; times: number[]; emph: string[]; hl: string[]; hlTimes: number[]}> = ({lines, times, emph, hl, hlTimes}) => {
+  const f = useCurrentFrame();
+  const {fps} = useVideoConfig();
+  const dim = interpolate(f, [0, 6], [0, 0.5], {extrapolateRight: 'clamp'});
+  const size = Math.min(150, ...lines.map((l) => Math.floor(1000 / (l.length * 0.7))));
+  const hlSize = Math.min(92, ...hl.map((l) => Math.floor(860 / (l.length * 0.72))));
+  let k = 0;
+  const word = (w: string, at: number, key: string, color: string, fs: number, stroke: number) => {
+    const s = spring({frame: f - at, fps, config: {damping: 9, stiffness: 260}});
+    const on = f >= at;
+    return (
+      <span key={key} style={{display: 'inline-block', margin: '0 12px', opacity: on ? 1 : 0, transform: `scale(${on ? 1.5 - 0.5 * s : 0.5}) rotate(${on ? (1 - s) * -6 : 0}deg)`, ...font, fontSize: fs, lineHeight: 1.02, color,
+        WebkitTextStroke: stroke ? `${stroke}px ${theme.navyDark}` : undefined, paintOrder: 'stroke fill', textShadow: stroke ? '0 12px 30px rgba(0,0,0,.7)' : undefined}}>{w}</span>
+    );
+  };
+  const hlStart = hlTimes.length ? Math.round(hlTimes[0] * fps) : 1e9;
+  const box = spring({frame: f - hlStart, fps, config: {damping: 7, stiffness: 220}});
+  const shake = f >= hlStart && f < hlStart + 10 ? Math.sin((f - hlStart) * 2.4) * 5 * (1 - (f - hlStart) / 10) : 0;
+  let j = 0;
+  return (
+    <>
+      <AbsoluteFill style={{background: `rgba(10,14,40,${dim})`}} />
+      <AbsoluteFill style={{justifyContent: 'flex-start', alignItems: 'center', padding: '430px 30px 0'}}>
+        <div style={{textAlign: 'center'}}>
+          {lines.map((l, li) => (
+            <div key={li}>
+              {l.split(' ').map((w, wi) => {
+                const at = Math.round((times[k++] ?? 0) * fps);
+                const isEmph = emph.includes(w.replace(/[.,?!…]/g, ''));
+                return word(w, at, `${li}-${wi}`, isEmph ? theme.yellow : theme.white, size, 16);
+              })}
+            </div>
+          ))}
+        </div>
+        {f >= hlStart && (
+          <div style={{marginTop: 40, background: theme.yellow, borderRadius: 24, padding: '14px 30px', transform: `rotate(${-3 + shake}deg) scale(${box})`, boxShadow: '0 14px 0 rgba(0,0,0,.4), 0 0 60px rgba(255,200,30,.55)', textAlign: 'center'}}>
+            {hl.map((l, li) => (
+              <div key={li}>{l.split(' ').map((w, wi) => word(w, Math.round((hlTimes[j++] ?? 0) * fps), `h${li}-${wi}`, theme.navyDark, hlSize, 0))}</div>
+            ))}
+          </div>
+        )}
+      </AbsoluteFill>
+    </>
+  );
+};
