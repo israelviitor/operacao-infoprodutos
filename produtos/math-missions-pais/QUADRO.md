@@ -25,6 +25,7 @@ Estrutura (amostras) + Copy (promessa e página, com pesquisa enxuta própria). 
 - [2026-11-11] **4 bônus** (aparecem na página como bônus, separados do Guia + 30 missões): (1) **Cartão do Desenho** (pronto); (2) **Desafios Relâmpago de 5 minutos** — 30 mini-problemas de desenho, um por dia (adaptar os Desafios Relâmpago do Matemática em Missão); (3) **Kit de Missão** — crachá de agente, ficha de pistas, certificado (adaptar o Kit de Ambientação); (4) **Mapa de Domínio** — quadro para marcar cada missão vencida (novo). **Missão Diagnóstica: recusada pelo dono.** Preparação para provas e assinatura "missão do mês" ficam no funil (bump/upsell), não como bônus. Os Roteiros para Pais continuam dentro das missões (não são bônus). Bônus prontos antes do início dos anúncios.
 - [2026-11-12] **A oferta não se limita a idade.** Sai "8 a 11 anos" da página, dos anúncios e do produto. As missões passam a ser organizadas por **nível de dificuldade** (ex.: Nível 1, 2 e 3 — do primeiro desenho de barras ao problema de várias etapas), e o pai escolhe por onde começar pelo que o filho já sabe, não pela idade. Substitui a decisão de 06/11 ("a página fala em idade") e as "3 faixas de idade" das amostras.
 - [2026-11-17] **Preço do teste: US$ 9,90** (substitui os US$ 17; decisão do dono após a pesquisa da Mineração sobre 2 planos). Criativo 07 já atualizado. A página (`copy/pagina-vendas.md`, `TEXTOS-PT.md`) e a LP no ar ainda dizem US$ 17: trocar.
+- [2026-11-18] **Dois planos: Basic US$ 9,90 e Complete US$ 17** (substitui a decisão de 17/11 de preço único US$ 9,90). Composição recomendada pela Central e não contestada: **Basic = Guia do Método + 30 missões; Complete = Basic + os 4 bônus.** Atenção: o criativo 07 (já gravado/editado) diz que o "kit completo, com quatro bônus, custa US$ 9,90" — agora isso é falso; trocar por "a partir de US$ 9,90" (ou US$ 17 para o completo) antes de veicular.
 - [2026-11-06] Tradução: só na montagem final, pelo `/diretor-traducao`, a partir da versão aprovada em PT.
 
 ## Status por área
@@ -44,6 +45,9 @@ Estrutura (amostras) + Copy (promessa e página, com pesquisa enxuta própria). 
 Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ pronto · ⛔ travado
 
 ## Pedidos entre áreas (abertos)
+- [ ] [2026-11-18] **De** Central **para** Copy de Oferta: página com 2 cards (Basic US$ 9,90 / Complete US$ 17, Complete em destaque), pilha e FAQ coerentes; texto de 1 linha para o criativo 07 ("a partir de US$ 9,90").
+- [ ] [2026-11-18] **De** Central **para** Estrutura: 2 ofertas na Kiwify com entrega separada (Basic: Guia + 30 missões; Complete: + 4 bônus); 2 links de checkout na página.
+- [ ] [2026-11-18] **De** Central **para** Tráfego/Edição: CPA de empate com os 2 planos; criativo 07 com o preço corrigido antes de subir.
 - [x] [2026-11-18] **De** Estrutura **para** Edição: **PNG em inglês (en-US) prontos para os criativos**, no mesmo visual das versões em PT (A4, 150 dpi, 1240 × 1754 px), em `estrutura/imagens-criativos/en-US/`: `mission-1-06-cookies/` (4 págs: adulto, missão ×2, gabarito), `mission-2-05-treasure/` (4), `mission-3-03-robot/` (4), `parent-guide/` (7), `draw-it-card/` (1, 2 cartões por folha). Cada pasta tem também o PDF. Para refazer: `node estrutura/entregavel/fonte/montar-en.js`.
 - [x] [2026-11-17] **De** Tradução **para** Edição: montar os 7 vídeos do lote 1 com a narração, o texto de tela e a legenda em inglês de `traducao/en-US/criativos-lote-1.md` (áudios por sotaque: o dono gera).
 - [ ] [2026-11-17] **De** Central **para** Copy de Oferta/Estrutura: trocar US$ 17 por **US$ 9,90** na página (copy, TEXTOS-PT, âncora "menos de uma hora de reforço" continua válida) e no pacote do ChatGPT; refazer o CPA de empate com a Tráfego.
@@ -73,6 +77,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 Estrutura (amostras) e Copy (pesquisa + promessa + página, em PT) em paralelo → dono aprova → Tradução (en-US).
 
 ## Histórico (mais recente em cima)
+- [2026-11-18] Dono: dois planos, Basic US$ 9,90 e Complete US$ 17.
 - [2026-11-18] Edição: 7 criativos em inglês (MM01–MM07) prontos na página de download https://claude.ai/artifact/9LCph5haKKUgJ9YU8hM8TJ, com o gancho cinético aprovado pelo dono.
 - [2026-11-18] Edição: áudios C01–C07 do Drive conferidos e ligados aos criativos MM01–MM07 (6 usam variação de gancho); teste de estilo do MM01 em inglês entregue.
 - [2026-11-18] Estrutura (com o processo da Tradução): textos das 3 missões-amostra, do Guia e do Cartão extraídos (400 textos), 2 tradutores independentes, versão final, volta para o PT e comitê (5 trocas de naturalidade aplicadas) → `traducao/en-US/imagens-criativos-final.md`. PNG en-US gerados no mesmo visual (palavras-código NANA/LAKE/CORD) em `estrutura/imagens-criativos/en-US/`; Edição avisada.
