@@ -20,4 +20,14 @@ Imagens do dono (inglês): Draw-It Card, Parent Guide, Campout Treasure Hunt, Va
 ## Vídeos
 | Data | Vídeo | Versão | Status | Arquivo |
 |---|---|---|---|---|
-| 2026-11-18 | MM01 — teste de estilo (0–20 s) | teste | 🔵 aguardando aprovação do dono | `edicao/videos/MM01-teste-estilo.mp4` |
+| 2026-11-18 | MM01 — teste de estilo (0–20 s) | teste | ✅ aprovado (com gancho cinético) | `edicao/videos/MM01-teste-estilo.mp4` |
+| 2026-11-18 | MM01 — Learning from Singapore | 51 s · música Mixkit 729 | 🔵 entregue | `edicao/videos/MM01.mp4` |
+| 2026-11-18 | MM02 — "I'm bad at math" | 55 s · 822 | 🔵 entregue | `edicao/videos/MM02.mp4` |
+| 2026-11-18 | MM03 — Less strain on your routine | 49 s · 786 | 🔵 entregue | `edicao/videos/MM03.mp4` |
+| 2026-11-18 | MM04 — An alternative to screens | 47 s · 671 | 🔵 entregue | `edicao/videos/MM04.mp4` |
+| 2026-11-18 | MM05 — Parents who haven't mastered math | 47 s · 830 | 🔵 entregue | `edicao/videos/MM05.mp4` |
+| 2026-11-18 | MM06 — Visual demonstration | 51 s · 799 | 🔵 entregue | `edicao/videos/MM06.mp4` |
+| 2026-11-18 | MM07 — Desire for the product (preço US$ 9.90 e garantia faladas) | 52 s · 565 | 🔵 entregue | `edicao/videos/MM07.mp4` |
+
+Página de download (privada, do dono): https://claude.ai/artifact/9LCph5haKKUgJ9YU8hM8TJ
+Todos: 1080x1920, 30 fps, -14 LUFS, até 14 MB; gancho cinético; sem rosto de criança; sem texto em português; conferidos por grade de quadros.

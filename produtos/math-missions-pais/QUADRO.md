@@ -37,15 +37,15 @@ Estrutura (amostras) + Copy (promessa e página, com pesquisa enxuta própria). 
 | Estrutura — checkout (gateway USD) | ⬜ gateway: Kiwify recomendada, aguardando respostas do suporte | `produtos/_estrutura/2026-11-06-gateways-usd.md` | 2026-11-06 |
 | Tradução | 🔵 en-US: nomes das missões, 4 bônus, **criativos lote 1 (7 vídeos)**; glossário | `traducao/en-US/criativos-lote-1.md`, `traducao/en-US/bonus.md`, `traducao/en-US/nomes-missoes.md`, `traducao/en-US/GLOSSARIO.md` | 2026-11-17 |
 | Copy de Criativos | ✅ lote 1 final escrito pelo dono (7 criativos), que substitui o lote 1 da Copy | `criativos/2026-11-17-lote-1-final-dono.md` | 2026-11-17 |
-| Edição | 🔵 teste de estilo do MM01 (en-US) aguardando o dono; correspondência áudio → criativo em `edicoes.md` | `edicoes.md`, `edicao/videos/` | 2026-11-18 |
+| Edição | 🔵 7 criativos en-US (MM01–MM07) entregues na página de download, aguardando o dono | `edicoes.md`, `edicao/videos/` | 2026-11-18 |
 | Tráfego | ⬜ | `trafego/` | — |
 | Análise | ✅ potencial de venda da página em PT | `analises/2026-11-16-analise.md` | 2026-11-16 |
 
 Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ pronto · ⛔ travado
 
 ## Pedidos entre áreas (abertos)
-- [ ] [2026-11-18] **De** Estrutura **para** Edição: **PNG em inglês (en-US) prontos para os criativos**, no mesmo visual das versões em PT (A4, 150 dpi, 1240 × 1754 px), em `estrutura/imagens-criativos/en-US/`: `mission-1-06-cookies/` (4 págs: adulto, missão ×2, gabarito), `mission-2-05-treasure/` (4), `mission-3-03-robot/` (4), `parent-guide/` (7), `draw-it-card/` (1, 2 cartões por folha). Cada pasta tem também o PDF. Para refazer: `node estrutura/entregavel/fonte/montar-en.js`.
-- [ ] [2026-11-17] **De** Tradução **para** Edição: montar os 7 vídeos do lote 1 com a narração, o texto de tela e a legenda em inglês de `traducao/en-US/criativos-lote-1.md` (áudios por sotaque: o dono gera).
+- [x] [2026-11-18] **De** Estrutura **para** Edição: **PNG em inglês (en-US) prontos para os criativos**, no mesmo visual das versões em PT (A4, 150 dpi, 1240 × 1754 px), em `estrutura/imagens-criativos/en-US/`: `mission-1-06-cookies/` (4 págs: adulto, missão ×2, gabarito), `mission-2-05-treasure/` (4), `mission-3-03-robot/` (4), `parent-guide/` (7), `draw-it-card/` (1, 2 cartões por folha). Cada pasta tem também o PDF. Para refazer: `node estrutura/entregavel/fonte/montar-en.js`.
+- [x] [2026-11-17] **De** Tradução **para** Edição: montar os 7 vídeos do lote 1 com a narração, o texto de tela e a legenda em inglês de `traducao/en-US/criativos-lote-1.md` (áudios por sotaque: o dono gera).
 - [ ] [2026-11-17] **De** Central **para** Copy de Oferta/Estrutura: trocar US$ 17 por **US$ 9,90** na página (copy, TEXTOS-PT, âncora "menos de uma hora de reforço" continua válida) e no pacote do ChatGPT; refazer o CPA de empate com a Tráfego.
 - [ ] [2026-11-16] **De** Mineração **para** dono → Copy/Estrutura: decidir bumps e upsell com base em `pesquisa/2026-11-16-funis-concorrentes.md` (recomendação: bump "Holiday Math Missions" US$ 7–9 + licença família US$ 5–7; upsell próximo nível US$ 27; downsell US$ 17; clube mensal só depois de validar). (abertos)
 - [ ] [2026-11-16] **De** Estrutura **para** Tradução: Guia final, 30 Desafios Relâmpago, Kit de Missão e Mapa de Domínio em PT prontos (`estrutura/entregavel/fonte/gerar-guia.js`, `desafios.js`, `gerar-bonus.js`). Traduzir para en-US quando o dono pedir (usar o glossário: READ · DRAW · SOLVE · CHECK, Agent Badge, Clue Sheet, Mastery Map). Decimais com ponto em inglês.
@@ -73,6 +73,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 Estrutura (amostras) e Copy (pesquisa + promessa + página, em PT) em paralelo → dono aprova → Tradução (en-US).
 
 ## Histórico (mais recente em cima)
+- [2026-11-18] Edição: 7 criativos em inglês (MM01–MM07) prontos na página de download https://claude.ai/artifact/9LCph5haKKUgJ9YU8hM8TJ, com o gancho cinético aprovado pelo dono.
 - [2026-11-18] Edição: áudios C01–C07 do Drive conferidos e ligados aos criativos MM01–MM07 (6 usam variação de gancho); teste de estilo do MM01 em inglês entregue.
 - [2026-11-18] Estrutura (com o processo da Tradução): textos das 3 missões-amostra, do Guia e do Cartão extraídos (400 textos), 2 tradutores independentes, versão final, volta para o PT e comitê (5 trocas de naturalidade aplicadas) → `traducao/en-US/imagens-criativos-final.md`. PNG en-US gerados no mesmo visual (palavras-código NANA/LAKE/CORD) em `estrutura/imagens-criativos/en-US/`; Edição avisada.
 - [2026-11-17] Dono reprovou ajustes na tradução dos criativos ("só traduza"). Tradução refeita fiel, sem texto de tela/legenda criados; regra em `regras/traducao.md`.
