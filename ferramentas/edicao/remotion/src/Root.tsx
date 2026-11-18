@@ -9,7 +9,7 @@ export const Root: React.FC = () => (
       <Composition key={id} id={id} component={Criativo as any} durationInFrames={Math.round(cfg.dur * 30)} fps={30} width={1080} height={1920} defaultProps={{cfg}} />
     ))}
     <Composition id="MM01-teste" component={Criativo as any} durationInFrames={Math.round(20.4 * 30)} fps={30} width={1080} height={1920} defaultProps={{cfg: M.MM01}} />
-    {Object.entries({MM01: M.MM01}).map(([id, cfg]) => (
+    {Object.entries({MM01: M.MM01, MM02: M.MM02, MM03: M.MM03, MM04: M.MM04, MM05: M.MM05, MM06: M.MM06, MM07: M.MM07}).map(([id, cfg]) => (
       <Composition key={id} id={id} component={Criativo as any} durationInFrames={Math.round(cfg.dur * 30)} fps={30} width={1080} height={1920} defaultProps={{cfg}} />
     ))}
   </>

@@ -339,7 +339,7 @@ export const BarModel: React.FC<{total: string; parts: {label: string; w: number
   return (
     <AbsoluteFill style={{justifyContent: 'center', alignItems: 'center'}}>
       <div style={{marginTop: -220, background: 'rgba(255,255,255,.96)', borderRadius: 34, padding: '40px 50px 54px', boxShadow: '0 30px 80px rgba(0,0,0,.5)', transform: `scale(${0.7 + 0.3 * tIn})`, opacity: tIn}}>
-        {title && <div style={{...font, fontSize: 46, color: theme.navyDark, textAlign: 'center', marginBottom: 18}}>{title}</div>}
+        {title && <div style={{...font, fontSize: 46, color: theme.navyDark, textAlign: 'center', marginBottom: 96}}>{title}</div>}
         <div style={{position: 'relative', width: W, height: answer ? 300 : 230}}>
           {/* chave do total */}
           <div style={{position: 'absolute', top: 0, left: 0, width: W * grow, borderTop: `6px solid ${theme.navyDark}`, height: 30, borderLeft: `6px solid ${theme.navyDark}`, borderRight: grow > 0.98 ? `6px solid ${theme.navyDark}` : 'none'}} />
@@ -371,7 +371,7 @@ export const HookKinetic: React.FC<{lines: string[]; times: number[]; emph: stri
   const {fps} = useVideoConfig();
   const dim = interpolate(f, [0, 6], [0, 0.5], {extrapolateRight: 'clamp'});
   const size = Math.min(150, ...lines.map((l) => Math.floor(1000 / (l.length * 0.7))));
-  const hlSize = Math.min(92, ...hl.map((l) => Math.floor(860 / (l.length * 0.72))));
+  const hlSize = Math.min(92, ...hl.map((l) => Math.floor(760 / (l.length * 0.72))));
   let k = 0;
   const word = (w: string, at: number, key: string, color: string, fs: number, stroke: number) => {
     const s = spring({frame: f - at, fps, config: {damping: 9, stiffness: 260}});
@@ -382,7 +382,7 @@ export const HookKinetic: React.FC<{lines: string[]; times: number[]; emph: stri
     );
   };
   const hlStart = hlTimes.length ? Math.round(hlTimes[0] * fps) : 1e9;
-  const box = spring({frame: f - hlStart, fps, config: {damping: 7, stiffness: 220}});
+  const box = spring({frame: f - hlStart, fps, config: {damping: 11, stiffness: 220}});
   const shake = f >= hlStart && f < hlStart + 10 ? Math.sin((f - hlStart) * 2.4) * 5 * (1 - (f - hlStart) / 10) : 0;
   let j = 0;
   return (
@@ -394,7 +394,7 @@ export const HookKinetic: React.FC<{lines: string[]; times: number[]; emph: stri
             <div key={li}>
               {l.split(' ').map((w, wi) => {
                 const at = Math.round((times[k++] ?? 0) * fps);
-                const isEmph = emph.includes(w.replace(/[.,?!…]/g, ''));
+                const isEmph = emph.includes(w.replace(/[^A-Za-zÀ-ú0-9']/g, ''));
                 return word(w, at, `${li}-${wi}`, isEmph ? theme.yellow : theme.white, size, 16);
               })}
             </div>

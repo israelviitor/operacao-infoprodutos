@@ -16,7 +16,7 @@ export type Overlay =
   | {t: 'counter'; from: number; to: number; value: number; label: string}
   | {t: 'badges'; from: number; to: number; items: {text: string; at: number}[]; title?: string}
   | {t: 'stars'; from: number; to: number}
-  | {t: 'price'; from: number; to: number; price: string; at: number}
+  | {t: 'price'; from: number; to: number; price: string; at: number; label?: string}
   | {t: 'big'; from: number; to: number; text: string; sub?: string}
   | {t: 'versus'; from: number; to: number; a: string; b: string; atB: number}
   | {t: 'op'; from: number; to: number; chuteAt: number; certoAt: number}
@@ -47,7 +47,7 @@ export const Criativo: React.FC<{cfg: Config}> = ({cfg}) => {
       case 'counter': return <Counter to={o.value} label={o.label} />;
       case 'badges': return <Badges title={o.title} items={o.items.map((i) => ({text: i.text, at: rel(o, i.at)}))} />;
       case 'stars': return <Stars />;
-      case 'price': return <PriceTag price={o.price} at={rel(o, o.at)} />;
+      case 'price': return <PriceTag price={o.price} at={rel(o, o.at)} label={o.label} />;
       case 'big': return <BigText text={o.text} sub={o.sub} />;
       case 'versus': return <Versus a={o.a} b={o.b} atB={rel(o, o.atB)} />;
       case 'op': return <OpCard chuteAt={rel(o, o.chuteAt)} certoAt={rel(o, o.certoAt)} />;
@@ -71,7 +71,7 @@ export const Criativo: React.FC<{cfg: Config}> = ({cfg}) => {
       {cfg.overlays.map((o, i) => (
         <Sequence key={i} from={F(o.from)} durationInFrames={F(o.to) - F(o.from)}>{render(o)}</Sequence>
       ))}
-      <Captions lang={cfg.lang ?? 'pt'} words={cfg.words} keywords={cfg.keys} hide={[...cfg.hide, ...cfg.overlays.filter((o) => !['selo', 'continhas', 'code'].includes(o.t)).map((o) => [o.from, o.to] as [number, number])]} />
+      <Captions lang={cfg.lang ?? 'pt'} words={cfg.words} keywords={cfg.keys} hide={[...cfg.hide, ...cfg.overlays.filter((o) => !['selo', 'continhas', 'code', 'bar'].includes(o.t)).map((o) => [o.from, o.to] as [number, number])]} />
       <Audio src={staticFile(cfg.audio)} />
       <Audio src={staticFile(cfg.music)} volume={(f) => cfg.musicVol * interpolate(f, [0, 10, durationInFrames - 45, durationInFrames], [0, 1, 1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})} />
       {[...cfg.sfx, ...counterSfx].map((s, i) => (
