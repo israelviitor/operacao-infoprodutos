@@ -44,6 +44,7 @@ Estrutura (amostras) + Copy (promessa e página, com pesquisa enxuta própria). 
 Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ pronto · ⛔ travado
 
 ## Pedidos entre áreas (abertos)
+- [ ] [2026-11-18] **De** Estrutura **para** Edição: **PNG em inglês (en-US) prontos para os criativos**, no mesmo visual das versões em PT (A4, 150 dpi, 1240 × 1754 px), em `estrutura/imagens-criativos/en-US/`: `mission-1-06-cookies/` (4 págs: adulto, missão ×2, gabarito), `mission-2-05-treasure/` (4), `mission-3-03-robot/` (4), `parent-guide/` (7), `draw-it-card/` (1, 2 cartões por folha). Cada pasta tem também o PDF. Para refazer: `node estrutura/entregavel/fonte/montar-en.js`.
 - [ ] [2026-11-17] **De** Tradução **para** Edição: montar os 7 vídeos do lote 1 com a narração, o texto de tela e a legenda em inglês de `traducao/en-US/criativos-lote-1.md` (áudios por sotaque: o dono gera).
 - [ ] [2026-11-17] **De** Central **para** Copy de Oferta/Estrutura: trocar US$ 17 por **US$ 9,90** na página (copy, TEXTOS-PT, âncora "menos de uma hora de reforço" continua válida) e no pacote do ChatGPT; refazer o CPA de empate com a Tráfego.
 - [ ] [2026-11-16] **De** Mineração **para** dono → Copy/Estrutura: decidir bumps e upsell com base em `pesquisa/2026-11-16-funis-concorrentes.md` (recomendação: bump "Holiday Math Missions" US$ 7–9 + licença família US$ 5–7; upsell próximo nível US$ 27; downsell US$ 17; clube mensal só depois de validar). (abertos)
@@ -72,6 +73,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 Estrutura (amostras) e Copy (pesquisa + promessa + página, em PT) em paralelo → dono aprova → Tradução (en-US).
 
 ## Histórico (mais recente em cima)
+- [2026-11-18] Estrutura (com o processo da Tradução): textos das 3 missões-amostra, do Guia e do Cartão extraídos (400 textos), 2 tradutores independentes, versão final, volta para o PT e comitê (5 trocas de naturalidade aplicadas) → `traducao/en-US/imagens-criativos-final.md`. PNG en-US gerados no mesmo visual (palavras-código NANA/LAKE/CORD) em `estrutura/imagens-criativos/en-US/`; Edição avisada.
 - [2026-11-17] Dono reprovou ajustes na tradução dos criativos ("só traduza"). Tradução refeita fiel, sem texto de tela/legenda criados; regra em `regras/traducao.md`.
 - [2026-11-17] Tradução: 7 criativos do lote 1 do dono em en-US (narração, variações de hook, texto de tela e legenda) + volta para o PT, comitê aplicado; glossário com "Singapore's approach" e "Parent Guide".
 - [2026-11-17] Dono: preço do teste US$ 9,90; criativo 07 atualizado pela Central.
