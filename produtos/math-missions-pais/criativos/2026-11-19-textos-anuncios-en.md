@@ -93,3 +93,37 @@ It's one of 30 printable missions in Math Missions, across 3 levels. 🎁 The Co
 👉 Tap "Learn More" and give your child their first mission today. 🚀
 
 **Headline:** A treasure hunt with math
+
+### IMG01 (image) — "Before saying 'I can't'"
+**Primary text:**
+😔 Most of the time, "I can't" just means the problem is still a jumble of words.
+
+🍪 20 cookies in the tin. 13 left. How many disappeared? Once it becomes a drawing, it's obvious: one bar for the 20, one piece for the 13, and the missing part is the answer. 7 cookies. ✅
+
+🇸🇬 That's how children learn math in Singapore, the #1 country in math: they draw the problem before they solve it.
+
+✏️ Math Missions brings this into your home with 30 mystery missions across 3 levels. Your child reads the clues, draws, does the math, and each answer reveals a letter of the secret word. 🔐
+
+📘 A Parent Guide with answer keys and explanations, and a 30-day guarantee.
+
+👉 Tap "Learn More" and help your child see the problem before they say "I can't."
+
+**Headline:** See the problem, solve the mystery
+
+### IMG02 (image) — "The secret starts with a drawing"
+**Primary text:**
+✏️ One bar on paper, and the problem finally makes sense.
+
+🇸🇬 That's the principle behind teaching math in Singapore, the #1 country in math: before doing the math, children draw the situation. What they know becomes a piece of the bar. What's missing becomes the question.
+
+🕵️ Math Missions turns this into 30 mystery missions across 3 levels, from the very first drawing to multi-step problems. Each answer reveals a letter of the secret word. 🔐
+
+📘 The Parent Guide walks you through it, with answer keys and explanations for every mission.
+
+🎁 The Complete plan adds 4 bonuses, including the Draw-It Card.
+
+💵 From US$9.90, with a 30-day guarantee.
+
+👉 Tap "Learn More" and give your child their next discovery today. 🚀
+
+**Headline:** The math secret starts with a drawing
