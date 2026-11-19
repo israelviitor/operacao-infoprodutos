@@ -79,6 +79,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 Estrutura (amostras) e Copy (pesquisa + promessa + página, em PT) em paralelo → dono aprova → Tradução (en-US).
 
 ## Histórico (mais recente em cima)
+- [2026-11-19] Copy de Criativos: emojis adicionados aos textos principais en-US MM01–MM07 (pedido do dono), em `criativos/2026-11-19-textos-anuncios-en.md`.
 - [2026-11-19] Copy de Criativos: texto principal e título do Meta em en-US para os vídeos MM01–MM07 (escritos em PT no estilo do dono, comitê, 2 tradutores, volta e revisão final), em `criativos/2026-11-19-textos-anuncios-en.md`. A 1ª linha de cada texto segue o gancho editado (edicoes.md).
 - [2026-11-19] Tráfego: recomendado **pixel novo** para o Math Missions (não reaproveitar o do Matemática em Missão: outro site, mercado, moeda e gateway; o pixel do BR tem Purchase duplicado por bump). Checklist: pixel novo na mesma BM → ID no `CONFIG.pixel` da LP → pixel + token CAPI na Kiwify (um único emissor) → compra teste (1 Purchase por pedido, em USD) antes de veicular.
 - [2026-11-18] Tradução: revisão da LP en-US no ar (12 correções: 'Singapore Math' e CALCULATE nas imagens, Basic sem o Guia, idade nos termos, checkout/pixel vazios, marcadores) → `traducao/en-US/revisao-lp-2026-11-18.md` com comando para o ChatGPT.
