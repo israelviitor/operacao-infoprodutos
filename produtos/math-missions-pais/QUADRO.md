@@ -79,6 +79,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 Estrutura (amostras) e Copy (pesquisa + promessa + página, em PT) em paralelo → dono aprova → Tradução (en-US).
 
 ## Histórico (mais recente em cima)
+- [2026-11-19] Tráfego: recomendado **pixel novo** para o Math Missions (não reaproveitar o do Matemática em Missão: outro site, mercado, moeda e gateway; o pixel do BR tem Purchase duplicado por bump). Checklist: pixel novo na mesma BM → ID no `CONFIG.pixel` da LP → pixel + token CAPI na Kiwify (um único emissor) → compra teste (1 Purchase por pedido, em USD) antes de veicular.
 - [2026-11-18] Tradução: revisão da LP en-US no ar (12 correções: 'Singapore Math' e CALCULATE nas imagens, Basic sem o Guia, idade nos termos, checkout/pixel vazios, marcadores) → `traducao/en-US/revisao-lp-2026-11-18.md` com comando para o ChatGPT.
 - [2026-11-18] Tradução: 30 missões em en-US (27 novas traduzidas fiel por nível + 3 amostras), palavras-código de 4 letras em inglês, números conferidos por script; PDFs `estrutura/entregavel/final/en-US/missions/math-missions-level-{1,2,3}.pdf` (42 págs cada, como o PT). Dono pediu tradução direta, sem envio para aprovação. Textos: `traducao/en-US/missoes-final.md`; montador `fonte/montar-missoes-en.js`.
 - [2026-11-18] PDFs en-US gerados (pedido do dono na sessão de Tradução): Guia, Cartão, 30 Lightning Challenges, Mission Kit e Mastery Map em `estrutura/entregavel/final/en-US/`, mesmas páginas do PT, sem texto em PT. HTML em `fonte/html/en/`, dicionário `dic-guia-bonus.json`.
