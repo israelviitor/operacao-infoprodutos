@@ -55,23 +55,51 @@ function extrair(jsons) {
   return { total, anuncios: [...anuncios.values()] };
 }
 
-async function carregar(url) {
-  const browser = await chromium.launch({ executablePath: CHROME, args: ['--headless=new'] });
-  try {
-    const ctx = await browser.newContext({
-      locale: 'pt-BR',
-      viewport: { width: 1366, height: 900 },
-      userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
+// CHROME_PERFIL=<pasta>: usa um perfil persistente (logado na conta secundária do Facebook) com o Chrome instalado
+// no computador; rola a página ROLAR vezes (padrão 8 com perfil, 0 sem) e captura também as respostas /api/graphql.
+// LOGIN=1 junto com CHROME_PERFIL: abre o Chrome visível na página de login para o dono entrar uma única vez.
+async function abrir() {
+  if (process.env.CHROME_PERFIL) {
+    const ctx = await chromium.launchPersistentContext(process.env.CHROME_PERFIL, {
+      channel: 'chrome', headless: !process.env.LOGIN, locale: 'pt-BR', viewport: { width: 1366, height: 900 },
     });
+    return { ctx, fechar: () => ctx.close() };
+  }
+  const browser = await chromium.launch({ executablePath: CHROME, args: ['--headless=new'] });
+  const ctx = await browser.newContext({
+    locale: 'pt-BR',
+    viewport: { width: 1366, height: 900 },
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
+  });
+  return { ctx, fechar: () => browser.close() };
+}
+
+async function carregar(url) {
+  const { ctx, fechar } = await abrir();
+  try {
     const p = await ctx.newPage();
+    const extras = [];
+    p.on('response', async (r) => {
+      if (!r.url().includes('/api/graphql')) return;
+      try {
+        const txt = await r.text();
+        if (!txt.includes('ad_archive_id')) return;
+        for (const linha of txt.split('\n')) { try { extras.push(JSON.parse(linha)); } catch {} }
+      } catch {}
+    });
     await p.goto(url, { waitUntil: 'networkidle', timeout: 90000 }).catch(() => {});
     await p.waitForTimeout(2000);
+    const rolar = Number(process.env.ROLAR ?? (process.env.CHROME_PERFIL ? 8 : 0));
+    for (let i = 0; i < rolar; i++) {
+      await p.mouse.wheel(0, 6000);
+      await p.waitForTimeout(2500);
+    }
     const scripts = await p.$$eval('script[type="application/json"]', (els) =>
       els.map((e) => e.textContent).filter((t) => t.includes('ad_archive_id') || t.includes('search_results_connection')));
     const jsons = scripts.map((t) => { try { return JSON.parse(t); } catch { return null; } }).filter(Boolean);
-    return extrair(jsons);
+    return extrair(jsons.concat(extras));
   } finally {
-    await browser.close();
+    await fechar();
   }
 }
 
@@ -80,6 +108,16 @@ async function carregar(url) {
   let res;
   if (cmd === 'busca') res = await carregar(urlBusca(arg, flags.includes('--exata'), flags.includes('--impressoes')));
   else if (cmd === 'pagina') res = await carregar(urlPagina(arg));
-  else { console.error('uso: busca "<termo>" [--exata] [--impressoes] | pagina <page_id>'); process.exit(1); }
+  else if (cmd === 'login') {
+    // Abre o Chrome visível no perfil CHROME_PERFIL para o dono entrar no Facebook secundário; fecha sozinho em 5 min.
+    process.env.LOGIN = '1';
+    const { ctx, fechar } = await abrir();
+    const p = await ctx.newPage();
+    await p.goto('https://www.facebook.com/ads/library/').catch(() => {});
+    await p.waitForTimeout(300000);
+    await fechar();
+    res = { ok: true };
+  }
+  else { console.error('uso: busca "<termo>" [--exata] [--impressoes] | pagina <page_id> | login (com CHROME_PERFIL)'); process.exit(1); }
   process.stdout.write(JSON.stringify(res));
 })();
