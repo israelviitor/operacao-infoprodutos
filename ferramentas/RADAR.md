@@ -5,6 +5,8 @@ https://docs.google.com/spreadsheets/d/1CuEgnwOo1ED8R4flVIm-fGKf2uMtBujkpaNTm7Um
 - Aba **PALAVRAS-CHAVE**: A = termo · B = bloco · C = ativa (sim/não) · D = última busca (o Radar preenche).
 - Aba **OFERTAS** (linha 1 = cabeçalho): Data · Lista · Palavra-chave · Anunciante · Domínio · Anúncios ativos · Dias no ar · Nicho · Preço · Plataforma do checkout · Order bump / pós-compra · Página na Biblioteca · Link do anúncio · Landing · Checkout · Ângulo · Nota · Justificativa · Veredito · Status.
 
+Sem o conector Google Sheets na sessão: termos de `ferramentas/termos-radar.txt` (girar 12 por dia pela data) e ofertas gravadas em `produtos/_mineracao/radar/AAAA-MM-DD/OFERTAS.md`.
+
 Regras que valem: `regras/geral.md` e `regras/mineracao.md` (critérios 2026-11-24, nota 0–10, duas listas, nunca comprar para reembolsar). Brasil (PAIS=BR) salvo outro país escrito no termo.
 
 ## Passo a passo
