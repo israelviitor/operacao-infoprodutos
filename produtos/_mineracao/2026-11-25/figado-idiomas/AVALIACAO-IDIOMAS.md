@@ -37,3 +37,10 @@ Formato que todos usam: guia/plano de 21–28 dias + receitas + lista de aliment
 ## Riscos
 - Alemanha: Heilmittelwerbegesetz (§ 12 proíbe citar certas doenças em publicidade para leigos; Abmahnung de concorrente). Não confirmado se "Fettleber" está no anexo. Decisão do dono.
 - As duas operações mostram que quem chega primeiro em cada idioma escala rápido (Fausto: 470 anúncios em 10 dias).
+
+## Atualização — 2ª coleta logada (DE/AT/CH e páginas na Itália)
+- Termos e totais (anúncios ativos com o termo): DE "Fettleber Ernährung" 154 · "Fettleber Plan" 53 · "Fettleber Kochbuch" 12 · "Leber entgiften Rezepte" 34 · AT "Fettleber" 436 · CH "Fettleber" 229.
+- **Infoproduto de receitas/plano anunciando em alemão: só 1, recém-chegado** — "Lorenzo Mazeratti" (leberplan.proteinrezepte.online), 1 anúncio, desde 24/11; a landing mostra a mesma tela de carregamento ("Um momento…") das lojas do Dr. Fausto → provável chegada da mesma operação à Alemanha. https://www.facebook.com/ads/library/?active_status=active&ad_type=all&view_all_page_id=1375020692355504&country=DE (total da página não confirmado; 1 visto). Anúncio: https://www.facebook.com/ads/library/?id=2231096544491978
+- Resto em DE/AT/CH: suplementos e advertoriais (Reinkraut, Deutsches Gesundheitsportal, Essenz, Balensa, Apotheken-Ratgeber), um congresso gratuito (Medumio "Dein Fettleber-Plan") e livros na Amazon.
+- Itália, totais das páginas: **María ("Nutrición en casa") 44 ativos** (desde 27/10; landing cucina.nutrirebene.com, ângulo "mãe de 3 filhos: o que vamos jantar") · **Dott.ssa Nicoleta 4 ativos**, desde 18/11, sobre envelhecimento masculino — não é concorrente direto de receitas para o fígado.
+Leitura: Alemanha/Áustria/Suíça continuam sem concorrente estabelecido de receitas; a janela parece estar fechando (provável clone do Fausto entrou em 24/11).
