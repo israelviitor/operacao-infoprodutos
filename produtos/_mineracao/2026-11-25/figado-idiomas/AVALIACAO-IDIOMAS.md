@@ -12,7 +12,7 @@ Base: oferta BR Mariane Barbosa (+137 receitas, 327 anúncios, 65 dias). Fontes:
 - ES: https://www.facebook.com/ads/library/?active_status=active&ad_type=all&view_all_page_id=1084175484786176&country=ES · landing https://higado.medicinaancestral.io/ (preços na página: US$ 12,90–19,90, âncora US$ 89,99)
 - PL: https://www.facebook.com/ads/library/?active_status=active&ad_type=all&view_all_page_id=669784889555202&country=PL · landing https://watroba.zdrowo.shop/ (59–79 zł, âncora 339 zł)
 - FR: mesma página, desde 27/10 · landing foie.equilibrealimentaire.com
-- **IT: mesma página, desde 28/10, só 1 anúncio visto** — https://www.facebook.com/ads/library/?active_status=active&ad_type=all&view_all_page_id=669784889555202&country=IT · anúncio https://www.facebook.com/ads/library/?id=3368657733523767 · landing https://fegato.nutrirebene.com/ (€ 12,90–19,90, âncora € 89,99) · checkout não visível
+- **IT: mesma página, desde 28/10, 44 anúncios ativos na Itália (total da página, conferido pelo dono)** — https://www.facebook.com/ads/library/?active_status=active&ad_type=all&view_all_page_id=669784889555202&country=IT · anúncio https://www.facebook.com/ads/library/?id=3368657733523767 · landing https://fegato.nutrirebene.com/ (€ 12,90–19,90, âncora € 89,99) · checkout não visível
 
 Também: "Sophia Johnson" (healthyfatliv.shop) em ES, FR e PT desde 19/11 — https://www.facebook.com/ads/library/?active_status=active&ad_type=all&view_all_page_id=1427401253793428&country=ALL. Na Itália entrou em 23/11 "Dott.ssa Nicoleta Lopea Biologo Nutrizionista" (2 anúncios, perfil novo) — https://www.facebook.com/ads/library/?active_status=active&ad_type=all&view_all_page_id=1467441359779804&country=IT — pode ser o clone "Dr." chegando; landing não visível.
 
@@ -23,14 +23,14 @@ Também: "Sophia Johnson" (healthyfatliv.shop) em ES, FR e PT desde 19/11 — ht
 | Espanha | 580 + 71 | Fausto ES, María (33 dias), Sophia, Evelina, "Menú de 21 días" (operação BR) | 25,8% | **mais disputado** |
 | França | 1.082 + 260 | Delmas (106), foie-plan, Sophia, María (29 dias) | ~17–18% (8 mi) | 4 concorrentes — rebaixada |
 | Polônia | 155 | María (30 dias) + Liver Detox 28 dias | 26–30% | 2 concorrentes |
-| **Itália** | 860 + 147 | María (1 anúncio visto, 28 dias) + Nicoleta (2 anúncios, 2 dias) | 22–30% | **pouco disputada** (concorrência fraca, mas já existe) |
-| **Alemanha** | 550 + 30 | nenhum visto em anúncio (só livro na Amazon e uma academia; infoproduto no Digistore24 € 29,95 sem anúncio visto) | 23–33% | **aberta**, com risco da lei HWG |
+| Itália | 860 + 147 | María (**44 ativos**, 28 dias) + Nicoleta (total não confirmado, 2 vistos, 2 dias) | 22–30% | 1 concorrente escalando |
+| **Alemanha** | 550 + 30 | nenhum infoproduto de receitas entre os 300 anúncios vistos (de 580) (só livro na Amazon e uma academia; infoproduto no Digistore24 € 29,95 sem anúncio visto) | 23–33% | **aberta**, com risco da lei HWG |
 | Holanda | 81 | nenhum | 22–25% | aberta, mercado pequeno |
 | EUA/Reino Unido | 10.175 / 3.642 | dominado por suplementos; ebooks baratos fora da Meta | 31% (EUA) | saturado |
 
-## Recomendação do time
-1. **Itália**: só um concorrente de infoproduto com volume baixo (María, 1 anúncio visto) e um recém-chegado; o resto são suplementos. Conferir quantos anúncios María e Nicoleta têm ativos na Itália antes de decidir.
-2. **Alemanha**: nenhum infoproduto anunciando; a decisão é sobre o risco da lei HWG (ver Riscos).
+## Recomendação do time (atualizada após correção do dono: María tem 44 ativos na Itália)
+1. **Alemanha**: é o único mercado grande sem infoproduto de receitas anunciando na amostra (300 de 580 anúncios); a decisão é sobre o risco da lei HWG (ver Riscos). Antes, confirmar com coleta logada mais ampla ("Fettleber Plan", "Fettleber Ernährung").
+2. **Itália**: tem a María escalando (44 ativos, 28 dias) — entrar só com ângulo diferente do guia de 21 dias.
 3. Portugal, Espanha, França e Polônia já têm clones escalando — só com ângulo diferente.
 Formato que todos usam: guia/plano de 21–28 dias + receitas + lista de alimentos, low ticket (€/US$ 12,90–19,90; DE € 29,95 com bump € 14,95).
 
