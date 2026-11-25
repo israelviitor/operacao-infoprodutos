@@ -1,5 +1,7 @@
 # Receitas para gordura no fígado — avaliação por idioma (2026-11-25, revisada pelo comitê)
 
+**Status: RESERVA** (dono, 2026-11-25: não decidir agora entre Alemanha e Itália).
+
 Base: oferta BR Mariane Barbosa (+137 receitas, 327 anúncios, 65 dias). Fontes: coleta **logada** na Biblioteca (Mac) por país/termo, landings abertas com `checar-preco.js` e pesquisa de demanda do aluno (`pesquisa-demanda.md`). "Total" = anúncios ativos com o termo no país (inclui suplementos e advertoriais); "vistos" = amostra logada.
 
 ## Duas operações já estão traduzindo essa oferta para vários idiomas
