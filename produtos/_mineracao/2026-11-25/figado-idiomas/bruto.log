@@ -5,3 +5,20 @@ FIM DE
 12:29 IT OK steatosi epatica 30
 FIM IT
 12:31 ES VAZIO hígado graso
+12:33 ES VAZIO recetas hígado graso
+FIM ES
+12:33 US OK fatty liver 30
+12:34 US OK fatty liver diet 30
+FIM US
+12:35 PL OK stłuszczenie wątroby 30
+FIM PL
+12:35 NL OK leververvetting 30
+FIM NL
+12:36 FR OK stéatose hépatique 30
+FIM FR
+12:38 DE OK Fettleber 30
+12:40 DE VAZIO Fettleber Rezepte
+FIM DE
+12:42 IT VAZIO fegato grasso
+FIM IT
+12:43 ES OK hígado graso 30
