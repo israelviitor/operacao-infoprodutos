@@ -32,3 +32,12 @@ Saturados: bolo no pote (25 anunciantes ensinando), trufas (19), brownie (20). F
 | Calculadora "Preço Certo" para marmita | Kit Preço Certo | total não confirmado (8 vistos) | 17/11 | não visível | https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=400632299802762 · https://kustos.com.br/ |
 | Aula "marmita congelada perfeita" (chef real) | Chef Gabi Paludo | 28 | 18/02 | R$ 19,90 | https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=213306675195404 · https://aula.chefgabipaludo.com/ |
 Leitura: existem ofertas com a promessa, mas nenhuma escalada — a maior com promessa direta de "vender marmita congelada" tem 9 anúncios.
+
+## Variações para fugir do leilão do "Freezer que Vende" (sugestão — concorrência ainda a verificar na Biblioteca)
+Leilão = mesmo público + mesma promessa. Variações que mudam o comprador final ou o momento:
+1. Marmitas congeladas para idosos e quem mora sozinho (vender para filhos que cuidam dos pais; pouco sal, porções pequenas).
+2. Pratos de fim de ano congelados para vender (ceia/almoço de Natal e Ano Novo; janela até ~20/12).
+3. Marmitinhas infantis (2 a 10 anos) para mães que trabalham [VALIDAR regra da Anvisa para alimento infantil].
+4. Freezer de condomínio: vender para vizinhos por grupo de WhatsApp (canal, não receita).
+5. Marmita do trabalhador a R$ 10–12 (volume, obra/comércio do bairro).
+Termos para a coleta de verificação: ferramentas/termos-variacoes-marmita.txt
