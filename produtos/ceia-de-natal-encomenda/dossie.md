@@ -34,7 +34,7 @@
 - Fontes completas: `pesquisa/2026-11-26-mecanismo-numeros.md`.
 
 ## 5. Oferta (sugestão para Copy/Estrutura)
-- **Divisão sugerida dos planos** [VALIDAR na Copy/Estrutura]:
+- **Oferta aprovada pelo dono (2026-11-26) — ver QUADRO.md** (Básico 50 receitas R$ 17,90; Premium R$ 29,90 com fichas completas + 6 bônus; 3 bumps; upsell Ceia de Ano Novo). Divisão antiga (substituída):
   - **Básico R$ 17,90:** 50+ fichas de pratos (receita, quantidade para 4/6/10/20 pessoas, custo, preço e lucro) + kits prontos por nº de pessoas.
   - **Premium R$ 29,90:** tudo do Básico + bônus: Almoço do dia 25 (cardápio separado), Calendário anti-sobrecarga (abrir, fechar 15/12, limite de pedidos por dia), Primeiros clientes passo a passo (para quem nunca vendeu), Planilha de pedidos e sinal, Mensagens prontas, Checklist de segurança alimentar.
 - Entregável principal: fichas dos pratos que mais vendem (peru, chester, tender, pernil, lombo + salpicão, arroz à grega, farofa, maionese + rabanada, pavê, pudim) com quantidades para 4/6/10/20 pessoas, custo, preço e lucro; kits prontos (4, 6–8, 10 pessoas); **cardápio do almoço do dia 25** [VALIDAR].

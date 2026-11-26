@@ -12,6 +12,12 @@ Copy de Oferta + Estrutura em paralelo (urgente — vender até ~10/12)
 - [2026-11-26] Oferta escolhida: **ganhar dinheiro fazendo a ceia de Natal** (Brasil), modelada de Ceia Lucrativa e 40 Cardápios de Ceias (ver `pesquisa/2026-11-26-concorrentes-paginas.md`).
 - [2026-11-26] Almoço do dia 25 entra como **bônus** (não é a promessa principal).
 - [2026-11-26] **Duas ofertas na mesma LP: Básico R$ 17,90 e Premium R$ 29,90.**
+- [2026-11-26] **Estrutura da oferta aprovada (dono):**
+  - **Básico R$ 17,90 = 50 receitas** (fixo, não alterar).
+  - **Premium R$ 29,90 =** 50 receitas com quantidades para 4/6/10/20 pessoas, custo, preço de venda e lucro + bônus: Como Precificar · Almoço do Dia 25 · Calendário Anti-Sufoco (abrir/fechar pedidos, limite por dia) · Kits Prontos de 4 a 20 pessoas com preço de combo · Planilha de Pedidos e Sinal · Checklist da Ceia Segura.
+  - **Order bumps:** Como conseguir seus 10 primeiros clientes (R$ 12,90) · Mensagens que fecham pedido (R$ 7,90) · Ceias de R$ 400+: pratos premium e como vender para quem paga mais (R$ 14,90).
+  - **Upsell 1 clique:** Ceia de Ano Novo — venda de novo no dia 31 (R$ 19,90).
+- [2026-11-26] LP montada pelo ChatGPT (regras/paginas.md). Copy o mais persuasiva/agressiva possível; **sem aprovações intermediárias** — o dono ajusta depois de ver a LP montada.
 
 ## Status por área
 | Área | Status | Entrega (arquivo) | Atualizado |
