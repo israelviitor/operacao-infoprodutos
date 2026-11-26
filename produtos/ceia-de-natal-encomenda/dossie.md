@@ -6,8 +6,8 @@
 - Nome / formato: nome a definir pela Copy [VALIDAR]. Ebook/kit digital: fichas de pratos de Natal para vender + planilha + mensagens. Acesso imediato (PDF/celular).
 - Mercado: **Brasil · gateway Cakto** (decisão do dono, 2026-11-26).
 - Nicho e sub-nicho: renda extra com comida caseira → ceia de Natal por encomenda.
-- Preço / parcelamento: **R$ 19,90** [VALIDAR]. Referência: Ceia Lucrativa cobra R$ 17,90 (básico, 50 fichas) e R$ 27,90 (completo) — para não perder na comparação, entregar **50+ fichas** ou mostrar um valor que o concorrente não tem (ver seção 6).
-- Promessa principal (recomendação do comitê): **"Venda a ceia de Natal sabendo quanto cobrar, quanto fazer e quantos pedidos aceitar — sem virar a cozinheira que deixou os clientes sem ceia"** [VALIDAR]. Almoço do dia 25 como **bônus/ângulo de criativo** (cardápio separado, produção e limite próprios — nunca "vender a sobra da ceia"); se o dono quiser ousadia, pode virar carro-chefe ("Natal em Dobro") [DECISÃO DO DONO].
+- Preço: **duas ofertas na mesma página — Básico R$ 17,90 e Premium R$ 29,90** (decisão do dono, 2026-11-26).
+- Promessa principal: **"Venda a ceia de Natal sabendo quanto cobrar, quanto fazer e quantos pedidos aceitar — sem virar a cozinheira que deixou os clientes sem ceia"** (texto final pela Copy). Almoço do dia 25 = **bônus** (decisão do dono, 2026-11-26), com cardápio, produção e limite próprios — nunca "vender a sobra da ceia".
 - Prazo comercial: vender até ~10/12 (as encomendas da aluna fecham ~15/12; entrega 23/24 e 25).
 
 ## 2. Avatar
@@ -34,6 +34,9 @@
 - Fontes completas: `pesquisa/2026-11-26-mecanismo-numeros.md`.
 
 ## 5. Oferta (sugestão para Copy/Estrutura)
+- **Divisão sugerida dos planos** [VALIDAR na Copy/Estrutura]:
+  - **Básico R$ 17,90:** 50+ fichas de pratos (receita, quantidade para 4/6/10/20 pessoas, custo, preço e lucro) + kits prontos por nº de pessoas.
+  - **Premium R$ 29,90:** tudo do Básico + bônus: Almoço do dia 25 (cardápio separado), Calendário anti-sobrecarga (abrir, fechar 15/12, limite de pedidos por dia), Primeiros clientes passo a passo (para quem nunca vendeu), Planilha de pedidos e sinal, Mensagens prontas, Checklist de segurança alimentar.
 - Entregável principal: fichas dos pratos que mais vendem (peru, chester, tender, pernil, lombo + salpicão, arroz à grega, farofa, maionese + rabanada, pavê, pudim) com quantidades para 4/6/10/20 pessoas, custo, preço e lucro; kits prontos (4, 6–8, 10 pessoas); **cardápio do almoço do dia 25** [VALIDAR].
 - Bônus: planilha de pedidos (valor, sinal, saldo, lista de compras); calendário D-15 → D-1 (abrir, fechar, comprar, produzir, entregar); mensagens prontas (abrir encomendas, cobrar sinal, confirmar, entregar); limite de pedidos para não virar o "caso Roseli"; checklist de segurança alimentar (refrigerar em 2 h, reaquecer a 75 °C) e aviso sobre vigilância sanitária/MEI.
 - Garantia: 7 dias.
@@ -53,5 +56,6 @@
 - Tom: próximo, de cozinha de casa, direto, com números.
 
 ## Histórico
+- [2026-11-26] dono decidiu: dia 25 como bônus; duas ofertas na LP (R$ 17,90 básico / R$ 29,90 premium).
 - [2026-11-26] revisado pelo comitê (promessa principal, escopo vs. concorrente, avisos de fonte; 40 Cardápios sem anúncios ativos).
 - [2026-11-26] criado pela Mineração (concorrentes, números reais, avatar).
