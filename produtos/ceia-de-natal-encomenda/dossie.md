@@ -4,9 +4,10 @@
 
 ## 1. Produto
 - Nome / formato: nome a definir pela Copy [VALIDAR]. Ebook/kit digital: fichas de pratos de Natal para vender + planilha + mensagens. Acesso imediato (PDF/celular).
+- Mercado: **Brasil · gateway Cakto** (decisão do dono, 2026-11-26).
 - Nicho e sub-nicho: renda extra com comida caseira → ceia de Natal por encomenda.
-- Preço / parcelamento: **R$ 19,90** (concorrentes a R$ 27,90; regra de reposicionar para baixo) [VALIDAR]. Order bump e upsell abaixo.
-- Promessa principal: recomendação do time — **"Venda a ceia do dia 24 e o almoço do dia 25 e fature duas vezes no mesmo Natal, sabendo quanto cobrar por cada prato"** [VALIDAR — alternativa: só ceia do dia 24].
+- Preço / parcelamento: **R$ 19,90** [VALIDAR]. Referência: Ceia Lucrativa cobra R$ 17,90 (básico, 50 fichas) e R$ 27,90 (completo) — para não perder na comparação, entregar **50+ fichas** ou mostrar um valor que o concorrente não tem (ver seção 6).
+- Promessa principal (recomendação do comitê): **"Venda a ceia de Natal sabendo quanto cobrar, quanto fazer e quantos pedidos aceitar — sem virar a cozinheira que deixou os clientes sem ceia"** [VALIDAR]. Almoço do dia 25 como **bônus/ângulo de criativo** (cardápio separado, produção e limite próprios — nunca "vender a sobra da ceia"); se o dono quiser ousadia, pode virar carro-chefe ("Natal em Dobro") [DECISÃO DO DONO].
 - Prazo comercial: vender até ~10/12 (as encomendas da aluna fecham ~15/12; entrega 23/24 e 25).
 
 ## 2. Avatar
@@ -16,17 +17,19 @@
 - Desejo: fechar dezembro com dinheiro (contas de fim de ano, presentes, começo do ano) usando o que já sabe fazer.
 - O que já tentou: doces de Natal, panetone, cestas (o que os guias empurram).
 - Objeções: "e se eu não der conta?"; "ainda dá tempo?"; "receita tem de graça no YouTube"; "na minha cidade ninguém paga isso"; "e se o cliente desistir?".
-- Frases reais: "Não fiz e não farei mais ceia." / "Muito estresse desnecessário" (Roseli, via g1 — setelagoas.com.br); "Pedir 50% de sinal via Pix no pedido protege você do cliente que desiste no dia 23." (guardardinheiro.com.br); "uma boa média é cobrar três vezes o valor que você gastou" (ecommercenapratica.com). Sem comentários públicos de redes [lacuna].
+- Frases reais (público): "Não fiz e não farei mais ceia." / "Muito estresse desnecessário" / "Só volto em janeiro." (Roseli, via g1 — https://setelagoas.com.br/noticias/brasil/75894-cozinheira-que-virou-meme-ao-deixar-clientes-sem-ceia-no-ultimo-natal-tira-ferias-de-fim-de-ano/). Sem comentários públicos de redes [lacuna].
+- Prova de método (guias, não voz do público): "Pedir 50% de sinal via Pix no pedido protege você do cliente que desiste no dia 23." (guardardinheiro.com.br); "uma boa média é cobrar três vezes o valor que você gastou" (ecommercenapratica.com).
 
 ## 3. Mecanismo
 - Problema: quem cozinha bem perde dinheiro (ou desiste) porque precifica no olho, aceita pedido sem limite e sem sinal, e deixa tudo para os dias 23–24.
-- Solução: **fichas "prato pronto para vender"** — cada prato com quantidade por nº de pessoas, custo, preço (custo × 2,5–3) e lucro + **calendário de encomendas** (abre já, fecha 15/12, sinal de 50%, limite de pedidos por dia) + **dupla data**: ceia do dia 24 e almoço do dia 25 (a mesma produção, dois dias de venda) [VALIDAR].
+- Solução: **fichas "prato pronto para vender"** — cada prato com quantidade por nº de pessoas, custo, preço (custo × 2,5–3) e lucro + **calendário de encomendas** (abre já, fecha 15/12, sinal de 50%, limite de pedidos por dia) + almoço do dia 25 como cardápio separado (produção e limite próprios) [VALIDAR].
 - Nome do mecanismo: a definir pela Copy (ex.: "Natal em Dobro" [VALIDAR]).
 
 ## 4. Provas
+> Aviso: números vindos de trechos de busca — conferir na página original antes de usar literalmente na copy. Nenhum relato verificado de faturamento: **não inventar depoimento**.
 - Preços reais de mercado: kit ceia R$ 179–479,90 (padaria Natal/RN 2025); R$ 299 p/ 6–8 pessoas = R$ 37,38/pessoa (Recife); chester ~3,5 kg vendido R$ 300–360; tender caseiro com farofa R$ 350; salpicão R$ 50–85/kg; rabanada R$ 52,90–74/kg; ceia pronta de mercado/restaurante R$ 219–1.860.
 - Custos (dez/2025): chester ~R$ 34/kg, peru ~R$ 32/kg, pernil R$ 18–40/kg, tender R$ 54–80/kg; bacalhau +23% a +84% (evitar).
-- Conta-exemplo (ticket e margem com fonte; volume = hipótese): 20 kits × R$ 299 = R$ 5.980; custo (markup 2,5–3) R$ 2.000–2.400 → **lucro bruto ~R$ 3.600–4.000**, e o sinal de 50% paga as compras. Kits com pernil cabem melhor na margem que com chester inteiro.
+- Conta-exemplo (ticket e margem com fonte; volume [VALIDAR]), **antes de gás, embalagem e entrega**: iniciante com limite de pedidos — 8 a 10 kits × R$ 299 = R$ 2.392–2.990 de faturamento → lucro bruto ~R$ 1.400–2.000; quem já vende — 20 kits = R$ 5.980 → ~R$ 3.600–4.000. O sinal de 50% paga as compras. Kits com pernil cabem melhor na margem que com chester inteiro.
 - Autoridade: sem expert; persona sem título profissional.
 - Fontes completas: `pesquisa/2026-11-26-mecanismo-numeros.md`.
 
@@ -37,17 +40,18 @@
 - Order bump: "Cardápio de Ano Novo para vender" (~R$ 9,90) [VALIDAR]. Upsell: "Doces de Natal para vender" ou "Pack de artes para divulgar no Instagram/WhatsApp" [VALIDAR].
 
 ## 6. Concorrência e mercado
-- Ceia Lucrativa — 50 fichas, R$ 17,90/27,90, Cakto; 9 anúncios (total da página), desde 22/11 — https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=427124583817707 · https://ceialucrativa.com.br/ — já tem bônus de kits individuais ("Ceia no Pote").
-- 40 Cardápios de Ceias por Encomenda — R$ 27,90, Wiapy; desde 23/10 (total não confirmado) — https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=1412501595288204 · https://cardapios-fimdeano.vercel.app/ — para quem já cozinha para vender; sem preços prontos.
+- Ceia Lucrativa — 50 fichas, R$ 17,90/27,90; 9 anúncios (total da página), desde 22/11 (**a observar**: <14 dias, referência de página, não prova de escala) — página https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=427124583817707 · anúncio https://www.facebook.com/ads/library/?id=1401467832059940 · landing https://ceialucrativa.com.br/ · checkout https://pay.cakto.com.br/i5ebjbb_1347478. Já entrega: planilha de pedidos, kits individuais ("Ceia no Pote"), combos 4/6/8/10, posts e mensagens, embalagem/transporte, sinal de 50% — **não usar nada disso como diferencial**.
+- 40 Cardápios de Ceias por Encomenda (Receitas Fim De Ano) — R$ 27,90; **1 anúncio visto em 25/11 (no ar desde 23/10); em 26/11 a página aparece sem anúncios ativos** (dono confirmou que a Biblioteca não mostra resultado) → provável pausa; não é concorrente escalado — página https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=1412501595288204 · anúncio https://www.facebook.com/ads/library/?id=1724069343055927 · landing https://cardapios-fimdeano.vercel.app/ · checkout https://pay.wiapy.com/CniAn05HfZmv.
 - Vizinhos: Chef Seu João (Empatone Lucrativo, 55 anúncios na página); Hotmart: Natal Lucrativo (doces), Curso de Ceia de Natal e Ano Novo.
 - Ângulos saturados: "quanto cobrar por cada prato" (os dois usam), doces de Natal/panetone.
-- Pouco explorados: **almoço do dia 25**; iniciante que nunca vendeu comida; "não vire meme no dia 24" (organização e limite de pedidos).
+- Pouco explorados: **"não vire o caso Roseli"** (limite de pedidos, calendário, como dizer não) — nenhum concorrente usa; **iniciante que nunca vendeu comida** (primeiros clientes passo a passo); almoço do dia 25 só observado em duas páginas — demanda não comprovada.
 
 ## 7. Restrições
-- Promessa de renda: mostrar a conta (ticket × encomendas − custo) e "os valores variam com sua cidade"; nunca faturamento garantido.
-- Vigilância sanitária depende do município (MEI dispensado de licença em SP e RJ, mas com cadastro e boas práticas) — mencionar no produto, sem prometer que "não precisa de nada".
+- Promessa de renda: pode ser agressiva (regra de compliance 2026-11-17), mostrando a conta; não prometer na página fichas ou bônus que a Estrutura não vá entregar.
+- Vigilância sanitária depende do município (em SP capital o MEI é dispensado de licença mas faz cadastro — https://capital.sp.gov.br/documents/d/saude/perguntas-frequentes-pdf; Sebrae-MG exige boas práticas) — mencionar no produto; **não afirmar "MEI não precisa de licença"** sem fonte do município.
 - Sem "chef"/"nutricionista" falsos; persona comum.
 - Tom: próximo, de cozinha de casa, direto, com números.
 
 ## Histórico
+- [2026-11-26] revisado pelo comitê (promessa principal, escopo vs. concorrente, avisos de fonte; 40 Cardápios sem anúncios ativos).
 - [2026-11-26] criado pela Mineração (concorrentes, números reais, avatar).
