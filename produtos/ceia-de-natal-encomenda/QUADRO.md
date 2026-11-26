@@ -15,7 +15,7 @@ Mineração (dossiê) → Copy + Estrutura em paralelo (urgente)
 ## Status por área
 | Área | Status | Entrega (arquivo) | Atualizado |
 |---|---|---|---|
-| Mineração / dossiê | 🟡 | `dossie.md` | 2026-11-26 |
+| Mineração / dossiê | 🔵 aguardando decisão da promessa | `dossie.md` | 2026-11-26 |
 | Copy de Oferta (promessa, página, VSL) | ⬜ | `copy/` | — |
 | Estrutura — entregável | ⬜ | `estrutura/entregavel/` | — |
 | Estrutura — página montada | ⬜ | `estrutura/pagina/` | — |
@@ -35,4 +35,5 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 Mineração fecha o dossiê hoje (avatar + números reais). Em seguida: `/diretor-copy-oferta` (sessão Copy) e `/diretor-estrutura` (sessão Estrutura) em paralelo.
 
 ## Histórico (mais recente em cima)
-- [2026-11-26] Mineração: produto aberto; concorrentes mapeados; dossiê em andamento.
+- [2026-11-26] Mineração: dossiê pronto e revisado pelo comitê; Estrutura pode começar; Copy aguarda o dono decidir se o almoço do dia 25 é carro-chefe ou bônus.
+- [2026-11-26] Mineração: produto aberto; concorrentes mapeados.
