@@ -7,7 +7,7 @@
 ## 0. Ordem e trava de compliance
 1. **Hoje:** cadastrar os 2 produtos principais (Básico e Premium) e colar os 2 links de checkout no `CONFIG` da LP.
 2. **Os 3 bumps e o upsell são cadastrados agora, mas só ficam ATIVOS quando o material deles existir** (CDC arts. 30 e 35). Bump ligado sem material = vender o que não existe.
-3. **Os anúncios só rodam depois** que o entregável do Premium estiver pronto e da compra teste (passo 7) aprovada. Prazo da oferta: vender até ~10/12, então cada dia de atraso no entregável é um dia a menos de venda.
+3. **Os anúncios só rodam depois** que os entregáveis do **Premium e do Básico** estiverem prontos e da compra teste (passo 7) aprovada. Prazo da oferta: vender até ~10/12, então cada dia de atraso no entregável é um dia a menos de venda.
 
 ## 1. Os 2 produtos principais
 São **2 produtos separados** (não 2 ofertas do mesmo produto), porque a entrega é diferente: o Básico recebe só as 50 receitas e o Premium recebe tudo. Com 1 produto e 2 ofertas, os 2 compradores cairiam na mesma área de membros. **[CONFERIR NO PAINEL]** se a sua conta permite entrega diferente por oferta. Se permitir, pode ser 1 produto com 2 ofertas.
@@ -17,7 +17,7 @@ Caminho: **Produtos > Adicionar Produto** (3 etapas), uma vez para cada.
 | Campo | PREMIUM | BÁSICO |
 |---|---|---|
 | Nome (checkout e fatura) | `Ceia que Vende PREMIUM: 50 receitas + as 3 contas + 6 bônus` | `Ceia que Vende BÁSICO: 50 receitas de Natal para vender` |
-| Imagem (300×250) | `estrutura/pagina/img/capa.jpg` recortada | idem |
+| Imagem (300×250) | `estrutura/pagina/img/capa.jpg` recortada | `estrutura/pagina/img/capa-basico.jpg` recortada (nunca a capa do Premium) |
 | Descrição (mín. 100 caracteres) | 50 receitas de Natal para vender, com quantidade para 4, 6, 10 e 20 pessoas, custo, preço de venda e lucro em cada uma, e mais 6 bônus: Como Precificar, Almoço do Dia 25, Calendário Anti-Sufoco, Kits Prontos, Planilha de Pedidos e Sinal e Checklist da Ceia Segura. | 50 receitas de Natal para vender por encomenda: assados, acompanhamentos e sobremesas da ceia, em PDF para abrir no celular, no computador ou impresso. |
 | Pagamento único | **R$ 29,90** | **R$ 17,90** |
 | Métodos | Pix e cartão (sem boleto: a venda é até ~10/12 e o boleto leva até 3 dias para compensar) | idem |
@@ -40,7 +40,7 @@ Caminho: **Produtos > (produto) > aba Checkout > ⋯ no link > Personalizar** (v
 | Elemento | PREMIUM | BÁSICO |
 |---|---|---|
 | Banner (texto exato) | 🎄 **Ceia que Vende PREMIUM** · Você está a 1 passo de saber quanto cobrar pela sua ceia. Acesso imediato no e-mail. | 🎄 **Ceia que Vende** · Você está a 1 passo de ter as 50 receitas de Natal para vender. Acesso imediato no e-mail. |
-| Imagem do topo | `estrutura/pagina/img/mockup-oferta.jpg` (capa + 6 bônus) | `estrutura/pagina/img/capa.jpg` |
+| Imagem do topo | `estrutura/pagina/img/mockup-oferta.jpg` (capa + 6 bônus) | `estrutura/pagina/img/capa-basico.jpg` (sem selo Premium e sem "3 contas") |
 | Selo | Título `Garantia de 7 dias` · subtítulo `Compra segura` | idem |
 | Cores | verde `#0F3D2E`, botão vinho `#8C1C24` (se o construtor deixar) | idem |
 
@@ -101,7 +101,7 @@ Caminho: **Produtos > Editar Produto > Configurações Avançadas > Order Bump >
    - o login no Members abre os módulos do Premium e do bump, e os PDFs abrem no celular;
    - o **Purchase** aparece **uma vez** no Test Events do Meta, com o valor do pedido;
    - em **Minhas Vendas > detalhes**, a venda mostra `utm_source=teste`.
-4. Repetir **só o clique** no botão do Básico: confere se cai no checkout de R$ 17,90 com as UTMs.
+4. Repetir no botão do **Básico** com um Pix real de R$ 17,90: cai no checkout certo com as UTMs, e o Members abre **só** as 50 receitas (sem contas e sem bônus). Reembolsar também.
 5. Reembolsar: **Minhas Vendas > ⋯ > Reembolsar venda**. Conferir se o acesso foi revogado.
 
 ## 8. Garantia e reembolso

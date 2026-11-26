@@ -12,7 +12,7 @@
 ## 2. Premium (R$ 29,90)
 PDF principal `ceia-que-vende-premium.pdf` + os 6 bônus. Cada uma das **50 receitas** é uma ficha de 2 páginas no padrão da ficha-modelo 07:
 1. **A Conta da Quantidade:** tabela para 4, 6, 10 e 20 pessoas (quantidade do item principal e dos ingredientes que mudam).
-2. **A Conta do Preço:** custo de mercado, preço de venda e lucro para 4, 6, 10 e 20 pessoas. Regra: **preço = custo × 2,5 a 3**, arredondado para final 0, 5 ou 9; nota com a data e a base do custo ("preços de referência de novembro/2026; ajuste para a sua cidade").
+2. **A Conta do Preço:** custo de mercado, preço de venda e lucro para 4, 6, 10 e 20 pessoas, mais a linha **"preço mínimo (custo × 2,5)"** e o campo **"Seu custo na sua cidade: R$ ___ × 2,5 = preço mínimo R$ ___"** (a FAQ promete "você vê o lucro mínimo antes de dizer o preço"). Regra: **preço = custo × 2,5 a 3**, arredondado para final 0, 5 ou 9; nota com a data e a base do custo ("preços de referência de novembro/2026; ajuste para a sua cidade").
 3. Ingredientes e preparo para 10 pessoas.
 4. **A Conta do Limite:** caixa com o limite de forno/fogão daquele prato (ex.: "1 forno doméstico assa até 2 pernis de 4 kg por fornada").
 
@@ -30,7 +30,7 @@ Abertura do PDF: "Comece aqui: as 3 contas em 5 minutos" (1 página) e índice p
 |---|---|---|---|
 | 1 | Como Precificar | A conta do preço passo a passo incluindo **gás, embalagem e a hora de trabalho**; como cobrar mais sem perder cliente | PDF 8–12 p. |
 | 2 | Almoço do Dia 25 | Cardápio próprio do dia 25 (6–8 pratos, reaproveitando compras), **produção e limite separados** da ceia, com as 3 contas | PDF 10–14 p. |
-| 3 | Calendário Anti-Sufoco | 26/11 a 25/12: 1º/12 abrir pedidos · sinal de 50% em cada pedido · 15/12 fechar · 21/12 compras · 22–23 pré-preparo · 24 produção e entregas · 25 almoço; caixa "Meu limite de pedidos por dia de entrega" | PDF 2–3 p. (igual à imagem) |
+| 3 | Calendário Anti-Sufoco | **Uma ação para cada dia de 26/11 a 25/12** (a FAQ diz "diz o que fazer a cada dia"), agrupada nas fases: abrir as encomendas no dia da compra (até 1º/12) · sinal de 50% em cada pedido · 15/12 fechar · 21/12 compras · 22–23 pré-preparo · 24 produção e entregas · 25 almoço; caixa "Meu limite de pedidos por dia de entrega" | PDF 3–4 p. (fases como na imagem + lista dia a dia) |
 | 4 | Kits Prontos de 4 a 20 Pessoas | Kit 4 (70/189/119) · Kit 6 a 8 (110/299/189, destaque) · Kit 10 (160/429/269) · Kit 20 (300/799/499), com os pratos de cada kit e a mensagem de WhatsApp de cada um | PDF 4–6 p. |
 | 5 | Planilha de Pedidos e Sinal | Google Sheets com "Fazer uma cópia": abas **Pedidos** (cliente, kit, valor, sinal 50%, saldo, data/hora de entrega, status), **Lista de compras** (soma automática por ingrediente a partir dos pedidos) e **Resumo** (total vendido, sinal recebido, a receber) | Sheets + PDF de 1 p. "como usar" |
 | 6 | Checklist da Ceia Segura | Refrigerar em até 2 h · reaquecer a 75 °C · etiqueta com validade · transporte · e **o que perguntar na prefeitura/vigilância sanitária** (sem dizer que MEI dispensa licença) | PDF 3–4 p. |
@@ -40,7 +40,7 @@ Abertura do PDF: "Comece aqui: as 3 contas em 5 minutos" (1 página) e índice p
 |---|---|
 | Como Conseguir Seus 10 Primeiros Clientes (R$ 12,90) | Quem avisar primeiro (lista de 30 contatos quentes), onde divulgar (status, grupos do bairro, condomínio, igreja, Marketplace), 7 posts/stories prontos, plano de 7 dias. "10 primeiros" é meta, não garantia. PDF 10–12 p. |
 | Mensagens que Fecham Pedido (R$ 7,90) | Mensagens de copiar e colar: abrir encomendas, cardápio com preço, cobrar sinal, responder "tá caro?", confirmar pedido, lembrete de retirada/entrega, pós-venda e pedido de indicação. Mínimo 25 mensagens. PDF ou Docs. |
-| Ceias de R$ 400+ (R$ 14,90) | 10 pratos premium (sem bacalhau) com as 3 contas, kit premium para 8 a 10 pessoas na faixa de R$ 450 a R$ 580, como apresentar (embalagem, cartão) e para quem oferecer. Referência citada: R$ 579,90 para 8–10 pessoas (Campo Grande, dossiê). PDF 12–16 p. |
+| Ceias de R$ 400+ (R$ 14,90) | 10 pratos premium (sem bacalhau) com as 3 contas, kit premium para 8 a 10 pessoas na faixa de R$ 450 a R$ 580, como apresentar (embalagem, cartão) e para quem oferecer. Referência citada: R$ 579,90 para 8–10 pessoas (Campo Grande, `pesquisa/2026-11-26-mecanismo-numeros.md`). PDF 12–16 p. |
 
 ## 6. Upsell · Ceia de Ano Novo (R$ 19,90)
 Os 4 itens do "O que vem", todos obrigatórios: cardápio de Ano Novo para vender (pratos e kits do dia 31) · as 3 contas em cada prato · calendário de 26 a 31/12 com abrir/fechar pedidos · mensagem para oferecer a ceia de Ano Novo a quem comprou a de Natal. PDF 15–20 p. no padrão das fichas.

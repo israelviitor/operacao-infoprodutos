@@ -86,5 +86,6 @@ salvar(L('kits'), 'kits-prontos', 900)
 salvar(L('calendario'), 'calendario-anti-sufoco', 900)
 salvar(L('planilha'), 'planilha-pedidos', 1000)
 salvar(capa, 'capa', 600)
+salvar(L('capa-basico'), 'capa-basico', 600)
 for i, img in enumerate(b, 1):
     salvar(img, f'bonus-{i}', 420)

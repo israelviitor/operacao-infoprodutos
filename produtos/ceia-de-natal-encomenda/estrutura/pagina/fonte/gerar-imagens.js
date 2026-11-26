@@ -144,6 +144,9 @@ const planilha = `<div class="sheet" id="planilha"><div class="barra"><span>📄
 const capa = `<div class="capa" id="capa"><div class="estrela">★</div><div class="fitas"></div><div class="marca">CEIA QUE VENDE</div>
   <h1>Ceia<br>que <em>Vende</em></h1><p class="s">50 receitas de Natal para vender por encomenda, com as 3 contas prontas: quanto fazer, quanto cobrar e quantos pedidos aceitar.</p>
   <div class="tag">PREMIUM</div></div>`;
+const capaBasico = `<div class="capa" id="capa-basico"><div class="estrela">★</div><div class="fitas"></div><div class="marca">CEIA QUE VENDE</div>
+  <h1>Ceia<br>que <em>Vende</em></h1><p class="s">50 receitas de Natal para vender por encomenda.</p>
+  <div class="tag">BÁSICO</div></div>`;
 const BONUS = [
   ['Como Precificar', 'A conta do preço passo a passo, com gás, embalagem e a sua hora.'],
   ['Almoço do Dia 25', 'Um cardápio próprio para vender de novo no dia 25.'],
@@ -154,21 +157,23 @@ const BONUS = [
 ];
 const bonus = BONUS.map((b, i) => `<div class="bonus" id="bonus${i + 1}"><div class="faixa">BÔNUS</div><div class="n">BÔNUS ${i + 1} · PREMIUM</div><h1>${b[0]}</h1><p>${b[1]}</p><div class="rod">CEIA QUE VENDE</div></div>`).join('');
 
-const html = `<!doctype html><html><head><meta charset="utf-8"><style>${CSS}</style></head><body style="padding:20px;display:grid;gap:40px">${ficha}${kits}${cal}${planilha}${capa}${bonus}</body></html>`;
+const html = `<!doctype html><html><head><meta charset="utf-8"><style>${CSS}</style></head><body style="padding:20px;display:grid;gap:40px">${ficha}${kits}${cal}${planilha}${capa}${capaBasico}${bonus}</body></html>`;
 
 (async () => {
   const b = await chromium.launch();
   const p = await b.newPage({ viewport: { width: 1100, height: 1200 }, deviceScaleFactor: 1.5 });
   await p.setContent(html, { waitUntil: 'load' });
-  for (const id of ['ficha', 'kits', 'calendario', 'planilha', 'capa', ...BONUS.map((_, i) => 'bonus' + (i + 1))]) {
+  for (const id of ['ficha', 'kits', 'calendario', 'planilha', 'capa', 'capa-basico', ...BONUS.map((_, i) => 'bonus' + (i + 1))]) {
     await (await p.$('#' + id)).screenshot({ path: path.join(TMP, id + '.png') });
   }
   // recortes da ficha: quantidades e custo × preço × lucro
-  const ficha = await p.$('#ficha');
-  const box = await ficha.boundingBox();
-  const h2s = await p.$$eval('#ficha h2', (hs) => hs.map((h) => h.getBoundingClientRect().top + window.scrollY));
-  await p.screenshot({ path: path.join(TMP, 'ficha-quantidade.png'), clip: { x: box.x, y: box.y, width: box.width, height: h2s[1] - box.y } });
-  await p.screenshot({ path: path.join(TMP, 'ficha-preco.png'), clip: { x: box.x, y: h2s[1] - 20, width: box.width, height: h2s[2] - h2s[1] } });
+  // coordenadas da página inteira (fullPage), medidas no mesmo instante
+  const m = await p.$eval('#ficha', (f) => {
+    const y = window.scrollY, r = f.getBoundingClientRect();
+    return { x: r.left + window.scrollX, top: r.top + y, w: r.width, h2: [...f.querySelectorAll('h2')].map((h) => h.getBoundingClientRect().top + y) };
+  });
+  await p.screenshot({ fullPage: true, path: path.join(TMP, 'ficha-quantidade.png'), clip: { x: m.x, y: m.top, width: m.w, height: m.h2[1] - m.top - 10 } });
+  await p.screenshot({ fullPage: true, path: path.join(TMP, 'ficha-preco.png'), clip: { x: m.x, y: m.h2[1] - 20, width: m.w, height: m.h2[2] - m.h2[1] } });
   await b.close();
   console.log('ok  imagens em', TMP);
 })();

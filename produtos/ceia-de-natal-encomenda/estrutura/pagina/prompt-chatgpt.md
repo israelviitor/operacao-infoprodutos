@@ -4,7 +4,7 @@
 > Copy: `copy/pagina-vendas.md` (texto exato, revisado pelo comitê). Os [CONFIRMAR] da copy foram resolvidos pela especificação do entregável (`estrutura/entregavel/ESPECIFICACAO.md`): tudo o que a página promete entra no produto.
 
 ## O que você (dono) faz
-1. Baixe `estrutura/pagina/pacote-imagens-ceia-que-vende.zip`. Ele tem a pasta `img/` com as 14 imagens da página: mockups, ficha do pernil, kits, calendário, planilha, capa e os 6 bônus.
+1. Baixe `estrutura/pagina/pacote-imagens-ceia-que-vende.zip`. Ele tem a pasta `img/` com as 15 imagens da página: mockups, ficha do pernil, kits, calendário, planilha, as capas e os 6 bônus.
 2. Abra uma conversa nova no ChatGPT, **anexe o .zip** e cole tudo o que está entre as linhas "INÍCIO DO PROMPT" e "FIM DO PROMPT".
 3. Quando tiver os links da Cakto e o ID do Pixel, troque os 3 campos `[CHECKOUT BÁSICO]`, `[CHECKOUT PREMIUM]` e `[PIXEL]` (o ChatGPT vai te pedir). Dá para publicar antes, e os botões de compra só rolam até a oferta.
 4. Mande o link publicado para a sessão de Estrutura fazer a auditoria (botões, UTMs, preço, velocidade).
@@ -55,6 +55,7 @@ Quero que você monte e publique uma landing page de venda no v0/Vercel que voc�
 | `planilha-pedidos.jpg` | Bloco 3, página 5, e bônus 5 | Print da Planilha de Pedidos e Sinal |
 | `mockup-oferta.jpg` | Bloco 11 (card Premium) | Capa do Premium na frente e os 6 bônus em leque |
 | `capa.jpg` | Reserva (se precisar de uma capa sozinha) | Capa do Premium |
+| `capa-basico.jpg` | Reserva (não usar no card Premium) | Capa do Básico, sem selo Premium |
 | `bonus-1.jpg` a `bonus-6.jpg` | Bloco 10, um em cada bônus | Capa de cada bônus |
 
 **Imagem que você mesmo cria (bloco 16):** foto realista de uma **mesa de ceia de Natal posta**, vista de cima, num ambiente de casa brasileira: pernil assado fatiado numa travessa, arroz à grega, farofa, salpicão, rabanadas, velas acesas, guardanapos vermelhos e detalhes dourados. Luz quente de fim de tarde. **Sem pessoas e sem rostos**, sem texto, sem logos e sem marcas. Formato 4:3, leve (até 150 KB).
@@ -108,7 +109,7 @@ if (ok(CONFIG.pixel)) {
 
 ---
 
-**BLOCO 1 · PRIMEIRA DOBRA** *[layout: tudo visível sem rolar em 390 × 844, na ordem abaixo. Faixa fina no topo, depois a headline, a subheadline, o mockup com no máximo ~220 px de altura no celular, os 3 bullets e o botão. No computador: texto à esquerda e mockup à direita.]*
+**BLOCO 1 · PRIMEIRA DOBRA** *[layout: tudo visível sem rolar em 390 × 844, na ordem abaixo. Dentro da dobra, espaço de 8 a 12 px entre os elementos (o espaço de 40 a 56 px é só entre blocos); headline 30 px; mockup com até 200 px de altura; conte a barra do Safari. Faixa fina no topo, depois a headline, a subheadline, o mockup com no máximo ~220 px de altura no celular, os 3 bullets e o botão. No computador: texto à esquerda e mockup à direita.]*
 - Faixa do topo *[vermelho-vinho, texto creme, 13–14 px]*: 🎄 Encomendas de Natal fecham por volta de 15/12. Quem abre primeiro pega os clientes.
 - Headline *[Playfair, verde-pinheiro; "paga o seu dezembro" pode ter um sublinhado dourado]*: **Faça a ceia de Natal que paga o seu dezembro.**
 - Subheadline: 50 receitas de Natal com as **3 contas prontas**: quanto fazer, quanto cobrar e quantos pedidos aceitar.
@@ -139,7 +140,6 @@ if (ok(CONFIG.pixel)) {
 - Item 3: `kits-prontos.jpg`. Legenda: Kits prontos de 4 a 20 pessoas, com o preço do combo fechado.
 - Item 4: `calendario-anti-sufoco.jpg`. Legenda: O calendário que diz quando abrir, quando fechar e quantos pedidos cabem por dia.
 - Item 5: `planilha-pedidos.jpg`. Legenda: A planilha que mostra quem pagou o sinal e quanto falta receber.
-- *[texto pequeno abaixo do carrossel]*: Arraste para o lado →
 - Botão → `#oferta`: **QUERO AS FICHAS PRONTAS**
 
 ---
@@ -211,7 +211,7 @@ if (ok(CONFIG.pixel)) {
 **BLOCO 11 · OFERTA** (`id="oferta"`) *[fundo verde-pinheiro. Título em creme. Os 2 cards LADO A LADO no computador, com o Premium MAIOR e destacado. No celular, o Premium vem em cima e o Básico embaixo. O card Premium, os 2 botões e os selos precisam ficar no mesmo campo visual, sem rolar para achar o botão do Premium.]*
 - Título: Escolha como você quer vender este Natal
 
-**Card PREMIUM** *[fundo creme, borda dourada de 3 px, sombra; selo "RECOMENDADO" em vermelho-vinho no topo do card; imagem `mockup-oferta.jpg` no topo do card]*
+**Card PREMIUM** *[fundo creme, borda dourada de 3 px, sombra; selo "RECOMENDADO" em vermelho-vinho no topo do card; imagem `mockup-oferta.jpg` no topo do card com até 160 px de altura no celular; lista de ✔ compacta (15 px, espaço de 4 px entre itens); padding interno de 16 px. Do selo até o botão, o card cabe numa tela de 844 px]*
 - Selo: **RECOMENDADO**
 - Nome: **Ceia que Vende PREMIUM**
 - ✔ 50 receitas de Natal para vender
@@ -240,7 +240,7 @@ if (ok(CONFIG.pixel)) {
 - Preço: **R$ 17,90**
 - Botão *[class="checkout-basico", estilo contorno]*: **QUERO SÓ AS RECEITAS**
 
-*[linha de selos logo abaixo dos botões, ícones pequenos]*: 🔒 Compra segura · ⚡ Acesso imediato no e-mail · 💳 Pix ou cartão · ✅ Garantia de 7 dias
+*[linha de selos, ícones pequenos, logo abaixo do botão do Premium e repetida abaixo do botão do Básico]*: 🔒 Compra segura · ⚡ Acesso imediato no e-mail · 💳 Pix ou cartão · ✅ Garantia de 7 dias
 
 ---
 
@@ -286,7 +286,6 @@ if (ok(CONFIG.pixel)) {
 **BLOCO 17 · RODAPÉ** *[letra pequena, fundo verde-pinheiro, sem botão]*
 - Ceia que Vende · Contato: [E-MAIL DE SUPORTE] · Termos de uso (link `termos.html`) · Política de privacidade (link `privacidade.html`)
 - Resultados dependem do seu preço, custos e número de pedidos. Este produto não garante faturamento.
-- Este site não faz parte do Facebook nem da Meta Platforms, Inc.
 
 ### 6. Campos que eu vou te passar (me peça antes de publicar, e troque só estes)
 - `[CHECKOUT BÁSICO]` e `[CHECKOUT PREMIUM]`: links da Cakto, no `CONFIG` do script.
@@ -296,7 +295,7 @@ if (ok(CONFIG.pixel)) {
 
 ### 7. Textos das páginas legais
 **termos.html** (título: Termos de uso · Última atualização: [DATA])
-1. **O produto.** Ceia que Vende é um material digital em PDF, vendido por [RESPONSÁVEL], contato [E-MAIL DE SUPORTE]. O plano Básico tem 50 receitas de Natal para vender. O plano Premium tem as 50 receitas com quantidade para 4, 6, 10 e 20 pessoas, custo, preço de venda e lucro de cada uma, e mais 6 bônus.
+1. **O produto.** Ceia que Vende é um material digital (PDFs e planilha), vendido por [RESPONSÁVEL], contato [E-MAIL DE SUPORTE]. O plano Básico tem 50 receitas de Natal para vender. O plano Premium tem as 50 receitas com quantidade para 4, 6, 10 e 20 pessoas, custo, preço de venda e lucro de cada uma, e mais 6 bônus.
 2. **Entrega.** Depois que o pagamento é aprovado pela Cakto, o acesso é enviado ao e-mail informado na compra. Se não chegar, confira a caixa de spam e escreva para [E-MAIL DE SUPORTE].
 3. **Licença.** A compra dá uma licença pessoal. Você pode usar as receitas, os preços e as planilhas no seu próprio negócio. Não é permitido revender, compartilhar ou publicar os arquivos.
 4. **Garantia e reembolso.** Você tem 7 dias, contados da compra, para pedir o reembolso por qualquer motivo, conforme o art. 49 do Código de Defesa do Consumidor. Peça em [E-MAIL DE SUPORTE] ou pela própria Cakto, no link do e-mail de compra. Devolvemos 100% do valor pago, pelo mesmo meio de pagamento, e o acesso é encerrado.
@@ -320,7 +319,8 @@ if (ok(CONFIG.pixel)) {
 4. Só os 2 botões do bloco 11 levam ao checkout; os outros rolam até `#oferta`.
 5. Abrindo `/?utm_source=teste&utm_campaign=x` (com os links já preenchidos), os 2 botões do bloco 11 levam ao checkout certo com `utm_source=teste&utm_campaign=x` no fim.
 6. Os preços são R$ 29,90 (Premium) e R$ 17,90 (Básico).
-7. As 14 imagens do .zip carregam, e a do bloco 16 não tem pessoas.
+7. As imagens do .zip carregam **e mostram o conteúdo descrito na tabela da seção 3** (a ficha do pernil aparece nos itens 1 e 2 do carrossel), e a do bloco 16 não tem pessoas.
+10. No celular (390 × 844), o card Premium do bloco 11, do selo RECOMENDADO até o botão **QUERO O PREMIUM**, cabe numa tela só, sem rolar.
 8. A página tem menos de 1,5 MB e abre rápido no celular.
 9. `termos.html` e `privacidade.html` abrem pelo rodapé.
 
