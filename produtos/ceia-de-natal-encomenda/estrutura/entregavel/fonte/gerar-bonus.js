@@ -68,7 +68,7 @@ function precificar() {
   + pag('COBRAR MAIS SEM PERDER CLIENTE', `<h1>Como cobrar mais sem perder cliente</h1>
   <p class="sub">O cliente de Natal não compara centavos: compara tranquilidade. Estes 8 jeitos aumentam o valor de cada pedido.</p>
   <div class="etapas miuda">
-  ${etapa(1, 'Venda o kit, não o prato', '<p>Quem pede só o pernil para 10 leva ${brl(c.preco)}. Quem pede o kit leva arroz, farofa e sobremesa junto. Os Kits Prontos (bônus 4) já vêm com o preço do combo.</p>')}
+  ${etapa(1, 'Venda o kit, não o prato', `<p>Quem pede só o pernil para 10 leva ${brl(c.preco)}. Quem pede o kit leva arroz, farofa e sobremesa junto. Os Kits Prontos (bônus 4) já vêm com o preço do combo.</p>`)}
   ${etapa(2, 'Ofereça 3 tamanhos', '<p>Mostre o kit de 4, o de 6 a 8 e o de 10. Com 3 opções, a maioria escolhe o do meio, e quem ia pedir o pequeno muitas vezes sobe um tamanho.</p>')}
   ${etapa(3, 'Tenha adicionais prontos', '<p>"Quer acrescentar uma travessa de pavê por R$ 70?" Sobremesa, molho extra e pão de alho são vendas que quase todo mundo aceita.</p>')}
   ${etapa(4, 'Cobre a entrega à parte', '<p>Defina uma taxa por bairro (ex.: R$ 10 perto, R$ 20 longe). Retirada é grátis. Assim o preço do kit não sobe.</p>')}
@@ -100,7 +100,7 @@ function almoco() {
   return doc('Bônus 2 · Almoço do Dia 25', capaB(2, 'Almoço<br>do <em>Dia 25</em>', 'Um cardápio próprio para vender de novo no dia 25, com produção e limite separados da ceia.')
   + pag('ALMOÇO DO DIA 25', `<h1>O Natal tem 2 refeições. Venda as 2.</h1>
   <p class="sub">No dia 25, muita família acorda sem vontade de cozinhar de novo. É um segundo pedido no mesmo Natal, para clientes que você já tem.</p>
-  <div class="etapas">${etapa(1, 'Cardápio diferente da ceia', '<p>Pratos que <b>não disputam o forno do dia 24</b>: os de forno são montados no dia 23 e só vão ao forno na manhã do dia 25.</p>')}${etapa(2, 'Produção separada', '<p>O almoço tem a própria lista de compras, o próprio dia de montagem e o próprio horário de entrega (11h às 13h).</p>')}${etapa(3, 'Limite separado', '<p>O almoço tem o seu limite de pedidos, contado à parte do limite da ceia. Começou o almoço sem ter terminado as entregas do dia 24? Então o limite está alto demais.</p>')}</div>
+  <div class="etapas">${etapa(1, 'Cardápio diferente da ceia', '<p>Pratos que <b>não disputam o forno do dia 24</b>: os de forno são montados no dia 23 e só vão ao forno na manhã do dia 25.</p>')}${etapa(2, 'Produção separada', '<p>O almoço tem a própria lista de compras, o próprio dia de montagem e o próprio horário de entrega (10h30 às 13h30).</p>')}${etapa(3, 'Limite separado', '<p>O almoço tem o seu limite de pedidos, contado à parte do limite da ceia. Começou o almoço sem ter terminado as entregas do dia 24? Então o limite está alto demais.</p>')}</div>
   <div class="box vinho"><b>Nunca venda sobra da ceia no almoço.</b> O almoço é feito com ingredientes comprados para ele. Comida que voltou de entrega ou ficou exposta não se revende.</div>`)
   + pag('O CARDÁPIO', `<h1>O cardápio do dia 25</h1><p class="sub">8 pratos das suas fichas. Os de forno são montados no dia 23 e assados no dia 25; saladas, farofa e salada de frutas são feitas na manhã do dia 25.</p>
   ${tabela(['Ficha', 'Prato', 'Custo (10 p.)', 'Preço (10 p.)', 'Lucro'], linhas, -1, [2, 3, 4])}
@@ -116,21 +116,21 @@ function almoco() {
     ['23/12 · manhã', 'Cozinhe o pernil desfiado e guarde na geladeira. Faça o pudim de pão (precisa de 4 h de geladeira).'],
     ['23/12 · tarde', 'Monte a lasanha e o arroz de forno nos refratários, tampe e leve à geladeira. Etiqueta: "almoço 25".'],
     ['24/12', '<b>Dia da ceia: não mexa no almoço.</b> Só confirme os pedidos e horários do dia 25 por mensagem.'],
-    ['25/12 · 7h', 'Farofa de banana, saladas e salada de frutas (vão para a geladeira assim que prontas).'],
-    ['25/12 · 8h30', 'Leva 1 no forno: 2 refratários (lasanha ou arroz de forno). Sai às 10h10 → <b>entregas das 10h30 às 12h</b>.'],
-    ['25/12 · 10h10', 'Leva 2 no forno. Sai às 11h50 → <b>entregas das 12h às 13h30</b>. Pernil desfiado: reaqueça até ferver na saída de cada leva.'],
+    ['25/12 · 7h', 'Legumes assados (1 receita = 2 assadeiras, 40 min). Esfriou, vai para a geladeira: são entregues gelados. Depois: farofa de banana, saladas e salada de frutas, que também vão para a geladeira assim que prontas.'],
+    ['25/12 · 9h', 'Leva 1 no forno: 2 refratários (lasanha ou arroz de forno). Sai às 10h → <b>entregas das 10h30 às 12h</b>.'],
+    ['25/12 · 11h', 'Leva 2 no forno. Sai às 12h → <b>entregas das 12h às 13h30</b>. Pernil desfiado: reaqueça até ferver na saída de cada leva.'],
     ['Na entrega', 'Bolsa térmica, quente separado do frio. Cada prato quente chega em <b>até 2 h depois de sair do forno</b>. Receba o saldo na entrega.'],
   ])}
   <div class="box"><b>Por que em levas:</b> comida pronta fica no máximo 2 horas fora da geladeira, do forno até a mesa do cliente. Cada leva tem o seu horário de entrega. Não dá para entregar tudo no horário? Entregue o refratário <b>montado e gelado</b>, com o cartão "asse a 200 °C por 50 min, coberto, e mais 10 min descoberto".</div>
-  <div class="box verde"><b>Quanto forno cada leva pede:</b> 1 h 40 com 2 refratários (lasanha 50 min; arroz de forno 30 min). Os legumes assados ocupam 2 assadeiras e 40 min por receita: asse antes, às 7h, e entregue frios ou mornos dentro das 2 horas.</div>`)
+  <div class="box verde"><b>Quanto forno cada leva pede:</b> 1 h com 2 refratários juntos (a lasanha leva 50 min coberta + 10 min descoberta; o arroz de forno sai em 30 min). Os legumes assados vão gelados, com o cartão "aqueça 10 min no forno a 200 °C ou sirva em temperatura ambiente".</div>`)
   + pag('O LIMITE DO DIA 25', `<h1>A Conta do Limite do almoço</h1>
   <p class="sub">Faça esta conta antes de oferecer o almoço. Ela é separada da conta da ceia.</p>
-  ${tabela(['Pergunta', 'Exemplo (1 forno)'], [['Levas de forno até o último horário de entrega (8h30 às 11h50)', '2 levas'], ['Refratários por leva', '2'], ['Almoço Clássico (1 refratário de arroz de forno por pedido)', '2 × 2 = <b>4 pedidos</b>'], ['Almoço de Forno (lasanha + 2 assadeiras de legumes por pedido)', '<b>2 pedidos</b> (os legumes de 2 pedidos já ocupam a fornada das 7h)'], ['<b>Limite do almoço</b>', '<b>4 Clássicos, ou 2 Clássicos + 1 de Forno</b>']], 4)}
+  ${tabela(['Pergunta', 'Exemplo (1 forno)'], [['Levas de forno (9h e 11h)', '2 levas'], ['Refratários por leva', '2 → <b>4 refratários</b> no total'], ['Almoço Clássico', '1 refratário (arroz de forno) por pedido'], ['Almoço de Forno', '1 refratário (lasanha) + 1 receita de legumes, que ocupa sozinha a fornada das 7h → <b>no máximo 1 por dia</b>'], ['<b>Limite do almoço</b>', '<b>4 Clássicos, ou 3 Clássicos + 1 de Forno</b>']], 4)}
   <p class="nota">Exemplo com 1 forno doméstico. Combos só com pernil desfiado e saladas não usam forno: o limite deles é a geladeira e o tempo de entrega.</p>
   <div class="box verde">Minhas horas de forno livres no dia 25: <span class="campo"></span> · Levas: <span class="campo"></span> · <b>Meu limite de almoços:</b> <span class="campo"></span> pedidos</div>
   <h2>Mensagem para oferecer o almoço</h2>
   <div class="msg">Oi, [nome]! Sua ceia do dia 24 está confirmada 🎄
-  E no dia 25? Estou fazendo o Almoço do Dia 25 para quem não quer cozinhar de novo: lasanha, arroz de forno, saladas e sobremesa para 10 pessoas, entregue entre 11h e 13h.
+  E no dia 25? Estou fazendo o Almoço do Dia 25 para quem não quer cozinhar de novo: lasanha, arroz de forno, saladas e sobremesa para 10 pessoas, entregue entre 10h30 e 13h30.
   São poucas vagas, porque faço tudo em casa. Quer que eu reserve a sua?</div>
   <div class="box">Ofereça primeiro a quem já pediu a ceia: é o cliente mais fácil de fechar.</div>`));
 }
@@ -160,7 +160,7 @@ const DIAS = [
   ['15/12', '<b>Feche as encomendas.</b> Pedido depois disso só se couber no seu limite.', 'alerta'],
   ['16/12', 'Monte o roteiro de entregas: horário e bairro de cada pedido.'],
   ['17/12', 'Gere a lista de compras pela planilha (aba "Lista de compras").'],
-  ['18/12', 'Compre o que não estraga: arroz, farinhas, latas, chocolate, embalagens. Trufas podem ser feitas a partir do dia 15.'],
+  ['18/12', 'Compre o que não estraga: arroz, farinhas, latas, chocolate, embalagens. Trufas já podem ser feitas (desde o dia 15).'],
   ['19/12', 'Limpeza geral da geladeira e do freezer. Separe o espaço de cada pedido.'],
   ['20/12', 'Confirme cada pedido por mensagem: prato, horário, endereço e saldo. Panetone e brownie podem ser feitos a partir de hoje.'],
   ['21/12', 'Compras de carne, frios e hortifrúti. Carne congelada começa a descongelar <b>na geladeira</b> hoje.'],
@@ -186,7 +186,7 @@ function calendario() {
   <div class="box verde" style="margin:0 0 3mm"><b>Comprou depois de 1º/12?</b> Faça hoje as tarefas de 26/11 a 1º/12 (cardápio, preços, kits e limite) e abra as encomendas amanhã. Depois, siga o calendário a partir da data de hoje.</div>
   ${dia(['26/11', 'Escolha os pratos e os kits, confira os preços e monte o cardápio.', '', '26 a 30/11'])}
   ${dia(['1º/12', '<b>Abra as encomendas no dia em que comprou este material</b> (até 1º/12, no máximo).', 'ouro'])}
-  ${dia(['2/12', 'Cada pedido só entra com <b>50% de sinal no Pix</b>. Anote na planilha.', '', '1º a 15/12'])}
+  ${dia(['1º/12', 'Cada pedido só entra com <b>50% de sinal no Pix</b>. Anote na planilha.', '', '1º a 15/12'])}
   ${dia(['15/12', '<b>Feche as encomendas.</b>', 'alerta'])}
   ${dia(['16/12', 'Confirme cada pedido, horário e saldo. Compre o que não estraga.', '', '16 a 20/12'])}
   ${dia(['21/12', 'Compras de carne e hortifrúti.'])}
@@ -265,7 +265,7 @@ function checklist() {
   <h2>No cozimento</h2>${lista(['Aves: **74 °C** no centro (caldo da coxa transparente).', 'Carne suína: **71 °C** no centro.', 'Maionese sempre **industrializada**, nunca caseira com ovo cru.', 'Sobremesas com ovo (pudim, pavê, cremes): o creme tem de ferver e engrossar no fogo.'])}`)
   + pag('CEIA SEGURA · GUARDAR, ETIQUETAR, ENTREGAR', `<h2 style="margin-top:0">Para guardar</h2>${lista(['Comida pronta fica no máximo **2 horas** fora da geladeira, contando do forno até a mesa do cliente.', 'Para esfriar rápido: divida em travessas rasas e leve à geladeira ainda morno.', 'Geladeira a **5 °C ou menos**; não lote: o ar frio precisa circular.', 'Cru embaixo, pronto em cima, tudo tampado.'])}
   <h2>A etiqueta de cada pote</h2>
-  <div class="box verde"><b>Nome do prato</b> · <b>data de preparo</b> · <b>validade</b> · "manter na geladeira" · <b>como reaquecer</b> · <b>contém:</b> glúten, leite, ovos, castanhas (o que tiver).<br>Validade: <b>até 24 h</b> para saladas com maionese, salpicão e salada de frutas; <b>até 3 dias</b> na geladeira para assados, arroz, farofas, molhos e sobremesas. Exceções: panetone e brownie, até 5 dias bem embalados; trufas, até 10 dias na geladeira.</div>
+  <div class="box verde"><b>Nome do prato</b> · <b>data de preparo</b> · <b>validade</b> · "manter na geladeira" · <b>como reaquecer</b> · <b>contém:</b> glúten, leite, ovos, castanhas (o que tiver).<br>Validade: <b>até 24 h</b> para saladas com maionese, salpicão e salada de frutas; <b>até 3 dias</b> na geladeira para assados, arroz, farofas, molhos e sobremesas. Exceções: panetone e brownie, até 5 dias bem embalados, em local fresco (na etiqueta, troque "manter na geladeira" por "manter em local fresco"); trufas, até 10 dias na geladeira.</div>
   <h2>Na entrega</h2>${lista(['Bolsa térmica com gelo reutilizável para os pratos frios; quente separado do frio.', 'Roteiro por bairro, para nenhum pedido ficar mais de 2 horas fora da geladeira.', 'Mande junto o cartão: "Guarde na geladeira até servir. Reaqueça até ficar bem quente no centro (75 °C)."', 'Prato que voltou de entrega ou ficou exposto **não se revende**.'])}
   <h2>Alergias</h2>${lista(['Pergunte no pedido: "alguém tem alergia ou restrição?" Anote na planilha.', 'Castanhas, nozes, leite, ovos e trigo aparecem em várias fichas: avise no cardápio e na etiqueta.'])}`)
   + pag('CEIA SEGURA · A SUA PREFEITURA', `<h1>Vender comida e a prefeitura</h1>

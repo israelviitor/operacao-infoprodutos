@@ -6,7 +6,7 @@
 - Carnes e aves congeladas descongelam **na geladeira**, nunca fora dela: 1 dia para cada 2 a 2,5 kg.
 - Comida pronta fica no máximo **2 horas** fora da geladeira, **contando do forno até a mesa do cliente**. Passou disso, refrigere. O cliente reaquece até ficar bem quente no centro (75 °C).
 - Saladas com maionese saem da geladeira só na hora de entregar e viajam em bolsa térmica.
-- Cada pote ou travessa leva uma **etiqueta**: nome do prato, data de preparo, "manter na geladeira" e a validade: **consumir em até 24 h** para saladas com maionese, salpicão e salada de frutas; **até 3 dias** refrigerado para assados, arroz, farofas, molhos e sobremesas. Exceções: panetone e brownie, **até 5 dias** bem embalados em temperatura ambiente; trufas, **até 10 dias** na geladeira.
+- Cada pote ou travessa leva uma **etiqueta**: nome do prato, data de preparo, "manter na geladeira" e a validade: **consumir em até 24 h** para saladas com maionese, salpicão e salada de frutas; **até 3 dias** refrigerado para assados, arroz, farofas, molhos e sobremesas. Exceções: panetone e brownie, **até 5 dias** bem embalados em local fresco (na etiqueta, "manter em local fresco" no lugar de "manter na geladeira"); trufas, **até 10 dias** na geladeira.
 - Maionese das receitas: sempre **industrializada**, nunca caseira com ovo cru.
 - Aves cruas **não se lavam**: só seque com papel-toalha. Lavar espalha bactérias pela pia e pela bancada.
 - O ponto de assados, molhos e sobremesas está descrito em cada receita. Com termômetro culinário, use: aves **74 °C** no meio da coxa ou do peito e carne suína **71 °C** no centro.
@@ -38,7 +38,7 @@
 7. Descanse 20 min antes de fatiar. Coe o caldo da assadeira para servir como molho.
 
 ### 02 · Chester assado
-**Rende:** 8 a 10 pessoas · **Tempo:** 4 h de tempero + 2 h 30 de forno
+**Rende:** 8 pessoas · **Tempo:** 4 h de tempero + 2 h 30 de forno
 **Ingredientes**
 - 1 chester de 3,5 a 4 kg, descongelado
 - 1/2 xícara de vinho branco seco

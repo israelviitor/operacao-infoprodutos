@@ -83,8 +83,8 @@ function contaQuantidade(r) {
     ? `<td class="num">${kg(c.principalKg)}${c.pecas > 1 ? ` (${c.pecas} aves de ${kg(c.principalKg / c.pecas)})` : c.pecas === 1 ? ' (1 ave)' : c.vasilhas > 1 ? ` (${c.vasilhas} peças)` : ''}</td><td>${fracao(c.mult)}</td><td>${c.vasilhas}</td>`
     : `<td>${fracao(c.mult)}</td><td class="num">${Math.floor(c.mult * d.base)} pessoas</td><td>${c.vasilhas} × ${esc(vasNome)}</td>`}</tr>`).join('');
   const nota = d.principal
-    ? `A carne vai na medida exata por pessoa (${kg(d.principal[1])} por pessoa)${d.principal[4] ? `, mas ${esc(d.principal[0].toLowerCase())} se compra inteiro, de ${kg(d.principal[4])} a ${kg(d.principal[3])} por ave: para poucas pessoas, a sobra fica com o cliente (rende sanduíche no dia seguinte)` : ''}. O tempero segue o peso da carne. O tempero e os demais ingredientes seguem a receita-base abaixo (${esc(r.rende)}).`
-    : `"1 receita" é a receita-base abaixo (${esc(r.rende)}). Arredondamos para cima: é melhor sobrar um pouco do que faltar na mesa do cliente.${r.cat === 'SOBREMESAS' ? ' Para ½ receita, use forma ou travessa com metade do volume.' : ''}`;
+    ? `A carne vai na medida exata por pessoa (${kg(d.principal[1])} por pessoa)${d.principal[4] ? `, mas ${esc(d.principal[0].toLowerCase())} se compra inteiro, de ${kg(d.principal[4])} a ${kg(d.principal[3])} por ave: para poucas pessoas, a sobra fica com o cliente (rende sanduíche no dia seguinte)` : ''}. O tempero segue o peso da carne. O tempero e os demais ingredientes seguem a receita-base abaixo, que rende ${esc(r.rende)}.`
+    : `"1 receita" é a receita-base abaixo, que rende ${esc(r.rende)}. Arredondamos para cima: é melhor sobrar um pouco do que faltar na mesa do cliente.${r.cat === 'SOBREMESAS' ? ' Para ½ receita, use forma ou travessa com metade do volume.' : ''}`;
   return `<h2>1. A Conta da Quantidade</h2><table>${cabec}${linhas}</table><p class="nota">${nota}</p>`;
 }
 

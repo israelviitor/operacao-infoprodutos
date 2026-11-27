@@ -29,7 +29,7 @@ const P = {
 const R = {
   1: { base: 12, principal: ['Peru inteiro', 0.45, 'peru', 6, 4], vasP: 'assadeira',
     itens: [['Vinho branco (1 xícara)', 1, 'vinhoXic'], ['Laranjas e limões', 2, 'laranja'], ['Limões', 2, 'limao'], ['Alho', 1, 'alho'], ['Cebola', 1, 'cebola'], ['Ervas e temperos', 2.5], ['Manteiga', 0.15, 'manteiga']],
-    limite: '1 forno doméstico assa 1 peru de até 6 kg por vez (3 h 30). Num dia de entrega, cabem no máximo 2 fornadas de peru.' },
+    limite: '1 forno doméstico assa 1 peru de até 6 kg por vez (3 h 30). Com o forno livre das 6h às 17h, cabem 3 fornadas: 3 perus no dia.' },
   2: { base: 8, principal: ['Chester inteiro', 0.45, 'chester', 4, 3], vasP: 'assadeira',
     itens: [['Vinho branco (½ xícara)', 0.5, 'vinhoXic'], ['Laranjas', 2, 'laranja'], ['Alho', 0.7, 'alho'], ['Páprica, alecrim e sal', 2], ['Manteiga', 0.1, 'manteiga']],
     limite: '1 forno doméstico assa até 2 chesters de 4 kg lado a lado (2 h 30) se a assadeira couber; com 1 assadeira, 1 por fornada.' },
