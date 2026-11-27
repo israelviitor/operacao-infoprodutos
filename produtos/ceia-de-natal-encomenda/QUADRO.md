@@ -31,11 +31,12 @@ Dono: montar a LP no ChatGPT (prompt pronto) e a Cakto (roteiro pronto) · Estru
 | Copy de Criativos | ⬜ | `criativos/` | — |
 | Edição | ⬜ | — | — |
 | Tráfego | ⬜ | `trafego/` | — |
-| Análise | ⬜ | `analises/` | — |
+| Análise | ✅ página montada avaliada (pré-tráfego) | `analises/2026-11-27-analise.md` | 2026-11-27 |
 
 Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ pronto · ⛔ travado
 
 ## Pedidos entre áreas (abertos)
+- [ ] [2026-11-27] **De** Análise **para** dono/Estrutura: ligar checkout Básico, Premium e pixel (hoje com marcadores entre colchetes); alinhar o nome (Ceia que Vende × Natal Lucrativo × Método Lucrativo); carrossel com fichas que mostram Custo/Venda/Lucro; tirar "Quer aprender a preparar a ceia da família" (`analises/2026-11-27-analise.md`).
 - [ ] [2026-11-26] **De** Estrutura **para** Copy de Oferta: (1) passar para o TEXTO EXATO de `copy/pagina-vendas.md` a nota do bloco 6 ("Exemplo com preço praticado…"), que já vai na página; (2) decidir se o rodapé leva "Este site não faz parte do Facebook nem da Meta Platforms, Inc." (tirado do prompt por não estar na copy).
 - [ ] [2026-11-26] **De** Estrutura **para** Estrutura (produção): produzir Premium (50 fichas no padrão da ficha 07) + 6 bônus + Básico, depois bumps e upsell, conforme `estrutura/entregavel/ESPECIFICACAO.md`. Pronto e com compra teste **antes do 1º anúncio**.
 - [ ] [2026-11-26] **De** Estrutura **para** Copy de Criativos: imagens reais das fichas-modelo prontas em `estrutura/pagina/img/` (ficha do pernil, kits, calendário, planilha, mockups) para usar nos criativos.
@@ -47,6 +48,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 Dono: colar `estrutura/pagina/prompt-chatgpt.md` no ChatGPT (com o zip) e configurar a Cakto pelo roteiro. Estrutura: produzir o entregável pela `ESPECIFICACAO.md` (Premium primeiro). Copy de Criativos pode começar (imagens em `estrutura/pagina/img/`).
 
 ## Histórico (mais recente em cima)
+- [2026-11-27] Análise: página montada bem estruturada (botão na 1ª dobra, 11.500 px, 1,25 MB); checkout e pixel ainda não ligados; nome em 3 versões; exemplos sem as contas.
 - [2026-11-27] Estrutura: texto das 50 receitas do Básico (nome, rendimento, ingredientes, preparo), na numeração da especificação (pernil = 07, igual à ficha da LP). Comitê: Ajustar, aplicado (segurança alimentar: validade, maionese industrializada, aves sem lavar, merengue cozido, ponto 74 °C; medidas corrigidas). Sem contas, diagramação e bônus (dono pede depois).
 - [2026-11-26] Estrutura: prompt final da LP para o ChatGPT (17 blocos, texto exato, 14 imagens de fichas-modelo), roteiro Cakto (2 produtos, 3 bumps, upsell, CPA de empate R$ 22,61) e especificação do entregável que fecha os [CONFIRMAR] da copy. Comitê: Ajustar, aplicado (recortes da ficha refeitos, capa própria do Básico, bloco 11 com medidas, calendário dia a dia e preço mínimo na especificação).
 - [2026-11-26] Copy de Oferta: PROMESSA + página de 17 blocos + checkout (banners, 3 bumps, upsell Ano Novo) entregues e revisados pelo comitê (Ajustar, aplicado). Pedido aberto para a Estrutura.
