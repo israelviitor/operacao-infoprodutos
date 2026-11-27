@@ -28,7 +28,7 @@ Dono: montar a LP no ChatGPT (prompt pronto) e a Cakto (roteiro pronto) · Estru
 | Estrutura — entregável | ✅ Básico + Premium (50 fichas) + 6 bônus + planilha; bumps e upsell não produzidos | `estrutura/entregavel/final/` (ver `LEIA-ME.md`) | 2026-11-27 |
 | Estrutura — página montada | 🔵 prompt pronto: dono cola no ChatGPT | `estrutura/pagina/prompt-chatgpt.md` + `pacote-imagens-ceia-que-vende.zip` | 2026-11-26 |
 | Estrutura — Cakto | 🔵 roteiro pronto: dono executa no painel | `estrutura/cakto-roteiro.md` | 2026-11-26 |
-| Copy de Criativos | ⬜ | `criativos/` | — |
+| Copy de Criativos | 🔵 lote 1 (7 vídeos + 3 imagens) aguardando o dono | `criativos/2026-11-27-lote-1.md` | 2026-11-27 |
 | Edição | ⬜ | — | — |
 | Tráfego | ⬜ | `trafego/` | — |
 | Análise | ✅ página montada avaliada (pré-tráfego) | `analises/2026-11-27-analise.md` | 2026-11-27 |
@@ -50,6 +50,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 Dono: colar `estrutura/pagina/prompt-chatgpt.md` no ChatGPT (com o zip) e configurar a Cakto pelo roteiro. Estrutura: produzir o entregável pela `ESPECIFICACAO.md` (Premium primeiro). Copy de Criativos pode começar (imagens em `estrutura/pagina/img/`).
 
 ## Histórico (mais recente em cima)
+- [2026-11-27] Copy de Criativos: lote 1 com 10 ângulos diferentes (7 vídeos + 3 imagens), números das fichas reais, revisado pelo comitê (Ajustar, aplicado; C10 refeito). Copy de Oferta: bloco 6 da página com o custo real (R$ 1.170 / lucro R$ 1.820).
 - [2026-11-27] Estrutura: entregável completo produzido (Básico 57 p.; Premium 107 p. com 50 fichas: quantidade 4/6/10/20, custo, preço mínimo, preço, lucro e limite; 6 bônus em PDF; planilha .xlsx com fórmulas). Contas por script (`fonte/conferir.js`). Kits finais: 4 p. R$ 230 · 6 a 8 p. R$ 299 · 10 p. R$ 590 · 20 p. R$ 1.570. Imagens da LP refeitas a partir do produto. Comitê: Ajustar (2 rodadas), aplicado.
 - [2026-11-27] Análise: página montada bem estruturada (botão na 1ª dobra, 11.500 px, 1,25 MB); checkout e pixel ainda não ligados; nome em 3 versões; exemplos sem as contas.
 - [2026-11-27] Estrutura: texto das 50 receitas do Básico (nome, rendimento, ingredientes, preparo), na numeração da especificação (pernil = 07, igual à ficha da LP). Comitê: Ajustar, aplicado (segurança alimentar: validade, maionese industrializada, aves sem lavar, merengue cozido, ponto 74 °C; medidas corrigidas). Sem contas, diagramação e bônus (dono pede depois).
