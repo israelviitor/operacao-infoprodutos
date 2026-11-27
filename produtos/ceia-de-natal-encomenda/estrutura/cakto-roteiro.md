@@ -28,8 +28,8 @@ Caminho: **Produtos > Adicionar Produto** (3 etapas), uma vez para cada.
 | Canal de entrega | **Cakto Members** | **Cakto Members** |
 
 **Área de membros (Produtos > (produto) > aba Área de Membros > + Adicionar Módulo)**
-- **Premium:** `Comece aqui` (como usar as 3 contas em 5 minutos) · `As 50 receitas` (por categoria: Assados, Acompanhamentos, Sobremesas) · `Bônus` (os 6, um conteúdo para cada; a Planilha entra como link do Google Sheets com "Fazer uma cópia").
-- **Básico:** `As 50 receitas`.
+- **Premium:** `Comece aqui` (o PDF `ceia-que-vende-premium.pdf`: abre com as 3 contas em 5 minutos) · `Bônus` (6 conteúdos, um por PDF; o bônus 5 leva o PDF e a planilha `.xlsx`). Arquivos e ordem em `entregavel/final/LEIA-ME.md`.
+- **Básico:** `As 50 receitas` (o PDF `ceia-que-vende-basico.pdf`).
 - Por que Members: o acesso sai no e-mail "Pagamento Confirmado" com login sem senha (a página promete "acesso imediato no e-mail"), e o acesso é revogado sozinho no reembolso.
 
 **Aba Upsell/Downsell (nos 2 produtos):** ligar **"Esse produto vai enviar um e-mail de confirmação"** e **"Enviar imediatamente após o pagamento"**.

@@ -1,4 +1,4 @@
-// Gera as imagens das fichas-modelo da Ceia que Vende para a LP (o entregável ainda não existe).
+// Gera capas, bônus e planilha para a LP. Ficha, kits e calendário vêm do produto real: rode depois imagens-do-produto.js.
 // Estas páginas são o PADRÃO que o entregável vai seguir: os números aqui precisam ser os mesmos do produto.
 // Uso: node gerar-imagens.js  -> .tmp/*.png  (depois: python3 compor.py .tmp ../img)
 const fs = require('fs');
@@ -127,9 +127,9 @@ const cal = `<div class="folha" id="calendario">${TOPO('BÔNUS · CALENDÁRIO')}
 
 // ---- Planilha de Pedidos e Sinal
 const linhas = [
-  ['Ana P.', 'Kit 6 a 8', 299, 'Pago', '24/12 · 18h'], ['Cláudia R.', 'Kit 10', 429, 'Pago', '24/12 · 17h'],
-  ['Márcia S.', 'Kit 4', 189, 'Pago', '23/12 · 19h'], ['Juliana T.', 'Kit 6 a 8', 299, 'Pendente', '24/12 · 19h'],
-  ['Rosana L.', 'Kit 20', 799, 'Pago', '24/12 · 16h'], ['Patrícia M.', 'Kit 6 a 8', 299, 'Pago', '24/12 · 20h'],
+  ['Ana P.', 'Kit 6 a 8', 299, 'Pago', '24/12 · 18h'], ['Cláudia R.', 'Kit 10', 590, 'Pago', '24/12 · 17h'],
+  ['Márcia S.', 'Kit 4', 230, 'Pago', '23/12 · 19h'], ['Juliana T.', 'Kit 6 a 8', 299, 'Pendente', '24/12 · 19h'],
+  ['Rosana L.', 'Kit 20', 1570, 'Pago', '24/12 · 16h'], ['Patrícia M.', 'Kit 6 a 8', 299, 'Pago', '24/12 · 20h'],
 ];
 const brl = (v) => 'R$ ' + v.toFixed(2).replace('.', ',').replace(/\B(?=(\d{3})+(?!\d))/g, '.');
 const tot = linhas.reduce((s, l) => s + l[2], 0);

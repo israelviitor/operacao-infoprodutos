@@ -1,0 +1,146 @@
+[
+ {
+  "nome": "Kit 4 pessoas",
+  "preco": 230,
+  "linhas": [
+   {
+    "n": 7,
+    "tamanho": 4,
+    "mult": 0.5,
+    "principalKg": 1.6
+   },
+   {
+    "n": 15,
+    "tamanho": 4,
+    "mult": 0.5,
+    "principalKg": null
+   },
+   {
+    "n": 21,
+    "tamanho": 4,
+    "mult": 0.5,
+    "principalKg": null
+   },
+   {
+    "n": 39,
+    "tamanho": 4,
+    "mult": 0.5,
+    "principalKg": null
+   }
+  ]
+ },
+ {
+  "nome": "Kit 6 a 8 pessoas",
+  "preco": 299,
+  "linhas": [
+   {
+    "n": 7,
+    "tamanho": 6,
+    "mult": 0.5,
+    "principalKg": 2.4
+   },
+   {
+    "n": 15,
+    "tamanho": 6,
+    "mult": 0.75,
+    "principalKg": null
+   },
+   {
+    "n": 21,
+    "tamanho": 6,
+    "mult": 0.75,
+    "principalKg": null
+   },
+   {
+    "n": 37,
+    "tamanho": 6,
+    "mult": 0.5,
+    "principalKg": null
+   }
+  ]
+ },
+ {
+  "nome": "Kit 10 pessoas",
+  "preco": 590,
+  "linhas": [
+   {
+    "n": 7,
+    "tamanho": 10,
+    "mult": 1,
+    "principalKg": 4
+   },
+   {
+    "n": 15,
+    "tamanho": 10,
+    "mult": 1,
+    "principalKg": null
+   },
+   {
+    "n": 21,
+    "tamanho": 10,
+    "mult": 1,
+    "principalKg": null
+   },
+   {
+    "n": 18,
+    "tamanho": 10,
+    "mult": 1,
+    "principalKg": null
+   },
+   {
+    "n": 37,
+    "tamanho": 10,
+    "mult": 1,
+    "principalKg": null
+   }
+  ]
+ },
+ {
+  "nome": "Kit 20 pessoas",
+  "preco": 1570,
+  "linhas": [
+   {
+    "n": 7,
+    "tamanho": 20,
+    "mult": 2,
+    "principalKg": 8
+   },
+   {
+    "n": 15,
+    "tamanho": 20,
+    "mult": 2,
+    "principalKg": null
+   },
+   {
+    "n": 21,
+    "tamanho": 20,
+    "mult": 2,
+    "principalKg": null
+   },
+   {
+    "n": 18,
+    "tamanho": 20,
+    "mult": 2,
+    "principalKg": null
+   },
+   {
+    "n": 17,
+    "tamanho": 20,
+    "mult": 2,
+    "principalKg": null
+   },
+   {
+    "n": 37,
+    "tamanho": 20,
+    "mult": 1.75,
+    "principalKg": null
+   },
+   {
+    "n": 39,
+    "tamanho": 20,
+    "mult": 1.75,
+    "principalKg": null
+   }
+  ]
+ }
+]

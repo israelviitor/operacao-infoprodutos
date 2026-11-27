@@ -1,0 +1,135 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Bônus 1 · Como Precificar</title><style>
+@page { size: A4; margin: 14mm 15mm 15mm; }
+@page cheia { margin: 0; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body { font-family: Inter, 'DejaVu Sans', sans-serif; color: #2a1f1a; font-size: 13pt; line-height: 1.45; }
+.pag { break-before: page; }
+.mantem { break-inside: avoid; }
+h1, h2, h3, .serif { font-family: Caladea, 'DejaVu Serif', serif; }
+h1 { font-size: 30pt; color: #0f3d2e; line-height: 1.05; }
+h2 { font-size: 16pt; color: #8c1c24; margin: 5mm 0 2mm; line-height: 1.15; }
+h3 { font-size: 14pt; color: #0f3d2e; margin: 4mm 0 2mm; }
+p { margin: 0 0 2.5mm; }
+b, strong { font-weight: 700; }
+.topo { display: flex; justify-content: space-between; align-items: center; border-bottom: 2.5px solid #0f3d2e; padding-bottom: 2.5mm; margin-bottom: 6mm; font-size: 9.5pt; font-weight: 800; letter-spacing: .08em; color: #0f3d2e; }
+.topo .selo { background: #8c1c24; color: #fff; padding: 1.2mm 3mm; border-radius: 1.5mm; }
+.sub { font-size: 12.5pt; color: #6b5a4e; margin-top: 2mm; }
+.chips { display: flex; flex-wrap: wrap; gap: 2.5mm; margin: 4mm 0 2mm; }
+.chip { background: #f3ead7; border-radius: 10mm; padding: 1.4mm 4mm; font-size: 11pt; }
+.chip b { color: #0f3d2e; }
+table { width: 100%; border-collapse: collapse; font-size: 11.5pt; margin: 1mm 0 1mm; }
+th { background: #0f3d2e; color: #fff; text-align: left; padding: 1.8mm 2.6mm; font-size: 10.5pt; letter-spacing: .02em; font-weight: 700; }
+td { padding: 1.8mm 2.6mm; border-bottom: 1px solid #e6dcc8; vertical-align: top; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr.dest td { background: #fbf1d9; font-weight: 700; }
+.lucro { color: #1e6b3f; font-weight: 800; }
+.nota { font-size: 10pt; color: #7d6b5e; margin-top: 2mm; }
+.box { border: 2px solid #c9a24a; border-radius: 3mm; padding: 3.5mm 4.5mm; background: #fff8e8; margin-top: 4mm; break-inside: avoid; }
+.box.verde { border-color: #0f3d2e; background: #eef5f1; }
+.box.vinho { border-color: #8c1c24; background: #fbeeee; }
+.campo { display: inline-block; min-width: 26mm; border-bottom: 1.5px dashed #8c1c24; height: 6mm; vertical-align: bottom; }
+ul.ing { padding-left: 5.5mm; }
+ul.ing li { margin-bottom: 1.4mm; }
+ol.passos { padding-left: 0; list-style: none; counter-reset: p; }
+ol.passos li { counter-increment: p; position: relative; padding-left: 10mm; margin-bottom: 2.6mm; break-inside: avoid; }
+ol.passos li::before { content: counter(p); position: absolute; left: 0; top: .2mm; width: 6.8mm; height: 6.8mm; border-radius: 50%; background: #0f3d2e; color: #fff; font-weight: 800; font-size: 10.5pt; display: flex; align-items: center; justify-content: center; }
+ul.lista { padding-left: 5.5mm; }
+ul.lista li { margin-bottom: 1.8mm; }
+ul.check { list-style: none; padding: 0; }
+ul.check li { padding-left: 9mm; position: relative; margin-bottom: 2.2mm; break-inside: avoid; }
+ul.check li::before { content: ''; position: absolute; left: 0; top: .8mm; width: 5mm; height: 5mm; border: 2px solid #0f3d2e; border-radius: 1mm; background: #fff; }
+.duas { columns: 2; column-gap: 8mm; }
+.duas li { break-inside: avoid; }
+a { color: inherit; text-decoration: none; }
+.indice h3, h3.cat { margin-top: 3mm; }
+.indice .linha { display: flex; gap: 3mm; padding: .7mm 0; border-bottom: 1px dotted #d8cbb2; font-size: 11pt; }
+.indice .linha .n { color: #8c1c24; font-weight: 800; width: 9mm; }
+.indice.duas .linha { break-inside: avoid; }
+/* capa */
+.capa { page: cheia; break-before: page; width: 210mm; height: 296.5mm; background: radial-gradient(circle at 70% 15%, #1d5c44 0, #0f3d2e 55%, #0a2b20 100%); color: #fff; padding: 22mm 20mm; position: relative; overflow: hidden; border: 5mm solid #c9a24a; }
+.capa .marca { font-size: 11pt; letter-spacing: .3em; color: #e9cf8a; font-weight: 700; }
+.capa h1 { color: #fff; font-size: 64pt; margin-top: 34mm; line-height: 1; }
+.capa h1 em { color: #e9cf8a; font-style: normal; }
+.capa .s { font-size: 17pt; color: #f3ead7; margin-top: 10mm; line-height: 1.35; max-width: 150mm; }
+.capa .tag { position: absolute; left: 20mm; bottom: 24mm; background: #8c1c24; padding: 3mm 6mm; border-radius: 2mm; font-size: 15pt; font-weight: 800; letter-spacing: .12em; }
+.capa .estrela { position: absolute; right: 20mm; top: 18mm; font-size: 44pt; color: #e9cf8a; }
+.capa .fitas { position: absolute; right: -40mm; bottom: -48mm; width: 130mm; height: 130mm; border-radius: 50%; border: 8mm solid #8c1c24; opacity: .55; }
+.capa .rod { position: absolute; right: 20mm; bottom: 26mm; font-size: 10pt; color: #e9cf8a; letter-spacing: .1em; }
+/* abertura de categoria */
+.abre { page: cheia; break-before: page; height: 296.5mm; padding: 24mm 20mm; background: #0f3d2e; color: #fff; display: flex; flex-direction: column; justify-content: center; }
+.abre h1 { color: #fff; font-size: 46pt; }
+.abre .sub { color: #e9cf8a; font-size: 15pt; }
+.abre .lista-cat { margin-top: 10mm; columns: 2; font-size: 12.5pt; color: #f3ead7; }
+.abre .lista-cat div { margin-bottom: 1.5mm; break-inside: avoid; }
+.abre .lista-cat b { color: #e9cf8a; }
+/* passos grandes (comece aqui, bônus) */
+.etapas { display: grid; gap: 2.5mm; margin-top: 3mm; }
+.etapa p { margin: 0; }
+.miuda .etapa { font-size: 11pt; padding: 2mm 3.5mm; }
+.miuda .etapa h3 { font-size: 12.5pt; }
+.miuda .etapa .num { width: 9mm; height: 9mm; font-size: 13pt; }
+.etapa { display: grid; grid-template-columns: 13mm 1fr; gap: 4mm; align-items: start; background: #fff; border: 1.5px solid #e6dcc8; border-radius: 3mm; padding: 2.6mm 4mm; break-inside: avoid; font-size: 12pt; }
+.etapa .num { width: 11mm; height: 11mm; border-radius: 50%; background: #8c1c24; color: #fff; font-weight: 900; font-size: 15pt; display: flex; align-items: center; justify-content: center; font-family: Caladea, serif; }
+.etapa h3 { margin: 0 0 1mm; }
+.grade2 { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; }
+.kit { border: 2px solid #0f3d2e; border-radius: 3mm; padding: 4mm 4.5mm; background: #fff; break-inside: avoid; }
+.kit.dest { border-color: #c9a24a; box-shadow: 0 0 0 1.5mm #f3e3b5; }
+.kit h3 { margin: 0 0 1.5mm; font-size: 16pt; }
+.kit .preco { font-size: 22pt; font-weight: 900; color: #8c1c24; font-family: Caladea, serif; }
+.kit .linha-p { display: flex; justify-content: space-between; font-size: 11pt; border-top: 1px dashed #c9b89a; padding-top: 2mm; margin-top: 2mm; }
+.msg { background: #e7f6dc; border-radius: 3mm 3mm 3mm 0.5mm; padding: 3.5mm 4.5mm; font-size: 11.5pt; white-space: pre-line; break-inside: avoid; border: 1px solid #c8e6b3; }
+.dia { display: grid; grid-template-columns: 30mm 1fr; gap: 4mm; align-items: start; border-left: 2mm solid #0f3d2e; background: #fff; padding: 1.5mm 3.5mm; border-radius: 1.5mm; margin-bottom: 1.3mm; break-inside: avoid; font-size: 11pt; line-height: 1.35; }
+.dia .d { font-weight: 800; color: #0f3d2e; }
+.dia .d small { display: block; font-weight: 700; color: #8c1c24; font-size: 9.5pt; letter-spacing: .05em; }
+.dia.ouro { border-left-color: #c9a24a; background: #fff8e8; }
+.dia.alerta { border-left-color: #8c1c24; background: #fbeeee; }
+.bonus-tag { display: inline-block; background: #c9a24a; color: #2a1f1a; font-weight: 900; font-size: 9.5pt; letter-spacing: .12em; padding: 1.2mm 3mm; border-radius: 1.5mm; margin-bottom: 3mm; }
+</style></head><body><div class="capa"><div class="estrela">★</div><div class="fitas"></div><div class="marca">CEIA QUE VENDE</div><h1>Como<br><em>Precificar</em></h1><p class="s">A conta do preço passo a passo, com gás, embalagem e a sua hora, e como cobrar mais sem perder cliente.</p><div class="tag">BÔNUS 1 · PREMIUM</div></div><section class="pag"><div class="topo"><span>CEIA QUE VENDE · BÔNUS</span><span class="selo">COMO PRECIFICAR</span></div><h1>Por que o "preço da vizinha" dá prejuízo</h1>
+  <p class="sub">Cobrar o que a outra cobra parece seguro. Só que a vizinha pode pagar o pernil mais barato, não contar o gás ou estar trabalhando de graça sem saber.</p>
+  <p style="margin-top:5mm">O preço certo sai de <b>uma conta sua</b>, com 4 partes:</p>
+  <div class="etapas"><div class="etapa"><div class="num">1</div><div><h3>Ingredientes</h3><p>Tudo o que vai no prato, pelo preço que <b>você</b> pagou.</p></div></div><div class="etapa"><div class="num">2</div><div><h3>Gás</h3><p>Assado de Natal fica horas no forno. Isso tem custo.</p></div></div><div class="etapa"><div class="num">3</div><div><h3>Embalagem</h3><p>Marmita de alumínio, pote, tampa, etiqueta, sacola.</p></div></div><div class="etapa"><div class="num">4</div><div><h3>A sua hora</h3><p>Comprar, preparar, embalar e entregar. Se não entra na conta, você trabalha de graça.</p></div></div></div>
+  <div class="box vinho"><b>A regra que protege o seu lucro:</b> preço = custo × 2,5 no mínimo (o ideal é × 2,7; até × 3 para pratos que dão mais trabalho). Abaixo de × 2,5, gás, embalagem, perdas e a sua hora comem o lucro.</div></section><section class="pag"><div class="topo"><span>CEIA QUE VENDE · BÔNUS</span><span class="selo">PASSO 1 · INGREDIENTES</span></div><h1>Passo 1: o custo dos ingredientes</h1>
+  <p class="sub">Use a regra de três: quanto você pagou pelo pacote e quanto usou dele.</p>
+  <div class="box verde"><b>Custo de um ingrediente = preço do pacote ÷ tamanho do pacote × quanto você usou.</b><br>Ex.: farinha de mandioca a R$ 4,50 o pacote de 500 g. A farofa usa 500 g → R$ 4,50. Se usasse 250 g → R$ 2,25.</div>
+  <h2>Exemplo: pernil para 10 pessoas (ficha 07)</h2>
+  <table><tr><th class="">Item</th><th class="">Quanto</th><th class="num">Custo</th></tr><tr class=""><td class="">Pernil com osso (R$ 25/kg)</td><td class="">4 kg</td><td class="num">R$ 100</td></tr><tr class=""><td class="">Vinho, limões, alho, cebolas, temperos e azeite</td><td class="">1 receita do tempero</td><td class="num">R$ 20</td></tr><tr class="dest"><td class=""><b>Total de ingredientes</b></td><td class=""></td><td class="num"><b>R$ 120</b></td></tr></table>
+  <p class="nota">Valores de referência (dez/2025). Nas fichas do Premium, essa conta já está feita para 4, 6, 10 e 20 pessoas.</p>
+  <h2>Dicas para o custo não fugir</h2>
+  <ul class="check"><li>Anote o preço de cada compra num caderno ou na Planilha de Pedidos. Preço de dezembro sobe toda semana.</li><li>Pesquise em 2 lugares antes da compra grande: atacarejo costuma sair mais barato para carne, arroz, farinha e leite condensado.</li><li>Arredonde o custo <b>para cima</b>. Sobra de centavos vira o seu colchão para imprevistos.</li><li>Conte a perda: o pernil perde peso no forno e sempre sobra um resto de pote. As fichas já arredondam para cima por isso.</li></ul></section><section class="pag"><div class="topo"><span>CEIA QUE VENDE · BÔNUS</span><span class="selo">PASSOS 2 E 3 · GÁS E EMBALAGEM</span></div><h1>Passo 2: o gás</h1>
+  <p>Um forno doméstico a gás gasta, em média, cerca de <b>0,15 kg de gás por hora</b> aceso (varia com o fogão e a temperatura).</p>
+  <div class="box verde"><b>Custo do gás por hora = preço do botijão ÷ 13 × 0,15</b><br>Com o botijão a R$ 110: R$ 110 ÷ 13 × 0,15 = <b>R$ 1,27 por hora</b>.</div>
+  <p style="margin-top:4mm">O pernil fica 3 h 30 no forno, e cabem 2 por fornada. O gás de cada pernil: R$ 1,27 × 3,5 ÷ 2 = <b>R$ 2,22</b>.</p>
+  <p>Parece pouco, e é: o gás pesa menos que você imagina. O que pesa é esquecer dos outros custos todos juntos.</p>
+  <h1 style="margin-top:9mm">Passo 3: a embalagem</h1>
+  <table><tr><th class="">Embalagem</th><th class="num">Preço médio (un.)</th></tr><tr class=""><td class="">Marmita de alumínio 2,2 L com tampa (assado)</td><td class="num">R$ 3,00</td></tr><tr class=""><td class="">Pote plástico de 1 L com tampa (salada, farofa)</td><td class="num">R$ 1,50</td></tr><tr class=""><td class="">Travessa descartável de alumínio (sobremesa)</td><td class="num">R$ 2,50</td></tr><tr class=""><td class="">Etiqueta + sacola</td><td class="num">R$ 1,00</td></tr></table>
+  <p class="nota">Compre em loja de embalagem, em pacote fechado: sai até 40% mais barato que na unidade.</p>
+  <p>No exemplo do pernil sozinho: marmita + etiqueta + sacola = <b>R$ 4,50</b>. Num kit com 4 pratos, a embalagem fica entre R$ 8 e R$ 12.</p></section><section class="pag"><div class="topo"><span>CEIA QUE VENDE · BÔNUS</span><span class="selo">PASSO 4 · A SUA HORA</span></div><h1>Passo 4: a sua hora</h1>
+  <p class="sub">Escolha quanto você quer ganhar por hora de trabalho. Depois confira se o lucro paga essas horas.</p>
+  <div class="box verde"><b>Quanto vale a sua hora?</b> Se você quer ganhar R$ 2.000 trabalhando 80 horas em dezembro, a sua hora vale R$ 2.000 ÷ 80 = <b>R$ 25</b>.<br>Minha hora vale: R$ <span class="campo"></span></div>
+  <h2>A conta completa do pernil para 10</h2>
+  <table><tr><th class="">Parte</th><th class="num">Valor</th></tr><tr class=""><td class="">Ingredientes</td><td class="num">R$ 120</td></tr><tr class=""><td class="">Gás</td><td class="num">R$ 2,22</td></tr><tr class=""><td class="">Embalagem</td><td class="num">R$ 4,50</td></tr><tr class=""><td class=""><b>Custo total</b></td><td class="num"><b>R$ 126,72</b></td></tr><tr class="dest"><td class="">Preço (custo total × 2,7, arredondado)</td><td class="num"><b>R$ 340</b></td></tr><tr class=""><td class="">O que sobra para você</td><td class="num"><b class="lucro">R$ 213,28</b></td></tr><tr class=""><td class="">Sua hora: 1,5 h de trabalho ativo × R$ 25</td><td class="num">R$ 37,50</td></tr></table>
+  <p style="margin-top:3mm">O que sobra (R$ 213,28) paga com folga a sua hora (R$ 37,50). <b>Se não pagasse, o preço estaria baixo.</b></p>
+  </section><section class="pag"><div class="topo"><span>CEIA QUE VENDE · BÔNUS</span><span class="selo">A CONTA RÁPIDA</span></div><h1>A conta rápida para qualquer prato</h1>
+  <div class="box"><b>A conta rápida para qualquer prato:</b><br>1. Some ingredientes + gás + embalagem = custo total.<br>2. Custo total × 2,7 = preço (nunca menos que × 2,5).<br>3. Preço − custo total = sobra. A sobra tem de pagar as suas horas. Se não pagar, suba o preço ou escolha outro prato.</div>
+  <h2>Tabela rápida: do custo ao preço</h2>
+  <table><tr><th class="num">Custo total</th><th class="num">Mínimo (× 2,5)</th><th class="num">Ideal (× 2,7)</th><th class="num">Máximo (× 3)</th></tr><tr class=""><td class="num">R$ 20</td><td class="num">R$ 50</td><td class="num">R$ 54</td><td class="num">R$ 60</td></tr><tr class=""><td class="num">R$ 50</td><td class="num">R$ 125</td><td class="num">R$ 135</td><td class="num">R$ 150</td></tr><tr class=""><td class="num">R$ 100</td><td class="num">R$ 250</td><td class="num">R$ 270</td><td class="num">R$ 300</td></tr><tr class=""><td class="num">R$ 200</td><td class="num">R$ 500</td><td class="num">R$ 540</td><td class="num">R$ 600</td></tr><tr class=""><td class="num">R$ 300</td><td class="num">R$ 750</td><td class="num">R$ 810</td><td class="num">R$ 900</td></tr></table></section><section class="pag"><div class="topo"><span>CEIA QUE VENDE · BÔNUS</span><span class="selo">COBRAR MAIS SEM PERDER CLIENTE</span></div><h1>Como cobrar mais sem perder cliente</h1>
+  <p class="sub">O cliente de Natal não compara centavos: compara tranquilidade. Estes 8 jeitos aumentam o valor de cada pedido.</p>
+  <div class="etapas miuda">
+  <div class="etapa"><div class="num">1</div><div><h3>Venda o kit, não o prato</h3><p>Quem pede só o pernil leva R$ 300. Quem pede o kit leva arroz, farofa e sobremesa junto. Os Kits Prontos (bônus 4) já vêm com o preço do combo.</p></div></div>
+  <div class="etapa"><div class="num">2</div><div><h3>Ofereça 3 tamanhos</h3><p>Mostre o kit de 4, o de 6 a 8 e o de 10. A maioria escolhe o do meio, que é o que dá mais lucro por hora de trabalho.</p></div></div>
+  <div class="etapa"><div class="num">3</div><div><h3>Tenha adicionais prontos</h3><p>"Quer acrescentar uma travessa de pavê por R$ 70?" Sobremesa, molho extra e pão de alho são vendas que quase todo mundo aceita.</p></div></div>
+  <div class="etapa"><div class="num">4</div><div><h3>Cobre a entrega à parte</h3><p>Defina uma taxa por bairro (ex.: R$ 10 perto, R$ 20 longe). Retirada é grátis. Assim o preço do kit não sobe.</p></div></div>
+  <div class="etapa"><div class="num">5</div><div><h3>Capriche na apresentação</h3><p>Etiqueta bonita, fita vermelha, um cartão de "Feliz Natal" com o seu nome. Custa R$ 1 e faz o cliente achar justo pagar mais (e indicar você).</p></div></div>
+  <div class="etapa"><div class="num">6</div><div><h3>Não dê desconto: dê um mimo</h3><p>Pediu desconto? "Desconto não consigo, mas mando um molho de ameixa de cortesia." O molho custa poucos reais; o desconto sairia do seu lucro.</p></div></div>
+  <div class="etapa"><div class="num">7</div><div><h3>Sinal de 50% sempre</h3><p>Quem paga o sinal não desiste. E o sinal paga as compras, então você não tira dinheiro do bolso.</p></div></div>
+  <div class="etapa"><div class="num">8</div><div><h3>Feche as encomendas numa data</h3><p>"Encomendas até 15/12" faz o cliente decidir agora. Depois dessa data, só aceite se couber no seu limite (Calendário Anti-Sufoco).</p></div></div>
+  </div></section><section class="pag"><div class="topo"><span>CEIA QUE VENDE · BÔNUS</span><span class="selo">QUANDO PERGUNTAM "TÁ CARO?"</span></div><h1>Quando perguntam "tá caro?"</h1>
+  <p class="sub">Não baixe o preço. Mostre o que está incluído. Copie e adapte:</p>
+  <div class="msg">Entendo! Esse valor já inclui tudo pronto: o pernil de 4 kg assado, o arroz, a farofa e a sobremesa, embalados e prontos para servir 10 pessoas. Dá menos de R$ 60 por pessoa, sem você passar o dia 24 na cozinha. 😊
+  Se preferir, tenho o kit menor, para 6 a 8 pessoas.</div>
+  <h2>3 respostas que não baixam o preço</h2>
+  <ul class="lista"><li><b>Divida por pessoa:</b> "Fica R$ X por pessoa, com tudo pronto."</li><li><b>Ofereça o tamanho menor</b>, não um desconto.</li><li><b>Compare com o trabalho:</b> "Comprar, temperar, assar e lavar a louça no dia 24... aqui chega pronto."</li></ul>
+  <div class="box vinho"><b>Quando dizer não:</b> se o cliente só fecha com um preço abaixo do seu mínimo (custo × 2,5), agradeça e deixe a vaga para outro. No Natal sobra cliente; o que falta é forno.</div>
+  <h2>Minha tabela de preços</h2>
+  <table><tr><th class="">Prato ou kit</th><th class="">Custo</th><th class="">Mínimo (× 2,5)</th><th class="">Meu preço</th></tr><tr class=""><td class="">&nbsp;</td><td class=""></td><td class=""></td><td class=""></td></tr><tr class=""><td class="">&nbsp;</td><td class=""></td><td class=""></td><td class=""></td></tr><tr class=""><td class="">&nbsp;</td><td class=""></td><td class=""></td><td class=""></td></tr><tr class=""><td class="">&nbsp;</td><td class=""></td><td class=""></td><td class=""></td></tr><tr class=""><td class="">&nbsp;</td><td class=""></td><td class=""></td><td class=""></td></tr><tr class=""><td class="">&nbsp;</td><td class=""></td><td class=""></td><td class=""></td></tr><tr class=""><td class="">&nbsp;</td><td class=""></td><td class=""></td><td class=""></td></tr></table></section></body></html>

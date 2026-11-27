@@ -1,0 +1,102 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Bônus 3 · Calendário Anti-Sufoco</title><style>
+@page { size: A4; margin: 14mm 15mm 15mm; }
+@page cheia { margin: 0; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body { font-family: Inter, 'DejaVu Sans', sans-serif; color: #2a1f1a; font-size: 13pt; line-height: 1.45; }
+.pag { break-before: page; }
+.mantem { break-inside: avoid; }
+h1, h2, h3, .serif { font-family: Caladea, 'DejaVu Serif', serif; }
+h1 { font-size: 30pt; color: #0f3d2e; line-height: 1.05; }
+h2 { font-size: 16pt; color: #8c1c24; margin: 5mm 0 2mm; line-height: 1.15; }
+h3 { font-size: 14pt; color: #0f3d2e; margin: 4mm 0 2mm; }
+p { margin: 0 0 2.5mm; }
+b, strong { font-weight: 700; }
+.topo { display: flex; justify-content: space-between; align-items: center; border-bottom: 2.5px solid #0f3d2e; padding-bottom: 2.5mm; margin-bottom: 6mm; font-size: 9.5pt; font-weight: 800; letter-spacing: .08em; color: #0f3d2e; }
+.topo .selo { background: #8c1c24; color: #fff; padding: 1.2mm 3mm; border-radius: 1.5mm; }
+.sub { font-size: 12.5pt; color: #6b5a4e; margin-top: 2mm; }
+.chips { display: flex; flex-wrap: wrap; gap: 2.5mm; margin: 4mm 0 2mm; }
+.chip { background: #f3ead7; border-radius: 10mm; padding: 1.4mm 4mm; font-size: 11pt; }
+.chip b { color: #0f3d2e; }
+table { width: 100%; border-collapse: collapse; font-size: 11.5pt; margin: 1mm 0 1mm; }
+th { background: #0f3d2e; color: #fff; text-align: left; padding: 1.8mm 2.6mm; font-size: 10.5pt; letter-spacing: .02em; font-weight: 700; }
+td { padding: 1.8mm 2.6mm; border-bottom: 1px solid #e6dcc8; vertical-align: top; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr.dest td { background: #fbf1d9; font-weight: 700; }
+.lucro { color: #1e6b3f; font-weight: 800; }
+.nota { font-size: 10pt; color: #7d6b5e; margin-top: 2mm; }
+.box { border: 2px solid #c9a24a; border-radius: 3mm; padding: 3.5mm 4.5mm; background: #fff8e8; margin-top: 4mm; break-inside: avoid; }
+.box.verde { border-color: #0f3d2e; background: #eef5f1; }
+.box.vinho { border-color: #8c1c24; background: #fbeeee; }
+.campo { display: inline-block; min-width: 26mm; border-bottom: 1.5px dashed #8c1c24; height: 6mm; vertical-align: bottom; }
+ul.ing { padding-left: 5.5mm; }
+ul.ing li { margin-bottom: 1.4mm; }
+ol.passos { padding-left: 0; list-style: none; counter-reset: p; }
+ol.passos li { counter-increment: p; position: relative; padding-left: 10mm; margin-bottom: 2.6mm; break-inside: avoid; }
+ol.passos li::before { content: counter(p); position: absolute; left: 0; top: .2mm; width: 6.8mm; height: 6.8mm; border-radius: 50%; background: #0f3d2e; color: #fff; font-weight: 800; font-size: 10.5pt; display: flex; align-items: center; justify-content: center; }
+ul.lista { padding-left: 5.5mm; }
+ul.lista li { margin-bottom: 1.8mm; }
+ul.check { list-style: none; padding: 0; }
+ul.check li { padding-left: 9mm; position: relative; margin-bottom: 2.2mm; break-inside: avoid; }
+ul.check li::before { content: ''; position: absolute; left: 0; top: .8mm; width: 5mm; height: 5mm; border: 2px solid #0f3d2e; border-radius: 1mm; background: #fff; }
+.duas { columns: 2; column-gap: 8mm; }
+.duas li { break-inside: avoid; }
+a { color: inherit; text-decoration: none; }
+.indice h3, h3.cat { margin-top: 3mm; }
+.indice .linha { display: flex; gap: 3mm; padding: .7mm 0; border-bottom: 1px dotted #d8cbb2; font-size: 11pt; }
+.indice .linha .n { color: #8c1c24; font-weight: 800; width: 9mm; }
+.indice.duas .linha { break-inside: avoid; }
+/* capa */
+.capa { page: cheia; break-before: page; width: 210mm; height: 296.5mm; background: radial-gradient(circle at 70% 15%, #1d5c44 0, #0f3d2e 55%, #0a2b20 100%); color: #fff; padding: 22mm 20mm; position: relative; overflow: hidden; border: 5mm solid #c9a24a; }
+.capa .marca { font-size: 11pt; letter-spacing: .3em; color: #e9cf8a; font-weight: 700; }
+.capa h1 { color: #fff; font-size: 64pt; margin-top: 34mm; line-height: 1; }
+.capa h1 em { color: #e9cf8a; font-style: normal; }
+.capa .s { font-size: 17pt; color: #f3ead7; margin-top: 10mm; line-height: 1.35; max-width: 150mm; }
+.capa .tag { position: absolute; left: 20mm; bottom: 24mm; background: #8c1c24; padding: 3mm 6mm; border-radius: 2mm; font-size: 15pt; font-weight: 800; letter-spacing: .12em; }
+.capa .estrela { position: absolute; right: 20mm; top: 18mm; font-size: 44pt; color: #e9cf8a; }
+.capa .fitas { position: absolute; right: -40mm; bottom: -48mm; width: 130mm; height: 130mm; border-radius: 50%; border: 8mm solid #8c1c24; opacity: .55; }
+.capa .rod { position: absolute; right: 20mm; bottom: 26mm; font-size: 10pt; color: #e9cf8a; letter-spacing: .1em; }
+/* abertura de categoria */
+.abre { page: cheia; break-before: page; height: 296.5mm; padding: 24mm 20mm; background: #0f3d2e; color: #fff; display: flex; flex-direction: column; justify-content: center; }
+.abre h1 { color: #fff; font-size: 46pt; }
+.abre .sub { color: #e9cf8a; font-size: 15pt; }
+.abre .lista-cat { margin-top: 10mm; columns: 2; font-size: 12.5pt; color: #f3ead7; }
+.abre .lista-cat div { margin-bottom: 1.5mm; break-inside: avoid; }
+.abre .lista-cat b { color: #e9cf8a; }
+/* passos grandes (comece aqui, bônus) */
+.etapas { display: grid; gap: 2.5mm; margin-top: 3mm; }
+.etapa p { margin: 0; }
+.miuda .etapa { font-size: 11pt; padding: 2mm 3.5mm; }
+.miuda .etapa h3 { font-size: 12.5pt; }
+.miuda .etapa .num { width: 9mm; height: 9mm; font-size: 13pt; }
+.etapa { display: grid; grid-template-columns: 13mm 1fr; gap: 4mm; align-items: start; background: #fff; border: 1.5px solid #e6dcc8; border-radius: 3mm; padding: 2.6mm 4mm; break-inside: avoid; font-size: 12pt; }
+.etapa .num { width: 11mm; height: 11mm; border-radius: 50%; background: #8c1c24; color: #fff; font-weight: 900; font-size: 15pt; display: flex; align-items: center; justify-content: center; font-family: Caladea, serif; }
+.etapa h3 { margin: 0 0 1mm; }
+.grade2 { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; }
+.kit { border: 2px solid #0f3d2e; border-radius: 3mm; padding: 4mm 4.5mm; background: #fff; break-inside: avoid; }
+.kit.dest { border-color: #c9a24a; box-shadow: 0 0 0 1.5mm #f3e3b5; }
+.kit h3 { margin: 0 0 1.5mm; font-size: 16pt; }
+.kit .preco { font-size: 22pt; font-weight: 900; color: #8c1c24; font-family: Caladea, serif; }
+.kit .linha-p { display: flex; justify-content: space-between; font-size: 11pt; border-top: 1px dashed #c9b89a; padding-top: 2mm; margin-top: 2mm; }
+.msg { background: #e7f6dc; border-radius: 3mm 3mm 3mm 0.5mm; padding: 3.5mm 4.5mm; font-size: 11.5pt; white-space: pre-line; break-inside: avoid; border: 1px solid #c8e6b3; }
+.dia { display: grid; grid-template-columns: 30mm 1fr; gap: 4mm; align-items: start; border-left: 2mm solid #0f3d2e; background: #fff; padding: 1.5mm 3.5mm; border-radius: 1.5mm; margin-bottom: 1.3mm; break-inside: avoid; font-size: 11pt; line-height: 1.35; }
+.dia .d { font-weight: 800; color: #0f3d2e; }
+.dia .d small { display: block; font-weight: 700; color: #8c1c24; font-size: 9.5pt; letter-spacing: .05em; }
+.dia.ouro { border-left-color: #c9a24a; background: #fff8e8; }
+.dia.alerta { border-left-color: #8c1c24; background: #fbeeee; }
+.bonus-tag { display: inline-block; background: #c9a24a; color: #2a1f1a; font-weight: 900; font-size: 9.5pt; letter-spacing: .12em; padding: 1.2mm 3mm; border-radius: 1.5mm; margin-bottom: 3mm; }
+</style></head><body><div class="capa"><div class="estrela">★</div><div class="fitas"></div><div class="marca">CEIA QUE VENDE</div><h1>Calendário<br><em>Anti-Sufoco</em></h1><p class="s">O dia de abrir e de fechar as encomendas, comprar, produzir e entregar, com o limite de pedidos por dia.</p><div class="tag">BÔNUS 3 · PREMIUM</div></div><section class="pag"><div class="topo"><span>CEIA QUE VENDE · BÔNUS</span><span class="selo">CALENDÁRIO · AS FASES</span></div><h1>As fases do seu Natal</h1><p class="sub">O dia D é 24/12. Cada fase tem uma tarefa; o dia a dia está nas próximas páginas.</p>
+  <div class="dia "><div class="d">26/11 <small>qui · D-28</small></div><div>Do dia 26/11 ao 30/11: escolha os pratos e os kits, confira os preços e monte o cardápio.</div></div>
+  <div class="dia ouro"><div class="d">1º/12 <small>ter · D-23</small></div><div><b>Abra as encomendas no dia em que comprou este material</b> (até 1º/12, no máximo).</div></div>
+  <div class="dia "><div class="d">2/12 <small>qua · D-22</small></div><div>Do dia 1º ao 15/12: cada pedido só entra com <b>50% de sinal no Pix</b>. Anote na planilha.</div></div>
+  <div class="dia alerta"><div class="d">15/12 <small>ter · D-9</small></div><div><b>Feche as encomendas.</b></div></div>
+  <div class="dia "><div class="d">16/12 <small>qua · D-8</small></div><div>Do dia 16 ao 20/12: confirme cada pedido, horário e saldo. Compre o que não estraga.</div></div>
+  <div class="dia "><div class="d">21/12 <small>seg · D-3</small></div><div>Compras de carne e hortifrúti.</div></div>
+  <div class="dia "><div class="d">22/12 <small>ter · D-2</small></div><div>Dias 22 e 23: temperos, pré-preparo e sobremesas. Primeiras entregas no dia 23.</div></div>
+  <div class="dia ouro"><div class="d">24/12 <small>qui · DIA D</small></div><div>Assados e entregas.</div></div>
+  <div class="dia "><div class="d">25/12 <small>sex · D+1</small></div><div>Almoço do Dia 25.</div></div>
+  <div class="box limite" style="margin-top:4mm"><b>Meu limite de pedidos por dia de entrega:</b> dia 23: <span class="campo"></span> · dia 24: <span class="campo"></span> · dia 25: <span class="campo"></span></div></section><section class="pag"><div class="topo"><span>CEIA QUE VENDE · BÔNUS</span><span class="selo">DIA A DIA · PREPARAÇÃO E VENDAS</span></div><h1>Preparação e vendas</h1><p class="sub">26/11 a 8/12: uma tarefa por dia. Marque quando fizer.</p><div class="dia "><div class="d">26/11 <small>qui · D-28</small></div><div>Escolha o seu cardápio: 1 ou 2 assados, 3 acompanhamentos e 1 sobremesa. Use as fichas.</div></div><div class="dia "><div class="d">27/11 <small>sex · D-27</small></div><div>Faça em casa o prato que você menos domina. Fotografe o prato pronto, com luz natural.</div></div><div class="dia "><div class="d">28/11 <small>sáb · D-26</small></div><div>Pesquise os preços em 2 mercados e refaça as contas das fichas com o seu custo.</div></div><div class="dia "><div class="d">29/11 <small>dom · D-25</small></div><div>Monte os seus kits (bônus 4) e a sua tabela de preços. Defina a taxa de entrega por bairro.</div></div><div class="dia "><div class="d">30/11 <small>seg · D-24</small></div><div>Faça a Conta do Limite (página 3) e defina quantos pedidos aceita em cada dia de entrega.</div></div><div class="dia ouro"><div class="d">1º/12 <small>ter · D-23</small></div><div><b>Abra as encomendas</b> (se ainda não abriu): cardápio, preços, data de fechamento e sinal de 50%.</div></div><div class="dia "><div class="d">2/12 <small>qua · D-22</small></div><div>Mande o cardápio para a família, os vizinhos e os grupos do bairro e do condomínio.</div></div><div class="dia "><div class="d">3/12 <small>qui · D-21</small></div><div>Poste a foto do prato nos status. Anote cada pedido na planilha no mesmo minuto.</div></div><div class="dia "><div class="d">4/12 <small>sex · D-20</small></div><div>Cobre o sinal de quem pediu e ainda não pagou. Pedido sem sinal não entra no limite.</div></div><div class="dia "><div class="d">5/12 <small>sáb · D-19</small></div><div>Peça indicação a quem já pagou: "conhece alguém que também quer a ceia pronta?"</div></div><div class="dia "><div class="d">6/12 <small>dom · D-18</small></div><div>Confira o limite: quantas vagas ainda restam em cada dia de entrega?</div></div><div class="dia "><div class="d">7/12 <small>seg · D-17</small></div><div>Novo post nos status com as vagas restantes.</div></div><div class="dia "><div class="d">8/12 <small>ter · D-16</small></div><div>Encomende as embalagens (marmitas, potes, etiquetas) para chegarem até o dia 18.</div></div></section><section class="pag"><div class="topo"><span>CEIA QUE VENDE · BÔNUS</span><span class="selo">DIA A DIA · D-15 A D-1</span></div><h1>Contagem regressiva: D-15 a D-1</h1><p class="sub">9/12 a 23/12: a reta final, do último empurrão de vendas à véspera.</p><div class="dia "><div class="d">9/12 <small>qua · D-15</small></div><div>Status: "Faltam 6 dias para fechar as encomendas." Responda todo mundo no mesmo dia.</div></div><div class="dia "><div class="d">10/12 <small>qui · D-14</small></div><div>Cobre os sinais pendentes. Quem não pagou em 48 h sai da lista.</div></div><div class="dia "><div class="d">11/12 <small>sex · D-13</small></div><div>Encomende a carne no açougue (pernil, lombo, aves) para retirar no dia 21.</div></div><div class="dia "><div class="d">12/12 <small>sáb · D-12</small></div><div>Ofereça o Almoço do Dia 25 a quem já pediu a ceia.</div></div><div class="dia "><div class="d">13/12 <small>dom · D-11</small></div><div>Confira a planilha: total vendido, sinal recebido e saldo a receber.</div></div><div class="dia "><div class="d">14/12 <small>seg · D-10</small></div><div>Último aviso: "As encomendas fecham amanhã."</div></div><div class="dia alerta"><div class="d">15/12 <small>ter · D-9</small></div><div><b>Feche as encomendas.</b> Pedido depois disso só se couber no seu limite.</div></div><div class="dia "><div class="d">16/12 <small>qua · D-8</small></div><div>Monte o roteiro de entregas: horário e bairro de cada pedido.</div></div><div class="dia "><div class="d">17/12 <small>qui · D-7</small></div><div>Gere a lista de compras pela planilha (aba "Lista de compras").</div></div><div class="dia "><div class="d">18/12 <small>sex · D-6</small></div><div>Compre o que não estraga: arroz, farinhas, latas, chocolate, embalagens. Panetone e brownie podem ser feitos a partir de hoje.</div></div><div class="dia "><div class="d">19/12 <small>sáb · D-5</small></div><div>Limpeza geral da geladeira e do freezer. Separe o espaço de cada pedido.</div></div><div class="dia "><div class="d">20/12 <small>dom · D-4</small></div><div>Confirme cada pedido por mensagem: prato, horário, endereço e saldo.</div></div><div class="dia "><div class="d">21/12 <small>seg · D-3</small></div><div>Compras de carne, frios e hortifrúti. Carne congelada começa a descongelar <b>na geladeira</b> hoje.</div></div><div class="dia "><div class="d">22/12 <small>ter · D-2</small></div><div>Pré-preparo: temperos, farofas, molhos, pudins e pavês. Pernil entra na marinada.</div></div><div class="dia "><div class="d">23/12 <small>qua · D-1</small></div><div>Saladas que aguentam, sobremesas de geladeira e montagem do almoço do dia 25. Primeiras entregas.</div></div></section><section class="pag"><div class="topo"><span>CEIA QUE VENDE · BÔNUS</span><span class="selo">DIA D E A CONTA DO LIMITE</span></div><h1>Dia D</h1><div class="dia ouro"><div class="d">24/12 <small>qui · DIA D</small></div><div><b>Assados e entregas</b> no horário marcado. Receba o saldo na entrega.</div></div><div class="dia "><div class="d">25/12 <small>sex · D+1</small></div><div>Almoço do Dia 25 (bônus 2): cardápio e limite separados da ceia.</div></div>
+  <h1 style="margin-top:8mm">A Conta do Limite do seu dia 24</h1>
+  <p class="sub">O limite é o menor destes 3 números: forno, geladeira e entregas.</p>
+  <table><tr><th class="">Conta</th><th class="">Exemplo (pernil, 1 forno)</th><th class="">A sua</th></tr><tr class=""><td class="">Horas de forno livres no dia 24</td><td class="">6h às 17h = 11 h</td><td class="">&nbsp;</td></tr><tr class=""><td class="">÷ horas de forno do seu assado</td><td class="">11 ÷ 3,5 = 3 fornadas</td><td class="">&nbsp;</td></tr><tr class=""><td class="">× peças por fornada</td><td class="">3 × 2 = <b>6 pernis</b></td><td class="">&nbsp;</td></tr><tr class=""><td class="">Travessas que cabem na geladeira</td><td class="">12 travessas ÷ 3 por pedido = <b>4 pedidos</b> de uma vez</td><td class="">&nbsp;</td></tr><tr class=""><td class="">Entregas por hora × horas de entrega</td><td class="">3 × 5 h = <b>15 entregas</b></td><td class="">&nbsp;</td></tr><tr class="dest"><td class=""><b>Meu limite no dia 24</b></td><td class=""><b>6 kits</b> com pernil (o forno manda)</td><td class="">&nbsp;</td></tr></table>
+  <div class="box verde"><b>Quer vender mais que o limite?</b> Abra entregas no dia 23 (o cliente reaquece) e use pratos que não usam forno no dia 24. Exemplo: 6 kits de 6 a 8 pessoas no dia 24 = R$ 1.794 de faturamento; com mais 4 kits entregues no dia 23, são R$ 2.990.</div></section></body></html>
