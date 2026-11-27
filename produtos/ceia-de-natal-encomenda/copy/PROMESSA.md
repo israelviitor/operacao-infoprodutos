@@ -47,7 +47,7 @@ A cozinheira boa perde dinheiro, ou some no dia 24, porque decide no olho três 
    - os insumos custam chester ~R$ 34/kg, peru ~R$ 32/kg e pernil R$ 18 a R$ 40/kg (dez/2025 — itatiaia.com.br, oliberal.com);
    - o mercado usa markup de 2,5 a 3 sobre o custo (Saipos, UFPB);
    - um chester de 3,5 kg custa ~R$ 120 de carne e é vendido por R$ 300 a R$ 360.
-3. **A conta fecha:** 10 kits × R$ 299 = R$ 2.990 de faturamento. Com markup de 2,5 a 3, o lucro bruto fica em ~R$ 1.800 a R$ 2.000, antes de gás, embalagem e entrega. Com 20 kits, ~R$ 3.600 a R$ 4.000. O sinal de 50% (R$ 1.495 em 10 kits) cobre as compras.
+3. **A conta fecha:** 10 kits × R$ 299 = R$ 2.990 de faturamento. Com o custo das fichas (R$ 117 por kit = R$ 1.170), o lucro bruto fica em ~R$ 1.820, antes de gás, embalagem e entrega. Com 20 kits, ~R$ 3.600 a R$ 4.000. O sinal de 50% (R$ 1.495 em 10 kits) cobre as compras.
    - *O volume é um exemplo. Na página, sempre "se você aceitar 10 pedidos", nunca "você vai vender 10".*
 4. **O medo é real (caso público):** em 2020, uma cozinheira de São Vicente (SP) aceitou dezenas de ceias, não deu conta e virou meme. Depois disse: "Não fiz e não farei mais ceia." (reprodução do g1 em setelagoas.com.br).
    - *Na copy, não citar o nome dela: "a cozinheira que deixou os clientes sem ceia".*
