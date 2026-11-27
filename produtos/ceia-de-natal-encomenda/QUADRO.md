@@ -25,7 +25,7 @@ Dono: montar a LP no ChatGPT (prompt pronto) e a Cakto (roteiro pronto) · Estru
 |---|---|---|---|
 | Mineração / dossiê | ✅ | `dossie.md` | 2026-11-26 |
 | Copy de Oferta (promessa, página, VSL) | ✅ | `copy/PROMESSA.md`, `copy/pagina-vendas.md` (página + checkout, bumps e upsell) | 2026-11-26 |
-| Estrutura — entregável | 🟡 especificação pronta; produção a fazer (antes do 1º anúncio) | `estrutura/entregavel/ESPECIFICACAO.md` | 2026-11-26 |
+| Estrutura — entregável | 🟡 50 receitas do Básico em texto prontas; falta diagramar + Premium (contas) + bônus | `estrutura/entregavel/receitas-50.md`, `ESPECIFICACAO.md` | 2026-11-27 |
 | Estrutura — página montada | 🔵 prompt pronto: dono cola no ChatGPT | `estrutura/pagina/prompt-chatgpt.md` + `pacote-imagens-ceia-que-vende.zip` | 2026-11-26 |
 | Estrutura — Cakto | 🔵 roteiro pronto: dono executa no painel | `estrutura/cakto-roteiro.md` | 2026-11-26 |
 | Copy de Criativos | ⬜ | `criativos/` | — |
@@ -47,6 +47,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 Dono: colar `estrutura/pagina/prompt-chatgpt.md` no ChatGPT (com o zip) e configurar a Cakto pelo roteiro. Estrutura: produzir o entregável pela `ESPECIFICACAO.md` (Premium primeiro). Copy de Criativos pode começar (imagens em `estrutura/pagina/img/`).
 
 ## Histórico (mais recente em cima)
+- [2026-11-27] Estrutura: texto das 50 receitas do Básico (nome, rendimento, ingredientes, preparo), na numeração da especificação (pernil = 07, igual à ficha da LP). Sem contas, diagramação e bônus (dono pede depois).
 - [2026-11-26] Estrutura: prompt final da LP para o ChatGPT (17 blocos, texto exato, 14 imagens de fichas-modelo), roteiro Cakto (2 produtos, 3 bumps, upsell, CPA de empate R$ 22,61) e especificação do entregável que fecha os [CONFIRMAR] da copy. Comitê: Ajustar, aplicado (recortes da ficha refeitos, capa própria do Básico, bloco 11 com medidas, calendário dia a dia e preço mínimo na especificação).
 - [2026-11-26] Copy de Oferta: PROMESSA + página de 17 blocos + checkout (banners, 3 bumps, upsell Ano Novo) entregues e revisados pelo comitê (Ajustar, aplicado). Pedido aberto para a Estrutura.
 - [2026-11-26] Dono: dia 25 vira bônus; LP com 2 ofertas (R$ 17,90 / R$ 29,90). Mineração concluída.
