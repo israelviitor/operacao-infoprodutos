@@ -14,7 +14,7 @@ fs.mkdirSync(HTML, { recursive: true });
 const t = tudo();
 const CATS = [
   ['ASSADOS', 'Assados', 'O prato principal da ceia: é ele que fecha o pedido.'],
-  ['ACOMPANHAMENTOS', 'Acompanhamentos', 'Arroz, farofas, saladas e molhos que completam o kit.'],
+  ['ACOMPANHAMENTOS', 'Acompanhamentos', 'Arroz, farofas, saladas e molhos que completam a ceia.'],
   ['SOBREMESAS', 'Sobremesas', 'O doce que o cliente pede junto e que aumenta o valor do pedido.'],
 ];
 const nomeCat = (c) => CATS.find((x) => x[0] === c)[1];
@@ -80,11 +80,11 @@ function contaQuantidade(r) {
     ? `<tr><th>Pessoas</th><th class="num">${esc(d.principal[0])}</th><th>Tempero e demais ingredientes</th><th>${vasNome === 'assadeira' ? 'Assadeiras' : 'Panelas'}</th></tr>`
     : `<tr><th>Pessoas</th><th>Quanto fazer</th><th class="num">Rende até</th><th>Vasilhas</th></tr>`;
   const linhas = r.contas.map((c) => `<tr class="${c.pessoas === 10 ? 'dest' : ''}"><td>${c.pessoas}</td>${d.principal
-    ? `<td class="num">${kg(c.principalKg)}</td><td>${fracao(c.mult)}</td><td>${c.vasilhas}</td>`
+    ? `<td class="num">${kg(c.principalKg)}${c.pecas > 1 ? ` (${c.pecas} aves de ${kg(c.principalKg / c.pecas)})` : c.pecas === 1 ? ' (1 ave)' : c.vasilhas > 1 ? ` (${c.vasilhas} peças)` : ''}</td><td>${fracao(c.mult)}</td><td>${c.vasilhas}</td>`
     : `<td>${fracao(c.mult)}</td><td class="num">${Math.floor(c.mult * d.base)} pessoas</td><td>${c.vasilhas} × ${esc(vasNome)}</td>`}</tr>`).join('');
   const nota = d.principal
-    ? `A carne vai na medida exata por pessoa (${kg(d.principal[1])} por pessoa)${d.principal[4] ? `, mas não se acha ${esc(d.principal[0].toLowerCase())} com menos de ${kg(d.principal[4])}: para poucas pessoas, a sobra vira sanduíche ou vai no kit` : ''}. O tempero e os demais ingredientes seguem a receita-base abaixo (${esc(r.rende)}).`
-    : `"1 receita" é a receita-base abaixo (${esc(r.rende)}). Arredondamos para cima: é melhor sobrar um pouco do que faltar na mesa do cliente.`;
+    ? `A carne vai na medida exata por pessoa (${kg(d.principal[1])} por pessoa)${d.principal[4] ? `, mas ${esc(d.principal[0].toLowerCase())} se compra inteiro, de ${kg(d.principal[4])} a ${kg(d.principal[3])} por ave: para poucas pessoas, a sobra fica com o cliente (rende sanduíche no dia seguinte)` : ''}. O tempero segue o peso da carne. O tempero e os demais ingredientes seguem a receita-base abaixo (${esc(r.rende)}).`
+    : `"1 receita" é a receita-base abaixo (${esc(r.rende)}). Arredondamos para cima: é melhor sobrar um pouco do que faltar na mesa do cliente.${r.cat === 'SOBREMESAS' ? ' Para ½ receita, use forma ou travessa com metade do volume.' : ''}`;
   return `<h2>1. A Conta da Quantidade</h2><table>${cabec}${linhas}</table><p class="nota">${nota}</p>`;
 }
 
@@ -103,7 +103,7 @@ function fichaPremium(r) {
   <h1>${esc(r.nome)}</h1>${chips(r)}
   ${contaQuantidade(r)}${contaPreco(r)}
   <div class="box vinho mantem"><b>3. A Conta do Limite:</b> ${esc(r.dados.limite)}</div>
-  <section class="pag"><h2 style="margin-top:0">Ingredientes · receita-base (${esc(r.rende.split(' ·')[0])})</h2>${ingHtml(r)}
+  <section class="pag"><h2 style="margin-top:0">Ingredientes da receita-base</h2><p class="nota" style="margin-top:-1mm">Rende: ${esc(r.rende)}</p>${ingHtml(r)}
   <h2>Modo de preparo</h2>${passosHtml(r)}</section></section>`;
 }
 
@@ -117,6 +117,7 @@ function comeceAqui() {
   <div class="etapa"><div class="num">2</div><div><h3>A Conta do Preço</h3><p>Quanto custa, o mínimo que você pode cobrar e quanto sobra. No pernil para 10: custo <b>${brl(c10.custo)}</b>, preço mínimo <b>${brl(c10.minimo)}</b>, preço sugerido <b>${brl(c10.preco)}</b>, lucro <b>${brl(c10.lucro)}</b>.</p></div></div>
   <div class="etapa"><div class="num">3</div><div><h3>A Conta do Limite</h3><p>Quantos pedidos cabem no seu forno, no seu fogão e na sua geladeira. ${esc(p.dados.limite)}</p></div></div>
   </div>
+  <div class="box"><b>O preço da ficha é sobre os ingredientes.</b> Gás e embalagem custam poucos reais por pedido e o × 2,7 já dá margem para eles. Quer a conta completa, com gás, embalagem e a sua hora? Está no bônus Como Precificar.</div>
   <div class="box"><b>Os preços são de referência (dez/2025).</b> Mercado muda de cidade para cidade. Em cada ficha tem um espaço para você fazer a conta com o seu custo: o que você pagou × 2,5 é o mínimo que você pode cobrar.</div>
   <div class="box verde"><b>Seus bônus</b> estão na área de membros, cada um no seu arquivo: Como Precificar · Almoço do Dia 25 · Calendário Anti-Sufoco · Kits Prontos de 4 a 20 Pessoas · Planilha de Pedidos e Sinal · Checklist da Ceia Segura.</div>
   </section>`;

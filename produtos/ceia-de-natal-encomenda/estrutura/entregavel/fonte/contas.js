@@ -61,20 +61,27 @@ function contasDe(n) {
   const resto = custoItens(d.itens);
   return TAMANHOS.map((pessoas) => {
     // assados: a carne é exata por pessoa e o tempero segue a proporção (em quartos); demais pratos: receitas arredondadas para cima
-    const mult = d.principal ? Math.max(0.25, Math.round((pessoas / d.base) * 4) / 4) : multiplo(pessoas, d.base);
-    let custo, principalKg = null, vasilhas;
+    let mult = multiplo(pessoas, d.base);
+    let custo, principalKg = null, vasilhas, pecas = null;
     if (d.principal) {
       const [, kgPorPessoa, chave, kgPorVas, minKg = 0] = d.principal;
-      principalKg = r2(Math.max(kgPorPessoa * pessoas, minKg)); // ave inteira: não existe peça menor que minKg
+      const precisa = kgPorPessoa * pessoas;
+      if (minKg) {
+        // ave inteira: compra-se a peça inteira (de minKg a kgPorVas cada), 1 por assadeira
+        pecas = Math.ceil(precisa / kgPorVas - 1e-9);
+        principalKg = r2(Math.max(precisa, pecas * minKg));
+      } else principalKg = r2(precisa);
+      // o tempero segue o peso da carne (receita-base = kgPorPessoa × base), em quartos
+      mult = Math.max(0.25, Math.round((principalKg / (kgPorPessoa * d.base)) * 4) / 4);
       custo = principalKg * P[chave] + resto * mult;
-      vasilhas = Math.ceil(principalKg / kgPorVas - 1e-9);
+      vasilhas = pecas || Math.ceil(principalKg / kgPorVas - 1e-9);
     } else {
       custo = resto * mult;
       vasilhas = Math.ceil(mult / d.vas[1] - 1e-9);
     }
     custo = Math.ceil(custo); // arredonda o custo para cima, em reais
     const preco = precoDe(custo);
-    return { pessoas, mult, principalKg, vasilhas, custo, preco, lucro: preco - custo, minimo: Math.ceil(custo * MINIMO) };
+    return { pessoas, mult, principalKg, pecas, vasilhas, custo, preco, lucro: preco - custo, minimo: Math.ceil(custo * MINIMO) };
   });
 }
 

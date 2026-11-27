@@ -69,8 +69,9 @@ for r in range(5, 5 + N):
     pe.cell(row=r, column=10).number_format = '@'  # texto: 23/12, 24/12 ou 25/12
 dv_ped = DataValidation(type='list', formula1=f'=Preços!$A$5:$A${ULT_PRECO}', allow_blank=True)
 dv_sin = DataValidation(type='list', formula1='"Sim,Não,Quitado"', allow_blank=True)
-pe.add_data_validation(dv_ped); pe.add_data_validation(dv_sin)
-dv_ped.add(f'D5:D{4 + N}'); dv_sin.add(f'G5:G{4 + N}')
+dv_dia = DataValidation(type='list', formula1='"23/12,24/12,25/12"', allow_blank=True)
+pe.add_data_validation(dv_ped); pe.add_data_validation(dv_sin); pe.add_data_validation(dv_dia)
+dv_ped.add(f'D5:D{4 + N}'); dv_sin.add(f'G5:G{4 + N}'); dv_dia.add(f'J5:J{4 + N}')
 pe.conditional_formatting.add(f'G5:G{4 + N}', FormulaRule(formula=['G5="Não"'], fill=PatternFill('solid', fgColor='FBE3E3'), font=Font(color='B3261E', bold=True)))
 pe.conditional_formatting.add(f'G5:G{4 + N}', FormulaRule(formula=['OR(G5="Sim",G5="Quitado")'], fill=PatternFill('solid', fgColor='E3F2E6'), font=Font(color='188038', bold=True)))
 # exemplo (o cliente apaga)
@@ -135,14 +136,14 @@ for i, (n, f, fmt) in enumerate(dados, 5):
     c = rs.cell(row=i, column=2, value=f); c.border = borda; c.font = Font(bold=True)
     if fmt: c.number_format = fmt
 r = 5 + len(dados) + 1
-rs.cell(row=r, column=1, value='Pedidos por dia de entrega').font = Font(bold=True, size=13, color=VERDE)
-cabecalho(rs, r + 1, ['Dia', 'Pedidos', 'Meu limite'], [30, 18, 14])
+rs.cell(row=r, column=1, value='Pedidos com sinal pago, por dia de entrega').font = Font(bold=True, size=13, color=VERDE)
+cabecalho(rs, r + 1, ['Dia', 'Pedidos com sinal', 'Meu limite'], [30, 18, 14])
 for i, dia in enumerate(['23/12', '24/12', '25/12'], r + 2):
     rs.cell(row=i, column=1, value=dia).border = borda
-    c = rs.cell(row=i, column=2, value=f'=COUNTIF(Pedidos!$J$5:$J${4 + N},A{i})'); c.border = borda
+    c = rs.cell(row=i, column=2, value=f'=COUNTIFS(Pedidos!$J$5:$J${4 + N},A{i},Pedidos!$G$5:$G${4 + N},"Sim")+COUNTIFS(Pedidos!$J$5:$J${4 + N},A{i},Pedidos!$G$5:$G${4 + N},"Quitado")'); c.border = borda
     lim = rs.cell(row=i, column=3); lim.border = borda; lim.fill = PatternFill('solid', fgColor=OURO)
     rs.conditional_formatting.add(f'B{i}', FormulaRule(formula=[f'AND(C{i}<>"",B{i}>C{i})'], fill=PatternFill('solid', fgColor='FBE3E3'), font=Font(color='B3261E', bold=True)))
-rs.cell(row=r + 6, column=1, value='Digite o seu limite (Calendário Anti-Sufoco). Passou do limite, o número fica vermelho. Na aba Pedidos, escreva o dia como 23/12, 24/12 ou 25/12.').font = Font(italic=True, color='7D6B5E')
+rs.cell(row=r + 6, column=1, value='Digite o seu limite (Calendário Anti-Sufoco). Passou do limite, o número fica vermelho. Pedido sem sinal pago não conta no limite.').font = Font(italic=True, color='7D6B5E')
 
 for ws in wb.worksheets:
     ws.sheet_view.showGridLines = True

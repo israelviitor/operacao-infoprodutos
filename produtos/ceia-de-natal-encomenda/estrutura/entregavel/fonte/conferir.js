@@ -21,7 +21,7 @@ for (const r of t.receitas) {
   let ant = 0;
   for (const c of r.contas) {
     const tag = `${String(r.n).padStart(2, '0')} ${r.nome} (${c.pessoas} p.)`;
-    const carne = d.principal ? Math.max(d.principal[1] * c.pessoas, d.principal[4] || 0) * P[d.principal[2]] : 0;
+    const carne = d.principal ? c.principalKg * P[d.principal[2]] : 0;
     ok(c.custo === Math.ceil(carne + resto * c.mult - 1e-9) || c.custo === Math.ceil(carne + resto * c.mult), `${tag}: custo ${c.custo} ≠ ${carne + resto * c.mult}`);
     ok(c.lucro === c.preco - c.custo, `${tag}: lucro ≠ preço − custo`);
     const k = c.preco / c.custo;
@@ -30,7 +30,11 @@ for (const r of t.receitas) {
     ok(c.minimo === Math.ceil(c.custo * 2.5), `${tag}: preço mínimo errado`);
     ok(c.minimo <= c.preco, `${tag}: preço abaixo do mínimo`);
     ok(c.custo >= ant, `${tag}: custo menor que o do tamanho anterior`);
-    if (d.principal) ok(Math.abs(c.principalKg - Math.max(d.principal[1] * c.pessoas, d.principal[4] || 0)) < 0.011, `${tag}: kg da carne`);
+    if (d.principal) {
+      ok(c.principalKg + 0.011 >= d.principal[1] * c.pessoas, `${tag}: carne abaixo de ${d.principal[1]} kg por pessoa`);
+      if (c.pecas) { const cada = c.principalKg / c.pecas; ok(cada >= d.principal[4] - 1e-9 && cada <= d.principal[3] + 1e-9, `${tag}: ave de ${cada} kg não existe`); }
+      ok(Math.abs(c.mult - Math.max(0.25, Math.round(c.principalKg / (d.principal[1] * d.base) * 4) / 4)) < 1e-9, `${tag}: tempero não segue o peso`);
+    }
     else ok(c.mult * d.base >= c.pessoas, `${tag}: a receita não rende para ${c.pessoas} pessoas`);
     ant = c.custo;
   }

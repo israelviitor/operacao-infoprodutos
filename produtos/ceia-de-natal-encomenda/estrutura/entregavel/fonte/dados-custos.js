@@ -24,7 +24,7 @@ const P = {
 
 // Itens em [descrição, quantidade, chave de preço] ou [descrição, valor em R$] (temperos e itens de pouco peso).
 // base = pessoas que a receita-base serve (limite inferior do "Rende", para não faltar comida).
-// principal = [nome na tabela, kg por pessoa, chave de preço, kg por assadeira/panela, peso mínimo da peça inteira] — só nos assados.
+// principal = [nome na tabela, kg por pessoa, chave de preço, kg por assadeira/panela (nas aves inteiras: peso máximo da ave), peso mínimo da ave inteira] — só nos assados.
 // vas = [vasilha, receitas por vasilha] nas receitas sem principal.
 const R = {
   1: { base: 12, principal: ['Peru inteiro', 0.45, 'peru', 6, 4], vasP: 'assadeira',
@@ -47,7 +47,7 @@ const R = {
     limite: 'Cabem 2 assadeiras por fornada (2 h 30): até 12 porções por fornada.' },
   7: { base: 10, principal: ['Pernil com osso', 0.4, 'pernil', 4], vasP: 'assadeira',
     itens: [['Vinho branco (1 e ½ xícara)', 1.5, 'vinhoXic'], ['Limões', 3, 'limao'], ['Alho', 1, 'alho'], ['Cebolas', 2, 'cebola'], ['Sal, pimenta, alecrim, louro e páprica', 2.5], ['Azeite (3 cs)', 2.25]],
-    limite: '1 forno doméstico assa até 2 pernis de 4 kg por fornada (3 h 30). Num dia de entrega, isso dá no máximo 2 fornadas: 4 pernis.' },
+    limite: '1 forno doméstico assa até cerca de 8 kg de pernil por fornada: 2 peças de 4 kg (3 h 30) ou 3 peças de 2,4 kg (cerca de 2 h 30). Com o forno livre das 6h às 17h, cabem 3 fornadas de peças de 4 kg ou 4 de peças de 2,4 kg.' },
   8: { base: 8, principal: ['Peito de peru com osso', 0.31, 'peitoPeru', 3], vasP: 'assadeira',
     itens: [['Laranjas', 6, 'laranja'], ['Alho e tomilho', 2], ['Manteiga', 0.08, 'manteiga'], ['Mel e amido de milho', 2.5]],
     limite: 'Cabem 2 peitos por fornada (1 h 30): até 16 porções por fornada.' },
@@ -128,7 +128,7 @@ const R = {
   42: { base: 12, vas: ['refratário de 2,5 L', 1], itens: [['Biscoito champanhe', 0.3, 'biscoitoChampanhe'], ['Pêssego em calda', 1, 'pessegoLata'], ['Leite condensado', 1, 'leiteCondensado'], ['Leite', 0.8, 'leiteL'], ['Ovos (gemas)', 3, 'ovo'], ['Creme de leite fresco', 1, 'cremeFresco'], ['Amido, açúcar e baunilha', 0.7]],
     limite: 'Faça no dia 22 ou 23: precisa de 4 h de geladeira.' },
   43: { base: 16, vas: ['forma de panetone (2 por receita)', 1], itens: [['Farinha de trigo', 0.5, 'farinhaTrigo'], ['Fermento biológico', 1, 'fermentoSache'], ['Ovos', 4, 'ovo'], ['Manteiga', 0.1, 'manteiga'], ['Frutas cristalizadas e passas', 0.225, 'frutasCristalizadas'], ['Formas de papel', 2, 'formaPanetone'], ['Açúcar, leite, raspas e essência', 2.9]],
-    limite: 'São 4 h com os 2 crescimentos, mas o forno fica ocupado só 40 min. Faça entre os dias 18 e 22 (dura até 5 dias embalado).' },
+    limite: 'São 4 h com os 2 crescimentos, mas o forno fica ocupado só 40 min. Faça a partir do dia 20: dura até 5 dias bem embalado, e a entrega é no dia 24.' },
   44: { base: 12, vas: ['forma de 24 cm', 1], itens: [['Manteiga', 0.35, 'manteiga'], ['Creme de leite', 3, 'cremeLeite'], ['Biscoito maisena', 0.2, 'biscoitoMaisena'], ['Biscoito tipo calipso', 1, 'biscoitoCalipso'], ['Chocolate meio amargo', 0.2, 'chocolate'], ['Açúcar de confeiteiro e baunilha', 1.8]],
     limite: 'Faça no dia 22 ou 23: precisa de 6 h de geladeira e congelador.' },
   45: { base: 12, vas: ['forma de furo', 1], itens: [['Leite', 1, 'leiteL'], ['Leite de coco', 1, 'leiteCoco'], ['Coco ralado', 0.1, 'cocoRalado'], ['Ameixa-preta', 0.2, 'ameixa'], ['Açúcar e amido', 2.4]],
@@ -142,7 +142,7 @@ const R = {
   49: { base: 12, vas: ['refratário', 1], itens: [['Leite condensado', 1, 'leiteCondensado'], ['Morangos', 0.5, 'morango'], ['Chocolate meio amargo', 0.3, 'chocolate'], ['Creme de leite', 2, 'cremeLeite'], ['Leite, gemas, amido e manteiga', 3.8]],
     limite: 'Faça no máximo 1 dia antes (o morango solta água). Não usa forno.' },
   50: { base: 24, vas: ['assadeira de 25 × 35 cm', 1], itens: [['Chocolate meio amargo', 0.2, 'chocolate'], ['Manteiga', 0.2, 'manteiga'], ['Ovos', 4, 'ovo'], ['Nozes', 0.1, 'nozes'], ['Açúcar, farinha e chocolate em pó', 4.4]],
-    limite: 'Faça a partir do dia 18: dura até 5 dias embalado. Cabem 2 assadeiras por fornada (30 min).' },
+    limite: 'Faça a partir do dia 20: dura até 5 dias bem embalado. Cabem 2 assadeiras por fornada (30 min).' },
 };
 
 module.exports = { P, R };

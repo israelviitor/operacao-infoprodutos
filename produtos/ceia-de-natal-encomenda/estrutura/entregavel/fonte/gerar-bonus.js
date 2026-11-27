@@ -2,7 +2,7 @@
 // Uso: NODE_PATH=$(npm root -g) node gerar-bonus.js
 const fs = require('fs');
 const path = require('path');
-const { tudo, fracao, kg, P } = require('./contas');
+const { tudo, fracao, kg, P, precoDe } = require('./contas');
 const { md, doc, topo, capa, brl } = require('./estilo');
 const { pdf, fechar } = require('./pdf');
 
@@ -49,7 +49,7 @@ function precificar() {
   <p>Um forno doméstico a gás gasta, em média, cerca de <b>${String(kgHora).replace('.', ',')} kg de gás por hora</b> aceso (varia com o fogão e a temperatura).</p>
   <div class="box verde"><b>Custo do gás por hora = preço do botijão ÷ 13 × ${String(kgHora).replace('.', ',')}</b><br>Com o botijão a ${brl(botijao)}: ${brl(botijao)} ÷ 13 × ${String(kgHora).replace('.', ',')} = <b>${brl(gasHora, true)} por hora</b>.</div>
   <p style="margin-top:4mm">O pernil fica 3 h 30 no forno, e cabem 2 por fornada. O gás de cada pernil: ${brl(gasHora, true)} × 3,5 ÷ 2 = <b>${brl(gasPernil, true)}</b>.</p>
-  <p>Parece pouco, e é: o gás pesa menos que você imagina. O que pesa é esquecer dos outros custos todos juntos.</p>
+  <p>Parece pouco, e é: o gás pesa menos que você imagina. O que pesa é esquecer os outros custos todos juntos.</p>
   <h1 style="margin-top:9mm">Passo 3: a embalagem</h1>
   ${tabela(['Embalagem', 'Preço médio (un.)'], [['Marmita de alumínio 2,2 L com tampa (assado)', 'R$ 3,00'], ['Pote plástico de 1 L com tampa (salada, farofa)', 'R$ 1,50'], ['Travessa descartável de alumínio (sobremesa)', 'R$ 2,50'], ['Etiqueta + sacola', 'R$ 1,00']], -1, [1])}
   <p class="nota">Compre em loja de embalagem, em pacote fechado: sai até 40% mais barato que na unidade.</p>
@@ -68,8 +68,8 @@ function precificar() {
   + pag('COBRAR MAIS SEM PERDER CLIENTE', `<h1>Como cobrar mais sem perder cliente</h1>
   <p class="sub">O cliente de Natal não compara centavos: compara tranquilidade. Estes 8 jeitos aumentam o valor de cada pedido.</p>
   <div class="etapas miuda">
-  ${etapa(1, 'Venda o kit, não o prato', '<p>Quem pede só o pernil leva R$ 300. Quem pede o kit leva arroz, farofa e sobremesa junto. Os Kits Prontos (bônus 4) já vêm com o preço do combo.</p>')}
-  ${etapa(2, 'Ofereça 3 tamanhos', '<p>Mostre o kit de 4, o de 6 a 8 e o de 10. A maioria escolhe o do meio, que é o que dá mais lucro por hora de trabalho.</p>')}
+  ${etapa(1, 'Venda o kit, não o prato', '<p>Quem pede só o pernil para 10 leva ${brl(c.preco)}. Quem pede o kit leva arroz, farofa e sobremesa junto. Os Kits Prontos (bônus 4) já vêm com o preço do combo.</p>')}
+  ${etapa(2, 'Ofereça 3 tamanhos', '<p>Mostre o kit de 4, o de 6 a 8 e o de 10. Com 3 opções, a maioria escolhe o do meio, e quem ia pedir o pequeno muitas vezes sobe um tamanho.</p>')}
   ${etapa(3, 'Tenha adicionais prontos', '<p>"Quer acrescentar uma travessa de pavê por R$ 70?" Sobremesa, molho extra e pão de alho são vendas que quase todo mundo aceita.</p>')}
   ${etapa(4, 'Cobre a entrega à parte', '<p>Defina uma taxa por bairro (ex.: R$ 10 perto, R$ 20 longe). Retirada é grátis. Assim o preço do kit não sobe.</p>')}
   ${etapa(5, 'Capriche na apresentação', '<p>Etiqueta bonita, fita vermelha, um cartão de "Feliz Natal" com o seu nome. Custa R$ 1 e faz o cliente achar justo pagar mais (e indicar você).</p>')}
@@ -95,35 +95,37 @@ function almoco() {
   const kitA = [13, 20, 26, 46].map((n) => C(n, 10));
   const kitB = [29, 21, 27, 47].map((n) => C(n, 10));
   const soma = (a) => a.reduce((s, c) => s + c.custo, 0);
-  const pr = (v) => Math.round((v * 2.7) / 10) * 10;
+  const pr = precoDe;
   const kA = soma(kitA), kB = soma(kitB);
   return doc('Bônus 2 · Almoço do Dia 25', capaB(2, 'Almoço<br>do <em>Dia 25</em>', 'Um cardápio próprio para vender de novo no dia 25, com produção e limite separados da ceia.')
   + pag('ALMOÇO DO DIA 25', `<h1>O Natal tem 2 refeições. Venda as 2.</h1>
   <p class="sub">No dia 25, muita família acorda sem vontade de cozinhar de novo. É um segundo pedido no mesmo Natal, para clientes que você já tem.</p>
-  <div class="etapas">${etapa(1, 'Cardápio diferente da ceia', '<p>Pratos de forno e saladas que <b>não disputam o forno do dia 24</b>: são montados no dia 23 e só vão ao forno na manhã do dia 25.</p>')}${etapa(2, 'Produção separada', '<p>O almoço tem a própria lista de compras, o próprio dia de montagem e o próprio horário de entrega (11h às 13h).</p>')}${etapa(3, 'Limite separado', '<p>O almoço tem o seu limite de pedidos, contado à parte do limite da ceia. Começou o almoço sem ter terminado as entregas do dia 24? Então o limite está alto demais.</p>')}</div>
+  <div class="etapas">${etapa(1, 'Cardápio diferente da ceia', '<p>Pratos que <b>não disputam o forno do dia 24</b>: os de forno são montados no dia 23 e só vão ao forno na manhã do dia 25.</p>')}${etapa(2, 'Produção separada', '<p>O almoço tem a própria lista de compras, o próprio dia de montagem e o próprio horário de entrega (11h às 13h).</p>')}${etapa(3, 'Limite separado', '<p>O almoço tem o seu limite de pedidos, contado à parte do limite da ceia. Começou o almoço sem ter terminado as entregas do dia 24? Então o limite está alto demais.</p>')}</div>
   <div class="box vinho"><b>Nunca venda sobra da ceia no almoço.</b> O almoço é feito com ingredientes comprados para ele. Comida que voltou de entrega ou ficou exposta não se revende.</div>`)
-  + pag('O CARDÁPIO', `<h1>O cardápio do dia 25</h1><p class="sub">8 pratos das suas fichas. Todos aguentam ser montados no dia 23 e finalizados no dia 25.</p>
+  + pag('O CARDÁPIO', `<h1>O cardápio do dia 25</h1><p class="sub">8 pratos das suas fichas. Os de forno são montados no dia 23 e assados no dia 25; saladas, farofa e salada de frutas são feitas na manhã do dia 25.</p>
   ${tabela(['Ficha', 'Prato', 'Custo (10 p.)', 'Preço (10 p.)', 'Lucro'], linhas, -1, [2, 3, 4])}
   <p class="nota">Contas das fichas do Premium (preços de referência de dez/2025). Para 4, 6 ou 20 pessoas, veja a ficha de cada prato.</p>
   <h2>2 combos prontos para 10 pessoas</h2>
   <div class="grade2">
   <div class="kit dest"><h3>Almoço Clássico</h3><ul class="lista">${[13, 20, 26, 46].map((n) => `<li>${R(n).nome}</li>`).join('')}</ul><div class="preco">${brl(pr(kA))}</div><div class="linha-p"><span>Custo ${brl(kA)}</span><span class="lucro">Lucro ${brl(pr(kA) - kA)}</span></div></div>
   <div class="kit"><h3>Almoço de Forno</h3><ul class="lista">${[29, 21, 27, 47].map((n) => `<li>${R(n).nome}</li>`).join('')}</ul><div class="preco">${brl(pr(kB))}</div><div class="linha-p"><span>Custo ${brl(kB)}</span><span class="lucro">Lucro ${brl(pr(kB) - kB)}</span></div></div>
-  </div><p class="nota">Preço do combo = soma dos custos das fichas × 2,7, arredondado para múltiplo de 10.</p>`)
+  </div><p class="nota">Preço do combo = soma dos custos das fichas × 2,7, arredondado como nas fichas.</p>`)
   + pag('A PRODUÇÃO', `<h1>A produção do almoço</h1><p class="sub">Assim o almoço não atrapalha a ceia.</p>
   ${tabela(['Quando', 'O que fazer'], [
     ['21/12', 'Compras do almoço junto com as da ceia, mas em <b>lista separada</b> (aba "Lista de compras" da planilha).'],
     ['23/12 · manhã', 'Cozinhe o pernil desfiado e guarde na geladeira. Faça o pudim de pão (precisa de 4 h de geladeira).'],
     ['23/12 · tarde', 'Monte a lasanha e o arroz de forno nos refratários, tampe e leve à geladeira. Etiqueta: "almoço 25".'],
     ['24/12', '<b>Dia da ceia: não mexa no almoço.</b> Só confirme os pedidos e horários do dia 25 por mensagem.'],
-    ['25/12 · 7h', 'Forno: lasanha e arroz de forno (2 refratários por fornada), depois os legumes. Reaqueça o pernil desfiado até ferver.'],
-    ['25/12 · 9h', 'Farofa de banana, saladas e salada de frutas (fazer no dia).'],
-    ['25/12 · 11h às 13h', 'Entregas, em bolsa térmica, quente separado do frio. Receba o saldo na entrega.'],
+    ['25/12 · 7h', 'Farofa de banana, saladas e salada de frutas (vão para a geladeira assim que prontas).'],
+    ['25/12 · 8h30', 'Leva 1 no forno: 2 refratários (lasanha ou arroz de forno). Sai às 10h10 → <b>entregas das 10h30 às 12h</b>.'],
+    ['25/12 · 10h10', 'Leva 2 no forno. Sai às 11h50 → <b>entregas das 12h às 13h30</b>. Pernil desfiado: reaqueça até ferver na saída de cada leva.'],
+    ['Na entrega', 'Bolsa térmica, quente separado do frio. Cada prato quente chega em <b>até 2 h depois de sair do forno</b>. Receba o saldo na entrega.'],
   ])}
-  <div class="box"><b>Quanto tempo de forno o almoço pede:</b> lasanha 50 min + arroz de forno 30 min (os 2 juntos) + legumes 40 min ≈ 1 h 40 por leva de 2 refratários.</div>`)
+  <div class="box"><b>Por que em levas:</b> comida pronta fica no máximo 2 horas fora da geladeira, do forno até a mesa do cliente. Cada leva tem o seu horário de entrega. Não dá para entregar tudo no horário? Entregue o refratário <b>montado e gelado</b>, com o cartão "asse a 200 °C por 50 min, coberto, e mais 10 min descoberto".</div>
+  <div class="box verde"><b>Quanto forno cada leva pede:</b> 1 h 40 com 2 refratários (lasanha 50 min; arroz de forno 30 min). Os legumes assados ocupam 2 assadeiras e 40 min por receita: asse antes, às 7h, e entregue frios ou mornos dentro das 2 horas.</div>`)
   + pag('O LIMITE DO DIA 25', `<h1>A Conta do Limite do almoço</h1>
   <p class="sub">Faça esta conta antes de oferecer o almoço. Ela é separada da conta da ceia.</p>
-  ${tabela(['Pergunta', 'Sua resposta'], [['Horas de forno livres no dia 25, das 7h às 11h', '4 h'], ['Quantas levas de 1 h 40 cabem nesse tempo', '2 levas'], ['Refratários por leva', '2 lasanhas ou arroz de forno'], ['<b>Limite de almoços com prato de forno</b>', '<b>4 pedidos de 10 pessoas</b>']], 3)}
+  ${tabela(['Pergunta', 'Exemplo (1 forno)'], [['Levas de forno até o último horário de entrega (8h30 às 11h50)', '2 levas'], ['Refratários por leva', '2'], ['Almoço Clássico (1 refratário de arroz de forno por pedido)', '2 × 2 = <b>4 pedidos</b>'], ['Almoço de Forno (lasanha + 2 assadeiras de legumes por pedido)', '<b>2 pedidos</b> (os legumes de 2 pedidos já ocupam a fornada das 7h)'], ['<b>Limite do almoço</b>', '<b>4 Clássicos, ou 2 Clássicos + 1 de Forno</b>']], 4)}
   <p class="nota">Exemplo com 1 forno doméstico. Combos só com pernil desfiado e saladas não usam forno: o limite deles é a geladeira e o tempo de entrega.</p>
   <div class="box verde">Minhas horas de forno livres no dia 25: <span class="campo"></span> · Levas: <span class="campo"></span> · <b>Meu limite de almoços:</b> <span class="campo"></span> pedidos</div>
   <h2>Mensagem para oferecer o almoço</h2>
@@ -140,7 +142,7 @@ const DIAS = [
   ['27/11', 'Faça em casa o prato que você menos domina. Fotografe o prato pronto, com luz natural.'],
   ['28/11', 'Pesquise os preços em 2 mercados e refaça as contas das fichas com o seu custo.'],
   ['29/11', 'Monte os seus kits (bônus 4) e a sua tabela de preços. Defina a taxa de entrega por bairro.'],
-  ['30/11', 'Faça a Conta do Limite (página 3) e defina quantos pedidos aceita em cada dia de entrega.'],
+  ['30/11', 'Faça a Conta do Limite (última página) e defina quantos pedidos aceita em cada dia de entrega.'],
   ['1º/12', '<b>Abra as encomendas</b> (se ainda não abriu): cardápio, preços, data de fechamento e sinal de 50%.', 'ouro'],
   ['2/12', 'Mande o cardápio para a família, os vizinhos e os grupos do bairro e do condomínio.'],
   ['3/12', 'Poste a foto do prato nos status. Anote cada pedido na planilha no mesmo minuto.'],
@@ -158,9 +160,9 @@ const DIAS = [
   ['15/12', '<b>Feche as encomendas.</b> Pedido depois disso só se couber no seu limite.', 'alerta'],
   ['16/12', 'Monte o roteiro de entregas: horário e bairro de cada pedido.'],
   ['17/12', 'Gere a lista de compras pela planilha (aba "Lista de compras").'],
-  ['18/12', 'Compre o que não estraga: arroz, farinhas, latas, chocolate, embalagens. Panetone e brownie podem ser feitos a partir de hoje.'],
+  ['18/12', 'Compre o que não estraga: arroz, farinhas, latas, chocolate, embalagens. Trufas podem ser feitas a partir do dia 15.'],
   ['19/12', 'Limpeza geral da geladeira e do freezer. Separe o espaço de cada pedido.'],
-  ['20/12', 'Confirme cada pedido por mensagem: prato, horário, endereço e saldo.'],
+  ['20/12', 'Confirme cada pedido por mensagem: prato, horário, endereço e saldo. Panetone e brownie podem ser feitos a partir de hoje.'],
   ['21/12', 'Compras de carne, frios e hortifrúti. Carne congelada começa a descongelar <b>na geladeira</b> hoje.'],
   ['22/12', 'Pré-preparo: temperos, farofas, molhos, pudins e pavês. Pernil entra na marinada.'],
   ['23/12', 'Saladas que aguentam, sobremesas de geladeira e montagem do almoço do dia 25. Primeiras entregas.'],
@@ -170,10 +172,10 @@ const DIAS = [
 function calendario() {
   const D = new Date(2026, 11, 24);
   const dataDe = (s) => { const [d, m] = s.replace('º', '').split('/').map(Number); return new Date(2026, m - 1, d); };
-  const dia = ([s, txt, cls = '']) => {
+  const dia = ([s, txt, cls = '', rotulo]) => {
     const dt = dataDe(s), dif = Math.round((D - dt) / 864e5);
     const rot = dif > 0 ? `D-${dif}` : dif === 0 ? 'DIA D' : 'D+1';
-    return `<div class="dia ${cls}${dif >= 1 && dif <= 15 && !cls ? '' : ''}"><div class="d">${s} <small>${SEM[dt.getDay()]} · ${rot}</small></div><div>${txt}</div></div>`;
+    return `<div class="dia ${cls}"><div class="d">${rotulo || s} <small>${SEM[dt.getDay()]} · ${rot}</small></div><div>${txt}</div></div>`;
   };
   const antes = DIAS.filter(([s]) => (D - dataDe(s)) / 864e5 > 15);
   const contagem = DIAS.filter(([s]) => { const x = (D - dataDe(s)) / 864e5; return x >= 1 && x <= 15; });
@@ -181,13 +183,14 @@ function calendario() {
   const k = t.kits.find((x) => x.pessoas === '6 a 8');
   return doc('Bônus 3 · Calendário Anti-Sufoco', capaB(3, 'Calendário<br><em>Anti-Sufoco</em>', 'O dia de abrir e de fechar as encomendas, comprar, produzir e entregar, com o limite de pedidos por dia.')
   + pag('CALENDÁRIO · AS FASES', `<h1>As fases do seu Natal</h1><p class="sub">O dia D é 24/12. Cada fase tem uma tarefa; o dia a dia está nas próximas páginas.</p>
-  ${dia(['26/11', 'Do dia 26/11 ao 30/11: escolha os pratos e os kits, confira os preços e monte o cardápio.'])}
+  <div class="box verde" style="margin:0 0 3mm"><b>Comprou depois de 1º/12?</b> Faça hoje as tarefas de 26/11 a 1º/12 (cardápio, preços, kits e limite) e abra as encomendas amanhã. Depois, siga o calendário a partir da data de hoje.</div>
+  ${dia(['26/11', 'Escolha os pratos e os kits, confira os preços e monte o cardápio.', '', '26 a 30/11'])}
   ${dia(['1º/12', '<b>Abra as encomendas no dia em que comprou este material</b> (até 1º/12, no máximo).', 'ouro'])}
-  ${dia(['2/12', 'Do dia 1º ao 15/12: cada pedido só entra com <b>50% de sinal no Pix</b>. Anote na planilha.'])}
+  ${dia(['2/12', 'Cada pedido só entra com <b>50% de sinal no Pix</b>. Anote na planilha.', '', '1º a 15/12'])}
   ${dia(['15/12', '<b>Feche as encomendas.</b>', 'alerta'])}
-  ${dia(['16/12', 'Do dia 16 ao 20/12: confirme cada pedido, horário e saldo. Compre o que não estraga.'])}
+  ${dia(['16/12', 'Confirme cada pedido, horário e saldo. Compre o que não estraga.', '', '16 a 20/12'])}
   ${dia(['21/12', 'Compras de carne e hortifrúti.'])}
-  ${dia(['22/12', 'Dias 22 e 23: temperos, pré-preparo e sobremesas. Primeiras entregas no dia 23.'])}
+  ${dia(['22/12', 'Temperos, pré-preparo e sobremesas. Primeiras entregas no dia 23.', '', '22 e 23/12'])}
   ${dia(['24/12', 'Assados e entregas.', 'ouro'])}
   ${dia(['25/12', 'Almoço do Dia 25.'])}
   <div class="box limite" style="margin-top:4mm"><b>Meu limite de pedidos por dia de entrega:</b> dia 23: <span class="campo"></span> · dia 24: <span class="campo"></span> · dia 25: <span class="campo"></span></div>`)
@@ -196,22 +199,22 @@ function calendario() {
   + pag('DIA D E A CONTA DO LIMITE', `<h1>Dia D</h1>${fim.map(dia).join('')}
   <h1 style="margin-top:8mm">A Conta do Limite do seu dia 24</h1>
   <p class="sub">O limite é o menor destes 3 números: forno, geladeira e entregas.</p>
-  ${tabela(['Conta', 'Exemplo (pernil, 1 forno)', 'A sua'], [
+  ${tabela(['Conta', 'Exemplo (kit 6 a 8, pernil de 2,4 kg, 1 forno)', 'A sua'], [
     ['Horas de forno livres no dia 24', '6h às 17h = 11 h', '&nbsp;'],
-    ['÷ horas de forno do seu assado', '11 ÷ 3,5 = 3 fornadas', '&nbsp;'],
-    ['× peças por fornada', '3 × 2 = <b>6 pernis</b>', '&nbsp;'],
-    ['Travessas que cabem na geladeira', '12 travessas ÷ 3 por pedido = <b>4 pedidos</b> de uma vez', '&nbsp;'],
+    ['÷ horas por fornada (forno + troca)', '11 ÷ 2 h 45 = 4 fornadas', '&nbsp;'],
+    ['× peças por fornada (até 8 kg no forno)', '4 × 3 = <b>12 pernis</b>', '&nbsp;'],
+    ['Travessas na geladeira ÷ travessas por kit', '24 ÷ 3 (arroz, farofa, sobremesa) = <b>8 kits</b>', '&nbsp;'],
     ['Entregas por hora × horas de entrega', '3 × 5 h = <b>15 entregas</b>', '&nbsp;'],
-    ['<b>Meu limite no dia 24</b>', '<b>6 kits</b> com pernil (o forno manda)', '&nbsp;'],
+    ['<b>Meu limite no dia 24 = o menor dos 3</b>', '<b>8 kits</b> (a geladeira manda)', '&nbsp;'],
   ], 5)}
-  <div class="box verde"><b>Quer vender mais que o limite?</b> Abra entregas no dia 23 (o cliente reaquece) e use pratos que não usam forno no dia 24. Exemplo: 6 kits de 6 a 8 pessoas no dia 24 = ${brl(6 * k.preco)} de faturamento; com mais 4 kits entregues no dia 23, são ${brl(10 * k.preco)}.</div>`));
+  <div class="box verde"><b>Quer vender mais que o limite?</b> Abra entregas no dia 23 (o cliente guarda na geladeira e reaquece). Exemplo: 8 kits de 6 a 8 pessoas no dia 24 + 2 no dia 23 = 10 kits = ${brl(10 * k.preco)} de faturamento.</div></div>`));
 }
 
 // ============ BÔNUS 4 · KITS PRONTOS
 function kitsProntos() {
   const msgs = {
     '4': 'Ceia de Natal para 4 pessoas 🎄\n{itens}\nTudo pronto, é só aquecer e servir: {preco}.\nEncomendas até 15/12 com 50% de sinal no Pix.',
-    '6 a 8': 'Ceia completa para 6 a 8 pessoas 🎄\n{itens}\nPor {preco}, entregue no dia 24 no horário combinado.\nReserve com 50% de sinal no Pix. Encomendas até 15/12.',
+    '6 a 8': 'Ceia completa para 6 pessoas, ou 8 com porção menor 🎄\n{itens}\nPor {preco}, entregue no dia 24 no horário combinado.\nReserve com 50% de sinal no Pix. Encomendas até 15/12.',
     '10': 'Ceia para a família toda: 10 pessoas 🎄\n{itens}\n{preco}, pronta para servir. Poucas vagas: reserve com 50% de sinal no Pix.',
     '20': 'Ceia para 20 pessoas 🎄 (festas, firmas e famílias grandes)\n{itens}\n{preco}. Reserve com 50% de sinal no Pix; vagas limitadas até 15/12.',
   };
@@ -221,7 +224,7 @@ function kitsProntos() {
   <div class="grade2" style="margin-top:5mm">${t.kits.map(card).join('')}</div>
   <p class="nota">Preço ≈ custo × 2,7 (o kit de 6 a 8 sai a R$ 299, preço praticado no mercado, = custo × ${(t.kits[1].preco / t.kits[1].custo).toFixed(2).replace('.', ',')}). Lucro antes de gás, embalagem e entrega. Preços de referência de dez/2025: refaça com o seu custo.</p>
 `)
-  + t.kits.map((k) => pag(k.nome.toUpperCase(), `<h1>${k.nome}</h1><p class="sub">${k.pessoas === '6 a 8' ? 'Feito com as quantidades para 6; com os acompanhamentos, serve até 8.' : `Quantidades para ${k.pessoas} pessoas.`}</p>
+  + t.kits.map((k) => pag(k.nome.toUpperCase(), `<h1>${k.nome}</h1><p class="sub">${k.pessoas === '6 a 8' ? 'Feito com as quantidades para 6 pessoas (400 g de pernil por pessoa). Para 8, a porção fica menor (300 g de pernil por pessoa): diga isso ao cliente.' : `Quantidades para ${k.pessoas} pessoas.`}</p>
   ${tabela(['Ficha', 'Prato', 'Quanto fazer', 'Custo'], k.linhas.map((l) => [String(l.n).padStart(2, '0'), l.nome, l.principal ? `${kg(l.principalKg)} + ${fracao(l.mult)} do tempero` : fracao(l.mult), brl(l.custo)]).concat([['', '<b>Total</b>', '', `<b>${brl(k.custo)}</b>`]]), k.linhas.length, [3])}
   ${tabela(['Preço do kit', 'Sinal (50%)', 'Saldo na entrega', 'Seu lucro'], [[`<b>${brl(k.preco)}</b>`, brl(k.sinal, true), brl(k.preco - k.sinal, true), `<span class="lucro">${brl(k.lucro)}</span>`]], -1, [0, 1, 2, 3])}
   ${k.pessoas === '6 a 8' ? `<div class="box"><b>Faça a conta:</b> 10 kits de 6 a 8 pessoas = ${brl(10 * t.kits[1].preco)} de faturamento, com custo de ${brl(10 * t.kits[1].custo)}: sobram ${brl(10 * t.kits[1].lucro)} antes de gás, embalagem e entrega. E o sinal de 50% (${brl(10 * t.kits[1].sinal, true)}) paga as compras.</div>` : ''}
@@ -239,9 +242,9 @@ function planilhaPdf() {
   <p class="sub">O arquivo <b>planilha-pedidos-e-sinal.xlsx</b> está na área de membros, junto deste PDF. Abra no Google Planilhas (celular ou computador) ou no Excel.</p>
   <div class="etapas">
   ${etapa(1, 'Abra no Google Planilhas', '<p>No celular: baixe o arquivo, abra com o app Planilhas Google e toque em "Salvar como Planilhas Google". No computador: drive.google.com → Novo → Upload de arquivo → abra o arquivo.</p>')}
-  ${etapa(2, 'Aba "Pedidos": um pedido por linha', '<p>Escolha o kit na lista. O valor, o sinal de 50% e o saldo aparecem sozinhos. Marque "Sim" quando o sinal cair no Pix.</p>')}
-  ${etapa(3, 'Aba "Lista de compras": soma sozinha', '<p>Conforme você anota os pedidos de kit, a planilha soma quantos quilos de pernil, quantos pacotes e quantos ovos comprar.</p>')}
-  ${etapa(4, 'Aba "Resumo": o seu Natal em números', '<p>Total vendido, sinal recebido, saldo a receber e pedidos por dia de entrega. Confira o limite de cada dia aqui.</p>')}
+  ${etapa(2, 'Aba "Pedidos": um pedido por linha', '<p>Escolha o kit na lista. O valor, o sinal de 50% e o saldo aparecem sozinhos. Na coluna "Sinal pago?", marque <b>Sim</b> quando o sinal cair no Pix e <b>Quitado</b> quando o cliente pagar o saldo. O dia da entrega também se escolhe na lista (23/12, 24/12 ou 25/12).</p>')}
+  ${etapa(3, 'Aba "Lista de compras": soma sozinha', '<p>Conforme você anota os pedidos de kit, a planilha soma quantos quilos, xícaras e unidades de cada ingrediente comprar.</p>')}
+  ${etapa(4, 'Aba "Resumo": o seu Natal em números', '<p>Total vendido, sinal recebido, saldo a receber e pedidos <b>com sinal pago</b> por dia de entrega. Digite o seu limite: passou dele, o número fica vermelho.</p>')}
   ${etapa(5, 'Aba "Preços": os seus preços', '<p>Mudou o preço de um kit? Troque nesta aba e a planilha toda se atualiza.</p>')}
   </div>`)
   + pag('PLANILHA · COMO FICA', `<h1>Como fica a aba "Pedidos"</h1>
@@ -262,7 +265,7 @@ function checklist() {
   <h2>No cozimento</h2>${lista(['Aves: **74 °C** no centro (caldo da coxa transparente).', 'Carne suína: **71 °C** no centro.', 'Maionese sempre **industrializada**, nunca caseira com ovo cru.', 'Sobremesas com ovo (pudim, pavê, cremes): o creme tem de ferver e engrossar no fogo.'])}`)
   + pag('CEIA SEGURA · GUARDAR, ETIQUETAR, ENTREGAR', `<h2 style="margin-top:0">Para guardar</h2>${lista(['Comida pronta fica no máximo **2 horas** fora da geladeira, contando do forno até a mesa do cliente.', 'Para esfriar rápido: divida em travessas rasas e leve à geladeira ainda morno.', 'Geladeira a **5 °C ou menos**; não lote: o ar frio precisa circular.', 'Cru embaixo, pronto em cima, tudo tampado.'])}
   <h2>A etiqueta de cada pote</h2>
-  <div class="box verde"><b>Nome do prato</b> · <b>data de preparo</b> · <b>validade</b> · "manter na geladeira" · <b>como reaquecer</b> · <b>contém:</b> glúten, leite, ovos, castanhas (o que tiver).<br>Validade: <b>até 24 h</b> para saladas com maionese, salpicão e salada de frutas; <b>até 3 dias</b> na geladeira para assados, arroz, farofas, molhos e sobremesas.</div>
+  <div class="box verde"><b>Nome do prato</b> · <b>data de preparo</b> · <b>validade</b> · "manter na geladeira" · <b>como reaquecer</b> · <b>contém:</b> glúten, leite, ovos, castanhas (o que tiver).<br>Validade: <b>até 24 h</b> para saladas com maionese, salpicão e salada de frutas; <b>até 3 dias</b> na geladeira para assados, arroz, farofas, molhos e sobremesas. Exceções: panetone e brownie, até 5 dias bem embalados; trufas, até 10 dias na geladeira.</div>
   <h2>Na entrega</h2>${lista(['Bolsa térmica com gelo reutilizável para os pratos frios; quente separado do frio.', 'Roteiro por bairro, para nenhum pedido ficar mais de 2 horas fora da geladeira.', 'Mande junto o cartão: "Guarde na geladeira até servir. Reaqueça até ficar bem quente no centro (75 °C)."', 'Prato que voltou de entrega ou ficou exposto **não se revende**.'])}
   <h2>Alergias</h2>${lista(['Pergunte no pedido: "alguém tem alergia ou restrição?" Anote na planilha.', 'Castanhas, nozes, leite, ovos e trigo aparecem em várias fichas: avise no cardápio e na etiqueta.'])}`)
   + pag('CEIA SEGURA · A SUA PREFEITURA', `<h1>Vender comida e a prefeitura</h1>

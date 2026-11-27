@@ -25,7 +25,7 @@ Dono: montar a LP no ChatGPT (prompt pronto) e a Cakto (roteiro pronto) · Estru
 |---|---|---|---|
 | Mineração / dossiê | ✅ | `dossie.md` | 2026-11-26 |
 | Copy de Oferta (promessa, página, VSL) | ✅ | `copy/PROMESSA.md`, `copy/pagina-vendas.md` (página + checkout, bumps e upsell) | 2026-11-26 |
-| Estrutura — entregável | 🟡 50 receitas do Básico em texto prontas; falta diagramar + Premium (contas) + bônus | `estrutura/entregavel/receitas-50.md`, `ESPECIFICACAO.md` | 2026-11-27 |
+| Estrutura — entregável | ✅ Básico + Premium (50 fichas) + 6 bônus + planilha; bumps e upsell não produzidos | `estrutura/entregavel/final/` (ver `LEIA-ME.md`) | 2026-11-27 |
 | Estrutura — página montada | 🔵 prompt pronto: dono cola no ChatGPT | `estrutura/pagina/prompt-chatgpt.md` + `pacote-imagens-ceia-que-vende.zip` | 2026-11-26 |
 | Estrutura — Cakto | 🔵 roteiro pronto: dono executa no painel | `estrutura/cakto-roteiro.md` | 2026-11-26 |
 | Copy de Criativos | ⬜ | `criativos/` | — |
@@ -36,9 +36,11 @@ Dono: montar a LP no ChatGPT (prompt pronto) e a Cakto (roteiro pronto) · Estru
 Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ pronto · ⛔ travado
 
 ## Pedidos entre áreas (abertos)
+- [ ] [2026-11-27] **De** Estrutura **para** Copy de Oferta: no bloco 6, trocar "custo de R$ 1.000 a R$ 1.200" por "custo de cerca de R$ 1.170" (custo real do kit 6 a 8 no produto = R$ 117; com R$ 1.200, o preço ficaria abaixo de 2,5 × o custo). Os kits finais estão em `estrutura/entregavel/contas-conferidas.md`.
+- [ ] [2026-11-27] **De** Estrutura **para** dono: subir os arquivos de `estrutura/entregavel/final/` na Cakto Members (`LEIA-ME.md`) e trocar na LP as imagens `ficha-quantidade`, `ficha-preco`, `kits-prontos`, `calendario-anti-sufoco`, `planilha-pedidos` e `mockup-dobra` pelas novas do zip (recortadas do produto real).
 - [ ] [2026-11-27] **De** Análise **para** dono/Estrutura: ligar checkout Básico, Premium e pixel (hoje com marcadores entre colchetes); alinhar o nome (Ceia que Vende × Natal Lucrativo × Método Lucrativo); carrossel com fichas que mostram Custo/Venda/Lucro; tirar "Quer aprender a preparar a ceia da família" (`analises/2026-11-27-analise.md`).
 - [ ] [2026-11-26] **De** Estrutura **para** Copy de Oferta: (1) passar para o TEXTO EXATO de `copy/pagina-vendas.md` a nota do bloco 6 ("Exemplo com preço praticado…"), que já vai na página; (2) decidir se o rodapé leva "Este site não faz parte do Facebook nem da Meta Platforms, Inc." (tirado do prompt por não estar na copy).
-- [ ] [2026-11-26] **De** Estrutura **para** Estrutura (produção): produzir Premium (50 fichas no padrão da ficha 07) + 6 bônus + Básico, depois bumps e upsell, conforme `estrutura/entregavel/ESPECIFICACAO.md`. Pronto e com compra teste **antes do 1º anúncio**.
+- [x] [2026-11-26] **De** Estrutura **para** Estrutura (produção): produzir Premium (50 fichas no padrão da ficha 07) + 6 bônus + Básico, depois bumps e upsell, conforme `estrutura/entregavel/ESPECIFICACAO.md`. Pronto e com compra teste **antes do 1º anúncio**.
 - [ ] [2026-11-26] **De** Estrutura **para** Copy de Criativos: imagens reais das fichas-modelo prontas em `estrutura/pagina/img/` (ficha do pernil, kits, calendário, planilha, mockups) para usar nos criativos.
 - [x] [2026-11-26] **De** Copy de Oferta **para** Estrutura: montar a LP (pacote ChatGPT) com `copy/pagina-vendas.md` (17 blocos, 2 planos, Premium em destaque; só os botões do bloco 11 vão ao checkout) + os textos do checkout Cakto (banner por plano, 3 bumps, upsell Ano Novo 1 clique). Antes, conferir a lista "Confirmar antes de montar" no fim do arquivo, sobretudo: o Premium tem quantidade, custo, preço e lucro nas 50 receitas, o Básico só as receitas, e o entregável dos bumps e do upsell. 8 pedidos de imagem no arquivo.
 - [x] [2026-11-26] **De** Mineração **para** Copy de Oferta: promessa + página com **2 planos (R$ 17,90 / R$ 29,90)** a partir do `dossie.md` — prazo apertado (venda até ~10/12).
@@ -48,6 +50,7 @@ Status: ⬜ não começou · 🟡 em andamento · 🔵 aguardando o dono · ✅ 
 Dono: colar `estrutura/pagina/prompt-chatgpt.md` no ChatGPT (com o zip) e configurar a Cakto pelo roteiro. Estrutura: produzir o entregável pela `ESPECIFICACAO.md` (Premium primeiro). Copy de Criativos pode começar (imagens em `estrutura/pagina/img/`).
 
 ## Histórico (mais recente em cima)
+- [2026-11-27] Estrutura: entregável completo produzido (Básico 57 p.; Premium 107 p. com 50 fichas: quantidade 4/6/10/20, custo, preço mínimo, preço, lucro e limite; 6 bônus em PDF; planilha .xlsx com fórmulas). Contas por script (`fonte/conferir.js`). Kits finais: 4 p. R$ 230 · 6 a 8 p. R$ 299 · 10 p. R$ 590 · 20 p. R$ 1.570. Imagens da LP refeitas a partir do produto. Comitê: Ajustar, aplicado.
 - [2026-11-27] Análise: página montada bem estruturada (botão na 1ª dobra, 11.500 px, 1,25 MB); checkout e pixel ainda não ligados; nome em 3 versões; exemplos sem as contas.
 - [2026-11-27] Estrutura: texto das 50 receitas do Básico (nome, rendimento, ingredientes, preparo), na numeração da especificação (pernil = 07, igual à ficha da LP). Comitê: Ajustar, aplicado (segurança alimentar: validade, maionese industrializada, aves sem lavar, merengue cozido, ponto 74 °C; medidas corrigidas). Sem contas, diagramação e bônus (dono pede depois).
 - [2026-11-26] Estrutura: prompt final da LP para o ChatGPT (17 blocos, texto exato, 14 imagens de fichas-modelo), roteiro Cakto (2 produtos, 3 bumps, upsell, CPA de empate R$ 22,61) e especificação do entregável que fecha os [CONFIRMAR] da copy. Comitê: Ajustar, aplicado (recortes da ficha refeitos, capa própria do Básico, bloco 11 com medidas, calendário dia a dia e preço mínimo na especificação).

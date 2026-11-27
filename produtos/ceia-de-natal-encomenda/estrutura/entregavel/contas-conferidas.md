@@ -15,8 +15,8 @@
 ## Receitas
 | Nº | Receita | Demais ingredientes (receita-base) | 4 p. custo/preço/lucro | 6 p. | 10 p. | 20 p. |
 |---|---|---|---|---|---|---|
-| 1 | Peru assado | R$ 21,50 + peru inteiro 0.45 kg/pessoa a R$ 32/kg | 134/360/226 | 139/375/236 | 161/435/274 | 326/880/554 |
-| 2 | Chester assado | R$ 13 + chester inteiro 0.45 kg/pessoa a R$ 34/kg | 109/295/186 | 112/300/188 | 170/460/290 | 339/920/581 |
+| 1 | Peru assado | R$ 21,50 + peru inteiro 0.45 kg/pessoa a R$ 32/kg | 145/390/245 | 145/390/245 | 161/435/274 | 326/880/554 |
+| 2 | Chester assado | R$ 13 + chester inteiro 0.45 kg/pessoa a R$ 34/kg | 112/300/188 | 112/300/188 | 227/610/383 | 339/920/581 |
 | 3 | Tender glaceado com abacaxi | R$ 17,45 + tender com osso 0.28 kg/pessoa a R$ 60/kg | 76/205/129 | 110/295/185 | 186/500/314 | 371/1000/629 |
 | 4 | Lombo suíno recheado | R$ 24,48 + lombo suíno 0.2 kg/pessoa a R$ 28/kg | 35/95/60 | 46/125/79 | 81/220/139 | 161/435/274 |
 | 5 | Frango assado inteiro com farofa | R$ 16,15 + frango inteiro 0.45 kg/pessoa a R$ 14/kg | 38/105/67 | 58/155/97 | 96/260/164 | 191/520/329 |

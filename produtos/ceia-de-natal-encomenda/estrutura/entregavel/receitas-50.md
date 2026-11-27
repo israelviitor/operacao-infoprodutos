@@ -6,7 +6,7 @@
 - Carnes e aves congeladas descongelam **na geladeira**, nunca fora dela: 1 dia para cada 2 a 2,5 kg.
 - Comida pronta fica no máximo **2 horas** fora da geladeira, **contando do forno até a mesa do cliente**. Passou disso, refrigere. O cliente reaquece até ficar bem quente no centro (75 °C).
 - Saladas com maionese saem da geladeira só na hora de entregar e viajam em bolsa térmica.
-- Cada pote ou travessa leva uma **etiqueta**: nome do prato, data de preparo, "manter na geladeira" e a validade: **consumir em até 24 h** para saladas com maionese, salpicão e salada de frutas; **até 3 dias** refrigerado para assados, arroz, farofas, molhos e sobremesas.
+- Cada pote ou travessa leva uma **etiqueta**: nome do prato, data de preparo, "manter na geladeira" e a validade: **consumir em até 24 h** para saladas com maionese, salpicão e salada de frutas; **até 3 dias** refrigerado para assados, arroz, farofas, molhos e sobremesas. Exceções: panetone e brownie, **até 5 dias** bem embalados em temperatura ambiente; trufas, **até 10 dias** na geladeira.
 - Maionese das receitas: sempre **industrializada**, nunca caseira com ovo cru.
 - Aves cruas **não se lavam**: só seque com papel-toalha. Lavar espalha bactérias pela pia e pela bancada.
 - O ponto de assados, molhos e sobremesas está descrito em cada receita. Com termômetro culinário, use: aves **74 °C** no meio da coxa ou do peito e carne suína **71 °C** no centro.
@@ -90,7 +90,7 @@
 6. Retire o papel e asse mais 30 min, regando, até dourar. Descanse 15 min, retire o barbante e fatie.
 
 ### 05 · Frango assado inteiro com farofa
-**Rende:** 5 a 6 pessoas · **Tempo:** 2 h de tempero + 1 h 30 de forno
+**Rende:** 5 a 6 pessoas · **Tempo:** 2 h de tempero + 1 h 50 de forno
 **Ingredientes**
 - 1 frango inteiro de 2 a 2,5 kg
 - **Tempero:** 4 dentes de alho amassados · suco de 1 limão · 1 cs de sal · 1 cc de páprica doce · 1/2 xícara de vinho branco ou cerveja clara · 2 cs de azeite
@@ -128,8 +128,10 @@
 1. Com uma faca fina, faça furos profundos por toda a peça (a cada 4 cm, dos dois lados).
 2. Misture todos os ingredientes do tempero. Esfregue no pernil, forçando para dentro dos furos. Coloque num saco grande ou travessa coberta e deixe na geladeira de um dia para o outro, virando 2 vezes.
 3. Preaqueça o forno a 200 °C. Coloque o pernil na assadeira com a gordura para cima, regue com a marinada, o azeite e a água.
-4. Cubra com papel-alumínio (brilho para dentro) e asse por 2 h 30. Na metade, vire a peça e regue com o caldo.
-5. Retire o papel, volte a gordura para cima e asse mais 1 h, regando a cada 20 min, até dourar e a faca entrar macia até o osso.
+4. Cubra com papel-alumínio (brilho para dentro) e asse coberto. Na metade, vire a peça e regue com o caldo.
+5. Retire o papel, volte a gordura para cima e asse descoberto, regando a cada 20 min, até dourar.
+   **Tempo pelo peso da peça (coberto + descoberto):** até 2 kg: 1 h 20 + 40 min · 2,5 kg: 1 h 40 + 45 min · 4 kg: 2 h 30 + 1 h.
+   **Ponto:** 71 °C no centro, perto do osso; sem termômetro, a faca entra macia até o osso e o caldo sai claro, sem rosado.
 6. Descanse 20 min antes de fatiar. Fatie rente ao osso e regue as fatias com o caldo coado da assadeira para não ressecar no transporte.
 
 ### 08 · Peito de peru com laranja

@@ -12,7 +12,7 @@
 ## 2. Premium (R$ 29,90)
 PDF principal `ceia-que-vende-premium.pdf` + os 6 bônus. Cada uma das **50 receitas** é uma ficha de 2 páginas no padrão da ficha-modelo 07:
 1. **A Conta da Quantidade:** tabela para 4, 6, 10 e 20 pessoas (quantidade do item principal e dos ingredientes que mudam).
-2. **A Conta do Preço:** custo de mercado, preço de venda e lucro para 4, 6, 10 e 20 pessoas, mais a linha **"preço mínimo (custo × 2,5)"** e o campo **"Seu custo na sua cidade: R$ ___ × 2,5 = preço mínimo R$ ___"** (a FAQ promete "você vê o lucro mínimo antes de dizer o preço"). Regra: **preço = custo × 2,5 a 3**, arredondado para final 0, 5 ou 9; nota com a data e a base do custo ("preços de referência de novembro/2026; ajuste para a sua cidade").
+2. **A Conta do Preço:** custo de mercado, preço de venda e lucro para 4, 6, 10 e 20 pessoas, mais a linha **"preço mínimo (custo × 2,5)"** e o campo **"Seu custo na sua cidade: R$ ___ × 2,5 = preço mínimo R$ ___"** (a FAQ promete "você vê o lucro mínimo antes de dizer o preço"). Regra: **preço = custo × 2,5 a 3**, arredondado para final 0, 5 ou 9; nota com a data e a base do custo ("preços de referência de dez/2025; ajuste para a sua cidade").
 3. Ingredientes e preparo da receita-base (o rendimento de cada receita; a Conta da Quantidade diz quantas receitas fazer para 4, 6, 10 e 20).
 4. **A Conta do Limite:** caixa com o limite de forno/fogão daquele prato (ex.: "1 forno doméstico assa até 2 pernis de 4 kg por fornada").
 
@@ -32,7 +32,7 @@ Abertura do PDF: "Comece aqui: as 3 contas em 5 minutos" (1 página) e índice p
 | 2 | Almoço do Dia 25 | Cardápio próprio do dia 25 (6–8 pratos, reaproveitando compras), **produção e limite separados** da ceia, com as 3 contas | PDF 10–14 p. |
 | 3 | Calendário Anti-Sufoco | **Uma ação para cada dia de 26/11 a 25/12** (a FAQ diz "diz o que fazer a cada dia"), agrupada nas fases: abrir as encomendas no dia da compra (até 1º/12) · sinal de 50% em cada pedido · 15/12 fechar · 21/12 compras · 22–23 pré-preparo · 24 produção e entregas · 25 almoço; caixa "Meu limite de pedidos por dia de entrega" | PDF 3–4 p. (fases como na imagem + lista dia a dia) |
 | 4 | Kits Prontos de 4 a 20 Pessoas | Kit 4 (86/230/144) · Kit 6 a 8 (117/299/182, destaque) · Kit 10 (220/590/370) · Kit 20 (581/1.570/989), custo = soma das fichas, com os pratos de cada kit e a mensagem de WhatsApp de cada um | PDF 4–6 p. |
-| 5 | Planilha de Pedidos e Sinal | Google Sheets com "Fazer uma cópia": abas **Pedidos** (cliente, kit, valor, sinal 50%, saldo, data/hora de entrega, status), **Lista de compras** (soma automática por ingrediente a partir dos pedidos) e **Resumo** (total vendido, sinal recebido, a receber) | Sheets + PDF de 1 p. "como usar" |
+| 5 | Planilha de Pedidos e Sinal | Planilha .xlsx (abre no Google Planilhas e no Excel): abas **Pedidos** (cliente, kit, valor, sinal 50%, saldo, data/hora de entrega, status), **Lista de compras** (soma automática por ingrediente a partir dos pedidos) e **Resumo** (total vendido, sinal recebido, a receber) | Sheets + PDF de 1 p. "como usar" |
 | 6 | Checklist da Ceia Segura | Refrigerar em até 2 h · reaquecer a 75 °C · etiqueta com validade · transporte · e **o que perguntar na prefeitura/vigilância sanitária** (sem dizer que MEI dispensa licença) | PDF 3–4 p. |
 
 ## 5. Order bumps (só ativar na Cakto quando prontos)
