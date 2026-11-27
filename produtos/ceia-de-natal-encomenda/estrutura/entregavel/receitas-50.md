@@ -1,14 +1,14 @@
 # Ceia que Vende · As 50 receitas (texto do Básico)
 
-> Estrutura, 2026-11-27. Texto-base das 50 receitas do plano Básico (R$ 17,90), na ordem e com a numeração de `ESPECIFICACAO.md` §3 (pernil = nº 07).
-> Sem custo, preço, lucro, tabela de quantidades, diagramação ou bônus: isso é do Premium e vem depois. O Premium usa estas mesmas receitas como base.
 > Medidas: xícara = 240 ml · colher de sopa (cs) = 15 ml · colher de chá (cc) = 5 ml. Forno doméstico a gás. "Pessoas" = porção de ceia, com outros pratos na mesa.
 
 ## Antes de começar (vale para todas as receitas)
 - Carnes e aves congeladas descongelam **na geladeira**, nunca fora dela: 1 dia para cada 2 a 2,5 kg.
-- Assado pronto para entrega: deixe amornar no máximo **2 horas** fora da geladeira e então refrigere ou entregue.
+- Comida pronta fica no máximo **2 horas** fora da geladeira, **contando do forno até a mesa do cliente**. Passou disso, refrigere. O cliente reaquece até ficar bem quente no centro (75 °C).
 - Saladas com maionese saem da geladeira só na hora de entregar e viajam em bolsa térmica.
-- Cada pote ou travessa leva uma **etiqueta**: nome do prato, data de preparo e "manter na geladeira".
+- Cada pote ou travessa leva uma **etiqueta**: nome do prato, data de preparo, "manter na geladeira" e a validade: **consumir em até 24 h** para saladas com maionese, salpicão e salada de frutas; **até 3 dias** refrigerado para assados, arroz, farofas, molhos e sobremesas.
+- Maionese das receitas: sempre **industrializada**, nunca caseira com ovo cru.
+- Aves cruas **não se lavam**: só seque com papel-toalha. Lavar espalha bactérias pela pia e pela bancada.
 - O ponto de assados, molhos e sobremesas está descrito em cada receita. Com termômetro culinário, use: aves **74 °C** no meio da coxa ou do peito e carne suína **71 °C** no centro.
 
 ---
@@ -29,7 +29,7 @@
 - 150 g de manteiga em temperatura ambiente
 - 1 xícara de água
 **Modo de preparo**
-1. Retire o pacote de miúdos de dentro do peru. Lave por dentro e por fora e seque com papel-toalha.
+1. Retire o pacote de miúdos de dentro do peru e seque por dentro e por fora com papel-toalha (não lave a ave).
 2. Misture o vinho, os sucos, o alho, a cebola, o sal, a pimenta e as ervas. Espalhe por dentro e por fora, coloque num saco grande próprio para alimentos e deixe na geladeira de um dia para o outro, virando uma vez.
 3. Preaqueça o forno a 200 °C. Coloque o peru na assadeira com o peito para cima e regue com a marinada.
 4. Passe a manteiga por toda a pele. Amarre as coxas com barbante e dobre as pontas das asas para baixo.
@@ -51,7 +51,7 @@
 - 100 g de manteiga
 - 1/2 xícara de água
 **Modo de preparo**
-1. Retire os miúdos, lave e seque o chester.
+1. Retire os miúdos e seque o chester com papel-toalha (não lave a ave).
 2. Misture o vinho, o suco, o alho, o sal, a pimenta, a páprica e o alecrim. Espalhe por toda a ave, inclusive por dentro, e deixe na geladeira por no mínimo 4 horas (ideal: de um dia para o outro).
 3. Preaqueça o forno a 200 °C. Coloque o chester na assadeira, passe a manteiga na pele e regue com a marinada e a água.
 4. Cubra com papel-alumínio e asse por 1 h 40.
@@ -96,11 +96,11 @@
 - **Tempero:** 4 dentes de alho amassados · suco de 1 limão · 1 cs de sal · 1 cc de páprica doce · 1/2 xícara de vinho branco ou cerveja clara · 2 cs de azeite
 - **Farofa do recheio:** 2 cs de manteiga · 1 cebola picada · 100 g de bacon picado · 1 xícara de farinha de mandioca · 2 ovos cozidos picados · cheiro-verde a gosto · sal
 **Modo de preparo**
-1. Lave e seque o frango. Espalhe o tempero por dentro e por fora e deixe na geladeira por 2 h.
+1. Seque o frango com papel-toalha (não lave a ave). Espalhe o tempero por dentro e por fora e deixe na geladeira por 2 h.
 2. Farofa: frite o bacon na manteiga, junte a cebola e refogue. Acrescente a farinha aos poucos, mexendo, até ficar soltinha e dourada. Desligue e junte os ovos e o cheiro-verde. Acerte o sal.
 3. Recheie o frango com metade da farofa (sem apertar) e feche a abertura com palitos. Amarre as coxas.
-4. Preaqueça o forno a 200 °C. Asse coberto com papel-alumínio por 50 min.
-5. Retire o papel e asse mais 35 a 40 min, regando, até dourar.
+4. Preaqueça o forno a 200 °C. Asse coberto com papel-alumínio por 1 h.
+5. Retire o papel e asse mais 40 a 50 min, regando, até dourar, o caldo da coxa sair transparente e o centro do recheio passar de 74 °C.
 6. Sirva com o resto da farofa ao lado.
 
 ### 06 · Costela suína ao barbecue
@@ -138,11 +138,11 @@
 - 1 peito de peru com osso de 2,5 kg, descongelado
 - **Tempero:** suco de 3 laranjas · raspas de 1 laranja · 4 dentes de alho amassados · 1 cs de sal · 1/2 cc de pimenta-do-reino · 1 cs de tomilho
 - 80 g de manteiga
-- **Molho:** caldo da assadeira · 1/2 xícara de suco de laranja · 2 cs de mel · 1 cc de amido de milho dissolvido em 2 cs de água
+- **Molho:** caldo da assadeira · 1/2 xícara de suco de laranja · 2 cs de mel · 1 cs de amido de milho dissolvido em 3 cs de água
 **Modo de preparo**
 1. Espalhe o tempero no peito, também por baixo da pele, e deixe na geladeira por 2 h.
 2. Preaqueça o forno a 200 °C. Passe a manteiga na pele, regue com o tempero, cubra com papel-alumínio e asse por 1 h.
-3. Retire o papel e asse mais 30 min, regando, até dourar.
+3. Retire o papel e asse mais 30 min, regando, até dourar e o caldo sair transparente (74 °C no centro do peito).
 4. Molho: coe o caldo da assadeira numa panela, junte o suco e o mel e ferva 3 min. Acrescente o amido e mexa até engrossar.
 5. Fatie e mande o molho num pote à parte.
 
@@ -232,7 +232,7 @@
 2. Na panela de pressão, doure os pedaços no óleo. Junte o tempero e 1 xícara de água, tampe e cozinhe por 1 h depois que pegar pressão.
 3. Espere a pressão sair, retire a carne e desfie com 2 garfos. Reserve o caldo.
 4. Na mesma panela, refogue a cebola e o pimentão até murcharem. Volte a carne, o molho de tomate e 1 xícara do caldo e cozinhe 10 min, até ficar suculento.
-5. Para entrega, mande a carne quente num pote fechado e os pães à parte, para não amolecerem.
+5. Para entrega: mande a carne quente em bolsa térmica e entregue em até 2 h; ou esfrie, refrigere e oriente o cliente a reaquecer até ferver. Os pães vão à parte, para não amolecerem.
 
 ### 14 · Frango recheado desossado (rocambole)
 **Rende:** 8 pessoas · **Tempo:** 2 h
@@ -243,11 +243,11 @@
 - 2 cs de manteiga derretida
 - 1 cc de páprica doce
 **Modo de preparo**
-1. Abra o frango sobre a bancada com a pele para baixo. Espalhe o tempero e deixe 30 min.
+1. Abra o frango sobre a bancada com a pele para baixo. Espalhe o tempero e deixe 30 min na geladeira.
 2. Cubra com o presunto e a muçarela e espalhe a cenoura, a azeitona e o cheiro-verde.
 3. Enrole como um rocambole, com a pele para fora, e amarre com barbante a cada 3 cm.
 4. Preaqueça o forno a 200 °C. Pincele a manteiga misturada com a páprica.
-5. Asse coberto com papel-alumínio por 50 min. Retire o papel e asse mais 30 min, até dourar.
+5. Asse coberto com papel-alumínio por 50 min. Retire o papel e asse mais 30 min, até dourar e o centro do rolo passar de 74 °C (caldo transparente ao espetar).
 6. Descanse 15 min, retire o barbante e fatie em rodelas de 1,5 cm.
 
 ---
@@ -308,7 +308,7 @@
 - 1/2 xícara de uva-passa
 - 1/2 xícara de azeitona verde picada
 - 1 maçã verde em cubinhos (com 1 cs de suco de limão)
-- 1 xícara e meia de maionese
+- 1 xícara e meia de maionese industrializada
 - 1/2 xícara de creme de leite
 - sal, pimenta-do-reino e cheiro-verde a gosto
 - 1 pacote de batata palha (200 g), à parte
@@ -325,15 +325,15 @@
 - 3 cenouras em cubos
 - 1 xícara de ervilha
 - 4 ovos cozidos picados
-- 1 xícara e meia de maionese
+- 1 xícara e meia de maionese industrializada
 - 1/2 cebola roxa bem picada
 - 2 cs de azeite
 - 1 cs de vinagre
 - sal e cheiro-verde a gosto
 **Modo de preparo**
-1. Cozinhe a batata e a cenoura em água com sal até ficarem macias, mas firmes (12 a 15 min). Escorra e espere esfriar.
-2. Tempere ainda morna com o azeite, o vinagre e o sal.
-3. Junte a ervilha, os ovos, a cebola e a maionese e misture com cuidado para não desmanchar.
+1. Cozinhe a batata e a cenoura em água com sal até ficarem macias, mas firmes (12 a 15 min). Escorra.
+2. Tempere ainda morna com o azeite, o vinagre e o sal e leve à geladeira até esfriar por completo.
+3. Só com tudo frio, junte a ervilha, os ovos, a cebola e a maionese e misture com cuidado para não desmanchar.
 4. Finalize com cheiro-verde e leve à geladeira por no mínimo 1 h.
 
 ### 19 · Arroz com passas e castanha
@@ -444,7 +444,7 @@
 - 1 xícara de uva-passa
 - 1 xícara de nozes picadas
 - 300 g de presunto em cubinhos
-- 1 xícara de maionese
+- 1 xícara de maionese industrializada
 - 1/2 xícara de creme de leite
 - sal a gosto
 **Modo de preparo**
@@ -586,7 +586,7 @@
 **Ingredientes**
 - 20 pães franceses pequenos (ou 4 baguetes)
 - 200 g de manteiga em temperatura ambiente
-- 1/2 xícara de maionese
+- 1/2 xícara de maionese industrializada
 - 1 cabeça de alho amassada
 - 1/2 xícara de queijo parmesão ralado
 - 3 cs de salsinha picada
@@ -594,12 +594,12 @@
 **Modo de preparo**
 1. Misture a manteiga, a maionese, o alho, o parmesão, a salsinha e o sal até virar uma pasta.
 2. Faça 3 cortes no pão, sem separar, e recheie os cortes com a pasta.
-3. Para entrega, embrulhe cada pão em papel-alumínio e mande cru, com a instrução: "forno a 200 °C por 15 min, embrulhado; abra o papel nos últimos 5 min para dourar".
+3. Para entrega, embrulhe cada pão em papel-alumínio e mande cru, com a instrução: "forno a 200 °C por 15 min, embrulhado; abra o papel nos últimos 5 min para dourar". Mantenha na geladeira até assar; validade 2 dias.
 
 ### 35 · Salada de grão-de-bico
 **Rende:** 10 pessoas · **Tempo:** 30 min (com grão já cozido)
 **Ingredientes**
-- 4 xícaras de grão-de-bico cozido (500 g cru, deixado de molho de um dia para o outro e cozido 25 min na pressão)
+- 4 xícaras de grão-de-bico cozido (300 g cru, deixado de molho de um dia para o outro e cozido 25 min na pressão)
 - 2 tomates em cubos sem semente
 - 1 pepino em cubos
 - 1/2 cebola roxa picada
@@ -634,7 +634,7 @@
 ### 37 · Rabanada
 **Rende:** 24 unidades · **Tempo:** 40 min
 **Ingredientes**
-- 2 pães franceses amanhecidos (do dia anterior) ou 1 pão próprio para rabanada, em fatias de 2 cm (24 fatias)
+- 4 pães franceses amanhecidos (do dia anterior) ou 1 pão próprio para rabanada, em fatias de 2 cm (24 fatias)
 - 1 lata de leite condensado
 - 2 xícaras de leite
 - 4 ovos batidos
@@ -684,7 +684,7 @@
 **Modo de preparo**
 1. Massa: misture a farinha, o açúcar e a manteiga com a ponta dos dedos até virar uma farofa. Junte a gema e a água e una sem sovar. Forre a forma, fure com um garfo e asse a 180 °C por 20 min.
 2. Recheio: cozinhe o leite condensado, as gemas e a manteiga em fogo baixo, mexendo, até desgrudar da panela. Desligue e junte as nozes. Espalhe sobre a massa assada.
-3. Cobertura: bata as claras em neve firme e junte o açúcar aos poucos até virar um suspiro brilhante. Cubra a torta e decore com as nozes.
+3. Cobertura (merengue cozido): leve as claras e o açúcar ao banho-maria, mexendo sem parar, até o açúcar dissolver e a mistura chegar a 70 °C (bem quente ao toque). Tire do fogo e bata na batedeira até ficar firme e brilhante. Cubra a torta e decore com as nozes.
 4. Doure no forno a 200 °C por 8 a 10 min. Espere esfriar e leve à geladeira.
 
 ### 41 · Mousse de maracujá
@@ -705,12 +705,12 @@
 - 2 pacotes de biscoito champanhe (300 g)
 - 1 lata de pêssego em calda (calda separada)
 - **Creme:** 1 lata de leite condensado · 2 latas de leite · 3 gemas · 2 cs de amido de milho · 1 cc de essência de baunilha
-- **Cobertura:** 1 caixinha de creme de leite (200 g) batida com 2 cs de açúcar · fatias de pêssego
+- **Cobertura:** 200 ml de creme de leite fresco (ou chantilly) bem gelado, batido com 2 cs de açúcar até ponto de chantilly · fatias de pêssego
 **Modo de preparo**
 1. Creme: cozinhe tudo em fogo médio, mexendo sem parar, até engrossar. Junte a baunilha e espere amornar.
 2. Pique metade dos pêssegos e corte a outra metade em fatias (para decorar).
 3. No refratário, faça camadas: biscoito molhado na calda do pêssego, creme, pêssego picado. Repita, terminando com creme.
-4. Cubra com o creme de leite batido e decore com as fatias. Geladeira por no mínimo 4 h.
+4. Cubra com o chantilly e decore com as fatias. Geladeira por no mínimo 4 h.
 
 ### 43 · Bolo de Natal (panetone caseiro)
 **Rende:** 2 panetones de 500 g · **Tempo:** 4 h (com 2 crescimentos)
